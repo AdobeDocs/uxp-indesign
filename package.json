@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "dev-site-documentation-template",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdobeDocs/dev-site-documentation-template"
+  },
+  "author": {
+    "name": "Stephan Ringel",
+    "url": "https://github.com/icaraps"
+  },
+  "dependencies": {
+    "@adobe/gatsby-theme-aio": "^4.4.4",
+    "gatsby": "^4.13.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "scripts": {
+    "start": "gatsby build && gatsby serve",
+    "start:prefix": "gatsby build --prefix-paths && gatsby serve --prefix-paths",
+    "dev": "gatsby develop",
+    "dev:https": "gatsby develop --https --host localhost.corp.adobe.com --port 9000",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "packageManager": "yarn@3.2.1"
+}
