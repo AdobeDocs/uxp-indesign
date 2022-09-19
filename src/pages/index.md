@@ -9,7 +9,7 @@ contributors:
 
 # Cat Analytics API
 
-Cat Product API offers limitless ways to integrate your most important customer data into key business processes. Cat Product API offer limitless ways.
+The new home of InDesign Scripting!!
 
 <Resources slots="heading, links"/>
 
