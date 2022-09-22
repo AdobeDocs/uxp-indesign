@@ -60,7 +60,7 @@ function getDialog() {
 
 
     const image = document.createElement("img");
-    image.src = "https://blog.adobe.com/default-meta-image.png?width=1200&format=pjpg&optimize=medium";
+    image.src = "https://1000logos.net/wp-content/uploads/2021/04/Adobe-logo.png";
     image.style.marginTop = "30px";
     div.appendChild(image);
 
