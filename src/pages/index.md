@@ -7,9 +7,9 @@ contributors:
 
 <Hero slots="heading, text"/> 
 
-# Cat Analytics API
+# UXP for Adobe InDesign
 
-Cat Product API offers limitless ways to integrate your most important customer data into key business processes. Cat Product API offer limitless ways.
+UXP scripting allows developers to execute a single file to accomplish tasks in InDesign. Any action that can change a document or its contents can be scripted.
 
 <Resources slots="heading, links"/>
 
@@ -20,11 +20,41 @@ Cat Product API offers limitless ways to integrate your most important customer 
 
 ## Overview
 
-This documentation provides instructions for Catt Analytics 2.0 APIs. For working with Cat Analytics APIs, see [Cat Analytics API Documentation](https://github.com/AdobeDocs/dev-site).
+Scripts can perform all the actions that you do with the InDesign's user interface. You can draw frames, enter and format text, place graphics, and print or export the pages of the document. Any action that can change a document or its contents can be scripted. There are a few things you can do in scripting that you cannot do using the user interface.
 
-The Cat Analytics APIs are a collection of APIs that power Cat Analytics products like Cat Workspace. 
-The APIs allow for the creation of data rich user interfaces that you can use to manipulate and integrate data.
-You can also create reports to explore, get insights, or answer important questions about your data.
+We tend to think of scripting as a solution for long, repetitive tasks, like laying out a phone book. It also is good for things like the following:
+<br />
+
+1. Automating the myriad, small, annoying tasks that you face every day
+2. Customizing InDesign to match your work habits and layouts
+3. Achieving creative effects that would be difficult or impossible to attain by other means.
+
+Scripts can create menus, add menu items, create and display dialog boxes and panels, and respond to user-interface selections. Scripts can read and write text files and parse XML data.
+
+Scripts can do everything from small tasks (like setting a tab stop at the location of the text cursor) to providing complete features. You can start with simple scripts that do only one thing and move on to scripts that automate your entire publishing workflow.
+
+## Power of UXP
+
+UXP (Unified Extensibility Platform) is the modern way to create scripts and plugins for Adobe Creative Cloud products. 
+
+UXP provides a comprehensive extensibility solution, turning modern JavaScript (ECMAScript 6) and HTML markup into controls in native application windows. UXP scripts run within the same process as the host application, with their UI in its own non-blocking thread.
+
+UXP scripts communicate natively with the host application; there is no boundary between JavaScript and UXPScript that requires passing strings back and forth.
+
+## UXPScript vs ExtendScript
+
+ExtendScript uses a charming, yet antiquated version of JavaScript (ES3), from the era when JavaScript was coded on punched cards. In contrast, UXP uses the V8 JavaScript engine which supports ES6; this has several notable features lacking in ExtendScript. Not all the newer features are used and/or supported in the UXP world, but as an ExtendScript developer you'll see enough puzzling syntax in UXP examples that you should familiarize yourself with ECMAScript ES6 (the standards body name for JavaScript) so you can understand the sample code.
+
+A full introduction to ES6 features and syntax is beyond the scope of this documentation. You can find many websites that discuss ES6 features, including the popular Mozilla Developer Network. Make sure you understand at least these language features, modern JavaScript code you pick up from around the web:
+<br />
+
+* ["const" and "let" declarations vs "var"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
+* [Promises and asynchronous functions](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
+* [Anonymous functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
+* [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+* [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+* [Maps](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+
 
 ## Discover 
 
