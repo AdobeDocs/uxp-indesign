@@ -23,6 +23,7 @@ You  can also put aliases/shortcuts to scripts (or folders containing scripts) i
 To run a specific script when InDesign starts, put it inside a folder named "Startup Scripts" inside the Scripts folder (create this folder if it does not already exist).
 
 ## Running a script
+
 To run a script, display the Scripts panel (choose Window > Utilities > Scripts), then double-click the script name in the Scripts panel. Many scripts display user-interface items (like dialog boxes or panels) and display alerts if necessary.
 
 We can also right-click on the script name and then click on run in drop-down menu.
@@ -42,12 +43,15 @@ To open the folder containing a script shown in the Scripts panel, select the sc
 To add a keyboard shortcut for a script, choose Edit > Keyboard Shortcuts, select an editable shortcut set from the Set menu, then choose Product Area > Scripts. A list of the scripts in your Scripts panel appears. Select a script and assign a keyboard shortcut as you would for any other InDesign feature.
 
 ## UXP APIs
+
 Since UXP is a cross-application extensibility playform, its API documentation can be found at https://developer.adobe.com/photoshop/uxp/2022/uxp/reference-js/ and git link https://github.com/AdobeDocs/uxp/tree/main/src/pages/uxp/reference-js.
 
 ## InDesign APIs
+
 Most InDesign DOM APIs are supported for UXPScripting. 
 
 Details of the same can be found in InDesign Scripting SDK guide https://developer.adobe.com/console/servicesandapis, Scripting documentation can be found in "Scripting"  section after clicking the View Download button on the InDesign tile.
 
 ### Coming Up Next
+
 Events, Menus, Function Pointers, Versioning will be supported in future releases.

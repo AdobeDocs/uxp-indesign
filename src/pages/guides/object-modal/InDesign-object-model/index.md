@@ -1,4 +1,5 @@
 # Understanding the InDesign object model
+
 This page goes over how the InDesign object modal in more detail. (TODO: add more info)
 
 When you think about InDesign and InDesign documents, you probably organize the program and its components in your mind. You know that paragraphs are contained by text frames which, in turn, appear on a page. A page is a part of a spread, and one or more spreads make up a document. Documents contain colors, styles, layers, and master spreads. As you think about the layouts you create, you intuitively understand that there is an order to them.

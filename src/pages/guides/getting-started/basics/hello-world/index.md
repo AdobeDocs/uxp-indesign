@@ -1,4 +1,5 @@
 # Your first UXP script
+
 In this guide, we will create our first hello-world UXP InDesign script
 
 Our script will creates a new document, adds a text frame, and enters text in the text frame. This demonstrates how to do the following:
