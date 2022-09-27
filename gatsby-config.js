@@ -13,19 +13,19 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/scripting/',
   siteMetadata: {
-    versions: [
-      {
-        title: 'v2.0',
-        selected: true
-      },
-      {
-        title: 'v1.4',
-        path: 'https://github.com/AdobeDocs/dev-site'
-      }
-    ],
+    // versions: [
+    //   {
+    //     title: 'v2.0',
+    //     selected: true
+    //   },
+    //   {
+    //     title: 'v1.4',
+    //     path: 'https://github.com/AdobeDocs/dev-site'
+    //   }
+    // ],
     pages: [
       {
-        title: 'Cat Analytics',
+        title: 'InDesign UXP Scripting',
         path: '/'
       },
       {
