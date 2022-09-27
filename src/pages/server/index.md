@@ -9,6 +9,5 @@ Adobe InDesign Scripting Guide provides details on creating scripts for InDesign
 ## Your first script
 TODO: LINK TO page
 
-
 ## REFEREnce
 TODO: link to page
