@@ -7,9 +7,9 @@ contributors:
 
 <Hero slots="heading, text"/> 
 
-# Cat Analytics API
+# InDesign UXP Scripting
 
-The new home of InDesign Scripting!!
+The new home of InDesign Scripting
 
 <Resources slots="heading, links"/>
 
