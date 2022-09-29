@@ -32,16 +32,15 @@ Welcome to the world of Adobe InDesign UXP (**U**nified E**x**tensibility **P**l
 Scripts can perform all the actions that you do with the InDesign's user interface. You can draw frames, enter and format text, place graphics, and print or export the pages of the document. Any action that can change a document or its contents can be scripted. 
 
 
-
-## Discover (TODO: update this)
+## Discover
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
-### Get Started
+### InDesign UXP scripting
 
-[Quickstart Guide](guides/)
+[Learn more](discover/)
     
-Get started with the Cat Analytics APIs.
+Understand more about InDesign UXP scripting, the power of UXP, and UXPScript vs ExtendScript.
 
 <DiscoverBlock slots="heading, link, text"/> 
 
