@@ -15,13 +15,20 @@
     "@adobe/gatsby-theme-aio": "4.5.8",
     "gatsby": "4.22.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "uxp-documentation": "github:adobedocs/uxp"
   },
   "scripts": {
     "start": "gatsby build && gatsby serve",
     "start:prefix": "gatsby build --prefix-paths && gatsby serve --prefix-paths",
     "dev": "gatsby develop",
     "dev:https": "gatsby develop --https --host localhost.corp.adobe.com --port 9000",
+    "_copy-uxp-html": "rm -rf src/pages/uxp/reference-html && cp -r node_modules/uxp-documentation/_transclusions/photoshop/uxp/reference-html src/pages/uxp/ && cp node_modules/uxp-documentation/reference-html.js reference-html.js",
+    "_copy-uxp-spectrum": "rm -rf src/pages/uxp/reference-spectrum && cp -r node_modules/uxp-documentation/_transclusions/photoshop/uxp/reference-spectrum src/pages/uxp/ && cp node_modules/uxp-documentation/reference-spectrum.js reference-spectrum.js",
+    "_copy-uxp-js": "rm -rf src/pages/uxp/reference-js && cp -r node_modules/uxp-documentation/_transclusions/photoshop/uxp/reference-js src/pages/uxp/ && cp node_modules/uxp-documentation/reference-js.js reference-js.js",
+    "_copy-uxp-css": "rm -rf src/pages/uxp/reference-css && cp -r node_modules/uxp-documentation/_transclusions/photoshop/uxp/reference-css src/pages/uxp/ && cp node_modules/uxp-documentation/reference-css.js reference-css.js",
+    "_copy-uxp": "npm run _copy-uxp-js && npm run _copy-uxp-css && npm run _copy-uxp-html && npm run _copy-uxp-spectrum",
+    "prebuild": "npm run _copy-uxp",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
