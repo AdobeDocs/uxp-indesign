@@ -73,7 +73,7 @@ module.exports = {
           {
             title: 'OMV 18.0',
             //description: 'Cat Reporting API',
-            path: '/omv/'
+            path: '/omv/Docs/'
           },
           {
             title: 'OMV v19.0',
