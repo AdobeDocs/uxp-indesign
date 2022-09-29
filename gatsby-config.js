@@ -15,40 +15,79 @@ module.exports = {
   siteMetadata: {
     versions: [
       {
-        title: 'v2.0',
+        title: 'v18.0',
         selected: true
       },
       {
-        title: 'v1.4',
+        title: 'v19.0',
         path: 'https://github.com/AdobeDocs/dev-site'
       }
     ],
     pages: [
       {
-        title: 'Cat Analytics',
+        title: 'UXP for InDesign',
         path: '/'
       },
       {
-        title: 'Guides',
-        path: '/guides/'
-      },
-      {
-        title: 'API Reference',
+        title: 'Scripting',
         menu: [
           {
-            title: 'Cat Reference v2.0',
-            description: 'Cat Reporting API',
-            path: '/api/index.md'
+            title: 'Guides',
+            //description: 'Cat Reporting API',
+            path: '/guides/'
           },
           {
-            title: 'Cat Reference v1.4',
-            description: 'Cat API Spec',
-            path: '/api/1.4.md'
+            title: 'Getting Started',
+            description: 'Hello World',
+            path: '/omv/'
+          },
+          {
+            title: 'Samples',
+            description: 'Script sample repo',
+            path: '/omv/'
+          },
+        ]
+      },
+      {
+        title: 'Plugins',
+        path: '/comingsoon/'
+      },
+      {
+        title: 'InDesign Server',
+        menu: [
+          {
+            title: 'IDS 18.0',
+            //description: 'Cat Reporting API',
+            path: '/omv/'
+          },
+          {
+            title: 'IDS v19.0',
+           // description: 'Cat API Spec',
+            path: '/omv/'
+          }
+        ]
+      },
+      {
+        title: 'OMV',
+        menu: [
+          {
+            title: 'OMV 18.0',
+            //description: 'Cat Reporting API',
+            path: '/omv/'
+          },
+          {
+            title: 'OMV v19.0',
+           // description: 'Cat API Spec',
+            path: '/omv/'
           }
         ]
       },
       {
         title: 'Support',
+        path: '/support/'
+      },
+          {
+        title: 'Community',
         path: '/support/'
       }
     ],
@@ -61,6 +100,7 @@ module.exports = {
             title: 'Dummy an OAuth Client',
             path: '/guides/dummy_oauth_client/'
           },
+        
           {
             title: 'Dummy OAuth using POSTMAN',
             path: '/guides/dummy_using_postman/'
