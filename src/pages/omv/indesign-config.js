@@ -5,13 +5,13 @@
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+ * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONSgit 
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
 
 module.exports = {
-pathPrefix: process.env.PATH_PREFIX ||'/indesign/uxp/scripting/',
+pathPrefix: process.env.PATH_PREFIX ||'/indesign/uxp/scripting/omv',
 siteMetadata: {
 pages: [
 {
@@ -20,4333 +20,4333 @@ path: '/'
 },
 {
 title: 'InDesign UXP Documentation',
-path: '/Docs/'
+path: '/'
 }
 ],
 subPages: [
 {
 title: 'AcrobatCompatibility',
-path: '/Docs/'
+path: '/'
 },
 {
 title: 'HyperlinkPageDestinations',
-path: '/Docs/HyperlinkPageDestinations/'
+path: '/HyperlinkPageDestinations/'
 },
 {
 title: 'SVG',
-path: '/Docs/SVG/'
+path: '/SVG/'
 },
 {
 title: 'StoryWindow',
-path: '/Docs/StoryWindow/'
+path: '/StoryWindow/'
 },
 {
 title: 'TrapEndTypes',
-path: '/Docs/TrapEndTypes/'
+path: '/TrapEndTypes/'
 },
 {
 title: 'ComposeUsing',
-path: '/Docs/ComposeUsing/'
+path: '/ComposeUsing/'
 },
 {
 title: 'GotoURLBehavior',
-path: '/Docs/GotoURLBehavior/'
+path: '/GotoURLBehavior/'
 },
 {
 title: 'LayoutWindow',
-path: '/Docs/LayoutWindow/'
+path: '/LayoutWindow/'
 },
 {
 title: 'CharacterStyleGroups',
-path: '/Docs/CharacterStyleGroups/'
+path: '/CharacterStyleGroups/'
 },
 {
 title: 'ImportedPages',
-path: '/Docs/ImportedPages/'
+path: '/ImportedPages/'
 },
 {
 title: 'StrokeTransparencySetting',
-path: '/Docs/StrokeTransparencySetting/'
+path: '/StrokeTransparencySetting/'
 },
 {
 title: 'EventListeners',
-path: '/Docs/EventListeners/'
+path: '/EventListeners/'
 },
 {
 title: 'LinkResourceRenditionType',
-path: '/Docs/LinkResourceRenditionType/'
+path: '/LinkResourceRenditionType/'
 },
 {
 title: 'Behavior',
-path: '/Docs/Behavior/'
+path: '/Behavior/'
 },
 {
 title: 'BlendingSetting',
-path: '/Docs/BlendingSetting/'
+path: '/BlendingSetting/'
 },
 {
 title: 'ImageExportOption',
-path: '/Docs/ImageExportOption/'
+path: '/ImageExportOption/'
 },
 {
 title: 'HTMLExportPreference',
-path: '/Docs/HTMLExportPreference/'
+path: '/HTMLExportPreference/'
 },
 {
 title: 'SourceSpaces',
-path: '/Docs/SourceSpaces/'
+path: '/SourceSpaces/'
 },
 {
 title: 'EpubVersion',
-path: '/Docs/EpubVersion/'
+path: '/EpubVersion/'
 },
 {
 title: 'InnerShadowSetting',
-path: '/Docs/InnerShadowSetting/'
+path: '/InnerShadowSetting/'
 },
 {
 title: 'Guide',
-path: '/Docs/Guide/'
+path: '/Guide/'
 },
 {
 title: 'FootnoteMarkerPositioning',
-path: '/Docs/FootnoteMarkerPositioning/'
+path: '/FootnoteMarkerPositioning/'
 },
 {
 title: 'WMFs',
-path: '/Docs/WMFs/'
+path: '/WMFs/'
 },
 {
 title: 'BorderPanel',
-path: '/Docs/BorderPanel/'
+path: '/BorderPanel/'
 },
 {
 title: 'ChangeTypes',
-path: '/Docs/ChangeTypes/'
+path: '/ChangeTypes/'
 },
 {
 title: 'XMLFileEncoding',
-path: '/Docs/XMLFileEncoding/'
+path: '/XMLFileEncoding/'
 },
 {
 title: 'SourceType',
-path: '/Docs/SourceType/'
+path: '/SourceType/'
 },
 {
 title: 'Gradient',
-path: '/Docs/Gradient/'
+path: '/Gradient/'
 },
 {
 title: 'DynamicDocumentsTextExportPolicy',
-path: '/Docs/DynamicDocumentsTextExportPolicy/'
+path: '/DynamicDocumentsTextExportPolicy/'
 },
 {
 title: 'FindGrepPreference',
-path: '/Docs/FindGrepPreference/'
+path: '/FindGrepPreference/'
 },
 {
 title: 'SpecialCharacters',
-path: '/Docs/SpecialCharacters/'
+path: '/SpecialCharacters/'
 },
 {
 title: 'AutoEnum',
-path: '/Docs/AutoEnum/'
+path: '/AutoEnum/'
 },
 {
 title: 'ParaStyleMapping',
-path: '/Docs/ParaStyleMapping/'
+path: '/ParaStyleMapping/'
 },
 {
 title: 'Snippets',
-path: '/Docs/Snippets/'
+path: '/Snippets/'
 },
 {
 title: 'DialogColumns',
-path: '/Docs/DialogColumns/'
+path: '/DialogColumns/'
 },
 {
 title: 'FontDownloading',
-path: '/Docs/FontDownloading/'
+path: '/FontDownloading/'
 },
 {
 title: 'StyleExportTagMaps',
-path: '/Docs/StyleExportTagMaps/'
+path: '/StyleExportTagMaps/'
 },
 {
 title: 'FindChangeGradientFeatherSetting',
-path: '/Docs/FindChangeGradientFeatherSetting/'
+path: '/FindChangeGradientFeatherSetting/'
 },
 {
 title: 'Note',
-path: '/Docs/Note/'
+path: '/Note/'
 },
 {
 title: 'TextEditingPreference',
-path: '/Docs/TextEditingPreference/'
+path: '/TextEditingPreference/'
 },
 {
 title: 'DisplayOrderOptions',
-path: '/Docs/DisplayOrderOptions/'
+path: '/DisplayOrderOptions/'
 },
 {
 title: 'ColorRenderingDictionary',
-path: '/Docs/ColorRenderingDictionary/'
+path: '/ColorRenderingDictionary/'
 },
 {
 title: 'LineSpacingType',
-path: '/Docs/LineSpacingType/'
+path: '/LineSpacingType/'
 },
 {
 title: 'Dropdown',
-path: '/Docs/Dropdown/'
+path: '/Dropdown/'
 },
 {
 title: 'ObjectStyleContentEffectsCategorySettings',
-path: '/Docs/ObjectStyleContentEffectsCategorySettings/'
+path: '/ObjectStyleContentEffectsCategorySettings/'
 },
 {
 title: 'ConditionIndicatorMethod',
-path: '/Docs/ConditionIndicatorMethod/'
+path: '/ConditionIndicatorMethod/'
 },
 {
 title: 'ThumbsPerPage',
-path: '/Docs/ThumbsPerPage/'
+path: '/ThumbsPerPage/'
 },
 {
 title: 'AttachedDevices',
-path: '/Docs/AttachedDevices/'
+path: '/AttachedDevices/'
 },
 {
 title: 'DataMergeQrcodePlaceholder',
-path: '/Docs/DataMergeQrcodePlaceholder/'
+path: '/DataMergeQrcodePlaceholder/'
 },
 {
 title: 'IndexOptions',
-path: '/Docs/IndexOptions/'
+path: '/IndexOptions/'
 },
 {
 title: 'ChangeTextPreference',
-path: '/Docs/ChangeTextPreference/'
+path: '/ChangeTextPreference/'
 },
 {
 title: 'DocumentPreference',
-path: '/Docs/DocumentPreference/'
+path: '/DocumentPreference/'
 },
 {
 title: 'Ink',
-path: '/Docs/Ink/'
+path: '/Ink/'
 },
 {
 title: 'MenuSeparator',
-path: '/Docs/MenuSeparator/'
+path: '/MenuSeparator/'
 },
 {
 title: 'BookletTypeOptions',
-path: '/Docs/BookletTypeOptions/'
+path: '/BookletTypeOptions/'
 },
 {
 title: 'NumberedListExportOption',
-path: '/Docs/NumberedListExportOption/'
+path: '/NumberedListExportOption/'
 },
 {
 title: 'ExportForWebPreference',
-path: '/Docs/ExportForWebPreference/'
+path: '/ExportForWebPreference/'
 },
 {
 title: 'GrabberPreference',
-path: '/Docs/GrabberPreference/'
+path: '/GrabberPreference/'
 },
 {
 title: 'InCopyUIColors',
-path: '/Docs/InCopyUIColors/'
+path: '/InCopyUIColors/'
 },
 {
 title: 'Tables',
-path: '/Docs/Tables/'
+path: '/Tables/'
 },
 {
 title: 'DashedStrokeStyles',
-path: '/Docs/DashedStrokeStyles/'
+path: '/DashedStrokeStyles/'
 },
 {
 title: 'CrossReferenceFormat',
-path: '/Docs/CrossReferenceFormat/'
+path: '/CrossReferenceFormat/'
 },
 {
 title: 'MeasurementEditbox',
-path: '/Docs/MeasurementEditbox/'
+path: '/MeasurementEditbox/'
 },
 {
 title: 'ScreenModeOptions',
-path: '/Docs/ScreenModeOptions/'
+path: '/ScreenModeOptions/'
 },
 {
 title: 'SortAssets',
-path: '/Docs/SortAssets/'
+path: '/SortAssets/'
 },
 {
 title: 'GotoStateBehaviors',
-path: '/Docs/GotoStateBehaviors/'
+path: '/GotoStateBehaviors/'
 },
 {
 title: 'TimingGroups',
-path: '/Docs/TimingGroups/'
+path: '/TimingGroups/'
 },
 {
 title: 'EndJoin',
-path: '/Docs/EndJoin/'
+path: '/EndJoin/'
 },
 {
 title: 'PageColorOptions',
-path: '/Docs/PageColorOptions/'
+path: '/PageColorOptions/'
 },
 {
 title: 'StrokeStyles',
-path: '/Docs/StrokeStyles/'
+path: '/StrokeStyles/'
 },
 {
 title: 'MojikumiUiPreference',
-path: '/Docs/MojikumiUiPreference/'
+path: '/MojikumiUiPreference/'
 },
 {
 title: 'Cells',
-path: '/Docs/Cells/'
+path: '/Cells/'
 },
 {
 title: 'TableStyleMapping',
-path: '/Docs/TableStyleMapping/'
+path: '/TableStyleMapping/'
 },
 {
 title: 'PreflightProfileRule',
-path: '/Docs/PreflightProfileRule/'
+path: '/PreflightProfileRule/'
 },
 {
 title: 'HyphenationException',
-path: '/Docs/HyphenationException/'
+path: '/HyphenationException/'
 },
 {
 title: 'SmartGuidePreference',
-path: '/Docs/SmartGuidePreference/'
+path: '/SmartGuidePreference/'
 },
 {
 title: 'PaperSizes',
-path: '/Docs/PaperSizes/'
+path: '/PaperSizes/'
 },
 {
 title: 'TOCStyleEntry',
-path: '/Docs/TOCStyleEntry/'
+path: '/TOCStyleEntry/'
 },
 {
 title: 'Words',
-path: '/Docs/Words/'
+path: '/Words/'
 },
 {
 title: 'NestedLineStyles',
-path: '/Docs/NestedLineStyles/'
+path: '/NestedLineStyles/'
 },
 {
 title: 'ImportFormat',
-path: '/Docs/ImportFormat/'
+path: '/ImportFormat/'
 },
 {
 title: 'ObjectStyle',
-path: '/Docs/ObjectStyle/'
+path: '/ObjectStyle/'
 },
 {
 title: 'Sections',
-path: '/Docs/Sections/'
+path: '/Sections/'
 },
 {
 title: 'JPEGOptionsFormat',
-path: '/Docs/JPEGOptionsFormat/'
+path: '/JPEGOptionsFormat/'
 },
 {
 title: 'KinsokuSet',
-path: '/Docs/KinsokuSet/'
+path: '/KinsokuSet/'
 },
 {
 title: 'PageTransitionDurationOptions',
-path: '/Docs/PageTransitionDurationOptions/'
+path: '/PageTransitionDurationOptions/'
 },
 {
 title: 'RealEditbox',
-path: '/Docs/RealEditbox/'
+path: '/RealEditbox/'
 },
 {
 title: 'PreflightProcess',
-path: '/Docs/PreflightProcess/'
+path: '/PreflightProcess/'
 },
 {
 title: 'OpenOptions',
-path: '/Docs/OpenOptions/'
+path: '/OpenOptions/'
 },
 {
 title: 'Page',
-path: '/Docs/Page/'
+path: '/Page/'
 },
 {
 title: 'AssignmentStatus',
-path: '/Docs/AssignmentStatus/'
+path: '/AssignmentStatus/'
 },
 {
 title: 'ToolTipOptions',
-path: '/Docs/ToolTipOptions/'
+path: '/ToolTipOptions/'
 },
 {
 title: 'DocumentIntentOptions',
-path: '/Docs/DocumentIntentOptions/'
+path: '/DocumentIntentOptions/'
 },
 {
 title: 'Tint',
-path: '/Docs/Tint/'
+path: '/Tint/'
 },
 {
 title: 'TextDirection',
-path: '/Docs/TextDirection/'
+path: '/TextDirection/'
 },
 {
 title: 'Preferences',
-path: '/Docs/Preferences/'
+path: '/Preferences/'
 },
 {
 title: 'SyncConflictResolution',
-path: '/Docs/SyncConflictResolution/'
+path: '/SyncConflictResolution/'
 },
 {
 title: 'Change',
-path: '/Docs/Change/'
+path: '/Change/'
 },
 {
 title: 'LeadingModel',
-path: '/Docs/LeadingModel/'
+path: '/LeadingModel/'
 },
 {
 title: 'Hyperlink',
-path: '/Docs/Hyperlink/'
+path: '/Hyperlink/'
 },
 {
 title: 'TimingTargets',
-path: '/Docs/TimingTargets/'
+path: '/TimingTargets/'
 },
 {
 title: 'MojikumiTableDefaults',
-path: '/Docs/MojikumiTableDefaults/'
+path: '/MojikumiTableDefaults/'
 },
 {
 title: 'FindChangeTransliterateOption',
-path: '/Docs/FindChangeTransliterateOption/'
+path: '/FindChangeTransliterateOption/'
 },
 {
 title: 'EPSImageData',
-path: '/Docs/EPSImageData/'
+path: '/EPSImageData/'
 },
 {
 title: 'ConditionUnderlineIndicatorAppearance',
-path: '/Docs/ConditionUnderlineIndicatorAppearance/'
+path: '/ConditionUnderlineIndicatorAppearance/'
 },
 {
 title: 'Movie',
-path: '/Docs/Movie/'
+path: '/Movie/'
 },
 {
 title: 'HyphenationStyleEnum',
-path: '/Docs/HyphenationStyleEnum/'
+path: '/HyphenationStyleEnum/'
 },
 {
 title: 'DigitsTypeOptions',
-path: '/Docs/DigitsTypeOptions/'
+path: '/DigitsTypeOptions/'
 },
 {
 title: 'XmlStories',
-path: '/Docs/XmlStories/'
+path: '/XmlStories/'
 },
 {
 title: 'GotoPreviousViewBehaviors',
-path: '/Docs/GotoPreviousViewBehaviors/'
+path: '/GotoPreviousViewBehaviors/'
 },
 {
 title: 'PDFPlacePreference',
-path: '/Docs/PDFPlacePreference/'
+path: '/PDFPlacePreference/'
 },
 {
 title: 'ObjectStyleGroups',
-path: '/Docs/ObjectStyleGroups/'
+path: '/ObjectStyleGroups/'
 },
 {
 title: 'DesignOptions',
-path: '/Docs/DesignOptions/'
+path: '/DesignOptions/'
 },
 {
 title: 'ScriptPreference',
-path: '/Docs/ScriptPreference/'
+path: '/ScriptPreference/'
 },
 {
 title: 'BindingOptions',
-path: '/Docs/BindingOptions/'
+path: '/BindingOptions/'
 },
 {
 title: 'PDFMarkWeight',
-path: '/Docs/PDFMarkWeight/'
+path: '/PDFMarkWeight/'
 },
 {
 title: 'LayoutRuleOptions',
-path: '/Docs/LayoutRuleOptions/'
+path: '/LayoutRuleOptions/'
 },
 {
 title: 'MovieBehaviors',
-path: '/Docs/MovieBehaviors/'
+path: '/MovieBehaviors/'
 },
 {
 title: 'XMLItems',
-path: '/Docs/XMLItems/'
+path: '/XMLItems/'
 },
 {
 title: 'TaggedTextImportPreference',
-path: '/Docs/TaggedTextImportPreference/'
+path: '/TaggedTextImportPreference/'
 },
 {
 title: 'BaselineGridRelativeOption',
-path: '/Docs/BaselineGridRelativeOption/'
+path: '/BaselineGridRelativeOption/'
 },
 {
 title: 'RealCombobox',
-path: '/Docs/RealCombobox/'
+path: '/RealCombobox/'
 },
 {
 title: 'ListAlignment',
-path: '/Docs/ListAlignment/'
+path: '/ListAlignment/'
 },
 {
 title: 'ParagraphStyleGroup',
-path: '/Docs/ParagraphStyleGroup/'
+path: '/ParagraphStyleGroup/'
 },
 {
 title: 'GotoLastPageBehavior',
-path: '/Docs/GotoLastPageBehavior/'
+path: '/GotoLastPageBehavior/'
 },
 {
 title: 'LineAlignment',
-path: '/Docs/LineAlignment/'
+path: '/LineAlignment/'
 },
 {
 title: 'EndnoteRanges',
-path: '/Docs/EndnoteRanges/'
+path: '/EndnoteRanges/'
 },
 {
 title: 'ColorSpace',
-path: '/Docs/ColorSpace/'
+path: '/ColorSpace/'
 },
 {
 title: 'Swatch',
-path: '/Docs/Swatch/'
+path: '/Swatch/'
 },
 {
 title: 'IndexSection',
-path: '/Docs/IndexSection/'
+path: '/IndexSection/'
 },
 {
 title: 'FlattenerPreset',
-path: '/Docs/FlattenerPreset/'
+path: '/FlattenerPreset/'
 },
 {
 title: 'GlobalClashResolutionStrategy',
-path: '/Docs/GlobalClashResolutionStrategy/'
+path: '/GlobalClashResolutionStrategy/'
 },
 {
 title: 'DataMergeFields',
-path: '/Docs/DataMergeFields/'
+path: '/DataMergeFields/'
 },
 {
 title: 'ConditionSets',
-path: '/Docs/ConditionSets/'
+path: '/ConditionSets/'
 },
 {
 title: 'PreflightBookOption',
-path: '/Docs/PreflightBookOption/'
+path: '/PreflightBookOption/'
 },
 {
 title: 'BuildingBlock',
-path: '/Docs/BuildingBlock/'
+path: '/BuildingBlock/'
 },
 {
 title: 'KinsokuTables',
-path: '/Docs/KinsokuTables/'
+path: '/KinsokuTables/'
 },
 {
 title: 'MarkTypes',
-path: '/Docs/MarkTypes/'
+path: '/MarkTypes/'
 },
 {
 title: 'PDFComment',
-path: '/Docs/PDFComment/'
+path: '/PDFComment/'
 },
 {
 title: 'XMLRuleProcessors',
-path: '/Docs/XMLRuleProcessors/'
+path: '/XMLRuleProcessors/'
 },
 {
 title: 'UIColors',
-path: '/Docs/UIColors/'
+path: '/UIColors/'
 },
 {
 title: 'LanguageAndRegion',
-path: '/Docs/LanguageAndRegion/'
+path: '/LanguageAndRegion/'
 },
 {
 title: 'GotoPreviousStateBehaviors',
-path: '/Docs/GotoPreviousStateBehaviors/'
+path: '/GotoPreviousStateBehaviors/'
 },
 {
 title: 'TransformPreference',
-path: '/Docs/TransformPreference/'
+path: '/TransformPreference/'
 },
 {
 title: 'PrintBookletOption',
-path: '/Docs/PrintBookletOption/'
+path: '/PrintBookletOption/'
 },
 {
 title: 'GotoStateBehavior',
-path: '/Docs/GotoStateBehavior/'
+path: '/GotoStateBehavior/'
 },
 {
 title: 'ParaStyleMappings',
-path: '/Docs/ParaStyleMappings/'
+path: '/ParaStyleMappings/'
 },
 {
 title: 'FindColorPreference',
-path: '/Docs/FindColorPreference/'
+path: '/FindColorPreference/'
 },
 {
 title: 'Section',
-path: '/Docs/Section/'
+path: '/Section/'
 },
 {
 title: 'CharacterCountLocation',
-path: '/Docs/CharacterCountLocation/'
+path: '/CharacterCountLocation/'
 },
 {
 title: 'MediaItem',
-path: '/Docs/MediaItem/'
+path: '/MediaItem/'
 },
 {
 title: 'AssignedStory',
-path: '/Docs/AssignedStory/'
+path: '/AssignedStory/'
 },
 {
 title: 'AutoCorrectTable',
-path: '/Docs/AutoCorrectTable/'
+path: '/AutoCorrectTable/'
 },
 {
 title: 'XMLExportUntaggedTablesFormat',
-path: '/Docs/XMLExportUntaggedTablesFormat/'
+path: '/XMLExportUntaggedTablesFormat/'
 },
 {
 title: 'GpuPerformancePreference',
-path: '/Docs/GpuPerformancePreference/'
+path: '/GpuPerformancePreference/'
 },
 {
 title: 'Assignments',
-path: '/Docs/Assignments/'
+path: '/Assignments/'
 },
 {
 title: 'DynamicTriggerEvents',
-path: '/Docs/DynamicTriggerEvents/'
+path: '/DynamicTriggerEvents/'
 },
 {
 title: 'JoinOptions',
-path: '/Docs/JoinOptions/'
+path: '/JoinOptions/'
 },
 {
 title: 'ParagraphShadingTopOriginEnum',
-path: '/Docs/ParagraphShadingTopOriginEnum/'
+path: '/ParagraphShadingTopOriginEnum/'
 },
 {
 title: 'FindChangeInnerGlowSetting',
-path: '/Docs/FindChangeInnerGlowSetting/'
+path: '/FindChangeInnerGlowSetting/'
 },
 {
 title: '.DS_Store',
-path: '/Docs/.DS_Store/'
+path: '/.DS_Store/'
 },
 {
 title: 'StyleConflict',
-path: '/Docs/StyleConflict/'
+path: '/StyleConflict/'
 },
 {
 title: 'StyleType',
-path: '/Docs/StyleType/'
+path: '/StyleType/'
 },
 {
 title: 'Fitting',
-path: '/Docs/Fitting/'
+path: '/Fitting/'
 },
 {
 title: 'Locale',
-path: '/Docs/Locale/'
+path: '/Locale/'
 },
 {
 title: 'AnimationPlayOperations',
-path: '/Docs/AnimationPlayOperations/'
+path: '/AnimationPlayOperations/'
 },
 {
 title: 'LinkedPageItemOption',
-path: '/Docs/LinkedPageItemOption/'
+path: '/LinkedPageItemOption/'
 },
 {
 title: 'TextImportPreference',
-path: '/Docs/TextImportPreference/'
+path: '/TextImportPreference/'
 },
 {
 title: 'Bookmark',
-path: '/Docs/Bookmark/'
+path: '/Bookmark/'
 },
 {
 title: 'PrintFormBehaviors',
-path: '/Docs/PrintFormBehaviors/'
+path: '/PrintFormBehaviors/'
 },
 {
 title: 'Endnote',
-path: '/Docs/Endnote/'
+path: '/Endnote/'
 },
 {
 title: 'HyphenationExceptions',
-path: '/Docs/HyphenationExceptions/'
+path: '/HyphenationExceptions/'
 },
 {
 title: 'HyperlinkURLDestination',
-path: '/Docs/HyperlinkURLDestination/'
+path: '/HyperlinkURLDestination/'
 },
 {
 title: 'DottedStrokeStyle',
-path: '/Docs/DottedStrokeStyle/'
+path: '/DottedStrokeStyle/'
 },
 {
 title: 'ResolveStyleClash',
-path: '/Docs/ResolveStyleClash/'
+path: '/ResolveStyleClash/'
 },
 {
 title: 'GraphicLayers',
-path: '/Docs/GraphicLayers/'
+path: '/GraphicLayers/'
 },
 {
 title: 'MeasurementUnits',
-path: '/Docs/MeasurementUnits/'
+path: '/MeasurementUnits/'
 },
 {
 title: 'CompressionQuality',
-path: '/Docs/CompressionQuality/'
+path: '/CompressionQuality/'
 },
 {
 title: 'NestedLineStyle',
-path: '/Docs/NestedLineStyle/'
+path: '/NestedLineStyle/'
 },
 {
 title: 'EndnoteScope',
-path: '/Docs/EndnoteScope/'
+path: '/EndnoteScope/'
 },
 {
 title: 'ConditionSet',
-path: '/Docs/ConditionSet/'
+path: '/ConditionSet/'
 },
 {
 title: 'Buttons',
-path: '/Docs/Buttons/'
+path: '/Buttons/'
 },
 {
 title: 'InnerGlowSetting',
-path: '/Docs/InnerGlowSetting/'
+path: '/InnerGlowSetting/'
 },
 {
 title: 'ParagraphBorderBottomOriginEnum',
-path: '/Docs/ParagraphBorderBottomOriginEnum/'
+path: '/ParagraphBorderBottomOriginEnum/'
 },
 {
 title: 'TimingTarget',
-path: '/Docs/TimingTarget/'
+path: '/TimingTarget/'
 },
 {
 title: 'Polygons',
-path: '/Docs/Polygons/'
+path: '/Polygons/'
 },
 {
 title: 'EPSExportPreference',
-path: '/Docs/EPSExportPreference/'
+path: '/EPSExportPreference/'
 },
 {
 title: 'BoundingBoxLimits',
-path: '/Docs/BoundingBoxLimits/'
+path: '/BoundingBoxLimits/'
 },
 {
 title: 'Panel',
-path: '/Docs/Panel/'
+path: '/Panel/'
 },
 {
 title: 'ExportLayerOptions',
-path: '/Docs/ExportLayerOptions/'
+path: '/ExportLayerOptions/'
 },
 {
 title: 'DottedStrokeStyles',
-path: '/Docs/DottedStrokeStyles/'
+path: '/DottedStrokeStyles/'
 },
 {
 title: 'Submenus',
-path: '/Docs/Submenus/'
+path: '/Submenus/'
 },
 {
 title: 'FloatingWindowSize',
-path: '/Docs/FloatingWindowSize/'
+path: '/FloatingWindowSize/'
 },
 {
 title: 'WMF',
-path: '/Docs/WMF/'
+path: '/WMF/'
 },
 {
 title: 'Widget',
-path: '/Docs/Widget/'
+path: '/Widget/'
 },
 {
 title: 'RadioButton',
-path: '/Docs/RadioButton/'
+path: '/RadioButton/'
 },
 {
 title: 'GotoNextViewBehaviors',
-path: '/Docs/GotoNextViewBehaviors/'
+path: '/GotoNextViewBehaviors/'
 },
 {
 title: 'GraphicLayer',
-path: '/Docs/GraphicLayer/'
+path: '/GraphicLayer/'
 },
 {
 title: 'Layers',
-path: '/Docs/Layers/'
+path: '/Layers/'
 },
 {
 title: 'PdfMagnificationOptions',
-path: '/Docs/PdfMagnificationOptions/'
+path: '/PdfMagnificationOptions/'
 },
 {
 title: 'MenuAction',
-path: '/Docs/MenuAction/'
+path: '/MenuAction/'
 },
 {
 title: 'Tints',
-path: '/Docs/Tints/'
+path: '/Tints/'
 },
 {
 title: 'XMLExportPreference',
-path: '/Docs/XMLExportPreference/'
+path: '/XMLExportPreference/'
 },
 {
 title: 'PageItem',
-path: '/Docs/PageItem/'
+path: '/PageItem/'
 },
 {
 title: 'TOCStyles',
-path: '/Docs/TOCStyles/'
+path: '/TOCStyles/'
 },
 {
 title: 'Asset',
-path: '/Docs/Asset/'
+path: '/Asset/'
 },
 {
 title: 'MeasurementComboboxes',
-path: '/Docs/MeasurementComboboxes/'
+path: '/MeasurementComboboxes/'
 },
 {
 title: 'TrapImagePlacementTypes',
-path: '/Docs/TrapImagePlacementTypes/'
+path: '/TrapImagePlacementTypes/'
 },
 {
 title: 'TextImportCharacterSet',
-path: '/Docs/TextImportCharacterSet/'
+path: '/TextImportCharacterSet/'
 },
 {
 title: 'ExcelImportPreference',
-path: '/Docs/ExcelImportPreference/'
+path: '/ExcelImportPreference/'
 },
 {
 title: 'PreflightRule',
-path: '/Docs/PreflightRule/'
+path: '/PreflightRule/'
 },
 {
 title: 'FontLockingPreference',
-path: '/Docs/FontLockingPreference/'
+path: '/FontLockingPreference/'
 },
 {
 title: 'InkTypes',
-path: '/Docs/InkTypes/'
+path: '/InkTypes/'
 },
 {
 title: 'PagesPanel',
-path: '/Docs/PagesPanel/'
+path: '/PagesPanel/'
 },
 {
 title: 'GotoNextPageBehavior',
-path: '/Docs/GotoNextPageBehavior/'
+path: '/GotoNextPageBehavior/'
 },
 {
 title: 'MenuElement',
-path: '/Docs/MenuElement/'
+path: '/MenuElement/'
 },
 {
 title: 'GraphicLayerOption',
-path: '/Docs/GraphicLayerOption/'
+path: '/GraphicLayerOption/'
 },
 {
 title: 'AutoCorrectTables',
-path: '/Docs/AutoCorrectTables/'
+path: '/AutoCorrectTables/'
 },
 {
 title: 'GlowTechnique',
-path: '/Docs/GlowTechnique/'
+path: '/GlowTechnique/'
 },
 {
 title: 'InteractivePDFInteractiveElementsOptions',
-path: '/Docs/InteractivePDFInteractiveElementsOptions/'
+path: '/InteractivePDFInteractiveElementsOptions/'
 },
 {
 title: 'AssetType',
-path: '/Docs/AssetType/'
+path: '/AssetType/'
 },
 {
 title: 'StoryWindows',
-path: '/Docs/StoryWindows/'
+path: '/StoryWindows/'
 },
 {
 title: 'TextStyleRanges',
-path: '/Docs/TextStyleRanges/'
+path: '/TextStyleRanges/'
 },
 {
 title: 'TrapPresets',
-path: '/Docs/TrapPresets/'
+path: '/TrapPresets/'
 },
 {
 title: 'RubyOverhang',
-path: '/Docs/RubyOverhang/'
+path: '/RubyOverhang/'
 },
 {
 title: 'PositionalForms',
-path: '/Docs/PositionalForms/'
+path: '/PositionalForms/'
 },
 {
 title: 'ValidationErrors',
-path: '/Docs/ValidationErrors/'
+path: '/ValidationErrors/'
 },
 {
 title: 'GotoNextViewBehavior',
-path: '/Docs/GotoNextViewBehavior/'
+path: '/GotoNextViewBehavior/'
 },
 {
 title: 'EndnoteRestarting',
-path: '/Docs/EndnoteRestarting/'
+path: '/EndnoteRestarting/'
 },
 {
 title: 'ScriptMenuActions',
-path: '/Docs/ScriptMenuActions/'
+path: '/ScriptMenuActions/'
 },
 {
 title: 'XMLRuleProcessor',
-path: '/Docs/XMLRuleProcessor/'
+path: '/XMLRuleProcessor/'
 },
 {
 title: 'SubmitFormBehavior',
-path: '/Docs/SubmitFormBehavior/'
+path: '/SubmitFormBehavior/'
 },
 {
 title: 'WordRTFImportPreference',
-path: '/Docs/WordRTFImportPreference/'
+path: '/WordRTFImportPreference/'
 },
 {
 title: 'TextPreference',
-path: '/Docs/TextPreference/'
+path: '/TextPreference/'
 },
 {
 title: 'PreserveAppearanceFromLayoutEnum',
-path: '/Docs/PreserveAppearanceFromLayoutEnum/'
+path: '/PreserveAppearanceFromLayoutEnum/'
 },
 {
 title: 'AutoCorrectPreference',
-path: '/Docs/AutoCorrectPreference/'
+path: '/AutoCorrectPreference/'
 },
 {
 title: 'GradientFeatherSetting',
-path: '/Docs/GradientFeatherSetting/'
+path: '/GradientFeatherSetting/'
 },
 {
 title: 'PublishExportPreference',
-path: '/Docs/PublishExportPreference/'
+path: '/PublishExportPreference/'
 },
 {
 title: 'TextColumns',
-path: '/Docs/TextColumns/'
+path: '/TextColumns/'
 },
 {
 title: 'InteractivePDFExportPreference',
-path: '/Docs/InteractivePDFExportPreference/'
+path: '/InteractivePDFExportPreference/'
 },
 {
 title: 'XMLExportMaps',
-path: '/Docs/XMLExportMaps/'
+path: '/XMLExportMaps/'
 },
 {
 title: 'TextPathEffects',
-path: '/Docs/TextPathEffects/'
+path: '/TextPathEffects/'
 },
 {
 title: 'KentenAlignment',
-path: '/Docs/KentenAlignment/'
+path: '/KentenAlignment/'
 },
 {
 title: 'AnimationEaseOptions',
-path: '/Docs/AnimationEaseOptions/'
+path: '/AnimationEaseOptions/'
 },
 {
 title: 'TableStyle',
-path: '/Docs/TableStyle/'
+path: '/TableStyle/'
 },
 {
 title: 'DataMergeTextPlaceholders',
-path: '/Docs/DataMergeTextPlaceholders/'
+path: '/DataMergeTextPlaceholders/'
 },
 {
 title: 'PreviewTypes',
-path: '/Docs/PreviewTypes/'
+path: '/PreviewTypes/'
 },
 {
 title: 'ObjectStyles',
-path: '/Docs/ObjectStyles/'
+path: '/ObjectStyles/'
 },
 {
 title: 'ContentTransparencySetting',
-path: '/Docs/ContentTransparencySetting/'
+path: '/ContentTransparencySetting/'
 },
 {
 title: 'XmlStory',
-path: '/Docs/XmlStory/'
+path: '/XmlStory/'
 },
 {
 title: 'GradientStop',
-path: '/Docs/GradientStop/'
+path: '/GradientStop/'
 },
 {
 title: 'NumberingLists',
-path: '/Docs/NumberingLists/'
+path: '/NumberingLists/'
 },
 {
 title: 'Paragraph',
-path: '/Docs/Paragraph/'
+path: '/Paragraph/'
 },
 {
 title: 'PDFCompressionType',
-path: '/Docs/PDFCompressionType/'
+path: '/PDFCompressionType/'
 },
 {
 title: 'MixedInks',
-path: '/Docs/MixedInks/'
+path: '/MixedInks/'
 },
 {
 title: 'OTFFigureStyle',
-path: '/Docs/OTFFigureStyle/'
+path: '/OTFFigureStyle/'
 },
 {
 title: 'EmptyFrameFittingOptions',
-path: '/Docs/EmptyFrameFittingOptions/'
+path: '/EmptyFrameFittingOptions/'
 },
 {
 title: 'IntegerCombobox',
-path: '/Docs/IntegerCombobox/'
+path: '/IntegerCombobox/'
 },
 {
 title: 'SaveOptions',
-path: '/Docs/SaveOptions/'
+path: '/SaveOptions/'
 },
 {
 title: 'UpdateLinkOptions',
-path: '/Docs/UpdateLinkOptions/'
+path: '/UpdateLinkOptions/'
 },
 {
 title: 'GotoAnchorBehaviors',
-path: '/Docs/GotoAnchorBehaviors/'
+path: '/GotoAnchorBehaviors/'
 },
 {
 title: 'FitDimension',
-path: '/Docs/FitDimension/'
+path: '/FitDimension/'
 },
 {
 title: 'Images',
-path: '/Docs/Images/'
+path: '/Images/'
 },
 {
 title: 'BevelAndEmbossStyle',
-path: '/Docs/BevelAndEmbossStyle/'
+path: '/BevelAndEmbossStyle/'
 },
 {
 title: 'ParagraphStyleGroups',
-path: '/Docs/ParagraphStyleGroups/'
+path: '/ParagraphStyleGroups/'
 },
 {
 title: 'FindChangeObjectOption',
-path: '/Docs/FindChangeObjectOption/'
+path: '/FindChangeObjectOption/'
 },
 {
 title: 'SignatureSizeOptions',
-path: '/Docs/SignatureSizeOptions/'
+path: '/SignatureSizeOptions/'
 },
 {
 title: 'PICTs',
-path: '/Docs/PICTs/'
+path: '/PICTs/'
 },
 {
 title: 'CompositeFontEntry',
-path: '/Docs/CompositeFontEntry/'
+path: '/CompositeFontEntry/'
 },
 {
 title: 'Group',
-path: '/Docs/Group/'
+path: '/Group/'
 },
 {
 title: 'ColorSetting',
-path: '/Docs/ColorSetting/'
+path: '/ColorSetting/'
 },
 {
 title: 'RangeSortOrder',
-path: '/Docs/RangeSortOrder/'
+path: '/RangeSortOrder/'
 },
 {
 title: 'CellStyleMapping',
-path: '/Docs/CellStyleMapping/'
+path: '/CellStyleMapping/'
 },
 {
 title: 'CompositeFonts',
-path: '/Docs/CompositeFonts/'
+path: '/CompositeFonts/'
 },
 {
 title: 'VerticalJustification',
-path: '/Docs/VerticalJustification/'
+path: '/VerticalJustification/'
 },
 {
 title: 'ViewZoomBehavior',
-path: '/Docs/ViewZoomBehavior/'
+path: '/ViewZoomBehavior/'
 },
 {
 title: 'UserDictionaries',
-path: '/Docs/UserDictionaries/'
+path: '/UserDictionaries/'
 },
 {
 title: 'GotoFirstPageBehavior',
-path: '/Docs/GotoFirstPageBehavior/'
+path: '/GotoFirstPageBehavior/'
 },
 {
 title: 'CreateProxy',
-path: '/Docs/CreateProxy/'
+path: '/CreateProxy/'
 },
 {
 title: 'LayoutWindows',
-path: '/Docs/LayoutWindows/'
+path: '/LayoutWindows/'
 },
 {
 title: 'HyperlinkExternalPageDestination',
-path: '/Docs/HyperlinkExternalPageDestination/'
+path: '/HyperlinkExternalPageDestination/'
 },
 {
 title: 'AnimationBehaviors',
-path: '/Docs/AnimationBehaviors/'
+path: '/AnimationBehaviors/'
 },
 {
 title: 'PrinterPresets',
-path: '/Docs/PrinterPresets/'
+path: '/PrinterPresets/'
 },
 {
 title: 'RadiobuttonControl',
-path: '/Docs/RadiobuttonControl/'
+path: '/RadiobuttonControl/'
 },
 {
 title: 'ResizeConstraints',
-path: '/Docs/ResizeConstraints/'
+path: '/ResizeConstraints/'
 },
 {
 title: 'VariableScopes',
-path: '/Docs/VariableScopes/'
+path: '/VariableScopes/'
 },
 {
 title: 'DisplaySettingOptions',
-path: '/Docs/DisplaySettingOptions/'
+path: '/DisplaySettingOptions/'
 },
 {
 title: 'LibraryPanel',
-path: '/Docs/LibraryPanel/'
+path: '/LibraryPanel/'
 },
 {
 title: 'HiddenTexts',
-path: '/Docs/HiddenTexts/'
+path: '/HiddenTexts/'
 },
 {
 title: 'EnablingGroup',
-path: '/Docs/EnablingGroup/'
+path: '/EnablingGroup/'
 },
 {
 title: 'ImagePreference',
-path: '/Docs/ImagePreference/'
+path: '/ImagePreference/'
 },
 {
 title: 'RealComboboxes',
-path: '/Docs/RealComboboxes/'
+path: '/RealComboboxes/'
 },
 {
 title: 'StrokeAlignment',
-path: '/Docs/StrokeAlignment/'
+path: '/StrokeAlignment/'
 },
 {
 title: 'ChangeCaseOptions',
-path: '/Docs/ChangeCaseOptions/'
+path: '/ChangeCaseOptions/'
 },
 {
 title: 'PDFColorSpace',
-path: '/Docs/PDFColorSpace/'
+path: '/PDFColorSpace/'
 },
 {
 title: 'PrintBookletPrintPreference',
-path: '/Docs/PrintBookletPrintPreference/'
+path: '/PrintBookletPrintPreference/'
 },
 {
 title: 'FindTransliteratePreference',
-path: '/Docs/FindTransliteratePreference/'
+path: '/FindTransliteratePreference/'
 },
 {
 title: 'CopyrightStatus',
-path: '/Docs/CopyrightStatus/'
+path: '/CopyrightStatus/'
 },
 {
 title: 'XMLImportMaps',
-path: '/Docs/XMLImportMaps/'
+path: '/XMLImportMaps/'
 },
 {
 title: 'LinkStatus',
-path: '/Docs/LinkStatus/'
+path: '/LinkStatus/'
 },
 {
 title: 'RepaginateOption',
-path: '/Docs/RepaginateOption/'
+path: '/RepaginateOption/'
 },
 {
 title: 'MatchCharacterStylePreference',
-path: '/Docs/MatchCharacterStylePreference/'
+path: '/MatchCharacterStylePreference/'
 },
 {
 title: 'DialogRows',
-path: '/Docs/DialogRows/'
+path: '/DialogRows/'
 },
 {
 title: 'DigpubArticleVersion',
-path: '/Docs/DigpubArticleVersion/'
+path: '/DigpubArticleVersion/'
 },
 {
 title: 'CrossReference',
-path: '/Docs/CrossReference/'
+path: '/CrossReference/'
 },
 {
 title: 'PDFXStandards',
-path: '/Docs/PDFXStandards/'
+path: '/PDFXStandards/'
 },
 {
 title: 'PageTransitionTypeOptions',
-path: '/Docs/PageTransitionTypeOptions/'
+path: '/PageTransitionTypeOptions/'
 },
 {
 title: 'Changes',
-path: '/Docs/Changes/'
+path: '/Changes/'
 },
 {
 title: 'Character',
-path: '/Docs/Character/'
+path: '/Character/'
 },
 {
 title: 'GotoAnchorBehavior',
-path: '/Docs/GotoAnchorBehavior/'
+path: '/GotoAnchorBehavior/'
 },
 {
 title: 'HyperlinkTextSource',
-path: '/Docs/HyperlinkTextSource/'
+path: '/HyperlinkTextSource/'
 },
 {
 title: 'PostScriptLevels',
-path: '/Docs/PostScriptLevels/'
+path: '/PostScriptLevels/'
 },
 {
 title: 'FollowShapeModeOptions',
-path: '/Docs/FollowShapeModeOptions/'
+path: '/FollowShapeModeOptions/'
 },
 {
 title: 'StaticAlignmentOptions',
-path: '/Docs/StaticAlignmentOptions/'
+path: '/StaticAlignmentOptions/'
 },
 {
 title: 'DataMerge',
-path: '/Docs/DataMerge/'
+path: '/DataMerge/'
 },
 {
 title: 'LiveDrawingOptions',
-path: '/Docs/LiveDrawingOptions/'
+path: '/LiveDrawingOptions/'
 },
 {
 title: 'KentenCharacterSet',
-path: '/Docs/KentenCharacterSet/'
+path: '/KentenCharacterSet/'
 },
 {
 title: 'VersionCueSyncStatus',
-path: '/Docs/VersionCueSyncStatus/'
+path: '/VersionCueSyncStatus/'
 },
 {
 title: 'LinkingPreference',
-path: '/Docs/LinkingPreference/'
+path: '/LinkingPreference/'
 },
 {
 title: 'FootnoteFirstBaseline',
-path: '/Docs/FootnoteFirstBaseline/'
+path: '/FootnoteFirstBaseline/'
 },
 {
 title: 'AnchoredObjectDefault',
-path: '/Docs/AnchoredObjectDefault/'
+path: '/AnchoredObjectDefault/'
 },
 {
 title: 'EPSColorSpace',
-path: '/Docs/EPSColorSpace/'
+path: '/EPSColorSpace/'
 },
 {
 title: 'PNGQualityEnum',
-path: '/Docs/PNGQualityEnum/'
+path: '/PNGQualityEnum/'
 },
 {
 title: 'MojikumiTables',
-path: '/Docs/MojikumiTables/'
+path: '/MojikumiTables/'
 },
 {
 title: 'MarginPreference',
-path: '/Docs/MarginPreference/'
+path: '/MarginPreference/'
 },
 {
 title: 'TableStyleGroup',
-path: '/Docs/TableStyleGroup/'
+path: '/TableStyleGroup/'
 },
 {
 title: 'HyperlinkTextDestination',
-path: '/Docs/HyperlinkTextDestination/'
+path: '/HyperlinkTextDestination/'
 },
 {
 title: 'CharacterAlignment',
-path: '/Docs/CharacterAlignment/'
+path: '/CharacterAlignment/'
 },
 {
 title: 'PrinterPresetTypes',
-path: '/Docs/PrinterPresetTypes/'
+path: '/PrinterPresetTypes/'
 },
 {
 title: 'UserInteractionLevels',
-path: '/Docs/UserInteractionLevels/'
+path: '/UserInteractionLevels/'
 },
 {
 title: 'Position',
-path: '/Docs/Position/'
+path: '/Position/'
 },
 {
 title: 'FindChangeGlyphOption',
-path: '/Docs/FindChangeGlyphOption/'
+path: '/FindChangeGlyphOption/'
 },
 {
 title: 'MotionPreset',
-path: '/Docs/MotionPreset/'
+path: '/MotionPreset/'
 },
 {
 title: 'Justification',
-path: '/Docs/Justification/'
+path: '/Justification/'
 },
 {
 title: 'PathPoints',
-path: '/Docs/PathPoints/'
+path: '/PathPoints/'
 },
 {
 title: 'TabStop',
-path: '/Docs/TabStop/'
+path: '/TabStop/'
 },
 {
 title: 'NestedStyleDelimiters',
-path: '/Docs/NestedStyleDelimiters/'
+path: '/NestedStyleDelimiters/'
 },
 {
 title: 'ArticleMembers',
-path: '/Docs/ArticleMembers/'
+path: '/ArticleMembers/'
 },
 {
 title: 'FootnoteRestarting',
-path: '/Docs/FootnoteRestarting/'
+path: '/FootnoteRestarting/'
 },
 {
 title: 'GotoPreviousStateBehavior',
-path: '/Docs/GotoPreviousStateBehavior/'
+path: '/GotoPreviousStateBehavior/'
 },
 {
 title: 'RulerOrigin',
-path: '/Docs/RulerOrigin/'
+path: '/RulerOrigin/'
 },
 {
 title: 'GIFOptionsPalette',
-path: '/Docs/GIFOptionsPalette/'
+path: '/GIFOptionsPalette/'
 },
 {
 title: 'Color',
-path: '/Docs/Color/'
+path: '/Color/'
 },
 {
 title: 'Path',
-path: '/Docs/Path/'
+path: '/Path/'
 },
 {
 title: 'TagVector',
-path: '/Docs/TagVector/'
+path: '/TagVector/'
 },
 {
 title: 'Printer',
-path: '/Docs/Printer/'
+path: '/Printer/'
 },
 {
 title: 'StrokeFillProxyOptions',
-path: '/Docs/StrokeFillProxyOptions/'
+path: '/StrokeFillProxyOptions/'
 },
 {
 title: 'Replies',
-path: '/Docs/Replies/'
+path: '/Replies/'
 },
 {
 title: 'GlobalClashResolutionStrategyForMasterPage',
-path: '/Docs/GlobalClashResolutionStrategyForMasterPage/'
+path: '/GlobalClashResolutionStrategyForMasterPage/'
 },
 {
 title: 'CrossReferenceType',
-path: '/Docs/CrossReferenceType/'
+path: '/CrossReferenceType/'
 },
 {
 title: 'TaggedTextExportPreference',
-path: '/Docs/TaggedTextExportPreference/'
+path: '/TaggedTextExportPreference/'
 },
 {
 title: 'DirectionalFeatherSetting',
-path: '/Docs/DirectionalFeatherSetting/'
+path: '/DirectionalFeatherSetting/'
 },
 {
 title: 'TextWrapSideOptions',
-path: '/Docs/TextWrapSideOptions/'
+path: '/TextWrapSideOptions/'
 },
 {
 title: 'StaticTexts',
-path: '/Docs/StaticTexts/'
+path: '/StaticTexts/'
 },
 {
 title: 'ChangeGlyphPreference',
-path: '/Docs/ChangeGlyphPreference/'
+path: '/ChangeGlyphPreference/'
 },
 {
 title: 'ChangeTextColorChoices',
-path: '/Docs/ChangeTextColorChoices/'
+path: '/ChangeTextColorChoices/'
 },
 {
 title: 'HyperlinkPageItemSources',
-path: '/Docs/HyperlinkPageItemSources/'
+path: '/HyperlinkPageItemSources/'
 },
 {
 title: 'AlternatingFillsTypes',
-path: '/Docs/AlternatingFillsTypes/'
+path: '/AlternatingFillsTypes/'
 },
 {
 title: 'ColorModel',
-path: '/Docs/ColorModel/'
+path: '/ColorModel/'
 },
 {
 title: 'DataMergeImagePlaceholder',
-path: '/Docs/DataMergeImagePlaceholder/'
+path: '/DataMergeImagePlaceholder/'
 },
 {
 title: 'EditingState',
-path: '/Docs/EditingState/'
+path: '/EditingState/'
 },
 {
 title: 'DataMergeField',
-path: '/Docs/DataMergeField/'
+path: '/DataMergeField/'
 },
 {
 title: 'NumberedParagraphsOptions',
-path: '/Docs/NumberedParagraphsOptions/'
+path: '/NumberedParagraphsOptions/'
 },
 {
 title: 'ImageResolution',
-path: '/Docs/ImageResolution/'
+path: '/ImageResolution/'
 },
 {
 title: 'Panels',
-path: '/Docs/Panels/'
+path: '/Panels/'
 },
 {
 title: 'FootnoteNumberingStyle',
-path: '/Docs/FootnoteNumberingStyle/'
+path: '/FootnoteNumberingStyle/'
 },
 {
 title: 'PageItemDefault',
-path: '/Docs/PageItemDefault/'
+path: '/PageItemDefault/'
 },
 {
 title: 'JPEGOptionsQuality',
-path: '/Docs/JPEGOptionsQuality/'
+path: '/JPEGOptionsQuality/'
 },
 {
 title: 'PreflightRuleInstances',
-path: '/Docs/PreflightRuleInstances/'
+path: '/PreflightRuleInstances/'
 },
 {
 title: 'DisplaySettings',
-path: '/Docs/DisplaySettings/'
+path: '/DisplaySettings/'
 },
 {
 title: 'IndexingSortOption',
-path: '/Docs/IndexingSortOption/'
+path: '/IndexingSortOption/'
 },
 {
 title: 'Articles',
-path: '/Docs/Articles/'
+path: '/Articles/'
 },
 {
 title: 'ObjectTypes',
-path: '/Docs/ObjectTypes/'
+path: '/ObjectTypes/'
 },
 {
 title: 'BalanceLinesStyle',
-path: '/Docs/BalanceLinesStyle/'
+path: '/BalanceLinesStyle/'
 },
 {
 title: 'TableStyleMappings',
-path: '/Docs/TableStyleMappings/'
+path: '/TableStyleMappings/'
 },
 {
 title: 'LocationOptions',
-path: '/Docs/LocationOptions/'
+path: '/LocationOptions/'
 },
 {
 title: 'FontTypes',
-path: '/Docs/FontTypes/'
+path: '/FontTypes/'
 },
 {
 title: 'BulletCharacterType',
-path: '/Docs/BulletCharacterType/'
+path: '/BulletCharacterType/'
 },
 {
 title: 'OpacityGradientStop',
-path: '/Docs/OpacityGradientStop/'
+path: '/OpacityGradientStop/'
 },
 {
 title: 'ViewDisplaySettings',
-path: '/Docs/ViewDisplaySettings/'
+path: '/ViewDisplaySettings/'
 },
 {
 title: 'HorizontalOrVertical',
-path: '/Docs/HorizontalOrVertical/'
+path: '/HorizontalOrVertical/'
 },
 {
 title: 'XMLRuleMatchData',
-path: '/Docs/XMLRuleMatchData/'
+path: '/XMLRuleMatchData/'
 },
 {
 title: 'PublishFormatEnum',
-path: '/Docs/PublishFormatEnum/'
+path: '/PublishFormatEnum/'
 },
 {
 title: 'StoryTypes',
-path: '/Docs/StoryTypes/'
+path: '/StoryTypes/'
 },
 {
 title: 'HtmlItem',
-path: '/Docs/HtmlItem/'
+path: '/HtmlItem/'
 },
 {
 title: 'BookContents',
-path: '/Docs/BookContents/'
+path: '/BookContents/'
 },
 {
 title: 'PNGColorSpaceEnum',
-path: '/Docs/PNGColorSpaceEnum/'
+path: '/PNGColorSpaceEnum/'
 },
 {
 title: 'ImageSizeOption',
-path: '/Docs/ImageSizeOption/'
+path: '/ImageSizeOption/'
 },
 {
 title: 'UseSVGAsEnum',
-path: '/Docs/UseSVGAsEnum/'
+path: '/UseSVGAsEnum/'
 },
 {
 title: 'PreviewPagesOptions',
-path: '/Docs/PreviewPagesOptions/'
+path: '/PreviewPagesOptions/'
 },
 {
 title: 'TOCStyle',
-path: '/Docs/TOCStyle/'
+path: '/TOCStyle/'
 },
 {
 title: 'RotationDirection',
-path: '/Docs/RotationDirection/'
+path: '/RotationDirection/'
 },
 {
 title: 'Capitalization',
-path: '/Docs/Capitalization/'
+path: '/Capitalization/'
 },
 {
 title: 'AngleEditbox',
-path: '/Docs/AngleEditbox/'
+path: '/AngleEditbox/'
 },
 {
 title: 'GraphicLines',
-path: '/Docs/GraphicLines/'
+path: '/GraphicLines/'
 },
 {
 title: 'CoordinateSpaces',
-path: '/Docs/CoordinateSpaces/'
+path: '/CoordinateSpaces/'
 },
 {
 title: 'ChangeTransliteratePreference',
-path: '/Docs/ChangeTransliteratePreference/'
+path: '/ChangeTransliteratePreference/'
 },
 {
 title: 'XMLAttribute',
-path: '/Docs/XMLAttribute/'
+path: '/XMLAttribute/'
 },
 {
 title: 'ImportedPageAttribute',
-path: '/Docs/ImportedPageAttribute/'
+path: '/ImportedPageAttribute/'
 },
 {
 title: 'StripedStrokeStyle',
-path: '/Docs/StripedStrokeStyle/'
+path: '/StripedStrokeStyle/'
 },
 {
 title: 'SelectionOptions',
-path: '/Docs/SelectionOptions/'
+path: '/SelectionOptions/'
 },
 {
 title: 'SignatureField',
-path: '/Docs/SignatureField/'
+path: '/SignatureField/'
 },
 {
 title: 'ListBox',
-path: '/Docs/ListBox/'
+path: '/ListBox/'
 },
 {
 title: 'TabStopAlignment',
-path: '/Docs/TabStopAlignment/'
+path: '/TabStopAlignment/'
 },
 {
 title: 'RadiobuttonControls',
-path: '/Docs/RadiobuttonControls/'
+path: '/RadiobuttonControls/'
 },
 {
 title: 'TextTypeAlignments',
-path: '/Docs/TextTypeAlignments/'
+path: '/TextTypeAlignments/'
 },
 {
 title: 'ImportedPageCropOptions',
-path: '/Docs/ImportedPageCropOptions/'
+path: '/ImportedPageCropOptions/'
 },
 {
 title: 'PrintPreference',
-path: '/Docs/PrintPreference/'
+path: '/PrintPreference/'
 },
 {
 title: 'SearchStrategies',
-path: '/Docs/SearchStrategies/'
+path: '/SearchStrategies/'
 },
 {
 title: 'PrintFormBehavior',
-path: '/Docs/PrintFormBehavior/'
+path: '/PrintFormBehavior/'
 },
 {
 title: 'DictionaryPreference',
-path: '/Docs/DictionaryPreference/'
+path: '/DictionaryPreference/'
 },
 {
 title: 'CheckBox',
-path: '/Docs/CheckBox/'
+path: '/CheckBox/'
 },
 {
 title: 'KinsokuHangTypes',
-path: '/Docs/KinsokuHangTypes/'
+path: '/KinsokuHangTypes/'
 },
 {
 title: 'HyperlinkURLDestinations',
-path: '/Docs/HyperlinkURLDestinations/'
+path: '/HyperlinkURLDestinations/'
 },
 {
 title: 'InsertionPoint',
-path: '/Docs/InsertionPoint/'
+path: '/InsertionPoint/'
 },
 {
 title: 'Paths',
-path: '/Docs/Paths/'
+path: '/Paths/'
 },
 {
 title: 'Sampling',
-path: '/Docs/Sampling/'
+path: '/Sampling/'
 },
 {
 title: 'XMLInstruction',
-path: '/Docs/XMLInstruction/'
+path: '/XMLInstruction/'
 },
 {
 title: 'TagRaster',
-path: '/Docs/TagRaster/'
+path: '/TagRaster/'
 },
 {
 title: 'Snippet',
-path: '/Docs/Snippet/'
+path: '/Snippet/'
 },
 {
 title: 'PDF',
-path: '/Docs/PDF/'
+path: '/PDF/'
 },
 {
 title: 'ConditionIndicatorMode',
-path: '/Docs/ConditionIndicatorMode/'
+path: '/ConditionIndicatorMode/'
 },
 {
 title: 'AutoSizingReferenceEnum',
-path: '/Docs/AutoSizingReferenceEnum/'
+path: '/AutoSizingReferenceEnum/'
 },
 {
 title: 'FrameFittingOption',
-path: '/Docs/FrameFittingOption/'
+path: '/FrameFittingOption/'
 },
 {
 title: 'GotoNextStateBehavior',
-path: '/Docs/GotoNextStateBehavior/'
+path: '/GotoNextStateBehavior/'
 },
 {
 title: 'NothingEnum',
-path: '/Docs/NothingEnum/'
+path: '/NothingEnum/'
 },
 {
 title: 'EPSImportPreference',
-path: '/Docs/EPSImportPreference/'
+path: '/EPSImportPreference/'
 },
 {
 title: 'UITools',
-path: '/Docs/UITools/'
+path: '/UITools/'
 },
 {
 title: 'MeasurementCombobox',
-path: '/Docs/MeasurementCombobox/'
+path: '/MeasurementCombobox/'
 },
 {
 title: 'GuidePreference',
-path: '/Docs/GuidePreference/'
+path: '/GuidePreference/'
 },
 {
 title: 'XMLImportPreference',
-path: '/Docs/XMLImportPreference/'
+path: '/XMLImportPreference/'
 },
 {
 title: 'ICCProfiles',
-path: '/Docs/ICCProfiles/'
+path: '/ICCProfiles/'
 },
 {
 title: 'PreflightRuleInstance',
-path: '/Docs/PreflightRuleInstance/'
+path: '/PreflightRuleInstance/'
 },
 {
 title: 'DocumentPresets',
-path: '/Docs/DocumentPresets/'
+path: '/DocumentPresets/'
 },
 {
 title: 'Polygon',
-path: '/Docs/Polygon/'
+path: '/Polygon/'
 },
 {
 title: 'StoryPreference',
-path: '/Docs/StoryPreference/'
+path: '/StoryPreference/'
 },
 {
 title: 'Libraries',
-path: '/Docs/Libraries/'
+path: '/Libraries/'
 },
 {
 title: 'StoryGridDataInformation',
-path: '/Docs/StoryGridDataInformation/'
+path: '/StoryGridDataInformation/'
 },
 {
 title: 'BehaviorEvents',
-path: '/Docs/BehaviorEvents/'
+path: '/BehaviorEvents/'
 },
 {
 title: 'Flip',
-path: '/Docs/Flip/'
+path: '/Flip/'
 },
 {
 title: 'SourceFieldType',
-path: '/Docs/SourceFieldType/'
+path: '/SourceFieldType/'
 },
 {
 title: 'ObjectStyleObjectEffectsCategorySettings',
-path: '/Docs/ObjectStyleObjectEffectsCategorySettings/'
+path: '/ObjectStyleObjectEffectsCategorySettings/'
 },
 {
 title: 'OpenFileBehaviors',
-path: '/Docs/OpenFileBehaviors/'
+path: '/OpenFileBehaviors/'
 },
 {
 title: 'ShowHideFieldsBehavior',
-path: '/Docs/ShowHideFieldsBehavior/'
+path: '/ShowHideFieldsBehavior/'
 },
 {
 title: 'IdleEvent',
-path: '/Docs/IdleEvent/'
+path: '/IdleEvent/'
 },
 {
 title: 'EndnoteOption',
-path: '/Docs/EndnoteOption/'
+path: '/EndnoteOption/'
 },
 {
 title: 'FirstBaseline',
-path: '/Docs/FirstBaseline/'
+path: '/FirstBaseline/'
 },
 {
 title: 'DocumentPrintUiOptions',
-path: '/Docs/DocumentPrintUiOptions/'
+path: '/DocumentPrintUiOptions/'
 },
 {
 title: 'PageTransitionOverrideOptions',
-path: '/Docs/PageTransitionOverrideOptions/'
+path: '/PageTransitionOverrideOptions/'
 },
 {
 title: 'Leading',
-path: '/Docs/Leading/'
+path: '/Leading/'
 },
 {
 title: 'UndoModes',
-path: '/Docs/UndoModes/'
+path: '/UndoModes/'
 },
 {
 title: 'FormField',
-path: '/Docs/FormField/'
+path: '/FormField/'
 },
 {
 title: 'FindChangeFillTransparencySetting',
-path: '/Docs/FindChangeFillTransparencySetting/'
+path: '/FindChangeFillTransparencySetting/'
 },
 {
 title: 'Assignment',
-path: '/Docs/Assignment/'
+path: '/Assignment/'
 },
 {
 title: 'PolygonPreference',
-path: '/Docs/PolygonPreference/'
+path: '/PolygonPreference/'
 },
 {
 title: 'GotoPageBehavior',
-path: '/Docs/GotoPageBehavior/'
+path: '/GotoPageBehavior/'
 },
 {
 title: 'GridPreference',
-path: '/Docs/GridPreference/'
+path: '/GridPreference/'
 },
 {
 title: 'ImportedPage',
-path: '/Docs/ImportedPage/'
+path: '/ImportedPage/'
 },
 {
 title: 'BuildingBlocks',
-path: '/Docs/BuildingBlocks/'
+path: '/BuildingBlocks/'
 },
 {
 title: 'Endnotes',
-path: '/Docs/Endnotes/'
+path: '/Endnotes/'
 },
 {
 title: 'ColorSettingsPolicy',
-path: '/Docs/ColorSettingsPolicy/'
+path: '/ColorSettingsPolicy/'
 },
 {
 title: 'Spread',
-path: '/Docs/Spread/'
+path: '/Spread/'
 },
 {
 title: 'ContentPlacerObject',
-path: '/Docs/ContentPlacerObject/'
+path: '/ContentPlacerObject/'
 },
 {
 title: 'IntegerEditbox',
-path: '/Docs/IntegerEditbox/'
+path: '/IntegerEditbox/'
 },
 {
 title: 'SoundPosterTypes',
-path: '/Docs/SoundPosterTypes/'
+path: '/SoundPosterTypes/'
 },
 {
 title: 'NumberingStyle',
-path: '/Docs/NumberingStyle/'
+path: '/NumberingStyle/'
 },
 {
 title: 'ClippingPathType',
-path: '/Docs/ClippingPathType/'
+path: '/ClippingPathType/'
 },
 {
 title: 'ImportPlatform',
-path: '/Docs/ImportPlatform/'
+path: '/ImportPlatform/'
 },
 {
 title: 'Library',
-path: '/Docs/Library/'
+path: '/Library/'
 },
 {
 title: 'PICT',
-path: '/Docs/PICT/'
+path: '/PICT/'
 },
 {
 title: 'ImageConversion',
-path: '/Docs/ImageConversion/'
+path: '/ImageConversion/'
 },
 {
 title: 'MenuItem',
-path: '/Docs/MenuItem/'
+path: '/MenuItem/'
 },
 {
 title: 'Trapping',
-path: '/Docs/Trapping/'
+path: '/Trapping/'
 },
 {
 title: 'Language',
-path: '/Docs/Language/'
+path: '/Language/'
 },
 {
 title: 'TextExportPreference',
-path: '/Docs/TextExportPreference/'
+path: '/TextExportPreference/'
 },
 {
 title: 'XMLComments',
-path: '/Docs/XMLComments/'
+path: '/XMLComments/'
 },
 {
 title: 'MenuSeparators',
-path: '/Docs/MenuSeparators/'
+path: '/MenuSeparators/'
 },
 {
 title: 'Column',
-path: '/Docs/Column/'
+path: '/Column/'
 },
 {
 title: 'PlayOperations',
-path: '/Docs/PlayOperations/'
+path: '/PlayOperations/'
 },
 {
 title: 'ObjectExportOption',
-path: '/Docs/ObjectExportOption/'
+path: '/ObjectExportOption/'
 },
 {
 title: 'Groups',
-path: '/Docs/Groups/'
+path: '/Groups/'
 },
 {
 title: 'StrokeCornerAdjustment',
-path: '/Docs/StrokeCornerAdjustment/'
+path: '/StrokeCornerAdjustment/'
 },
 {
 title: 'TabStops',
-path: '/Docs/TabStops/'
+path: '/TabStops/'
 },
 {
 title: 'PasteboardPreference',
-path: '/Docs/PasteboardPreference/'
+path: '/PasteboardPreference/'
 },
 {
 title: 'PreflightProfileRules',
-path: '/Docs/PreflightProfileRules/'
+path: '/PreflightProfileRules/'
 },
 {
 title: 'TextWrapPreference',
-path: '/Docs/TextWrapPreference/'
+path: '/TextWrapPreference/'
 },
 {
 title: 'TaggedPDFPreference',
-path: '/Docs/TaggedPDFPreference/'
+path: '/TaggedPDFPreference/'
 },
 {
 title: 'CompositeFontEntries',
-path: '/Docs/CompositeFontEntries/'
+path: '/CompositeFontEntries/'
 },
 {
 title: 'FlipValues',
-path: '/Docs/FlipValues/'
+path: '/FlipValues/'
 },
 {
 title: 'Topic',
-path: '/Docs/Topic/'
+path: '/Topic/'
 },
 {
 title: 'Document',
-path: '/Docs/Document/'
+path: '/Document/'
 },
 {
 title: 'InsertionPoints',
-path: '/Docs/InsertionPoints/'
+path: '/InsertionPoints/'
 },
 {
 title: 'ParagraphDirectionOptions',
-path: '/Docs/ParagraphDirectionOptions/'
+path: '/ParagraphDirectionOptions/'
 },
 {
 title: 'GotoFirstPageBehaviors',
-path: '/Docs/GotoFirstPageBehaviors/'
+path: '/GotoFirstPageBehaviors/'
 },
 {
 title: 'Books',
-path: '/Docs/Books/'
+path: '/Books/'
 },
 {
 title: 'PreflightProfile',
-path: '/Docs/PreflightProfile/'
+path: '/PreflightProfile/'
 },
 {
 title: 'DTDs',
-path: '/Docs/DTDs/'
+path: '/DTDs/'
 },
 {
 title: 'ContourOption',
-path: '/Docs/ContourOption/'
+path: '/ContourOption/'
 },
 {
 title: 'TextPaths',
-path: '/Docs/TextPaths/'
+path: '/TextPaths/'
 },
 {
 title: 'ObjectStyleGroup',
-path: '/Docs/ObjectStyleGroup/'
+path: '/ObjectStyleGroup/'
 },
 {
 title: 'CheckboxControls',
-path: '/Docs/CheckboxControls/'
+path: '/CheckboxControls/'
 },
 {
 title: 'CrossReferenceSources',
-path: '/Docs/CrossReferenceSources/'
+path: '/CrossReferenceSources/'
 },
 {
 title: 'PageTransitionDirectionOptions',
-path: '/Docs/PageTransitionDirectionOptions/'
+path: '/PageTransitionDirectionOptions/'
 },
 {
 title: 'LinkMetadata',
-path: '/Docs/LinkMetadata/'
+path: '/LinkMetadata/'
 },
 {
 title: 'XMLViewPreference',
-path: '/Docs/XMLViewPreference/'
+path: '/XMLViewPreference/'
 },
 {
 title: 'PageOrientation',
-path: '/Docs/PageOrientation/'
+path: '/PageOrientation/'
 },
 {
 title: 'State',
-path: '/Docs/State/'
+path: '/State/'
 },
 {
 title: 'AssignedStories',
-path: '/Docs/AssignedStories/'
+path: '/AssignedStories/'
 },
 {
 title: 'ButtonPreference',
-path: '/Docs/ButtonPreference/'
+path: '/ButtonPreference/'
 },
 {
 title: 'TextFramePreference',
-path: '/Docs/TextFramePreference/'
+path: '/TextFramePreference/'
 },
 {
 title: 'ImagePageBreakType',
-path: '/Docs/ImagePageBreakType/'
+path: '/ImagePageBreakType/'
 },
 {
 title: 'TextVariables',
-path: '/Docs/TextVariables/'
+path: '/TextVariables/'
 },
 {
 title: 'NestedGrepStyle',
-path: '/Docs/NestedGrepStyle/'
+path: '/NestedGrepStyle/'
 },
 {
 title: 'RowTypes',
-path: '/Docs/RowTypes/'
+path: '/RowTypes/'
 },
 {
 title: 'OpacityGradientStops',
-path: '/Docs/OpacityGradientStops/'
+path: '/OpacityGradientStops/'
 },
 {
 title: 'FitOptions',
-path: '/Docs/FitOptions/'
+path: '/FitOptions/'
 },
 {
 title: 'FindChangeSatinSetting',
-path: '/Docs/FindChangeSatinSetting/'
+path: '/FindChangeSatinSetting/'
 },
 {
 title: 'PercentCombobox',
-path: '/Docs/PercentCombobox/'
+path: '/PercentCombobox/'
 },
 {
 title: 'CheckboxControl',
-path: '/Docs/CheckboxControl/'
+path: '/CheckboxControl/'
 },
 {
 title: 'RasterResolutionOptions',
-path: '/Docs/RasterResolutionOptions/'
+path: '/RasterResolutionOptions/'
 },
 {
 title: 'TrapPreset',
-path: '/Docs/TrapPreset/'
+path: '/TrapPreset/'
 },
 {
 title: 'RuleDataType',
-path: '/Docs/RuleDataType/'
+path: '/RuleDataType/'
 },
 {
 title: 'MoviePlayOperations',
-path: '/Docs/MoviePlayOperations/'
+path: '/MoviePlayOperations/'
 },
 {
 title: 'DisplaySetting',
-path: '/Docs/DisplaySetting/'
+path: '/DisplaySetting/'
 },
 {
 title: 'AnchoredRelativeTo',
-path: '/Docs/AnchoredRelativeTo/'
+path: '/AnchoredRelativeTo/'
 },
 {
 title: 'PDFComments',
-path: '/Docs/PDFComments/'
+path: '/PDFComments/'
 },
 {
 title: 'FeatherSetting',
-path: '/Docs/FeatherSetting/'
+path: '/FeatherSetting/'
 },
 {
 title: 'SpanColumnTypeOptions',
-path: '/Docs/SpanColumnTypeOptions/'
+path: '/SpanColumnTypeOptions/'
 },
 {
 title: 'TableStyleGroups',
-path: '/Docs/TableStyleGroups/'
+path: '/TableStyleGroups/'
 },
 {
 title: 'HyperlinkPageItemSource',
-path: '/Docs/HyperlinkPageItemSource/'
+path: '/HyperlinkPageItemSource/'
 },
 {
 title: 'PageSideOptions',
-path: '/Docs/PageSideOptions/'
+path: '/PageSideOptions/'
 },
 {
 title: 'FormFields',
-path: '/Docs/FormFields/'
+path: '/FormFields/'
 },
 {
 title: 'MoviePosterTypes',
-path: '/Docs/MoviePosterTypes/'
+path: '/MoviePosterTypes/'
 },
 {
 title: 'CommentStatusEnum',
-path: '/Docs/CommentStatusEnum/'
+path: '/CommentStatusEnum/'
 },
 {
 title: 'BevelAndEmbossDirection',
-path: '/Docs/BevelAndEmbossDirection/'
+path: '/BevelAndEmbossDirection/'
 },
 {
 title: 'Image',
-path: '/Docs/Image/'
+path: '/Image/'
 },
 {
 title: 'ArrowHeadAlignmentEnum',
-path: '/Docs/ArrowHeadAlignmentEnum/'
+path: '/ArrowHeadAlignmentEnum/'
 },
 {
 title: 'ChangeMarkings',
-path: '/Docs/ChangeMarkings/'
+path: '/ChangeMarkings/'
 },
 {
 title: 'PreflightRuleFlag',
-path: '/Docs/PreflightRuleFlag/'
+path: '/PreflightRuleFlag/'
 },
 {
 title: 'TextFrame',
-path: '/Docs/TextFrame/'
+path: '/TextFrame/'
 },
 {
 title: 'AutoSizingTypeEnum',
-path: '/Docs/AutoSizingTypeEnum/'
+path: '/AutoSizingTypeEnum/'
 },
 {
 title: 'CustomLayoutTypeEnum',
-path: '/Docs/CustomLayoutTypeEnum/'
+path: '/CustomLayoutTypeEnum/'
 },
 {
 title: 'FindChangeTextOption',
-path: '/Docs/FindChangeTextOption/'
+path: '/FindChangeTextOption/'
 },
 {
 title: 'GoToZoomOptions',
-path: '/Docs/GoToZoomOptions/'
+path: '/GoToZoomOptions/'
 },
 {
 title: 'LinkedStoryOption',
-path: '/Docs/LinkedStoryOption/'
+path: '/LinkedStoryOption/'
 },
 {
 title: 'ComboBox',
-path: '/Docs/ComboBox/'
+path: '/ComboBox/'
 },
 {
 title: 'Rows',
-path: '/Docs/Rows/'
+path: '/Rows/'
 },
 {
 title: 'RadiobuttonGroups',
-path: '/Docs/RadiobuttonGroups/'
+path: '/RadiobuttonGroups/'
 },
 {
 title: 'PDFExportPresets',
-path: '/Docs/PDFExportPresets/'
+path: '/PDFExportPresets/'
 },
 {
 title: 'GotoLastPageBehaviors',
-path: '/Docs/GotoLastPageBehaviors/'
+path: '/GotoLastPageBehaviors/'
 },
 {
 title: 'Rectangle',
-path: '/Docs/Rectangle/'
+path: '/Rectangle/'
 },
 {
 title: 'AngleEditboxes',
-path: '/Docs/AngleEditboxes/'
+path: '/AngleEditboxes/'
 },
 {
 title: 'MapType',
-path: '/Docs/MapType/'
+path: '/MapType/'
 },
 {
 title: 'DocumentEvent',
-path: '/Docs/DocumentEvent/'
+path: '/DocumentEvent/'
 },
 {
 title: 'PrintEvent',
-path: '/Docs/PrintEvent/'
+path: '/PrintEvent/'
 },
 {
 title: 'HeaderFooterBreakTypes',
-path: '/Docs/HeaderFooterBreakTypes/'
+path: '/HeaderFooterBreakTypes/'
 },
 {
 title: 'IntegerEditboxes',
-path: '/Docs/IntegerEditboxes/'
+path: '/IntegerEditboxes/'
 },
 {
 title: 'GotoNextPageBehaviors',
-path: '/Docs/GotoNextPageBehaviors/'
+path: '/GotoNextPageBehaviors/'
 },
 {
 title: 'HyperlinkTextSources',
-path: '/Docs/HyperlinkTextSources/'
+path: '/HyperlinkTextSources/'
 },
 {
 title: 'EndCap',
-path: '/Docs/EndCap/'
+path: '/EndCap/'
 },
 {
 title: 'Languages',
-path: '/Docs/Languages/'
+path: '/Languages/'
 },
 {
 title: 'HTMLFXLExportPreference',
-path: '/Docs/HTMLFXLExportPreference/'
+path: '/HTMLFXLExportPreference/'
 },
 {
 title: 'GotoPreviousViewBehavior',
-path: '/Docs/GotoPreviousViewBehavior/'
+path: '/GotoPreviousViewBehavior/'
 },
 {
 title: 'RubyTypes',
-path: '/Docs/RubyTypes/'
+path: '/RubyTypes/'
 },
 {
 title: 'SVGs',
-path: '/Docs/SVGs/'
+path: '/SVGs/'
 },
 {
 title: 'Graphic',
-path: '/Docs/Graphic/'
+path: '/Graphic/'
 },
 {
 title: 'BaselineFrameGridOption',
-path: '/Docs/BaselineFrameGridOption/'
+path: '/BaselineFrameGridOption/'
 },
 {
 title: 'KinsokuType',
-path: '/Docs/KinsokuType/'
+path: '/KinsokuType/'
 },
 {
 title: 'ConvertTablesOptions',
-path: '/Docs/ConvertTablesOptions/'
+path: '/ConvertTablesOptions/'
 },
 {
 title: 'GotoPreviousPageBehavior',
-path: '/Docs/GotoPreviousPageBehavior/'
+path: '/GotoPreviousPageBehavior/'
 },
 {
 title: 'Sounds',
-path: '/Docs/Sounds/'
+path: '/Sounds/'
 },
 {
 title: 'FillTransparencySetting',
-path: '/Docs/FillTransparencySetting/'
+path: '/FillTransparencySetting/'
 },
 {
 title: 'TagTextForm',
-path: '/Docs/TagTextForm/'
+path: '/TagTextForm/'
 },
 {
 title: 'EndnoteTextFrame',
-path: '/Docs/EndnoteTextFrame/'
+path: '/EndnoteTextFrame/'
 },
 {
 title: 'Dialog',
-path: '/Docs/Dialog/'
+path: '/Dialog/'
 },
 {
 title: 'ImageIOPreference',
-path: '/Docs/ImageIOPreference/'
+path: '/ImageIOPreference/'
 },
 {
 title: 'BuildingBlockTypes',
-path: '/Docs/BuildingBlockTypes/'
+path: '/BuildingBlockTypes/'
 },
 {
 title: 'IndexSections',
-path: '/Docs/IndexSections/'
+path: '/IndexSections/'
 },
 {
 title: 'DataMergeImagePlaceholders',
-path: '/Docs/DataMergeImagePlaceholders/'
+path: '/DataMergeImagePlaceholders/'
 },
 {
 title: 'TypeContextualUiPreference',
-path: '/Docs/TypeContextualUiPreference/'
+path: '/TypeContextualUiPreference/'
 },
 {
 title: 'PreviewSizeOptions',
-path: '/Docs/PreviewSizeOptions/'
+path: '/PreviewSizeOptions/'
 },
 {
 title: 'Preference',
-path: '/Docs/Preference/'
+path: '/Preference/'
 },
 {
 title: 'CellStyle',
-path: '/Docs/CellStyle/'
+path: '/CellStyle/'
 },
 {
 title: 'FloatingWindowPosition',
-path: '/Docs/FloatingWindowPosition/'
+path: '/FloatingWindowPosition/'
 },
 {
 title: 'HyperlinkAppearanceHighlight',
-path: '/Docs/HyperlinkAppearanceHighlight/'
+path: '/HyperlinkAppearanceHighlight/'
 },
 {
 title: 'LockStateValues',
-path: '/Docs/LockStateValues/'
+path: '/LockStateValues/'
 },
 {
 title: 'AlignOptions',
-path: '/Docs/AlignOptions/'
+path: '/AlignOptions/'
 },
 {
 title: 'CaptionMetadataVariablePreference',
-path: '/Docs/CaptionMetadataVariablePreference/'
+path: '/CaptionMetadataVariablePreference/'
 },
 {
 title: 'Oval',
-path: '/Docs/Oval/'
+path: '/Oval/'
 },
 {
 title: 'Cell',
-path: '/Docs/Cell/'
+path: '/Cell/'
 },
 {
 title: 'CheckBoxes',
-path: '/Docs/CheckBoxes/'
+path: '/CheckBoxes/'
 },
 {
 title: 'MenuElements',
-path: '/Docs/MenuElements/'
+path: '/MenuElements/'
 },
 {
 title: 'BackgroundTask',
-path: '/Docs/BackgroundTask/'
+path: '/BackgroundTask/'
 },
 {
 title: 'MovieBehavior',
-path: '/Docs/MovieBehavior/'
+path: '/MovieBehavior/'
 },
 {
 title: 'ChangeObjectPreference',
-path: '/Docs/ChangeObjectPreference/'
+path: '/ChangeObjectPreference/'
 },
 {
 title: 'StrokeFillProxySetting',
-path: '/Docs/StrokeFillProxySetting/'
+path: '/StrokeFillProxySetting/'
 },
 {
 title: 'PreflightOption',
-path: '/Docs/PreflightOption/'
+path: '/PreflightOption/'
 },
 {
 title: 'EventPhases',
-path: '/Docs/EventPhases/'
+path: '/EventPhases/'
 },
 {
 title: 'CellStyleGroups',
-path: '/Docs/CellStyleGroups/'
+path: '/CellStyleGroups/'
 },
 {
 title: 'MetadataPreference',
-path: '/Docs/MetadataPreference/'
+path: '/MetadataPreference/'
 },
 {
 title: 'EndnoteRange',
-path: '/Docs/EndnoteRange/'
+path: '/EndnoteRange/'
 },
 {
 title: 'TextFrameContents',
-path: '/Docs/TextFrameContents/'
+path: '/TextFrameContents/'
 },
 {
 title: 'WatermarkVerticalPositionEnum',
-path: '/Docs/WatermarkVerticalPositionEnum/'
+path: '/WatermarkVerticalPositionEnum/'
 },
 {
 title: 'XMLImportStyles',
-path: '/Docs/XMLImportStyles/'
+path: '/XMLImportStyles/'
 },
 {
 title: 'Reply',
-path: '/Docs/Reply/'
+path: '/Reply/'
 },
 {
 title: 'IntegerComboboxes',
-path: '/Docs/IntegerComboboxes/'
+path: '/IntegerComboboxes/'
 },
 {
 title: 'Row',
-path: '/Docs/Row/'
+path: '/Row/'
 },
 {
 title: 'FindObjectPreference',
-path: '/Docs/FindObjectPreference/'
+path: '/FindObjectPreference/'
 },
 {
 title: 'Stories',
-path: '/Docs/Stories/'
+path: '/Stories/'
 },
 {
 title: 'ColorGroupSwatches',
-path: '/Docs/ColorGroupSwatches/'
+path: '/ColorGroupSwatches/'
 },
 {
 title: 'PlacedVectorProfilePolicy',
-path: '/Docs/PlacedVectorProfilePolicy/'
+path: '/PlacedVectorProfilePolicy/'
 },
 {
 title: 'TextDefault',
-path: '/Docs/TextDefault/'
+path: '/TextDefault/'
 },
 {
 title: 'RubyAlignments',
-path: '/Docs/RubyAlignments/'
+path: '/RubyAlignments/'
 },
 {
 title: 'ParagraphJustificationOptions',
-path: '/Docs/ParagraphJustificationOptions/'
+path: '/ParagraphJustificationOptions/'
 },
 {
 title: 'HyperlinkExternalPageDestinations',
-path: '/Docs/HyperlinkExternalPageDestinations/'
+path: '/HyperlinkExternalPageDestinations/'
 },
 {
 title: 'TableStyles',
-path: '/Docs/TableStyles/'
+path: '/TableStyles/'
 },
 {
 title: 'FindChangeStrokeTransparencySetting',
-path: '/Docs/FindChangeStrokeTransparencySetting/'
+path: '/FindChangeStrokeTransparencySetting/'
 },
 {
 title: 'FindChangeGrepOption',
-path: '/Docs/FindChangeGrepOption/'
+path: '/FindChangeGrepOption/'
 },
 {
 title: 'CellTypeEnum',
-path: '/Docs/CellTypeEnum/'
+path: '/CellTypeEnum/'
 },
 {
 title: 'Rectangles',
-path: '/Docs/Rectangles/'
+path: '/Rectangles/'
 },
 {
 title: 'RubyParentSpacing',
-path: '/Docs/RubyParentSpacing/'
+path: '/RubyParentSpacing/'
 },
 {
 title: 'IdleTasks',
-path: '/Docs/IdleTasks/'
+path: '/IdleTasks/'
 },
 {
 title: 'ParagraphDestination',
-path: '/Docs/ParagraphDestination/'
+path: '/ParagraphDestination/'
 },
 {
 title: 'ProofingType',
-path: '/Docs/ProofingType/'
+path: '/ProofingType/'
 },
 {
 title: 'FindChangeOuterGlowSetting',
-path: '/Docs/FindChangeOuterGlowSetting/'
+path: '/FindChangeOuterGlowSetting/'
 },
 {
 title: 'NumberingRestartPolicy',
-path: '/Docs/NumberingRestartPolicy/'
+path: '/NumberingRestartPolicy/'
 },
 {
 title: 'FindChangeFeatherSetting',
-path: '/Docs/FindChangeFeatherSetting/'
+path: '/FindChangeFeatherSetting/'
 },
 {
 title: 'WatermarkPreference',
-path: '/Docs/WatermarkPreference/'
+path: '/WatermarkPreference/'
 },
 {
 title: 'RecordsPerPage',
-path: '/Docs/RecordsPerPage/'
+path: '/RecordsPerPage/'
 },
 {
 title: 'TagTransparency',
-path: '/Docs/TagTransparency/'
+path: '/TagTransparency/'
 },
 {
 title: 'TextWrapModes',
-path: '/Docs/TextWrapModes/'
+path: '/TextWrapModes/'
 },
 {
 title: 'PanelLayoutResize',
-path: '/Docs/PanelLayoutResize/'
+path: '/PanelLayoutResize/'
 },
 {
 title: 'TimingGroup',
-path: '/Docs/TimingGroup/'
+path: '/TimingGroup/'
 },
 {
 title: 'GuideTypeOptions',
-path: '/Docs/GuideTypeOptions/'
+path: '/GuideTypeOptions/'
 },
 {
 title: 'GraphicLine',
-path: '/Docs/GraphicLine/'
+path: '/GraphicLine/'
 },
 {
 title: 'AlignDistributePreference',
-path: '/Docs/AlignDistributePreference/'
+path: '/AlignDistributePreference/'
 },
 {
 title: 'CellStyleGroup',
-path: '/Docs/CellStyleGroup/'
+path: '/CellStyleGroup/'
 },
 {
 title: 'CommentTypeEnum',
-path: '/Docs/CommentTypeEnum/'
+path: '/CommentTypeEnum/'
 },
 {
 title: 'ChapterNumberPreference',
-path: '/Docs/ChapterNumberPreference/'
+path: '/ChapterNumberPreference/'
 },
 {
 title: 'AlignDistributeBounds',
-path: '/Docs/AlignDistributeBounds/'
+path: '/AlignDistributeBounds/'
 },
 {
 title: 'Layer',
-path: '/Docs/Layer/'
+path: '/Layer/'
 },
 {
 title: 'Condition',
-path: '/Docs/Condition/'
+path: '/Condition/'
 },
 {
 title: 'ScriptLanguage',
-path: '/Docs/ScriptLanguage/'
+path: '/ScriptLanguage/'
 },
 {
 title: 'BlendingSpace',
-path: '/Docs/BlendingSpace/'
+path: '/BlendingSpace/'
 },
 {
 title: 'VersionState',
-path: '/Docs/VersionState/'
+path: '/VersionState/'
 },
 {
 title: 'Notes',
-path: '/Docs/Notes/'
+path: '/Notes/'
 },
 {
 title: 'PageNumberStyle',
-path: '/Docs/PageNumberStyle/'
+path: '/PageNumberStyle/'
 },
 {
 title: 'Button',
-path: '/Docs/Button/'
+path: '/Button/'
 },
 {
 title: 'FeatherCornerType',
-path: '/Docs/FeatherCornerType/'
+path: '/FeatherCornerType/'
 },
 {
 title: 'OuterGlowSetting',
-path: '/Docs/OuterGlowSetting/'
+path: '/OuterGlowSetting/'
 },
 {
 title: 'Bookmarks',
-path: '/Docs/Bookmarks/'
+path: '/Bookmarks/'
 },
 {
 title: 'PreflightProcesses',
-path: '/Docs/PreflightProcesses/'
+path: '/PreflightProcesses/'
 },
 {
 title: 'Hyperlinks',
-path: '/Docs/Hyperlinks/'
+path: '/Hyperlinks/'
 },
 {
 title: 'MixedInkGroup',
-path: '/Docs/MixedInkGroup/'
+path: '/MixedInkGroup/'
 },
 {
 title: 'CjkGridPreference',
-path: '/Docs/CjkGridPreference/'
+path: '/CjkGridPreference/'
 },
 {
 title: 'CharacterDirectionOptions',
-path: '/Docs/CharacterDirectionOptions/'
+path: '/CharacterDirectionOptions/'
 },
 {
 title: 'PreflightRules',
-path: '/Docs/PreflightRules/'
+path: '/PreflightRules/'
 },
 {
 title: 'StartParagraph',
-path: '/Docs/StartParagraph/'
+path: '/StartParagraph/'
 },
 {
 title: 'AngleComboboxes',
-path: '/Docs/AngleComboboxes/'
+path: '/AngleComboboxes/'
 },
 {
 title: 'DTD',
-path: '/Docs/DTD/'
+path: '/DTD/'
 },
 {
 title: 'PaperSize',
-path: '/Docs/PaperSize/'
+path: '/PaperSize/'
 },
 {
 title: 'PdfDisplayTitleOptions',
-path: '/Docs/PdfDisplayTitleOptions/'
+path: '/PdfDisplayTitleOptions/'
 },
 {
 title: 'Link',
-path: '/Docs/Link/'
+path: '/Link/'
 },
 {
 title: 'LanguageWithVendors',
-path: '/Docs/LanguageWithVendors/'
+path: '/LanguageWithVendors/'
 },
 {
 title: 'MatchParagraphStylePreference',
-path: '/Docs/MatchParagraphStylePreference/'
+path: '/MatchParagraphStylePreference/'
 },
 {
 title: 'Profile',
-path: '/Docs/Profile/'
+path: '/Profile/'
 },
 {
 title: 'PrintPageOrientation',
-path: '/Docs/PrintPageOrientation/'
+path: '/PrintPageOrientation/'
 },
 {
 title: 'EPSText',
-path: '/Docs/EPSText/'
+path: '/EPSText/'
 },
 {
 title: 'XMLItem',
-path: '/Docs/XMLItem/'
+path: '/XMLItem/'
 },
 {
 title: 'GridAlignment',
-path: '/Docs/GridAlignment/'
+path: '/GridAlignment/'
 },
 {
 title: 'index.md',
-path: '/Docs/index.md/'
+path: '/index.md/'
 },
 {
 title: 'TransparencyPreference',
-path: '/Docs/TransparencyPreference/'
+path: '/TransparencyPreference/'
 },
 {
 title: 'Texts',
-path: '/Docs/Texts/'
+path: '/Texts/'
 },
 {
 title: 'StrokeFillTargetOptions',
-path: '/Docs/StrokeFillTargetOptions/'
+path: '/StrokeFillTargetOptions/'
 },
 {
 title: 'PDFExportPreference',
-path: '/Docs/PDFExportPreference/'
+path: '/PDFExportPreference/'
 },
 {
 title: 'XMLTransformFile',
-path: '/Docs/XMLTransformFile/'
+path: '/XMLTransformFile/'
 },
 {
 title: 'StaticText',
-path: '/Docs/StaticText/'
+path: '/StaticText/'
 },
 {
 title: 'ExportRangeOrAllPages',
-path: '/Docs/ExportRangeOrAllPages/'
+path: '/ExportRangeOrAllPages/'
 },
 {
 title: 'Line',
-path: '/Docs/Line/'
+path: '/Line/'
 },
 {
 title: 'PrinterPreset',
-path: '/Docs/PrinterPreset/'
+path: '/PrinterPreset/'
 },
 {
 title: 'Table',
-path: '/Docs/Table/'
+path: '/Table/'
 },
 {
 title: 'TagType',
-path: '/Docs/TagType/'
+path: '/TagType/'
 },
 {
 title: 'TextVariableInstances',
-path: '/Docs/TextVariableInstances/'
+path: '/TextVariableInstances/'
 },
 {
 title: 'Colors',
-path: '/Docs/Colors/'
+path: '/Colors/'
 },
 {
 title: 'Links',
-path: '/Docs/Links/'
+path: '/Links/'
 },
 {
 title: 'HorizontalAlignment',
-path: '/Docs/HorizontalAlignment/'
+path: '/HorizontalAlignment/'
 },
 {
 title: 'AlternateGlyphForms',
-path: '/Docs/AlternateGlyphForms/'
+path: '/AlternateGlyphForms/'
 },
 {
 title: 'HyperlinkAppearanceStyle',
-path: '/Docs/HyperlinkAppearanceStyle/'
+path: '/HyperlinkAppearanceStyle/'
 },
 {
 title: 'PNGExportPreference',
-path: '/Docs/PNGExportPreference/'
+path: '/PNGExportPreference/'
 },
 {
 title: 'PerformanceMetricOptions',
-path: '/Docs/PerformanceMetricOptions/'
+path: '/PerformanceMetricOptions/'
 },
 {
 title: 'FindTextPreference',
-path: '/Docs/FindTextPreference/'
+path: '/FindTextPreference/'
 },
 {
 title: 'ThreadedTextFrameTextOptions',
-path: '/Docs/ThreadedTextFrameTextOptions/'
+path: '/ThreadedTextFrameTextOptions/'
 },
 {
 title: 'ObjectStyleStrokeEffectsCategorySettings',
-path: '/Docs/ObjectStyleStrokeEffectsCategorySettings/'
+path: '/ObjectStyleStrokeEffectsCategorySettings/'
 },
 {
 title: 'Behaviors',
-path: '/Docs/Behaviors/'
+path: '/Behaviors/'
 },
 {
 title: 'CornerOptions',
-path: '/Docs/CornerOptions/'
+path: '/CornerOptions/'
 },
 {
 title: 'PNGExportRangeEnum',
-path: '/Docs/PNGExportRangeEnum/'
+path: '/PNGExportRangeEnum/'
 },
 {
 title: 'PathType',
-path: '/Docs/PathType/'
+path: '/PathType/'
 },
 {
 title: 'Guides',
-path: '/Docs/Guides/'
+path: '/Guides/'
 },
 {
 title: 'SoundBehaviors',
-path: '/Docs/SoundBehaviors/'
+path: '/SoundBehaviors/'
 },
 {
 title: 'EPubFixedLayoutExportPreference',
-path: '/Docs/EPubFixedLayoutExportPreference/'
+path: '/EPubFixedLayoutExportPreference/'
 },
 {
 title: 'PathPoint',
-path: '/Docs/PathPoint/'
+path: '/PathPoint/'
 },
 {
 title: 'SoundBehavior',
-path: '/Docs/SoundBehavior/'
+path: '/SoundBehavior/'
 },
 {
 title: 'VerticallyRelativeTo',
-path: '/Docs/VerticallyRelativeTo/'
+path: '/VerticallyRelativeTo/'
 },
 {
 title: 'AnchorPoint',
-path: '/Docs/AnchorPoint/'
+path: '/AnchorPoint/'
 },
 {
 title: 'Window',
-path: '/Docs/Window/'
+path: '/Window/'
 },
 {
 title: 'BevelAndEmbossSetting',
-path: '/Docs/BevelAndEmbossSetting/'
+path: '/BevelAndEmbossSetting/'
 },
 {
 title: 'NavigationPoint',
-path: '/Docs/NavigationPoint/'
+path: '/NavigationPoint/'
 },
 {
 title: 'FindChangeTransliterateCharacterTypes',
-path: '/Docs/FindChangeTransliterateCharacterTypes/'
+path: '/FindChangeTransliterateCharacterTypes/'
 },
 {
 title: 'ContentType',
-path: '/Docs/ContentType/'
+path: '/ContentType/'
 },
 {
 title: 'Sequences',
-path: '/Docs/Sequences/'
+path: '/Sequences/'
 },
 {
 title: 'Swatches',
-path: '/Docs/Swatches/'
+path: '/Swatches/'
 },
 {
 title: 'PPDValues',
-path: '/Docs/PPDValues/'
+path: '/PPDValues/'
 },
 {
 title: 'ObjectStyleExportTagMap',
-path: '/Docs/ObjectStyleExportTagMap/'
+path: '/ObjectStyleExportTagMap/'
 },
 {
 title: 'Bullet',
-path: '/Docs/Bullet/'
+path: '/Bullet/'
 },
 {
 title: 'PercentComboboxes',
-path: '/Docs/PercentComboboxes/'
+path: '/PercentComboboxes/'
 },
 {
 title: 'ChangeGrepPreference',
-path: '/Docs/ChangeGrepPreference/'
+path: '/ChangeGrepPreference/'
 },
 {
 title: 'PDFJPEGQualityOptions',
-path: '/Docs/PDFJPEGQualityOptions/'
+path: '/PDFJPEGQualityOptions/'
 },
 {
 title: 'VariableTypes',
-path: '/Docs/VariableTypes/'
+path: '/VariableTypes/'
 },
 {
 title: 'HyperlinkTextDestinations',
-path: '/Docs/HyperlinkTextDestinations/'
+path: '/HyperlinkTextDestinations/'
 },
 {
 title: 'ColorGroupSwatch',
-path: '/Docs/ColorGroupSwatch/'
+path: '/ColorGroupSwatch/'
 },
 {
 title: 'CharacterStyleGroup',
-path: '/Docs/CharacterStyleGroup/'
+path: '/CharacterStyleGroup/'
 },
 {
 title: 'ClearFormBehaviors',
-path: '/Docs/ClearFormBehaviors/'
+path: '/ClearFormBehaviors/'
 },
 {
 title: 'ToolBox',
-path: '/Docs/ToolBox/'
+path: '/ToolBox/'
 },
 {
 title: 'HyperlinkDestinationPageSetting',
-path: '/Docs/HyperlinkDestinationPageSetting/'
+path: '/HyperlinkDestinationPageSetting/'
 },
 {
 title: 'CrossReferences',
-path: '/Docs/CrossReferences/'
+path: '/CrossReferences/'
 },
 {
 title: 'FolioBindingDirectionOptions',
-path: '/Docs/FolioBindingDirectionOptions/'
+path: '/FolioBindingDirectionOptions/'
 },
 {
 title: 'FileNameVariablePreference',
-path: '/Docs/FileNameVariablePreference/'
+path: '/FileNameVariablePreference/'
 },
 {
 title: 'NestedGrepStyles',
-path: '/Docs/NestedGrepStyles/'
+path: '/NestedGrepStyles/'
 },
 {
 title: 'ViewZoomStyle',
-path: '/Docs/ViewZoomStyle/'
+path: '/ViewZoomStyle/'
 },
 {
 title: 'XMLInstructions',
-path: '/Docs/XMLInstructions/'
+path: '/XMLInstructions/'
 },
 {
 title: 'Menu',
-path: '/Docs/Menu/'
+path: '/Menu/'
 },
 {
 title: 'NestedStyle',
-path: '/Docs/NestedStyle/'
+path: '/NestedStyle/'
 },
 {
 title: 'States',
-path: '/Docs/States/'
+path: '/States/'
 },
 {
 title: 'JPEGExportPreference',
-path: '/Docs/JPEGExportPreference/'
+path: '/JPEGExportPreference/'
 },
 {
 title: 'ExportFormat',
-path: '/Docs/ExportFormat/'
+path: '/ExportFormat/'
 },
 {
 title: 'Spacing',
-path: '/Docs/Spacing/'
+path: '/Spacing/'
 },
 {
 title: 'WarichuAlignment',
-path: '/Docs/WarichuAlignment/'
+path: '/WarichuAlignment/'
 },
 {
 title: 'Conditions',
-path: '/Docs/Conditions/'
+path: '/Conditions/'
 },
 {
 title: 'PreflightScopeOptions',
-path: '/Docs/PreflightScopeOptions/'
+path: '/PreflightScopeOptions/'
 },
 {
 title: 'RadiobuttonGroup',
-path: '/Docs/RadiobuttonGroup/'
+path: '/RadiobuttonGroup/'
 },
 {
 title: 'TextVariableInstance',
-path: '/Docs/TextVariableInstance/'
+path: '/TextVariableInstance/'
 },
 {
 title: 'SignatureFields',
-path: '/Docs/SignatureFields/'
+path: '/SignatureFields/'
 },
 {
 title: 'JpegColorSpaceEnum',
-path: '/Docs/JpegColorSpaceEnum/'
+path: '/JpegColorSpaceEnum/'
 },
 {
 title: 'ClippingPathSettings',
-path: '/Docs/ClippingPathSettings/'
+path: '/ClippingPathSettings/'
 },
 {
 title: 'Book',
-path: '/Docs/Book/'
+path: '/Book/'
 },
 {
 title: 'IndexingSortOptions',
-path: '/Docs/IndexingSortOptions/'
+path: '/IndexingSortOptions/'
 },
 {
 title: 'ImageDataTypes',
-path: '/Docs/ImageDataTypes/'
+path: '/ImageDataTypes/'
 },
 {
 title: 'ImageFormat',
-path: '/Docs/ImageFormat/'
+path: '/ImageFormat/'
 },
 {
 title: 'XMLPreference',
-path: '/Docs/XMLPreference/'
+path: '/XMLPreference/'
 },
 {
 title: 'NotePreference',
-path: '/Docs/NotePreference/'
+path: '/NotePreference/'
 },
 {
 title: 'PointType',
-path: '/Docs/PointType/'
+path: '/PointType/'
 },
 {
 title: 'CharacterStyles',
-path: '/Docs/CharacterStyles/'
+path: '/CharacterStyles/'
 },
 {
 title: 'LanguagesWithVendors',
-path: '/Docs/LanguagesWithVendors/'
+path: '/LanguagesWithVendors/'
 },
 {
 title: 'NestedStyles',
-path: '/Docs/NestedStyles/'
+path: '/NestedStyles/'
 },
 {
 title: 'ViewZoomBehaviors',
-path: '/Docs/ViewZoomBehaviors/'
+path: '/ViewZoomBehaviors/'
 },
 {
 title: 'ArticleChild',
-path: '/Docs/ArticleChild/'
+path: '/ArticleChild/'
 },
 {
 title: 'DistributeOptions',
-path: '/Docs/DistributeOptions/'
+path: '/DistributeOptions/'
 },
 {
 title: 'AntiAliasType',
-path: '/Docs/AntiAliasType/'
+path: '/AntiAliasType/'
 },
 {
 title: 'Footnotes',
-path: '/Docs/Footnotes/'
+path: '/Footnotes/'
 },
 {
 title: 'FootnoteOption',
-path: '/Docs/FootnoteOption/'
+path: '/FootnoteOption/'
 },
 {
 title: 'PreflightLayerOptions',
-path: '/Docs/PreflightLayerOptions/'
+path: '/PreflightLayerOptions/'
 },
 {
 title: 'TransformAttributeOption',
-path: '/Docs/TransformAttributeOption/'
+path: '/TransformAttributeOption/'
 },
 {
 title: 'Movies',
-path: '/Docs/Movies/'
+path: '/Movies/'
 },
 {
 title: 'DigpubVersion',
-path: '/Docs/DigpubVersion/'
+path: '/DigpubVersion/'
 },
 {
 title: 'ScriptMenuAction',
-path: '/Docs/ScriptMenuAction/'
+path: '/ScriptMenuAction/'
 },
 {
 title: 'ComboBoxes',
-path: '/Docs/ComboBoxes/'
+path: '/ComboBoxes/'
 },
 {
 title: 'EPubExportPreference',
-path: '/Docs/EPubExportPreference/'
+path: '/EPubExportPreference/'
 },
 {
 title: 'ListType',
-path: '/Docs/ListType/'
+path: '/ListType/'
 },
 {
 title: 'Word',
-path: '/Docs/Word/'
+path: '/Word/'
 },
 {
 title: 'PageReferences',
-path: '/Docs/PageReferences/'
+path: '/PageReferences/'
 },
 {
 title: 'GotoPreviousPageBehaviors',
-path: '/Docs/GotoPreviousPageBehaviors/'
+path: '/GotoPreviousPageBehaviors/'
 },
 {
 title: 'ChangeConditionsModes',
-path: '/Docs/ChangeConditionsModes/'
+path: '/ChangeConditionsModes/'
 },
 {
 title: 'MasterSpread',
-path: '/Docs/MasterSpread/'
+path: '/MasterSpread/'
 },
 {
 title: 'DimensionsConstraints',
-path: '/Docs/DimensionsConstraints/'
+path: '/DimensionsConstraints/'
 },
 {
 title: 'HttpLinkConnectionManagerObject',
-path: '/Docs/HttpLinkConnectionManagerObject/'
+path: '/HttpLinkConnectionManagerObject/'
 },
 {
 title: 'Menus',
-path: '/Docs/Menus/'
+path: '/Menus/'
 },
 {
 title: 'TextEditboxes',
-path: '/Docs/TextEditboxes/'
+path: '/TextEditboxes/'
 },
 {
 title: 'FlattenerLevel',
-path: '/Docs/FlattenerLevel/'
+path: '/FlattenerLevel/'
 },
 {
 title: 'ColorGroup',
-path: '/Docs/ColorGroup/'
+path: '/ColorGroup/'
 },
 {
 title: 'VariableNumberingStyles',
-path: '/Docs/VariableNumberingStyles/'
+path: '/VariableNumberingStyles/'
 },
 {
 title: 'ArrowHead',
-path: '/Docs/ArrowHead/'
+path: '/ArrowHead/'
 },
 {
 title: 'MediaItems',
-path: '/Docs/MediaItems/'
+path: '/MediaItems/'
 },
 {
 title: 'FindGlyphPreference',
-path: '/Docs/FindGlyphPreference/'
+path: '/FindGlyphPreference/'
 },
 {
 title: 'FindChangeBlendingSetting',
-path: '/Docs/FindChangeBlendingSetting/'
+path: '/FindChangeBlendingSetting/'
 },
 {
 title: 'MenuItems',
-path: '/Docs/MenuItems/'
+path: '/MenuItems/'
 },
 {
 title: 'MonoBitmapCompression',
-path: '/Docs/MonoBitmapCompression/'
+path: '/MonoBitmapCompression/'
 },
 {
 title: 'PDFs',
-path: '/Docs/PDFs/'
+path: '/PDFs/'
 },
 {
 title: 'TransformationMatrix',
-path: '/Docs/TransformationMatrix/'
+path: '/TransformationMatrix/'
 },
 {
 title: 'XMLTags',
-path: '/Docs/XMLTags/'
+path: '/XMLTags/'
 },
 {
 title: 'EPS',
-path: '/Docs/EPS/'
+path: '/EPS/'
 },
 {
 title: 'SizeTypeEnum',
-path: '/Docs/SizeTypeEnum/'
+path: '/SizeTypeEnum/'
 },
 {
 title: 'Index',
-path: '/Docs/Index/'
+path: '/Index/'
 },
 {
 title: 'SmoothScrollingOptions',
-path: '/Docs/SmoothScrollingOptions/'
+path: '/SmoothScrollingOptions/'
 },
 {
 title: 'TransformPositionReference',
-path: '/Docs/TransformPositionReference/'
+path: '/TransformPositionReference/'
 },
 {
 title: 'FontEmbedding',
-path: '/Docs/FontEmbedding/'
+path: '/FontEmbedding/'
 },
 {
 title: 'ParagraphStyle',
-path: '/Docs/ParagraphStyle/'
+path: '/ParagraphStyle/'
 },
 {
 title: 'Dialogs',
-path: '/Docs/Dialogs/'
+path: '/Dialogs/'
 },
 {
 title: 'ParagraphBorderTopOriginEnum',
-path: '/Docs/ParagraphBorderTopOriginEnum/'
+path: '/ParagraphBorderTopOriginEnum/'
 },
 {
 title: 'XMLImportMap',
-path: '/Docs/XMLImportMap/'
+path: '/XMLImportMap/'
 },
 {
 title: 'FeatherMode',
-path: '/Docs/FeatherMode/'
+path: '/FeatherMode/'
 },
 {
 title: 'StrokeOrderTypes',
-path: '/Docs/StrokeOrderTypes/'
+path: '/StrokeOrderTypes/'
 },
 {
 title: 'XMLAttributes',
-path: '/Docs/XMLAttributes/'
+path: '/XMLAttributes/'
 },
 {
 title: 'ValidationError',
-path: '/Docs/ValidationError/'
+path: '/ValidationError/'
 },
 {
 title: 'EndnoteTextFrames',
-path: '/Docs/EndnoteTextFrames/'
+path: '/EndnoteTextFrames/'
 },
 {
 title: 'PageNumberPosition',
-path: '/Docs/PageNumberPosition/'
+path: '/PageNumberPosition/'
 },
 {
 title: 'ListBoxes',
-path: '/Docs/ListBoxes/'
+path: '/ListBoxes/'
 },
 {
 title: 'ShadowMode',
-path: '/Docs/ShadowMode/'
+path: '/ShadowMode/'
 },
 {
 title: 'PageReference',
-path: '/Docs/PageReference/'
+path: '/PageReference/'
 },
 {
 title: 'IndexCapitalizationOptions',
-path: '/Docs/IndexCapitalizationOptions/'
+path: '/IndexCapitalizationOptions/'
 },
 {
 title: 'VerticalAlignment',
-path: '/Docs/VerticalAlignment/'
+path: '/VerticalAlignment/'
 },
 {
 title: 'IdleTask',
-path: '/Docs/IdleTask/'
+path: '/IdleTask/'
 },
 {
 title: 'XMLExportMap',
-path: '/Docs/XMLExportMap/'
+path: '/XMLExportMap/'
 },
 {
 title: 'FindChangeColorOption',
-path: '/Docs/FindChangeColorOption/'
+path: '/FindChangeColorOption/'
 },
 {
 title: 'HiddenText',
-path: '/Docs/HiddenText/'
+path: '/HiddenText/'
 },
 {
 title: 'EnablingGroups',
-path: '/Docs/EnablingGroups/'
+path: '/EnablingGroups/'
 },
 {
 title: 'BitmapCompression',
-path: '/Docs/BitmapCompression/'
+path: '/BitmapCompression/'
 },
 {
 title: 'DialogRow',
-path: '/Docs/DialogRow/'
+path: '/DialogRow/'
 },
 {
 title: 'RadioButtons',
-path: '/Docs/RadioButtons/'
+path: '/RadioButtons/'
 },
 {
 title: 'MarkLineWeight',
-path: '/Docs/MarkLineWeight/'
+path: '/MarkLineWeight/'
 },
 {
 title: 'GeneralPreference',
-path: '/Docs/GeneralPreference/'
+path: '/GeneralPreference/'
 },
 {
 title: 'ParagraphBorderEnum',
-path: '/Docs/ParagraphBorderEnum/'
+path: '/ParagraphBorderEnum/'
 },
 {
 title: 'SpellPreference',
-path: '/Docs/SpellPreference/'
+path: '/SpellPreference/'
 },
 {
 title: 'ChapterNumberVariablePreference',
-path: '/Docs/ChapterNumberVariablePreference/'
+path: '/ChapterNumberVariablePreference/'
 },
 {
 title: 'SelectAll',
-path: '/Docs/SelectAll/'
+path: '/SelectAll/'
 },
 {
 title: 'StoryHorizontalOrVertical',
-path: '/Docs/StoryHorizontalOrVertical/'
+path: '/StoryHorizontalOrVertical/'
 },
 {
 title: 'BevelAndEmbossTechnique',
-path: '/Docs/BevelAndEmbossTechnique/'
+path: '/BevelAndEmbossTechnique/'
 },
 {
 title: 'WhenScalingOptions',
-path: '/Docs/WhenScalingOptions/'
+path: '/WhenScalingOptions/'
 },
 {
 title: 'ConvertPageBreaks',
-path: '/Docs/ConvertPageBreaks/'
+path: '/ConvertPageBreaks/'
 },
 {
 title: 'TagTextExportCharacterSet',
-path: '/Docs/TagTextExportCharacterSet/'
+path: '/TagTextExportCharacterSet/'
 },
 {
 title: 'Screeening',
-path: '/Docs/Screeening/'
+path: '/Screeening/'
 },
 {
 title: 'SingleWordJustification',
-path: '/Docs/SingleWordJustification/'
+path: '/SingleWordJustification/'
 },
 {
 title: 'TextExportCharacterSet',
-path: '/Docs/TextExportCharacterSet/'
+path: '/TextExportCharacterSet/'
 },
 {
 title: 'DefaultRenderingIntent',
-path: '/Docs/DefaultRenderingIntent/'
+path: '/DefaultRenderingIntent/'
 },
 {
 title: 'GotoPageBehaviors',
-path: '/Docs/GotoPageBehaviors/'
+path: '/GotoPageBehaviors/'
 },
 {
 title: 'ParagraphShadingWidthEnum',
-path: '/Docs/ParagraphShadingWidthEnum/'
+path: '/ParagraphShadingWidthEnum/'
 },
 {
 title: 'TilingTypes',
-path: '/Docs/TilingTypes/'
+path: '/TilingTypes/'
 },
 {
 title: 'EPSTexts',
-path: '/Docs/EPSTexts/'
+path: '/EPSTexts/'
 },
 {
 title: 'GradientType',
-path: '/Docs/GradientType/'
+path: '/GradientType/'
 },
 {
 title: 'PublishCoverEnum',
-path: '/Docs/PublishCoverEnum/'
+path: '/PublishCoverEnum/'
 },
 {
 title: 'AnchorPosition',
-path: '/Docs/AnchorPosition/'
+path: '/AnchorPosition/'
 },
 {
 title: 'FindChangeDirectionalFeatherSetting',
-path: '/Docs/FindChangeDirectionalFeatherSetting/'
+path: '/FindChangeDirectionalFeatherSetting/'
 },
 {
 title: 'AssignmentExportOptions',
-path: '/Docs/AssignmentExportOptions/'
+path: '/AssignmentExportOptions/'
 },
 {
 title: 'RuleDataObject',
-path: '/Docs/RuleDataObject/'
+path: '/RuleDataObject/'
 },
 {
 title: 'KentenCharacter',
-path: '/Docs/KentenCharacter/'
+path: '/KentenCharacter/'
 },
 {
 title: 'SpreadFlattenerLevel',
-path: '/Docs/SpreadFlattenerLevel/'
+path: '/SpreadFlattenerLevel/'
 },
 {
 title: 'ClearFormBehavior',
-path: '/Docs/ClearFormBehavior/'
+path: '/ClearFormBehavior/'
 },
 {
 title: 'AlignmentStyleOptions',
-path: '/Docs/AlignmentStyleOptions/'
+path: '/AlignmentStyleOptions/'
 },
 {
 title: 'LibraryPanelViews',
-path: '/Docs/LibraryPanelViews/'
+path: '/LibraryPanelViews/'
 },
 {
 title: 'NamedGrids',
-path: '/Docs/NamedGrids/'
+path: '/NamedGrids/'
 },
 {
 title: 'TransparencySetting',
-path: '/Docs/TransparencySetting/'
+path: '/TransparencySetting/'
 },
 {
 title: 'TimingList',
-path: '/Docs/TimingList/'
+path: '/TimingList/'
 },
 {
 title: 'FontStatus',
-path: '/Docs/FontStatus/'
+path: '/FontStatus/'
 },
 {
 title: 'SplineItems',
-path: '/Docs/SplineItems/'
+path: '/SplineItems/'
 },
 {
 title: 'SmartMatchOptions',
-path: '/Docs/SmartMatchOptions/'
+path: '/SmartMatchOptions/'
 },
 {
 title: 'CharStyleMappings',
-path: '/Docs/CharStyleMappings/'
+path: '/CharStyleMappings/'
 },
 {
 title: 'PageItems',
-path: '/Docs/PageItems/'
+path: '/PageItems/'
 },
 {
 title: 'SplineItem',
-path: '/Docs/SplineItem/'
+path: '/SplineItem/'
 },
 {
 title: 'FlattenerPresets',
-path: '/Docs/FlattenerPresets/'
+path: '/FlattenerPresets/'
 },
 {
 title: 'CompositeFont',
-path: '/Docs/CompositeFont/'
+path: '/CompositeFont/'
 },
 {
 title: 'TaskState',
-path: '/Docs/TaskState/'
+path: '/TaskState/'
 },
 {
 title: 'ResizeMethods',
-path: '/Docs/ResizeMethods/'
+path: '/ResizeMethods/'
 },
 {
 title: 'PathTypeAlignments',
-path: '/Docs/PathTypeAlignments/'
+path: '/PathTypeAlignments/'
 },
 {
 title: 'Documents',
-path: '/Docs/Documents/'
+path: '/Documents/'
 },
 {
 title: 'CharStyleMapping',
-path: '/Docs/CharStyleMapping/'
+path: '/CharStyleMapping/'
 },
 {
 title: 'PageRange',
-path: '/Docs/PageRange/'
+path: '/PageRange/'
 },
 {
 title: 'Ovals',
-path: '/Docs/Ovals/'
+path: '/Ovals/'
 },
 {
 title: 'NumberingList',
-path: '/Docs/NumberingList/'
+path: '/NumberingList/'
 },
 {
 title: 'HeaderTypes',
-path: '/Docs/HeaderTypes/'
+path: '/HeaderTypes/'
 },
 {
 title: 'ZoomOptions',
-path: '/Docs/ZoomOptions/'
+path: '/ZoomOptions/'
 },
 {
 title: 'ChangeColorPreference',
-path: '/Docs/ChangeColorPreference/'
+path: '/ChangeColorPreference/'
 },
 {
 title: 'Text',
-path: '/Docs/Text/'
+path: '/Text/'
 },
 {
 title: 'Columns',
-path: '/Docs/Columns/'
+path: '/Columns/'
 },
 {
 title: 'SubmitFormBehaviors',
-path: '/Docs/SubmitFormBehaviors/'
+path: '/SubmitFormBehaviors/'
 },
 {
 title: 'BookContentStatus',
-path: '/Docs/BookContentStatus/'
+path: '/BookContentStatus/'
 },
 {
 title: 'XMLComment',
-path: '/Docs/XMLComment/'
+path: '/XMLComment/'
 },
 {
 title: 'Application',
-path: '/Docs/Application/'
+path: '/Application/'
 },
 {
 title: 'DataMergePreference',
-path: '/Docs/DataMergePreference/'
+path: '/DataMergePreference/'
 },
 {
 title: 'ArticleChildren',
-path: '/Docs/ArticleChildren/'
+path: '/ArticleChildren/'
 },
 {
 title: 'StoryDirectionOptions',
-path: '/Docs/StoryDirectionOptions/'
+path: '/StoryDirectionOptions/'
 },
 {
 title: 'Font',
-path: '/Docs/Font/'
+path: '/Font/'
 },
 {
 title: 'RuleWidth',
-path: '/Docs/RuleWidth/'
+path: '/RuleWidth/'
 },
 {
 title: 'ChangeBackgroundColorChoices',
-path: '/Docs/ChangeBackgroundColorChoices/'
+path: '/ChangeBackgroundColorChoices/'
 },
 {
 title: 'RecordSelection',
-path: '/Docs/RecordSelection/'
+path: '/RecordSelection/'
 },
 {
 title: 'FindChangeDropShadowSetting',
-path: '/Docs/FindChangeDropShadowSetting/'
+path: '/FindChangeDropShadowSetting/'
 },
 {
 title: 'ConvertShapeOptions',
-path: '/Docs/ConvertShapeOptions/'
+path: '/ConvertShapeOptions/'
 },
 {
 title: 'MatrixContent',
-path: '/Docs/MatrixContent/'
+path: '/MatrixContent/'
 },
 {
 title: 'Spreads',
-path: '/Docs/Spreads/'
+path: '/Spreads/'
 },
 {
 title: 'HyperlinkPageDestination',
-path: '/Docs/HyperlinkPageDestination/'
+path: '/HyperlinkPageDestination/'
 },
 {
 title: 'PlaceGun',
-path: '/Docs/PlaceGun/'
+path: '/PlaceGun/'
 },
 {
 title: 'Article',
-path: '/Docs/Article/'
+path: '/Article/'
 },
 {
 title: 'EPubExportPreviewAppPreference',
-path: '/Docs/EPubExportPreviewAppPreference/'
+path: '/EPubExportPreviewAppPreference/'
 },
 {
 title: 'MojikumiTable',
-path: '/Docs/MojikumiTable/'
+path: '/MojikumiTable/'
 },
 {
 title: 'BulletListExportOption',
-path: '/Docs/BulletListExportOption/'
+path: '/BulletListExportOption/'
 },
 {
 title: 'EpubNavigationStyle',
-path: '/Docs/EpubNavigationStyle/'
+path: '/EpubNavigationStyle/'
 },
 {
 title: 'OutlineJoin',
-path: '/Docs/OutlineJoin/'
+path: '/OutlineJoin/'
 },
 {
 title: 'TableFormattingOptions',
-path: '/Docs/TableFormattingOptions/'
+path: '/TableFormattingOptions/'
 },
 {
 title: 'PreflightProfiles',
-path: '/Docs/PreflightProfiles/'
+path: '/PreflightProfiles/'
 },
 {
 title: 'Submenu',
-path: '/Docs/Submenu/'
+path: '/Submenu/'
 },
 {
 title: 'ExportPresetFormat',
-path: '/Docs/ExportPresetFormat/'
+path: '/ExportPresetFormat/'
 },
 {
 title: 'ScaleModes',
-path: '/Docs/ScaleModes/'
+path: '/ScaleModes/'
 },
 {
 title: 'Dropdowns',
-path: '/Docs/Dropdowns/'
+path: '/Dropdowns/'
 },
 {
 title: 'PageNumberingOptions',
-path: '/Docs/PageNumberingOptions/'
+path: '/PageNumberingOptions/'
 },
 {
 title: 'MultiStateObject',
-path: '/Docs/MultiStateObject/'
+path: '/MultiStateObject/'
 },
 {
 title: 'XMLElement',
-path: '/Docs/XMLElement/'
+path: '/XMLElement/'
 },
 {
 title: 'Windows',
-path: '/Docs/Windows/'
+path: '/Windows/'
 },
 {
 title: 'PositionAttributes',
-path: '/Docs/PositionAttributes/'
+path: '/PositionAttributes/'
 },
 {
 title: 'SpanColumnCountOptions',
-path: '/Docs/SpanColumnCountOptions/'
+path: '/SpanColumnCountOptions/'
 },
 {
 title: 'PageRangeFormat',
-path: '/Docs/PageRangeFormat/'
+path: '/PageRangeFormat/'
 },
 {
 title: 'MasterSpreads',
-path: '/Docs/MasterSpreads/'
+path: '/MasterSpreads/'
 },
 {
 title: 'PageReferenceType',
-path: '/Docs/PageReferenceType/'
+path: '/PageReferenceType/'
 },
 {
 title: 'Events',
-path: '/Docs/Events/'
+path: '/Events/'
 },
 {
 title: 'ColorOutputModes',
-path: '/Docs/ColorOutputModes/'
+path: '/ColorOutputModes/'
 },
 {
 title: 'DynamicMediaHandlingOptions',
-path: '/Docs/DynamicMediaHandlingOptions/'
+path: '/DynamicMediaHandlingOptions/'
 },
 {
 title: 'Characters',
-path: '/Docs/Characters/'
+path: '/Characters/'
 },
 {
 title: 'OpenFileBehavior',
-path: '/Docs/OpenFileBehavior/'
+path: '/OpenFileBehavior/'
 },
 {
 title: 'Gradients',
-path: '/Docs/Gradients/'
+path: '/Gradients/'
 },
 {
 title: 'BaselineFrameGridRelativeOption',
-path: '/Docs/BaselineFrameGridRelativeOption/'
+path: '/BaselineFrameGridRelativeOption/'
 },
 {
 title: 'AdjustLayoutPreference',
-path: '/Docs/AdjustLayoutPreference/'
+path: '/AdjustLayoutPreference/'
 },
 {
 title: 'ViewPreference',
-path: '/Docs/ViewPreference/'
+path: '/ViewPreference/'
 },
 {
 title: 'Graphics',
-path: '/Docs/Graphics/'
+path: '/Graphics/'
 },
 {
 title: 'TextEditbox',
-path: '/Docs/TextEditbox/'
+path: '/TextEditbox/'
 },
 {
 title: 'FindChangeInnerShadowSetting',
-path: '/Docs/FindChangeInnerShadowSetting/'
+path: '/FindChangeInnerShadowSetting/'
 },
 {
 title: 'CursorTypes',
-path: '/Docs/CursorTypes/'
+path: '/CursorTypes/'
 },
 {
 title: 'GradientStops',
-path: '/Docs/GradientStops/'
+path: '/GradientStops/'
 },
 {
 title: 'OpenTypeFeature',
-path: '/Docs/OpenTypeFeature/'
+path: '/OpenTypeFeature/'
 },
 {
 title: 'TaskAlertType',
-path: '/Docs/TaskAlertType/'
+path: '/TaskAlertType/'
 },
 {
 title: 'ImportExportEvent',
-path: '/Docs/ImportExportEvent/'
+path: '/ImportExportEvent/'
 },
 {
 title: 'ContainerType',
-path: '/Docs/ContainerType/'
+path: '/ContainerType/'
 },
 {
 title: 'ExportOrder',
-path: '/Docs/ExportOrder/'
+path: '/ExportOrder/'
 },
 {
 title: 'Fonts',
-path: '/Docs/Fonts/'
+path: '/Fonts/'
 },
 {
 title: 'FontSyncPreference',
-path: '/Docs/FontSyncPreference/'
+path: '/FontSyncPreference/'
 },
 {
 title: 'FindChangeContentTransparencySetting',
-path: '/Docs/FindChangeContentTransparencySetting/'
+path: '/FindChangeContentTransparencySetting/'
 },
 {
 title: 'CellStyleMappings',
-path: '/Docs/CellStyleMappings/'
+path: '/CellStyleMappings/'
 },
 {
 title: 'ClipboardPreference',
-path: '/Docs/ClipboardPreference/'
+path: '/ClipboardPreference/'
 },
 {
 title: 'MenuActions',
-path: '/Docs/MenuActions/'
+path: '/MenuActions/'
 },
 {
 title: 'BackgroundTasks',
-path: '/Docs/BackgroundTasks/'
+path: '/BackgroundTasks/'
 },
 {
 title: 'CellStyles',
-path: '/Docs/CellStyles/'
+path: '/CellStyles/'
 },
 {
 title: 'TransformationMatrices',
-path: '/Docs/TransformationMatrices/'
+path: '/TransformationMatrices/'
 },
 {
 title: 'PageNumberVariablePreference',
-path: '/Docs/PageNumberVariablePreference/'
+path: '/PageNumberVariablePreference/'
 },
 {
 title: 'ChangecaseMode',
-path: '/Docs/ChangecaseMode/'
+path: '/ChangecaseMode/'
 },
 {
 title: 'AdornmentOverprint',
-path: '/Docs/AdornmentOverprint/'
+path: '/AdornmentOverprint/'
 },
 {
 title: 'FolioOrientationOptions',
-path: '/Docs/FolioOrientationOptions/'
+path: '/FolioOrientationOptions/'
 },
 {
 title: 'PDFProfileSelector',
-path: '/Docs/PDFProfileSelector/'
+path: '/PDFProfileSelector/'
 },
 {
 title: 'ScriptArg',
-path: '/Docs/ScriptArg/'
+path: '/ScriptArg/'
 },
 {
 title: 'AnimationBehavior',
-path: '/Docs/AnimationBehavior/'
+path: '/AnimationBehavior/'
 },
 {
 title: 'DataMergeQrcodePlaceholders',
-path: '/Docs/DataMergeQrcodePlaceholders/'
+path: '/DataMergeQrcodePlaceholders/'
 },
 {
 title: 'Assets',
-path: '/Docs/Assets/'
+path: '/Assets/'
 },
 {
 title: 'Paragraphs',
-path: '/Docs/Paragraphs/'
+path: '/Paragraphs/'
 },
 {
 title: 'GotoURLBehaviors',
-path: '/Docs/GotoURLBehaviors/'
+path: '/GotoURLBehaviors/'
 },
 {
 title: 'Sound',
-path: '/Docs/Sound/'
+path: '/Sound/'
 },
 {
 title: 'SnapshotBlendingModes',
-path: '/Docs/SnapshotBlendingModes/'
+path: '/SnapshotBlendingModes/'
 },
 {
 title: 'Pages',
-path: '/Docs/Pages/'
+path: '/Pages/'
 },
 {
 title: 'StrokeStyle',
-path: '/Docs/StrokeStyle/'
+path: '/StrokeStyle/'
 },
 {
 title: 'ArrangeBy',
-path: '/Docs/ArrangeBy/'
+path: '/ArrangeBy/'
 },
 {
 title: 'RenderingIntent',
-path: '/Docs/RenderingIntent/'
+path: '/RenderingIntent/'
 },
 {
 title: 'PageLayoutOptions',
-path: '/Docs/PageLayoutOptions/'
+path: '/PageLayoutOptions/'
 },
 {
 title: 'ChangebarLocations',
-path: '/Docs/ChangebarLocations/'
+path: '/ChangebarLocations/'
 },
 {
 title: 'PreflightProfileOptions',
-path: '/Docs/PreflightProfileOptions/'
+path: '/PreflightProfileOptions/'
 },
 {
 title: 'CrossReferenceFormats',
-path: '/Docs/CrossReferenceFormats/'
+path: '/CrossReferenceFormats/'
 },
 {
 title: 'CharacterStyle',
-path: '/Docs/CharacterStyle/'
+path: '/CharacterStyle/'
 },
 {
 title: 'RestartPolicy',
-path: '/Docs/RestartPolicy/'
+path: '/RestartPolicy/'
 },
 {
 title: 'EPubFootnotePlacement',
-path: '/Docs/EPubFootnotePlacement/'
+path: '/EPubFootnotePlacement/'
 },
 {
 title: 'FindChangeTransparencySetting',
-path: '/Docs/FindChangeTransparencySetting/'
+path: '/FindChangeTransparencySetting/'
 },
 {
 title: 'RuleDataObjects',
-path: '/Docs/RuleDataObjects/'
+path: '/RuleDataObjects/'
 },
 {
 title: 'DataMergeTextPlaceholder',
-path: '/Docs/DataMergeTextPlaceholder/'
+path: '/DataMergeTextPlaceholder/'
 },
 {
 title: 'GridDataInformation',
-path: '/Docs/GridDataInformation/'
+path: '/GridDataInformation/'
 },
 {
 title: 'NoteBackgrounds',
-path: '/Docs/NoteBackgrounds/'
+path: '/NoteBackgrounds/'
 },
 {
 title: 'TextFrames',
-path: '/Docs/TextFrames/'
+path: '/TextFrames/'
 },
 {
 title: 'EPSs',
-path: '/Docs/EPSs/'
+path: '/EPSs/'
 },
 {
 title: 'SearchModes',
-path: '/Docs/SearchModes/'
+path: '/SearchModes/'
 },
 {
 title: 'Lines',
-path: '/Docs/Lines/'
+path: '/Lines/'
 },
 {
 title: 'ImageAlignmentType',
-path: '/Docs/ImageAlignmentType/'
+path: '/ImageAlignmentType/'
 },
 {
 title: 'EpubCover',
-path: '/Docs/EpubCover/'
+path: '/EpubCover/'
 },
 {
 title: 'PDFAttribute',
-path: '/Docs/PDFAttribute/'
+path: '/PDFAttribute/'
 },
 {
 title: 'DiacriticPositionOptions',
-path: '/Docs/DiacriticPositionOptions/'
+path: '/DiacriticPositionOptions/'
 },
 {
 title: 'ArticleMember',
-path: '/Docs/ArticleMember/'
+path: '/ArticleMember/'
 },
 {
 title: 'Event',
-path: '/Docs/Event/'
+path: '/Event/'
 },
 {
 title: 'TextBox',
-path: '/Docs/TextBox/'
+path: '/TextBox/'
 },
 {
 title: 'XMLTag',
-path: '/Docs/XMLTag/'
+path: '/XMLTag/'
 },
 {
 title: 'MixedInkGroups',
-path: '/Docs/MixedInkGroups/'
+path: '/MixedInkGroups/'
 },
 {
 title: 'Inks',
-path: '/Docs/Inks/'
+path: '/Inks/'
 },
 {
 title: 'NoteColorChoices',
-path: '/Docs/NoteColorChoices/'
+path: '/NoteColorChoices/'
 },
 {
 title: 'TrackChangesPreference',
-path: '/Docs/TrackChangesPreference/'
+path: '/TrackChangesPreference/'
 },
 {
 title: 'IconSizes',
-path: '/Docs/IconSizes/'
+path: '/IconSizes/'
 },
 {
 title: 'NavigationPoints',
-path: '/Docs/NavigationPoints/'
+path: '/NavigationPoints/'
 },
 {
 title: 'IMEPreference',
-path: '/Docs/IMEPreference/'
+path: '/IMEPreference/'
 },
 {
 title: 'ObjectStyleFillEffectsCategorySettings',
-path: '/Docs/ObjectStyleFillEffectsCategorySettings/'
+path: '/ObjectStyleFillEffectsCategorySettings/'
 },
 {
 title: 'ParagraphStyles',
-path: '/Docs/ParagraphStyles/'
+path: '/ParagraphStyles/'
 },
 {
 title: 'DataFormat',
-path: '/Docs/DataFormat/'
+path: '/DataFormat/'
 },
 {
 title: 'DropShadowSetting',
-path: '/Docs/DropShadowSetting/'
+path: '/DropShadowSetting/'
 },
 {
 title: 'PDFRasterCompressionOptions',
-path: '/Docs/PDFRasterCompressionOptions/'
+path: '/PDFRasterCompressionOptions/'
 },
 {
 title: 'HtmlItems',
-path: '/Docs/HtmlItems/'
+path: '/HtmlItems/'
 },
 {
 title: 'MixedInk',
-path: '/Docs/MixedInk/'
+path: '/MixedInk/'
 },
 {
 title: 'ConditionalTextPreference',
-path: '/Docs/ConditionalTextPreference/'
+path: '/ConditionalTextPreference/'
 },
 {
 title: 'IndexFormat',
-path: '/Docs/IndexFormat/'
+path: '/IndexFormat/'
 },
 {
 title: 'ParagraphDestinations',
-path: '/Docs/ParagraphDestinations/'
+path: '/ParagraphDestinations/'
 },
 {
 title: 'GotoNextStateBehaviors',
-path: '/Docs/GotoNextStateBehaviors/'
+path: '/GotoNextStateBehaviors/'
 },
 {
 title: 'BookContent',
-path: '/Docs/BookContent/'
+path: '/BookContent/'
 },
 {
 title: 'XMLElementPosition',
-path: '/Docs/XMLElementPosition/'
+path: '/XMLElementPosition/'
 },
 {
 title: 'Footnote',
-path: '/Docs/Footnote/'
+path: '/Footnote/'
 },
 {
 title: 'DynamicDocumentsJPEGQualityOptions',
-path: '/Docs/DynamicDocumentsJPEGQualityOptions/'
+path: '/DynamicDocumentsJPEGQualityOptions/'
 },
 {
 title: 'PageBindingOptions',
-path: '/Docs/PageBindingOptions/'
+path: '/PageBindingOptions/'
 },
 {
 title: 'DashedStrokeStyle',
-path: '/Docs/DashedStrokeStyle/'
+path: '/DashedStrokeStyle/'
 },
 {
 title: 'PrintLayerOptions',
-path: '/Docs/PrintLayerOptions/'
+path: '/PrintLayerOptions/'
 },
 {
 title: 'TimingLists',
-path: '/Docs/TimingLists/'
+path: '/TimingLists/'
 },
 {
 title: 'AddPageOptions',
-path: '/Docs/AddPageOptions/'
+path: '/AddPageOptions/'
 },
 {
 title: 'UserDictionary',
-path: '/Docs/UserDictionary/'
+path: '/UserDictionary/'
 },
 {
 title: 'GalleyPreference',
-path: '/Docs/GalleyPreference/'
+path: '/GalleyPreference/'
 },
 {
 title: 'XMLElementLocation',
-path: '/Docs/XMLElementLocation/'
+path: '/XMLElementLocation/'
 },
 {
 title: 'DataMergeOption',
-path: '/Docs/DataMergeOption/'
+path: '/DataMergeOption/'
 },
 {
 title: 'TextBoxes',
-path: '/Docs/TextBoxes/'
+path: '/TextBoxes/'
 },
 {
 title: 'PercentEditbox',
-path: '/Docs/PercentEditbox/'
+path: '/PercentEditbox/'
 },
 {
 title: 'DimensionAttributes',
-path: '/Docs/DimensionAttributes/'
+path: '/DimensionAttributes/'
 },
 {
 title: 'AnimationSetting',
-path: '/Docs/AnimationSetting/'
+path: '/AnimationSetting/'
 },
 {
 title: 'WatermarkHorizontalPositionEnum',
-path: '/Docs/WatermarkHorizontalPositionEnum/'
+path: '/WatermarkHorizontalPositionEnum/'
 },
 {
 title: 'KinsokuTable',
-path: '/Docs/KinsokuTable/'
+path: '/KinsokuTable/'
 },
 {
 title: 'BlendMode',
-path: '/Docs/BlendMode/'
+path: '/BlendMode/'
 },
 {
 title: 'EndnoteFrameCreate',
-path: '/Docs/EndnoteFrameCreate/'
+path: '/EndnoteFrameCreate/'
 },
 {
 title: 'TaggedPDFStructureOrderOptions',
-path: '/Docs/TaggedPDFStructureOrderOptions/'
+path: '/TaggedPDFStructureOrderOptions/'
 },
 {
 title: 'FlattenerPreference',
-path: '/Docs/FlattenerPreference/'
+path: '/FlattenerPreference/'
 },
 {
 title: 'Story',
-path: '/Docs/Story/'
+path: '/Story/'
 },
 {
 title: 'CrossReferenceSource',
-path: '/Docs/CrossReferenceSource/'
+path: '/CrossReferenceSource/'
 },
 {
 title: 'ChapterNumberSources',
-path: '/Docs/ChapterNumberSources/'
+path: '/ChapterNumberSources/'
 },
 {
 title: 'XMLElements',
-path: '/Docs/XMLElements/'
+path: '/XMLElements/'
 },
 {
 title: 'Widgets',
-path: '/Docs/Widgets/'
+path: '/Widgets/'
 },
 {
 title: 'InnerGlowSource',
-path: '/Docs/InnerGlowSource/'
+path: '/InnerGlowSource/'
 },
 {
 title: 'RubyKentenPosition',
-path: '/Docs/RubyKentenPosition/'
+path: '/RubyKentenPosition/'
 },
 {
 title: 'MotionPresets',
-path: '/Docs/MotionPresets/'
+path: '/MotionPresets/'
 },
 {
 title: 'ColorGroups',
-path: '/Docs/ColorGroups/'
+path: '/ColorGroups/'
 },
 {
 title: 'ParagraphShadingBottomOriginEnum',
-path: '/Docs/ParagraphShadingBottomOriginEnum/'
+path: '/ParagraphShadingBottomOriginEnum/'
 },
 {
 title: 'LayoutGridDataInformation',
-path: '/Docs/LayoutGridDataInformation/'
+path: '/LayoutGridDataInformation/'
 },
 {
 title: 'AnchoredObjectSetting',
-path: '/Docs/AnchoredObjectSetting/'
+path: '/AnchoredObjectSetting/'
 },
 {
 title: 'AngleCombobox',
-path: '/Docs/AngleCombobox/'
+path: '/AngleCombobox/'
 },
 {
 title: 'DialogColumn',
-path: '/Docs/DialogColumn/'
+path: '/DialogColumn/'
 },
 {
 title: 'TimingSetting',
-path: '/Docs/TimingSetting/'
+path: '/TimingSetting/'
 },
 {
 title: 'InCopyExportOption',
-path: '/Docs/InCopyExportOption/'
+path: '/InCopyExportOption/'
 },
 {
 title: 'ToolsPanelOptions',
-path: '/Docs/ToolsPanelOptions/'
+path: '/ToolsPanelOptions/'
 },
 {
 title: 'StateTypes',
-path: '/Docs/StateTypes/'
+path: '/StateTypes/'
 },
 {
 title: 'ContourOptionsTypes',
-path: '/Docs/ContourOptionsTypes/'
+path: '/ContourOptionsTypes/'
 },
 {
 title: 'ShowHideFieldsBehaviors',
-path: '/Docs/ShowHideFieldsBehaviors/'
+path: '/ShowHideFieldsBehaviors/'
 },
 {
 title: 'FitMethodSettings',
-path: '/Docs/FitMethodSettings/'
+path: '/FitMethodSettings/'
 },
 {
 title: 'FindChangeBevelAndEmbossSetting',
-path: '/Docs/FindChangeBevelAndEmbossSetting/'
+path: '/FindChangeBevelAndEmbossSetting/'
 },
 {
 title: 'RealEditboxes',
-path: '/Docs/RealEditboxes/'
+path: '/RealEditboxes/'
 },
 {
 title: 'TextStyleRange',
-path: '/Docs/TextStyleRange/'
+path: '/TextStyleRange/'
 },
 {
 title: 'MutationEvent',
-path: '/Docs/MutationEvent/'
+path: '/MutationEvent/'
 },
 {
 title: 'NamedGrid',
-path: '/Docs/NamedGrid/'
+path: '/NamedGrid/'
 },
 {
 title: 'StripedStrokeStyles',
-path: '/Docs/StripedStrokeStyles/'
+path: '/StripedStrokeStyles/'
 },
 {
 title: 'PanningTypes',
-path: '/Docs/PanningTypes/'
+path: '/PanningTypes/'
 },
 {
 title: 'PagePositions',
-path: '/Docs/PagePositions/'
+path: '/PagePositions/'
 },
 {
 title: 'PageViewOptions',
-path: '/Docs/PageViewOptions/'
+path: '/PageViewOptions/'
 },
 {
 title: 'Topics',
-path: '/Docs/Topics/'
+path: '/Topics/'
 },
 {
 title: 'InteractiveElementsOptions',
-path: '/Docs/InteractiveElementsOptions/'
+path: '/InteractiveElementsOptions/'
 },
 {
 title: 'CustomTextVariablePreference',
-path: '/Docs/CustomTextVariablePreference/'
+path: '/CustomTextVariablePreference/'
 },
 {
 title: 'OverrideType',
-path: '/Docs/OverrideType/'
+path: '/OverrideType/'
 },
 {
 title: 'ObjectStyleExportTagMaps',
-path: '/Docs/ObjectStyleExportTagMaps/'
+path: '/ObjectStyleExportTagMaps/'
 },
 {
 title: 'DocumentPreset',
-path: '/Docs/DocumentPreset/'
+path: '/DocumentPreset/'
 },
 {
 title: 'FootnotePrefixSuffix',
-path: '/Docs/FootnotePrefixSuffix/'
+path: '/FootnotePrefixSuffix/'
 },
 {
 title: 'DateVariablePreference',
-path: '/Docs/DateVariablePreference/'
+path: '/DateVariablePreference/'
 },
 {
 title: 'MultiStateObjects',
-path: '/Docs/MultiStateObjects/'
+path: '/MultiStateObjects/'
 },
 {
 title: 'BorderPanels',
-path: '/Docs/BorderPanels/'
+path: '/BorderPanels/'
 },
 {
 title: 'PDFExportPreset',
-path: '/Docs/PDFExportPreset/'
+path: '/PDFExportPreset/'
 },
 {
 title: 'HyperlinkAppearanceWidth',
-path: '/Docs/HyperlinkAppearanceWidth/'
+path: '/HyperlinkAppearanceWidth/'
 },
 {
 title: 'KashidasOptions',
-path: '/Docs/KashidasOptions/'
+path: '/KashidasOptions/'
 },
 {
 title: 'TextVariable',
-path: '/Docs/TextVariable/'
+path: '/TextVariable/'
 },
 {
 title: 'TOCStyleEntries',
-path: '/Docs/TOCStyleEntries/'
+path: '/TOCStyleEntries/'
 },
 {
 title: 'DisplayPerformancePreference',
-path: '/Docs/DisplayPerformancePreference/'
+path: '/DisplayPerformancePreference/'
 },
 {
 title: 'FeatureSetOptions',
-path: '/Docs/FeatureSetOptions/'
+path: '/FeatureSetOptions/'
 },
 {
 title: 'TextPath',
-path: '/Docs/TextPath/'
+path: '/TextPath/'
 },
 {
 title: 'Indexes',
-path: '/Docs/Indexes/'
+path: '/Indexes/'
 },
 {
 title: 'EventListener',
-path: '/Docs/EventListener/'
+path: '/EventListener/'
 },
 {
 title: 'TextStrokeAlign',
-path: '/Docs/TextStrokeAlign/'
+path: '/TextStrokeAlign/'
 },
 {
 title: 'MeasurementEditboxes',
-path: '/Docs/MeasurementEditboxes/'
+path: '/MeasurementEditboxes/'
 },
 {
 title: 'StyleExportTagMap',
-path: '/Docs/StyleExportTagMap/'
+path: '/StyleExportTagMap/'
 },
 {
 title: 'GridViewSettings',
-path: '/Docs/GridViewSettings/'
+path: '/GridViewSettings/'
 },
 {
 title: 'PDFCrop',
-path: '/Docs/PDFCrop/'
+path: '/PDFCrop/'
 },
 {
 title: 'EpubFixedLayoutSpreadControl',
-path: '/Docs/EpubFixedLayoutSpreadControl/'
+path: '/EpubFixedLayoutSpreadControl/'
 },
 {
 title: 'TextColumn',
-path: '/Docs/TextColumn/'
+path: '/TextColumn/'
 },
 {
 title: 'SatinSetting',
-path: '/Docs/SatinSetting/'
+path: '/SatinSetting/'
 },
 {
 title: 'TableDirectionOptions',
-path: '/Docs/TableDirectionOptions/'
+path: '/TableDirectionOptions/'
 },
 {
 title: 'PercentEditboxes',
-path: '/Docs/PercentEditboxes/'
+path: '/PercentEditboxes/'
 },
 {
 title: 'GridPrintingPreference',
-path: '/Docs/GridPrintingPreference/'
+path: '/GridPrintingPreference/'
 }
 
 ]
