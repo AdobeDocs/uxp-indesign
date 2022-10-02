@@ -1,6 +1,6 @@
 ---
-title: Guides - Cat Analytics
-description: This is the guides overview page of Cat Analytics 
+title: Guides - UXP Scripting
+description: This is the guides overview page of UXP Scripting
 ---
 
 # Get Started
