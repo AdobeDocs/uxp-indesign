@@ -6050,9 +6050,15 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001407":
+<<<<<<< HEAD
   version: 1.0.30001412
   resolution: "caniuse-lite@npm:1.0.30001412"
   checksum: 7f5f476355f25a9841c30785c11df5225e2e7613f3334573e8da5490f195ac897a525fe4b514fa926b7be7e7937f15743e466bbc3a3272e848fb7ace7432ae02
+=======
+  version: 1.0.30001414
+  resolution: "caniuse-lite@npm:1.0.30001414"
+  checksum: 97210cfd15ded093b20c33d35bef9711a88402c3345411dad420c991a41a3e38ad17fd66721e8334c86e9b2e4aa2c1851d3631f1441afb73b92d93b2b8ca890d
+>>>>>>> main
   languageName: node
   linkType: hard
 
@@ -7531,6 +7537,7 @@ __metadata:
     gatsby: 4.22.0
     react: ^17.0.2
     react-dom: ^17.0.2
+    uxp-documentation: "github:adobedocs/uxp"
   languageName: unknown
   linkType: soft
 
@@ -7875,9 +7882,15 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.251":
+<<<<<<< HEAD
   version: 1.4.266
   resolution: "electron-to-chromium@npm:1.4.266"
   checksum: 99d8fdea6610074f6fe9c6c205c8d33cb324db04c14c1e851abc3d63b36a810c0a56c3f4bcd377a66b7c20a3246f29bc4d6fc7d304823d8ad9fb6fef851599f1
+=======
+  version: 1.4.269
+  resolution: "electron-to-chromium@npm:1.4.269"
+  checksum: 6ec25565588c374016a9af4150c813d5139f4eb10fcfeb3dcb4541603bfa98933d4fa595ef3ccf96dd2da6478d985b48562b976462ca6f32c6d0b095201c6245
+>>>>>>> main
   languageName: node
   linkType: hard
 
@@ -11867,15 +11880,24 @@ __metadata:
   linkType: hard
 
 "joi@npm:^17.4.2":
+<<<<<<< HEAD
   version: 17.6.1
   resolution: "joi@npm:17.6.1"
+=======
+  version: 17.6.2
+  resolution: "joi@npm:17.6.2"
+>>>>>>> main
   dependencies:
     "@hapi/hoek": ^9.0.0
     "@hapi/topo": ^5.0.0
     "@sideway/address": ^4.1.3
     "@sideway/formula": ^3.0.0
     "@sideway/pinpoint": ^2.0.0
+<<<<<<< HEAD
   checksum: fcaf094869a5b9ee9fd41cdb087b93ea95a5ff1a77a061caac2637ffdd86c9860ee7c016645e9f0134a99cb0ba374723f78a350ce0d9f4d4d95cc466963d8028
+=======
+  checksum: 4a29330e0be35f5c8b754b0c0e900936e083901643c09764028605c7beea937e73231bad7425c9d0168998584d2a96d5f05c8d54194d58b7166c9ba4db47eba2
+>>>>>>> main
   languageName: node
   linkType: hard
 
@@ -14329,9 +14351,9 @@ __metadata:
   linkType: hard
 
 "ordered-binary@npm:^1.0.0, ordered-binary@npm:^1.2.4":
-  version: 1.3.0
-  resolution: "ordered-binary@npm:1.3.0"
-  checksum: 1ba6544139c90fa2da536fa751b9e0d1e836968ddba54d4ef10876f8e9f11abbad9c0d849cafd959a4014aad1bb095b0cd140c1c0ed032d15ed2c1df5ee5c396
+  version: 1.4.0
+  resolution: "ordered-binary@npm:1.4.0"
+  checksum: 951fecb400b4e4e5176983679994cb7eb0a3ed1da8406d2bb1f7e76417cb61af85ea557d184cccfa3fe50b4c1582a69a4b2e20625f0d56083330b11bf1bcdeb4
   languageName: node
   linkType: hard
 
@@ -15392,13 +15414,13 @@ __metadata:
   linkType: hard
 
 "postcss@npm:^8.2.15, postcss@npm:^8.2.9, postcss@npm:^8.3.11, postcss@npm:^8.4.16":
-  version: 8.4.16
-  resolution: "postcss@npm:8.4.16"
+  version: 8.4.17
+  resolution: "postcss@npm:8.4.17"
   dependencies:
     nanoid: ^3.3.4
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 10eee25efd77868036403858577da0cefaf2e0905feeaba5770d5438ccdddba3d01cba8063e96b8aac4c6daa0ed413dd5ae0554a433a3c4db38df1d134cffc1f
+  checksum: a6d9096dd711e17f7b1d18ff5dcb4fdedf3941d5a3dc8b0e4ea873b8f31972d57f73d6da9a8aed7ff389eb52190ed34f6a94f299a7f5ddc68b08a24a48f77eb9
   languageName: node
   linkType: hard
 
@@ -17088,8 +17110,8 @@ __metadata:
   linkType: hard
 
 "sharp@npm:^0.31.0":
-  version: 0.31.0
-  resolution: "sharp@npm:0.31.0"
+  version: 0.31.1
+  resolution: "sharp@npm:0.31.1"
   dependencies:
     color: ^4.2.3
     detect-libc: ^2.0.1
@@ -17100,7 +17122,7 @@ __metadata:
     simple-get: ^4.0.1
     tar-fs: ^2.1.1
     tunnel-agent: ^0.6.0
-  checksum: 1ab73fea3a506f0bf290eb9dff6e7bab7947813e69bf8ca3eebcbe96498cb23dd6c8d8d02d67575fd8e9b555b01d9529d140c5a66e3a774855ba758455a90f3e
+  checksum: 42d00c9c6c61e5cf752c29583253782b3d821ee15fc2648c1f59892b94e9bc170a47ee9d138aa0a61c1c2ee9b7573ee54444c857fff887908701c4208710480d
   languageName: node
   linkType: hard
 
@@ -19197,6 +19219,13 @@ __metadata:
   bin:
     uuid: dist/bin/uuid
   checksum: 8dd2c83c43ddc7e1c71e36b60aea40030a6505139af6bee0f382ebcd1a56f6cd3028f7f06ffb07f8cf6ced320b76aea275284b224b002b289f89fe89c389b028
+  languageName: node
+  linkType: hard
+
+"uxp-documentation@github:adobedocs/uxp":
+  version: 0.0.17
+  resolution: "uxp-documentation@https://github.com/adobedocs/uxp.git#commit=f2382b70c440a4b74d41281dc80f21bdca1612ea"
+  checksum: cd4df8898be42045766076355223e51e5d105458a6006ff315de225da662ddd5d4972049d83d21e8a7bc872af1db2133a3ad015cbc4e8516f11a1c40b3864df8
   languageName: node
   linkType: hard
 
