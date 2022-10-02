@@ -20,9 +20,9 @@ UXP scripting allows developers to execute a single file to accomplish tasks in 
 
 - [TODO: Plugin Quickstart guide](guides/)
 - [TODO: Photoshop API reference](ps_reference/)
-- [TODO: UXP API reference](uxp/reference-js/)
+- [UXP API reference](uxp/)
 - [TODO: Scripting Quickstart guide](scripting/getting-started/)
-- [TODO: Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/)
+- [InDesign Scripting Forums](https://community.adobe.com/t5/indesign/ct-p/ct-indesign?page=1&sort=latest_replies&lang=all&tabid=all&topics=label-scripting)
 
 
 ## Overview
