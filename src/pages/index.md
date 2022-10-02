@@ -1,84 +1,65 @@
 ---
-title: Overview - Cat Analytics
-description: This is the overview page of Cat Analytics
+title: Overview - UXP for Adobe InDesign
+description: This is the overview page of UXP for Adobe InDesign
 contributors:
-  - https://github.com/icaraps 
+  - https://github.com/oihamza
 ---
 
-<Hero slots="heading, text"/> 
+<Hero slots="image, heading, text" background="rgb(64, 34, 138)"/>
 
-# InDesign UXP Scripting
+![Hero image](./illustration.png)
 
-The new home of InDesign Scripting
+
+# UXP for Adobe InDesign
+
+UXP scripting allows developers to execute a single file to accomplish tasks in InDesign. Any action that can change a document or its contents can be scripted.
 
 <Resources slots="heading, links"/>
 
 #### Resources
 
-* [Quickstart Guide](https://developer.adobe.com)
-* [Cat Analytics Github Repo](https://github.com/AdobeDocs/dev-site)
+- [TODO: Plugin Quickstart guide](guides/)
+- [TODO: Photoshop API reference](ps_reference/)
+- [TODO: UXP API reference](uxp/reference-js/)
+- [TODO: Scripting Quickstart guide](scripting/getting-started/)
+- [TODO: Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/)
+
 
 ## Overview
 
-This documentation provides instructions for Catt Analytics 2.0 APIs. For working with Cat Analytics APIs, see [Cat Analytics API Documentation](https://github.com/AdobeDocs/dev-site).
+Welcome to the world of Adobe InDesign UXP (**U**nified E**x**tensibility **P**latform) scripting!
 
-The Cat Analytics APIs are a collection of APIs that power Cat Analytics products like Cat Workspace. 
-The APIs allow for the creation of data rich user interfaces that you can use to manipulate and integrate data.
-You can also create reports to explore, get insights, or answer important questions about your data.
+Scripts can perform all the actions that you do with the InDesign's user interface. You can draw frames, enter and format text, place graphics, and print or export the pages of the document. Any action that can change a document or its contents can be scripted. 
 
-## Discover 
+
+## Discover
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
-### Get Started
+### InDesign UXP scripting
 
-[Quickstart Guide](guides/)
+[Learn more](discover/)
     
-Get started with the Cat Analytics APIs.
+Understand more about InDesign UXP scripting, the power of UXP, and UXPScript vs ExtendScript.
 
-<DiscoverBlock slots="heading, link, text"/> 
-
-### Guides
-
-[Calculated Metrics API](guides/calculated_metrics_api/) 
-     
-Returns information on the user's company that is necessary for making other Cat Analytics API calls.
 
 <DiscoverBlock slots="link, text"/>
 
-[Segments API](guides/segments_api/) 
+[Migrating from CEP to UXP](guides/migrating/)
 
-Provides configuration guidance and best practices for the /segments endpoint.
-
-<DiscoverBlock slots="link, text"/>
-
-[Reporting Guide API](guides/reporting_api/)
-
-Provides configuration guidance and best practices for the /reports endpoint.
-
-<DiscoverBlock slots="link, text"/>
-
-[Migrating from 1.4 to 2.0](guides/migrating/)
-
-For help migrating from the 1.4 versions of the Analytics API to the newer and more capable /reports API.   
+Read our official migration guide.
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
-### API References
+## Join the community
 
-[Try the API](api/) 
+Join the worldwide community of Creative Cloud Developers who are building plugins and integrations to empower creativity.
 
-Try the Analytics API with Swagger UI. Explore, make calls, with full endpoint descriptions.
+Here are a few ways to get involved:
 
-## Contributing 
-
-We encourage you to participate in our open documentation initiative, if you have suggestions, corrections, additions 
-or deletions for this documentation, check out the source from [this github repo](https://github.com/adobe/gatsby-theme-spectrum-example), and submit a pull 
-request with your contribution. For more information, refer to the [contributing page](support/contribute/).
-
-## API Requests & Rate Limits
-
-The timeout for API requests through adobe.io is currently *60 seconds*.
-
-The default rate limit for an Cat Analytics Company is *120 requests per minute*. (The limit is enforced as *12 requests every 6 seconds*).
-When rate limiting is being enforced you will get `429` HTTP response codes with the following response body: `{"error_code":"429050","message":"Too many requests"}`    
+- Join the [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/) to meet other developers, ask questions, and offer help.
+- Contribute issues and pull requests to our open source repos, including:
+  - [UXP for InDesign documentation repo on GitHub](https://github.com/AdobeDocs/uxp-indesign)
+- Follow our [Eventbrite](https://www.eventbrite.com/o/adobe-creative-cloud-platform-amp-ecosystem-team-32572092711) page to stay up to date with events geared towards developers in our ecosystem.
+- Subscribe to the [Adobe Creative Cloud Developer Newsletter](https://www.adobe.com/subscription/ccdevnewsletter.html).
+- Join the [Adobe Creative Cloud Platform and Ecosystem LinkedIn group](https://www.linkedin.com/groups/12425244/).
