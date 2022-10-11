@@ -13,19 +13,19 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/scripting/',
   siteMetadata: {
-    versions: [
-      {
-        title: 'v2.0',
-        selected: true
-      },
-      {
-        title: 'v1.4',
-        path: 'https://github.com/AdobeDocs/dev-site'
-      }
-    ],
+    // versions: [
+    //   {
+    //     title: 'v2.0',
+    //     selected: true
+    //   },
+    //   {
+    //     title: 'v1.4',
+    //     path: 'https://github.com/AdobeDocs/dev-site'
+    //   }
+    // ],
     pages: [
       {
-        title: 'Cat Analytics',
+        title: 'InDesign UXP Scripting',
         path: '/'
       },
       {
@@ -33,18 +33,18 @@ module.exports = {
         path: '/guides/'
       },
       {
-        title: 'API Reference',
+        title: 'Reference',
         menu: [
-          {
-            title: 'Cat Reference v2.0',
-            description: 'Cat Reporting API',
-            path: '/api/index.md'
-          },
-          {
-            title: 'Cat Reference v1.4',
-            description: 'Cat API Spec',
-            path: '/api/1.4.md'
-          }
+          // {
+          //   title: 'Cat Reference v2.0',
+          //   description: 'Cat Reporting API',
+          //   path: '/api/index.md'
+          // },
+          // {
+          //   title: 'Cat Reference v1.4',
+          //   description: 'Cat API Spec',
+          //   path: '/api/1.4.md'
+          // }
         ]
       },
       {
@@ -53,24 +53,6 @@ module.exports = {
       }
     ],
     subPages: [
-      {
-        title: 'Get Started',
-        path: '/guides/',
-        pages: [
-          {
-            title: 'Dummy an OAuth Client',
-            path: '/guides/dummy_oauth_client/'
-          },
-          {
-            title: 'Dummy OAuth using POSTMAN',
-            path: '/guides/dummy_using_postman/'
-          }
-        ]
-      },
-      {
-        title: 'Cat Metrics API',
-        path: '/guides/dummy_metrics_api/'
-      },
       {
         title: 'Migrating',
         path: '/guides/migrating/'
