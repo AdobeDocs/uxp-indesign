@@ -37,20 +37,20 @@ module.exports = {
             path: '/guides/'
           },
           {
-            title: 'Getting Started',
-            description: 'Hello World',
-            path: '/omv/'
-          },
-          {
             title: 'Samples',
             description: 'Script sample repo',
+            path: '/uxp-scripting-samples/'
+          },
+          {
+            title: 'API Reference',
+            description: 'InDesign API Reference',
             path: '/omv/'
           },
         ]
       },
       {
         title: 'Plugins',
-        path: '/comingsoon/'
+        path: '/plugins/'
       },
       {
         title: 'InDesign Server',
@@ -66,11 +66,22 @@ module.exports = {
         title: 'API Reference',
         menu: [
           {
-            title: 'OMV 18.0',
+            title: 'InDesign API Reference',
             //description: 'Cat Reporting API',
             path: '/omv/'
-          },
-          
+          }
+        ]
+      },
+      {
+        title: 'UXP Reference',
+        menu: [
+          {
+            title: 'UXP Reference for InDesign',
+            //description: 'Cat Reporting API',
+            path: '/uxp/'
+          }
+        ]
+      },
       {
         title: 'Support',
         path: '/support/'
@@ -134,8 +145,6 @@ module.exports = {
       }
         ]
     }
-    ]
-  }
     ]
   },
 plugins: [`@adobe/gatsby-theme-aio`]
