@@ -63,22 +63,17 @@ module.exports = {
         ]
       },
       {
-        title: 'API Reference',
+        title: 'Reference',
         menu: [
           {
             title: 'InDesign API Reference',
             //description: 'Cat Reporting API',
             path: '/omv/'
-          }
-        ]
-      },
-      {
-        title: 'UXP Reference',
-        menu: [
+          },
           {
             title: 'UXP Reference for InDesign',
             //description: 'Cat Reporting API',
-            path: '/uxp/'
+            path: '/uxp/index.md'
           }
         ]
       },
