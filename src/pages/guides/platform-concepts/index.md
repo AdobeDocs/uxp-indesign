@@ -1,3 +1,6 @@
+# Platform concepts 
+Understand more about InDesign UXP scripting, the power of UXP, and UXPScript vs ExtendScript.
+
 ## InDesign UXP scripting
 There are a few things you can do in scripting that you cannot do using the user interface. UXP provides a comprehensive extensibility solution, turning modern JavaScript (ECMAScript 6) and HTML markup into controls in native application windows. UXP scripts run within the same process as the host application, with their UI in its own non-blocking thread. Scripts can create menus, add menu items, create and display dialog boxes and panels, and respond to user-interface selections. Scripts can read and write text files and parse XML data. 
 

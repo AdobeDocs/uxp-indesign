@@ -47,7 +47,7 @@ We tend to think of scripting as a solution for long, repetitive tasks, like lay
 
 ### InDesign UXP scripting
 
-[Learn more](discover/)
+[Learn more](../guides/platform-concepts)
     
 Understand more about InDesign UXP scripting, the power of UXP, and UXPScript vs ExtendScript.
 
