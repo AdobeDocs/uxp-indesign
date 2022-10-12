@@ -25,7 +25,7 @@ module.exports = {
     // ],
     pages: [
       {
-        title: 'InDesign UXP Scripting',
+        title: 'UXP for InDesign',
         path: '/'
       },
       {
@@ -34,6 +34,7 @@ module.exports = {
       },
       {
         title: 'Reference',
+        // TODO: add the diferent references here
         menu: [
           // {
           //   title: 'Cat Reference v2.0',
@@ -48,8 +49,12 @@ module.exports = {
         ]
       },
       {
-        title: 'Support',
-        path: '/support/'
+        title: 'Server',
+        path: '/server/'
+      },
+      {
+        title: 'Community',
+        path: '/community/'
       }
     ],
     subPages: [
@@ -57,36 +62,36 @@ module.exports = {
         title: 'Migrating',
         path: '/guides/migrating/'
       },
-      {
-        title: 'Overview',
-        path: '/support/',
-        header: true,
-        pages: [
-          {
-            title: 'Help',
-            path: '/support/'
-          },
-          {
-            title: 'FAQ',
-            path: '/support/FAQ/'
-          },
-          {
-            title: 'How to contribute',
-            path: '/support/contribute/'
-          }
-        ]
-      },
-      {
-        title: 'Community',
-        path: '/support/community/',
-        header: true,
-        pages: [
-          {
-            title: 'Information',
-            path: '/support/community/'
-          }
-        ]
-      }
+      // {
+      //   title: 'Overview',
+      //   path: '/support/',
+      //   header: true,
+      //   pages: [
+      //     {
+      //       title: 'Help',
+      //       path: '/support/'
+      //     },
+      //     {
+      //       title: 'FAQ',
+      //       path: '/support/FAQ/'
+      //     },
+      //     {
+      //       title: 'How to contribute',
+      //       path: '/support/contribute/'
+      //     }
+      //   ]
+      // },
+      // {
+      //   title: 'Community',
+      //   path: '/support/community/',
+      //   header: true,
+      //   pages: [
+      //     {
+      //       title: 'Information',
+      //       path: '/support/community/'
+      //     }
+      //   ]
+      // }
     ]
   },
   plugins: [`@adobe/gatsby-theme-aio`]
