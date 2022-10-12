@@ -15,11 +15,13 @@
     "@adobe/gatsby-theme-aio": "4.5.8",
     "gatsby": "4.22.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "uxp-documentation": "github:adobedocs/uxp"
   },
   "scripts": {
     "start": "gatsby build && gatsby serve",
     "start:prefix": "gatsby build --prefix-paths && gatsby serve --prefix-paths",
+    "predev": "npm run _copy-uxp",
     "dev": "gatsby develop",
     "dev:https": "gatsby develop --https --host localhost.corp.adobe.com --port 9000",
     "_copy-uxp-html": "rm -rf src/pages/uxp/reference-html && cp -r node_modules/uxp-documentation/_transclusions/photoshop/uxp/reference-html src/pages/uxp/ && cp node_modules/uxp-documentation/reference-html.js reference-html.js",
