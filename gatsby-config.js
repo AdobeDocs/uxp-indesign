@@ -33,6 +33,10 @@ module.exports = {
         path: '/guides/'
       },
       {
+        title: "UXP API",
+        path: "/uxp/",
+      },
+      {
         title: 'API Reference',
         menu: [
           {
@@ -66,6 +70,45 @@ module.exports = {
             path: '/guides/dummy_using_postman/'
           }
         ]
+      },
+      {
+        title: "UXP API",
+        path: "/uxp/reference-js/",
+        header: true,
+        pages: [
+          {
+            title: "JavaScript Reference",
+            path: "/uxp/reference-js/",
+            pages: require("./reference-js.js"),
+          },
+          {
+            title: "CSS Reference",
+            path: "/uxp/reference-css/",
+            pages: require("./reference-css.js"),
+          },
+          {
+            title: "HTML Reference",
+            path: "/uxp/reference-html/",
+            pages: require("./reference-html.js"),
+          },
+          {
+            title: "Spectrum UXP Reference",
+            path: "/uxp/reference-spectrum/",
+            pages: require("./reference-spectrum.js"),
+          },
+          {
+            title: "Versions",
+            path: "/uxp/versions3P/",
+          },
+          {
+            title: "Changelog",
+            path: "/uxp/changelog3P/",
+          },
+          {
+            title: "Known Issues",
+            path: "/uxp/known-issues/",
+          },
+        ],
       },
       {
         title: 'Cat Metrics API',

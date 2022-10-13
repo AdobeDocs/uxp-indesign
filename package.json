@@ -28,7 +28,8 @@
     "_copy-uxp-js": "rm -rf src/pages/uxp/reference-js && cp -r node_modules/uxp-documentation/_transclusions/photoshop/uxp/reference-js src/pages/uxp/ && cp node_modules/uxp-documentation/reference-js.js reference-js.js",
     "_copy-uxp-css": "rm -rf src/pages/uxp/reference-css && cp -r node_modules/uxp-documentation/_transclusions/photoshop/uxp/reference-css src/pages/uxp/ && cp node_modules/uxp-documentation/reference-css.js reference-css.js",
     "_copy-uxp": "npm run _copy-uxp-js && npm run _copy-uxp-css && npm run _copy-uxp-html && npm run _copy-uxp-spectrum",
-    "prebuild": "npm run _copy-uxp",
+    "prepare-uxp": "rm -rf ./src/pages/uxp && mkdir ./src/pages/uxp && npm run _copy-uxp",
+    "prebuild": "npm run prepare-uxp",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
