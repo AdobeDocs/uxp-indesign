@@ -13,19 +13,19 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/scripting/',
   siteMetadata: {
-    // versions: [
-    //   {
-    //     title: 'v2.0',
-    //     selected: true
-    //   },
-    //   {
-    //     title: 'v1.4',
-    //     path: 'https://github.com/AdobeDocs/dev-site'
-    //   }
-    // ],
+    versions: [
+      {
+        title: 'v2.0',
+        selected: true
+      },
+      {
+        title: 'v1.4',
+        path: 'https://github.com/AdobeDocs/dev-site'
+      }
+    ],
     pages: [
       {
-        title: 'InDesign UXP Scripting',
+        title: 'Cat Analytics',
         path: '/'
       },
       {
@@ -33,18 +33,18 @@ module.exports = {
         path: '/guides/'
       },
       {
-        title: 'Reference',
+        title: 'API Reference',
         menu: [
-          // {
-          //   title: 'Cat Reference v2.0',
-          //   description: 'Cat Reporting API',
-          //   path: '/api/index.md'
-          // },
-          // {
-          //   title: 'Cat Reference v1.4',
-          //   description: 'Cat API Spec',
-          //   path: '/api/1.4.md'
-          // }
+          {
+            title: 'InDesign APIs',
+            description: 'Document Object Model',
+            path: '/omv/index.md'
+          },
+          {
+            title: 'UXP API',
+            description: 'UXP API Reference',
+            path: '/uxp/index.md'
+          }
         ]
       },
       {
@@ -57,6 +57,40 @@ module.exports = {
       }
     ],
     subPages: [
+      {
+        title: 'Get Started',
+        path: '/guides/',
+        pages: [
+          {
+            title: 'Getting Started',
+            path: '/guides/getting-started/basics/'
+          },
+          {
+            title: 'Debugging a Script',
+            path: '/guides/debugging/'
+          },
+          {
+            title: 'Migrating',
+            path: '/guides/migrating-to-UXPScript/'
+          },
+          {
+            title: 'Object Model',
+            path: '/guides/object-modal/'
+          },
+          {
+            title: 'Right to Left Scripting',
+            path: '/guides/rtl-scripting/'
+          },
+          {
+            title: 'IDJS File Association',
+            path: '/guides/text-editor-association/'
+          }
+        ]
+      },
+      {
+        title: 'Cat Metrics API',
+        path: '/guides/dummy_metrics_api/'
+      },
       {
         title: 'Migrating',
         path: '/guides/migrating/'
