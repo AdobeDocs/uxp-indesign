@@ -1,13 +1,11 @@
 # UXP Scripting in InDesign Scripting
 
-Getting Started with Adobe InDesign Server Development section in Adobe InDesign Scripting Tutorial  provides basic information about running InDesign Server, including installation instructions and system requirements. It includes a simple demonstration of InDesign Server's capabilities.
+Get started with Adobe InDesign Server Development.
 
-To learn scripting terminology and to understand the InDesign object model, read "Scripting and the InDesign object model" in the Adobe InDesign Scripting Tutorial.
-
-Adobe InDesign Scripting Guide provides details on creating scripts for InDesign.
+This section in Adobe InDesign Scripting Tutorial provides basic information about running InDesign Server, including installation instructions and system requirements. It includes a simple demonstration of InDesign Server's capabilities. To learn scripting terminology and to understand the InDesign object model, read "Scripting and the InDesign object model" in the Adobe InDesign Scripting Tutorial.
 
 ## Your first script
-TODO: LINK TO page
+Get up and running with your first InDesign Server script. [Learn more](./guides/).
 
 ## Reference
-TODO: Link to page
+Adobe InDesign Scripting Reference provides details on creating scripts for InDesign. [Learn more](./reference/).

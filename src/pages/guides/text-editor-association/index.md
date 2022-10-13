@@ -5,7 +5,7 @@ This page goes over how to (TODO: fix image sizes)
 
 When double-clicking an idjs (UXPScript) file for the first time, the user will see an alert asking them to associate UXPScript files with a text-editor of their choice, so that subsequent double-clicks directly open scripting files in their preferred editor.
 
-### Steps to achieve this on MacOS:
+## Steps to achieve this on MacOS:
 
 1. Right-click any .idjs-file
 2. Click "Get Info"
@@ -19,8 +19,7 @@ When double-clicking an idjs (UXPScript) file for the first time, the user will 
 
 ![Mac Text-Editor Association for .idjs Files](3.png)
 
-
-### Steps to achieve this on Windows:
+## Steps to achieve this on Windows:
 
 1. Right-click any .idjs-file
 2. Click "Open with"
@@ -32,3 +31,7 @@ When double-clicking an idjs (UXPScript) file for the first time, the user will 
 ![Windows Text-Editor Association for .idjs Files](4.png)
 
 ![Windows Text-Editor Association for .idjs Files](5.png)
+
+## Adding a keyboard shortcut
+
+To add a keyboard shortcut for a script, choose Edit > Keyboard Shortcuts, select an editable shortcut set from the Set menu, then choose Product Area > Scripts. A list of the scripts in your Scripts panel appears. Select a script and assign a keyboard shortcut as you would for any other InDesign feature.
