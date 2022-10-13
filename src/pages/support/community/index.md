@@ -9,7 +9,7 @@ description: This is the community page of UXP for InDesign
 
 Learn where to ask questions, report bugs, make feature requests, and spark discussions.
 
-<DiscoverBlock slots="heading, link, text" width="25%"/>
+<DiscoverBlock slots="heading, link, text"/>
 
 ## Developer forums
 
@@ -17,27 +17,31 @@ Learn where to ask questions, report bugs, make feature requests, and spark disc
 
 Open discussion and support with community experts and Adobe staff.
 
-<DiscoverBlock slots="link, text" width="25%"/>
+<DiscoverBlock slots="heading, link, text"/>
+
+## InDesign Server Forum
 
 [InDesign Server Developers](https://community.adobe.com/t5/indesign/ct-p/ct-indesign?page=1&sort=latest_replies&filter=all&lang=all&tabid=discussions&topics=label-serverdevelopers) 
 
 Chat with other InDesign Server Developers.
 
-<DiscoverBlock slots="link, text" width="25%"/>
+<DiscoverBlock slots="heading, link, text"/>
+
+## Product Bugs and Feedback
 
 [InDesign on UserVoice](https://indesign.uservoice.com/) 
 
 If you have product feedback or find bugs to report, use InDesign's UserVoice forum.
 
-<DiscoverBlock slots="heading, link, text" width="25%"/>
-
-# Prerelease Communities
+<DiscoverBlock slots="heading, link, text"/>
 
 ## InDesign Prerelease
 
 [InDesign Prerelease](https://www.adobeprerelease.com/beta/C6DFA254-C40C-4EEB-8F6D-F4AEDA2E6171)
 
 A Non-Disclosure Agreement is required to join. Once you're in, you can chat about prereleases in [the prerlease forums](https://forums.adobeprerelease.com/indesign/categories).
+
+<DiscoverBlock slots="heading, link, text"/>
 
 ## InDesign Developers Prerelease
 
