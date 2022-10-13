@@ -107,4 +107,3 @@ function getDialog() {
     return dialog;
 }
 ```
-
