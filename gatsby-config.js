@@ -50,6 +50,10 @@ module.exports = {
       {
         title: 'Support',
         path: '/support/'
+      },
+          {
+        title: 'Community',
+        path: '/support/'
       }
     ],
     subPages: [
@@ -84,10 +88,10 @@ module.exports = {
           {
             title: 'Information',
             path: '/support/community/'
-          }
-        ]
       }
+        ]
+    }
     ]
   },
-  plugins: [`@adobe/gatsby-theme-aio`]
+plugins: [`@adobe/gatsby-theme-aio`]
 };
