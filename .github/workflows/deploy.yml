@@ -114,10 +114,6 @@ jobs:
         with:
           cmd: clean
 
-      - name: Increase memory
-        run: |
-          export NODE_OPTIONS="--max_old_space_size=4096"
-
       - name: Build site
         uses: borales/actions-yarn@v3
         with:
@@ -222,10 +218,6 @@ jobs:
         uses: borales/actions-yarn@v3
         with:
           cmd: clean
-
-      - name: Increase memory
-        run: |
-          export NODE_OPTIONS="--max_old_space_size=4096"
 
       - name: Build site
         uses: borales/actions-yarn@v3
