@@ -15,37 +15,76 @@ module.exports = {
   siteMetadata: {
     versions: [
       {
-        title: 'v2.0',
+        title: 'v18.0',
+        description: 'First verion supporting UXP',
+        path: '/discover/',
         selected: true
-      },
-      {
-        title: 'v1.4',
-        path: 'https://github.com/AdobeDocs/dev-site'
       }
+      // {
+      //   title: 'v1.4',
+      //   path: 'https://github.com/AdobeDocs/dev-site'
+      // }
     ],
     pages: [
       {
-        title: 'Cat Analytics',
-        path: '/'
-      },
-      {
-        title: 'Guides',
-        path: '/guides/'
-      },
-      {
-        title: 'API Reference',
+        title: 'References',
         menu: [
           {
-            title: 'InDesign APIs',
+            title: 'InDesign API',
             description: 'Document Object Model',
-            path: '/omv/index.md'
+            path: '/omv/'
           },
           {
             title: 'UXP API',
             description: 'UXP API Reference',
-            path: '/uxp/index.md'
+            path: '/uxp/'
           }
         ]
+      },
+      {
+        title: 'Guides',
+        menu: [
+          {
+            title: 'Guides',
+            path: '/guides/'
+          },
+          {
+            title: 'Getting Started',
+            path: '/guides/getting-started/basics/'
+          },
+          {
+            title: 'Debugging a Script',
+            path: '/guides/debugging/'
+          },
+          {
+            title: 'Migrating',
+            path: '/guides/migrating-to-UXPScript/'
+          },
+          {
+            title: 'Object Model',
+            path: '/guides/object-modal/'
+          },
+          {
+            title: 'Right to Left Scripting',
+            path: '/guides/rtl-scripting/'
+          },
+          {
+            title: 'IDJS File Association',
+            path: '/guides/text-editor-association/'
+          }
+        ]
+      },
+      {
+        title: 'Plugins',
+        path: '/plugins/'
+      },
+      {
+        title: 'InDesign Server',
+        path: '/server/'
+      },
+      {
+        title: 'Code Samples',
+        path: '/uxp-scripting-samples/'
       },
       {
         title: 'Support',
@@ -88,15 +127,7 @@ module.exports = {
         ]
       },
       {
-        title: 'Cat Metrics API',
-        path: '/guides/dummy_metrics_api/'
-      },
-      {
-        title: 'Migrating',
-        path: '/guides/migrating/'
-      },
-      {
-        title: 'Overview',
+        title: 'Support',
         path: '/support/',
         header: true,
         pages: [
