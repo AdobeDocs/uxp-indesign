@@ -149,7 +149,7 @@ module.exports = {
         ]
       },
       {
-        title: 'InDesign UXP Documentation',
+        title: 'InDesign API References',
         path: '/omv/',
         header: true,
         pages: [
