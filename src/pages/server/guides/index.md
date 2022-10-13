@@ -1,5 +1,5 @@
 # Quick start guide
-Create your first Adobe InDesign Server Scripting.
+Create your first Adobe InDesign Server script.
 
 ## Creating your first Hello World InDesign Server Script
 Let's get started with your first InDesign Server script. The traditional first project in any programming language is to display, or print, the message "Hello World!" In this example, we create a new InDesign Server publication, add a frame containing this message, and save the document. At that point, you can open and view the document using InDesign.
