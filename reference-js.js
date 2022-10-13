@@ -4,9 +4,17 @@ module.exports=[
     "header": true,
     "pages": [
       {
+        "title": "Crypto",
+        "path": "/uxp/reference-js/Global Members/Crypto"
+      },
+      {
         "title": "Data Transfers",
         "header": true,
         "pages": [
+          {
+            "title": "Blob",
+            "path": "/uxp/reference-js/Global Members/Data Transfers/Blob/"
+          },
           {
             "title": "Clipboard",
             "path": "/uxp/reference-js/Global Members/Data Transfers/Clipboard/"
@@ -356,6 +364,25 @@ module.exports=[
               }
             ],
             "path": "/uxp/reference-js/Modules/uxp/Persistent File Storage/"
+          },
+          {
+            "title": "Plugin Manager",
+            "header": true,
+            "pages": [
+              {
+                "title": "Plugin",
+                "path": "/uxp/reference-js/Modules/uxp/Plugin Manager/Plugin/"
+              },
+              {
+                "title": "Plugin Manager",
+                "path": "/uxp/reference-js/Modules/uxp/Plugin Manager/Plugin Manager/"
+              },
+              {
+                "title": "Script",
+                "path": "/uxp/reference-js/Modules/uxp/Plugin Manager/Script/"
+              }
+            ],
+            "path": "/uxp/reference-js/Modules/uxp/Plugin Manager/"
           },
           {
             "title": "Key-Value Storage",
