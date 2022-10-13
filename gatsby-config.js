@@ -13,68 +13,38 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/scripting/',
   siteMetadata: {
-    versions: [
-      {
-        title: 'v18.0',
-        selected: true
-      },
-      {
-        title: 'v19.0',
-        path: 'https://github.com/AdobeDocs/dev-site'
-      }
-    ],
+    // versions: [
+    //   {
+    //     title: 'v2.0',
+    //     selected: true
+    //   },
+    //   {
+    //     title: 'v1.4',
+    //     path: 'https://github.com/AdobeDocs/dev-site'
+    //   }
+    // ],
     pages: [
       {
-        title: 'UXP for InDesign',
+        title: 'InDesign UXP Scripting',
         path: '/'
       },
       {
-        title: 'Scripting',
-        menu: [
-          {
-            title: 'Guides',
-            //description: 'Cat Reporting API',
-            path: '/guides/'
-          },
-          {
-            title: 'Samples',
-            description: 'Script sample repo',
-            path: '/uxp-scripting-samples/'
-          },
-          {
-            title: 'API Reference',
-            description: 'InDesign API Reference',
-            path: '/omv/'
-          },
-        ]
-      },
-      {
-        title: 'Plugins',
-        path: '/plugins/'
-      },
-      {
-        title: 'InDesign Server',
-        menu: [
-          {
-            title: 'IDS 18.0',
-            //description: 'Cat Reporting API',
-            path: '/omv/'
-          },
-        ]
+        title: 'Guides',
+        path: '/guides/'
       },
       {
         title: 'Reference',
         menu: [
-          {
-            title: 'InDesign API Reference',
-            //description: 'Cat Reporting API',
-            path: '/omv/'
-          },
-          {
-            title: 'UXP Reference for InDesign',
-            //description: 'Cat Reporting API',
-            path: '/uxp/index.md'
-          }
+          // {
+          //   title: 'Cat Reference v2.0',
+          //   description: 'Cat Reporting API',
+          //   path: '/api/index.md'
+          // },
+          // {
+          //   title: 'Cat Reference v1.4',
+          //   description: 'Cat API Spec',
+          //   path: '/api/1.4.md'
+          // }
         ]
       },
       {
@@ -87,25 +57,6 @@ module.exports = {
       }
     ],
     subPages: [
-      {
-        title: 'Get Started',
-        path: '/guides/',
-        pages: [
-          {
-            title: 'Dummy an OAuth Client',
-            path: '/guides/dummy_oauth_client/'
-          },
-        
-          {
-            title: 'Dummy OAuth using POSTMAN',
-            path: '/guides/dummy_using_postman/'
-          }
-        ]
-      },
-      {
-        title: 'Cat Metrics API',
-        path: '/guides/dummy_metrics_api/'
-      },
       {
         title: 'Migrating',
         path: '/guides/migrating/'
