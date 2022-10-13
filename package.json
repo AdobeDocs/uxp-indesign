@@ -31,7 +31,7 @@
     "_copy-uxp": "npm run _copy-uxp-js && npm run _copy-uxp-css && npm run _copy-uxp-html && npm run _copy-uxp-spectrum",
     "prepare-uxp": "mkdir ./src/pages/reference/api/uxp && npm run _copy-uxp",
     "prebuild": "npm run prepare-uxp",
-    "build": "gatsby build",
+    "build": "node --max_old_space_size=8192 && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },

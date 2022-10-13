@@ -29,7 +29,16 @@ UXP scripting allows developers to execute a single file to accomplish tasks in 
 
 Welcome to the world of Adobe InDesign UXP (**U**nified E**x**tensibility **P**latform) scripting!
 
-Scripts can perform all the actions that you do with the InDesign's user interface. You can draw frames, enter and format text, place graphics, and print or export the pages of the document. Any action that can change a document or its contents can be scripted. 
+Scripts can perform all the actions that you do with InDesign's user interface. You can draw frames, enter and format text, place graphics, and print or export the pages of the document. Any action that can change a document or its contents can be scripted. There are a few things you can do in scripting that you cannot do using the user interface.
+
+Scripts can also create menus, add menu items, create and display dialog boxes and panels, and respond to user-interface selections. Scripts can read and write text files and parse XML data. They are perfect for doing everything from small tasks (like setting a tab stop at the location of the text cursor) to providing complete features. You can start with simple scripts that do only one thing and move on to scripts that automate your entire publishing workflow.
+
+We tend to think of scripting as a solution for long, repetitive tasks, like laying out a phone book. It also is good for things like the following:
+
+* Automating the myriad, small, annoying tasks that you face every day.
+* Customizing InDesign to match your work habits and layouts.
+* Achieving creative effects that would be difficult or impossible to attain by other means.
+
 
 
 ## Discover
@@ -38,35 +47,16 @@ Scripts can perform all the actions that you do with the InDesign's user interfa
 
 ### InDesign UXP scripting
 
-[Learn more](discover/)
+[Learn more](../guides/platform-concepts)
     
 Understand more about InDesign UXP scripting, the power of UXP, and UXPScript vs ExtendScript.
 
-<DiscoverBlock slots="heading, link, text"/> 
-
-### Guides
-
-[Calculated Metrics API](guides/calculated_metrics_api/) 
-     
-Returns information on the user's company that is necessary for making other Cat Analytics API calls.
 
 <DiscoverBlock slots="link, text"/>
 
-[Segments API](guides/segments_api/) 
+[Migrating from CEP to UXP](guides/migrating/)
 
-Provides configuration guidance and best practices for the /segments endpoint.
-
-<DiscoverBlock slots="link, text"/>
-
-[Reporting Guide API](guides/reporting_api/)
-
-Provides configuration guidance and best practices for the /reports endpoint.
-
-<DiscoverBlock slots="link, text"/>
-
-[Migrating from 1.4 to 2.0](guides/migrating/)
-
-For help migrating from the 1.4 versions of the Analytics API to the newer and more capable /reports API.   
+Read our official migration guide.
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 

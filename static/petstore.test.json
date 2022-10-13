@@ -1,0 +1,98 @@
+{
+  "swagger": "2.0",
+  "info": {
+   "description": "This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.",
+   "version": "1.0.6",
+  "title": "Swagger Petstore",
+  "termsOfService": "http://swagger.io/terms/",
+  "contact": { "email": "apiteam@swagger.io" },
+  "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+      }
+    },
+    "host": "petstore.swagger.io",
+    "basePath": "/v2",
+            "tags": [
+                {
+                    "name": "BEFORE_NEW",
+                    "readonly": true,
+                    "type": "String",
+                    "array": false,
+                    "description": "Dispatched before a Document is created. This event bubbles. This event is cancelable.",
+                    "value": "beforeNew"
+                },
+                {
+                    "name": "BEFORE_OPEN",
+                    "readonly": true,
+                    "type": "String",
+                    "array": false,
+                    "description": "Dispatched before a Document is opened. This event bubbles. This event is cancelable.",
+                    "value": "beforeOpen"
+                },
+                {
+                    "name": "AFTER_CLOSE",
+                    "readonly": true,
+                    "type": "String",
+                    "array": false,
+                    "description": "Dispatched after a Document is closed. This event bubbles. This event is not cancelable.",
+                    "value": "afterClose"
+                },
+                {
+                    "name": "AFTER_CONTEXT_CHANGED",
+                    "readonly": true,
+                    "type": "String",
+                    "array": false,
+                    "description": "Dispatched after the active context changes. This event bubbles. This event is not cancelable.",
+                    "value": "afterContextChanged"
+                },
+                {
+                    "name": "AFTER_SELECTION_CHANGED",
+                    "readonly": true,
+                    "type": "String",
+                    "array": false,
+                    "description": "Dispatched after the active selection changes. This event bubbles. This event is not cancelable.",
+                    "value": "afterSelectionChanged"
+                },
+                {
+                    "name": "AFTER_SELECTION_ATTRIBUTE_CHANGED",
+                    "readonly": true,
+                    "type": "String",
+                    "array": false,
+                    "description": "Dispatched after an attribute on the active selection changes. This event bubbles. This event is not cancelable.",
+                    "value": "afterSelectionAttributeChanged"
+                },
+                {
+                    "name": "BEFORE_DEACTIVATE",
+                    "readonly": true,
+                    "type": "String",
+                    "array": false,
+                    "description": "Dispatched before the Application becomes inactive. This event bubbles. This event is not cancelable.",
+                    "value": "beforeDeactivate"
+                },
+                {
+                    "name": "AFTER_ACTIVATE",
+                    "readonly": true,
+                    "type": "String",
+                    "array": false,
+                    "description": "Dispatched after the Application becomes active. This event bubbles. This event is not cancelable.",
+                    "value": "afterActivate"
+                },
+                {
+                    "name": "BEFORE_QUIT",
+                    "readonly": true,
+                    "type": "String",
+                    "array": false,
+                    "description": "Dispatched before the Application is quit. Allows the quit to be canceled. This event bubbles. This event is cancelable.",
+                    "value": "beforeQuit"
+                },
+                {
+                    "name": "AFTER_QUIT",
+                    "readonly": true,
+                    "type": "String",
+                    "array": false,
+                    "description": "Dispatched when the Application is quitting. Since the quit has been committed, it can not be canceled. This event bubbles. This event is not cancelable.",
+                    "value": "afterQuit"
+                }
+            ]
+        }

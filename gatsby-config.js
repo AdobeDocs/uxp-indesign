@@ -13,52 +13,121 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/scripting/',
   siteMetadata: {
-    // versions: [
-    //   {
-    //     title: 'v2.0',
-    //     selected: true
-    //   },
-    //   {
-    //     title: 'v1.4',
-    //     path: 'https://github.com/AdobeDocs/dev-site'
-    //   }
-    // ],
+    versions: [
+      {
+        title: 'v18.0',
+        description: 'First verion supporting UXP',
+        path: '/discover/',
+        selected: true
+      }
+      // {
+      //   title: 'v1.4',
+      //   path: 'https://github.com/AdobeDocs/dev-site'
+      // }
+    ],
     pages: [
       {
-        title: 'InDesign UXP Scripting',
-        path: '/'
-      },
-      {
-        title: 'Guides',
-        path: '/guides/'
-      },
-      {
-        title: 'Reference',
+        title: 'References',
         menu: [
-          // {
-          //   title: 'Cat Reference v2.0',
-          //   description: 'Cat Reporting API',
-          //   path: '/api/index.md'
-          // },
-          // {
-          //   title: 'Cat Reference v1.4',
-          //   description: 'Cat API Spec',
-          //   path: '/api/1.4.md'
-          // }
+          {
+            title: 'InDesign API',
+            description: 'Document Object Model',
+            path: '/omv/'
+          },
+          {
+            title: 'UXP API',
+            description: 'UXP API Reference',
+            path: '/uxp/'
+          }
         ]
       },
       {
+        title: 'Guides',
+        menu: [
+          {
+            title: 'Guides',
+            path: '/guides/'
+          },
+          {
+            title: 'Getting Started',
+            path: '/guides/getting-started/basics/'
+          },
+          {
+            title: 'Debugging a Script',
+            path: '/guides/debugging/'
+          },
+          {
+            title: 'Migrating',
+            path: '/guides/migrating-to-UXPScript/'
+          },
+          {
+            title: 'Object Model',
+            path: '/guides/object-modal/'
+          },
+          {
+            title: 'Right to Left Scripting',
+            path: '/guides/rtl-scripting/'
+          },
+          {
+            title: 'IDJS File Association',
+            path: '/guides/text-editor-association/'
+          }
+        ]
+      },
+      {
+        title: 'Plugins',
+        path: '/plugins/'
+      },
+      {
+        title: 'InDesign Server',
+        path: '/server/'
+      },
+      {
+        title: 'Code Samples',
+        path: '/uxp-scripting-samples/'
+      },
+      {
         title: 'Support',
+        path: '/support/'
+      },
+          {
+        title: 'Community',
         path: '/support/'
       }
     ],
     subPages: [
       {
-        title: 'Migrating',
-        path: '/guides/migrating/'
+        title: 'Get Started',
+        path: '/guides/',
+        pages: [
+          {
+            title: 'Getting Started',
+            path: '/guides/getting-started/basics/'
+          },
+          {
+            title: 'Debugging a Script',
+            path: '/guides/debugging/'
+          },
+          {
+            title: 'Migrating',
+            path: '/guides/migrating-to-UXPScript/'
+          },
+          {
+            title: 'Object Model',
+            path: '/guides/object-modal/'
+          },
+          {
+            title: 'Right to Left Scripting',
+            path: '/guides/rtl-scripting/'
+          },
+          {
+            title: 'IDJS File Association',
+            path: '/guides/text-editor-association/'
+          }
+        ]
       },
       {
-        title: 'Overview',
+        title: 'Support',
         path: '/support/',
         header: true,
         pages: [
@@ -84,10 +153,10 @@ module.exports = {
           {
             title: 'Information',
             path: '/support/community/'
-          }
-        ]
       }
+        ]
+    }
     ]
   },
-  plugins: [`@adobe/gatsby-theme-aio`]
+plugins: [`@adobe/gatsby-theme-aio`]
 };
