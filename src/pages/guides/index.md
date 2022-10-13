@@ -5,54 +5,50 @@ description: This is the guides overview page of InDesign UXP Scripting
 
 # Guides
 
-InDesign UXP Scripting Guides
-
-## Discover
+## Discover UXP for InDesign Scripting
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
-### InDesign UXP scripting
+### Getting started
 
-[Learn more](../guides/platform-concepts)
+[Learn more](./getting-started/)
+    
+Install the neccesary requirements for InDesign scripting, and learn how you can create your very first hello-world script. 
+
+<DiscoverBlock width="100%" slots="heading, link, text"/>
+
+### Platform concepts
+
+[Learn more](./platform-concepts)
     
 Understand more about InDesign UXP scripting, the power of UXP, and UXPScript vs ExtendScript.
 
-<DiscoverBlock slots="heading, link, text"/> 
+### Debugging
 
-### Guides
+[Learn more](./debugging)
+    
+Todo: add info
 
-[Calculated Metrics API](guides/calculated_metrics_api/) 
-     
-Returns information on the user's company that is necessary for making other Cat Analytics API calls.
+### Migrating to UXP Script
 
-<DiscoverBlock slots="link, text"/>
+[Learn more](./migrating-to-UXPScript/)
+    
+Todo: add info
 
-[Segments API](guides/segments_api/) 
+### Object model
 
-Provides configuration guidance and best practices for the /segments endpoint.
+[Learn more](./object-modal/)
+    
+Todo: add info
 
-<DiscoverBlock slots="link, text"/>
+### Right to left scripting
 
-[Reporting Guide API](guides/reporting_api/)
+[Learn more](./rtl-scripting/)
+    
+Todo: add info
 
-Provides configuration guidance and best practices for the /reports endpoint.
+### IDJS file association
 
-<DiscoverBlock slots="link, text"/>
-
-[Migrating from 1.4 to 2.0](guides/migrating/)
-
-For help migrating from the 1.4 versions of the Analytics API to the newer and more capable /reports API.   
-
-<DiscoverBlock width="100%" slots="heading, link, text"/>
-
-## [Get started basic](#)
-
-Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here.
-
-## [Get started advanced](#)
-
-Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here. Overview here.
-
-<InlineAlert variant="info" slots="text"/>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna tellus, fringilla sit amet lorem eget, dignissim pellentesque ligula. Donec nec dolor vitae leo laoreet aliquam vehicula at dui. Integer in tortor lacus. Aliquam convallis, lorem ac consectetur sodales, tellus.
+[Learn more](./text-editor-association/)
+    
+Todo: add info
