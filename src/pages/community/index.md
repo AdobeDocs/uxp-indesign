@@ -1,11 +1,11 @@
 ---
-title: Support - Cat Analytics
-description: This is the support page of Cat Analytics 
+title: Community - UXP for InDesign
+description: This is the community page of UXP for InDesign
 ---
 
 <Hero slots="heading, text" background="rgb(19, 93, 183)"/>
 
-# Support
+# Community
 
 Learn where to ask questions, report bugs, make feature requests, and spark discussions.
 

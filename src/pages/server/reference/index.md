@@ -1,6 +1,8 @@
-# InDesign Server Reference
+# Reference
 
-This document presents scripts that show how to create simple documents using InDesign Server. The bulk of the scripting documentation for InDesign Server, however, is in the documentation for the desktop (that is, nonserver) version of InDesign.
+UXP for Adobe InDesign Server Reference
+
+This page presents scripts that show how to create simple documents using InDesign Server. The bulk of the scripting documentation for InDesign Server, however, is in the documentation for the desktop (that is, nonserver) version of InDesign.
 
 We assume that you are developing your InDesign Server scripts using InDesign 2023, and that you have read Adobe InDesign Scripting Tutorial and Adobe InDesign Scripting Guide for the scripting language you want to use.
 
