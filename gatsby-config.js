@@ -127,6 +127,28 @@ module.exports = {
         ]
       },
       {
+        title: 'UXP API Reference',
+        path: '/uxp/',
+        pages: [
+          {
+            title: 'CSS',
+            path: '/uxp/reference-css/'
+          },
+          {
+            title: 'HTML',
+            path: '/uxp/reference-html/'
+          },
+          {
+            title: 'JavaScript',
+            path: '/uxp/reference-js/'
+          },
+          {
+            title: 'Spectrum',
+            path: '/uxp/reference-spectrum/'
+          }
+        ]
+      },
+      {
         title: 'InDesign UXP Documentation',
         path: '/omv/',
         header: true,
