@@ -96,7 +96,16 @@ InDesign returns coordinates and other measurement values using the publication'
 
 If your script depends on adding, subtracting, multiplying, or dividing specific measurement values, you might want to set the corresponding measurement units at the beginning of the script. At the end of the script, you can set the measurement units back to whatever they were before you ran the script. Alternately, you can use measurement overrides, like many of the sample scripts. A measurement override is a string containing a special character, as shown in the following table:
 
-(TODO: ADD TABLE)
+| Override  | Meaning                                        | Example |
+|-----------|------------------------------------------------|---------|
+| Override  | Meaning                                        | Example |
+| c         | Ciceros (add didots after the c, if necessary) | 1.4c    |
+| cm        | Centimeters                                    | .635cm  |
+| i (or in) | Inches                                         | .25i    |
+| mm        | Millimeters                                    | 6.35mm  |
+| p         | Picas (add points after the p, if necessary)   | 1p6     |
+| pt        | Points                                         | 18pt    |
+
 
 ## Packaged Sample Scripts 
 Sample UXPScripts are packaged along with InDesign and can be found under the Scripts Panel.
