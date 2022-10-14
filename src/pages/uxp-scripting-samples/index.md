@@ -107,7 +107,3 @@ function getDialog() {
     return dialog;
 }
 ```
-<<<<<<< HEAD
-=======
-
->>>>>>> 945b7c43bea49872803e4101833a4f0cf5c0030e

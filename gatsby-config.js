@@ -49,8 +49,12 @@ module.exports = {
             path: '/guides/'
           },
           {
-            title: 'Getting Started',
-            path: '/guides/getting-started/basics/'
+            title: 'Getting Started', 
+            path: '/guides/getting-started/'
+          }, 
+          {
+            title: 'Platform Concepts', 
+            path: '/guides/platform-concepts/'
           },
           {
             title: 'Debugging a Script',
@@ -88,10 +92,6 @@ module.exports = {
       },
       {
         title: 'Support',
-        path: '/support/'
-      },
-          {
-        title: 'Community',
         path: '/support/'
       }
     ],
