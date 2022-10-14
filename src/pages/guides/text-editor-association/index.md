@@ -1,7 +1,6 @@
 # Text-Editor Association for .idjs Files
 
-This page goes over how to (TODO: add info)
-This page goes over how to (TODO: fix image sizes)
+This page goes over how to open your preferred text editor while creating InDesign scripts. 
 
 When double-clicking an idjs (UXPScript) file for the first time, the user will see an alert asking them to associate UXPScript files with a text-editor of their choice, so that subsequent double-clicks directly open scripting files in their preferred editor.
 

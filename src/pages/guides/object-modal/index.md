@@ -54,7 +54,7 @@ myNumber = +myString;
 
 A variable is a container for a value. They are called "variables" because the values they contain might change. A variable might hold a number, a string of text, or a reference to an InDesign object. Variables have names, and you refer to a variable by its name. To put a value into a variable, you assign the data to the variable.
 
-In our first getting started hello-world sample script (TODO: ADD LINK!!!!), we used the variables myDocument and myTextFrame to avoid having to provide the full specification of the object (such as text frame 1 of page 1 of document 1 or app.documents.item(0).pages.item(0).textFrames.item(0)) every time we refer to the object.
+In our first getting started hello-world sample script in [getting started](../getting-started/), we used the variables myDocument and myTextFrame to avoid having to provide the full specification of the object (such as text frame 1 of page 1 of document 1 or app.documents.item(0).pages.item(0).textFrames.item(0)) every time we refer to the object.
 
 In all the sample and tutorial scripts that come with InDesign, all variables start with my. This way, you can easily differentiate variables we created in a script from the scripting language terms.
 

@@ -27,28 +27,28 @@ Understand more about InDesign UXP scripting, the power of UXP, and UXPScript vs
 
 [Learn more](./debugging)
     
-Todo: add info
+Understand how to debug common problems you may run into while creating InDesign scripts.
 
 ### Migrating to UXP Script
 
 [Learn more](./migrating-to-UXPScript/)
     
-Todo: add info
+Learn how convert Javascripts to UXP script in simple steps.
 
 ### Object model
 
 [Learn more](./object-modal/)
     
-Todo: add info
+Understand more about over how the InDesign object modal works in more detail. 
 
 ### Right to left scripting
 
 [Learn more](./rtl-scripting/)
     
-Todo: add info
+Learn more about designing and publishing InDesign Scripting documents in Middle Eastern languages.
 
 ### IDJS file association
 
 [Learn more](./text-editor-association/)
     
-Todo: add info
+Find out how to open your preferred text editor while creating InDesign scripts. 

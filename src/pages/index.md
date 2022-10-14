@@ -51,24 +51,36 @@ We tend to think of scripting as a solution for long, repetitive tasks, like lay
     
 Understand more about InDesign UXP scripting, the power of UXP, and UXPScript vs ExtendScript.
 
+### Getting started with InDesign Scripting
 
-<DiscoverBlock slots="link, text"/>
+[Learn more](./getting-started/)
+    
+Install the neccesary requirements for InDesign scripting, and learn how you can create your very first hello-world script. 
 
-[Migrating from CEP to UXP](guides/migrating/)
+### Getting started with InDesign Server Scripting
 
-Read our official migration guide.
+[Learn more](./getting-started/)
+    
+Dive into InDesign Server scripting and create your first hello-world server script. 
 
-<DiscoverBlock width="100%" slots="heading, link, text"/>
+### Migrating to UXP Script
+
+[Learn more](./migrating-to-UXPScript/)
+    
+Learn how convert Javascripts to UXP script in simple steps.
+
+### Object model
+
+[Learn more](./object-modal/)
+    
+Understand more about over how the InDesign object modal works in more detail. 
+
 
 ## Join the community
 
-Join the worldwide community of Creative Cloud Developers who are building plugins and integrations to empower creativity.
+Join the worldwide community of Creative Cloud Developers who are building plugins and integrations to empower creativity. Need support? [Click here](../pages/support).
 
 Here are a few ways to get involved:
 
 - Join the [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/) to meet other developers, ask questions, and offer help.
-- Contribute issues and pull requests to our open source repos, including:
-  - [UXP for InDesign documentation repo on GitHub](https://github.com/AdobeDocs/uxp-indesign)
-- Follow our [Eventbrite](https://www.eventbrite.com/o/adobe-creative-cloud-platform-amp-ecosystem-team-32572092711) page to stay up to date with events geared towards developers in our ecosystem.
 - Subscribe to the [Adobe Creative Cloud Developer Newsletter](https://www.adobe.com/subscription/ccdevnewsletter.html).
-- Join the [Adobe Creative Cloud Platform and Ecosystem LinkedIn group](https://www.linkedin.com/groups/12425244/).
