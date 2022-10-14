@@ -5,47 +5,46 @@ description: This is the community page of UXP for InDesign
 
 <Hero slots="heading, text" background="rgb(19, 93, 183)"/>
 
-# Support
+# Community
 
 Learn where to ask questions, report bugs, make feature requests, and spark discussions.
 
-## Feedback
+<DiscoverBlock width="100%" slots="heading, link, text"/>
 
-You've got a place to start discussions.
+## Developer forums
 
-<DiscoverBlock slots="image, heading, link, text" width="25%"/>
-
-![Cat Experience Cloud](experience_cloud.png)
-
-### Developer forum
-
-[Get started](https://adobe.io)
+[Adobe Community Forums, InDesign Scripting](https://community.adobe.com/t5/indesign/ct-p/ct-indesign?page=1&sort=latest_replies&lang=all&tabid=all&topics=label-scripting)
 
 Open discussion and support with community experts and Adobe staff.
 
-<DiscoverBlock slots="link, text" width="25%"/>
+<DiscoverBlock width="100%" slots="heading, link, text"/>
 
-[Experience league](https://adobe.io) 
+## InDesign Server Forum
 
-Tutorials and videos for the whole community.
+[InDesign Server Developers](https://community.adobe.com/t5/indesign/ct-p/ct-indesign?page=1&sort=latest_replies&filter=all&lang=all&tabid=discussions&topics=label-serverdevelopers) 
 
-<DiscoverBlock slots="link, text" width="25%"/>
+Chat with other InDesign Server Developers.
 
-[Experience forum](https://adobe.io) 
+<DiscoverBlock width="100%" slots="heading, link, text"/>
 
-Forum to get help and help others
+## Product Bugs and Feedback
 
-## Community
+[InDesign on UserVoice](https://indesign.uservoice.com/) 
 
-You've got a place to join the conversation.
+If you have product feedback or find bugs to report, use InDesign's UserVoice forum.
 
-<DiscoverBlock slots="image, heading, link, text" width="100%"/>
+<DiscoverBlock width="100%" slots="heading, link, text"/>
 
-![Stack Overflow](stack-overflow.png)
+## InDesign Prerelease
 
-### Stack Overflow
+[InDesign Prerelease](https://www.adobeprerelease.com/beta/C6DFA254-C40C-4EEB-8F6D-F4AEDA2E6171)
 
-[Explore](https://adobe.io)
+A Non-Disclosure Agreement is required to join. Once you're in, you can chat about prereleases in [the prerlease forums](https://forums.adobeprerelease.com/indesign/categories).
 
-Developer Q&A using a specific tag.
+<DiscoverBlock width="100%" slots="heading, link, text"/>
 
+## InDesign Developers Prerelease
+
+[InDesign Developers Prerelease](https://www.adobeprerelease.com/beta/D1A76A97-F7DC-4552-DE3C-FF5F211C7492)
+
+A Non-Disclosure Agreement is required to join. If you're interested in InDesign's C++ SDK or InDesign Server, you'll want to join the InDesign Developers Prerelease program in addition to the InDesign Prerelease program.  Once you're in, you can chat about prereleases in [the prerlease forums](https://forums.adobeprerelease.com/indesigndev/categories). Please note that if you applied and more than a week has passed, please email wwds@adobe.com to request access.

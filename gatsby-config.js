@@ -11,7 +11,7 @@
  */
 
 module.exports = {
-  pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/scripting/',
+  pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/',
   siteMetadata: {
     versions: [
       {
@@ -53,8 +53,6 @@ module.exports = {
             title: 'Recipes',
             description: 'UXP for Scripting recipes',
             path: '/reference/recipes'
-
-
           }
         ]
       },
@@ -178,36 +176,7 @@ module.exports = {
           }        
         ]
       },
-      {
-        title: 'Support',
-        path: '/support/',
-        header: true,
-        pages: [
-          {
-            title: 'Help',
-            path: '/support/'
-          },
-          {
-            title: 'FAQ',
-            path: '/support/FAQ/'
-          },
-          {
-            title: 'How to contribute',
-            path: '/support/contribute/'
-          }
-        ]
-      },
-      {
-        title: 'Community',
-        path: '/support/community/',
-        header: true,
-        pages: [
-          {
-            title: 'Information',
-            path: '/support/community/'
-      }
-        ]
-    }
+  
     ]
   },
 plugins: [`@adobe/gatsby-theme-aio`]
