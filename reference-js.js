@@ -5,7 +5,7 @@ module.exports=[
     "pages": [
       {
         "title": "Crypto",
-        "path": "/uxp/reference-js/Global Members/Crypto"
+        "path": "/uxp/reference-js/Global Members/Crypto/"
       },
       {
         "title": "Data Transfers",
