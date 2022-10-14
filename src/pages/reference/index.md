@@ -10,9 +10,9 @@ Learn more about the UXP API.
 
 <DiscoverBlock slots="link, text"/>
 
-[InDesign OMV API](./API-reference/) 
+[InDesign API](./API-reference/) 
 
-Learn more about the InDesign OMV API.
+Learn more about the InDesign API.
 
 <DiscoverBlock slots="link, text"/>
 

@@ -143,6 +143,41 @@ module.exports = {
           }
         ]
       },
+
+      {
+        title: 'Reference',
+        path: '/reference/',
+        pages: [
+          {
+            title: 'InDesign API',
+            path: '/reference/API-reference/'
+          },
+          {
+            title: 'Recipes',
+            path: '/reference/recipes/'
+          },
+          {
+            title: 'Code samples',
+            path: '/uxp-scripting-samples/'
+          }
+        
+        ]
+      },
+
+      {
+        title: 'InDesign Server',
+        path: '/server/',
+        pages: [
+          {
+            title: 'Get started',
+            path: '/server/guides/'
+          },
+          {
+            title: 'Reference',
+            path: '/server/reference/'
+          }        
+        ]
+      },
       {
         title: 'Support',
         path: '/support/',
