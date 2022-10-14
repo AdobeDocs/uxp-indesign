@@ -106,4 +106,3 @@ function getDialog() {
     dialog.appendChild(div);
     return dialog;
 }
-```

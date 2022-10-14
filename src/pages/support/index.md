@@ -5,7 +5,7 @@ description: This is the community page of UXP for InDesign
 
 <Hero slots="heading, text" background="rgb(19, 93, 183)"/>
 
-# Community
+# Support
 
 Learn where to ask questions, report bugs, make feature requests, and spark discussions.
 
