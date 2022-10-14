@@ -1,0 +1,34 @@
+# EPSColorSpace
+Color space options for representing color in the exported EPS.
+
+## Class
+> *Read Only* 
+> 
+> Number **RGB** = 1666336578
+> 
+> Represents all color values using the RGB color space. Best suited for documents that will be viewed on-screen.
+*** 
+> *Read Only* 
+> 
+> Number **CMYK** = 1129142603
+> 
+> Creates a separable file by representing all color values using the gamut of CYMK process color inks.
+*** 
+> *Read Only* 
+> 
+> Number **GRAY** = 1766290041
+> 
+> Converts all color values to high-quality black-and-white images. Gray levels of the converted objects represent the luminosity of the original objects.
+*** 
+> *Read Only* 
+> 
+> Number **UNCHANGED_COLOR_SPACE** = 1970161251
+> 
+> Leaves each image in its original color space.
+*** 
+> *Read Only* 
+> 
+> Number **POSTSCRIPT_COLOR_MANAGEMENT** = 1164208483
+> 
+> Uses PostScript color management (includes profiles).
+
