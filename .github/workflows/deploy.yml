@@ -117,7 +117,7 @@ jobs:
       - name: Build site
         run: |
           export NODE_OPTIONS="--max_old_space_size=8192"
-          npm run build
+          yarn run build
         env:
           PREFIX_PATHS: true # equivalent to --prefix-paths flag for 'gatsby build'
           PATH_PREFIX: ${{ needs.set-state.outputs.path_prefix }}
