@@ -1,5 +1,7 @@
 # Middle Eastern Scripting Guide
-The Middle Eastern feature of InDesign Server provides support for designing and publishing documents in Middle Eastern languages. This gives you unprecedented capability to build multilingual publications, mixing Roman and Middle Eastern scripts with ease and flexibility in your layouts.
+The Middle Eastern feature of InDesign Server provides support for designing and publishing documents in Middle Eastern languages. 
+
+This gives you unprecedented capability to build multilingual publications, mixing Roman and Middle Eastern scripts with ease and flexibility in your layouts.
 
 This section shows how to use Middle Eastern features with scripting. This section assumes that you are familiar with Middle Eastern features in InDesign.
 
