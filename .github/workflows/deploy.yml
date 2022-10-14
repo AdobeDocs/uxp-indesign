@@ -115,9 +115,9 @@ jobs:
           cmd: clean
 
       - name: Build site
+        uses: borales/actions-yarn@v3
         env:
           NODE_OPTIONS: "--max_old_space_size=4096"
-        uses: borales/actions-yarn@v3
         with:
           cmd: build
         env:
@@ -222,9 +222,9 @@ jobs:
           cmd: clean
 
       - name: Build site
+        uses: borales/actions-yarn@v3
         env:
           NODE_OPTIONS: "--max_old_space_size=4096"
-        uses: borales/actions-yarn@v3
         with:
           cmd: build
         env:
