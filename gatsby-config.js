@@ -112,12 +112,16 @@ module.exports = {
     ],
     subPages: [
       {
-        title: 'Get Started',
+        title: 'Guides overview',
         path: '/guides/',
         pages: [
           {
             title: 'Getting Started',
-            path: '/guides/getting-started/basics/'
+            path: '/guides/getting-started/'
+          },
+          {
+            title: 'Platform Concepts', 
+            path: '/guides/platform-concepts/'
           },
           {
             title: 'Debugging a Script',

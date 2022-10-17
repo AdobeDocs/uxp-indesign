@@ -8,7 +8,7 @@ Let's get started with your first InDesign Server script. The traditional first 
 
 1. Using the Text editor, enter the following script:
 
-```
+```js
 //HelloWorld.idjs
 //An InDesign JavaScript
 //
@@ -36,7 +36,7 @@ Next, we create a script that creates another "Hello World" document. Our second
 
 1. Using the text editor, enter the following script:
 
-```
+```js
 //ImprovedHelloWorld.idjs
 //An InDesign JavaScript
 //
