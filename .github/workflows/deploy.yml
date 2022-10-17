@@ -158,7 +158,7 @@ jobs:
         uses: icaraps/gatsby-fastly-purge-action@master
         with:
           fastly-token: ${{ secrets.AIO_FASTLY_TOKEN }}
-          fastly-url: '${{ secrets.AIO_FASTLY_PROD_URL }}${{ needs.set-state.outputs.path_prefix }}'
+          fastly-url: '${{ secrets.AIO_FASTLY_DEV_URL}}${{ needs.set-state.outputs.path_prefix }}'
 
   pre-build-production:
     needs: [set-state]
