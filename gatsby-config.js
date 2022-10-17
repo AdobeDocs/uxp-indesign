@@ -103,7 +103,7 @@ module.exports = {
       },
       {
         title: 'Code Samples',
-        path: '/uxp-scripting-samples/'
+        path: '/reference/uxp-scripting-samples/'
       },
       {
         title: 'Support',
@@ -160,7 +160,7 @@ module.exports = {
           },
           {
             title: 'Code samples',
-            path: '/uxp-scripting-samples/'
+            path: '/reference/uxp-scripting-samples/'
           }
         
         ]

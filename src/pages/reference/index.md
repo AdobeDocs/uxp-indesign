@@ -22,7 +22,7 @@ See what types of methods and requests are available with UXP for InDesign Scrip
 
 <DiscoverBlock slots="link, text"/>
 
-[Code samples](../uxp-scripting-samples/)
+[Code samples](./uxp-scripting-samples/)
 
 See some code samples to get an idea of what's possible. 
 
