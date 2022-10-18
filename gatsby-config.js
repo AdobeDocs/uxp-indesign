@@ -182,14 +182,6 @@ module.exports = {
             pages: require("./reference-spectrum.js"),
           },
           {
-            title: "Versions",
-            path: "/uxp/versions3P/",
-          },
-          {
-            title: "Changelog",
-            path: "/uxp/changelog3P/",
-          },
-          {
             title: "Known Issues",
             path: "/uxp/known-issues/",
           },
