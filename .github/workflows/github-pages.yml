@@ -7,14 +7,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.1 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        uses: actions/checkout@v3
+
+      - name: Setup Node v16 for Yarn v3
+        uses: actions/setup-node@v3
         with:
-          persist-credentials: false
-      - name: NPM Install
-        uses: bahmutov/npm-install@v1
-      - name: Build
-        run: |
-          npm run build
+          node-version: '16.15.0' # Current LTS version
+
+      - name: Enable Corepack for Yarn v3
+        run: corepack enable
+
+      - name: Install Yarn v3
+        uses: borales/actions-yarn@v3
+        with:
+          cmd: set version stable
+
+      - name: Install Dependencies
+        uses: borales/actions-yarn@v3
+        env:
+          YARN_ENABLE_IMMUTABLE_INSTALLS: false
+        with:
+          cmd: install
+      - name: Build site
+        uses: borales/actions-yarn@v3
+        with:
+          cmd: build
         env:
           PREFIX_PATHS: true # equivalent to --prefix-paths flag for 'gatsby build'
           PATH_PREFIX: ${{ github.event.repository.name }}
@@ -28,6 +45,7 @@ jobs:
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
           GOOGLE_DOCS_TOKEN: ${{ secrets.GOOGLE_DOCS_TOKEN }}
           GOOGLE_DOCS_FOLDER_ID: ${{ secrets.GOOGLE_DOCS_FOLDER_ID }}
+          NODE_OPTIONS: "--max_old_space_size=4096"
       - name: Deploy to GH Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
