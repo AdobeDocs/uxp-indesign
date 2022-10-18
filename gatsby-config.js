@@ -16,8 +16,8 @@ module.exports = {
     versions: [
       {
         title: 'v18.0',
-        // description: 'First verion supporting UXP',
-        // path: '/discover/',
+        // // description: 'First verion supporting UXP',
+        // // path: '/discover/',
         selected: true
       }
       // {
@@ -32,8 +32,15 @@ module.exports = {
         path: '/'
 
       },
+
+      {
+        title: 'UXP for InDesign',
+        path: '/'
+
+      },
       {
         title: 'References',
+// 
 // 
         menu: [
           {
@@ -41,6 +48,7 @@ module.exports = {
             // description: 'Document Object Model',
             path: '/reference/'
           },
+
 
           {
             title: 'UXP API',
