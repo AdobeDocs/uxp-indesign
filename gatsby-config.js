@@ -39,9 +39,8 @@ module.exports = {
 
       },
       {
-        title: 'References 😬',
-// 
-// 
+        title: 'References',
+
         menu: [
           {
             title: 'Reference',
@@ -112,7 +111,7 @@ module.exports = {
         path: '/plugins/'
       },
       {
-        title: 'InDesign Server 😅',
+        title: 'InDesign Server',
         path: '/server/'
       },
       {
@@ -170,7 +169,7 @@ module.exports = {
             pages: require('./omv.js'),
           },
           {
-            title: 'Recipes 😜',
+            title: 'Recipes',
             path: '/reference/recipes/'
           },
           {
@@ -182,7 +181,7 @@ module.exports = {
       },
 
       {
-        title: 'InDesign Server 😜',
+        title: 'InDesign Server',
         path: '/server/',
         pages: [
           {
