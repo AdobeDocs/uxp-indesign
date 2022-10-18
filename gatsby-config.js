@@ -39,7 +39,7 @@ module.exports = {
 
       },
       {
-        title: 'References',
+        title: 'References 😬',
 // 
 // 
         menu: [
@@ -56,6 +56,12 @@ module.exports = {
             path: '/reference/API-reference'
 
 
+          },
+          {
+            title: 'InDesign API',
+            description: 'Formerly known as the OMV file',
+            path: '/omv/',
+            // pages: require('./omv.js'),
           },
           {
             title: 'Recipes',
@@ -106,7 +112,7 @@ module.exports = {
         path: '/plugins/'
       },
       {
-        title: 'InDesign Server',
+        title: 'InDesign Server 😅',
         path: '/server/'
       },
       {
@@ -164,7 +170,7 @@ module.exports = {
             pages: require('./omv.js'),
           },
           {
-            title: 'Recipes',
+            title: 'Recipes 😜',
             path: '/reference/recipes/'
           },
           {
@@ -176,7 +182,7 @@ module.exports = {
       },
 
       {
-        title: 'InDesign Server',
+        title: 'InDesign Server 😜',
         path: '/server/',
         pages: [
           {

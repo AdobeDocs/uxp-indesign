@@ -1,6 +1,6 @@
-<Resources slots="heading"/>
+<!-- <Resources slots="heading"/> -->
 
-# Reference
+<!-- # Reference -->
 
 <DiscoverBlock slots="heading, link, text"/> 
 
