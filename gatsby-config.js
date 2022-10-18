@@ -160,7 +160,8 @@ module.exports = {
         pages: [
           {
             title: 'InDesign API',
-            path: '/reference/API-reference/'
+            path: '/omv/',
+            pages: require('./omv.js'),
           },
           {
             title: 'Recipes',
@@ -169,12 +170,7 @@ module.exports = {
           {
             title: 'Code samples',
             path: '/reference/uxp-scripting-samples/'
-          },
-                {
-        title: "InDesign API",
-        path: "/src/pages/omv/",
-        pages: require("./omv.js"),
-      }
+          }
         
         ]
       },

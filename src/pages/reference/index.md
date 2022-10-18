@@ -1,3 +1,5 @@
+<Resources slots="heading"/>
+
 # Reference
 
 <DiscoverBlock slots="heading, link, text"/> 
@@ -10,9 +12,9 @@ Learn more about the UXP API.
 
 <DiscoverBlock slots="link, text"/>
 
-[InDesign OMV API](./API-reference/) 
+[InDesign OMV API](./omv/) 
 
-Learn more about the InDesign OMV API.
+Learn more about the InDesign API, formerly available in the OMV file.
 
 <DiscoverBlock slots="link, text"/>
 
