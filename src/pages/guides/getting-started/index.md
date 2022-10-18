@@ -51,7 +51,7 @@ Our script will creates a new document, adds a text frame, and enters text in th
 * Add text to a text frame.
 * Start a text editor and enter the following script:
 
-```
+```js
 //HelloWorld.idjs
 //An InDesign UXPScript
 //
@@ -86,7 +86,7 @@ Either open the ImprovedHelloWorld.jsx tutorial script or perform the following 
 
 1. Enter the following JavaScript in a new text file
 
-```
+```js
 //ImprovedHelloWorld.idjs
 //An InDesign UXPScript
 //
@@ -146,7 +146,7 @@ In the following sections, we'll discuss each functional area in the DocumentCon
 
 The following script fragment shows how to create a new document and set the margins of the first master spread.
 
-```
+```js
 //Create a new document.
 var myDocument = app.documents.add();
 //Set the measurement units and ruler origin.
@@ -180,7 +180,7 @@ Now that we have a master spread set up, we will add a baseline grid. Here is a 
 
 ![InDesign object model](3.png)
 
-```
+```js
 var myGridPreferences = myDocument.gridPreferences;
 myGridPreferences.baselineDivision = 14;
 myGridPreferences.baselineStart = 70;
@@ -195,7 +195,7 @@ In the "Hello World" example, we created a text frame and specified its position
 
 ![InDesign object model](4.png)
 
-```
+```js
 var myMasterSpread = myDocument.masterSpreads.item(0);
 var myLeftPage = myMasterSpread.pages.item(0);
 var myRightPage = myMasterSpread.pages.item(1);
@@ -220,7 +220,7 @@ Next, we add master text frames. The following block diagram shows the objects a
 
 ![InDesign object model](5.png)
 
-```
+```js
 var myLeftPage = myMasterSpread.pages.item(0);
 var myRightPage = myMasterSpread.pages.item(1);
 var myLeftTextFrame = myLeftPage.textFrames.add();
@@ -244,7 +244,7 @@ myLeftTextFrame.nextTextFrame = myRightTextFrame;
 ### Overriding master page items and adding text
 Next, we override one of the master text frames we created and add text.
 
-```
+```js
 var myTextFrame = myDocument.masterSpreads.item(0).pages.item(1).textFrames.item(0).override(myDocument.pages.item(0));
 //Add text by setting the contents of an insertion point to a string.
 //In JavaScript, "\r" is a return character.
@@ -257,7 +257,7 @@ Our headline looks plain, so we will format it in a paragraph style. To do that,
 
 ![InDesign object model](6.png)
 
-```
+```js
 //First, check to see if the paragraph style already exists.
 var myParagraphStyle = myDocument.paragraphStyles.item("Heading 1");
 try {
@@ -295,7 +295,7 @@ myParagraphStyle, true);
 
 Next, we import a text file. We add the text after the headline in the first text frame on the first page. The script displays a dialog box that you can use to select the text file to import.
 
-```
+```js
 //Display a standard open file dialog box to select a text file.
 const uxpfs = require('uxp').storage;
 const ufs = uxpfs.localFileSystem;
@@ -311,7 +311,7 @@ if((myTextFile != "")&&(myTextFile != null)){
 
 Placing a graphic is like importing a text file. Again, the script displays a dialog box that you can use to select the graphic to place. When we place the graphic, InDesign returns a reference to the graphic itself rather than to the frame containing the graphic. To get a reference to the frame, use the parent property of the graphic. Once we have that reference, we can apply an object style to the frame.
 
-```
+```js
 //Display a standard open file dialog box to select a graphic file.
 var myGraphicFile = await ufs.getFileForOpening();
 //If a graphic file was selected, and if you didn't press Cancel,

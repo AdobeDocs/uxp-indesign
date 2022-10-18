@@ -11,13 +11,13 @@
  */
 
 module.exports = {
-  pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/scripting/',
+  pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/',
   siteMetadata: {
     versions: [
       {
         title: 'v18.0',
-        // description: 'First verion supporting UXP',
-        // path: '/discover/',
+        // // description: 'First verion supporting UXP',
+        // // path: '/discover/',
         selected: true
       }
       // {
@@ -32,8 +32,15 @@ module.exports = {
         path: '/'
 
       },
+
+      {
+        title: 'UXP for InDesign',
+        path: '/'
+
+      },
       {
         title: 'References',
+// 
 // 
         menu: [
           {
@@ -41,6 +48,7 @@ module.exports = {
             // description: 'Document Object Model',
             path: '/reference/'
           },
+
 
           {
             title: 'UXP API',
@@ -53,8 +61,6 @@ module.exports = {
             title: 'Recipes',
             description: 'UXP for Scripting recipes',
             path: '/reference/recipes'
-
-
           }
         ]
       },
@@ -105,7 +111,7 @@ module.exports = {
       },
       {
         title: 'Code Samples',
-        path: '/uxp-scripting-samples/'
+        path: '/reference/uxp-scripting-samples/'
       },
       {
         title: 'Support',
@@ -114,12 +120,16 @@ module.exports = {
     ],
     subPages: [
       {
-        title: 'Get Started',
+        title: 'Guides overview',
         path: '/guides/',
         pages: [
           {
             title: 'Getting Started',
-            path: '/guides/getting-started/basics/'
+            path: '/guides/getting-started/'
+          },
+          {
+            title: 'Platform Concepts', 
+            path: '/guides/platform-concepts/'
           },
           {
             title: 'Debugging a Script',
@@ -143,37 +153,81 @@ module.exports = {
           }
         ]
       },
+
       {
-        title: 'Support',
-        path: '/support/',
-        header: true,
+        title: 'Reference',
+        path: '/reference/',
         pages: [
           {
-            title: 'Help',
-            path: '/support/'
+            title: 'InDesign API',
+            path: '/reference/API-reference/'
           },
           {
-            title: 'FAQ',
-            path: '/support/FAQ/'
+            title: 'Recipes',
+            path: '/reference/recipes/'
           },
           {
-            title: 'How to contribute',
-            path: '/support/contribute/'
+            title: 'Code samples',
+            path: '/reference/uxp-scripting-samples/'
           }
+        
+        ]
+      },
+
+      {
+        title: 'InDesign Server',
+        path: '/server/',
+        pages: [
+          {
+            title: 'Get started',
+            path: '/server/guides/'
+          },
+          {
+            title: 'Reference',
+            path: '/server/reference/'
+          }        
         ]
       },
       {
-        title: 'Community',
-        path: '/support/community/',
+        title: "UXP API",
+        path: "/uxp/reference-js/",
         header: true,
         pages: [
           {
-            title: 'Information',
-            path: '/support/community/'
-      }
-        ]
-    }
+            title: "JavaScript Reference",
+            path: "/uxp/reference-js/",
+            pages: require("./reference-js.js"),
+          },
+          {
+            title: "CSS Reference",
+            path: "/uxp/reference-css/",
+            pages: require("./reference-css.js"),
+          },
+          {
+            title: "HTML Reference",
+            path: "/uxp/reference-html/",
+            pages: require("./reference-html.js"),
+          },
+          {
+            title: "Spectrum UXP Reference",
+            path: "/uxp/reference-spectrum/",
+            pages: require("./reference-spectrum.js"),
+          },
+          {
+            title: "Versions",
+            path: "/uxp/versions3P/",
+          },
+          {
+            title: "Changelog",
+            path: "/uxp/changelog3P/",
+          },
+          {
+            title: "Known Issues",
+            path: "/uxp/known-issues/",
+          },
+        ],
+      },
     ]
   },
-plugins: [`@adobe/gatsby-theme-aio`]
+  plugins: [`@adobe/gatsby-theme-aio`]
 };

@@ -19,8 +19,3 @@ description: The API Reference for UXP itself. Includes UI APIs (including HTML 
 * [CSS Reference](./reference-css/) – technical documentation regarding the kinds of CSS styles and features available in UXP.
 * [HTML Reference](./reference-html/) – technical documentation regarding some of the HTML elements and attributes that are supported.
 * [Spectrum UXP Reference](./reference-spectrum/) – information on the Spectrum UXP Web Component widgets and their capabilities.
-
-
-# InDesign OMV API Reference
-
-* TODO: add this here
