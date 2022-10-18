@@ -1,29 +1,14 @@
-////////////////////////////////////////////
-//
-//      Somewhere in gatsby-config.js we need to include this block.
-//
-///////////////////////////////////////////
-    //   {
-    //     title: "InDesign API",
-    //     path: "/src/pages/omv/",
-    //     pages: require("./omv.js"),
-    //   },
-
-
 module.exports = {
-    // I don't think we need this PATH prefix?? - EF
-    // pathPrefix: process.env.PATH_PREFIX ||'/indesign/uxp/scripting/',
-    // siteMetadata: {
+
     pages: [
-        // I'm not sure how pages and subpages work here 😭
-        // is this pages section necessary?
+
     {
     title: 'InDesign API',
     path: '/'
     },
     {
-    title: 'InDesign UXP Documentation',
-    path: '/src/pages/uxp/'
+    title: 'InDesign API Documentation',
+    path: '/src/pages/omv/'
     }
     ],
     subPages: [
