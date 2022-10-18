@@ -44,22 +44,18 @@ module.exports = {
 // 
         menu: [
           {
-            title: 'Reference',
+            title: 'Reference overview',
             // description: 'Document Object Model',
             path: '/reference/'
           },
-
-
           {
             title: 'UXP API',
-            description: 'UXP API Reference',
-            path: '/reference/API-reference'
-
-
+            // description: 'UXP API Reference',
+            path: '/uxp/'
           },
           {
             title: 'Recipes',
-            description: 'UXP for Scripting recipes',
+            // description: 'UXP for Scripting recipes',
             path: '/reference/recipes'
           }
         ]
@@ -68,7 +64,7 @@ module.exports = {
         title: 'Guides',
         menu: [
           {
-            title: 'Guides',
+            title: 'Guides overview',
             path: '/guides/'
           },
           {
@@ -158,9 +154,14 @@ module.exports = {
         title: 'Reference',
         path: '/reference/',
         pages: [
+          // {
+          //   title: 'InDesign API',
+          //   path: '/reference/API-reference/' todo: remove reference API
+          // },
           {
-            title: 'InDesign API',
-            path: '/reference/API-reference/'
+            title: 'UXP API',
+            description: 'UXP API Reference',
+            path: '/uxp/'
           },
           {
             title: 'Recipes',
@@ -212,14 +213,6 @@ module.exports = {
             title: "Spectrum UXP Reference",
             path: "/uxp/reference-spectrum/",
             pages: require("./reference-spectrum.js"),
-          },
-          {
-            title: "Versions",
-            path: "/uxp/versions3P/",
-          },
-          {
-            title: "Changelog",
-            path: "/uxp/changelog3P/",
           },
           {
             title: "Known Issues",
