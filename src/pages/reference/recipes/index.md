@@ -7,7 +7,7 @@ Alert can be achieved by having the below method in script. This is using script
 
 ### Usage
 ---
-```
+```js
 function alert(error) {
     console.log("Exception thrown");
     theDialog = app.dialogs.add();
@@ -44,7 +44,7 @@ NoteConditional statements often make logical comparisons. In UXPScript, the equ
 
 This simple example uses a conditional statement to evaluate whether any documents are open. If one or more documents are open  the code that is pasted instead of the comment is executed. If no documents are open, a message window opens. It can be a useful way to check if the script is being used in the context that it should be.
 
-```
+```js
 if (app.documents.length > 0) {
 //Your code goes here.
 }else{
@@ -57,7 +57,7 @@ If you could talk to InDesign, you might say, "Repeat the following procedure 20
 
 Note: Code examples for control structures. Loops a procedure 20 times.
 
-```
+```js
 for (var myCounter = 0; myCounter < 20; myCounter++) {
 //Your procedure goes here
 }
@@ -72,7 +72,7 @@ Using parameters and/or return values is entirely optional. To use the code belo
 
 If you don't want your function to return anything, remove the line with myReturnValue variable.
 
-```
+```js
 function myFunction(myParameter){
 //Your procedure goes here
 return myReturnValue; (optional)
@@ -117,7 +117,7 @@ The following script shows how to create a new document and set the margins of t
 
 Enter the following code in the text editor, or open the DocumentConstruction.idjs tutorial script:
 
-```
+```js
 //Create a new document.
 var myDocument = app.documents.add();
  
@@ -155,7 +155,7 @@ Now that we have a master spread set up, we add a baseline grid. Add the followi
 
 ![Add a baseline grid](2.png)
 
-```
+```js
 var myGridPreferences = myDocument.gridPreferences;
 myGridPreferences.baselineDivision = 14;
 myGridPreferences.baselineStart = 70;
@@ -167,7 +167,7 @@ Next, we add two text frames to the master pages. These frames will contain the 
 
 In the "Hello World" example, we created a text frame and specified its position and size using the geometric bounds property-an array containing the top, left, bottom, and right coordinates for the frame. The coordinates correspond to the corners of the frame, just as they would appear in the Control panel.
 
-```
+```js
 var myMasterSpread = myDocument.masterSpreads.item(0);
 var myLeftPage = myMasterSpread.pages.item(0);
 var myRightPage = myMasterSpread.pages.item(1);
@@ -191,7 +191,7 @@ Next, we add master text frames. The following block diagram shows the objects a
 
 ![Adding master text frames](3.png)
 
-```
+```js
 var myLeftPage = myMasterSpread.pages.item(0);
 var myRightPage = myMasterSpread.pages.item(1);
 var myLeftTextFrame = myLeftPage.textFrames.add();
@@ -215,7 +215,7 @@ myLeftTextFrame.nextTextFrame = myRightTextFrame;
 ## Overriding master page items and adding text
 Next, we override one of the master text frames we created and add text to it. Again, add this script to the end of the script we have been working on.
 
-```
+```js
 var myTextFrame = myDocument.masterSpreads.item(0).pages.item(1).textFrames.item(0).override(myDocument.pages.item(0));
 //Add text by setting the contents of an insertion point to a string.
 //In JavaScript, "\r" is a return character.
@@ -227,7 +227,7 @@ Our headline looks plain, so we format it using a paragraph style. First, we mus
 
 ![Adding and applying a paragraph style](4.png)
 
-```
+```js
 //First, check to see if the paragraph style already exists.
 var myParagraphStyle = myDocument.paragraphStyles.item("Heading 1");
 try {
@@ -264,7 +264,7 @@ myParagraphStyle, true);
 ## Placing a text file
 Next, we import a text file. We add the text after the headline in the first text frame on the first page. The script displays a dialog box you can use to select the text file you want to import. Again, add this script to the end of the script we have been working on.
 
-```
+```js
 //Display a standard open file dialog box to select a text file.
 var myTextFile = <File Path of txt file>
  //Example : var myTextFile = "C://IDS/myText.txt";
@@ -278,7 +278,7 @@ if((myTextFile != "")&&(myTextFile != null)){
 ## Place a graphic
 Placing a graphic is like importing a text file. Again, the script displays a dialog box you can use to select the graphic you want to place. When we place the graphic, InDesign Server returns a reference to the graphic itself, rather than to the frame containing the graphic. To get a reference to the frame, use the parent property of the graphic. Once we have that reference, we can apply an object style to the frame. Again, add this script to the end of the script we have been working on.
 
-```
+```js
 //Display a standard open file dialog box to select a graphic file.
  var myGraphicFile = <File Path of graphic file>
 //Example : var myGraphicFile = "C://IDS/myImage.PNG";

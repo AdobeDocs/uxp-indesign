@@ -14,6 +14,7 @@ jobs:
         uses: bahmutov/npm-install@v1
       - name: Build
         run: |
+          export NODE_OPTIONS="--max_old_space_size=4096"
           npm run build
         env:
           PREFIX_PATHS: true # equivalent to --prefix-paths flag for 'gatsby build'
@@ -28,6 +29,7 @@ jobs:
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
           GOOGLE_DOCS_TOKEN: ${{ secrets.GOOGLE_DOCS_TOKEN }}
           GOOGLE_DOCS_FOLDER_ID: ${{ secrets.GOOGLE_DOCS_FOLDER_ID }}
+          NODE_OPTIONS: "--max_old_space_size=4096"
       - name: Deploy to GH Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:

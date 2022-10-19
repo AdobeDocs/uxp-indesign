@@ -43,7 +43,7 @@ module.exports = {
 
         menu: [
           {
-            title: 'Reference',
+            title: 'Reference overview',
             // description: 'Document Object Model',
             path: '/reference/'
           },
@@ -64,7 +64,7 @@ module.exports = {
           },
           {
             title: 'Recipes',
-            description: 'UXP for Scripting recipes',
+            // description: 'UXP for Scripting recipes',
             path: '/reference/recipes'
           }
         ]
@@ -73,7 +73,7 @@ module.exports = {
         title: 'Guides',
         menu: [
           {
-            title: 'Guides',
+            title: 'Guides overview',
             path: '/guides/'
           },
           {
@@ -116,7 +116,7 @@ module.exports = {
       },
       {
         title: 'Code Samples',
-        path: '/reference/uxp-scripting-samples/'
+        path: '/reference/reference/uxp-scripting-samples/'
       },
       {
         title: 'Support',
@@ -163,6 +163,10 @@ module.exports = {
         title: 'Reference',
         path: '/reference/',
         pages: [
+          // {
+          //   title: 'InDesign API',
+          //   path: '/reference/API-reference/' todo: remove reference API
+          // },
           {
             title: 'InDesign API',
             path: '/omv/',
@@ -177,8 +181,10 @@ module.exports = {
             path: '/reference/uxp-scripting-samples/'
           }
         
+        
         ]
       },
+
 
       {
         title: 'InDesign Server',
@@ -220,14 +226,6 @@ module.exports = {
             pages: require("./reference-spectrum.js"),
           },
           {
-            title: "Versions",
-            path: "/uxp/versions3P/",
-          },
-          {
-            title: "Changelog",
-            path: "/uxp/changelog3P/",
-          },
-          {
             title: "Known Issues",
             path: "/uxp/known-issues/",
           },
@@ -235,5 +233,5 @@ module.exports = {
       },
     ]
   },
-  plugins: [`@adobe/gatsby-theme-aio`]
+    plugins: [`@adobe/gatsby-theme-aio`]
 };
