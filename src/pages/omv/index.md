@@ -5,7 +5,7 @@ The “Object Model Viewer” will be familiar to users of [ExtendScript Toolkit
 ## OMV Reference
 For InDesign 18.0
 
-* [AcrobatCompatibility](/omv/a/AcrobatCompatibility/)
+<!-- * [AcrobatCompatibility](/omv/a/AcrobatCompatibility/) -->
 * [AddPageOptions](/omv/a/AddPageOptions/)
 * [AdjustLayoutPreference](/omv/a/AdjustLayoutPreference/)
 * [AdornmentOverprint](/omv/a/AdornmentOverprint/)

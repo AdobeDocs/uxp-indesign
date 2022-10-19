@@ -40,18 +40,27 @@ module.exports = {
       },
       {
         title: 'References',
-// 
-// 
+
         menu: [
           {
             title: 'Reference overview',
             // description: 'Document Object Model',
             path: '/reference/'
           },
+
+
           {
             title: 'UXP API',
-            // description: 'UXP API Reference',
-            path: '/uxp/'
+            description: 'UXP API Reference',
+            path: '/reference/API-reference'
+
+
+          },
+          {
+            title: 'InDesign API',
+            description: 'Formerly known as the OMV file',
+            path: '/omv/',
+            // pages: require('./omv.js'),
           },
           {
             title: 'Recipes',
@@ -107,7 +116,7 @@ module.exports = {
       },
       {
         title: 'Code Samples',
-        path: '/reference/uxp-scripting-samples/'
+        path: '/reference/reference/uxp-scripting-samples/'
       },
       {
         title: 'Support',
@@ -159,9 +168,9 @@ module.exports = {
           //   path: '/reference/API-reference/' todo: remove reference API
           // },
           {
-            title: 'UXP API',
-            description: 'UXP API Reference',
-            path: '/uxp/'
+            title: 'InDesign API',
+            path: '/omv/',
+            pages: require('./omv.js'),
           },
           {
             title: 'Recipes',
@@ -172,8 +181,10 @@ module.exports = {
             path: '/reference/uxp-scripting-samples/'
           }
         
+        
         ]
       },
+
 
       {
         title: 'InDesign Server',
@@ -222,5 +233,5 @@ module.exports = {
       },
     ]
   },
-  plugins: [`@adobe/gatsby-theme-aio`]
+    plugins: [`@adobe/gatsby-theme-aio`]
 };
