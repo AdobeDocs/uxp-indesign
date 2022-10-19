@@ -238,10 +238,6 @@ module.exports=[
           {
             "title": "HTMLTextAreaElement",
             "path": "/uxp/reference-js/Global Members/HTML Elements/HTMLTextAreaElement/"
-          },
-          {
-            "title": "HTMLWebViewElement",
-            "path": "/uxp/reference-js/Global Members/HTML Elements/HTMLWebViewElement/"
           }
         ],
         "path": "/uxp/reference-js/Global Members/HTML Elements/"
@@ -339,10 +335,6 @@ module.exports=[
                 "path": "/uxp/reference-js/Modules/uxp/Persistent File Storage/Folder/"
               },
               {
-                "title": "FileSystem",
-                "path": "/uxp/reference-js/Modules/uxp/Persistent File Storage/FileSystem/"
-              },
-              {
                 "title": "FileSystemProvider",
                 "path": "/uxp/reference-js/Modules/uxp/Persistent File Storage/FileSystemProvider/"
               },
@@ -383,7 +375,7 @@ module.exports=[
               },
               {
                 "title": "Plugin Manager",
-                "path": "/uxp/reference-js/Modules/uxp/Plugin Manager/PluginManager/"
+                "path": "/uxp/reference-js/Modules/uxp/Plugin Manager/Plugin Manager/"
               },
               {
                 "title": "Script",
