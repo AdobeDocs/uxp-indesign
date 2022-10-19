@@ -19200,8 +19200,8 @@ __metadata:
 
 "uxp-documentation@github:adobedocs/uxp":
   version: 0.0.17
-  resolution: "uxp-documentation@https://github.com/adobedocs/uxp.git#commit=1124385f5fac3b0d7f46cdd89689e3df0ad27dee"
-  checksum: 54135db7bb584e198b0e85790fad621001affb37cbf044e0b6141dbf2b0898d2114bcd944e14c48fd136d8b3de5509f443a31fd8835a69cee9ac5b0921355f55
+  resolution: "uxp-documentation@https://github.com/adobedocs/uxp.git#commit=298e0ff38071de30282a4671828407bd06a24ae8"
+  checksum: 12ef9868c84329e655a278378ae0e015ba5f3af4714ba02a6ff0a91c354485c160875397f786a57ef29a7378d869485d9333c84bbc02402911b139efc008fc5f
   languageName: node
   linkType: hard
 
