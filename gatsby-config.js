@@ -13,18 +13,18 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/',
   siteMetadata: {
-    versions: [
-      {
-        title: 'v18.0',
-        // // description: 'First verion supporting UXP',
-        // // path: '/discover/',
-        selected: true
-      }
-      // {
-      //   title: 'v1.4',
-      //   path: 'https://github.com/AdobeDocs/dev-site'
-      // }
-    ],
+    // versions: [
+    //   {
+    //     title: 'v18.0', 
+    //     // // description: 'First verion supporting UXP',
+    //     // // path: '/discover/',
+    //     selected: true
+    //   }
+    //   // {
+    //   //   title: 'v1.4',
+    //   //   path: 'https://github.com/AdobeDocs/dev-site'
+    //   // }
+    // ]
     pages: [
 
       {
@@ -32,50 +32,10 @@ module.exports = {
         path: '/'
 
       },
-
-      {
-        title: 'UXP for InDesign',
-        path: '/'
-
-      },
-      {
-        title: 'References',
-
-        menu: [
-          {
-            title: 'Reference overview',
-            // description: 'Document Object Model',
-            path: '/reference/'
-          },
-
-
-          {
-            title: 'UXP API',
-            description: 'UXP API Reference',
-            path: '/reference/API-reference'
-
-
-          },
-          {
-            title: 'InDesign API',
-            description: 'Formerly known as the OMV file',
-            path: '/omv/',
-            // pages: require('./omv.js'),
-          },
-          {
-            title: 'Recipes',
-            // description: 'UXP for Scripting recipes',
-            path: '/reference/recipes'
-          }
-        ]
-      },
       {
         title: 'Guides',
+        // TODO: figure out how to point this to guides overview page '/guides'
         menu: [
-          {
-            title: 'Guides overview',
-            path: '/guides/'
-          },
           {
             title: 'Getting Started', 
             path: '/guides/getting-started/'
@@ -106,6 +66,7 @@ module.exports = {
           }
         ]
       },
+
       {
         title: 'Plugins',
         path: '/plugins/'
@@ -113,6 +74,28 @@ module.exports = {
       {
         title: 'InDesign Server',
         path: '/server/'
+      },
+      {
+        title: 'References',
+
+        menu: [
+
+          {
+            title: 'UXP API',
+            path: '/reference/API-reference',
+            // points to uxp docs
+          },
+          {
+            title: 'InDesign API',
+            path: '/omv/',
+            // points to omv docs
+            // pages: require('./omv.js'),
+          },
+          {
+            title: 'Recipes',
+            path: '/reference/recipes'
+          }
+        ]
       },
       {
         title: 'Code Samples',
