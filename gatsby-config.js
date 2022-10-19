@@ -13,18 +13,6 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/',
   siteMetadata: {
-    // versions: [
-    //   {
-    //     title: 'v18.0', 
-    //     // // description: 'First verion supporting UXP',
-    //     // // path: '/discover/',
-    //     selected: true
-    //   }
-    //   // {
-    //   //   title: 'v1.4',
-    //   //   path: 'https://github.com/AdobeDocs/dev-site'
-    //   // }
-    // ]
     pages: [
 
       {
@@ -34,37 +22,7 @@ module.exports = {
       },
       {
         title: 'Guides',
-        // TODO: figure out how to point this to guides overview page '/guides'
-        menu: [
-          {
-            title: 'Getting Started', 
-            path: '/guides/getting-started/'
-          }, 
-          {
-            title: 'Platform Concepts', 
-            path: '/guides/platform-concepts/'
-          },
-          {
-            title: 'Debugging a Script',
-            path: '/guides/debugging/'
-          },
-          {
-            title: 'Migrating',
-            path: '/guides/migrating-to-UXPScript/'
-          },
-          {
-            title: 'Object Model',
-            path: '/guides/object-modal/'
-          },
-          {
-            title: 'Right to Left Scripting',
-            path: '/guides/rtl-scripting/'
-          },
-          {
-            title: 'IDJS File Association',
-            path: '/guides/text-editor-association/'
-          }
-        ]
+        path: '/guides/'
       },
 
       {
@@ -77,19 +35,14 @@ module.exports = {
       },
       {
         title: 'References',
-
         menu: [
-
           {
             title: 'UXP API',
-            path: '/reference/API-reference',
-            // points to uxp docs
+            path: '/uxp/',
           },
           {
             title: 'InDesign API',
             path: '/omv/',
-            // points to omv docs
-            // pages: require('./omv.js'),
           },
           {
             title: 'Recipes',
@@ -142,31 +95,31 @@ module.exports = {
         ]
       },
 
-      {
-        title: 'Reference',
-        path: '/reference/',
-        pages: [
-          // {
-          //   title: 'InDesign API',
-          //   path: '/reference/API-reference/' todo: remove reference API
-          // },
-          {
-            title: 'InDesign API',
-            path: '/omv/',
-            pages: require('./omv.js'),
-          },
-          {
-            title: 'Recipes',
-            path: '/reference/recipes/'
-          },
-          {
-            title: 'Code samples',
-            path: '/reference/uxp-scripting-samples/'
-          }
+      // {
+      //   title: 'Reference',
+      //   path: '/reference/',
+      //   pages: [
+      //     // {
+      //     //   title: 'InDesign API',
+      //     //   path: '/reference/API-reference/' todo: remove reference API
+      //     // },
+      //     // {
+      //     //   title: 'InDesign API',
+      //     //   path: '/omv/',
+      //     //   pages: require('./omv.js'),
+      //     // },
+      //     {
+      //       title: 'Recipes',
+      //       path: '/reference/recipes/'
+      //     },
+      //     {
+      //       title: 'Code samples',
+      //       path: '/reference/uxp-scripting-samples/'
+      //     }
         
         
-        ]
-      },
+      //   ]
+      // },
 
 
       {
@@ -213,6 +166,19 @@ module.exports = {
             path: "/uxp/known-issues/",
           },
         ],
+      },
+
+      {
+        title: "InDesign API",
+        path: "./omv.js",
+        header: true,
+        // pages: [
+        //   {
+        //     title: "InDesign API",
+        //     path: "/omv/",
+        //     pages: require("./omv.js"),
+        //   },
+        // ],
       },
     ]
   },
