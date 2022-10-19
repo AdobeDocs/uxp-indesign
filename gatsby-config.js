@@ -14,7 +14,6 @@ module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/',
   siteMetadata: {
     pages: [
-
       {
         title: 'UXP for InDesign',
         path: '/'
@@ -24,7 +23,6 @@ module.exports = {
         title: 'Guides',
         path: '/guides/'
       },
-
       {
         title: 'Plugins',
         path: '/plugins/'
@@ -69,7 +67,7 @@ module.exports = {
             path: '/guides/getting-started/'
           },
           {
-            title: 'Platform Concepts', 
+            title: 'Platform Concepts',
             path: '/guides/platform-concepts/'
           },
           {
@@ -94,34 +92,6 @@ module.exports = {
           }
         ]
       },
-
-      // {
-      //   title: 'Reference',
-      //   path: '/reference/',
-      //   pages: [
-      //     // {
-      //     //   title: 'InDesign API',
-      //     //   path: '/reference/API-reference/' todo: remove reference API
-      //     // },
-      //     // {
-      //     //   title: 'InDesign API',
-      //     //   path: '/omv/',
-      //     //   pages: require('./omv.js'),
-      //     // },
-      //     {
-      //       title: 'Recipes',
-      //       path: '/reference/recipes/'
-      //     },
-      //     {
-      //       title: 'Code samples',
-      //       path: '/reference/uxp-scripting-samples/'
-      //     }
-        
-        
-      //   ]
-      // },
-
-
       {
         title: 'InDesign Server',
         path: '/server/',
@@ -133,7 +103,7 @@ module.exports = {
           {
             title: 'Reference',
             path: '/server/reference/'
-          }        
+          }
         ]
       },
       {
@@ -167,20 +137,19 @@ module.exports = {
           },
         ],
       },
-
       {
         title: "InDesign API",
-        path: "./omv.js",
+        path: "/omv/",
         header: true,
-        // pages: [
-        //   {
-        //     title: "InDesign API",
-        //     path: "/omv/",
-        //     pages: require("./omv.js"),
-        //   },
-        // ],
+        pages: [
+          {
+            title: "InDesign API",
+            path: "/omv/",
+            pages: require("./omv.js"),
+          },
+        ],
       },
     ]
   },
-    plugins: [`@adobe/gatsby-theme-aio`]
+  plugins: [`@adobe/gatsby-theme-aio`]
 };
