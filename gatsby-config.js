@@ -50,7 +50,7 @@ module.exports = {
       },
       {
         title: 'Code Samples',
-        path: '/reference/reference/uxp-scripting-samples/'
+        path: '/reference/uxp-scripting-samples/'
       },
       {
         title: 'Support',
