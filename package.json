@@ -19,9 +19,9 @@
     "uxp-documentation": "github:adobedocs/uxp"
   },
   "scripts": {
+    "postinstall": "npm run prepare-uxp",
     "start": "gatsby build && gatsby serve",
     "start:prefix": "gatsby build --prefix-paths && gatsby serve --prefix-paths",
-    "predev": "npm run prepare-uxp",
     "dev": "gatsby develop",
     "dev:https": "gatsby develop --https --host localhost.corp.adobe.com --port 9000",
     "_copy-uxp-html": "rm -rf src/pages/uxp/reference-html && cp -r node_modules/uxp-documentation/_transclusions/photoshop/uxp/reference-html src/pages/uxp/ && cp node_modules/uxp-documentation/reference-html.js reference-html.js",
@@ -31,7 +31,6 @@
     "_copy-uxp": "npm run _copy-uxp-js && npm run _copy-uxp-css && npm run _copy-uxp-html && npm run _copy-uxp-spectrum",
     "_copy-uxp-files": "cp node_modules/uxp-documentation/src/pages/uxp/*.md src/pages/uxp/",
     "prepare-uxp": "npm run _copy-uxp && npm run _copy-uxp-files",
-    "prebuild": "npm run prepare-uxp",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"

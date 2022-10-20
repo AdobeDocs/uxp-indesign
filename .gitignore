@@ -33,8 +33,8 @@ cypress/screenshots
 lerna-debug.log
 
 # uxp api reference
-# reference-css.js
-# reference-js.js
-# reference-html.js
-# reference-spectrum.js
-# src/pages/uxp/*
+reference-css.js
+reference-js.js
+reference-html.js
+reference-spectrum.js
+src/pages/uxp/*
