@@ -50,7 +50,7 @@ module.exports = {
       },
       {
         title: 'Code Samples',
-        path: '/reference/reference/uxp-scripting-samples/'
+        path: '/reference/uxp-scripting-samples/'
       },
       {
         title: 'Support',
@@ -141,13 +141,7 @@ module.exports = {
         title: "InDesign API",
         path: "/omv/",
         header: true,
-        pages: [
-          {
-            title: "InDesign API",
-            path: "/omv/",
-            pages: require("./omv.js"),
-          },
-        ],
+        pages: require("./omv.js")
       },
     ]
   },

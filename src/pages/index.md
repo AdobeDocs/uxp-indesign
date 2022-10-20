@@ -72,7 +72,7 @@ Learn how convert Javascripts to UXP script in simple steps.
 
 [Learn more](./object-modal/)
     
-Understand more about over how the InDesign object modal works in more detail. 
+Understand more about over how the InDesign object model works in more detail. 
 
 
 ## Join the community
