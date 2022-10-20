@@ -141,13 +141,7 @@ module.exports = {
         title: "InDesign API",
         path: "/omv/",
         header: true,
-        pages: [
-          {
-            title: "InDesign API",
-            path: "/omv/",
-            pages: require("./omv.js"),
-          },
-        ],
+        pages: require("./omv.js")
       },
     ]
   },

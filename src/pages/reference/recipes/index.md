@@ -8,18 +8,15 @@ Alert can be achieved by having the below method in script. This is using script
 ### Usage
 ---
 ```js
-function alert(error) {
-    console.log("Exception thrown");
+function alert(msg) {
     theDialog = app.dialogs.add();
-        theScript:
-        {
-            col = theDialog.dialogColumns.add();
-            colText = col.staticTexts.add();
-            colText.staticLabel = "" + error;
-            stepThrough = theDialog.show();
-        }
-        theDialog.destroy();
-        return;
+    col = theDialog.dialogColumns.add();
+    colText = col.staticTexts.add();
+    colText.staticLabel = "" + msg;
+    theDialog.canCancel = false;
+    theDialog.show();
+    theDialog.destroy();
+    return;
 }
 ```
 
