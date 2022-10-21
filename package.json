@@ -1,18 +1,18 @@
 {
   "private": true,
-  "name": "dev-site-documentation-template",
+  "name": "uxp-indesign",
   "version": "1.0.0",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdobeDocs/dev-site-documentation-template"
+    "url": "https://github.com/AdobeDocs/uxp-indesign"
   },
   "author": {
     "name": "Stephan Ringel",
     "url": "https://github.com/icaraps"
   },
   "dependencies": {
-    "@adobe/gatsby-theme-aio": "4.6.2",
+    "@adobe/gatsby-theme-aio": "4.6.4",
     "gatsby": "4.22.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

@@ -33,9 +33,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@adobe/gatsby-theme-aio@npm:4.6.2":
-  version: 4.6.2
-  resolution: "@adobe/gatsby-theme-aio@npm:4.6.2"
+"@adobe/gatsby-theme-aio@npm:4.6.4":
+  version: 4.6.4
+  resolution: "@adobe/gatsby-theme-aio@npm:4.6.4"
   dependencies:
     "@adobe/focus-ring-polyfill": ^0.1.5
     "@adobe/gatsby-source-github-file-contributors": ^0.3.1
@@ -125,7 +125,7 @@ __metadata:
     gatsby: ^4.22.0
     react: ^17.0.2
     react-dom: ^17.0.2
-  checksum: 54b9220b915bf1e2dba545b5686baaca382a37330d4956b1cf8c7ccd20e3a0b365c3896672fbd28ee4ca3f0c062660202ba2f2d9d3372cffc70c878b89d572c2
+  checksum: 15b5519b6e5fc332f484afb4cb1d67b4db342e17b03f60df659fabc2d352fce1d122f3dab4bc51c22042d34e56d9f7c734cdc2557ecff2c8ab4d64e864849718
   languageName: node
   linkType: hard
 
@@ -7518,18 +7518,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dev-site-documentation-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "dev-site-documentation-template@workspace:."
-  dependencies:
-    "@adobe/gatsby-theme-aio": 4.6.2
-    gatsby: 4.22.0
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    uxp-documentation: "github:adobedocs/uxp"
-  languageName: unknown
-  linkType: soft
-
 "devcert@npm:^1.2.0":
   version: 1.2.2
   resolution: "devcert@npm:1.2.2"
@@ -12373,13 +12361,13 @@ __metadata:
   linkType: hard
 
 "loader-utils@npm:^2.0.0":
-  version: 2.0.2
-  resolution: "loader-utils@npm:2.0.2"
+  version: 2.0.3
+  resolution: "loader-utils@npm:2.0.3"
   dependencies:
     big.js: ^5.2.2
     emojis-list: ^3.0.0
     json5: ^2.1.2
-  checksum: 9078d1ed47cadc57f4c6ddbdb2add324ee7da544cea41de3b7f1128e8108fcd41cd3443a85b7ee8d7d8ac439148aa221922774efe4cf87506d4fb054d5889303
+  checksum: d055c61ce5927b64cb4af40218606603a7d3a39adb7b6eec116bb31d19203875950e478152dea056de404eced8e87e9bfd336ec636591ded040ea451f63c7d88
   languageName: node
   linkType: hard
 
@@ -19197,10 +19185,22 @@ __metadata:
 
 "uxp-documentation@github:adobedocs/uxp":
   version: 0.0.17
-  resolution: "uxp-documentation@https://github.com/adobedocs/uxp.git#commit=298e0ff38071de30282a4671828407bd06a24ae8"
-  checksum: 12ef9868c84329e655a278378ae0e015ba5f3af4714ba02a6ff0a91c354485c160875397f786a57ef29a7378d869485d9333c84bbc02402911b139efc008fc5f
+  resolution: "uxp-documentation@https://github.com/adobedocs/uxp.git#commit=9be617f3c41e6d02e92d6bb8fb4b5765720dcf5c"
+  checksum: 00b313a88adf57313bb5703773889631d08f53e26030145f9055ff264170ece926cf7ed01c14eba48e83fb4b2e94d35e4eb5a41fc141fe998fcd503fdb6da838
   languageName: node
   linkType: hard
+
+"uxp-indesign@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "uxp-indesign@workspace:."
+  dependencies:
+    "@adobe/gatsby-theme-aio": 4.6.4
+    gatsby: 4.22.0
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    uxp-documentation: "github:adobedocs/uxp"
+  languageName: unknown
+  linkType: soft
 
 "v8-compile-cache@npm:^2.0.3":
   version: 2.3.0
