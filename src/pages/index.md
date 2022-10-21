@@ -46,38 +46,38 @@ We tend to think of scripting as a solution for long, repetitive tasks, like lay
 
 ### InDesign UXP scripting
 
-[Learn more](../guides/platform-concepts)
+[Learn more](./guides/platform-concepts/)
     
-Understand more about InDesign UXP scripting, the power of UXP, and UXPScript vs ExtendScript.
+Understand more about InDesign UXP scripting, the power of UXP, and UXP Script vs ExtendScript.
 
 ### Getting started with InDesign Scripting
 
-[Learn more](./getting-started/)
+[Learn more](./guides/getting-started/)
     
 Install the neccesary requirements for InDesign scripting, and learn how you can create your very first hello-world script. 
 
 ### Getting started with InDesign Server Scripting
 
-[Learn more](./getting-started/)
+[Learn more](./guides/getting-started/)
     
 Dive into InDesign Server scripting and create your first hello-world server script. 
 
 ### Migrating to UXP Script
 
-[Learn more](./migrating-to-UXPScript/)
+[Learn more](./guides/migrating-to-UXPScript/)
     
 Learn how convert Javascripts to UXP script in simple steps.
 
 ### Object model
 
-[Learn more](./object-modal/)
+[Learn more](./guides/object-modal/)
     
 Understand more about over how the InDesign object model works in more detail. 
 
 
 ## Join the community
 
-Join the worldwide community of Creative Cloud Developers who are building plugins and integrations to empower creativity. Need support? [Click here](../pages/support).
+Join the worldwide community of Creative Cloud Developers who are building plugins and integrations to empower creativity. Need support? [Click here](./support/).
 
 Here are a few ways to get involved:
 

@@ -6,7 +6,7 @@ In this guide, we will cover the basics of InDesign scripting, and create a simp
 
 ## UXP Scripting in InDesign
 
-UXPScript should be written in JavaScript, and the file should be saved as `<filename>.idjs`. Saving the script as .idjs enables the UXP engine in InDesign and executes the script as UXPScript.( .jsx will execute as normal ExtendScript)
+UXP Scripts should be written in JavaScript, and the file should be saved as `<filename>.idjs`. Saving the script as .idjs enables the UXP engine in InDesign and executes the script as UXP script.( .jsx will execute as normal ExtendScript)
 
 ## Installing scripts
 
@@ -87,8 +87,8 @@ Either open the ImprovedHelloWorld.jsx tutorial script or perform the following 
 1. Enter the following JavaScript in a new text file
 
 ```js
-//ImprovedHelloWorld.idjs
-//An InDesign UXPScript
+//Improved HelloWorld.idjs
+//An InDesign UXP Script
 //
 //Enter the name of a font on your system, if necessary.
 var myFont = app.fonts.item("Arial");
