@@ -1,4 +1,4 @@
-# Migrating existing JavaScript(ExtendScript) to UXPScript
+# Migrating existing JavaScript(ExtendScript) to UXP Script
 
 This page goes over how Javascripts can be converted to UXP script in simple steps.
 

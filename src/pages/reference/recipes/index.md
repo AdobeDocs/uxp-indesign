@@ -37,7 +37,7 @@ This returns true (or 1) if myWidth is greater than myHeight; otherwise, false (
 ## Conditional statements
 Conditional statements make a decision based on an evaluation. For example, "If the selected object is a rectangle, set its stroke weight to 12 points" is a conditional statement. Conditional statements make decisions; they give your scripts a way to evaluate something (like the color of the selected object, the number of pages in the publication, or the date) and act based on the result. Conditional statements almost always start with if.
 
-NoteConditional statements often make logical comparisons. In UXPScript, the equal sign assigns a value to a variable; to compare objects, use a double equal sign `==`.
+Note: Conditional statements often make logical comparisons. In UXP Script, the equal sign assigns a value to a variable; to compare objects, use a double equal sign `==`.
 
 This simple example uses a conditional statement to evaluate whether any documents are open. If one or more documents are open  the code that is pasted instead of the comment is executed. If no documents are open, a message window opens. It can be a useful way to check if the script is being used in the context that it should be.
 
@@ -63,7 +63,7 @@ for (var myCounter = 0; myCounter < 20; myCounter++) {
 ## Functions and handlers
 Functions are scripting modules to which you can refer from within your script. Typically, you send a value or series of values to a function (or handler) and get back some other value or values. The code used in functions and handlers is simply a convenience to avoid typing the same lines of code repeatedly in your script.
 
-In UXPScript, functions start with **function**.
+In UXP Script, functions start with **function**.
 
 Using parameters and/or return values is entirely optional. To use the code below, assign a value to myReturnValue, substitute the comment with a procedure and call the function.
 
@@ -105,7 +105,7 @@ If your script depends on adding, subtracting, multiplying, or dividing specific
 
 
 ## Packaged Sample Scripts 
-Sample UXPScripts are packaged along with InDesign and can be found under the Scripts Panel.
+Sample UXP Scripts are packaged along with InDesign and can be found under the Scripts Panel.
 
 ![Packaged sample scripts](1.png)
 

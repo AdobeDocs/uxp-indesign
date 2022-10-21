@@ -70,11 +70,11 @@ var myTextFrame = myDocument.pages.item(0).textFrames.add();
 
 ## Array variables
 
-UXPScript supports arrays,  a variable type that is a list of values. 
+UXP Scripts support arrays, a variable type that is a list of values. 
 
 ```
 myArray = [1, 2, 3, 4];
-//To refer to an item in an array, refer to the item by its index in the array. The first item in an array in UXPScript is item 0.
+//To refer to an item in an array, refer to the item by its index in the array. The first item in an array in UXP Script is item 0.
 var myFirstArrayItem = myArray[0];
 //Arrays can include other arrays.
 var myArray = [[0,0], [72,72]];

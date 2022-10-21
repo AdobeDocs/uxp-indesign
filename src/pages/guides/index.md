@@ -21,7 +21,7 @@ Install the neccesary requirements for InDesign scripting, and learn how you can
 
 [Learn more](./platform-concepts)
     
-Understand more about InDesign UXP scripting, the power of UXP, and UXPScript vs ExtendScript.
+Understand more about InDesign UXP scripting, the power of UXP, and UXP Script vs ExtendScript.
 
 ### Debugging
 
