@@ -17,7 +17,6 @@ module.exports = {
       {
         title: 'UXP for InDesign',
         path: '/'
-
       },
       {
         title: 'Guides',
@@ -36,11 +35,11 @@ module.exports = {
         menu: [
           {
             title: 'UXP API',
-            path: '/uxp/',
+            path: '/indesign/uxp/uxp_ref/',
           },
           {
             title: 'InDesign API',
-            path: '/omv/',
+            path: '/indesign/dom/',
           },
           {
             title: 'Recipes',
@@ -105,44 +104,7 @@ module.exports = {
             path: '/server/reference/'
           }
         ]
-      },
-      {
-        title: "UXP API",
-        path: "/uxp/reference-js/",
-        header: true,
-        pages: [
-          {
-            title: "JavaScript Reference",
-            path: "/uxp/reference-js/",
-            pages: require("./reference-js.js"),
-          },
-          {
-            title: "CSS Reference",
-            path: "/uxp/reference-css/",
-            pages: require("./reference-css.js"),
-          },
-          {
-            title: "HTML Reference",
-            path: "/uxp/reference-html/",
-            pages: require("./reference-html.js"),
-          },
-          {
-            title: "Spectrum UXP Reference",
-            path: "/uxp/reference-spectrum/",
-            pages: require("./reference-spectrum.js"),
-          },
-          {
-            title: "Known Issues",
-            path: "/uxp/known-issues/",
-          },
-        ],
-      },
-      {
-        title: "InDesign API",
-        path: "/omv/",
-        header: true,
-        pages: require("./omv.js")
-      },
+      }
     ]
   },
   plugins: [`@adobe/gatsby-theme-aio`]
