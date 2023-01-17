@@ -11,11 +11,11 @@
  */
 
 module.exports = {
-  pathPrefix: process.env.PATH_PREFIX || '/indesign/uxp/',
+  pathPrefix: process.env.PATH_PREFIX || '/indesigntest/uxp/',
   siteMetadata: {
     pages: [
       {
-        title: 'UXP for InDesign',
+        title: 'UXP for indesigntest',
         path: '/'
       },
       {
@@ -27,7 +27,7 @@ module.exports = {
         path: '/plugins/'
       },
       {
-        title: 'InDesign Server',
+        title: 'indesigntest Server',
         path: '/server/'
       },
       {
@@ -35,11 +35,11 @@ module.exports = {
         menu: [
           {
             title: 'UXP API',
-            path: '/indesign/uxp/uxp_ref/',
+            path: '/indesigntest/uxp/uxp_ref/',
           },
           {
-            title: 'InDesign API',
-            path: '/indesign/dom/',
+            title: 'indesigntest API',
+            path: '/indesigntest/dom/',
           },
           {
             title: 'Recipes',
@@ -92,7 +92,7 @@ module.exports = {
         ]
       },
       {
-        title: 'InDesign Server',
+        title: 'indesigntest Server',
         path: '/server/',
         pages: [
           {
