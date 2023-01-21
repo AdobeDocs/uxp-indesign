@@ -33,9 +33,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@adobe/gatsby-theme-aio@npm:4.6.4":
-  version: 4.6.4
-  resolution: "@adobe/gatsby-theme-aio@npm:4.6.4"
+"@adobe/gatsby-theme-aio@npm:4.7.10":
+  version: 4.7.10
+  resolution: "@adobe/gatsby-theme-aio@npm:4.7.10"
   dependencies:
     "@adobe/focus-ring-polyfill": ^0.1.5
     "@adobe/gatsby-source-github-file-contributors": ^0.3.1
@@ -92,10 +92,10 @@ __metadata:
     gatsby-remark-images-remote: ^2.1.1
     gatsby-source-filesystem: ^4.23.0
     gatsby-transformer-remark: ^5.23.0
-    gatsby-transformer-sharp: ^4.23.0
+    gatsby-transformer-sharp: 4.23.0
     https-browserify: ^1.0.0
     jsdom: ^20.0.0
-    lmdb-store: ^1.6.14
+    lottie-web: ^5.9.6
     mdx-embed: ^1.0.0
     mobx: ^6.6.2
     normalize-path: ^3.0.0
@@ -125,7 +125,7 @@ __metadata:
     gatsby: ^4.22.0
     react: ^17.0.2
     react-dom: ^17.0.2
-  checksum: 15b5519b6e5fc332f484afb4cb1d67b4db342e17b03f60df659fabc2d352fce1d122f3dab4bc51c22042d34e56d9f7c734cdc2557ecff2c8ab4d64e864849718
+  checksum: 4b6c6a1413b20ab32262d1c71b756a2873cddb9969edc784ab0f9e51a16c8372dd608185549523019a83b4e5c8f2f299905598e29c0a48448434d497bced6cfd
   languageName: node
   linkType: hard
 
@@ -1997,6 +1997,15 @@ __metadata:
     "@parcel/plugin": 2.6.2
     gatsby-core-utils: ^3.22.0
   checksum: 2de6ccc54b279bf6c9b67b04bfdb0f72cd5ecdbcd7b9b18913ea4abf9db71d90dd6f3dba68a871070c1f6d2aa2085cefbf20867696412d7bf48d5072b2e269f5
+  languageName: node
+  linkType: hard
+
+"@gatsbyjs/potrace@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@gatsbyjs/potrace@npm:2.3.0"
+  dependencies:
+    jimp-compact: ^0.16.1-2
+  checksum: 237d4ccb9ac1ee321f1b2351b48ad1082252af2c181634da634292ba8e4bb15cb56bdfec3984c5c2d203befe86e93058976d26f52c30dee46f994741ef4a7f30
   languageName: node
   linkType: hard
 
@@ -9722,7 +9731,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-utils@npm:^3.16.0, gatsby-plugin-utils@npm:^3.19.0":
+"gatsby-plugin-utils@npm:^3.16.0, gatsby-plugin-utils@npm:^3.17.0, gatsby-plugin-utils@npm:^3.19.0":
   version: 3.19.0
   resolution: "gatsby-plugin-utils@npm:3.19.0"
   dependencies:
@@ -9917,22 +9926,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-sharp@npm:^4.23.0":
-  version: 4.25.0
-  resolution: "gatsby-transformer-sharp@npm:4.25.0"
+"gatsby-transformer-sharp@npm:4.23.0":
+  version: 4.23.0
+  resolution: "gatsby-transformer-sharp@npm:4.23.0"
   dependencies:
     "@babel/runtime": ^7.15.4
+    "@gatsbyjs/potrace": ^2.3.0
     bluebird: ^3.7.2
     common-tags: ^1.8.2
     fs-extra: ^10.1.0
-    gatsby-plugin-utils: ^3.19.0
+    gatsby-plugin-utils: ^3.17.0
     probe-image-size: ^7.2.3
     semver: ^7.3.7
     sharp: ^0.30.7
   peerDependencies:
     gatsby: ^4.0.0-next
     gatsby-plugin-sharp: ^4.0.0-next
-  checksum: 8529646d3b2d1f4678e2d48f345e9e1c7ad90fca2195e36b98f247fea8c222ab369b65dd8eaf3441f17bc379c4f221641932f6db2af0e502b7f83a75752bf35b
+  checksum: 895f650d3714b1de0b29aa22adefcff8b485c9a4d4b2ade10fa6549a233ce376706674edd588e311927450bfa75d8541fb0ce42773785905f633090113041b87
   languageName: node
   linkType: hard
 
@@ -11943,6 +11953,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jimp-compact@npm:^0.16.1-2":
+  version: 0.16.1
+  resolution: "jimp-compact@npm:0.16.1"
+  checksum: 5a1c62d70881b31f79ea65fecfe03617be0eb56139bc451f37e8972365c99ac3b52c5176c446ff27144c98ab664a99107ae08d347044e94e1de637f165b41a57
+  languageName: node
+  linkType: hard
+
 "jimp@npm:^0.14.0":
   version: 0.14.0
   resolution: "jimp@npm:0.14.0"
@@ -12352,20 +12369,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lmdb-store@npm:^1.6.14":
-  version: 1.6.14
-  resolution: "lmdb-store@npm:1.6.14"
-  dependencies:
-    msgpackr: ^1.5.0
-    nan: ^2.14.2
-    node-gyp: latest
-    node-gyp-build: ^4.2.3
-    ordered-binary: ^1.0.0
-    weak-lru-cache: ^1.0.0
-  checksum: ba5fbed286efc981fcb0de523e4637d9ef62ebfa96da5ba537b26b74bc60b6eec75b9d8029f5450049c5371cb99be0a8781969491bdf386e5a509b1224ddd6b0
-  languageName: node
-  linkType: hard
-
 "lmdb@npm:2.5.2":
   version: 2.5.2
   resolution: "lmdb@npm:2.5.2"
@@ -12709,6 +12712,13 @@ __metadata:
   bin:
     loose-envify: cli.js
   checksum: 6517e24e0cad87ec9888f500c5b5947032cdfe6ef65e1c1936a0c48a524b81e65542c9c3edc91c97d5bddc806ee2a985dbc79be89215d613b1de5db6d1cfe6f4
+  languageName: node
+  linkType: hard
+
+"lottie-web@npm:^5.9.6":
+  version: 5.10.1
+  resolution: "lottie-web@npm:5.10.1"
+  checksum: 5da7d0804b4b895d795e3eb299e45a0dfd1c7a5268784668ff72965d4c6e0806e0b60984fade74dd681909cc325d45b13d4a8e24c96e73472a00646e16b628b4
   languageName: node
   linkType: hard
 
@@ -13706,7 +13716,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msgpackr@npm:^1.5.0, msgpackr@npm:^1.5.4":
+"msgpackr@npm:^1.5.4":
   version: 1.8.1
   resolution: "msgpackr@npm:1.8.1"
   dependencies:
@@ -13737,15 +13747,6 @@ __metadata:
   version: 0.0.8
   resolution: "mute-stream@npm:0.0.8"
   checksum: ff48d251fc3f827e5b1206cda0ffdaec885e56057ee86a3155e1951bc940fd5f33531774b1cc8414d7668c10a8907f863f6561875ee6e8768931a62121a531a1
-  languageName: node
-  linkType: hard
-
-"nan@npm:^2.14.2":
-  version: 2.17.0
-  resolution: "nan@npm:2.17.0"
-  dependencies:
-    node-gyp: latest
-  checksum: ec609aeaf7e68b76592a3ba96b372aa7f5df5b056c1e37410b0f1deefbab5a57a922061e2c5b369bae9c7c6b5e6eecf4ad2dac8833a1a7d3a751e0a7c7f849ed
   languageName: node
   linkType: hard
 
@@ -13933,7 +13934,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp-build@npm:^4.2.3, node-gyp-build@npm:^4.3.0":
+"node-gyp-build@npm:^4.3.0":
   version: 4.6.0
   resolution: "node-gyp-build@npm:4.6.0"
   bin:
@@ -14431,7 +14432,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ordered-binary@npm:^1.0.0, ordered-binary@npm:^1.2.4":
+"ordered-binary@npm:^1.2.4":
   version: 1.4.0
   resolution: "ordered-binary@npm:1.4.0"
   checksum: 951fecb400b4e4e5176983679994cb7eb0a3ed1da8406d2bb1f7e76417cb61af85ea557d184cccfa3fe50b4c1582a69a4b2e20625f0d56083330b11bf1bcdeb4
@@ -19334,7 +19335,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "uxp-indesign@workspace:."
   dependencies:
-    "@adobe/gatsby-theme-aio": 4.6.4
+    "@adobe/gatsby-theme-aio": 4.7.10
     gatsby: 4.22.0
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -19495,7 +19496,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"weak-lru-cache@npm:^1.0.0, weak-lru-cache@npm:^1.2.2":
+"weak-lru-cache@npm:^1.2.2":
   version: 1.2.2
   resolution: "weak-lru-cache@npm:1.2.2"
   checksum: 0fbe16839d193ed82ddb4fe331ca8cfaee2ecbd42596aa02366c708956cf41f7258f2d5411c3bc9aa099c26058dc47afbd2593d449718a18e4ef4d870c5ace18
