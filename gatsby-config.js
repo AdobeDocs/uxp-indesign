@@ -35,7 +35,7 @@ module.exports = {
         menu: [
           {
             title: 'UXP API',
-            path: '/indesigntest/uxp/uxp_ref/',
+            path: '/indesigntest/uxp/uxp/',
           },
           {
             title: 'indesigntest API',
