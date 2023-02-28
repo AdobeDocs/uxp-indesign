@@ -133,8 +133,8 @@ module.exports = {
           {
             title: "Known Issues",
             path: "/uxp/known-issues/",
-          },
-        ],
+          }
+        ]
       }
     ]
   },
