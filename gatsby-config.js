@@ -35,11 +35,11 @@ module.exports = {
         menu: [
           {
             title: 'UXP API',
-            path: '/indesign/uxp/uxp_ref/',
+            path: '/uxp/',
           },
           {
             title: 'InDesign API',
-            path: '/indesign/dom/',
+            path: '/indesign/dom/api',
           },
           {
             title: 'Recipes',
@@ -104,6 +104,37 @@ module.exports = {
             path: '/server/reference/'
           }
         ]
+      },
+      {
+        title: "UXP API",
+        path: "/uxp/reference-js/",
+        header: true,
+        pages: [
+          {
+            title: "JavaScript Reference",
+            path: "/uxp/reference-js/",
+            pages: require("./reference-js.js"),
+          },
+          {
+            title: "CSS Reference",
+            path: "/uxp/reference-css/",
+            pages: require("./reference-css.js"),
+          },
+          {
+            title: "HTML Reference",
+            path: "/uxp/reference-html/",
+            pages: require("./reference-html.js"),
+          },
+          {
+            title: "Spectrum UXP Reference",
+            path: "/uxp/reference-spectrum/",
+            pages: require("./reference-spectrum.js"),
+          },
+          {
+            title: "Known Issues",
+            path: "/uxp/known-issues/",
+          },
+        ],
       }
     ]
   },
