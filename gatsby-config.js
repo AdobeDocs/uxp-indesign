@@ -17,7 +17,6 @@ module.exports = {
       {
         title: 'UXP for InDesign',
         path: '/'
-
       },
       {
         title: 'Guides',
@@ -40,7 +39,7 @@ module.exports = {
           },
           {
             title: 'InDesign API',
-            path: '/omv/',
+            path: '/indesign/dom/api',
           },
           {
             title: 'Recipes',
@@ -134,15 +133,9 @@ module.exports = {
           {
             title: "Known Issues",
             path: "/uxp/known-issues/",
-          },
-        ],
-      },
-      {
-        title: "InDesign API",
-        path: "/omv/",
-        header: true,
-        pages: require("./omv.js")
-      },
+          }
+        ]
+      }
     ]
   },
   plugins: [`@adobe/gatsby-theme-aio`]
