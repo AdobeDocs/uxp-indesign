@@ -4,7 +4,7 @@ index_desc: Change Log in UXP version
 
 # UXP Changelog
 
-## UXP v6.6
+## UXP v6.5
 
 ### New
 - [UXP-20181] - Allow unrestricted relative paths in require from scripts
