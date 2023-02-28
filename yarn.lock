@@ -19183,6 +19183,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"uxp-documentation@github:adobedocs/uxp#v6.5.0":
+  version: 6.5.0
+  resolution: "uxp-documentation@https://github.com/adobedocs/uxp.git#commit=947203c6caf3c1a672ae04d2726ce796f3dd807f"
+  checksum: 07b97f40b98ba32572dff652dba2fba4bc1c6d46f8dc0f3d293154dbfbbc2ad3df32ae82dcaf74df10dbbbd8ad4a9897db948e21001ff012a4f271b09de99b97
+  languageName: node
+  linkType: hard
+
 "uxp-indesign@workspace:.":
   version: 0.0.0-use.local
   resolution: "uxp-indesign@workspace:."
@@ -19191,6 +19198,7 @@ __metadata:
     gatsby: 4.22.0
     react: ^17.0.2
     react-dom: ^17.0.2
+    uxp-documentation: "github:adobedocs/uxp#v6.5.0"
   languageName: unknown
   linkType: soft
 
