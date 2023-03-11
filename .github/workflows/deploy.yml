@@ -14,7 +14,7 @@ on:
       excludeSubfolder:
         description: 'Exclude a subfolder from deletion'
         required: false
-        default: 'uxp_ref'
+        default: 'uxp-api'
 jobs:
   set-state:
     runs-on: ubuntu-latest
