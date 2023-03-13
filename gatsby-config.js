@@ -35,21 +35,21 @@ module.exports = {
         menu: [
           {
             title: 'UXP API',
-            path: '/indesign/uxp/reference/uxp-api',
+            path: '/indesign/uxp/reference/uxp-api/',
           },
           {
             title: 'InDesign API',
-            path: '/indesign/dom/api',
+            path: '/indesign/dom/api/',
           },
           {
             title: 'Recipes',
-            path: '/reference/recipes'
+            path: '/recipes/'
           }
         ]
       },
       {
         title: 'Code Samples',
-        path: '/reference/uxp-scripting-samples/'
+        path: '/uxp-scripting-samples/'
       },
       {
         title: 'Support',
