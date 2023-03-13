@@ -1,6 +1,6 @@
 # Code samples
 
-Check out the [full repo of scripting samples here](https://github.com/AdobeDocs/uxp-indesign/tree/main/src/pages/reference/uxp-scripting-samples).
+Check out the [full repo of scripting samples here](https://github.com/AdobeDocs/uxp-indesign/tree/main/src/pages/uxp-scripting-samples).
 
 ## Basic 
 This sample script demonstrates the execution of regular javascript using uxp scripting. 
