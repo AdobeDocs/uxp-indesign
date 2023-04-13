@@ -28,6 +28,29 @@ For the documentation developer, please read these sections on how to:
 
 For more in-depth [instructions](https://github.com/adobe/aio-theme#getting-started).
 
+
+## How to test
+
+- To run the configured linters locally (requires [Docker](https://www.docker.com/)):
+
+  ```shell
+  yarn lint
+  ```
+
+  > NOTE If you cannot use Docker, you can install the linters separately. In `.github/super-linter.env`, see which linters are enabled, and find the tools being used for linting in [Supported Linters](https://github.com/github/super-linter#supported-linters).
+
+- To check internal links locally
+
+  ```shell
+  yarn test:links
+  ```
+
+- To build and preview locally:
+
+  ```shell
+  yarn start
+  ```
+
 ## How to deploy
 
 For any team that wishes to deploy to the adobe.io and stage.adobe.io website, they must be in contact with the dev-site team. Teams will be given a path that will follow the pattern `adobe.io/{product}/`. This will allow doc developers to setup their subpaths to look something like:
