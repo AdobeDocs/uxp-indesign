@@ -19,20 +19,24 @@ module.exports = {
         path: '/'
       },
       {
-        title: 'Guides',
-        path: '/guides/'
+        title: 'Introduction',
+        path: '/introduction/'
+      },
+      {
+        title: 'Scripts',
+        path: '/scripts/'
       },
       {
         title: 'Plugins',
         path: '/plugins/'
       },
       {
-        title: 'InDesign Server',
-        path: '/server/'
-      },
-      {
         title: 'References',
         menu: [
+          {
+            title: `What's new?`,
+            path: '/changelog/',
+          },
           {
             title: 'UXP API',
             path: '/indesign/uxp/reference/uxp-api/',
@@ -42,68 +46,118 @@ module.exports = {
             path: '/indesign/dom/api/',
           },
           {
-            title: 'Recipes',
-            path: '/recipes/'
+            title: "How To",
+            path: "/recipes/"
           }
         ]
-      },
-      {
-        title: 'Code Samples',
-        path: '/uxp-scripting-samples/'
-      },
-      {
-        title: 'Support',
-        path: '/support/'
       }
     ],
     subPages: [
       {
-        title: 'Guides overview',
-        path: '/guides/',
+        title: 'Introduction',
+        path: '/introduction/',
+        header: true,
         pages: [
           {
-            title: 'Getting Started',
-            path: '/guides/getting-started/'
+            title: 'Overview',
+            path: '/introduction/overview/'
           },
           {
-            title: 'Platform Concepts',
-            path: '/guides/platform-concepts/'
+            title: 'Developer Tool',
+            path: '/introduction/dev-tools/'
           },
           {
-            title: 'Debugging a Script',
-            path: '/guides/debugging/'
-          },
-          {
-            title: 'Migrating',
-            path: '/guides/migrating-to-UXPScript/'
-          },
-          {
-            title: 'Object Model',
-            path: '/guides/object-modal/'
-          },
-          {
-            title: 'Right to Left Scripting',
-            path: '/guides/rtl-scripting/'
-          },
-          {
-            title: 'IDJS File Association',
-            path: '/guides/text-editor-association/'
+            title: 'Share',
+            path: '/introduction/share/'
           }
         ]
       },
       {
-        title: 'InDesign Server',
-        path: '/server/',
+        title: 'Scripts',
+        path: '/scripts/',
+        header: true,
         pages: [
           {
-            title: 'Get started',
-            path: '/server/guides/'
+            title: 'Getting started',
+            path: '/scripts/getting-started/',
+            header: true,
+            pages: [
+              {
+                title: 'Write your first script',
+                path: '/scripts/getting-started/first-script/',
+              },
+              {
+                title: 'Install and run',
+                path: '/scripts/getting-started/run/'
+              },
+              {
+                title: 'Migration guides',
+                path: '/scripts/getting-started/debug/'
+              }
+            ]
           },
           {
-            title: 'Reference',
-            path: '/server/reference/'
+            title: 'Concepts',
+            path: '/scripts/concepts/'
+          },
+          {
+            title: 'Migration guides',
+            path: '/scripts/migration/'
           }
         ]
+      },
+      {
+        title: 'Plugins',
+        path: '/plugins/',
+        header: true,
+        pages: [
+          {
+            title: 'Getting started',
+            path: '/plugins/getting-started/',
+            header: true,
+            pages: [
+              {
+                title: 'Write your first plugin',
+                path: '/plugins/getting-started/first-plugin/',
+              },
+              {
+                title: 'Install and run',
+                path: '/plugins/getting-started/run/'
+              },
+              {
+                title: 'Debug',
+                path: '/plugins/getting-started/debug/'
+              }
+            ]
+          },
+          {
+            title: 'Concepts',
+            path: '/plugins/concepts/',
+            pages: [
+              {
+                title: 'Manifest',
+                path: '/plugins/concepts/manifest/',
+              },
+              {
+                title: 'Entry points',
+                path: '/plugins/concepts/entry-points/'
+              }
+            ]
+          },
+          {
+            title: 'Advanced topics',
+            path: '/plugins/advanced/'
+          },
+          {
+            title: 'Migration guides',
+            path: '/plugins/migration/'
+          }
+        ]
+      },
+      {
+        title: "How To",
+        path: "/recipes/",
+        pages: require("./reference-how-tos.js"),
       }
     ]
   },

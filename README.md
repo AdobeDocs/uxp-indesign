@@ -44,7 +44,7 @@ You can deploy using the GitHub actions deploy workflow see [deploy instructions
 
 ## Redirections
 We performed structural changes to this repo by moving some files into a different repo and setup the following redirections to avoid any bookmarks to break
-- `https://developer-stage.adobe.com/indesign/uxp/omv/` -> https://developer-stage.adobe.com/indesign/dom/api/
-- `https://developer-stage.adobe.com/indesign/uxp/uxp/*` -> https://developer-stage.adobe.com/indesign/uxp/reference/uxp-api/*
-- `https://developer-stage.adobe.com/indesign/uxp/reference/uxp-scripting-samples/` -> https://developer-stage.adobe.com/indesign/uxp/uxp-scripting-samples/
+- `https://developer.adobe.com/indesign/uxp/omv/` -> https://developer.adobe.com/indesign/dom/api/
+- `https://developer.adobe.com/indesign/uxp/uxp/*` -> https://developer.adobe.com/indesign/uxp/reference/uxp-api/*
+- `https://developer.adobe.com/indesign/uxp/reference/uxp-scripting-samples/` -> https://developer.adobe.com/indesign/uxp/uxp-scripting-samples/
 - `https://developer.adobe.com/indesign/uxp/reference/recipes` -> https://developer.adobe.com/indesign/uxp/recipes

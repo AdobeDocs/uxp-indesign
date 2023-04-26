@@ -20,7 +20,7 @@ UXP scripting allows developers to execute a single file to accomplish tasks in 
 
 - [Scripting quick start guide](guides/getting-started)
 - [Platform concepts](guides/platform-concepts/)
-- [UXP API reference](uxp/reference-js/)
+- [UXP API reference](/indesign/uxp/reference/uxp-api/)
 - [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/)
 
 
