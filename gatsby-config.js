@@ -63,11 +63,11 @@ module.exports = {
             path: '/introduction/overview/'
           },
           {
-            title: 'UXP in InDesign Server',
+            title: 'InDesign Server',
             path: '/introduction/ids/'
           },
           {
-            title: 'UXP in InDesign Cloud Service',
+            title: 'InDesign Cloud Service',
             path: '/introduction/idcs/'
           },
           {
@@ -75,7 +75,7 @@ module.exports = {
             path: '/introduction/script-and-plugin/'
           },
           {
-            title: 'DOM & UXP APIs',
+            title: 'APIs',
             path: '/introduction/dom-and-uxp/'
           },
           {
@@ -107,7 +107,7 @@ module.exports = {
                 path: '/scripts/getting-started/run/'
               },
               {
-                title: 'Migration guides',
+                title: 'Debug',
                 path: '/scripts/getting-started/debug/'
               }
             ]
