@@ -63,6 +63,22 @@ module.exports = {
             path: '/introduction/overview/'
           },
           {
+            title: 'UXP in InDesign Server',
+            path: '/introduction/ids/'
+          },
+          {
+            title: 'UXP in InDesign Cloud Service',
+            path: '/introduction/idcs/'
+          },
+          {
+            title: 'Scripts vs Plugins',
+            path: '/introduction/script-and-plugin/'
+          },
+          {
+            title: 'DOM & UXP APIs',
+            path: '/introduction/dom-and-uxp/'
+          },
+          {
             title: 'Developer Tool',
             path: '/introduction/dev-tools/'
           },
