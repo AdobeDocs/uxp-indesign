@@ -44,12 +44,12 @@ module.exports = {
           {
             title: 'InDesign API',
             path: '/indesign/dom/api/',
-          },
-          {
-            title: "How To",
-            path: "/recipes/"
           }
         ]
+      },
+      {
+        title: 'Samples',
+        path: '/recipes/'
       }
     ],
     subPages: [
@@ -71,7 +71,7 @@ module.exports = {
             path: '/introduction/idcs/'
           },
           {
-            title: 'Scripts vs Plugins',
+            title: 'Scripts & Plugins',
             path: '/introduction/script-and-plugin/'
           },
           {
@@ -79,7 +79,7 @@ module.exports = {
             path: '/introduction/dom-and-uxp/'
           },
           {
-            title: 'Developer Tool',
+            title: 'Developer Tools',
             path: '/introduction/dev-tools/'
           },
           {
@@ -171,7 +171,7 @@ module.exports = {
         ]
       },
       {
-        title: "How To",
+        title: "Samples",
         path: "/recipes/",
         pages: require("./reference-how-tos.js"),
       }

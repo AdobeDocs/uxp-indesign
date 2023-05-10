@@ -1,6 +1,7 @@
 # 
 
-## DOM APIs
+## InDesign APIs
+aka DOM, OMV
 
 ## UXP APIs
 
