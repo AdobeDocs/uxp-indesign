@@ -48,27 +48,19 @@ module.exports = {
         ]
       },
       {
-        title: 'Samples',
-        path: '/recipes/'
+        title: 'Resources',
+        path: '/resources/'
       }
     ],
     subPages: [
       {
-        title: 'Introduction',
+        title: 'Topics',
         path: '/introduction/',
         header: true,
         pages: [
           {
             title: 'Overview',
             path: '/introduction/overview/'
-          },
-          {
-            title: 'InDesign Server',
-            path: '/introduction/ids/'
-          },
-          {
-            title: 'InDesign Cloud Service',
-            path: '/introduction/idcs/'
           },
           {
             title: 'Scripts & Plugins',
@@ -83,13 +75,28 @@ module.exports = {
             path: '/introduction/dev-tools/'
           },
           {
-            title: 'Share',
-            path: '/introduction/share/'
+            title: 'Share & Distribute',
+            path: '/introduction/distribution/'
           }
         ]
       },
       {
-        title: 'Scripts',
+        title: 'Other products',
+        path: '/introduction/other-products/',
+        header: true,
+        pages: [
+          {
+            title: 'InDesign Server',
+            path: '/introduction/other-products/ids/'
+          },
+          {
+            title: 'InDesign Cloud Service',
+            path: '/introduction/other-products/idcs/'
+          }
+        ]
+      },
+      {
+        title: 'Tutorials',
         path: '/scripts/',
         header: true,
         pages: [
@@ -123,7 +130,7 @@ module.exports = {
         ]
       },
       {
-        title: 'Plugins',
+        title: 'Tutorials',
         path: '/plugins/',
         header: true,
         pages: [
@@ -171,9 +178,24 @@ module.exports = {
         ]
       },
       {
-        title: "Samples",
-        path: "/recipes/",
-        pages: require("./reference-how-tos.js"),
+        title: "Tutorials",
+        path: "/resources/",
+        header: true,
+        pages: [
+          {
+            title: 'Best practices',
+            path: '/resources/best-practices/',
+          },
+          {
+            title: 'Starter kits',
+            path: '/resources/starter-kits/',
+          },
+          {
+            title: 'Recipes',
+            path: '/resources/recipes/',
+            pages: require("./reference-recipes.js"),
+          }
+        ]
       }
     ]
   },

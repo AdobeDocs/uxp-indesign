@@ -44,36 +44,42 @@ We tend to think of scripting as a solution for long, repetitive tasks, like lay
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
-### InDesign UXP scripting
+### Getting started with Scripts or Plugins
 
 [Learn more](./guides/platform-concepts/)
     
 Understand more about InDesign UXP scripting, the power of UXP, and UXP Script vs ExtendScript.
 
-### Getting started with InDesign Scripting
-
 [Learn more](./guides/getting-started/)
     
 Install the neccesary requirements for InDesign scripting, and learn how you can create your very first hello-world script. 
 
-### Getting started with InDesign Server Scripting
+### Getting started with InDesign Server and IDCS 
 
 [Learn more](./guides/getting-started/)
     
 Dive into InDesign Server scripting and create your first hello-world server script. 
 
-### Migrating to UXP Script
+### API references
+
+<!--- 
+Introduction
+UXP APIs
+InDesign APIs
+What's new
+ -->
+[Learn more](./guides/object-modal/)
+
+### Migration Guides
+
+<!--- 
+Scripts
+Plugins
+ -->
 
 [Learn more](./guides/migrating-to-UXPScript/)
-    
-Learn how convert Javascripts to UXP script in simple steps.
 
-### Object model
-
-[Learn more](./guides/object-modal/)
-    
-Understand more about over how the InDesign object model works in more detail. 
-
+## Distribution
 
 ## Join the community
 
@@ -83,3 +89,5 @@ Here are a few ways to get involved:
 
 - Join the [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/) to meet other developers, ask questions, and offer help.
 - Subscribe to the [Adobe Creative Cloud Developer Newsletter](https://www.adobe.com/subscription/ccdevnewsletter.html).
+
+## Contribute

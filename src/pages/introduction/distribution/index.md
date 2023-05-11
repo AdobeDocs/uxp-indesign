@@ -8,5 +8,4 @@ Bundle your plugin using UDT.
 
 - Share your plugin privately. Pass on the ccx package.
 - Publish your plugins on Adobe Marketplace to reach thousands of Adobe Creative Cloud users. Follow the guidelines. Use DD.
-
-
+- Checklist for plugin submission

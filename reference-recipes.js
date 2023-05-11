@@ -1,5 +1,9 @@
 module.exports = [
     {
+        "title": "Create UI",
+        "path": "/recipes/react/"
+    },
+    {
         "title": "Use React",
         "path": "/recipes/react/"
     },

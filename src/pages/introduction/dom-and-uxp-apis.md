@@ -9,4 +9,6 @@ aka DOM, OMV
 
 ## UXP version within InDesign
 - ways to find that info in API docs, UDT
-- Changelog
+
+## What's new? 
+- link to Changelog
