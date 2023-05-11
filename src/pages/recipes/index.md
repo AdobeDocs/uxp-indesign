@@ -451,3 +451,394 @@ function main(){
     }
 }
 ```
+
+## Events
+InDesign UXP scripting can respond to standard application and document events, such as opening a file, creating a new one, printing, and importing text and graphic files from a disk, etc. Scripts can be attached to events using the eventListener scripting object. Scripts that use events are the same as other scripts except that after the event listener is associated, the script is expected to be blocked by a promise and wait for the event in the background until the event listener is removed. Then the promise can be resolved to exit the script. Once you run the Events Scripts with an event listener, they are called back automatically after the corresponding event occurs, rather than being run by the user (from the Scripts palette).
+
+This section shows how to work with InDesign UXP event scripting. You can see the sample scripts in order of complexity, starting with very simple scripts and building toward more complex operations.
+>
+*Learn how to create, install, and run a script with [Adobe InDesign UXP Scripting Tutorial](https://developer.adobe.com/indesign/uxp/guides/getting-started/).*
+
+### Understanding Event Scripting
+To respond to an event, you register an eventListener with an object capable of receiving the event. When the specified event reaches the object, the eventListener executes the script function defined in its handler function (which can be either a script function or a reference to a script file on disk).
+>
+*Here is the [list of available events](https://developer.adobe.com/indesign/dom/api/e/Event/).*
+
+### Working with Event Listeners
+
+**Adding an eventListener**
+
+When you create an eventListener, you specify the event type and the event handler (as a function or file reference). The following script fragment shows how to add an eventListener for a specific event (for the complete script, see AddEventListener).
+
+```js
+var myEventListener = app.addEventListener("afterNew", myDisplayEventType);
+```
+The preceding script fragment refers to the following function:
+
+```js
+function myDisplayEventType(myEvent){
+alert("This event is the " + myEvent.eventType + " event.");
+}
+```
+
+**Removing an eventListener**
+
+To remove the eventListener created by the preceding script, run the following script:
+
+```js
+var myResult = app.removeEventListener("afterNew", myDisplayEventType);
+```
+When an eventListener responds to an event, the event may still be processed by other eventListeners that might be monitoring the event (depending on the propagation of the event). For example, the afterOpen event can be observed by eventListeners associated with both the application and the document.
+
+eventListeners do not persist beyond the current InDesign session. To make an eventListener available in every InDesign session, add the script to the startup scripts folder. 
+
+An event can trigger multiple eventListeners as it propagates through the scripting object model. The following sample script demonstrates an event triggering eventListeners registered to different objects:
+
+```js
+var myApplicationEventListener = app.eventListeners.add("beforeImport", myEventInfo);
+var myDocumentEventListener = app.documents.item(0).eventListeners.add("beforeImport", myEventInfo);
+function myEventInfo(myEvent){
+var myString = "Current Target: " + myEvent.currentTarget.name;
+alert(myString);
+}
+```
+When you run the preceding script and place a file, InDesign displays following information in sequence, and as alerts:
+1. Document name
+2. Application name
+
+Use the following script to remove the event listeners added by the preceding script:
+
+```js
+app.removeEventListener("beforeImport", myEventInfo);
+app.documents.item(0).removeEventListener("beforeImport", myEventInfo);
+```
+
+### Writing Events Script to Run Through Out the Session
+After the event listener is associated, the script is blocked by a promise and wait for the event in the background until the event listener is removed. If the event occurs, there is an automatic callback to execute the related function. If the event listener is removed, the promise can be resolved to complete the script execution.
+
+Here is a sample events script to run and listen for “afterNew” event throughout the InDesign session and generate an alert whenever a new document is created.
+
+```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
+ 
+await main();
+ 
+async function main()
+{
+  return new Promise((resolve, reject) => { mySnippet(); })
+}
+ 
+function mySnippet()
+{
+    //![Add event listener.]
+    var myEventListener = app.addEventListener("afterNew", myDisplayEventType);
+    //![Add event listener.]
+}
+ 
+//![Add event listener - functions.]
+function myDisplayEventType(myEvent)
+{
+    alert("This event is the " + myEvent.eventType + " event.");
+}
+ 
+function alert(msg)
+{
+    theDialog = app.dialogs.add();
+    col = theDialog.dialogColumns.add();
+    colText = col.staticTexts.add();
+    colText.staticLabel = "" + msg;
+    theDialog.canCancel = false;
+    theDialog.show();
+    theDialog.destroy();
+    return;
+}
+```
+Here is a sample events script to run and listen for "afterNew" event only once and remove, which generates an alert if a new document is created.
+
+```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
+let myResolve;
+ 
+await main();
+ 
+async function main()
+{
+  return new Promise((resolve, reject) => { mySnippet(); myResolve = resolve;});
+}
+ 
+function mySnippet()
+{
+    //![Add event listener.]
+    var myEventListener = app.addEventListener("afterNew", myDisplayEventType);
+    //![Add event listener.]
+}
+ 
+//![Add event listener - functions.]
+function myDisplayEventType(myEvent)
+{
+    alert("This event is the " + myEvent.eventType + " event.");
+ 
+    //![remove event listener.]
+    app.removeEventListener("afterNew", myDisplayEventType);
+    //![remove event listener.]
+ 
+    myResolve();
+}
+ 
+function alert(msg)
+{
+    theDialog = app.dialogs.add();
+    col = theDialog.dialogColumns.add();
+    colText = col.staticTexts.add();
+    colText.staticLabel = "" + msg;
+    theDialog.canCancel = false;
+    theDialog.show();
+    theDialog.destroy();
+    return;
+}
+```
+
+## Menus
+InDesign scripting can add or remove menu items, perform any menu command, and attach scripts to menu items. This section shows how to work with InDesign menu scripting.
+
+Every menuItem is connected to a menuAction through the associatedMenuAction property. The properties of the menuAction define what happens when the menu item is selected. In addition to the menuActions defined by the user interface, users can create their scriptMenuActions, which associate a script with a menu selection.
+
+Here is a sample code for adding a menu item and associate an action to it. 
+
+```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
+ 
+await main();
+async function main()
+{
+    return new Promise((resolve, reject) => {
+       mySnippet();
+  })
+}
+ 
+function mySnippet()
+{
+    //Adds a menu at the end of the main menu bar.
+    var mySampleScriptAction = app.scriptMenuActions.add("Display Message");
+ 
+    var myEventListener = mySampleScriptAction.eventListeners.add("onInvoke", function(){
+        alert("This menu item was added by a script.");
+    });
+ 
+    //If the submenu "Script Menu Action" does not already exist, create it.
+    try
+    {
+        var mySampleScriptMenu = app.menus.item("Main").submenus.item("Script Menu Action");
+    }
+    catch (myError)
+    {
+        var mySampleScriptMenu = app.menus.item("Main").submenus.add("Script Menu Action");
+    }
+ 
+    var mySampleScriptMenuItem = mySampleScriptMenu.menuItems.add(mySampleScriptAction);
+}
+ 
+function alert(msg)
+{
+    theDialog = app.dialogs.add();
+    col = theDialog.dialogColumns.add();
+    colText = col.staticTexts.add();
+    colText.staticLabel = "" + msg;
+    theDialog.canCancel = false;
+    theDialog.show();
+    theDialog.destroy();
+    return;
+}
+```
+
+## UXP InDesign DOM
+InDesign DOM provides APIs to create and modify InDesign application content through UXP scripting. You can find more details about this at [InDesign API](https://developer.adobe.com/indesign/dom/api/). 
+>
+Prior to 18.4, the InDesign DOM was available in the global space of the UXP script by default.
+>
+Starting 18.4, InDesign DOM is now available as a Javascript module, and it can be retrieved on a need basis using require() API. 
+
+### Overview
+The following code retrieves the InDesign DOM from 18.4 release onwards. This object allows you to open documents, modify them, run menu items, and more using the latest DOM version supported by the application.
+
+```js
+let id = require("indesign");
+```
+
+### DOM version
+DOM versioning refers to the specific version of InDesign Document Object Model supported by scripting language. It ensures that scripts remain forward compatible. By specifying the appropriate DOM version in the scripts, it is ensured that scripts will work with newer versions of InDesign, even if DOM has changed in subsequent releases. The available DOM versions as of today are mentioned below -
+
+**3.0, 4.0, 5.0, 6.0, 7.0, 7.5, 8.0, 9.0, 10.0, 10.1, 10.2, 11.0, 11.2, 11.3, 11.4, 12.0, 12.1, 13.0, 13.1, 14.0, 15.0, 15.1, 16.0, 16.1, 16.2, 17.0, 18.0**
+
+Below API can be used to inspect the DOM version.
+
+
+```js
+let id = require("indesign");
+console.log(id.app.scriptPreferences.version);
+```
+It is possible to retrieve the DOM of particular version by specifying it as below. 
+
+```js
+let id = require("indesign-16.1");
+```
+If we retrieved a specific DOM version (lets assume 'A')  and then did require("indesign"), then it will fetch the same DOM version 'A'.
+
+In the below example, id1 and id0 will represent the DOM version 17.0.
+
+```js 
+let id0 = require("indesign-17.0")
+let id1 = require("indesign");
+console.log(id0.app.scriptPreferences.version);
+console.log(id1.app.scriptPreferences.version);
+```
+It is not possible to retrieve different DOM versions in a single script instance.
+
+In the below example id1 will be evaluated as undefined.
+
+```js
+let id0 = require("indesign")
+let id1 = require("indesign-17.0");
+```
+
+## Passing Arguments
+
+This section contains information on how arguments can be passed to UXP scripts.
+
+### Overview
+Arguments/parameters can now be passed to UXP scripts. The arguments passed to the scripts can be used in the same was as any other argument. The `script.args` API can be used to access the arguments passed to the script as an array, the following sections demonstrate the various use cases.
+
+### Fetch the arguments passed to the script as an array
+Use the following to fetch the arguments passed to the script as an array:
+
+```js
+let argsArray = script.args
+```
+
+### Passing Arguments to InDesign Server
+You can pass arguments to InDesign Server through the sampleclient. Specify all the necessary information, such as the port number, script name, and arguments. Pass the arguments as a string where the = sign separates the key and the value. The script.args API returns an array of strings where the elements are the key/value pairs of arguments specified while executing the script. Here’s an example:
+
+**Command to Pass Arguments to IDS Scripts**
+```
+../../../../mac/debug_cocoa64/sampleclient -host localhost:12345 testArgs.idjs "arg1=100" "arg2=200"
+```
+
+```js
+//testArgs.idjs
+let myInDesign = require("InDesign");
+const script = require("uxp").script;
+let ar = script.args;
+script.setResult(ar);
+```
+
+The result after executing this script on InDesign Server is shown on the client side. 
+
+```
+Script result (LIST, 2):
+    (std__string): arg1=100
+    (std__string): arg2=200
+```
+
+### Passing Arguments to InDesign Server/ InDesign App Via doScript()
+Passing arguments to an external script called the doScript API is also supported. You can pass a variable of type array as the third parameter of the doScript API call. Unlike on IDS, script.args fetches the values of the arguments passed to the external script. Here’s an example:
+
+```js
+//caller.idjs
+let myInDesign = require("indesign");
+let app = myInDesign.app;
+const script = require("uxp").script;
+let argsArray = [100,200];
+let resultOfCalledScript = app.doScript("PATH_TO_CALLED.IDJS/called.idjs", myInDesign.ScriptLanguage.UXPSCRIPT, argsArray);
+console.log(resultOfCalledScript);
+```
+
+```js
+//called.idjs
+let myInDesign = require("indesign");
+const script = require("uxp").script;
+let argsArray = script.args;
+script.setResult(argsArray);
+```
+The result after executing `caller.idjs` is shown in the logs. 
+
+```
+[console] 100,200
+```
+
+### Passing Arguments to UXP Developer Tool
+UXP Developer Tool (UDT) also supports the passing of arguments with the latest UXP version. script.args fetches the UDT arguments the same way as the second use case. The below script can be debugged on UDT to demonstrate how arguments  work.
+
+```js
+//testUDT.idjs
+let myInDesign = require("indesign");
+const script = require("uxp").script;
+let argsArray = script.args;
+console.log(argsArray);
+```
+![UDT](5.png)
+
+The result after executing testUDT.idjs is shown in the UDT console.
+
+![UDT Result](6.png)
+
+## Setting Script Result
+
+This section contains informatio on how the result of an UXP script can be set.
+
+### Overview
+InDesign UXP scripting now has the functionality to "set result" of a script. After execution, a script can have its own result which then can be used for debugging purposes on InDesign Server. The result of the script can also be stored in a variable and be used by another script in both InDesign App and InDesign Server. Setting the script result can be accomplished using the script.`setResult()` API, the sections below demonstrate the various use cases. 
+
+### Usage
+The following line sets the result of the UXP script being executed to the string `"Hello World!"`.
+
+```js
+script.setResult("Hello World!");
+```
+---
+### Debugging on InDesign Server
+If we want to debug any variable, we can pass the variable name in the script.setResult() API. This will not only give the variable value but also the type. The following script demonstrates this. 
+
+```js
+let myInDesign = require("indesign");
+const script = require("uxp").script;
+let testVar = "Hello World!"
+script.setResult(testVar);
+```
+The result after executing this script on InDesign Server is shown on the client side. 
+
+```
+Script result (std__string): Hello World!
+```
+
+---
+### Using Another Variable to Store Result
+`script.SetResult()` can be also be used to fetch result of one script, which in turn can be used in another script. The following scripts demonstrate this.
+
+```js
+//caller.idjs
+let myInDesign = require("indesign");
+let app = myInDesign.app;
+const script = require("uxp").script;
+let resultOfCalledScript = app.doScript("PATH_TO_CALLED.IDJS/called.idjs", myInDesign.ScriptLanguage.UXPSCRIPT);
+script.setResult(resultOfCalledScript);
+```
+
+```js
+//called.idjs
+let myInDesign = require("indesign");
+const script = require("uxp").script;
+script.setResult("Result of called script");
+```
+The result after executing `caller.idjs` on InDesign Server is shown on the client side. **Note: The same functionality is also available on the InDesign App.**
+
+```
+Script result (std__string): Result of called script
+```
+
+
+
+
+
