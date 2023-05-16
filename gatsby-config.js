@@ -123,6 +123,10 @@ module.exports = {
             path: '/scripts/concepts/'
           },
           {
+            title: 'Tips & tricks',
+            path: '/scripts/tips-and-tricks/'
+          },
+          {
             title: 'Migration guides',
             path: '/scripts/migration/'
           }

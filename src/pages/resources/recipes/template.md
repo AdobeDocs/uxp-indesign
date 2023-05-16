@@ -9,8 +9,20 @@ Use this doc for internal purposes. Make sure you include the following informat
 - InDesign version
 - UXP version
 - Manifest version
-- Scipts (and/or) Plugins
-- InDesign (and/or) InDesign Server (and/or) InDesign Cloud Service
+
+
+<input type="checkbox" value="Scripts" checked="checked" disabled="disabled"></input>
+  <label for="vehicle1">Scripts</label>
+<input type="checkbox" value="Plugins" checked="checked" disabled="disabled"></input>
+  <label for="vehicle1">Plugins</label><br></br>
+
+<input type="checkbox" value="InDesign" checked="checked" disabled="disabled" ></input>
+  <label for="vehicle1">InDesign</label>
+<input type="checkbox" value="InDesign Server" checked="checked" disabled="disabled" ></input>
+  <label for="vehicle1">InDesign Cloud Server</label>
+<input type="checkbox" value="InDesign Cloud Server" checked="checked" disabled="disabled"></input>
+  <label for="vehicle1">InDesign Server</label> <br></br>
+
 
 
 ## Code sample
