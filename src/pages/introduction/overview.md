@@ -1,34 +1,28 @@
+
+<!-- Status -->
+<TitleBlock slots="heading, text" theme="light" />
+
+### Status: Needs work
+
+Author: Extensibility team (@pklaschka) <br></br>
+Reviewer: <br></br>
+<!-- End of status -->
+
 # Overview
+Introduce UXP (can borrow material from 'UXP for InDesign page).
 
 ## Prerequisites
 JS, HTML, CSS
 yarn/npm - packaging libraries
 ECMA6
+- Suggest courses/materials for developers who want to get started
 
-## Scripts and plugins
+<!-- 
+https://developer.adobe.com/photoshop/uxp/2022/guides/uxp_guide/uxp-misc/uxp-toolchain/#advanced-toolchain
+-->
 
-Intro to scripts
-Intro to plugins
+## Visit the next set of topics
+Scripts and plugins
+DOM and UXP APIs
 
-Check out the scripts and plugins section.
-
-## InDesign vs InDesign Server vs InDesign Cloud Service
-
-Intro to InDesign
-
-Intro to InDesign Server
-
-Intro to IDCS
-
-
-|         | ID   | IDS   | IDCS   |
-|---------|------|-------|--------|
-| Scripts |      |       |        |
-| Plugins |      |       |        |
-
-
-## DOM and UXP APIs
-Use DOM APIs to interact with the document. For example, create a line on the document.
-Use UXP APIs for file, network, OS queries etc.
-Check out the API reference section.
 

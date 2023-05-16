@@ -1,19 +1,38 @@
-# Introduction to Developer Tool
+<!-- Status -->
+<TitleBlock slots="heading, text" theme="light" />
 
-UXP Developer Tool (UDT)
+### Status: Needs work
 
-## Download 
+Author: Extensibility team (@pklaschka) <br></br>
+Reviewer: <br></br>
+<!-- End of status -->
+
+# Developer Tools
+<!-- https://developer.adobe.com/photoshop/uxp/2022/guides/uxp_guide/uxp-misc/uxp-toolchain/#a-basic-toolchain -->
+
+## UXP Developer Tool (UDT)
+<!-- What is UDT? 
+Borrow content from https://developer.adobe.com/photoshop/uxp/2022/guides/devtool/
+
+Pre-requisite - Call out that some familiarily with Chrome debug tool will be helpful
+-->
+
+
+### Download and launch
 Link
+<!--
+Borrow content from https://developer.adobe.com/photoshop/uxp/2022/guides/devtool/installation/
+-->
 
-## Scripts and plugins
-We will cover the ways to debug scripts and plugin in that section.
+View connected apps
+Find logs 
 
-There are more options available for plugins and we will cover them in that section.
+### Scripts and plugins
 
-For now, if you are able to launch the app and see connected apps you are good to go.
+<!-- Mention that the details for loading/debugging scripts and plugins will be covered under 'Scripts' and 'Plugins' tab.
+Provide links to Scripts/Plugins tab
+ -->
 
-## Tips and tricks
-Logs 
 
 ## Type definitions
-Download type
+Provide download link for UXP and InDesign

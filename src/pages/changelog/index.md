@@ -1,4 +1,13 @@
+<!-- Status -->
+<TitleBlock slots="heading, text" theme="light" />
+
+### Status: Needs work
+
+Author: InDesign team <br></br>
+<!-- End of status -->
+
 # Changelog
+<!-- Add details -->
 
 ## InDesign v18.0
 

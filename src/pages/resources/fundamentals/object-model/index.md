@@ -1,3 +1,13 @@
+
+<!-- Status -->
+<TitleBlock slots="heading, text" theme="light" />
+
+### Status: Needs clean up
+
+Author: Extensibility team (@pakrishn) <br></br>
+Work with ID team <br></br>
+<!-- End of status -->
+
 # Understanding the InDesign object model
 
 This page goes over how the InDesign object model in more detail. 
@@ -46,3 +56,8 @@ The objects in the diagram are explained in the following table:
 | Pages or spreads        | The pages or spreads in an InDesign document.                                                                                                                                                                                                                                                                                          |
 | Stories                 | The text in an InDesign document.                                                                                                                                                                                                                                                                                                      |
 | Text objects            | Characters, words, lines, paragraphs, and text columns are examples of text objects in an InDesign story.                                                                                                                                                                                                                              |
+
+
+<!-- 
+https://developer-stage.adobe.com/indesign/uxp/recipes/#measurements-and-positioning
+-->

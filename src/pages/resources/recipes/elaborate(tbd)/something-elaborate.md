@@ -1,73 +1,3 @@
-# Getting started guide
-
-Get started and create your first Adobe InDesign Script.
-
-In this guide, we will cover the basics of InDesign scripting, and create a simple InDesign script using UXP that creates a new document, adds a text frame, and enters text in the text frame. 
-
-## UXP Scripting in InDesign
-
-UXP Scripts should be written in JavaScript, and the file should be saved as `<filename>.idjs`. Saving the script as .idjs enables the UXP engine in InDesign and executes the script as UXP script.( .jsx will execute as normal ExtendScript)
-
-## Installing scripts
-
-Installing an InDesign script is easy: add the script file to the scripts folder so that it shows up in the Scripts panel.  inside the Scripts folder in your InDesign application folder (/Applications/Adobe\ InDesign\ 2023\ \(Prerelease-Debug\)/Scripts). (Create the Scripts folder if it does not already exist.) Note: this may require admin access.
-
-Alternately, put the script inside the Scripts Panel folder in your preferences folder. Your preferences folder is at:
-
-Windows: `C:\Users\<username>\AppData\Roaming\Adobe\InDesign\Version 18.0\<locale>\Scripts`
-Mac: `/Users/<username>/Library/Preferences/Adobe InDesign/Version 18.0/<locale>/Scripts`
-Above, `<username>` is your user name and `<locale>` references your location and language, for example, en_US.
-
-Once the script is in the folder, it appears on the Scripts panel inside InDesign. To display the panel, choose Window > Utilities > Scripts.
-
-You  can also put aliases/shortcuts to scripts (or folders containing scripts) in the Scripts Panel folder, and they will appear in the Scripts panel.
-
-To run a specific script when InDesign starts, put it inside a folder named "Startup Scripts" inside the Scripts folder (create this folder if it does not already exist).
-
-## Running a script
-
-To run a script, display the Scripts panel (choose Window > Utilities > Scripts), then double-click the script name in the Scripts panel. Many scripts display user-interface items (like dialog boxes or panels) and display alerts if necessary.
-
-We can also right-click on the script name and then click on run in drop-down menu.
-
-![Running a script](running_a_script.png)
-
-## Using the scripts panel
-
-The InDesign Scripts panel is the easiest and best way to run most InDesign scripts. If the panel is not already visible, you can display it by choosing Window > Utilities > Scripts.
-
-To edit a script shown in the Scripts panel, select the script and choose Edit Script from the Scripts panel menu. Alternatively, you can hold down the Option (Mac OS) or Alt (Windows) key and double-click the script's name. This opens the script in the editor you defined for the script file type.
-
-To open the folder containing a script shown in the Scripts panel, select the script and choose Reveal in Finder (Mac OS) or Reveal in Explorer (Windows). Alternatively, you can hold down the Command (Mac OS) or Ctrl-Shift (Windows) keys and double-click the script's name. The script folder opens in the Finder (Mac OS) or Explorer (Windows).
-
-## Your first UXP script
-
-Below, we will create our first hello-world UXP InDesign script. 
-
-Our script will creates a new document, adds a text frame, and enters text in the text frame. This demonstrates how to do the following:
-
-* Create a new document.
-* Create a text frame on a specific page.
-* Add text to a text frame.
-* Start a text editor and enter the following script:
-
-```js
-//HelloWorld.idjs
-//An InDesign UXPScript
-//
-//Creates a new document, adds a text frame,
-//resizes the text frame and adds text.
-var myDocument = app.documents.add();
-var myTextFrame = myDocument.pages.item(0).textFrames.add();
-/*Set the geometric bounds (the location of the top, left, bottom, and right edges) of the text frame. In this step, the script uses measurement overrides ("p" for picas) to ensure the text frame is the correct size, regardless of your default measurement units. The locations are provided as a list, or array, of values; each scripting language has a slightly different way of creating an array. */
- myTextFrame.geometricBounds = ["6p", "6p", "24p", "24p"];
-//Add text to the text frame by setting the proporty of the content to a string myTextFrame.contents = "Hello World!";
-```
-
-Save the script as a plain-text file with the .idjs file extension to the Scripts Panel folder. To run the script, double-click the script name in the Scripts panel.
-
-Congratulations! You have now created your first InDesign script. Below goes over how to add more features to it.
-
 ## Adding features to our Hello World script
 
 In the following guide we will build upon the initial hello-world script we created above.
@@ -141,6 +71,8 @@ The objects in the object model generally correspond to the names of controls in
 ![InDesign object model](2.png)
 
 In the following sections, we'll discuss each functional area in the DocumentConstruction script. Open this script in the script editor for the language of your choice if you would like to follow along.
+
+
 
 ### Setting up measurement units and master spread margins
 
@@ -354,6 +286,4 @@ if((myGraphicFile != "")&&(myGraphicFile != null)){
     myFrame.textWrapPreferences.textWrapMode = TextWrapModes.BOUNDING_BOX_TEXT_WRAP;
     myFrame.textWrapPreferences.textWrapOffset = [24, 12, 24, 12];
 }
-```
-
-Congratulations! You've now created your first advanced InDesign script. 
+``` 

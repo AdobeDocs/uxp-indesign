@@ -68,7 +68,7 @@ module.exports = {
           },
           {
             title: 'APIs',
-            path: '/introduction/dom-and-uxp/'
+            path: '/introduction/apis/'
           },
           {
             title: 'Developer Tools',
@@ -81,17 +81,17 @@ module.exports = {
         ]
       },
       {
-        title: 'Other products',
-        path: '/introduction/other-products/',
+        title: 'Applications',
+        path: '/introduction/applications/',
         header: true,
         pages: [
           {
             title: 'InDesign Server',
-            path: '/introduction/other-products/ids/'
+            path: '/introduction/applications/ids/'
           },
           {
             title: 'InDesign Cloud Service',
-            path: '/introduction/other-products/idcs/'
+            path: '/introduction/applications/idcs/'
           }
         ]
       },
@@ -103,7 +103,6 @@ module.exports = {
           {
             title: 'Getting started',
             path: '/scripts/getting-started/',
-            header: true,
             pages: [
               {
                 title: 'Write your first script',
@@ -168,6 +167,10 @@ module.exports = {
             ]
           },
           {
+            title: 'Plugin operations in UDT',
+            path: '/plugins/udt/'
+          },
+          {
             title: 'Advanced topics',
             path: '/plugins/advanced/'
           },
@@ -182,6 +185,21 @@ module.exports = {
         path: "/resources/",
         header: true,
         pages: [
+          {
+            title: 'Fundamentals',
+            path: '/resources/fundamentals/',
+            header: true,
+            pages: [
+              {
+                title: 'InDesign document',
+                path: '/resources/fundamentals/object-model/'
+              },
+              {
+                title: 'Global scope',
+                path: '/resources/fundamentals/global-scope/'
+              }
+            ]
+          },
           {
             title: 'Best practices',
             path: '/resources/best-practices/',

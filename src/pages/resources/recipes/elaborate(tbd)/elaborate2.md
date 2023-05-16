@@ -1,31 +1,3 @@
-# Quick start guide
-Create your first Adobe InDesign Server script.
-
-## Creating your first Hello World InDesign Server Script
-Let's get started with your first InDesign Server script. The traditional first project in any programming language is to display, or print, the message "Hello World!" In this example, we create a new InDesign Server publication, add a frame containing this message, and save the document. At that point, you can open and view the document using InDesign.
-
-*Note: These examples assume that you are entering and running the script on the system on which InDesign Server is installed. For instructions on running scripts using the Test Client or SOAP commands, see Introduction to Adobe InDesign Server Development.*
-
-1. Using the Text editor, enter the following script:
-
-```js
-//HelloWorld.idjs
-//An InDesign JavaScript
-//
-//Creates a new document, adds a text frame,
-//resizes the text frame, and adds text.
-var myDocument = app.documents.add();
-var myTextFrame = myDocument.pages.item(0).textFrames.add();
-myTextFrame.geometricBounds = ["6p", "6p", "24p", "24p"];
-myTextFrame.contents = "Hello World!";
-```
-
-2. Save the text as a plain text file with the file extension.idjs.
-3. Execute the script in IDS.
-4. Open and view the document with InDesign.
-
-Congratulations! You have now created your first InDesign Server script. Below goes over how to add more features to it.
-
 ## Adding features to your Hello World InDesign Server Script
 Next, we create a script that creates another "Hello World" document. Our second script will do the following:
 
@@ -72,6 +44,4 @@ return [myY1, myX1, myY2, myX2];
 }
 ```
 
-2. Save the text as a plain text file with the file extension .idjs.
-3. Execute the script in IDS.
-4. Open and view the exported PDF with Acrobat or Adobe Reader
+Open and view the exported PDF with Acrobat or Adobe Reader

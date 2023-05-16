@@ -48,3 +48,6 @@ We performed structural changes to this repo by moving some files into a differe
 - `https://developer.adobe.com/indesign/uxp/uxp/*` -> https://developer.adobe.com/indesign/uxp/reference/uxp-api/*
 - `https://developer.adobe.com/indesign/uxp/reference/uxp-scripting-samples/` -> https://developer.adobe.com/indesign/uxp/uxp-scripting-samples/
 - `https://developer.adobe.com/indesign/uxp/reference/recipes` -> https://developer.adobe.com/indesign/uxp/recipes
+
+## Contribute
+Recipes are most welcome. 

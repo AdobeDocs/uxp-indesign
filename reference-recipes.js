@@ -1,30 +1,42 @@
 module.exports = [
     {
+        "title": "File operations",
+        "path": "/resources/recipes/file-operation/"
+    },
+    {
+        "title": "Storage",
+        "path": "/resources/recipes/storage/"
+    },
+    {
         "title": "Create UI",
-        "path": "/recipes/react/"
-    },
-    {
-        "title": "Use React",
-        "path": "/recipes/react/"
-    },
-    {
-        "title": "Perform File operations",
-        "path": "/recipes/file-operation/"
-    },
-    {
-        "title": "Make network calls",
-        "path": "/recipes/network/"
-    },
-    {
-        "title": "Inter Plugin Communication",
-        "path": "/recipes/ipc/"
+        "path": "/resources/recipes/create-ui/"
     },
     {
         "title": "Add my own styling",
-        "path": "/recipes/styling/"
+        "path": "/resources/recipes/styling/"
     },
     {
-        "title": `Know about user's machine`,
-        "path": "/recipes/user-machine/"
+        "title": `Theme awareness`,
+        "path": "/resources/recipes/theme-awareness/"
+    },
+    {
+        "title": "Use React",
+        "path": "/resources/recipes/react/"
+    },
+    {
+        "title": "Make network calls",
+        "path": "/resources/recipes/network/"
+    },
+    {
+        "title": "Inter Plugin Communication",
+        "path": "/resources/recipes/ipc/"
+    },
+    {
+        "title": `Host information`,
+        "path": "/resources/recipes/host-info/"
+    },
+    {
+        "title": `Right-to-left`,
+        "path": "/resources/recipes/rtl/"
     }
 ]

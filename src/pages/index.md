@@ -5,6 +5,16 @@ contributors:
   - https://github.com/oihamza
 ---
 
+<!-- Status -->
+<TitleBlock slots="heading, text" theme="light" />
+
+### Status: Needs work
+
+Author: Extensibility team (@pakrishn) <br></br>
+Reviewer: <br></br>
+The main focus of this doc should be to introduce UXP (not just scripting) and provide handy links to important topics that developers (newbie and experienced) will find helpful.
+<!-- End of status -->
+
 <Hero slots="image, heading, text" background="rgb(64, 34, 138)"/>
 
 ![Hero image](./illustration.png)
@@ -40,7 +50,7 @@ We tend to think of scripting as a solution for long, repetitive tasks, like lay
 
 
 
-## Discover
+## Build
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
@@ -79,7 +89,7 @@ Plugins
 
 [Learn more](./guides/migrating-to-UXPScript/)
 
-## Distribution
+## Distribute
 
 ## Join the community
 
