@@ -17,6 +17,8 @@ https://developer.adobe.com/photoshop/uxp/2022/guides/uxp_guide/uxp-misc/manifes
 https://developer.adobe.com/photoshop/uxp/2022/guides/uxp_guide/uxp-misc/manifest-v4/photoshop-manifest/
 https://developer.adobe.com/photoshop/uxp/2022/guides/uxp_guide/uxp-misc/manifest-v5/
 
+Internal docs:
+https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=UXP&title=UXP+Manifest+v5+Specification
 -->
 
 #
