@@ -92,6 +92,58 @@ module.exports = {
         ]
       },
       {
+        title: 'Tutorials',
+        path: '/plugins/',
+        header: true,
+        pages: [
+          {
+            title: 'Getting started',
+            path: '/plugins/getting-started/',
+            header: true,
+            pages: [
+              {
+                title: 'Write your first plugin',
+                path: '/plugins/getting-started/first-plugin/',
+              },
+              {
+                title: 'Install and run',
+                path: '/plugins/getting-started/run/'
+              },
+              {
+                title: 'Debug',
+                path: '/plugins/getting-started/debug/'
+              }
+            ]
+          },
+          {
+            title: 'Concepts',
+            path: '/plugins/concepts/',
+            pages: [
+              {
+                title: 'Manifest',
+                path: '/plugins/concepts/manifest/',
+              },
+              {
+                title: 'Entry points',
+                path: '/plugins/concepts/entry-points/'
+              }
+            ]
+          },
+          {
+            title: 'Plugin operations in UDT',
+            path: '/plugins/udt/'
+          },
+          {
+            title: 'Advanced topics',
+            path: '/plugins/advanced/'
+          },
+          {
+            title: 'Migration guides',
+            path: '/plugins/migration/'
+          }
+        ]
+      },
+      {
         title: 'InDesign Server',
         path: '/server/',
         pages: [
