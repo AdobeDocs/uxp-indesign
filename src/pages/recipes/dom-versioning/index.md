@@ -1,19 +1,20 @@
 ---
 keywords:
-  - New UXP Features
-  - InDesign UXP Features
+  - InDesign DOM
+  - DOM Versions 
+  - Mount API
 ---
-# What's New
-This section contains details about the latest UXP features available in InDesign.
 
-## UXP InDesign DOM
+# UXP InDesign DOM
 InDesign DOM provides APIs to create and modify InDesign application content through UXP scripting. You can find more details about this at [InDesign API](https://developer.adobe.com/indesign/dom/api/). 
->
-Prior to 18.4, the InDesign DOM was available in the global space of the UXP script by default.
->
-Starting 18.4, InDesign DOM is now available as a Javascript module, and it can be retrieved on a need basis using require() API. 
 
-### Overview
+<InlineAlert variant="info" slots="text1, text2" />
+
+**Prior to 18.4**, the InDesign DOM was available in the global space of the UXP script by default.
+
+**Starting 18.4**, InDesign DOM is now available as a Javascript module, and it can be retrieved on a need basis using require() API.
+
+## Overview
 The following code retrieves the InDesign DOM from 18.4 release onwards. This object allows you to open documents, modify them, run menu items, and more using the latest DOM version supported by the application.
 
 ```js
@@ -21,7 +22,7 @@ let myInDesign = require("indesign");
 let app = myInDesign.app;
 ```
 
-### DOM version
+## DOM version
 DOM versioning refers to the specific version of InDesign Document Object Model supported by scripting language. It ensures that scripts remain forward compatible. By specifying the appropriate DOM version in the scripts, it is ensured that scripts will work with newer versions of InDesign, even if DOM has changed in subsequent releases. The available DOM versions as of today are mentioned below -
 
 **3.0, 4.0, 5.0, 6.0, 7.0, 7.5, 8.0, 9.0, 10.0, 10.1, 10.2, 11.0, 11.2, 11.3, 11.4, 12.0, 12.1, 13.0, 13.1, 14.0, 15.0, 15.1, 16.0, 16.1, 16.2, 17.0, 18.0**

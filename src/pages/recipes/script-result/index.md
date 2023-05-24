@@ -1,7 +1,5 @@
 # Setting Script Result
-This section contains information on how the result of an UXP script can be set.
 
-## Overview
 InDesign now has the functionality to "set result" of a UXP script. After execution, a script can have its own result which then can be used for debugging purposes on InDesign Server. The result of the script can also be stored in a variable and be used by another script in both InDesign App and InDesign Server. Setting the script result can be accomplished using the script.`setResult()` API, the sections below demonstrate the various use cases. 
 
 ## Usage
@@ -28,7 +26,7 @@ Script result (std__string): Hello World!
 ```
 
 ---
-## Using Another Variable to Store Result
+## Using another variable to store result
 `script.setResult()` can be also be used to fetch result of one script, which in turn can be used in another script. The following scripts demonstrate this.
 
 ```js
@@ -37,7 +35,7 @@ let myInDesign = require("indesign");
 let app = myInDesign.app;
 const script = require("uxp").script;
 let resultOfCalledScript = app.doScript("PATH_TO_CALLED.IDJS/called.idjs", myInDesign.ScriptLanguage.UXPSCRIPT);
-script.setResult(resultOfCalledScript);
+console.log(resultOfCalledScript);
 ```
 
 ```js

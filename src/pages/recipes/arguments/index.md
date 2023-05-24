@@ -1,13 +1,11 @@
 ---
 keywords:
-  - UXP Arguments
+  - UXP Scripts Arguments
   - InDesign Server Arguments
   - DoScript Arguments
 ---
 # Passing Arguments
-This section contains information on how arguments can be passed to UXP scripts.
 
-## Overview
 Arguments/parameters can now be passed to UXP scripts. The arguments passed to the scripts can be used in the same way as any other argument. The `script.args` API can be used to access the arguments passed to the script as an array, the following sections demonstrate the various use cases.
 
 ## Usage
@@ -16,6 +14,9 @@ Use the following to fetch the arguments passed to the script as an array:
 ```js
 let argsArray = script.args
 ```
+
+<InlineAlert variant="info" slots="text1" />
+Arguments cannot be passed from the InDesign application directly. We can pass arguments to a script directly using InDesign Server only. 
 
 ## Passing Arguments to InDesign Server
 You can pass arguments to InDesign Server through the sampleclient. Specify all the necessary information, such as the port number, script name, and arguments. Pass the arguments as a string where the = sign separates the key and the value. The `script.args` API returns an array of strings where the elements are the key/value pairs of arguments specified while executing the script. Here’s an example:

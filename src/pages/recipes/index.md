@@ -8,6 +8,8 @@ Alert can be achieved by having the below method in script. This is using script
 ### Usage
 ---
 ```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 function alert(msg) {
     theDialog = app.dialogs.add();
     col = theDialog.dialogColumns.add();
@@ -42,6 +44,8 @@ Note: Conditional statements often make logical comparisons. In UXP Script, the 
 This simple example uses a conditional statement to evaluate whether any documents are open. If one or more documents are open  the code that is pasted instead of the comment is executed. If no documents are open, a message window opens. It can be a useful way to check if the script is being used in the context that it should be.
 
 ```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 if (app.documents.length > 0) {
 //Your code goes here.
 }else{
@@ -72,7 +76,7 @@ If you don't want your function to return anything, remove the line with myRetur
 ```js
 function myFunction(myParameter){
     //Your procedure goes here
-    return myReturnValue; (optional)
+    return myReturnValue; //optional
 }
 ```
 
@@ -115,6 +119,9 @@ The following script shows how to create a new document and set the margins of t
 Enter the following code in the text editor, or open the DocumentConstruction.idjs tutorial script:
 
 ```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
+
 //Create a new document.
 var myDocument = app.documents.add();
  
@@ -328,7 +335,8 @@ if((myGraphicFile != "")&&(myGraphicFile != null)){
 Once you set the XML import preferences the way you want them, you can import an XML file, as shown in the following script fragment (from the ImportXML tutorial script):
 
 ```js
-
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 let ufs = require("uxp").storage.localFileSystem;
 let myDocument = app.documents.item(0);
 //You'll have to fill in a valid file path for your system.
@@ -347,6 +355,8 @@ myDocument.xmlElements.item(0).importXML(filePath);
 When you need to import the contents of an XML file into a specific XML element, use the importXML method of the XML element, rather than the corresponding method of the document. See the following script fragment (from the ImportXMLIntoElement tutorial script):
 
 ```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 let ufs = require("uxp").storage.localFileSystem;
 let myDocument = app.documents.item(0);
 //You'll have to fill in a valid file path for your system.
@@ -372,6 +382,8 @@ myDocument.importXML(filePath);
 You also can set the importToSelected property of the xmlImportPreferences object to true, then select the XML element, and then import the XML file, as shown in the following script fragment (from the ImportXMLIntoSelectedElement tutorial script):
 
 ```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 let myDocument = app.documents.item(0);
 let myXMLTag = myDocument.xmlTags.item("xml_element");
 let myXMLElement = myDocument.xmlElements.item(0).xmlElements.add(myXMLTag);
@@ -386,6 +398,8 @@ myDocument.importXML(filePath);
 You can import XML tags from an XML file without importing the XML contents of the file. You might want to do this to work out a tag-to-style or style-to-tag mapping before you import the XML data., as shown in the following script fragment (from the LoadXMLTags tutorial script):
 
 ```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 let ufs = require("uxp").storage.localFileSystem;
 let myDocument = app.documents.item(0);
 //You'll have to fill in a valid file path for your system.
@@ -413,6 +427,8 @@ myDocument.saveXMLTags(filePath);
 ### Setting up a sample document
 
 ```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 let ufs = require("uxp").storage.localFileSystem;
 let myDocument = app.documents.item(0);
 let folder =  await ufs.getEntryWithUrl("file:c:/Users/uxp/Desktop");

@@ -1,14 +1,12 @@
 ---
 keywords:
-  - UXP Menus
+  - Menu in InDesign
   - Menu Scripting
   - Menu Items
 ---
 # Menus
-InDesign APIs can be used to add or remove menu items, perform any menu command, and attach scripts to menu items. This section shows how to work with InDesign menu scripting.
 
-## Overview
-Every menuItem is connected to a menuAction through the associatedMenuAction property. The properties of the menuAction define what happens when the menu item is selected. In addition to the menuActions defined by the user interface, users can create their scriptMenuActions, which associate a script with a menu selection.
+InDesign APIs can be used to add or remove menu items, perform any menu command, and attach scripts to menu items. This section shows how to work with InDesign menu scripting. Every menuItem is connected to a menuAction through the associatedMenuAction property. The properties of the menuAction define what happens when the menu item is selected. In addition to the menuActions defined by the user interface, users can create their scriptMenuActions, which associate a script with a menu selection.
 
 Here is a sample code for adding a menu item and associate an action to it. 
 
@@ -30,7 +28,7 @@ function mySnippet()
     let mySampleScriptAction = app.scriptMenuActions.add("Display Message");
  
     let myEventListener = mySampleScriptAction.eventListeners.add("onInvoke", function(){
-        alert("This menu item was added by a script.");
+        console.log("This menu item was added by a script.");
     });
  
     //If the submenu "Script Menu Action" does not already exist, create it.
@@ -43,18 +41,6 @@ function mySnippet()
         let mySampleScriptMenu = app.menus.item("Main").submenus.add("Script Menu Action");
     }
  
-    let mySampleScriptMenuItem = mySampleScriptMenu.menuItems.add(mySampleScriptAction);
-}
- 
-function alert(msg)
-{
-    theDialog = app.dialogs.add();
-    col = theDialog.dialogColumns.add();
-    colText = col.staticTexts.add();
-    colText.staticLabel = "" + msg;
-    theDialog.canCancel = false;
-    theDialog.show();
-    theDialog.destroy();
-    return;
+    mySampleScriptMenu.menuItems.add(mySampleScriptAction);
 }
 ```

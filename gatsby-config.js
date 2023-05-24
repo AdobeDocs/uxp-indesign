@@ -47,7 +47,7 @@ module.exports = {
           },
           {
             title: 'What\'s New',
-            path: '/new/'
+            path: '/changelog/'
           }
         ]
       },
@@ -123,11 +123,15 @@ module.exports = {
           },
           {
             title: 'Passing Arguments',
-            path: 'recipes/arguments/'
+            path: '/recipes/arguments/'
           },
           {
             title: 'Setting Script Result',
-            path: 'recipes/script-result'
+            path: '/recipes/script-result'
+          },
+          {
+            title: 'DOM Versioning',
+            path: '/recipes/dom-versioning'
           }
         ]
       }
