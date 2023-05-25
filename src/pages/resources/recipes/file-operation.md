@@ -142,7 +142,7 @@ async function saveFileUsingLocalFileSystem() {
 }
 ```
 
-If you would like to remember user's choice for an extended period of time, you can do it with the help of a token. The example below shows the essence of this usage but you should ideally save these token in localStorage (more details covered in Storage section) for later use.
+If you would like to remember user's choice for an extended period of time, you can do it with the help of a token. The example below shows the essence of this usage but you should ideally save these token in the storage (more details covered in [Storage](./storage.md) section) for later use.
 
 ```js
 const fsProvider = require('uxp').storage.localFileSystem;
@@ -170,6 +170,10 @@ Q: What is the difference between persistent and session token?
 - Instance of [localFileSystem](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/FileSystemProvider/)
 - [Entry](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/Entry/) and [Entry metadata](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/EntryMetadata/)
 - [File](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/File/) and [Folder](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/Folder/)
+
+#### Sample plugin
+// TODO Change the URL to ID repo
+https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/tree/main/jszip-sample
 
 ### FS Module
 Based on NodeJS file system APIs, these provide direct access to file locations with the help of schema.
