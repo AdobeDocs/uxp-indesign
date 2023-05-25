@@ -14,7 +14,7 @@ on:
       excludeSubfolder:
         description: 'Exclude a subfolder from deletion'
         required: false
-        default: 'reference'
+        default: 'referencetest'
 jobs:
   set-state:
     runs-on: ubuntu-latest
@@ -145,7 +145,7 @@ jobs:
           NODE_OPTIONS: "--max_old_space_size=8192"
 
       - name: Deploy
-        uses: icaraps/static-website-deploy@master
+        uses: icaraps/static-website-deploy@no-downtime
         with:
           enabled-static-website: 'true'
           source: 'public'
@@ -153,11 +153,8 @@ jobs:
           connection-string: ${{ secrets.AIO_AZURE_DEV_CONNECTION_STRING }}
           remove-existing-files: 'true'
           exclude-subfolder: ${{ needs.set-state.outputs.exclude_subfolder }}
-      - name: Delay purge
-        run: sleep 60s
-        shell: bash
       - name: Purge Fastly Cache
-        uses: icaraps/gatsby-fastly-purge-action@master
+        uses: icaraps/gatsby-fastly-purge-action@no-downtime
         with:
           fastly-token: ${{ secrets.AIO_FASTLY_TOKEN }}
           fastly-url: '${{ secrets.AIO_FASTLY_DEV_URL}}${{ needs.set-state.outputs.path_prefix }}'
