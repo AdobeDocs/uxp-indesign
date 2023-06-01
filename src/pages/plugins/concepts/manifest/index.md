@@ -304,9 +304,9 @@ Represents a localized string. The key is the locale, and the value is the trans
 }`}</code>
             <p>Results in the following icon files being used:</p>
             <ul>
-                <li>icon.png or <a href="mailto:icon@1x.png">icon@1x.png</a> (24x24px) for 100% scaling</li>
-                <li><a href="mailto:icon@2x.png">icon@2x.png</a> (48x48px) for 200% scaling</li>
-                <li><a href="mailto:icon@2.5x.png">icon@2.5x.png</a> (60x60px) for 250% scaling</li>
+                <li><inlineCode>icon.png</inlineCode> or <inlineCode>icon@1x.png</inlineCode> (24x24px) for 100% scaling</li>
+                <li><inlineCode>icon@2x.png</inlineCode> (48x48px) for 200% scaling</li>
+                <li><inlineCode>icon@2.5x.png</inlineCode> (60x60px) for 250% scaling</li>
             </ul>
             <p><strong>Default value</strong></p>
             <p><inlineCode>[1]</inlineCode> (only supports 100% scaling)</p>
