@@ -112,7 +112,7 @@ Properties marked with an asterisk (\*) are required.
     </tr>
     <tr>
         <td><inlineCode>strings</inlineCode></td>
-        <td><inlineCode>StringsDefinition | string</inlineCode></td>
+        <td><inlineCode>StringsDefinition</inlineCode></td>
         <td>optional</td>
         <td>
             <p>A set of strings used to localize the plugin name and other user-facing strings. It can also be a path to a JSON file containing the StringsDefinition object.</p>
