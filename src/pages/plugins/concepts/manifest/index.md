@@ -189,6 +189,18 @@ Properties marked with an asterisk (\*) are required.
             <p><inlineCode>{'{'}{'}'}</inlineCode> (no addons)</p>
         </td>
     </tr>
+    <tr>
+        <td><inlineCode>featureFlags</inlineCode></td>
+        <td><inlineCode>FeatureFlags</inlineCode></td>
+        <td>optional</td>
+        <td>
+            <p>
+                A set of feature flags that can be used to enable or disable certain features of the plugin. These flags are used to gate features that are not yet ready for general availability. 
+            </p>
+            <p><strong>Default value</strong></p>
+            <p><inlineCode>{'{'}{'}'}</inlineCode> (no additional feature flags)</p>
+        </td>
+    </tr>
     </tbody>
 </table>
 
@@ -763,6 +775,67 @@ window.addEventListener("message", (event) => \{
             <p>A set of extensions that the plugin can launch. Only relevant for local files (using the <inlineCode>file://</inlineCode> schema)</p>
             <p><strong>Example</strong></p>
             <p><inlineCode>["pdf", "png", "jpg"]</inlineCode></p>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+### FeatureFlags
+
+<p>Specifies which experimental features the plugin uses.</p>
+
+<p><strong>Example</strong></p>
+<code class="language-json">{`{
+    "enableFillAsCustomAttribute": true,
+    "enableSWCSupport": true
+}`}</code>
+
+<h4>Properties</h4>
+
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Required</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><inlineCode>enableFillAs<wbr />CustomAttribute</inlineCode></td>
+        <td><inlineCode>boolean</inlineCode></td>
+        <td>optional</td>
+        <td>
+            <p>Enables the plugin to use CSS variable in the <inlineCode>fill</inlineCode> attribute on SVG elements.</p>
+            <p><strong>Example</strong></p>
+            <code class="language-html">{`<svg width="100" height="100">
+    <rect width="100" 
+        height="100" 
+        fill="var(--iconColor, red)" 
+    />
+</svg>`}</code>
+            <p>With the following CSS:</p>
+            <code class="language-css">{`:root {
+    --iconColor: blue;
+}`}</code>
+            <p><strong>Default value</strong></p>
+            <p><inlineCode>false</inlineCode></p>
+        </td>
+    </tr>
+    <tr>
+        <td><inlineCode>enableSWCSupport</inlineCode></td>
+        <td><inlineCode>boolean</inlineCode></td>
+        <td>optional</td>
+        <td>
+            <p>Enables the plugin to use Spectrum Web Components (requires installing and importing the components separately)</p>
+            <p><strong>Example</strong></p>
+            <code class="language-html">{`<sp-button variant="primary">
+    Click me
+</sp-button>`}</code>
+            <p>Note that you will need to manually install the library, import it (for example <inlineCode>import '@spectrum-web-components/<wbr />button/sp-button.js'</inlineCode>), and bundle the code with a tool like webpack or esbuild so that it's included in your plugin.</p>
+            <p><strong>Default value</strong></p>
+            <p><inlineCode>false</inlineCode></p>
         </td>
     </tr>
     </tbody>
