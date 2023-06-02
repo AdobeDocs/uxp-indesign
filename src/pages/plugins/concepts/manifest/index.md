@@ -618,7 +618,11 @@ Represents a localized string. The key is the locale, and the value is the trans
 <p>Specifies the domains that the plugin can access in network requests.</p>
 <p><strong>Example</strong></p>
 <code class="language-json">{`{
-    "domains": ["https://example.com"]
+    "domains": [
+        "https://example.com",
+        "https://*.adobe.com/",
+        "wss://*.myplugin.com"
+    ]
 }
 `}</code>
 <p>Then, in your plugin code, you can make network requests like this:</p>
