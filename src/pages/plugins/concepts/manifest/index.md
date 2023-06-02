@@ -184,7 +184,7 @@ Properties marked with an asterisk (\*) are required.
         <td><inlineCode>object</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Addon definitions for hybrid plugins. See the hybrid plugin documentation for more information. A UXP Hybrid plugin is a UXP plugin that can access the power of C++ native libraries.</p>
+            <p>Addon definitions for hybrid plugins. See the hybrid plugin documentation for more information. A UXP Hybrid plugin is a UXP plugin that can access the power of C++ native libraries. This currently isn't supported in InDesign.</p>
             <p><strong>Default value</strong></p>
             <p><inlineCode>{'{'}{'}'}</inlineCode> (no addons)</p>
         </td>
