@@ -6,7 +6,7 @@ keywords:
 ---
 
 # UXP InDesign DOM
-InDesign DOM provides APIs to create and modify InDesign application content through UXP scripting. You can find more details about this at [InDesign API](https://developer.adobe.com/indesign/dom/api/). 
+InDesign DOM provides APIs to create and modify InDesign application content through UXP scripting. You can find more details about this at [InDesign API](/indesign/dom/api/). 
 
 <InlineAlert variant="info" slots="text1, text2" />
 

@@ -114,6 +114,10 @@ module.exports = {
         path: '/recipes/',
         pages: [
           {
+            title: 'DOM Versioning',
+            path: '/recipes/dom-versioning'
+          },
+          {
             title: 'Events',
             path: '/recipes/events/'
           },
@@ -128,10 +132,6 @@ module.exports = {
           {
             title: 'Setting Script Result',
             path: '/recipes/script-result'
-          },
-          {
-            title: 'DOM Versioning',
-            path: '/recipes/dom-versioning'
           }
         ]
       }

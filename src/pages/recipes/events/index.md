@@ -9,12 +9,12 @@ InDesign emits standard application and document events, such as opening a file,
 
 **You can see the sample scripts in order of complexity, starting with very simple scripts and building toward more complex operations.**
 
-*Learn how to create, install, and run a script with [Adobe InDesign UXP Scripting Tutorial](https://developer.adobe.com/indesign/uxp/guides/getting-started/).*
+*Learn how to create, install, and run a script with [Adobe InDesign UXP Scripting Tutorial](../../guides/getting-started/).*
 
 ## Understanding Event Scripting
 To attach to an event, you register an eventListener with an object capable of receiving the event. When the specified event reaches the object, the eventListener executes the script function defined in its handler function (which can be either a script function or a reference to a script file on disk).
 >
-*Here is the [list of available events](https://developer.adobe.com/indesign/dom/api/e/Event/).*
+*Here is the [list of available events](/indesign/dom/api/e/Event/).*
 
 ## Working with Event Listeners
 
@@ -74,7 +74,7 @@ app.documents.item(0).removeEventListener("beforeImport", myEventInfo);
 ## Writing events script to run through out the session
 After the event listener is associated, the script is blocked by a promise and wait for the event in the background until the event listener is removed. If the event occurs, there is an automatic callback to execute the related function. If the event listener is removed, the promise can be resolved to complete the script execution.
 
-Here is a sample events script to run and listen for “afterNew” event throughout the InDesign session and prints a relevant string whenever a new document is created.
+Here is a sample events script to run and listen for “afterNew” event **throughout the InDesign session** and prints a relevant string whenever a new document is created.
 
 ```js
 let myInDesign = require("indesign");
@@ -89,15 +89,14 @@ async function listenAfterNew(){
 function mySnippet(){
     //![Add event listener.]
     let myEventListener = app.addEventListener("afterNew", myDisplayEventType);
-    //![Add event listener.]
 }
  
-//![Add event listener - functions.]
+//![Function that gets executed.]
 function myDisplayEventType(myEvent){
     console.log("This event is the " + myEvent.eventType + " event.");
 }
 ```
-Here is a sample events script to run and listen for "afterNew" event only once and remove, which prints a relevant string if a new document is created.
+Here is a sample events script to run and listen for "afterNew" event **only once** and remove, which prints a relevant string if a new document is created.
 
 ```js
 let myInDesign = require("indesign");
@@ -113,16 +112,14 @@ async function myPromiseFunction(){
 function mySnippet(){
     //![Add event listener.]
     let myEventListener = app.addEventListener("afterNew", myDisplayEventType);
-    //![Add event listener.]
 }
  
-//![Add event listener - functions.]
+//![Function that gets executed.]
 function myDisplayEventType(myEvent){
     console.log("This event is the " + myEvent.eventType + " event.");
  
-    //![remove event listener.]
+    //![Remove event listener.]
     app.removeEventListener("afterNew", myDisplayEventType);
-    //![remove event listener.]
  
     myResolve();
 }   
