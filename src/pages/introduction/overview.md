@@ -18,6 +18,7 @@ ECMA6
 - Suggest courses/materials for developers who want to get started
 
 <!-- 
+https://developer.adobe.com/photoshop/uxp/2022/guides/uxp_guide/uxp-misc/uxp-toolchain/
 https://developer.adobe.com/photoshop/uxp/2022/guides/uxp_guide/uxp-misc/uxp-toolchain/#advanced-toolchain
 -->
 

@@ -13,6 +13,9 @@ Additionally, you will need
     - the structure of arguments to be passed (if applicable)
 - `enablePluginCommunication` permission for your plugin
 
+<InlineAlert variant="info" slots="text"/>
+
+Evidently, the concepts of inter-plugin communication is not applicable to **UXP scripts**.
 
 ## Example 
 

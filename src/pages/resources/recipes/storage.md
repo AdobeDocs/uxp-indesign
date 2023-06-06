@@ -37,11 +37,8 @@ await storage.getItem('key');
 // TODO
 Q: Any size constraints?
 
-## Reference docs
-[Local Storage](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Storage/LocalStorage/)
-[Session Storage](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Storage/SessionStorage/)
-[Secure Storage](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Key-Value%20Storage/SecureStorage/)
-
-## Sample
+## Reference material
+- [Local Storage](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Storage/LocalStorage/)
+- [Session Storage](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Storage/SessionStorage/)
+- [Secure Storage](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Key-Value%20Storage/SecureStorage/) and [sample plugin](https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/blob/main/secure-storage-sample/index.js)
 // TODO Change the URL to ID repo
-https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/blob/main/secure-storage-sample/index.js

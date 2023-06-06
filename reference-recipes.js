@@ -8,24 +8,20 @@ module.exports = [
         "path": "/resources/recipes/storage/"
     },
     {
+        "title": "Network I/O",
+        "path": "/resources/recipes/network/"
+    },
+    {
         "title": "Create UI",
         "path": "/resources/recipes/create-ui/"
     },
     {
-        "title": "Add my own styling",
+        "title": "CSS styling",
         "path": "/resources/recipes/styling/"
     },
     {
-        "title": `Theme awareness`,
-        "path": "/resources/recipes/theme-awareness/"
-    },
-    {
-        "title": "Use React",
-        "path": "/resources/recipes/react/"
-    },
-    {
-        "title": "Make network calls",
-        "path": "/resources/recipes/network/"
+        "title": "HTML events",
+        "path": "/resources/recipes/html-events/"
     },
     {
         "title": "Inter Plugin Communication",
