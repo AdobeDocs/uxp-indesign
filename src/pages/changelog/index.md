@@ -5,35 +5,16 @@
 ### InDesign APIs
 
 #### Added
-
-##### Mounting APIs
-<InlineAlert variant="warning" slots="text1" />
-
-This is now a required step. In order to access InDesign DOM APIs in UXP scripts, you must declare the DOM version you want to use.
-
-You can now access the APIs of previous versions in UXP scripts. 
-
-*Learn more about [mounting APIs](../recipes/dom-versioning/) from different InDesign versions.*
-
-##### Events Handling
-UXP scripts now have the functionality to handle standard events that InDesign emits. You can use the `eventListener` object to catch such events. 
-
-*Learn more about [events handling](../recipes/events/).*
-
-##### Arguments Support
-Arguments can now be passed to a UXP script, and can be used within the script. 
-
-*Learn more about [arguments support](../recipes/arguments/).* 
-
-##### Setting Script Result
-UXP scripts now have a "result" associated with them. The result of a script can be used for debugging puposes as well as passed to another script for utilization. 
-
-*Learn more about [setting script result](../recipes/script-result/).*
-
-##### Menus Scripting
-UXP scripts now have APIs which can be used to add new menu items, remove existing menu items etc. 
-
-*Learn more about [menu scripting](../recipes/menus/).*
+- [BREAKING CHANGE] Mounting APIs <br></br>
+    InDesign DOM APIs are no longer available in the global scope. You must [mount the APIs](../recipes/dom-versioning/) first before using them. Plus, you can now access different versions of DOM APIs.
+- Events <br></br>
+    UXP scripts now have the functionality to handle standard events that InDesign emits. You can use the [eventListener](../recipes/events/)object to catch such events. 
+- Arguments in UXP Scripts <br></br>
+    [Arguments](../recipes/arguments/) can now be passed to a UXP script, and can be used within the script. 
+- Setting script result <br></br>
+    UXP scripts now have a "result" associated with them. [Set a result](../recipes/script-result/) for a script for debugging puposes as well as passed to another script for utilization.
+- Menus <br></br>
+    UXP scripts now have APIs which can be used to add new menu items, remove existing menu items etc. [Read more](../recipes/menus/).
 
 ### UXP v7.0 Integration 
 
