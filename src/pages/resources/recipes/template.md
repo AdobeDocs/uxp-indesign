@@ -47,10 +47,9 @@ Screenshot illustrating the output (if applicable)
 
 ## Reference material
 <!-- Links to API docs used in the code above -->
-- [API]({siteConfig.uxpApiPath}/)
-- <a href={siteConfig.uxpApiPath}>API</a>
+- <a href={`${siteConfig.uxpApiPath}`}>API</a>
 
-## Applicable to
+## Compatibility
 <!-- Summarize the availibility -->
 
 - InDesign version v18.5

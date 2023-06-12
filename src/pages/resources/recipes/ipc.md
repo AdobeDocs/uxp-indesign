@@ -15,7 +15,7 @@ Additionally, you will need
 
 <InlineAlert variant="info" slots="text"/>
 
-Evidently, the concepts of inter-plugin communication is not applicable to **UXP scripts**.
+The concepts of inter-plugin communication is not applicable to **UXP scripts**.
 
 ## Example 
 

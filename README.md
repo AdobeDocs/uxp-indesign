@@ -50,4 +50,6 @@ We performed structural changes to this repo by moving some files into a differe
 - `https://developer.adobe.com/indesign/uxp/reference/recipes` -> https://developer.adobe.com/indesign/uxp/recipes
 
 ## Contribute
-Recipes are most welcome. 
+
+### Recipes
+Use the [template](./src/pages/resources/recipes/template.md) for recipe and make sure you provide all the necessary details. Open a pull request.
