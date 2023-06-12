@@ -1,21 +1,19 @@
-<!-- Status -->
-<TitleBlock slots="heading, text" theme="light" />
-
 import './table-styles.css';
 
 # UXP Manifest
+The manifest is a JSON file that is located at the root of the plugin bundle. It is named `manifest.json` and is
+required for all plugins.
 
 ## Overview
 
 Each UXP plugin has one `manifest.json` file that describes the plugin. It contains a bunch of metadata like the name,
-version, icons, and entry points. It also contains the permissions that the plugin requires. Most importantly, it
+version, icons, and entry points.
+
+The manifest file also contains the permissions that the plugin requires. Most importantly, it
 contains your plugin ID which is used to identify your plugin.
 
 Since UXP plugins can be run in a number of different hosts, the manifest also contains a `host` field that specifies
 which host the plugin is for. This is used to identify the plugin in the manifest and in the plugin bundle.
-
-The manifest is a JSON file that is located at the root of the plugin bundle. It is named `manifest.json` and is
-required for all plugins.
 
 ## Reference
 
