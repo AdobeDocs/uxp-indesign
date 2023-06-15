@@ -209,7 +209,7 @@ module.exports = {
             path: '/resources/best-practices/',
           },
           {
-            title: 'Starter kits',
+            title: 'Starter & Samples',
             path: '/resources/starter-kits/',
           },
           {

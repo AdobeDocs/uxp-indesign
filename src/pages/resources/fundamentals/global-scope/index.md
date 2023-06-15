@@ -17,3 +17,5 @@ This section should decribe the objects
 - available in global scope such as document, window 
 - that can be mounted by 'require'
 -->
+
+Version number of app and UXP
