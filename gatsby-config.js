@@ -44,6 +44,10 @@ module.exports = {
           {
             title: 'Recipes',
             path: '/recipes/'
+          },
+          {
+            title: 'What\'s New',
+            path: '/changelog/'
           }
         ]
       },
@@ -141,6 +145,32 @@ module.exports = {
           {
             title: 'Reference',
             path: '/server/reference/'
+          }
+        ]
+      },
+      {
+        title: 'Recipes',
+        path: '/recipes/',
+        pages: [
+          {
+            title: 'DOM Versioning',
+            path: '/recipes/dom-versioning'
+          },
+          {
+            title: 'Events',
+            path: '/recipes/events/'
+          },
+          {
+            title: 'Menus',
+            path: '/recipes/menus/'
+          },
+          {
+            title: 'Passing Arguments',
+            path: '/recipes/arguments/'
+          },
+          {
+            title: 'Setting Script Result',
+            path: '/recipes/script-result'
           }
         ]
       }

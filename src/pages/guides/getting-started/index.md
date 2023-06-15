@@ -30,7 +30,7 @@ To run a script, display the Scripts panel (choose Window > Utilities > Scripts)
 
 We can also right-click on the script name and then click on run in drop-down menu.
 
-![Running a script](running_a_script.png)
+![Running a script](Image1.png)
 
 ## Using the scripts panel
 
@@ -132,13 +132,13 @@ Obviously, our "Hello World!" script would not be very useful in your daily work
 
 While you can use an InDesign script at any point in your production process, we will start by creating a script that starts at the same point you do: We'll create a new document, set page margins, and define and apply master pages. The following figure shows a block diagram that represents the objects we'll work with.
 
-![InDesign object model](1.png)
+![InDesign object model](Image2.png)
 
 In this section, we will look at the DocumentTemplate tutorial script. We'll break the script into a series of blocks; each block demonstrates a specific area or task in InDesign scripting.
 
 The objects in the object model generally correspond to the names of controls in the user interface, as shown in the following diagram: 
 
-![InDesign object model](2.png)
+![InDesign object model](Image3.png)
 
 In the following sections, we'll discuss each functional area in the DocumentConstruction script. Open this script in the script editor for the language of your choice if you would like to follow along.
 
@@ -178,7 +178,7 @@ myMarginPreferences.columnGutter = 14;
 
 Now that we have a master spread set up, we will add a baseline grid. Here is a block diagram that shows the relationship between the objects we'll be working with:
 
-![InDesign object model](3.png)
+![InDesign object model](Image4.png)
 
 ```js
 var myGridPreferences = myDocument.gridPreferences;
@@ -193,7 +193,7 @@ Next, we add two text frames to the master pages. These frames will contain the 
 
 In the "Hello World" example, we created a text frame and specified its position and size using the geometric bounds property-an array containing the top, left, bottom, and right coordinates for the frame. The coordinates correspond to the corners of the frame, just as they would appear in the Control panel. The geometric bounds are: top = 728, left = 70, bottom = 742, and right = 528, as shown in the following two figures:
 
-![InDesign object model](4.png)
+![InDesign object model](Image5.png)
 
 ```js
 var myMasterSpread = myDocument.masterSpreads.item(0);
@@ -218,7 +218,7 @@ myRightFooter.parentStory.characters.item(0).justification = Justification.right
 
 Next, we add master text frames. The following block diagram shows the objects and properties we'll be working with:
 
-![InDesign object model](5.png)
+![InDesign object model](Image6.png)
 
 ```js
 var myLeftPage = myMasterSpread.pages.item(0);
@@ -255,7 +255,7 @@ myTextFrame.insertionPoints.item(0).contents = "Headline!\r";
 
 Our headline looks plain, so we will format it in a paragraph style. To do that, we must create the paragraph style. The following diagram shows the objects and properties we will work with:
 
-![InDesign object model](6.png)
+![InDesign object model](Image7.png)
 
 ```js
 //First, check to see if the paragraph style already exists.

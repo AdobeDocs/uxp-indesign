@@ -33,7 +33,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@adobe/gatsby-theme-aio@npm:^4.9.12":
+"@adobe/gatsby-theme-aio@npm:4.9.12":
   version: 4.9.12
   resolution: "@adobe/gatsby-theme-aio@npm:4.9.12"
   dependencies:
@@ -20181,7 +20181,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "uxp-indesign@workspace:."
   dependencies:
-    "@adobe/gatsby-theme-aio": ^4.9.12
+    "@adobe/gatsby-theme-aio": 4.9.12
     gatsby: 4.22.0
     react: ^17.0.2
     react-dom: ^17.0.2
