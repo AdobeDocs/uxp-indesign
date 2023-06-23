@@ -35,8 +35,8 @@ Properties marked with an asterisk (\*) are required.
 	"version": "1.0.0",
 	"main": "index.html",
 	"host": {
-		"app": "PS",
-		"minVersion": "23.3.0"
+		"app": "HOST_APPLICATION",
+		"minVersion": "HOST_VERSION"
 	},
 	"entrypoints": [
 		{
@@ -182,7 +182,8 @@ Properties marked with an asterisk (\*) are required.
         <td><inlineCode>object</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Addon definitions for hybrid plugins. See the hybrid plugin documentation for more information. A UXP Hybrid plugin is a UXP plugin that can access the power of C++ native libraries. This currently isn't supported in InDesign.</p>
+            <p> <i>Not supported in InDesign v18.5</i> <br></br>
+            Addon definitions for hybrid plugins. A UXP Hybrid plugin is a UXP plugin that can access the power of C++ native libraries.</p>
             <p><strong>Default value</strong></p>
             <p><inlineCode>{'{'}{'}'}</inlineCode> (no addons)</p>
         </td>
@@ -263,7 +264,7 @@ Represents a localized string. The key is the locale, and the value is the trans
 
 ### IconDefinition
 
-<p>Represents an icon used by the plugin. The icon may be used in the plugin list, toolbar, or other places.</p>
+<p>Represents an icon used by the plugin or specific entry point. The icon may be used in the plugin list, toolbar, or other places.</p>
 <h4>Properties</h4>
 <table>
     <thead>
@@ -511,15 +512,15 @@ Represents a localized string. The key is the locale, and the value is the trans
     <tbody>
     <tr>
         <td><inlineCode>app</inlineCode> *</td>
-        <td><inlineCode>"XD" <wbr />| "PS" <wbr />| "ID"</inlineCode></td>
+        <td><inlineCode>"PS" <wbr />| "ID" <wbr />| "XD"</inlineCode></td>
         <td>required</td>
         <td>
             <p>The host app that the plugin supports.</p>
             <p>Possible values:</p>
             <ul>
-                <li><inlineCode>XD</inlineCode>: Adobe XD</li>
                 <li><inlineCode>PS</inlineCode>: Adobe Photoshop</li>
                 <li><inlineCode>ID</inlineCode>: Adobe InDesign</li>
+                <li><inlineCode>XD</inlineCode>: Adobe XD</li>
             </ul>
         </td>
     </tr>
@@ -620,10 +621,30 @@ Represents a localized string. The key is the locale, and the value is the trans
             <p><inlineCode>undefined</inlineCode> (no process launching)</p>
         </td>
     </tr>
+    <tr>
+        <td><inlineCode>allowCodeGenerationFromStrings</inlineCode></td>
+        <td><inlineCode>boolean</inlineCode></td>
+        <td>optional</td>
+        <td>
+            <p>Allows you to declare inline event handlers in HTML elements.</p>
+            <p><strong>Default value</strong></p>
+            <p><inlineCode>false</inlineCode></p>
+        </td>
+    </tr>
+    <tr>
+        <td><inlineCode>ipc</inlineCode></td>
+        <td><inlineCode>IpcPermission</inlineCode></td>
+        <td>optional</td>
+        <td>
+            <p>Enables the plugin to communicate with other plugins.</p>
+            <p><strong>Default value</strong></p>
+            <p><inlineCode>undefined</inlineCode></p>
+        </td>
+    </tr>
     </tbody>
 </table>
 
-### NetworkPermission
+#### NetworkPermission
 
 <p>Specifies the domains that the plugin can access in network requests.</p>
 <p><strong>Example</strong></p>
@@ -668,7 +689,9 @@ Represents a localized string. The key is the locale, and the value is the trans
     </tbody>
 </table>
 
-### WebviewPermission
+#### WebViewPermission
+
+[//]: # (TODO: Add link to internal documentation)
 
 <p>Enables the plugin to use webviews in its UI to display web content or complex UI.</p>
 <p><strong>Example</strong></p>
@@ -734,7 +757,9 @@ window.addEventListener("message", (event) => \{
     </tbody>
 </table>
 
-### LaunchProcessPermission
+#### LaunchProcessPermission
+
+[//]: # (TODO: Add link to recipe later https://github.com/AdobeDocs/uxp-indesign/blob/6d1ad4ff1c2e096d01edaf91809cd8b4c8f4cad7/src/pages/resources/recipes/launch-process.md)
 
 <p>Specifies the schemas and extensions that the plugin can launch.</p>
 <p>For example, if the plugin can launch a web browser, it should specify the <inlineCode>http</inlineCode> and <inlineCode>https</inlineCode> schemas.</p>
@@ -773,6 +798,39 @@ window.addEventListener("message", (event) => \{
             <p>A set of extensions that the plugin can launch. Only relevant for local files (using the <inlineCode>file://</inlineCode> schema)</p>
             <p><strong>Example</strong></p>
             <p><inlineCode>["pdf", "png", "jpg"]</inlineCode></p>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+#### IpcPermission
+
+[//]: # (TODO: Add link to recipe later https://github.com/AdobeDocs/uxp-indesign/blob/6d1ad4ff1c2e096d01edaf91809cd8b4c8f4cad7/src/pages/resources/recipes/ipc.md)
+
+<p>Allows communication with other plugin.</p>
+<p><strong>Example</strong></p>
+<code class="language-json">{`{
+    "enablePluginCommunication": true
+}
+`}</code>
+
+<h4>Properties</h4>
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Required</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><inlineCode>enablePluginCommunication</inlineCode> *</td>
+        <td><inlineCode>boolean</inlineCode></td>
+        <td>required</td>
+        <td>
+            <p>Enables plugin communication.</p>
         </td>
     </tr>
     </tbody>
@@ -838,26 +896,3 @@ window.addEventListener("message", (event) => \{
     </tr>
     </tbody>
 </table>
-
-### Status: Needs work
-
-Author: Extensibility team (@pklaschka) <br></br>
-<!-- End of status -->
-
-
-
-<!-- 
-InDesign will support manifest v5 and above
-
-Try to keep these docs dettached from the host application as much as possible. So that these docs can be repurposed across applicaitons 
-
-Borrow content from 
-https://developer.adobe.com/photoshop/uxp/2022/guides/uxp_guide/uxp-misc/manifest-v4/
-https://developer.adobe.com/photoshop/uxp/2022/guides/uxp_guide/uxp-misc/manifest-v4/photoshop-manifest/
-https://developer.adobe.com/photoshop/uxp/2022/guides/uxp_guide/uxp-misc/manifest-v5/
-
-Internal docs:
-https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=UXP&title=UXP+Manifest+v5+Specification
--->
-
-#
