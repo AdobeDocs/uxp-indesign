@@ -32,8 +32,10 @@ document.addEventListener('uxpcommand', (event) => {
 
 
 ## Reference material
-// TODO add links to API reference
+<!-- // TODO add links to API reference 
 - <a href={`${siteConfig.uxpApiPath}`}>API</a>
+-->
+
 
 ## Compatibility
 

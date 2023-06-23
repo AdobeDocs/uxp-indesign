@@ -1,6 +1,6 @@
 module.exports = [
     {
-        "title": "File operations",
+        "title": "File Operations",
         "path": "/resources/recipes/file-operation/"
     },
     {
@@ -16,20 +16,36 @@ module.exports = [
         "path": "/resources/recipes/create-ui/"
     },
     {
-        "title": "CSS styling",
+        "title": "CSS Styling",
         "path": "/resources/recipes/styling/"
     },
     {
-        "title": "HTML events",
+        "title": "HTML Events",
         "path": "/resources/recipes/html-events/"
     },
     {
-        "title": "Inter Plugin Communication",
-        "path": "/resources/recipes/ipc/"
+        "title": `Host Information`,
+        "path": "/resources/recipes/host-info/"
     },
     {
-        "title": `Host information`,
-        "path": "/resources/recipes/host-info/"
+        "title": `Changes to Document`,
+        "path": "/resources/recipes/document-changes/"
+    }, 
+    {
+        "title": 'Application Events',
+        "path": '/resources/recipes/events/'
+    },
+    {
+        "title": 'Menus',
+        "path": '/resources/recipes/menus/'
+    },
+    {
+        "title": `XML`,
+        "path": "/resources/recipes/xml/"
+    }, 
+    {
+        "title": "Inter Plugin Communication",
+        "path": "/resources/recipes/ipc/"
     },
     {
         "title": `Right-to-left`,

@@ -31,10 +31,14 @@ module.exports = {
         path: '/plugins/'
       },
       {
+        title: 'Resources',
+        path: '/resources/'
+      },
+      {
         title: 'References',
         menu: [
           {
-            title: `What's new?`,
+            title: `What's New?`,
             path: '/changelog/',
           },
           {
@@ -44,20 +48,8 @@ module.exports = {
           {
             title: 'InDesign API',
             path: '/indesign/dom/api/',
-          },
-          {
-            title: 'Recipes',
-            path: '/recipes/'
-          },
-          {
-            title: 'What\'s New',
-            path: '/changelog/'
           }
         ]
-      },
-      {
-        title: 'Resources',
-        path: '/resources/'
       }
     ],
     subPages: [
@@ -73,10 +65,6 @@ module.exports = {
           {
             title: 'Scripts & Plugins',
             path: '/introduction/script-and-plugin/'
-          },
-          {
-            title: 'APIs',
-            path: '/introduction/apis/'
           },
           {
             title: 'Developer Tools',
@@ -129,6 +117,14 @@ module.exports = {
           {
             title: 'Concepts',
             path: '/scripts/concepts/'
+          },
+          {
+            title: 'Passing Arguments to Scripts',
+            path: '/scripts/arguments/'
+          },
+          {
+            title: 'Script Result',
+            path: '/scripts/script-result/'
           },
           {
             title: 'Tips & tricks',
@@ -203,53 +199,31 @@ module.exports = {
             header: true,
             pages: [
               {
-                title: 'InDesign document',
+                title: 'APIs',
+                path: '/resources/fundamentals/apis/'
+              },
+              {
+                title: 'DOM Version',
+                path: '/resources/fundamentals/dom-versioning/'
+              },
+              {
+                title: 'Object model',
                 path: '/resources/fundamentals/object-model/'
               },
               {
-                title: 'Global scope',
-                path: '/resources/fundamentals/global-scope/'
+                title: 'Measurement & positioning',
+                path: '/resources/fundamentals/measurements-and-positioning/'
               }
             ]
           },
           {
-            title: 'Best practices',
-            path: '/resources/best-practices/',
-          },
-          {
-            title: 'Starter & Samples',
+            title: 'Starters & Samples',
             path: '/resources/starter-kits/',
           },
           {
             title: 'Recipes',
             path: '/resources/recipes/',
             pages: require("./reference-recipes.js"),
-          }
-        ]
-      },
-      {
-        title: 'Recipes',
-        path: '/recipes/',
-        pages: [
-          {
-            title: 'DOM Versioning',
-            path: '/recipes/dom-versioning'
-          },
-          {
-            title: 'Events',
-            path: '/recipes/events/'
-          },
-          {
-            title: 'Menus',
-            path: '/recipes/menus/'
-          },
-          {
-            title: 'Passing Arguments',
-            path: '/recipes/arguments/'
-          },
-          {
-            title: 'Setting Script Result',
-            path: '/recipes/script-result'
           }
         ]
       }
