@@ -4,10 +4,18 @@ description: UXP Plugin Reference for InDesign
 # openAPISpec:  /petstore.json
 --- 
 
-# Coming soon
+# UXP Plugins
 
-Plugin support with UXP will be available in upcoming releases and ID18.0 and IDS 18.0 focused only on UXP Scripting. Plugin support is expected in 2023.
+InDesign v18.5, currently in pre-release, introduces UXP plugins. [Join the pre-release](https://www.adobeprerelease.com/beta/D1A76A97-F7DC-4552-DE3C-FF5F211C7492) to try them out.
 
-## Migrating from UXP
+With plugins you can build extensive UI and more interacting components for the users. This section will help you write your first plugin, and explains important concepts required to understand how plugins work. 
 
-Are you getting ready to migrate a [CEP panel](https://github.com/Adobe-CEP/CEP-Resources/blob/master/CEP_11.x/Documentation/CEP%2011.1%20HTML%20Extension%20Cookbook.md) to UXP? Check out our [Migration Guide](https://github.com/Adobe-CEP/CEP-Resources/tree/master/UXP-Migration-Guide).
+
+
+
+<!-- 
+//TODO
+Pre req - read introduction -> Scripts & Plugins
+Remind developers to check fundamentals, whats new section 
+-->
+
