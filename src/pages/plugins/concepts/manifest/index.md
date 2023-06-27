@@ -6,7 +6,7 @@ required for all plugins.
 
 ## Overview
 
-Each UXP plugin has one `manifest.json` file that describes the plugin. It contains a bunch of metadata like the name,
+Each UXP plugin has one `manifest.json` file that describes the plugin. It contains metadata such as the plugin's name,
 version, icons, and entry points.
 
 The manifest file also contains the permissions that the plugin requires. Most importantly, it
