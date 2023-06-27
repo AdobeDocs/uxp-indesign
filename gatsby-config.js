@@ -137,9 +137,47 @@ module.exports = {
         ]
       },
       {
-        title: 'Tutorials',
+        title: 'Plugins',
         path: '/plugins/',
         header: true,
+        pages: [
+          {
+            title: 'Getting started',
+            path: '/plugins/getting-started/',
+          },
+          {
+            title: 'Concepts',
+            path: '/plugins/concepts/',
+            pages: [
+              {
+                title: 'Entry points',
+                path: '/plugins/concepts/entry-points/'
+              },
+              {
+                title: 'Manifest',
+                path: '/plugins/concepts/manifest/',
+              },
+            ]
+          },
+          {
+            title: 'Tutorials',
+            path: '/plugins/tutorials/',
+            pages: [
+                {
+                    title: 'Adding command entrypoints',
+                    path: '/plugins/tutorials/adding-command-entrypoints/'
+                },
+            ]
+          },
+          {
+            title: 'Advanced topics',
+            path: '/plugins/advanced/'
+          },
+        ]
+      },
+      {
+        title: 'InDesign Server',
+        path: '/server/',
         pages: [
           {
             title: 'Getting started',

@@ -1,0 +1,12 @@
+td p:first-child {
+    margin-top: 0;
+}
+
+td:not(:last-child) {
+    width: 0;
+}
+
+td:nth-child(3),
+th:nth-child(3) {
+    display: none;
+}
