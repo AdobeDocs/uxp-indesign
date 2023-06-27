@@ -90,7 +90,7 @@ Now, the HTML file is no longer needed. You can delete it. This is especially us
 That's it! You've added a command entrypoint to your plugin. When you now load your plugin, you should see a new command called _My Command_ in the **Plugins** menu:
 
 <figure>
-  <img src="https://picsum.photos/1280/720" alt="Screenshot of the Plugins menu with the My Command menu item highlighted" />
+  <img src="command-plugin.png" alt="Screenshot of the Plugins menu with the My Command menu item highlighted" />
   <figcaption>The My Command menu item</figcaption>
 </figure>
 

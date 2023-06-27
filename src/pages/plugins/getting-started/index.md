@@ -19,7 +19,7 @@ You can create your plugin directly in the UXP Developer Tool. To do so, open th
 This opens a dialog where you can enter the details for your plugin:
 
 <figure>
-  <img src="https://picsum.photos/1280/720" alt="Screenshot of the create plugin dialog" />
+  <img src="create-plugin.png" alt="Screenshot of the create plugin dialog" />
   <figcaption>The create plugin dialog</figcaption>
 </figure>
 
@@ -30,10 +30,7 @@ In the dialog, enter the following information:
 | Name                     | My First Plugin   |
 | Host Application         | Adobe InDesign    |
 | Host Application Version | 18.5              |
-| Template                 | starter           |
-
-[//]: # (TODO: Fix according to actual UDT data and version requirements)
-[//]: # (TODO: Add template "starter" with the code below to UDT)
+| Template                 | quick-starter     |
 
 Then click **Select Folder** and choose a location on your machine where you want to create the plugin.
 
@@ -55,14 +52,14 @@ First things first, you'll need to run InDesign.
 Then, in the UXP Developer Tool, in the row for your plugin, click **⋯ &rarr; Load**:
 
 <figure>
-  <img src="https://picsum.photos/1280/720" alt="Screenshot of the UXP Developer Tool with the load button highlighted" />
+  <img src="load-plugin.png" alt="Screenshot of the UXP Developer Tool with the load button highlighted" />
   <figcaption>The load button</figcaption>
 </figure>
 
 This will load your plugin into InDesign. You should see the plugin's panel appear in InDesign:
 
 <figure>
-  <img src="https://picsum.photos/1280/720" alt="Screenshot of InDesign with the plugin panel open" />
+  <img src="loaded-plugin.png" alt="Screenshot of InDesign with the plugin panel open" />
   <figcaption>The plugin panel</figcaption>
 </figure>
 
@@ -101,13 +98,13 @@ Or you could add a paragraph below the heading:
 To see your changes, you'll need to reload the plugin in InDesign. To do so, in the UXP Developer Tool, in the row for your plugin, click **⋯ &rarr; Reload**:
 
 <figure>
-  <img src="https://picsum.photos/1280/720" alt="Screenshot of the UXP Developer Tool with the reload button highlighted" />
+  <img src="reload-plugin.png" alt="Screenshot of the UXP Developer Tool with the reload button highlighted" />
   <figcaption>The reload button</figcaption>
 </figure>
 
 <InlineAlert slots="text" />
 
-If you make any changes to the `manifest.json` file, you'll need to fully unload and reload the plugin. To do so, in the UXP Developer Tool, in the row for your plugin, click **⋯ &rarr; Load**:
+If you make any changes to the `manifest.json` file, you'll need to fully unload and reload the plugin. To do so, in the UXP Developer Tool, in the row for your plugin, click **⋯ &rarr; Unload** and **⋯ &rarr; Load**:
 
 
 ## Next steps
