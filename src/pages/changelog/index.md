@@ -8,10 +8,10 @@ UXP Plugins are now available in InDesign. Get started [here](../plugins).
 
 #### New
 HTMLElement now supports
-- [setPointerCapture](/reference-js/Global%20Members/HTML%20DOM/Elementmd#setpointercapturepointerid)
-- [releasePointerCapture](/reference-js/Global%20Members/HTML%20DOM/Elemen.md#releasepointercapturepointerid)
-- [hasPointerCapture](/reference-js/Global%20Members/HTML%20DOM/Elemet.md#haspointercapturepointerid)
-- [dir](/reference-js/Global%20Members/HTML%20Elements/HTMLHtmlElement.md#dir--string)
+- [setPointerCapture](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Elementmd#setpointercapturepointerid)
+- [releasePointerCapture](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Elemen.md#releasepointercapturepointerid)
+- [hasPointerCapture](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Elemet.md#haspointercapturepointerid)
+- [dir](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLHtmlElement.md#dir--string)
 
 #### Updated
 - Documentation for `shell` moved to [new location](/reference-js/Modules/uxp/shell/)
