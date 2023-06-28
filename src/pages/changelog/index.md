@@ -1,5 +1,80 @@
 # Changelog
 
+## InDesign v18.5
+
+UXP Plugins are now available in InDesign. Get started [here](../plugins).
+
+### UXP v7.1
+
+#### New
+HTMLElement now supports
+- [setPointerCapture](/reference-js/Global%20Members/HTML%20DOM/Elementmd#setpointercapturepointerid)
+- [releasePointerCapture](/reference-js/Global%20Members/HTML%20DOM/Elemen.md#releasepointercapturepointerid)
+- [hasPointerCapture](/reference-js/Global%20Members/HTML%20DOM/Elemet.md#haspointercapturepointerid)
+- [dir](/reference-js/Global%20Members/HTML%20Elements/HTMLHtmlElement.md#dir--string)
+
+#### Updated
+- Documentation for `shell` moved to [new location](/reference-js/Modules/uxp/shell/)
+
+#### Fixed
+- `SVGElement`: The color of the `fill` attribute using a CSS variable will resolve as per the variable value. For now, please test this fix by enabling the feature flag in your plugin manifest `"featureFlags" : { "enableFillAsCustomAttribute" : true }`. This flag will be turned on by default in the next UXP release. 
+```
+// CSS variable
+html {
+  --iconColor: yellow;
+}
+
+<svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="var(--iconColor, red)" />
+</svg>
+// shows a yellow circle
+```  
+
+### UXP v7.0
+
+#### New
+- Support for Web Components in UXP Plugins. Various HTML elements and methods have been added to support this feature.
+    - Classes
+        - [HTMLSlotElement](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLSlotElement.md)
+        - [HTMLTemplateElement](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLTemplateElement.md)
+    - Methods
+        - [Element.assignedSlot](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#assignedslot--htmlslotelement)
+        - [Element.slot](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#slot--string)
+        - [Element.attachShadow](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#attachshadowinit)
+        - [Element.shadowRoot](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#shadowroot--shadowroot)
+        - [CustomElementRegistry.upgrade](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry.md#upgraderoot)
+        - [CustomElementRegistry.whenDefined](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry.md#whendefinedname)
+- [Spectrum Web Components (Beta)](/reference/uxp-api/reference-spectrum/swc/index.md) Support for Adobe SWC.
+- Several augmentations to the JS API set
+    - Properties
+        - [HTMLElement.lang](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement.md#lang--string)
+    - Classes added to the global scope
+        - [TreeWalker](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/TreeWalker.md)
+        - [NodeFilter](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/NodeFilter.md)
+    - Methods
+        - [Element.hasAttributes](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#hasattributes)
+        - [Element.getAttributeNames](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#getattributenames)
+        - [Event.composed](/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/Event.md#composed--boolean)
+        - [Event.composedPath](/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/Event.md#composedpath)
+        - [DocumentFragment.append](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment.md#appendargs)
+        - [DocumentFragment.querySelector](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment.md#queryselectorselector)
+        - [DocumentFragment.querySelectorAll](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment.md#queryselectorallselector)
+- New focus events to support React 16
+    - [Focusin Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusin_event)
+    - [Focusout Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event)
+- HTML [2D Canvas Support](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLCanvasElement.md) for basic shapes and styling.
+- Alerts
+    - [alert()](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert.md)
+    - [prompt()](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/prompt.md)
+    - [confirm()](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/confirm.md)
+- Support for [pipeThrough](/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream.md#pipeThroughtransform-options) and [tee](/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream.md#tee) in [ReadableStream](/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream.md). Refer to [Streams](/reference/uxp-api/reference-js/Global%20Members/Streams/index.md) for more details
+- [ImageBlob](/reference/uxp-api/reference-js/Global%20Members/ImageBlob/) to render an uncompressed image buffer in UXP
+
+#### Changed
+- [HTMLVideoElement](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md): 'metadata' is the default value for `preload` attribute
+- [FS API](/reference/uxp-api/reference-js/Modules/fs/): No need for the `file://` protocol
+
+
 ## InDesign v18.4
 
 ### InDesign APIs
