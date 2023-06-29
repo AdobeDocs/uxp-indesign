@@ -2,7 +2,7 @@
 
 ## InDesign v18.5
 
-UXP Plugins are now available in InDesign. Get started [here](../plugins).
+UXP Plugins are now available! Get started [here](../plugins).
 
 ### UXP v7.1
 
