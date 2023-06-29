@@ -8,10 +8,10 @@ UXP Plugins are now available in InDesign. Get started [here](../plugins).
 
 #### New
 HTMLElement now supports
-- [setPointerCapture](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Elementmd#setpointercapturepointerid)
-- [releasePointerCapture](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Elemen.md#releasepointercapturepointerid)
-- [hasPointerCapture](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Elemet.md#haspointercapturepointerid)
-- [dir](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLHtmlElement.md#dir--string)
+- [setPointerCapture](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#setpointercapturepointerid)
+- [releasePointerCapture](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#releasepointercapturepointerid)
+- [hasPointerCapture](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#haspointercapturepointerid)
+- [dir](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLHtmlElement#dir--string)
 
 #### Updated
 - Documentation for `shell` moved to [new location](/reference-js/Modules/uxp/shell/)
@@ -35,43 +35,43 @@ html {
 #### New
 - Support for Web Components in UXP Plugins. Various HTML elements and methods have been added to support this feature.
     - Classes
-        - [HTMLSlotElement](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLSlotElement.md)
-        - [HTMLTemplateElement](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLTemplateElement.md)
+        - [HTMLSlotElement](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLSlotElement/)
+        - [HTMLTemplateElement](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLTemplateElement/)
     - Methods
         - [Element.assignedSlot](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#assignedslot--htmlslotelement)
-        - [Element.slot](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#slot--string)
-        - [Element.attachShadow](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#attachshadowinit)
-        - [Element.shadowRoot](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#shadowroot--shadowroot)
-        - [CustomElementRegistry.upgrade](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry.md#upgraderoot)
-        - [CustomElementRegistry.whenDefined](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry.md#whendefinedname)
-- [Spectrum Web Components (Beta)](/reference/uxp-api/reference-spectrum/swc/index.md) Support for Adobe SWC.
+        - [Element.slot](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#slot--string)
+        - [Element.attachShadow](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#attachshadowinit)
+        - [Element.shadowRoot](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#shadowroot--shadowroot)
+        - [CustomElementRegistry.upgrade](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry#upgraderoot)
+        - [CustomElementRegistry.whenDefined](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry#whendefinedname)
+- [Spectrum Web Components (Beta)](/reference/uxp-api/reference-spectrum/swc/) Support for Adobe SWC.
 - Several augmentations to the JS API set
     - Properties
-        - [HTMLElement.lang](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement.md#lang--string)
+        - [HTMLElement.lang](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement#lang--string)
     - Classes added to the global scope
-        - [TreeWalker](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/TreeWalker.md)
-        - [NodeFilter](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/NodeFilter.md)
+        - [TreeWalker](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/TreeWalker/)
+        - [NodeFilter](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/NodeFilter/)
     - Methods
-        - [Element.hasAttributes](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#hasattributes)
-        - [Element.getAttributeNames](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#getattributenames)
-        - [Event.composed](/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/Event.md#composed--boolean)
-        - [Event.composedPath](/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/Event.md#composedpath)
-        - [DocumentFragment.append](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment.md#appendargs)
-        - [DocumentFragment.querySelector](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment.md#queryselectorselector)
-        - [DocumentFragment.querySelectorAll](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment.md#queryselectorallselector)
+        - [Element.hasAttributes](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#hasattributes)
+        - [Element.getAttributeNames](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#getattributenames)
+        - [Event.composed](/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/Event#composed--boolean)
+        - [Event.composedPath](/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/Event#composedpath)
+        - [DocumentFragment.append](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment#appendargs)
+        - [DocumentFragment.querySelector](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment#queryselectorselector)
+        - [DocumentFragment.querySelectorAll](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment#queryselectorallselector)
 - New focus events to support React 16
     - [Focusin Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusin_event)
     - [Focusout Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event)
-- HTML [2D Canvas Support](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLCanvasElement.md) for basic shapes and styling.
+- HTML [2D Canvas Support](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLCanvasElement/) for basic shapes and styling.
 - Alerts
-    - [alert()](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert.md)
-    - [prompt()](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/prompt.md)
-    - [confirm()](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/confirm.md)
-- Support for [pipeThrough](/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream.md#pipeThroughtransform-options) and [tee](/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream.md#tee) in [ReadableStream](/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream.md). Refer to [Streams](/reference/uxp-api/reference-js/Global%20Members/Streams/index.md) for more details
+    - [alert()](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert/)
+    - [prompt()](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/prompt/)
+    - [confirm()](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/confirm/)
+- Support for [pipeThrough](/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream#pipeThroughtransform-options) and [tee](/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream#tee) in [ReadableStream](/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream). Refer to [Streams](/reference/uxp-api/reference-js/Global%20Members/Streams/) for more details
 - [ImageBlob](/reference/uxp-api/reference-js/Global%20Members/ImageBlob/) to render an uncompressed image buffer in UXP
 
 #### Changed
-- [HTMLVideoElement](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md): 'metadata' is the default value for `preload` attribute
+- [HTMLVideoElement](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement/): 'metadata' is the default value for `preload` attribute
 - [FS API](/reference/uxp-api/reference-js/Modules/fs/): No need for the `file://` protocol
 
 
