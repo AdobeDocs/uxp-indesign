@@ -14,7 +14,7 @@ HTMLElement now supports
 - [dir](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLHtmlElement#dir--string)
 
 #### Updated
-- Documentation for `shell` moved to [new location](/reference-js/Modules/uxp/shell/)
+- Documentation for `shell` moved to [new location](/reference/uxp-api/reference-js/Modules/uxp/shell/)
 
 #### Fixed
 - `SVGElement`: The color of the `fill` attribute using a CSS variable will resolve as per the variable value. For now, please test this fix by enabling the feature flag in your plugin manifest `"featureFlags" : { "enableFillAsCustomAttribute" : true }`. This flag will be turned on by default in the next UXP release. 
