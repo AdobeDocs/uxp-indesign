@@ -1,7 +1,6 @@
 # Recipes
 
-This page outlines various methods available with InDesign Scripting. 
-
+This section presents bite-size examples of common use cases.
 
 
 

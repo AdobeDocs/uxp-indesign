@@ -12,16 +12,28 @@ module.exports = [
         "path": "/resources/recipes/network/"
     },
     {
-        "title": "Create UI",
-        "path": "/resources/recipes/create-ui/"
+        "title": "Clipboard",
+        "path": "/resources/recipes/clipboard/"
+    },
+    {
+        "title": "Processes",
+        "path": "/resources/recipes/launch-process/"
     },
     {
         "title": "CSS Styling",
-        "path": "/resources/recipes/styling/"
+        "path": "/resources/recipes/css-styling/"
+    },
+    {
+        "title": "HTML Elements",
+        "path": "/resources/recipes/html-elements/"
     },
     {
         "title": "HTML Events",
         "path": "/resources/recipes/html-events/"
+    },
+    {
+        "title": "Debug",
+        "path": "/resources/recipes/debug/"
     },
     {
         "title": `Host Information`,
@@ -32,8 +44,8 @@ module.exports = [
         "path": "/resources/recipes/document-changes/"
     }, 
     {
-        "title": 'Application Events',
-        "path": '/resources/recipes/events/'
+        "title": 'InDesign Events',
+        "path": '/resources/recipes/indesign-events/'
     },
     {
         "title": 'Menus',
@@ -43,10 +55,6 @@ module.exports = [
         "title": `XML`,
         "path": "/resources/recipes/xml/"
     }, 
-    {
-        "title": "Inter Plugin Communication",
-        "path": "/resources/recipes/ipc/"
-    },
     {
         "title": `Right-to-left`,
         "path": "/resources/recipes/rtl/"

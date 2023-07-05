@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import { siteConfig } from '../../../../site-config';
+import { siteConfig } from '../../../../../site-config';
 
 # Host Environment
 Sometimes it's necesssary to find out what a plugin's or script's host environment is. You can find a range of information such as the host OS, locale, home folder, installed application version, etc, by using UXP APIs.

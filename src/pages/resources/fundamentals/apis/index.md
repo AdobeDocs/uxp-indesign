@@ -1,14 +1,18 @@
-# APIs
+# APIs within UXP
 
 We assume that you have been able to run write your first [script]() or [plugin]() by now. For writing more complex tasks, you will need access to more APIs. But first lets understand what type of APIs are available and where to find them.
 
-## UXP APIs
-You can use the capabilities offered by UXP APIs for creating user interface, file operations, network calls, etc. A lot of such APIs are available in the global scope. For example, [Crypto](https://developer-stage.adobe.com/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Crypto/) and [Document](https://developer-stage.adobe.com/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Document/). But for certain UXP modules, you will first need to seek permission in the manifest (for plugins) or mount it specifically using `require()`. For example, `require(os)` or `require('uxp').shell`.
+The UXP platform has two constituents
+1. Core UXP APIs
+2. Host-specific APIs
 
-## InDesign APIs
-APIs that you will require to interact with the InDesign document. You will learn more about the mounting technique in the [InDesign API](../dom-versioning/) topic.
+## UXP Core APIs
+Create user interface, perform file operations, make network calls, etc by using the UXP core APIs. Many of these APIs are available in the global scope. For example, [Crypto](https://developer-stage.adobe.com/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Crypto/) and [Document](https://developer-stage.adobe.com/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Document/). But for certain UXP modules, you will first need to seek permission in the manifest (for plugins) or mount it specifically using `require()`. For example, `require(os)` or `require('uxp').shell`.
 
-**Note** that these are also referred to as Document Object Model (DOM) APIs and Object Model View (OMV) and we use InDesign APIs, DOM APIs or OMV interchangeably throughout our documentation.
+## Host-specific APIs
+APIs useful for modifying or interacting with the document. You will learn more about the mounting technique in the [InDesign API](../dom-versioning/) topic.
+
+**Note** that these are also referred to as **Document Object Model (DOM) APIs** and **Object Model View (OMV)**. We will use InDesign APIs, DOM APIs or OMV interchangeably throughout our documentation.
 
 ## Example
 
@@ -18,11 +22,11 @@ Lets imagine you want to write a script/plugin that
 3. And, applies certain modifications to it.
 
 For Step #1, since you would like to access user's file system, you can do so by using the UXP API's `localFileSystem` or `fs` module.<br></br>
-In Step #2 and 3, you need to update the InDesign Document and should use the DOM APIs. 
+In Step #2 and 3, you need to update the document and should use the DOM APIs. 
 
 ## Updates and releases 
 
-We are still evolving the API surface and future releases of InDesign will support more capabilities. Therefore, each release will  have updates to both - DOM and UXP APIs.
+We are still evolving the API surface and future releases will support more capabilities. Therefore, each release will have updates to both - DOM and UXP APIs.
 
 The [What's new](../../../changelog) section, lists all the new features, changes, fixes for every release. The DOM APIs are versioned as per the application version. However, you need to pay attention to the the UXP version associated to each release. 
 

@@ -20,7 +20,7 @@ In UXP, you can write the UI in three ways - using standard HTML Elements, built
 
 Scripts and plugins
 
-**In scripts**, you can only create a modal dialog panels.
+**In scripts**, you can only create modal dialogs.
 
 **In plugins**, you can create persistant plugin panels, visible at all times.
 

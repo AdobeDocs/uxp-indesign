@@ -163,10 +163,22 @@ module.exports = {
             title: 'Tutorials',
             path: '/plugins/tutorials/',
             pages: [
-                {
-                    title: 'Adding command entrypoints',
-                    path: '/plugins/tutorials/adding-command-entrypoints/'
-                },
+              {
+                title: 'Adding command entrypoints',
+                path: '/plugins/tutorials/adding-command-entrypoints/'
+              },
+              {
+                title: "Lifecycle hooks",
+                path: "/plugins/tutorials/plugin-lifecycle-hooks/"
+              },
+              {
+                title: "Communicate with other plugins",
+                path: "/plugins/tutorials/inter-plugin-comm/"
+              },
+              {
+                title: "Modularizing code",
+                path: "/plugins/tutorials/importing-modules/"
+              }
             ]
           },
           {
@@ -251,7 +263,11 @@ module.exports = {
               {
                 title: 'Measurement & positioning',
                 path: '/resources/fundamentals/measurements-and-positioning/'
-              }
+              },
+              {
+                title: "Create UI",
+                path: "/resources/fundamentals/create-ui/"
+              },
             ]
           },
           {

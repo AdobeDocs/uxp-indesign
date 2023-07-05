@@ -5,7 +5,7 @@ keywords:
   - Mount API
 ---
 
-# InDesign APIs
+# InDesign DOM APIs
 InDesign APIs (aka Document Object Model DOM or OMV) is used to to create and modify the application document and content. 
 
 <InlineAlert variant="info" slots="text1, text2" />

@@ -1,35 +1,16 @@
-## Alert
-Alert can be achieved by having the below method in script. This is using scripting DOM of InDesign to generate the dialog box.
 
-### Usage
----
-```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
-function alert(msg) {
-    theDialog = app.dialogs.add();
-    col = theDialog.dialogColumns.add();
-    colText = col.staticTexts.add();
-    colText.staticLabel = "" + msg;
-    theDialog.canCancel = false;
-    theDialog.show();
-    theDialog.destroy();
-    return;
-}
+link to some material
+soemthing that falls out of 
+
+Example - phone notification
+
+
 ```
-
-Note: JavaScript alert isn't supported.
-
-
-## Dialog
-The script below demonstrates how to create a dialog using an anonymous function, as well as setting up event listeners and resolving/rejecting promises.
-
-```js
 async function showDialog() {
      
     return new Promise((resolve, reject) => {
         try{
-            let dialog = getDialog();
+            let dialog = createDialog();
             document.body.appendChild(dialog).showModal();
             
             const closeBtn = document.getElementById("close");
@@ -61,7 +42,7 @@ async function showDialog() {
 await showDialog();
 
 // Dialog creation and setting CSS styles for elements using anonymous method
-function getDialog() {
+function createDialog() {
     const dialog = document.createElement("dialog");
     // dialog.style.height = "200px";
     // dialog.style.width = "600px";
@@ -87,15 +68,18 @@ function getDialog() {
     image.style.marginTop = "30px";
     div.appendChild(image);
 
-    const cloaseButton = document.createElement("sp-button");
-    cloaseButton.id = "close";
-    cloaseButton.style.height = "30px";
-    cloaseButton.textContent = "Close";
-    cloaseButton.style.marginTop = "10px";
-    div.appendChild(cloaseButton);
+    const closeBtn = document.createElement("sp-button");
+    closeBtn.id = "close";
+    closeBtn.style.height = "30px";
+    closeBtn.textContent = "Close";
+    closeBtn.style.marginTop = "10px";
+    div.appendChild(closeBtn);
       
   
     dialog.appendChild(div);
     return dialog;
 }
 ```
+
+
+https://javascript.info/promise-basics

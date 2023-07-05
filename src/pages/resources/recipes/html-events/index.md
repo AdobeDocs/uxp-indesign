@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import { siteConfig } from '../../../../site-config';
+import { siteConfig } from '../../../../../site-config';
 
 # HTML events and event listeners
 
