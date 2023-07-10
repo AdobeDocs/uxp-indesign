@@ -8,13 +8,13 @@ UXP Plugins are now available! Get started [here](../plugins).
 
 #### New
 HTMLElement now supports
-- [setPointerCapture](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#setpointercapturepointerid)
-- [releasePointerCapture](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#releasepointercapturepointerid)
-- [hasPointerCapture](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#haspointercapturepointerid)
-- [dir](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLHtmlElement#dir--string)
+- [setPointerCapture](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/Element#setpointercapturepointerid)
+- [releasePointerCapture](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/Element#releasepointercapturepointerid)
+- [hasPointerCapture](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/Element#haspointercapturepointerid)
+- [dir](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20Elements/HTMLHtmlElement#dir--string)
 
 #### Updated
-- Documentation for `shell` moved to [new location](/reference/uxp-api/reference-js/Modules/uxp/shell/)
+- Documentation for `shell` moved to [new location](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Modules/uxp/shell/)
 
 #### Fixed
 - `SVGElement`: The color of the `fill` attribute using a CSS variable will resolve as per the variable value. For now, please test this fix by enabling the feature flag in your plugin manifest `"featureFlags" : { "enableFillAsCustomAttribute" : true }`. This flag will be turned on by default in the next UXP release. 
@@ -35,44 +35,44 @@ html {
 #### New
 - Support for Web Components in UXP Plugins. Various HTML elements and methods have been added to support this feature.
     - Classes
-        - [HTMLSlotElement](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLSlotElement/)
-        - [HTMLTemplateElement](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLTemplateElement/)
+        - [HTMLSlotElement](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20Elements/HTMLSlotElement/)
+        - [HTMLTemplateElement](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20Elements/HTMLTemplateElement/)
     - Methods
-        - [Element.assignedSlot](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#assignedslot--htmlslotelement)
-        - [Element.slot](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#slot--string)
-        - [Element.attachShadow](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#attachshadowinit)
-        - [Element.shadowRoot](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#shadowroot--shadowroot)
-        - [CustomElementRegistry.upgrade](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry#upgraderoot)
-        - [CustomElementRegistry.whenDefined](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry#whendefinedname)
-- [Spectrum Web Components (Beta)](/reference/uxp-api/reference-spectrum/swc/) Support for Adobe SWC.
+        - [Element.assignedSlot](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/Element.md#assignedslot--htmlslotelement)
+        - [Element.slot](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/Element#slot--string)
+        - [Element.attachShadow](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/Element#attachshadowinit)
+        - [Element.shadowRoot](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/Element#shadowroot--shadowroot)
+        - [CustomElementRegistry.upgrade](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry#upgraderoot)
+        - [CustomElementRegistry.whenDefined](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry#whendefinedname)
+- [Spectrum Web Components (Beta)](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-spectrum/swc/) Support for Adobe SWC.
 - Several augmentations to the JS API set
     - Properties
-        - [HTMLElement.lang](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement#lang--string)
+        - [HTMLElement.lang](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20Elements/HTMLElement#lang--string)
     - Classes added to the global scope
-        - [TreeWalker](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/TreeWalker/)
-        - [NodeFilter](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/NodeFilter/)
+        - [TreeWalker](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/TreeWalker/)
+        - [NodeFilter](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/NodeFilter/)
     - Methods
-        - [Element.hasAttributes](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#hasattributes)
-        - [Element.getAttributeNames](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#getattributenames)
-        - [Event.composed](/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/Event#composed--boolean)
-        - [Event.composedPath](/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/Event#composedpath)
-        - [DocumentFragment.append](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment#appendargs)
-        - [DocumentFragment.querySelector](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment#queryselectorselector)
-        - [DocumentFragment.querySelectorAll](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment#queryselectorallselector)
+        - [Element.hasAttributes](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/Element#hasattributes)
+        - [Element.getAttributeNames](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/Element#getattributenames)
+        - [Event.composed](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20Events/Event#composed--boolean)
+        - [Event.composedPath](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20Events/Event#composedpath)
+        - [DocumentFragment.append](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/DocumentFragment#appendargs)
+        - [DocumentFragment.querySelector](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/DocumentFragment#queryselectorselector)
+        - [DocumentFragment.querySelectorAll](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/DocumentFragment#queryselectorallselector)
 - New focus events to support React 16
     - [Focusin Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusin_event)
     - [Focusout Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event)
-- HTML [2D Canvas Support](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLCanvasElement/) for basic shapes and styling.
+- HTML [2D Canvas Support](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20Elements/HTMLCanvasElement/) for basic shapes and styling.
 - Alerts
-    - [alert()](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert/)
-    - [prompt()](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/prompt/)
-    - [confirm()](/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/confirm/)
-- Support for [pipeThrough](/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream#pipeThroughtransform-options) and [tee](/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream#tee) in [ReadableStream](/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream). Refer to [Streams](/reference/uxp-api/reference-js/Global%20Members/Streams/) for more details
-- [ImageBlob](/reference/uxp-api/reference-js/Global%20Members/ImageBlob/) to render an uncompressed image buffer in UXP
+    - [alert()](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/alert/)
+    - [prompt()](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/prompt/)
+    - [confirm()](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20DOM/confirm/)
+- Support for [pipeThrough](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/Streams/ReadableStream#pipeThroughtransform-options) and [tee](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/Streams/ReadableStream#tee) in [ReadableStream](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/Streams/ReadableStream). Refer to [Streams](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/Streams/) for more details
+- [ImageBlob](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/ImageBlob/) to render an uncompressed image buffer in UXP
 
 #### Changed
-- [HTMLVideoElement](/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement/): 'metadata' is the default value for `preload` attribute
-- [FS API](/reference/uxp-api/reference-js/Modules/fs/): No need for the `file://` protocol
+- [HTMLVideoElement](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement/): 'metadata' is the default value for `preload` attribute
+- [FS API](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-js/Modules/fs/): No need for the `file://` protocol
 
 
 ## InDesign v18.4
