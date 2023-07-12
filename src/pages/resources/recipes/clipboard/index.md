@@ -2,15 +2,15 @@ import { Link } from 'gatsby';
 import { siteConfig } from '../../../../../site-config';
 
 # Clipboard
-Read and write content from and to clipboard.
+Read and write content from and to the clipboard.
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
 Scripts and plugins
 
-**In plugins**, you should seek the permission for `clipboard` access in the manifest. IMPORTANT: Be sure you know about permissions in general before you proceed) //TODO insert link to manifest -> clipboard module.
+**In plugins**, you should seek permission for `clipboard` access in the manifest. IMPORTANT: Read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) before you proceed.
 
-**In scripts**, assume this value to be '' and ignore the manifest details in the following example.//TODO get value for scripts and ignore the manifest details below.
+**In scripts**, assume this value to be '' and ignore the manifest details in the following example.//TODO Get value for scripts and ignore the manifest details below.
 
 
 ## Example
@@ -59,7 +59,6 @@ async function foo() {
 - <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/`}>Clipboard</a>
 
 ## Compatibility
-<!-- Summarize the availibility -->
 
 - InDesign version v18.5
 - UXP version v7.1

@@ -1,10 +1,13 @@
+import { Link } from 'gatsby';
+import { siteConfig } from '../../../../../site-config';
+
 # Inter Plugin Communication
 
 UXP allows communication between plugins that are installed in the application. This is particularly handy when you know a certain task is already automated by another plugin and you would like to invoke it instead of duplicating the effort. But make sure the user is not caught by surprise. Your plugin should call out such dependencies to ensure flawless functioning of your plugin.
 
 `Plugin Manager` module provides APIs that will help establish the connection. But before we take a look at an example, be sure to be well-versed in these topics
-- Plugin entrypoints //TODO Add a link
-- Manifest permission module //TODO Add a link
+- [Plugin entrypoints](../../concepts/entry-points/)
+- [Manifest permission module](../../concepts/manifest/#permissionsdefinition)
 
 Additionally, you will need
 - certain basic knowledge of the plugin you are going to communicate with. This includes:
@@ -13,9 +16,6 @@ Additionally, you will need
     - the structure of arguments to be passed (if applicable)
 - `enablePluginCommunication` permission for your plugin
 
-<InlineAlert variant="info" slots="text"/>
-
-The concepts of inter-plugin communication is not applicable to **UXP scripts**.
 
 ## Example 
 
@@ -113,18 +113,10 @@ Keep in mind that,
 
 
 ## Reference docs
-[PluginManager](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Plugin%20Manager/PluginManager/)
+- <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Modules/uxp/Plugin%20Manager/PluginManager/`}>PluginManager</a>
+
 
 ## Applicable to
 - InDesign version v18.5 onwards
-- UXP version v6.5 onwards
+- UXP version v7.1 onwards
 - Manifest version v5 onwards
-
-| Scripts | Plugins |
-| ------- | ------- |
-| ❌      | ✅       |
-
-
-| InDesign | InDesign Cloud Server | InDesign Server |
-| -------- | --------------------- | --------------- |
-| ✅       | ❌                      | ❌             |

@@ -2,19 +2,20 @@ import { Link } from 'gatsby';
 import { siteConfig } from '../../../../../site-config';
 
 # Launch process
-UXP core APIs also offer the `shell` APIs to launch processes in the user's system.
+UXP core APIs also offer `shell` APIs to launch processes in the user's system.
 
 There are primarily two things you can do with the help of these APIs
-1. Open a file using a standard application. For example, open a PDF in Acrobat reader.
+1. Open a file using a standard application. For example, open a PDF in Acrobat Reader.
 2. Launch applications. For example, open the mail client with your email address.
 
-Before we take a look at some examples, you must know that these APIs are associated to the `launchProcess` permission in manifest. 
+Before we take a look at some examples, you must know that these APIs are associated with the `launchProcess` permission in manifest. 
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
 Scripts and plugins
 
-**In plugins**, you should specify the schemes and file extensions in the `launchProcess` permission in your manifest for it to work. IMPORTANT: You must understand the manifest permission module before you proceed. //TODO insert link to manifest -> launchProcess module.
+**In plugins**, you should specify the schemes and file extensions in the `launchProcess` permission in your manifest for it to work.<br></br> 
+IMPORTANT: Be sure you know about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before you proceed.
 
 **In scripts**, assume this value to be '' and ignore the manifest details in the following example.//TODO get value for scripts and ignore the manifest details below.
 

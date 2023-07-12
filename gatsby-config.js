@@ -54,29 +54,46 @@ module.exports = {
     ],
     subPages: [
       {
-        title: 'Topics',
-        path: '/introduction/',
+        title: 'Essentials',
+        path: '/introduction/essentials/',
         header: true,
         pages: [
           {
-            title: 'Overview',
-            path: '/introduction/overview/'
-          },
-          {
-            title: 'Scripts & Plugins',
-            path: '/introduction/script-and-plugin/'
+            title: 'Programming languages',
+            path: '/introduction/essentials/tech-stack/'
           },
           {
             title: 'Developer Tools',
-            path: '/introduction/dev-tools/'
-          },
-          {
-            title: 'Share & Distribute',
-            path: '/introduction/distribution/'
+            path: '/introduction/essentials/dev-tools/'
           }
         ]
       },
       {
+        title: 'Next steps',
+        path: '/introduction/next-steps/',
+        header: true,
+        pages: [
+          {
+            title: 'Scripts & Plugins',
+            path: '/introduction/next-steps/script-and-plugin/'
+          },
+          {
+            title: 'Share & Distribute',
+            path: '/introduction/next-steps/distribution/',
+            pages: [
+              {
+                title: "Packaging",
+                path: "/introduction/next-steps/distribution/packaging/",
+              },
+              {
+                title: "Options for Distribution",
+                path: "/introduction/next-steps/distribution/distribution-options/",
+              }
+            ]
+          }
+        ]
+      },
+     /* {
         title: 'Applications',
         path: '/introduction/applications/',
         header: true,
@@ -90,49 +107,55 @@ module.exports = {
             path: '/introduction/applications/idcs/'
           }
         ]
-      },
+      }, */
       {
-        title: 'Tutorials',
+        title: 'Scripts',
         path: '/scripts/',
         header: true,
         pages: [
           {
             title: 'Getting started',
             path: '/scripts/getting-started/',
-            pages: [
-              {
-                title: 'Write your first script',
-                path: '/scripts/getting-started/first-script/',
-              },
-              {
-                title: 'Install and run',
-                path: '/scripts/getting-started/run/'
-              },
-              {
-                title: 'Debug',
-                path: '/scripts/getting-started/debug/'
-              }
-            ]
           },
           {
             title: 'Concepts',
-            path: '/scripts/concepts/'
+            path: '/scripts/concepts/',
+            pages: [
+              {
+                title: 'Script lifespan',
+                path: '/scripts/concepts/script-lifespan/'
+              },
+              {
+                title: 'Global await',
+                path: '/scripts/concepts/global-await/',
+              },
+            ]
           },
           {
-            title: 'Passing Arguments to Scripts',
-            path: '/scripts/arguments/'
+            title: 'Tutorials',
+            path: '/scripts/tutorials/',
+            pages: [
+              {
+                title: 'Passing Arguments to Scripts',
+                path: '/scripts/arguments/'
+              },
+              {
+                title: 'Script Result',
+                path: '/scripts/script-result/'
+              },
+              {
+                title: 'Debugging Scripts',
+                path: '/scripts/debug/'
+              },
+              {
+                title: 'Configure editor',
+                path: '/scripts/editor-idjs/'
+              },
+            ]
           },
           {
-            title: 'Script Result',
-            path: '/scripts/script-result/'
-          },
-          {
-            title: 'Tips & tricks',
-            path: '/scripts/tips-and-tricks/'
-          },
-          {
-            title: 'Migration guides',
-            path: '/scripts/migration/'
+            title: 'Advanced topics',
+            path: '/scripts/advanced/'
           }
         ]
       },
@@ -188,58 +211,7 @@ module.exports = {
         ]
       },
       {
-        title: 'InDesign Server',
-        path: '/server/',
-        pages: [
-          {
-            title: 'Getting started',
-            path: '/plugins/getting-started/',
-            header: true,
-            pages: [
-              {
-                title: 'Write your first plugin',
-                path: '/plugins/getting-started/first-plugin/',
-              },
-              {
-                title: 'Install and run',
-                path: '/plugins/getting-started/run/'
-              },
-              {
-                title: 'Debug',
-                path: '/plugins/getting-started/debug/'
-              }
-            ]
-          },
-          {
-            title: 'Concepts',
-            path: '/plugins/concepts/',
-            pages: [
-              {
-                title: 'Manifest',
-                path: '/plugins/concepts/manifest/',
-              },
-              {
-                title: 'Entry points',
-                path: '/plugins/concepts/entry-points/'
-              }
-            ]
-          },
-          {
-            title: 'Plugin operations in UDT',
-            path: '/plugins/udt/'
-          },
-          {
-            title: 'Advanced topics',
-            path: '/plugins/advanced/'
-          },
-          {
-            title: 'Migration guides',
-            path: '/plugins/migration/'
-          }
-        ]
-      },
-      {
-        title: "Tutorials",
+        title: "Resources",
         path: "/resources/",
         header: true,
         pages: [
@@ -278,7 +250,11 @@ module.exports = {
             title: 'Recipes',
             path: '/resources/recipes/',
             pages: require("./reference-recipes.js"),
-          }
+          },
+          /*{
+            title: 'UDT Deep dive',
+            path: '/resources/udt/'
+          }*/
         ]
       }
     ]

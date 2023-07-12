@@ -30,7 +30,7 @@ In the dialog, enter the following information:
 | Name                     | My First Plugin   |
 | Host Application         | Adobe InDesign    |
 | Host Application Version | 18.5              |
-| Template                 | quick-starter     |
+| Template                 | indesign-quick-starter     |
 
 Then click **Select Folder** and choose a location on your machine where you want to create the plugin.
 

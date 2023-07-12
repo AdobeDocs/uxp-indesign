@@ -8,14 +8,7 @@ description: UXP Plugin Reference for InDesign
 
 InDesign v18.5, currently in pre-release, introduces UXP plugins. [Join the pre-release](https://www.adobeprerelease.com/beta/D1A76A97-F7DC-4552-DE3C-FF5F211C7492) to try them out.
 
-With plugins you can build extensive UI and more interacting components for the users. This section will help you write your first plugin, and explains important concepts required to understand how plugins work. 
+With plugins you can build extensive UI and more interacting components for the users. Read the [../../introduction/nex-steps/script-and-plugin/] to understand if plugins are the right fit for you use case before proceeding. 
 
-
-
-
-<!-- 
-//TODO
-Pre req - read introduction -> Scripts & Plugins
-Remind developers to check fundamentals, whats new section 
--->
+This section will help you write your first plugin, and explains important concepts required to understand how plugins work. 
 

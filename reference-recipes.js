@@ -48,8 +48,8 @@ module.exports = [
         "path": '/resources/recipes/indesign-events/'
     },
     {
-        "title": 'Menus',
-        "path": '/resources/recipes/menus/'
+        "title": 'InDesign Menus',
+        "path": '/resources/recipes/indesign-menus/'
     },
     {
         "title": `XML`,

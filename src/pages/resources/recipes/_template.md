@@ -49,18 +49,8 @@ Screenshot illustrating the output (if applicable)
 <!-- Links to API docs used in the code above -->
 - <a href={`${siteConfig.uxpApiPath}`}>API</a>
 
-## Compatibility
+## Prerequisites & Compatibility 
 <!-- Summarize the availibility -->
-
 - InDesign version v18.5
 - UXP version v7.1
 - Manifest version v5
-
-| Scripts | Plugins |
-| ------- | ------- |
-| ✅      |  ❌      |
-
-| InDesign | InDesign Cloud Server | InDesign Server |
-| -------- | --------------------- | -------------- |
-| ✅       | ✅ (via Scripts only)  | ❌ (Scripts) |
-

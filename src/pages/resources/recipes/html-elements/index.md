@@ -3,7 +3,7 @@ import { siteConfig } from '../../../../../site-config';
 
 # HTML Elements
 
-UXP core APIs lets you create renditions. But depending upon whether you are writing scripts or plugins, you can create UI using HTML tags or just JavaScript.
+UXP core APIs let you create renditions. But depending on whether you are writing scripts or plugins, you can create UI using HTML tags or just JavaScript.
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
@@ -11,9 +11,9 @@ Scripts and plugins
 
 **In scripts**, you only have the option to create UI from the script (JavaScript) file. Moreover, remember that scripts only allow you to create modal dialogs requiring you to handle the showing/hiding with async/promises.
 
-**In plugins**, a panel can be created both ways - using HTML tags or JavaScript. However, command plugins behave similar to scripts and can create only modal dialogs from JavaScript.
+**In plugins**, a panel can be created both ways - using HTML tags or JavaScript. However, command plugins behave similarly to scripts and can create only modal dialogs from JavaScript.
 
-Let's take 'dialog' as an example and demonstrate both ways. You can extend the same principle for other HTML Elements
+Let's take 'dialog' as an example and demonstrate both ways. You can extend the same principle to other HTML Elements
 
 ## Using HTML
 <!-- Provide a simple example using code snippets -->

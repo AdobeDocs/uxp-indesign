@@ -2,19 +2,20 @@
 
 # Network I/O
 
-You may be looking for ways to make network calls for various reasons such as fetching an image, accessing a web API, browse remote resources, to synchronize content, etc. UXP supports a range of network APIs that can fit your use case. 
+You may be looking for ways to make network calls for various reasons such as fetching an image, accessing a web API, browsing remote resources, synchronizing content, etc. UXP supports a range of network APIs that can fit your use case. 
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
 Scripts and plugins
 
-**In plugins**, you should seek the permission for `network` access in the manifest and specify the `domains` of the endpoints. IMPORTANT: Be sure you know about Network permissions here before you proceed) //TODO insert link to manifest -> network module.
+**In plugins**, you should seek permission for `network` access in the manifest and specify the `domains` of the endpoints. <br></br> 
+IMPORTANT: Be sure you know about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before you proceed.
 
 **In scripts**, assume this value to be ''//TODO get value for scripts and ignore the manifest details below.
 
 
 
-The fastest way to try out a network call is by rendering an image from web
+The fastest way to try out a network call is by rendering an image from the web
 
 <CodeBlock slots="heading, code" repeat="2" languages="HTML, JSON" />
 
@@ -36,7 +37,7 @@ The fastest way to try out a network call is by rendering an image from web
 }
 ```
 
-As mentioned earlier, UXP has `fetch`, `XHR (XML HTTP Request)`, and `WebSocket` available in the global scope. If you aren't aware of the difference, and want to understand which one is the right option for you, we recommend you learn about them first - [fetch](https://javascript.info/fetch) | [WebSocket](https://javascript.info/websocket) | [XHR](https://javascript.info/xmlhttprequest)
+As mentioned earlier, UXP has `fetch`, `XHR (XML HTTP Request)`, and `WebSocket` available in the global scope. If you aren't aware of the difference and want to understand which one is the right option for you, we recommend you learn about them first - [fetch](https://javascript.info/fetch) | [WebSocket](https://javascript.info/websocket) | [XHR](https://javascript.info/xmlhttprequest)
 
 
 ## Examples
@@ -162,14 +163,12 @@ async function foo() {
 ```
 
 ## Additional notes
-- These APIs are available in the global scope. Note, that you didnt have to mount them using `require`.
-- The `domains` in the you plugin's manifest also lets you configure variations of the endpoints. For example, your plugin may access 'api.dev.example.com', 'api.stage.example.com' or 'api.prod.example.com' depending upon the environment. You can configure the domains with `["https://api.*.example.com"]` to manage all three.
+- These APIs are available in the global scope. Note, that you didn't have to mount them using `require`.
+- The `domains` in the plugin's manifest also let you configure variations of the endpoints. For example, your plugin may access 'api.dev.example.com', 'api.stage.example.com' or 'api.prod.example.com' depending upon the environment. You can configure the domains with `["https://api.*.example.com"]` to manage all three.
 
 
 
 ## Reference material
 - [fetch API](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/fetch/)
 - [XHR API](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/XMLHttpRequest/)
-- [WebSocket API](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/WebSocket/) and [sample plugin](https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/tree/main/io-websocket-example)
-//TODO replace sample plugin url with ID
-
+- [WebSocket API](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/WebSocket/)

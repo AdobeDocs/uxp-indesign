@@ -9,7 +9,7 @@ The following figure is an overview of the InDesign object model. Objects in you
 **NOTE** that the diagram isn't a comprehensive list of the objects available to InDesign; instead, it's a conceptual framework for understanding the relationships between the types of objects and the overall structure of how they are organized.
 
 
-The objects in the diagram are described briedfly in the following section:
+The objects in the diagram are described briefly in the following section:
 ## Application
 
 | Term    | What it represents       |
@@ -51,7 +51,7 @@ The pages or spreads in an InDesign document.
 
 
 ### Stories
-The text in an InDesign document.
+The text within an InDesign document.
 
 | Term    | What it represents       |
 | ------------------------- | ---------------------------------------------------------------- |

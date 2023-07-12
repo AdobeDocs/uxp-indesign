@@ -22,7 +22,7 @@ Scripts and plugins
 
 **In scripts**, you can only create modal dialogs.
 
-**In plugins**, you can create persistant plugin panels, visible at all times.
+**In plugins**, you can create persistent plugin panels, visible at all times.
 
 
 But before we proceed, it's important to understand some terminology
@@ -33,7 +33,7 @@ But before we proceed, it's important to understand some terminology
 
 With that in mind, let's get into the details:
 - **HTML elements** <br></br>
-   These are pure HTML elements following the web standards. For example, `<img>`, `<dialog>` etc. You have the flexibility to style them with your custom stylesheet. 
+   These are pure HTML elements following web standards. For example, `<img>`, `<dialog>` etc. You have the flexibility to style them with your custom stylesheet. 
   
 - **Spectrum UXP widgets** <br></br>
    These are built-in Spectrum-styled UXP components. These widgets mimic the Adobe SWC library APIs and expose a subset of the functionality of the corresponding SWC. 
@@ -47,7 +47,7 @@ With that in mind, let's get into the details:
 - **UXP Spectrum web components (Beta)** <br></br>
     These are the Adobe Spectrum Web Components, recently added and supported by UXP v7.0 onwards. It's built using Web Components technology.
 
-    In order to use them, you require to install the components individually and then `import` them before using the component tag. For example,
+    To use them, you require to install the components individually and then `import` them before using the component tag. For example,
   
     ```
     npm i @spectrum-web-components/button@0.19.8
@@ -75,7 +75,7 @@ Now that you know the various options, you must understand their differences and
    Do take a look at the list of HTML [elements](/indesign/uxp/reference/uxp-api/reference-html/General/Unsupported%20Elements/), and [attributes](/indesign/uxp/reference/uxp-api/reference-html/General/Unsupported%20Attributes/) that are _not_ supported.
   
 - **Spectrum UXP widgets**<br></br>
-   Remember that these are built-in within UXP. Therefore, they may appear to be a black-box solution that does not allow you to peek into the details while debugging or alter their behavior easily.
+   Remember that these are built-in within UXP. Therefore, they may appear to be a black-box solution that does not allow you to peek into the details while debugging or altering their behavior easily.
 
 
 - **UXP Spectrum web components (Beta)** <br></br>
@@ -109,17 +109,17 @@ The choice you make depends on your use case and the stage of development you ar
 If you are looking for a ready-made Adobe Spectrum-styled UI or are just getting started with programming your UI, we recommend you start your journey with SWC. Fall back to Spectrum UXP widgets for the comps that are not available yet. And use plain HTML elements when they are not available in either.
 
 
-However, if you prefer vanilla HTML and don't mind undertaking the efforts of styling, use the HTML elements along with your custom stylesheet. In fact, you can build your own custom tags using Web Components. Make sure you read the next section of [CSS Styling](./styling.md)
+However, if you prefer vanilla HTML and don't mind undertaking the efforts of styling, use the HTML elements along with your custom stylesheet. In fact, you can build your custom tags using Web Components. Make sure you read the next section of [CSS Styling](./styling.md)
 
 ## Additional notes
 
-While writing a simple JS/HTML/CSS plugin is possible, those who are building plugins that have internal state management, or more complicated UI may benefit from commonly used UI libraries. Below examples are not necessarily only ones you can use, but can serve as good starters if you already are familiar with a library.
+While writing a simple JS/HTML/CSS plugin is possible, those who are building plugins that have internal state management, or more complicated UI may benefit from commonly used UI libraries. The below examples are not necessarily only ones you can use but can serve as good starters if you already are familiar with a library.
 
-We do not suggest that you use any particular library for your plugins, but suggest that you read about them and decide for yourself what will work the best for you.
+We do not suggest that you use any particular library for your plugins but suggest that you read about them and decide for yourself what will work best for you.
 
 ### React
 
-[React.js](https://reactjs.org/) is one of the most used UI libraries. It's declarative and component based, helping you break your UI into reusable components. 
+[React.js](https://reactjs.org/) is one of the most used UI libraries. It's declarative and component-based, helping you break your UI into reusable components. 
 
 See [ui-react-starter](https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/tree/main/ui-react-starter) for the sample project. // TODO update link
 
@@ -131,7 +131,7 @@ See [ui-vue-starter](https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/t
 
 ### Svelte
 
-[Svelte](https://svelte.dev/) is different from the other two libraries, in the sense that it compiles your code to a simple JS application, shrinking it's size.
+[Svelte](https://svelte.dev/) is different from the other two libraries, in the sense that it compiles your code to a simple JS application, shrinking its size.
 
 See [ui-svelte-starter](https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/tree/main/ui-svelte-starter) for the sample project.  // TODO update link
 

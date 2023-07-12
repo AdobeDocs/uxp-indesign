@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import { siteConfig } from '../../../../../site-config';
 
 # Host Environment
-Sometimes it's necesssary to find out what a plugin's or script's host environment is. You can find a range of information such as the host OS, locale, home folder, installed application version, etc, by using UXP APIs.
+Sometimes it's necessary to find out what a plugin's or script's host environment is. You can find a range of information such as the host OS, locale, home folder, installed application version, etc, by using UXP APIs.
 
 ## Example
 <CodeBlock slots="heading, code" repeat="1" languages="JavaScript" />
@@ -37,6 +37,7 @@ async function foo() {
 | InDesign | InDesign Cloud Server | InDesign Server |
 | -------- | --------------------- | -------------- |
 | ✅       | ✅ (via Scripts only)  | ❌ (via Scripts only)  |
-// TODO Check re IDCS and IDS
+
+// TODO Q: What will be the value re IDCS and IDS
 
 

@@ -1,4 +1,6 @@
 import './table-styles.css';
+import { Link } from 'gatsby';
+import { siteConfig } from '../../../../../site-config';
 
 # UXP Manifest
 The manifest is a JSON file that is located at the root of the plugin bundle. It is named `manifest.json` and is
@@ -74,7 +76,7 @@ Properties marked with an asterisk (\*) are required.
 ```
 
 <h4>Properties</h4>
-<table>
+<table className="manifest-table">
     <thead>
     <tr>
         <th>Name</th>
@@ -564,7 +566,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td><inlineCode>"read" | "readAndWrite"</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Enables the plugin to read and write to the clipboard.</p>
+            <p>Enables the plugin to read and write to the clipboard. The <a href={`${siteConfig.root}/resources/recipes/clipboard/`}>clipboard recipe</a> has more examples.</p>
             <p>Possible values:</p>
             <ul>
                 <li><inlineCode>read</inlineCode>: enables the plugin to read from the clipboard.</li>
@@ -579,7 +581,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td><inlineCode>"plugin" | "request" | "fullAccess"</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Enables the plugin to access the file system.</p>
+            <p>Enables the plugin to access the file system. The <a href={`${siteConfig.root}/resources/recipes/file-operation/`}>file-operation recipe</a> has detailed example.</p>
             <p>Possible values:</p>
             <ul>
                 <li><inlineCode>plugin</inlineCode>: enables the plugin to access the file system in the plugin folder.</li>
@@ -626,7 +628,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td><inlineCode>boolean</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Allows you to declare inline event handlers in HTML elements.</p>
+            <p>Allows you to declare inline event handlers in HTML elements. The <a href={`${siteConfig.root}/resources/recipes/html-events/`}>html-events recipe</a> has more examples.</p>
             <p><strong>Default value</strong></p>
             <p><inlineCode>false</inlineCode></p>
         </td>
@@ -689,11 +691,11 @@ Represents a localized string. The key is the locale, and the value is the trans
     </tbody>
 </table>
 
+<p>The <a href={`${siteConfig.root}/resources/recipes/network/`}>network recipe</a> has more details.</p>
+
 #### WebViewPermission
 
-[//]: # (TODO: Add link to internal documentation)
-
-<p>Enables the plugin to use webviews in its UI to display web content or complex UI.</p>
+<p>Enables the plugin to use webviews in its UI to display web content or complex UI. </p>
 <p><strong>Example</strong></p>
 <code class="language-json">{`{
     "allow": "yes",
@@ -757,9 +759,9 @@ window.addEventListener("message", (event) => \{
     </tbody>
 </table>
 
-#### LaunchProcessPermission
+<p>Find the detailed <a href={`${siteConfig.root}/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement/`}>WebView API reference</a> or use the webview-starter template plugin in UDT.</p>
 
-[//]: # (TODO: Add link to recipe later https://github.com/AdobeDocs/uxp-indesign/blob/6d1ad4ff1c2e096d01edaf91809cd8b4c8f4cad7/src/pages/resources/recipes/launch-process.md)
+#### LaunchProcessPermission
 
 <p>Specifies the schemas and extensions that the plugin can launch.</p>
 <p>For example, if the plugin can launch a web browser, it should specify the <inlineCode>http</inlineCode> and <inlineCode>https</inlineCode> schemas.</p>
@@ -803,9 +805,9 @@ window.addEventListener("message", (event) => \{
     </tbody>
 </table>
 
-#### IpcPermission
+<p>The <a href={`${siteConfig.root}/resources/recipes/launch-process/`}>launch process recipe</a> has more details.</p>
 
-[//]: # (TODO: Add link to recipe later https://github.com/AdobeDocs/uxp-indesign/blob/6d1ad4ff1c2e096d01edaf91809cd8b4c8f4cad7/src/pages/resources/recipes/ipc.md)
+#### IpcPermission
 
 <p>Allows communication with other plugin.</p>
 <p><strong>Example</strong></p>
@@ -835,6 +837,8 @@ window.addEventListener("message", (event) => \{
     </tr>
     </tbody>
 </table>
+
+<p>The <a href={`${siteConfig.root}/plugins/tutorials/inter-plugin-comm/`}>inter-plugin communication example</a> has more details.</p>
 
 ### FeatureFlags
 

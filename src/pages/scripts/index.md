@@ -1,15 +1,14 @@
-<!-- Status -->
-<TitleBlock slots="heading, text" theme="light" />
+---
+title: UXP Powered Scripts for InDesign
+description: UXP Scripts Reference for InDesign
+# openAPISpec:  /petstore.json
+--- 
 
-### Status: Needs work
+# UXP Scripts
 
-Author: Extensibility team (@pakrishn) <br></br>
-Needs inputs from InDesign team
-<!-- End of status -->
+InDesign v18.0 supports UXP scripts.
 
-#
+UXP Scripts are the quickest and easiest way to extend the capabilities of your application. Read the introduction to [Scripts & Plugins](../../introduction/nex-steps/script-and-plugin/) to understand if scripts are the right fit for your use case before proceeding. 
 
-<!-- InDesign Version number since Scripts are available. 
-Pre req - read introduction -> Scripts & Plugins
-Remind developers to check fundamentals, whats new section 
--->
+This section will help you write your first script and explains important concepts required to understand how they work. 
+

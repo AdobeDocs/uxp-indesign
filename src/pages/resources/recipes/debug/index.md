@@ -1,16 +1,12 @@
-<!-- 
-Use this doc for internal purposes. Make sure you include the following information in the recipes
--->
 import { Link } from 'gatsby';
 import { siteConfig } from '../../../../../site-config';
 
 # Debugging
 
-While writing complex logic, you might be in the cycles of testing/debugging your code. Although, UDT -> Debug lets you set breakpoints and debug your code using Chrome Debug Tool, these couple of techniques may also prove handy.
+While writing complex logic, you might be in the cycle of testing/debugging your code. Although UDT -> Debug lets you set breakpoints and debug your code using Chrome Debug Tool, these couple of techniques may also prove handy.
 
 
 ## Console logs
-<!-- Provide a simple example using code snippets -->
 
 <CodeBlock slots="heading, code" repeat="1" languages="JavaScript" />
 
@@ -22,8 +18,6 @@ async function foo() {
 }
 ```
 
-// TODO add screenshot
-
 ## Alerts
 Creates a modal dialog that pauses the execution of your script/plugin until you dismiss it. <!-- // TODO verify this statement -->
 
@@ -33,11 +27,11 @@ Creates a modal dialog that pauses the execution of your script/plugin until you
 
 ```js
 function alert(msg) {
-    let { app } = require("indesign");
+    const { app } = require("indesign");
     const dialog = app.dialogs.add();
-    const col = theDialog.dialogColumns.add();
+    const col = dialog.dialogColumns.add();
     const colText = col.staticTexts.add();
-    colText.staticLabel = "" + msg;
+    colText.staticLabel = `${msg}`;
 
     dialog.canCancel = false;
     dialog.show();

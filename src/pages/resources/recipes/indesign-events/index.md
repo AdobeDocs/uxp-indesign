@@ -58,7 +58,7 @@ function myEventInfo(myEvent){
     console.log(myString);
 }
 ```
-When you run the preceding script and place a file, InDesign displays following information in sequence, and on the console:
+When you run the preceding script and place a file, InDesign displays the following information in sequence, and on the console:
 1. Document name
 2. Application name
 
@@ -71,8 +71,8 @@ app.removeEventListener("beforeImport", myEventInfo);
 app.documents.item(0).removeEventListener("beforeImport", myEventInfo);
 ```
 
-## Writing events script to run through out the session
-After the event listener is associated, the script is blocked by a promise and wait for the event in the background until the event listener is removed. If the event occurs, there is an automatic callback to execute the related function. If the event listener is removed, the promise can be resolved to complete the script execution.
+## Writing events script to run throughout the session
+After the event listener is associated, the script is blocked by a promise and waits for the event in the background until the event listener is removed. If the event occurs, there is an automatic callback to execute the related function. If the event listener is removed, the promise can be resolved to complete the script execution.
 
 Here is a sample events script to run and listen for “afterNew” event **throughout the InDesign session** and prints a relevant string whenever a new document is created.
 
