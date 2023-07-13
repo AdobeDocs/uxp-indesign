@@ -126,9 +126,9 @@ let app = myInDesign.app;
 var myDocument = app.documents.add();
  
 //Set the measurement units and ruler origin.
-myDocument.viewPreferences.horizontalMeasurementUnits = MeasurementUnits.points;
-myDocument.viewPreferences.verticalMeasurementUnits = MeasurementUnits.points;
-myDocument.viewPreferences.rulerOrigin = RulerOrigin.pageOrigin;
+myDocument.viewPreferences.horizontalMeasurementUnits = myInDesign.MeasurementUnits.points;
+myDocument.viewPreferences.verticalMeasurementUnits = myInDesign.MeasurementUnits.points;
+myDocument.viewPreferences.rulerOrigin = myInDesign.RulerOrigin.pageOrigin;
  
 //Get a reference to the first master spread.
 var myMasterSpread = myDocument.masterSpreads.item(0);
@@ -177,17 +177,17 @@ var myLeftPage = myMasterSpread.pages.item(0);
 var myRightPage = myMasterSpread.pages.item(1);
 var myLeftFooter = myLeftPage.textFrames.add();
 myLeftFooter.geometricBounds = [63, 3, 66, 9];
-myLeftFooter.textFramePreferences.firstBaselineOffset = FirstBaseline.leadingOffset;
-myLeftFooter.contents = SpecialCharacters.autoPageNumber;
+myLeftFooter.textFramePreferences.firstBaselineOffset = myInDesign.FirstBaseline.leadingOffset;
+myLeftFooter.contents = myInDesign.SpecialCharacters.autoPageNumber;
 myLeftFooter.parentStory.characters.item(0).pointSize = 11;
 myLeftFooter.parentStory.characters.item(0).leading = 14;
 var myRightFooter = myRightPage.textFrames.add();
 myRightFooter.geometricBounds = [63, 92, 66, 99];
-myRightFooter.textFramePreferences.firstBaselineOffset = FirstBaseline.leadingOffset;
-myRightFooter.contents = SpecialCharacters.autoPageNumber;
+myRightFooter.textFramePreferences.firstBaselineOffset = myInDesign.FirstBaseline.leadingOffset;
+myRightFooter.contents = myInDesign.SpecialCharacters.autoPageNumber;
 myRightFooter.parentStory.characters.item(0).pointSize = 11;
 myRightFooter.parentStory.characters.item(0).leading = 14;
-myRightFooter.parentStory.characters.item(0).justification = Justification.rightAlign;
+myRightFooter.parentStory.characters.item(0).justification = myInDesign.Justification.rightAlign;
 ```
 
 ## Adding master text frames
@@ -200,14 +200,14 @@ var myLeftPage = myMasterSpread.pages.item(0);
 var myRightPage = myMasterSpread.pages.item(1);
 var myLeftTextFrame = myLeftPage.textFrames.add();
 myLeftTextFrame.geometricBounds = [3, 3, 25, 43];
-myLeftTextFrame.textFramePreferences.firstBaselineOffset = FirstBaseline.leadingOffset;
+myLeftTextFrame.textFramePreferences.firstBaselineOffset = myInDesign.FirstBaseline.leadingOffset;
 myLeftTextFrame.textFramePreferences.textColumnCount = 3;
 myLeftTextFrame.textFramePreferences.textColumnGutter = 14;
 //Add a label to make the frame easier to find later on.
 myLeftTextFrame.label = "BodyTextFrame";
 var myRightTextFrame = myRightPage.textFrames.add();
 myRightTextFrame.geometricBounds = [3, 54, 25, 91];
-myRightTextFrame.textFramePreferences.firstBaselineOffset = FirstBaseline.leadingOffset;
+myRightTextFrame.textFramePreferences.firstBaselineOffset = myInDesign.FirstBaseline.leadingOffset;
 myRightTextFrame.textFramePreferences.textColumnCount = 3;
 myRightTextFrame.textFramePreferences.textColumnGutter = 14;
 //Add a label to make the frame easier to find later on.
@@ -248,7 +248,7 @@ try {
 }
 catch (myError){
     //The color did not exist, so create it.
-    myColor = myDocument.colors.add({name:"Red", model:ColorModel.process,
+    myColor = myDocument.colors.add({name:"Red", model:myInDesign.ColorModel.process,
     colorValue:[0,100,100,0]});
 }
 //Now set the formatting of the paragraph style.
@@ -313,9 +313,9 @@ if((myGraphicFile != "")&&(myGraphicFile != null)){
     //Resize the frame to a specific size.
     myFrame.geometricBounds = [0,0,144,144];
     //Fit the graphic to the frame proportionally.
-    myFrame.fit(FitOptions.proportionally);
+    myFrame.fit(myInDesign.FitOptions.proportionally);
     //Next, fit frame to the resized graphic.
-    myFrame.fit(FitOptions.frameToContent);
+    myFrame.fit(myInDesign.FitOptions.frameToContent);
     var myBounds = myFrame.geometricBounds;
     var myGraphicWidth = myBounds[3]-myBounds[1];
     //Move the graphic frame.
@@ -323,7 +323,7 @@ if((myGraphicFile != "")&&(myGraphicFile != null)){
     var myTopMargin = myDocument.pages.item(0).marginPreferences.top;
     myFrame.move([myPageWidth-myGraphicWidth, myTopMargin]);
     //Apply a text wrap to the graphic frame.
-    myFrame.textWrapPreferences.textWrapMode = TextWrapModes.BOUNDING_BOX_TEXT_WRAP;
+    myFrame.textWrapPreferences.textWrapMode = myInDesign.TextWrapModes.BOUNDING_BOX_TEXT_WRAP;
     myFrame.textWrapPreferences.textWrapOffset = [24, 12, 24, 12];
 }
 ```
@@ -374,7 +374,7 @@ myDocument.importXML(filePath);
 let myRootXMLElement = myDocument.xmlElements.item(0);
 let myLastXMLElement = myRootXMLElement.xmlElements.item(-1);
 //Select the XML element
-myDocument.select(myLastXMLElement, SelectionOptions.replaceWith);
+myDocument.select(myLastXMLElement, myInDesign.SelectionOptions.replaceWith);
 myDocument.xmlImportPreferences.importToSelected = true;
 myDocument.importXML(filePath);
 ```
@@ -406,9 +406,9 @@ let myDocument = app.documents.item(0);
 let folder =  await ufs.getEntryWithUrl("file:c:/Users/uxp/Desktop");
 let filePath;
 try {    
-filePath = await folder.getEntry("sampleXML.indd");
+filePath = await folder.getEntry("sampleXML.xml");
 } catch (error){    
-filePath = await folder.createEntry("sampleXML.indd");
+filePath = await folder.createEntry("sampleXML.xml");
 }
 myDocument.loadXMLTags (filePath);
 ```
