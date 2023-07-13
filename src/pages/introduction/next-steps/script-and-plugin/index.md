@@ -17,7 +17,7 @@ The APIs you will need to write your logic for both are almost identical. The fo
     <tbody>
         <tr>
             <td><b>Compatibility</b></td>
-            <td>InDesign, InDesign Server and InDesign Cloud Service (since InDesign v18.0)</td>
+            <td>InDesign, and InDesign Server (since InDesign v18.0)</td>
             <td>InDesign only (since InDesign v18.5)</td>
         </tr>
         <tr>

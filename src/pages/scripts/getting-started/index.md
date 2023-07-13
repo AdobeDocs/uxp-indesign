@@ -63,17 +63,15 @@ Now that you have your script running in InDesign, let's make a slight change to
 
 To edit a script shown in the Scripts panel, select the script and choose 'Edit Script' from the menu. This should open your script in a text editor.
 
-Let's change the following line
+Let's add the following to update the font and size of the text
 
 ```js
-myTextFrame.contents = "Hello World!";
-```
+let myFont = app.fonts.item("Arial");
+let myPage = myDocument.pages.item(0);
 
-to 
-
-
-```js
-myTextFrame.contents = "Hello World! This is my first script!";
+var myParagraph = myTextFrame.paragraphs.item(0);
+myParagraph.appliedFont = myFont;
+myParagraph.pointSize = 48;
 ```
 
 To see your changes, you'll need to save the changes and rerun the script by double-clicking on it from the Scripts panel.

@@ -4,11 +4,12 @@ description: UXP Scripts Reference for InDesign
 # openAPISpec:  /petstore.json
 --- 
 
-# UXP Scripts
+<TextBlock slots="image,heading,text,text" variantsTypePrimary='accent' variantStyleFill = "fill" homeZigZag position="left"  />
 
-InDesign v18.0 supports UXP scripts.
+![IDJS file icon](./idjs.png)
 
-UXP Scripts are the quickest and easiest way to extend the capabilities of your application. Read the introduction to [Scripts & Plugins](../../introduction/nex-steps/script-and-plugin/) to understand if scripts are the right fit for your use case before proceeding. 
+### UXP Scripts 
 
-This section will help you write your first script and explains important concepts required to understand how they work. 
+**InDesign v18.0** supports UXP scripts. 
 
+They are the quickest and easiest way to extend the capabilities of your application. Read the introduction to [Scripts & Plugins](../../introduction/nex-steps/script-and-plugin/) to understand if scripts are the right fit for your use case before proceeding. 

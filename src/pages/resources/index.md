@@ -1,6 +1,8 @@
 # Resources
 
-By now, we hope that you have already tried a simple script or plugin by following the getting-started guides. The resources here are meant for you to deep dive into UXP and build something more useful for real-world scenarios. These topics are mostly common to both - scripts and plugins, with minor variations sometimes. 
+By now, we hope that you have already tried a simple script or plugin by following the getting-started guides. 
+
+The resources here are meant for you to deep dive into UXP and build something more useful for real-world scenarios. These topics are mostly common to both - scripts and plugins, with minor variations sometimes. 
 
 Start by reading the fundamentals, and move to the recipes that aim to provide you bite-size examples for common use cases. There is more to explore in the References section. 
 

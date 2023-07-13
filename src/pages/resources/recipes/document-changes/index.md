@@ -1,16 +1,25 @@
 # Document changes
 Let's add some details to the InDesign document
 
+
+We'll create a new document, set page margins, and define and apply master pages. The following figure shows a block diagram that represents the objects we'll work with.
+
+![InDesign object model](Image2.png)
+
+The objects in the object model generally correspond to the names of controls in the user interface, as shown in the following diagram: 
+
+![InDesign object model](Image3.png)
+
+
+```js
+const { app } = require("indesign").app;
+let myDocument = app.documents.add();
+```
+
 ## Setting up measurement units and master spread margins
 The following script fragment shows how to create a new document and set the margins of the first master spread.
 
-```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
-
-//Create a new document.
-var myDocument = app.documents.add();
- 
+```js 
 //Set the measurement units and ruler origin.
 myDocument.viewPreferences.horizontalMeasurementUnits = MeasurementUnits.points;
 myDocument.viewPreferences.verticalMeasurementUnits = MeasurementUnits.points;

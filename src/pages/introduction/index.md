@@ -1,6 +1,6 @@
 # InDesign and Unified Extensibility Platform (UXP)
 
-InDesign along with its counterparts - InDesign Server and InDesign Cloud Service, all support UXP. 
+InDesign, along with its counterpart InDesign Server, supports UXP. 
 
 UXP is a JavaScript ES6 (ECMA2015) based extensibility platform that helps you automate, optimize and extend the capabilities of your favorite Adobe Creative Cloud products. It provides a comprehensive solution that lets you use web technologies to build controls for the desktop application.
 

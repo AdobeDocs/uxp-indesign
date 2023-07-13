@@ -102,10 +102,6 @@ module.exports = {
             title: 'InDesign Server',
             path: '/introduction/applications/ids/'
           },
-          {
-            title: 'InDesign Cloud Service',
-            path: '/introduction/applications/idcs/'
-          }
         ]
       }, */
       {
@@ -136,20 +132,29 @@ module.exports = {
             path: '/scripts/tutorials/',
             pages: [
               {
-                title: 'Passing Arguments to Scripts',
-                path: '/scripts/arguments/'
+                title: 'Debugging Scripts',
+                path: '/scripts/tutorials/debug/'
+              },
+              {
+                title: 'Passing Arguments',
+                path: '/scripts/tutorials/arguments/'
               },
               {
                 title: 'Script Result',
-                path: '/scripts/script-result/'
+                path: '/scripts/tutorials/script-result/'
               },
               {
-                title: 'Debugging Scripts',
-                path: '/scripts/debug/'
+                title: 'InDesign Server Object Model',
+                path: '/scripts/tutorials/ids-object-model/'
               },
               {
-                title: 'Configure editor',
-                path: '/scripts/editor-idjs/'
+                title: 'Migrate from ExtendScript',
+                path: '/scripts/tutorials/migrate-from-extendscript/'
+              },
+              
+              {
+                title: 'Tips & tricks',
+                path: '/scripts/tutorials/tips-tricks/'
               },
             ]
           },
@@ -186,6 +191,24 @@ module.exports = {
             title: 'Tutorials',
             path: '/plugins/tutorials/',
             pages: [
+              {
+                title: "Developing plugins with UDT",
+                path: "/plugins/tutorials/udt-deep-dive/",
+                pages: [
+                  {
+                    title: 'Plugin Management',
+                    path: '/plugins/tutorials/udt-deep-dive/plugin-management/'
+                  },
+                  {
+                    title: 'Plugin Workflows',
+                    path: '/plugins/tutorials/udt-deep-dive/plugin-workflows/'
+                  },
+                  {
+                    title: 'Working with React',
+                    path: '/plugins/tutorials/udt-deep-dive/working-with-react/'
+                  },
+                ],
+              },
               {
                 title: 'Adding command entrypoints',
                 path: '/plugins/tutorials/adding-command-entrypoints/'
