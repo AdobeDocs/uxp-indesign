@@ -1,5 +1,3 @@
-import { Link } from 'gatsby';
-import { siteConfig } from '../../../../../site-config';
 
 # Clipboard
 Read and write content from and to the clipboard.
@@ -55,8 +53,8 @@ async function foo() {
 
 
 ## Reference material
-<!-- Links to API docs used in the code above -->
-- <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/`}>Clipboard</a>
+- [Clipboard](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/) APIs
+
 
 ## Compatibility
 

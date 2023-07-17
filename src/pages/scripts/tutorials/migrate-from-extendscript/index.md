@@ -130,7 +130,7 @@ app.activeDocument.findText()
             </td>
             <td><inlineCode>var myArg = app.scriptArgs.getValue("*argumentName*");</inlineCode>
             </td>
-            <td><inlineCode>let arguments = script.args;</inlineCode> <a href={`../arguments/`}>Learn More</a>
+            <td><inlineCode>let arguments = script.args;</inlineCode> <a href="/indesign/uxp/scripts/tutorials/arguments/">Learn More</a>
             </td>
             <td>v18.4 Onwards</td>
         </tr>

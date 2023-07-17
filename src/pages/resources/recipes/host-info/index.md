@@ -1,5 +1,3 @@
-import { Link } from 'gatsby';
-import { siteConfig } from '../../../../../site-config';
 
 # Host Environment
 Sometimes it's necessary to find out what a plugin's or script's host environment is. You can find a range of information such as the host OS, locale, home folder, installed application version, etc, by using UXP APIs.
@@ -20,9 +18,9 @@ async function foo() {
 
 
 ## Reference material
-- <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Modules/uxp/Host%20Information/Host/`}>Host</a>
-- <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Modules/uxp/Versions/Versions/`}>Versions</a>
-- <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Modules/os/OS/`}>OS</a>
+- [Host](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Host%20Information/Host/) APIs
+- [Versions](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Versions/Versions/) APIs
+- [OS](/indesign/uxp/reference/uxp-api/reference-js/Modules/os/OS/) APIs
 
 ## Compatibility
 - InDesign version v18.5

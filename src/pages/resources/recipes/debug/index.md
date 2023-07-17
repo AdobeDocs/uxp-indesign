@@ -1,5 +1,3 @@
-import { Link } from 'gatsby';
-import { siteConfig } from '../../../../../site-config';
 
 # Debugging
 
@@ -45,7 +43,7 @@ async function foo() {
 ```
 
 ## Additional notes
-- <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert/`}>UXP Alerts</a> are currently not supported in InDesign.
+- [UXP Alerts](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert/) are currently not supported in InDesign.
 
 ## Compatibility
 

@@ -19,8 +19,10 @@ Welcome to the world of UXP (**U**nified E**x**tensibility **P**latform) in Adob
 #### Resources
 
 - [What's new](./changelog/)
-- API references: [UXP APIs](/indesign/uxp/reference/uxp-api/) | [InDesign APIs](/indesign/uxp/reference/uxp-api/)
-- Quick start guides: [Scripts](./scripts/getting-started) | [Plugins](./plugins/getting-started/)
+- [UXP APIs](/indesign/uxp/reference/uxp-api/)
+- [InDesign APIs](/indesign/dom/api/)
+- [Scripts](./scripts/getting-started)
+- [Plugins](./plugins/getting-started/)
 - [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/c/indesign/)
 
 
@@ -52,6 +54,6 @@ Here are a few other ways to get involved:
 <!--- 
 // TODO Specify links for migration
 ## Migration Guides
-Migrate your work from ExtendScript or CEP to UXP world. [Learn more](./resources/migration-guides/)
-/scripts/tutorials/migrate-from-extendscript/
+Migrate your work from ExtendScript or CEP to UXP world. [Learn more](./resources/_tbd_migration-guides/) and
+[here](./scripts/tutorials/migrate-from-extendscript/)
  -->

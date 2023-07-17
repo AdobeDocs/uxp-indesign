@@ -1,5 +1,3 @@
-import { Link } from 'gatsby';
-import { siteConfig } from '../../../../../site-config';
 
 # HTML events and event listeners
 On the web, you can use different techniques to capture an HTML event and add `eventlisteners`` to an element. UXP too, supports these ways. 
@@ -71,7 +69,7 @@ function foo(event) {
 // TODO Q: Any difference in the way the events and events listeners work with SWC and Spectrum widgets?
 
 ## Reference material
-- <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Global%20Members/HTML%20Events/`}>HTML Events</a>
+- [HTML Events](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/)
 
 ## Applicable to
 

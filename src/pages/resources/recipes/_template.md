@@ -1,8 +1,9 @@
 <!-- 
 Use this doc for internal purposes. Make sure you include the following information in the recipes
--->
+
 import { Link } from 'gatsby';
 import { siteConfig } from '../../../../site-config';
+-->
 
 # Topic Heading
 <!-- Introduce the topic with concepts. -->
@@ -47,7 +48,7 @@ Screenshot illustrating the output (if applicable)
 
 ## Reference material
 <!-- Links to API docs used in the code above -->
-- <a href={`${siteConfig.uxpApiPath}`}>API</a>
+- <!-- <a href={`${siteConfig.uxpApiPath}`}>API</a> -->
 
 ## Prerequisites & Compatibility 
 <!-- Summarize the availability -->

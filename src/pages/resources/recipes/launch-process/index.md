@@ -1,5 +1,3 @@
-import { Link } from 'gatsby';
-import { siteConfig } from '../../../../../site-config';
 
 # Launch process
 UXP core APIs also offer `shell` APIs to launch processes in the user's system.
@@ -88,7 +86,7 @@ async function foo() {
 - While using `openExternal`, keep in mind, that URL schemes are operating system specific. For example, `facetime` is not available in Windows. Same with custom schemes. Add pre-checks and use standard URL schemes to avoid such unexpected errors.
 
 ## Reference material
-- <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Modules/shell/Shell/`}>Shell API</a>
+- [Shell API](/indesign/uxp/reference/uxp-api/reference-js/Modules/shell/Shell/)
 
 
 ## Compatibility

@@ -1,6 +1,4 @@
 import './table-styles.css';
-import { Link } from 'gatsby';
-import { siteConfig } from '../../../../../site-config';
 
 # UXP Manifest
 The manifest is a JSON file that is located at the root of the plugin bundle. It is named `manifest.json` and is
@@ -566,7 +564,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td><inlineCode>"read" | "readAndWrite"</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Enables the plugin to read and write to the clipboard. The <a href={`${siteConfig.root}/resources/recipes/clipboard/`}>clipboard recipe</a> has more examples.</p>
+            <p>Enables the plugin to read and write to the clipboard. The <a href="/indesign/uxp/resources/recipes/clipboard/">clipboard recipe</a> has more examples.</p>
             <p>Possible values:</p>
             <ul>
                 <li><inlineCode>read</inlineCode>: enables the plugin to read from the clipboard.</li>
@@ -581,7 +579,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td><inlineCode>"plugin" | "request" | "fullAccess"</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Enables the plugin to access the file system. The <a href={`${siteConfig.root}/resources/recipes/file-operation/`}>file-operation recipe</a> has detailed example.</p>
+            <p>Enables the plugin to access the file system. The <a href="/indesign/uxp/resources/recipes/file-operation/">file-operation recipe</a> has a detailed example.</p>
             <p>Possible values:</p>
             <ul>
                 <li><inlineCode>plugin</inlineCode>: enables the plugin to access the file system in the plugin folder.</li>
@@ -628,7 +626,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td><inlineCode>boolean</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Allows you to declare inline event handlers in HTML elements. The <a href={`${siteConfig.root}/resources/recipes/html-events/`}>html-events recipe</a> has more examples.</p>
+            <p>Allows you to declare inline event handlers in HTML elements. The <a href="/indesign/uxp/resources/recipes/html-events/">html-events recipe</a> has more examples.</p>
             <p><strong>Default value</strong></p>
             <p><inlineCode>false</inlineCode></p>
         </td>
@@ -691,7 +689,7 @@ Represents a localized string. The key is the locale, and the value is the trans
     </tbody>
 </table>
 
-<p>The <a href={`${siteConfig.root}/resources/recipes/network/`}>network recipe</a> has more details.</p>
+<p>The <a href="/indesign/uxp/resources/recipes/network/">network recipe</a> has more details.</p>
 
 #### WebViewPermission
 
@@ -759,7 +757,7 @@ window.addEventListener("message", (event) => \{
     </tbody>
 </table>
 
-<p>Find the detailed <a href={`${siteConfig.root}/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement/`}>WebView API reference</a> or use the webview-starter template plugin in UDT.</p>
+<p>Find the detailed <a href="/indesign/uxp/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement/">WebView API reference</a> or use the webview-starter template plugin in UDT.</p>
 
 #### LaunchProcessPermission
 
@@ -805,7 +803,7 @@ window.addEventListener("message", (event) => \{
     </tbody>
 </table>
 
-<p>The <a href={`${siteConfig.root}/resources/recipes/launch-process/`}>launch process recipe</a> has more details.</p>
+<p>The <a href="/indesign/uxp/resources/recipes/launch-process/">launch process recipe</a> has more details.</p>
 
 #### IpcPermission
 
@@ -838,7 +836,7 @@ window.addEventListener("message", (event) => \{
     </tbody>
 </table>
 
-<p>The <a href={`${siteConfig.root}/plugins/tutorials/inter-plugin-comm/`}>inter-plugin communication example</a> has more details.</p>
+<p>The <a href="/indesign/uxp/plugins/tutorials/inter-plugin-comm/">inter-plugin communication example</a> has more details.</p>
 
 ### FeatureFlags
 

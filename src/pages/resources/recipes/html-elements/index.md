@@ -1,5 +1,3 @@
-import { Link } from 'gatsby';
-import { siteConfig } from '../../../../../site-config';
 
 # HTML Elements
 
@@ -104,8 +102,8 @@ function showDialog() {
 ![Sample dialog](sample-dialog.png)
 
 ## Reference material
-- <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLDialogElement/`}>Dialog Element</a>
-- <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Global%20Members/HTML%20Elements/`}>Other HTML Elements</a>
+- [Dialog Element](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLDialogElement/)
+- [Other HTML Elements](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/)
 
 ## Compatibility
 - InDesign version v18.5
