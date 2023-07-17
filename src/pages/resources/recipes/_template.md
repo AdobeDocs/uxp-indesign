@@ -50,7 +50,7 @@ Screenshot illustrating the output (if applicable)
 - <a href={`${siteConfig.uxpApiPath}`}>API</a>
 
 ## Prerequisites & Compatibility 
-<!-- Summarize the availibility -->
+<!-- Summarize the availability -->
 - InDesign version v18.5
 - UXP version v7.1
 - Manifest version v5

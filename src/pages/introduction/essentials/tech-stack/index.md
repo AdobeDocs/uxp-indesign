@@ -2,11 +2,11 @@
 
 As mentioned earlier, UXP is a modern JavaScript (ECMA2015 or ES6) based extensibility platform. 
 
-To begin, a little bit of knowledge of web technologies, such as JS, HTML, and CSS, is required. There are some great materials available on the web that can teach you the basics but here are some of our recommendations. Feel free to use other sources to read about these topics.  
+To begin, a little bit of knowledge of web technologies, such as JavaScript, HTML, and CSS, is required. There are some great materials available on the web that can teach you the basics but here are some of our recommendations. Feel free to use other sources to read about these topics.  
 
 <InlineAlert slots="text1, text2" />
 
-Please remember that since JS, HTML or CSS are the foundational web technologies, online tutorials often assume that you are about to use them in a browser or a server-side JS engine. 
+Please remember that since JavaScript, HTML or CSS are the foundational web technologies, online tutorials often assume that you are about to use them in a browser or a server-side JS engine. 
 
 UXP is **not** a full-blown browser or server-side JS engine like NodeJS. Though it allows you to use the same syntax, it does not intend to behave like a browser and consequently will support only a subset of the web APIs. This means, not all the HTML Elements or CSS classes or JavaScript APIs will be available in the UXP world. 
 
@@ -34,9 +34,9 @@ One of the easiest ways to debug these technologies is by using the Chrome Debug
 Please familiarize yourself with the [Chrome Debug tool](https://developer.chrome.com/docs/devtools/overview/), especially the ways to [access DOM](https://developer.chrome.com/docs/devtools/dom/), [modify CSS](https://developer.chrome.com/docs/devtools/css/) and [debug JS](https://developer.chrome.com/docs/devtools/javascript/) by adding breakpoints.
 
 ## Frameworks
-So far we have spoken about plain JS, HTML, and CSS. However, the industry offers various frameworks that act as an abstract layer on top of these web technologies. These frameworks aim to provide you with a quicker, and more efficient way of writing reusable code. React, Vue, and Svelte are some of the popular frameworks, that people often find useful. These frameworks are optional and your personal choice.
-
-But since these are one layer above the plain web technologies, you would require additional tools to run such projects.
+So far we have spoken about plain JS, HTML, and CSS. However, the industry offers various frameworks that act as an abstract layer on top of these web technologies. These frameworks aim to provide you with a quicker, and more efficient way of writing reusable code.
+ 
+React, Vue, and Svelte are some of the popular frameworks, that developers often find useful. To use such frameworks is optional and is your personal choice. But, since these are one layer above the plain web technologies, you would require additional tools to run such projects.
 
 - [Node.js](https://nodejs.org/en/): a JavaScript runtime environment. It's often used as a backend server in web environments. Go to the [Node.js download page](https://nodejs.org/en/download/), download the installer for your platform, and run it. This will also install `npm`
 - [npm](https://www.npmjs.com): a "package manager" bundled with Node which helps manage your project's dependencies (i.e., other code and files that are needed to make your plugin work).

@@ -6,12 +6,15 @@ keywords:
 ---
 # Passing Arguments
 
-Since InDesign v18.4 arguments/parameters can be passed to UXP scripts. The arguments passed to the scripts can be used in the same way as any other argument. The `script.args` API can be used to access the arguments passed to the script as an array, the following sections demonstrate the various use cases.
+Since InDesign v18.4 arguments/parameters can be passed to UXP scripts. 
+
+You can use the `script.args` API to access the arguments passed to the script as an array.
 
 ## Usage
 Use the following to fetch the arguments passed to the script as an array:
 
 ```js
+const script = require("uxp").script;
 let argsArray = script.args
 ```
 
@@ -19,7 +22,9 @@ let argsArray = script.args
 Arguments cannot be passed from the InDesign application directly. We can pass arguments to a script directly using InDesign Server only. 
 
 ## Passing Arguments to InDesign Server
-You can pass arguments to InDesign Server through the sampleclient. Specify all the necessary information, such as the port number, script name, and arguments. Pass the arguments as a string where the = sign separates the key and the value. The `script.args` API returns an array of strings where the elements are the key/value pairs of arguments specified while executing the script. Here’s an example:
+You can pass arguments to InDesign Server through the `sampleclient`. 
+
+Specify all the necessary information, such as the port number, script name, and arguments. Pass the arguments as a string where the `=` sign separates the key and the value. The `script.args` API returns an array of strings where the elements are the key/value pairs of arguments specified while executing the script. Here’s an example:
 
 **Command to Pass Arguments to IDS Scripts**
 ```
@@ -27,9 +32,6 @@ You can pass arguments to InDesign Server through the sampleclient. Specify all 
 ```
 
 ```js
-//testArgs.idjs
-let myInDesign = require("indesign");
-let app = myInDesign.app;
 const script = require("uxp").script;
 let ar = script.args;
 script.setResult(ar);
@@ -44,25 +46,23 @@ Script result (LIST, 2):
 ```
 
 ## Passing Arguments to InDesign Server/ InDesign App Via doScript()
-Passing arguments to an external script called the doScript API is also supported. You can pass a variable of type array as the third parameter of the doScript API call. Unlike on IDS, `script.args` fetches the values of the arguments passed to the external script. Here’s an example:
+Passing arguments to another UXP script is possible with the help of the `doScript` API. 
+
+You can pass a variable of type array as the third parameter of the doScript API call. Unlike on InDesign Server, `script.args` fetches the values of the arguments passed to the external script. Here’s an example:
 
 ```js
 //caller.idjs
-let { app } = require("indesign");
-const script = require("uxp").script;
-let argsArray = [100,200];
-let resultOfCalledScript = app.doScript("PATH_TO_CALLED.IDJS/called.idjs", myInDesign.ScriptLanguage.UXPSCRIPT, argsArray);
-console.log(resultOfCalledScript);
+const myInDesign = require("indesign");
+const app = myInDesign.app;
+const argsArray = [100,200];
+app.doScript("PATH_TO_CALLED/called.idjs", myInDesign.ScriptLanguage.UXPSCRIPT, argsArray);
 ```
 
 ```js
 //called.idjs
-let { app } = require("indesign");
 const script = require("uxp").script;
-let argsArray = script.args;
-script.setResult(argsArray);
+consoel.log(script.args);
 ```
-The result after executing `caller.idjs` is shown in the logs. 
 
 ```
 [console] 100,200

@@ -1,14 +1,17 @@
 # Debugging a Script
-This page goes over how to debug common problems you may run into while using InDesign Scripting. 
+This page goes over how to debug common problems you may run into.
 
-* The UXP logs and console.log from script gets written to path `/Users/<user name>/Library/Caches/UXPLogs/` in Mac and `C:\Users\<username>\AppData\Local\Temp\UXPLogs` in Windows. If you find multiple files in the location, pick the one with the latest timestamp.
-* All the sample scripts have a try /catch block. Any exceptions raised from the InDesign side can be caught and dumped to the console or displayed on the dialog box.
+Quick tips for logs:
+* The UXP logs and `console.log` from scripts get written to the following locations: <br></br>
+    macOS: `/Users/<user name>/Library/Caches/UXPLogs/` <br></br>
+    Windows: `C:\Users\<username>\AppData\Local\Temp\UXPLogs` <br></br>
+    If you find multiple files in the location, pick the one with the latest timestamp.
+* All the sample scripts have a try/catch block. Any exceptions raised from the InDesign side will be caught and dumped to the console or displayed on the dialog box.
 * Interpreter parsing errors go directly to the UXP logs.
-* User can print any message using ‘console.log(formatted message). Messages will appear in a log file.
 
 ## Debugging Script files using UDT
 
-Script files are executed in a context that is mostly the same as those used in UXP plugins. Using [UXP Developer Tool](https://creativecloud.adobe.com/apps/download/uxp-developer-tools) (UDT) version 1.7.0, you can step through and debug a script.
+Script files are executed in the same context as UXP plugins. Using [UXP Developer Tool](https://creativecloud.adobe.com/apps/download/uxp-developer-tools) (UDT) v1.7.0, you can step through and debug a script.
 
 You can debug script files in UDT by clicking on "Connected Apps", choosing InDesign, and then adding your script from there:
 

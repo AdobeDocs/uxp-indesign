@@ -6,7 +6,7 @@ UXP is a JavaScript ES6 (ECMA2015) based extensibility platform that helps you a
 
 <InlineAlert variant="info" slots="text"/>
 
-An **IMPORTANT** thing to note is that though UXP enables you to use web technologies, it should not be mistaken as a browser. Certain concepts of the browser will never be available in the UXP world but the platform offers a plethora of capabilities.
+An **IMPORTANT** thing to note is that though UXP enables you to use web technologies, it should not be mistaken as a browser. Certain concepts of the browser will never be available in the UXP world but the platform offers a plethora of capabilities that allows you build powerful and creative solutions.
 
 With UXP you can, 
 1. Automate the myriad, small, annoying tasks that you face every day.
@@ -20,7 +20,7 @@ Developing in UXP requires you to have basic knowledge of JavaScript, HTML, and 
 
 You can choose to write a single JavaScript file and execute them as scripts. Or, create something more complex and elaborate with persistent and fluent UI in the form of plugins. Within plugins too, you can either write a 'command' or a 'panel' plugin based on how you would like the users to interact with them. We will learn about all these in the subsequent section that will help you make the right choice suiting your needs.
 
-Lastly, you can share your UXP plugin and scripts with others as well. Plugins can also be distributed in Adobe's Marketplace giving you access to millions of application users at once. Alternatively, you can distribute them via your channels. 
+Lastly, you can share your UXP plugin and scripts with others as well. Plugins can also be distributed in Adobe's Marketplace giving you access to millions of application users at once. Alternatively, you can distribute them via your distribution channels. 
 
-The next few sections take you one level deeper into the UXP world. Make sure to read further and set up the essential developer tools. 
+Welcome once again to UXP! The next few sections take you one level deeper into the UXP world. Make sure to read further and set up the essential developer tools. 
 

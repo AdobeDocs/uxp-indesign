@@ -80,7 +80,7 @@ html {
 ### InDesign APIs
 
 #### Added
-- [BREAKING CHANGE] Mounting APIs <br></br>
+- **[BREAKING CHANGE]** Mounting APIs <br></br>
     InDesign DOM APIs are no longer available in the global scope. You must [mount the APIs](../recipes/dom-versioning/) first before using them. Plus, you can now access different versions of DOM APIs.
 - Events <br></br>
     UXP scripts now have the functionality to handle standard events that InDesign emits. You can use the [eventListener](../recipes/events/)object to catch such events. 

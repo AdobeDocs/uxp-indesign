@@ -23,7 +23,6 @@ async function foo() {
 - <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Modules/uxp/Host%20Information/Host/`}>Host</a>
 - <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Modules/uxp/Versions/Versions/`}>Versions</a>
 - <a href={`${siteConfig.uxpApiPath}/uxp-api/reference-js/Modules/os/OS/`}>OS</a>
-<a href={siteConfig.uxpApiPath}>API</a>
 
 ## Compatibility
 - InDesign version v18.5

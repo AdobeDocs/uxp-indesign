@@ -33,18 +33,18 @@ myTextFrame.geometricBounds = ["6p", "6p", "24p", "24p"];
 myTextFrame.contents = "Hello World!";
 ```
 
-Remember that an `idjs` file is a mere JavaScript file with a special extension to identify it as a UXP script for InDesign.
+**Remember** that an `idjs` file is a mere JavaScript file with a special extension to identify it as a UXP script for InDesign.
 
 ### Step 2: Save the file to Scripts panel
 
 Scripts can only be executed once they appear in the Scripts panel. To add your scripts to the panel, you have two options
-1. Save your scripts to the InDesign application scripts folder.
-    macOS - `/Applications/Adobe InDesign 2023/Scripts`
-    Windows - //TODO path?
-    (Create the Scripts folder if it does not already exist.) Note: this may require admin access.
-2. Alternatively, put the script inside the Scripts Panel folder in your preferences folder. Your preferences folder is at:
-    macOS: `/Users/<username>/Library/Preferences/Adobe InDesign/Version 18.0/<locale>/Scripts`
-    Windows: `C:\Users\<username>\AppData\Roaming\Adobe\InDesign\Version 18.0\<locale>\Scripts`
+1. Save your scripts to the InDesign application scripts folder.<br></br>
+    macOS - `/Applications/Adobe InDesign 2023/Scripts` <br></br>
+    Windows - //TODO path? <br></br>
+    (Create the Scripts folder if it does not already exist but this may require admin access.)
+2. Alternatively, put the script inside the Scripts Panel folder in your preferences folder. Your preferences folder is at: <br></br>
+    macOS: `/Users/<username>/Library/Preferences/Adobe InDesign/Version 18.0/<locale>/Scripts` <br></br>
+    Windows: `C:\Users\<username>\AppData\Roaming\Adobe\InDesign\Version 18.0\<locale>\Scripts` <br></br>
     Above, `<username>` is your user name and `<locale>` references your location and language, for example, en_US.
 
 Save the script as a plain-text file with the `.idjs` file extension.
@@ -57,13 +57,16 @@ Find your saved script, and then double-click on the script name. You can also r
 
 ![Running a script](running_a_script.png)
 
+
+![First script output](hello-world.png)
+
 ### Step 4: Make a change
 
 Now that you have your script running in InDesign, let's make a slight change to see how it works.
 
 To edit a script shown in the Scripts panel, select the script and choose 'Edit Script' from the menu. This should open your script in a text editor.
 
-Let's add the following to update the font and size of the text
+Let's add the following, to update the font and size of the text
 
 ```js
 let myFont = app.fonts.item("Arial");
@@ -75,6 +78,8 @@ myParagraph.pointSize = 48;
 ```
 
 To see your changes, you'll need to save the changes and rerun the script by double-clicking on it from the Scripts panel.
+
+![Updated first script output](hello-world-updated.png)
 
 ## Next steps
 

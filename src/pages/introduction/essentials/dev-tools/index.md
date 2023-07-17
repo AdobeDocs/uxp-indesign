@@ -11,8 +11,8 @@ A good text editor is necessary for you to organize your project effectively. An
 The Adobe UXP Developer Tool (UDT) makes it easy to create, load, manage, and debug UXP-based plugins and scripts for UXP-powered applications. 
 
 Additionally, for plugins, 
-- It also lets you create a `.ccx` UXP plugin package making it ready for distribution.
-- And offers a variety of easy-to-use starter templates and samples, to begin with.
+- It also lets you create a `.ccx` - A UXP plugin package ready for distribution.
+- And offers a variety of easy-to-use templates and samples, to begin with.
 
 <InlineAlert variant="info" slots="text"/>
 

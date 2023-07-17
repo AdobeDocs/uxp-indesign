@@ -17,17 +17,21 @@ description:
 As the first step, you need to prepare your script or plugin for sharing.
 
 ## Scripts
-Preparing your scripts for sharing needs no additional steps. The `.idjs` file can be shared as it is with other users as it is.
+Preparing your scripts for sharing needs no additional steps. The `.idjs` file can be shared as it is with other developers and users.
 
 ## Plugins
-UXP plugins are distributed in the form of a `.ccx` file. Under the hood, this is a zip file. Unless you have some special requirements, you should not be creating this zip file yourself.
+UXP plugins are distributed in the form of a `.ccx` file. Under the hood, this is a zip file. 
 
+<InlineAlert variant="info" slots="text1, text1"/>
+
+**IMPORTANT notes**:
+- Unless you have some special requirements, you should not be creating this zip file yourself.
+- Before you package your plugin for distribution outside your own computer, make sure you've obtained a valid plugin ID from the [Developer Distribution portal](https://developer.adobe.com/developer-distribution/creative-cloud/overview/guides/plugin_id/). Without an id (which goes in the `id` field of your plugin's `manifest.json` file), you won't be able to distribute your plugin in the Creative Cloud Marketplace.
+
+
+
+### Packaging a plugin
 Taking your plugin code and packaging it has never been easier.
-
-<InlineAlert variant="info" slots="text"/>
-
-**IMPORTANT**:
-Before you package your plugin for distribution outside your own computer, make sure you've obtained a valid plugin ID from the [Developer Distribution portal](https://developer.adobe.com/developer-distribution/creative-cloud/overview/guides/plugin_id/). Without an id (which goes in the `id` field of your plugin's `manifest.json` file), you won't be able to distribute your plugin in the Creative Cloud Marketplace.
 
 Using the [UXP Developer Tool](../../devtool/), choose `Package` from the Actions menu (the ellipsis on the right side of the Developer Tool window, on the same line as your plugin name):
 
@@ -49,7 +53,7 @@ Once your `.ccx` file has been built, you should test it locally before doing an
 
 ![Verify Failed](../images/verify-failed.png)
 
-Since you wrote the plugin, it's probably safe to install. Click `Install locally` and you'll see another warning:
+Since you wrote the plugin, it's probably safe to install. Click `Install` and you'll see another warning:
 
 ![Install Warning](../images/install-warning.png)
 

@@ -18,7 +18,7 @@ description:
 Once you have a packaged your code correctly, you're ready to distribute it.
 
 ## Distributing scripts
-A UXP script can be directly shared. Just share your `.idjs` file with your family and friends and they can run it after importing it within the scripts panel.
+A UXP script can be directly shared. Just share your `.idjs` file with your family and friends and they can run it after importing it within the Scripts panel.
 
 ## Distributing plugins
 
