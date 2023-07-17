@@ -7,7 +7,7 @@ The UXP platform has two constituents
 2. Host-specific APIs
 
 ## UXP Core APIs
-Create user interface, perform file operations, make network calls, etc by using the UXP core APIs. Many of these APIs are available in the global scope. For example, [Crypto](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Crypto/) and [Documents](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Document/). But for certain UXP modules, you will first need to seek permission in the manifest (for plugins) or mount it specifically using `require()`. For example, `require(os)` or `require('uxp').shell`.
+These APIs will enable you to create user interfaces, perform file operations, make network calls, etc.s. Many of these APIs are also available in the global scope, such as [Crypto](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Crypto/) and [Documents](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Document/). But for certain UXP modules, you will need to seek permission in the manifest (for plugins) or mount it specifically using `require()`. For example, `require(os)` or `require('uxp').shell`.
 
 ## Host-specific APIs
 The APIs are meant for modifying or interacting with the document.

@@ -148,7 +148,7 @@ module.exports = {
                 path: '/scripts/tutorials/ids-object-model/'
               },
               {
-                title: 'Migrate from ExtendScript',
+                title: 'Migrating from ExtendScript',
                 path: '/scripts/tutorials/migrate-from-extendscript/'
               },
               

@@ -6,10 +6,10 @@ Additional tips and tricks that will help you while developing UXP Scripts.
 The InDesign Scripts panel is the easiest and best way to run most InDesign scripts. If the panel is not already visible, you can display it by choosing Window > Utilities > Scripts.
 
 ### Editing scripts
-To edit a script shown in the Scripts panel, select the script and choose Edit Script from the Scripts panel menu. Alternatively, you can hold down the Option (Mac OS) or Alt (Windows) key and double-click the script's name. This opens the script in the editor you defined for the script file type.
+To edit a script shown in the Scripts panel, select the script and choose Edit Script from the Scripts panel menu. Alternatively, you can hold down the Option (macOS) or Alt (Windows) key and double-click the script's name. This opens the script in the editor you defined for the script file type.
 
 ### Open folder
-To open the folder containing a script shown in the Scripts panel, select the script and choose Reveal in Finder (Mac OS) or Reveal in Explorer (Windows). Alternatively, you can hold down the Command (Mac OS) or Ctrl-Shift (Windows) keys and double-click the script's name. The script folder opens in the Finder (Mac OS) or Explorer (Windows).
+To open the folder containing a script shown in the Scripts panel, select the script and choose Reveal in Finder (macOS) or Reveal in Explorer (Windows). Alternatively, you can hold down the Command (macOS) or Ctrl-Shift (Windows) keys and double-click the script's name. The script folder opens in the Finder (macOS) or Explorer (Windows).
 
 ### Keyboard shortcuts
 
