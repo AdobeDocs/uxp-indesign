@@ -2,6 +2,7 @@
  * Below script shows how to create a dialog using anonymous function
  * Also setting up event listeners and resolving/rejective promises.
  */
+let myInDesign = require("indesign");
 async function showDialog() {
      
     return new Promise((resolve, reject) => {

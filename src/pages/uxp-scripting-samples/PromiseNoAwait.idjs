@@ -4,6 +4,7 @@
 * In this way you can achieve synchronous behaviour for the functions
 */
 
+let myInDesign = require("indesign");
 
 //async function which resolves promise after wait of 3 seconds
 async function delayedResolve() {

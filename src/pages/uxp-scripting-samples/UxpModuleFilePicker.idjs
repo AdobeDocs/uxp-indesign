@@ -1,7 +1,8 @@
 /* this script describes how to involve filepicker using UXP
 * also we write some content in the file selected via filepicker
 */
- 
+
+let myInDesign = require("indesign");
 await getFileusingPicker();
 
 async function getFileusingPicker() {

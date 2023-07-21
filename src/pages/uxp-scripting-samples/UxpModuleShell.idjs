@@ -1,14 +1,15 @@
 /* below script opens web URL using UXP 
 * shell API in the default browser.
 */
- 
+
+let myInDesign = require("indesign");
 await openLinks();
  
 async function openLinks() {
     try {
         const shell = require("uxp").shell;
         await shell.openExternal("https://www.adobe.io/", "The developer wants to test the shell permissions.");
-        await shell.openPath("/Users/vkumarg/Downloads/Personal/IMG_20220114_214325_350.jpg");
+        await shell.openPath("PATH_TO_AN_IMAGE");
 
     } catch (e) {
         console.log(e);

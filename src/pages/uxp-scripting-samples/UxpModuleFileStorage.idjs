@@ -2,6 +2,7 @@
 *we access the temporary folder, fetch its metadata and log that in console
 */
 
+let myInDesign = require("indesign");
 await usingTemporaryFolder();
 
  

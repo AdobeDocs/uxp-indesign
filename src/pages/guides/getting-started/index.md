@@ -57,6 +57,8 @@ Our script will creates a new document, adds a text frame, and enters text in th
 //
 //Creates a new document, adds a text frame,
 //resizes the text frame and adds text.
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 var myDocument = app.documents.add();
 var myTextFrame = myDocument.pages.item(0).textFrames.add();
 /*Set the geometric bounds (the location of the top, left, bottom, and right edges) of the text frame. In this step, the script uses measurement overrides ("p" for picas) to ensure the text frame is the correct size, regardless of your default measurement units. The locations are provided as a list, or array, of values; each scripting language has a slightly different way of creating an array. */
@@ -91,6 +93,8 @@ Either open the ImprovedHelloWorld.jsx tutorial script or perform the following 
 //An InDesign UXP Script
 //
 //Enter the name of a font on your system, if necessary.
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 var myFont = app.fonts.item("Arial");
 var myDocument = app.activeDocument;
 var myPage = myDocument.pages.item(0);
@@ -103,11 +107,11 @@ var myParagraph = myTextFrame.paragraphs.item(0);
 //Change the font, size, and alignment.
 myParagraph.appliedFont = myFont;
 myParagraph.pointSize = 48;
-myParagraph.justification = Justification.centerAlign;
+myParagraph.justification = myInDesign.Justification.centerAlign;
 function myGetBounds(myDocument, myPage){
     var myPageWidth = myDocument.documentPreferences.pageWidth;
     var myPageHeight = myDocument.documentPreferences.pageHeight
-    if(myPage.side == PageSideOptions.leftHand){
+    if(myPage.side == myInDesign.PageSideOptions.leftHand){
         var myX2 = myPage.marginPreferences.left;
         var myX1 = myPage.marginPreferences.right;
     }
@@ -148,11 +152,13 @@ The following script fragment shows how to create a new document and set the mar
 
 ```js
 //Create a new document.
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 var myDocument = app.documents.add();
 //Set the measurement units and ruler origin.
-myDocument.viewPreferences.horizontalMeasurementUnits = MeasurementUnits.points;
-myDocument.viewPreferences.verticalMeasurementUnits = MeasurementUnits.points;
-myDocument.viewPreferences.rulerOrigin = RulerOrigin.pageOrigin;
+myDocument.viewPreferences.horizontalMeasurementUnits = myInDesign.MeasurementUnits.points;
+myDocument.viewPreferences.verticalMeasurementUnits = myInDesign.MeasurementUnits.points;
+myDocument.viewPreferences.rulerOrigin = myInDesign.RulerOrigin.pageOrigin;
 //Get a reference to the first master spread.
 var myMasterSpread = myDocument.masterSpreads.item(0);
 //Get a reference to the margin preferences of the first page in the master spread.
@@ -201,17 +207,17 @@ var myLeftPage = myMasterSpread.pages.item(0);
 var myRightPage = myMasterSpread.pages.item(1);
 var myLeftFooter = myLeftPage.textFrames.add();
 myLeftFooter.geometricBounds = [728, 70, 742, 528];
-myLeftFooter.textFramePreferences.firstBaselineOffset = FirstBaseline.leadingOffset;
-myLeftFooter.contents = SpecialCharacters.autoPageNumber;
+myLeftFooter.textFramePreferences.firstBaselineOffset = myInDesign.FirstBaseline.leadingOffset;
+myLeftFooter.contents = myInDesign.SpecialCharacters.autoPageNumber;
 myLeftFooter.parentStory.characters.item(0).pointSize = 11;
 myLeftFooter.parentStory.characters.item(0).leading = 14;
 var myRightFooter = myRightPage.textFrames.add();
 myRightFooter.geometricBounds = [728, 84, 742, 542];
-myRightFooter.textFramePreferences.firstBaselineOffset = FirstBaseline.leadingOffset;
-myRightFooter.contents = SpecialCharacters.autoPageNumber;
+myRightFooter.textFramePreferences.firstBaselineOffset = myInDesign.FirstBaseline.leadingOffset;
+myRightFooter.contents = myInDesign.SpecialCharacters.autoPageNumber;
 myRightFooter.parentStory.characters.item(0).pointSize = 11;
 myRightFooter.parentStory.characters.item(0).leading = 14;
-myRightFooter.parentStory.characters.item(0).justification = Justification.rightAlign;
+myRightFooter.parentStory.characters.item(0).justification = myInDesign.Justification.rightAlign;
 ```
 
 ### Adding master text frames
@@ -225,14 +231,14 @@ var myLeftPage = myMasterSpread.pages.item(0);
 var myRightPage = myMasterSpread.pages.item(1);
 var myLeftTextFrame = myLeftPage.textFrames.add();
 myLeftTextFrame.geometricBounds = [70, 70, 714, 528];
-myLeftTextFrame.textFramePreferences.firstBaselineOffset = FirstBaseline.leadingOffset;
+myLeftTextFrame.textFramePreferences.firstBaselineOffset = myInDesign.FirstBaseline.leadingOffset;
 myLeftTextFrame.textFramePreferences.textColumnCount = 3;
 myLeftTextFrame.textFramePreferences.textColumnGutter = 14;
 //Add a label to make the frame easier to find later on.
 myLeftTextFrame.label = "BodyTextFrame";
 var myRightTextFrame = myRightPage.textFrames.add();
 myRightTextFrame.geometricBounds = [70, 84, 714, 542];
-myRightTextFrame.textFramePreferences.firstBaselineOffset = FirstBaseline.leadingOffset;
+myRightTextFrame.textFramePreferences.firstBaselineOffset = myInDesign.FirstBaseline.leadingOffset;
 myRightTextFrame.textFramePreferences.textColumnCount = 3;
 myRightTextFrame.textFramePreferences.textColumnGutter = 14;
 //Add a label to make the frame easier to find later on.
@@ -274,7 +280,7 @@ try {
 }
 catch (myError){
     //The color did not exist, so create it.
-    myColor = myDocument.colors.add({name:"Red", model:ColorModel.process,
+    myColor = myDocument.colors.add({name:"Red", model:myInDesign.ColorModel.process,
     colorValue:[0,100,100,0]});
 }
 //Now set the formatting of the paragraph style.

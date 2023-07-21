@@ -5,6 +5,8 @@ Check out the [full repo of scripting samples here](https://github.com/AdobeDocs
 ## Basic 
 This sample script demonstrates the execution of regular javascript using uxp scripting. 
 ```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 const getAppName = () => {
     let appName;
     try {
@@ -32,6 +34,7 @@ try{
 The script below demonstrates how to create a dialog using an anonymous function, as well as setting up event listeners and resolving/rejecting promises.
 
 ```js
+let myInDesign = require("indesign");
 async function showDialog() {
      
     return new Promise((resolve, reject) => {

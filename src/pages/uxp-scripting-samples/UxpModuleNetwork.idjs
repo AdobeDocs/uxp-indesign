@@ -2,6 +2,7 @@
 *creates a new doc and a text Frame with specified size
 */
 
+let myInDesign = require("indesign");
 let dialogResolve = null;
 let dialogReject = null;
  

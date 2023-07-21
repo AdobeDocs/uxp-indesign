@@ -1,9 +1,9 @@
-
 /**
  * Below script describes the clipboard usage in UXP scripts.
  * We set content for clipboard and then later read that from clipboard.
  */
 
+ let myInDesign = require("indesign");
  await testClipboardModuleAccess();
 
  async function testClipboardModuleAccess() {

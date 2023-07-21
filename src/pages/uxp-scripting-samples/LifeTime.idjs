@@ -3,7 +3,8 @@
  * where scripts can use await on async calls at a global scope.
  * In this way you can achieve synchronous behaviour for the functions
  */
- 
+
+let myInDesign = require("indesign");
 // Start of exectuion..!
 delayedLogger();
 // end of execution..!

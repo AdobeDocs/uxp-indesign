@@ -2,6 +2,7 @@
 * also we write some content in the file selected via filepicker
 */
  
+let myInDesign = require("indesign");
 await getFolderusingPicker();
 
 async function getFolderusingPicker() {

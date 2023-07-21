@@ -2,7 +2,8 @@
  * This sample script demonstrates the execution of regular javascript 
  * inside uxp scripting.
  */
-
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 const getAppName = () => {
     let appName;
     try {

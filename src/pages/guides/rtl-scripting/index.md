@@ -13,6 +13,8 @@ In a Roman publication, the binding of documents is always on the left. Converse
 The following sample script creates a new document, and then sets or gets the page binding for the created document (for the complete script, see PageBinding).
 
 ```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 var myDocument = app.documents.add();
 with(myDocument ){
     //set number of pages
@@ -29,15 +31,15 @@ InDesign Server comes with special styles for page, paragraph, and footnote numb
 The following script shows how to set these settings for pages (for the complete script, see NumberingME).
 
 ```js
-myDocument.sections.item(0).pageNumberStyle = PageNumberStyle.arabicAlifBaTah;
-myDocument.sections.item(1).pageNumberStyle = PageNumberStyle.arabicAbjad;
+myDocument.sections.item(0).pageNumberStyle = myInDesign.PageNumberStyle.arabicAlifBaTah;
+myDocument.sections.item(1).pageNumberStyle = myInDesign.PageNumberStyle.arabicAbjad;
 ```
 
 ### Settings for footnote numbering
 The following script shows how to set ME numbering settings for footnotes (for the complete script, see NumberingME):
 
 ```js
-myDocument.footnoteOptions.footnoteNumberingStyle = FootnoteNumberingStyle.hebrewBiblical;
+myDocument.footnoteOptions.footnoteNumberingStyle = myInDesign.FootnoteNumberingStyle.hebrewBiblical;
 ```
 
 ## Setting composer
@@ -58,31 +60,31 @@ Using enumerations, InDesign Server gives you the ability to insert three Hebrew
 ```js
 //Entering InDesign special ME characters by their enumerations:
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "Hebrew Maqaf: ";
-myTextFrame.parentStory.insertionPoints.item(-1).contents = SpecialCharacters.hebrewMaqaf;
+myTextFrame.parentStory.insertionPoints.item(-1).contents = myInDesign.SpecialCharacters.hebrewMaqaf;
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "\r";
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "Hebrew Geresh: ";
-myTextFrame.parentStory.insertionPoints.item(-1).contents = SpecialCharacters.hebrewGeresh;
+myTextFrame.parentStory.insertionPoints.item(-1).contents = myInDesign.SpecialCharacters.hebrewGeresh;
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "\r";
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "Hebrew Gershayim: ";
-myTextFrame.parentStory.insertionPoints.item(-1).contents = SpecialCharacters.hebrewGershayim;
+myTextFrame.parentStory.insertionPoints.item(-1).contents = myInDesign.SpecialCharacters.hebrewGershayim;
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "\r";
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "Arabic Kashida: ";
-myTextFrame.parentStory.insertionPoints.item(-1).contents = SpecialCharacters.arabicKashida;
+myTextFrame.parentStory.insertionPoints.item(-1).contents = myInDesign.SpecialCharacters.arabicKashida;
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "\r";
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "Arabic Comma: ";
-myTextFrame.parentStory.insertionPoints.item(-1).contents = SpecialCharacters.arabicComma;
+myTextFrame.parentStory.insertionPoints.item(-1).contents = myInDesign.SpecialCharacters.arabicComma;
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "\r";
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "Arabic Semicolon: ";
-myTextFrame.parentStory.insertionPoints.item(-1).contents = SpecialCharacters.arabicSemicolon;
+myTextFrame.parentStory.insertionPoints.item(-1).contents = myInDesign.SpecialCharacters.arabicSemicolon;
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "\r";
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "Arabic Question Mark: ";
-myTextFrame.parentStory.insertionPoints.item(-1).contents = SpecialCharacters.arabicQuestionMark;
+myTextFrame.parentStory.insertionPoints.item(-1).contents = myInDesign.SpecialCharacters.arabicQuestionMark;
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "\r";
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "Right To Left Mark: ";
-myTextFrame.parentStory.insertionPoints.item(-1).contents = SpecialCharacters.rightToLeftMark;
+myTextFrame.parentStory.insertionPoints.item(-1).contents = myInDesign.SpecialCharacters.rightToLeftMark;
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "\r";
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "Left To Right Mark: ";
-myTextFrame.parentStory.insertionPoints.item(-1).contents = SpecialCharacters.leftToRightMark;
+myTextFrame.parentStory.insertionPoints.item(-1).contents = myInDesign.SpecialCharacters.leftToRightMark;
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "\r";
 ```
 
@@ -91,10 +93,12 @@ myTextFrame.parentStory.insertionPoints.item(-1).contents = "\r";
 With InDesign scripting, you can find and replace Middle Eastern text. The following sample script shows how to find and replace words in the Middle Eastern text (for the complete script, see MENAFindAndReplaceText).
 
 ```js
+let myInDesign = require("indesign");
+let app = myInDesign.app;
 var myDocument = app.documents.add();
 //Clear the find/change text preferences.
-app.findTextPreferences = NothingEnum.nothing;
-app.changeTextPreferences = NothingEnum.nothing;
+app.findTextPreferences = myInDesign.NothingEnum.nothing;
+app.changeTextPreferences = myInDesign.NothingEnum.nothing;
 //Search the document for the string "Adobe".
 app.findTextPreferences.findWhat = "أدوبي";
 //Set the find options.
@@ -105,9 +109,9 @@ app.findChangeTextOptions.includeLockedLayersForFind = false;
 app.findChangeTextOptions.includeLockedStoriesForFind = false;
 app.findChangeTextOptions.includeMasterPages = false;
 app.findChangeTextOptions.wholeWord = false;
-var myFoundItems = myDocument.findText(); Converting an InDesign script to InDesign Server
-app.findTextPreferences = NothingEnum.nothing;
-app.changeTextPreferences = NothingEnum.nothing;
+var myFoundItems = myDocument.findText(); //Converting an InDesign script to InDesign Server
+app.findTextPreferences = myInDesign.NothingEnum.nothing;
+app.changeTextPreferences = myInDesign.NothingEnum.nothing;
 //Replace the text in myString
 for(var i = 0; i < myFoundItems.length; i++)
 {
@@ -128,9 +132,9 @@ with(myTextFrame){
     //Fill the text frame with placeholder text in 2 column.
     textFramePreferences.textColumnCount = 2;
     contents = "أدوات التصميم القوية والمتكاملة رقم 1 من أدوبي"
-    parentStory.justification =  Justification.rightJustified;
+    parentStory.justification =  myInDesign.Justification.rightJustified;
     //Now set the story direction left to right
-    parentStory.storyPreferences.storyDirection = StoryDirectionOptions.leftToRightDirection;
+    parentStory.storyPreferences.storyDirection = myInDesign.StoryDirectionOptions.leftToRightDirection;
 }
 ```
 
@@ -145,7 +149,7 @@ With InDesign scripting, if you need to change the main direction of an existing
 ```js
 with(myTextFrame){
     //Set ME paragraph attributes.
-    paragraphs.item(0).paragraphDirection = ParagraphDirectionOptions.leftToRightDirection;
+    paragraphs.item(0).paragraphDirection = myInDesign.ParagraphDirectionOptions.leftToRightDirection;
 }
 ```
 
@@ -153,7 +157,7 @@ with(myTextFrame){
 You can also use this property to set text defaults both for the application and for each document:
 
 ```js
-myDocument.textDefaults.paragraphDirection = ParagraphDirectionOptions.rightToLeftDirection;
+myDocument.textDefaults.paragraphDirection = myInDesign.ParagraphDirectionOptions.rightToLeftDirection;
 ```
 
 ## Justification
@@ -164,14 +168,14 @@ With InDesign scripting, you can change the default or the existing attribute of
 ```js
 with(myTextFrame){
     //Set ME paragraph attributes.
-    paragraphs.item(1).paragraphJustification = ParagraphJustificationOptions.naskhJustification;
+    paragraphs.item(1).paragraphJustification = myInDesign.ParagraphJustificationOptions.naskhJustification;
 }
 ```
 
 ### Justification for text defaults
 
 ```js
-myDocument.textDefaults.paragraphJustification = ParagraphJustificationOptions.arabicJustification;
+myDocument.textDefaults.paragraphJustification = myInDesign.ParagraphJustificationOptions.arabicJustification;
 ```
 
 ## Setting character attributes
@@ -182,7 +186,7 @@ You can choose the language in which you want your numeric digits to be displaye
 
 ```js
 myTextFrame.contents = "Farsi Digits: 1234567890";
-myTextFrame.paragraphs.item(0).digitsType = DigitsTypeOptions.farsiDigits;
+myTextFrame.paragraphs.item(0).digitsType = myInDesign.DigitsTypeOptions.farsiDigits;
 ```
 
 ### Kashidas
@@ -190,9 +194,9 @@ The Arabic and Naskh justification algorithms insert kashidas and spaces. If you
 
 ```js
 myTextFrame.contents = "كُتِبَ Kashidas Off";
-myTextFrame.paragraphs.item(0).kashidas = KashidasOptions.kashidasOff;
-myTextFrame.paragraphs.item(0).justification = Justification.fullyJustified;
-myTextFrame.paragraphs.item(0).paragraphJustification = ParagraphJustificationOptions.naskhJustification;
+myTextFrame.paragraphs.item(0).kashidas = myInDesign.KashidasOptions.kashidasOff;
+myTextFrame.paragraphs.item(0).justification = myInDesign.Justification.fullyJustified;
+myTextFrame.paragraphs.item(0).paragraphJustification = myInDesign.ParagraphJustificationOptions.naskhJustification;
 ```
 
 ### Characters direction
@@ -201,7 +205,7 @@ To correctly handle bidirectional text, InDesign Server stores character directi
 ```js
 myTextFrame.contents = "Farsi + L dir: 1234567890";
 for (i=15 ; i < 25 ; i++) {
-    myTextFrame.parentStory.characters.item(i).characterDirection = CharacterDirectionOptions.leftToRightDirection;
+    myTextFrame.parentStory.characters.item(i).characterDirection = myInDesign.CharacterDirectionOptions.leftToRightDirection;
 }
 ```
 
@@ -212,7 +216,7 @@ Diacritic Positioning can be accessed with scripting using the DiacriticPosition
 
 ```js
 myTextFrame.contents = "كُتِبَ Loose";
-myTextFrame.paragraphs.item(0).diacriticPosition = DiacriticPositionOptions.loosePosition;
+myTextFrame.paragraphs.item(0).diacriticPosition = myInDesign.DiacriticPositionOptions.loosePosition;
 myTextFrame.contents = "كُتِبَ Custom";
 myTextFrame.parentStory.characters.item(1).xOffsetDiacritic = 150;
 myTextFrame.parentStory.characters.item(1).yOffsetDiacritic = -150;
@@ -247,8 +251,8 @@ catch (myError){
 }
 with(myCharacterStyleME){
     appliedFont = app.fonts.item("Adobe Arabic");
-    digitsType = DigitsTypeOptions.farsiDigits;
-    characterDirection = CharacterDirectionOptions.leftToRightDirection;
+    digitsType = myInDesign.DigitsTypeOptions.farsiDigits;
+    characterDirection = myInDesign.CharacterDirectionOptions.leftToRightDirection;
 }
 //Create a paragraph style named "myParagraphStyle" if
 //no style by that name already exists.
@@ -262,12 +266,12 @@ catch (myError){
     myParagraphStyleME = myDocument.paragraphStyles.add({name:"myParagraphStyleME"});
 }
 with(myParagraphStyleME){
-    justification =  Justification.fullyJustified;
-    paragraphDirection = ParagraphDirectionOptions.rightToLeftDirection;
-    paragraphJustification = ParagraphJustificationOptions.naskhJustification;
+    justification =  myInDesign.Justification.fullyJustified;
+    paragraphDirection = myInDesign.ParagraphDirectionOptions.rightToLeftDirection;
+    paragraphJustification = myInDesign.ParagraphJustificationOptions.naskhJustification;
     pointSize = 12;
-    kashidas = KashidasOptions.defaultKashidas;
-    digitsType = DigitsTypeOptions.hindiDigits;
+    kashidas = myInDesign.KashidasOptions.defaultKashidas;
+    digitsType = myInDesign.DigitsTypeOptions.hindiDigits;
     appliedFont = app.fonts.item("Adobe Arabic");
     otfJustificationAlternate = true;
 }

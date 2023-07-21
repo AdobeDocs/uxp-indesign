@@ -1,3 +1,4 @@
+let myInDesign = require("indesign");
 let globalResolve = null;
 const globalWidth = 600;
 const globalHeight = 650;
