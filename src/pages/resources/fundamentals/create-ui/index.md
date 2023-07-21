@@ -121,8 +121,11 @@ We do not suggest that you use any particular library for your plugins but sugge
 
 [React.js](https://reactjs.org/) is one of the most used UI libraries. It's declarative and component-based, helping you break your UI into reusable components. 
 
-See [ui-react-starter](https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/tree/main/ui-react-starter) for the sample project. // TODO update link
+See [react-starter](https://github.com/AdobeDocs/uxp-indesign-samples/plugins/react-starter) for the sample project.
 
+We soon will be adding more samples for other popular frameworks such as Vue, and Svelte.
+
+<!--
 ### Vue
 
 [Vue.js](https://vuejs.org/) is another declarative UI library that's easy to learn. 
@@ -134,26 +137,16 @@ See [ui-vue-starter](https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/t
 [Svelte](https://svelte.dev/) is different from the other two libraries, in the sense that it compiles your code to a simple JS application, shrinking its size.
 
 See [ui-svelte-starter](https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/tree/main/ui-svelte-starter) for the sample project.  // TODO update link
-
+-->
 
 
 ## Reference material
-- [Spectrum Web Components](swc/index.md) and [sample plugin](https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/tree/main/swc-uxp-starter) //TODO link to Id kitchen sink app
-- [Spectrum UXP widgets](Spectrum%20UXP%20Widgets/index.md)
+- [Spectrum Web Components](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/) <!-- //TODO link to Id starter/ kitchen sink sample -->
+- [Spectrum UXP widgets](/indesign/uxp/reference/uxp-api/reference-spectrum/Spectrum%20UXP%20Widgets/)
 - Supported HTML [tags](/indesign/uxp/reference/uxp-api/reference-html/) and [elements](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/)
-- [Kitchen sink sample]() //TODO link to Id kitchen sink app
-
+- [Kitchen sink sample]() <!-- //TODO link to Id starter/ kitchen sink sample -->
 
 ## Applicable to
 - InDesign version v18.5
 - UXP version v7.1
 - Manifest version v5
-
-| Scripts | Plugins |
-| ------- | ------- |
-| ✅ (only via modal dialogs) |  ✅      |
-
-| InDesign | InDesign Cloud Server | InDesign Server |
-| -------- | --------------------- | -------------- |
-| ✅       | ✅ (via Scripts only)   | ✅ (via Scripts only) |
-

@@ -14,6 +14,7 @@ IMPORTANT: Be sure you know about the [manifest permissions](../../../plugins/co
 **In scripts**, assume this value to be ''//TODO get value for scripts and ignore the manifest details below.
 
 
+// TODO Q: is localhost and http (macOS) allowed?
 
 The fastest way to try out a network call is by rendering an image from the web
 
@@ -21,7 +22,7 @@ The fastest way to try out a network call is by rendering an image from the web
 
 #### HTML
 ```html
-<img src='https://source.unsplash.com/random'>
+<img src='https://source.unsplash.com/random' />
 ```
 
 #### manifest
@@ -121,9 +122,9 @@ function foo() {
 let socket;
 async function foo() {
     // Establish web socket connection
-    if (socket) {
+    if (!!socket) {
         console.log("Already connected; disconnecting first.");
-        socket.close();
+        await socket.close();
         return;
       }
 
@@ -141,6 +142,7 @@ async function foo() {
     
     socket.onclose = function(event) {
       console.log("Connection closed");
+      socket = null;
     };
     
     socket.onerror = function(error) {

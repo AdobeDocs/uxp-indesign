@@ -51,9 +51,7 @@ You can also debug your plugin by choosing `Debug` from the Actions menu. This b
 
 ![Debug Window](./images/udt-debugger.png)
 
-In this debugger (which resembles the Chrome Developer tool) you can look at the console log, and do the usual debugger things such as setting breakpoints, stepping into and out of functions, etc. 
-
-The tool does have several limitations including the inability to edit CSS styles in the property inspector, but even so, you can now walk through code, inspect elements, and more. <!-- TODO Verify about CSS-->
+In this debugger (which resembles the Chrome Developer tool) you can look at the console log, and do the usual debugger things such as setting breakpoints, stepping into and out of functions, walking through code, inspecting elements, and more.
 
 You may also instruct to "break on start" when debugging your plugins. The plugin will immediately break into the debugger when it is loaded so that you can trace through the plugin's initialization routines. Select `More` from the Actions menu and check on 'Break on start'.
 

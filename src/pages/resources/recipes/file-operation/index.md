@@ -55,8 +55,8 @@ For sandbox, you can use `plugin:/`, `plugin-data:/`and `plugin-temp:/`. // TODO
 And, for other locations, use `file:/`.
 
 ```html
-<img src="plugin:/sample.png">
-<img src="file:/Users/user/Downloads/sample.png">
+<img src="plugin:/sample.png" />
+<img src="file:/Users/user/Downloads/sample.png" /> <!-- update the path based on your system -->
 ```
 
 ## APIs
@@ -127,7 +127,7 @@ async function foo() {
     // Access other location
     if (fsProvider.isFileSystemProvider) {
         try {
-            const pluginFolder = await fsProvider.getEntryWithUrl("file:/Users/user/Documents");
+            const pluginFolder = await fsProvider.getEntryWithUrl("file:/Users/user/Documents"); // update the path based on your system
             console.log(`File path: ${pluginFolder.nativePath}`);
         } catch (e) {
             console.error(e);
@@ -163,7 +163,7 @@ async function foo() {
         const { domains, fileTypes } = require('uxp').storage;
 
         try {
-                const file = await fsProvider.getFileForOpening({ initialDomain: domains.userDesktop, types: fileTypes.text });
+            const file = await fsProvider.getFileForOpening({ initialDomain: domains.userDesktop, types: fileTypes.text });
             if (!file) {
                 console.error("Something went wrong.");
                 return;
@@ -230,7 +230,7 @@ async function readFileUsingTokensInLocalFileSystem() {
 - Instance of [localFileSystem](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/FileSystemProvider/)
 - [Entry](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/Entry/) and [Entry metadata](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/EntryMetadata/)
 - [File](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/File/) and [Folder](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/Folder/)
-- [Path] (/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Path/)
+- [Path](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Path/)
 
 ### FS Module
 Based on NodeJS file system APIs, these provide direct access to file locations with the help of schema.
@@ -273,8 +273,7 @@ const fs = require("fs");
 async function foo() {
     // Write to a arbitrary location using fs module
     try {
-        await fs.writeFile("/Users/user/Desktop/output.txt", "This is a sample text.", {encoding: "utf-8"});
-        console.log(`File content: ${text}`);
+        await fs.writeFile("/Users/user/Desktop/output.txt", "This is a sample text.", {encoding: "utf-8"}); // update the path based on your system
     } catch (e) {
         console.error(e);
     }
@@ -292,18 +291,11 @@ async function foo() {
 
 #### Reference material
 - [FS module](/indesign/uxp/reference/uxp-api/reference-js/Modules/FileSystem/)
-- [Path] (/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Path/)
+- [Path](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Path/)
 
 ## Applicable to
 - InDesign version v18.5
 - UXP version v7.1
-- Manifest  v5
+- Manifest v5
 
-| Scripts | Plugins |
-| ------- | ------- |
-| ✅      |  ✅      |
-
-| InDesign | InDesign Cloud Server | InDesign Server |
-| -------- | --------------------- | --------------- |
-| ✅       | ✅                     | ✅              |
 

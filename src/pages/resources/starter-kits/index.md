@@ -1,22 +1,28 @@
 # Starters and samples
-To help you start writing scripts and plugins to solve real-world problems, you can use our sample and starter templates.
+To help you start writing scripts and plugins to solve real-world problems, you can use the samples and starter templates.
 
-**Scripts**<br></br>
-InDesign has a bunch of sample UXP Scripts readily available within the app. Find them under Windows-> Utilities -> Scripts panel. 
-![Packaged sample scripts](1.png)
+Consider 'samples' to be a working example of a specific feature. Whereas, a 'starter' is meant to assist you with the framework setup.
 
-For additional samples, look at the [repo](https://github.com/AdobeDocs/uxp-indesign-samples/scripts).
+## Git repo
+You can find samples and starters for scripts/plugins [here](https://github.com/AdobeDocs/uxp-indesign-samples). 
 
-**Plugins** <br></br>
-You can find samples and starters for plugins [here](https://github.com/AdobeDocs/uxp-indesign-samples).
-Consider 'samples' to be a working example of a specific feature. Whereas, a 'starter' is meant to assist you with framework setup. We recommend you begin by exploring the kitchen-sink for UXP Spectrum widgets (//TODO add link to kitchen sink) to understand all the available UI controls in UXP. 
+## UDT
+Additionally, UDT also provides a few templates that you can choose from while creating a new plugin. <br></br>
 
-<br></br>
+![Templates in UDT](create-plugin-template.png)
 
-If you are looking for a basic template for scripts/plugins, use first-script-starter.idjs and first-plugin-starter. // TODO add links to starter.
-Alternatively, you can select starter plugins from UDT while 'Creating' a plugin.
+## In-app helpers
+InDesign has a bunch of sample UXP Scripts readily available within the app. Find them under Windows-> Utilities -> Scripts panel. <br></br>
 
-Remember, that examples within scripts can also be used within plugins, and vice versa. After all, you can think of plugins as scripts + sophisticated UI controls + manifest configurations. 
+![Packaged sample scripts](scripts-panel.png)
 
-We would love to add more samples that cover relevant use cases. Please help us by contributing to the repo and sharing your work with the community. Create a pull request and tag us for review.
+## Recipes
+The next section covers [recipes](../recipes/) for common use cases. 
+
+
+<br></br> <br></br>
+
+Remember, that examples within scripts can also be used within plugins, and vice versa. After all, you can think of UXP plugins as UXP scripts + sophisticated UI controls + manifest configurations. 
+
+We would love to add more samples that cover relevant use cases. Please contribute to the repo and share your work with the community. Create a pull request and tag us for review.
  

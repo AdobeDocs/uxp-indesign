@@ -13,7 +13,7 @@ To open the folder containing a script shown in the Scripts panel, select the sc
 
 ### Keyboard shortcuts
 
-To add a keyboard shortcut for a script, choose Edit > Keyboard Shortcuts, select an editable shortcut set from the Set menu, then choose Product Area > Scripts. A list of the scripts in your Scripts panel appears. Select a script and assign a keyboard shortcut as you would for any other InDesign feature.
+To add a keyboard shortcut for a script, choose Edit > Keyboard Shortcuts, select `[Default]` from the Set menu, then choose Product Area > Scripts. A list of the scripts in your Scripts panel appears. Select a script and assign a keyboard shortcut as you would for any other InDesign feature.
 
 
 ## Run script during application startup

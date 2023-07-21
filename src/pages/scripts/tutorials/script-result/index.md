@@ -2,50 +2,35 @@
 
 Since InDesign v18.4, you can "set result" of a UXP script. 
 
-After execution, a script can have its own result which then can be used for debugging purposes on InDesign Server. The result of the script can also be stored in a variable and be used by another script in both InDesign App and InDesign Server. Setting the script result can be accomplished using the `script.setResult()` API.
+After execution, a script can return a result, which could be used for evaluating the outcome of script execution. The result can be set using `script.setResult()` API as shown below.
 
-## Usage
+## Setting the result
 The following line sets the result of the UXP script being executed to the string `"Hello World!"`.
 
 ```js
+// called.idjs
 const script = require("uxp").script;
 script.setResult("Hello World!");
 ```
 
 
-## Debugging on InDesign Server
-If we want to debug any variable, we can pass the variable name in the script.setResult() API. This will not only give the variable value but also the type. The following script demonstrates this. 
-
-```js
-const script = require("uxp").script;
-script.setResult("Hello World!");
-```
-The result after executing this script on InDesign Server is shown on the client side. 
-
-```
-Script result (std__string): Hello World!
-```
-
-
-## Read script result
+## Reading the script result
 The below code snippets demonstrate how to read the script result of another script.
 
 ```js
-//caller.idjs
+// caller.idjs
 const myInDesign = require("indesign");
 const app = myInDesign.app;
 const resultOfCalledScript = app.doScript("PATH_TO_CALLED.IDJS/called.idjs", myInDesign.ScriptLanguage.UXPSCRIPT);
 console.log(resultOfCalledScript);
 ```
 
-```js
-//called.idjs
-const script = require("uxp").script;
-script.setResult("Result of called script");
-```
+Scripts can return a result by setting the appropriate value using `setResult()` API. This result is returned to the entity that invoked this script. If this script was executed from InDesign's scripts panel, then the result is ignored. 
+However, for scripts executed in InDesign Server, the result value is returned to the client that requested the script execution. If the script is forked by another script using `app.doScript()` API the result value set by 'called' script is returned to the 'caller' script, as illustrated above.
 
-The result after executing `caller.idjs` on InDesign Server is shown on the client side. **Note: The same functionality is also available on the InDesign App.**
+
+The result after executing this script on InDesign Server is shown on the client side. 
 
 ```
-Script result (std__string): Result of called script
+Script result (std__string): Hello World!
 ```

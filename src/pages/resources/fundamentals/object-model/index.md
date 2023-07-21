@@ -1,6 +1,6 @@
 # Object model
 
-Understanding the object model is the key to finding the object you want to work with.
+Understanding the object model of an InDesign document is the key to finding the object you want to work with.
 
 The following figure is an overview of the InDesign object model. Objects in your publication are arranged in a specific order: frames are on pages, which are inside a document, which is inside the InDesign application object. This hierarchy of objects is referred to as the object model and these objects together make up an InDesign publication.
 

@@ -32,7 +32,7 @@ async function foo() {
     // Reading from clipboard and printing
     clipboard.getContent()
         .then((result) => {
-            console.log(`Data from clipboard:" ${result["text/plain"]}`);
+            console.log(`Data from clipboard: ${result["text/plain"]}`);
         }, (error) => {
             console.error("Error while reading data from clipboard:", error);
         });
