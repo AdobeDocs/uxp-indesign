@@ -3,6 +3,12 @@
 
 While writing complex logic, you might be in the cycle of testing/debugging your code. Although UDT -> Debug lets you set breakpoints and debug your code using Chrome Debug Tool, these couple of techniques may also prove handy.
 
+## System requirements
+Please make sure your local environment uses the following application versions before proceeding.
+- InDesign v18.5 or higher
+- UXP version v7.1 or higher
+- Manifest version v5 or higher
+
 
 ## Console logs
 
@@ -44,23 +50,4 @@ async function foo() {
 
 ## Additional notes
 - [UXP Alerts](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert/) are currently not supported in InDesign.
-
-## Compatibility
-
-- InDesign version v18.5
-- UXP version v7.1
-- Manifest version v5
-
-| Scripts | Plugins |
-| ------- | ------- |
-| ✅      |  ✅     |
-
-| InDesign | InDesign Cloud Server | InDesign Server |
-| -------- | --------------------- | -------------- |
-| ✅       | ✅ (via Scripts only)  | ✅ (Scripts) |
-
-
-
-
-
 

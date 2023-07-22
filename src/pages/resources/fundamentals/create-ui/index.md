@@ -109,7 +109,7 @@ The choice you make depends on your use case and the stage of development you ar
 If you are looking for a ready-made Adobe Spectrum-styled UI or are just getting started with programming your UI, we recommend you start your journey with SWC. Fall back to Spectrum UXP widgets for the comps that are not available yet. And use plain HTML elements when they are not available in either.
 
 
-However, if you prefer vanilla HTML and don't mind undertaking the efforts of styling, use the HTML elements along with your custom stylesheet. In fact, you can build your custom tags using Web Components. Make sure you read the next section of [CSS Styling](./styling.md)
+However, if you prefer vanilla HTML and don't mind undertaking the efforts of styling, use the HTML elements along with your custom stylesheet. Make sure you read the [CSS Styling](../../recipes/css-styling/) recipe.
 
 ## Additional notes
 
@@ -144,9 +144,5 @@ See [ui-svelte-starter](https://github.com/AdobeDocs/uxp-photoshop-plugin-sample
 - [Spectrum Web Components](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/) <!-- //TODO link to Id starter/ kitchen sink sample -->
 - [Spectrum UXP widgets](/indesign/uxp/reference/uxp-api/reference-spectrum/Spectrum%20UXP%20Widgets/)
 - Supported HTML [tags](/indesign/uxp/reference/uxp-api/reference-html/) and [elements](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/)
-- [Kitchen sink sample]() <!-- //TODO link to Id starter/ kitchen sink sample -->
+<!-- [Kitchen sink sample]() - //TODO link to Id starter/ kitchen sink sample -->
 
-## Applicable to
-- InDesign version v18.5
-- UXP version v7.1
-- Manifest version v5

@@ -2,6 +2,13 @@
 
 To perform any file operations including read, write, create, and delete, UXP provides a couple of options. But before we look at the APIs, let's get acquainted with a few concepts.
 
+
+## System requirements
+Please make sure your local environment uses the following application versions before proceeding.
+- InDesign v18.5 or higher
+- UXP version v7.1 or higher
+- Manifest version v5 or higher
+
 ## Concepts
 
 ### Sandbox and other locations
@@ -11,12 +18,12 @@ UXP, by default, only allows access to certain locations in the user's file syst
 
 Scripts and plugins
 
-**In plugins**, a sandbox is typically the plugin's folder, plus a temporary and data folder. The plugin's location is read-only. Whereas, the temporary and data folders are provided to you to store transitory information. Note that the data stored here can get accidentally erased and should not be considered permanent.
+**In plugins**, a sandbox is typically the plugin's folder, plus a temporary and data folder. The plugin's location is read-only. Whereas, the temporary and data folders are provided to you to store transitory information. Note that the data stored in these locations can get accidentally erased and should not be considered permanent.
 
-**In scripts**, lorem ipsum. // TODO What about sandbox locations in scripts?
+**In scripts**, a sandbox just consists of a temporary folder. It is meant to store transitory information and can get accidentally erased.
 
 
-However, we understand that there are circumstances when you would like to have access to other locations as well. Accessing such locations, too, is possible in UXP but you will need to seek permission first.
+However, we understand that there are circumstances when you would like to access other file locations as well. Accessing such locations is possible in UXP but you will need to seek permission first.
 
 
 ### Manifest permission
@@ -28,7 +35,7 @@ Scripts and plugins
 
 **In scripts**, these permissions are fixed to '' and you cannot alter them //(TODO Add link to details) and ignore the manifest details below. 
 
-**In plugins**, you should seek permission for `localFileSystem` in your manifest.<br></br> IMPORTANT: Be sure you know about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before you proceed.
+**In plugins**, you should seek permission for `localFileSystem` in your manifest.<br></br> IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before proceeding.
 
 
 Let's understand the manifest settings a bit more in detail.
@@ -42,16 +49,15 @@ Let's understand the manifest settings a bit more in detail.
 ```
 Allowed values for `localFileSystem` are:
 - `plugin`: Default value. Provides access to the sandbox.
-- `request`: Let's you request the user to select a folder location of their choice.
+- `request`: Let's you request the user to select a location of their choice.
 - `fullAccess`: Provides full access to the user file system
-//TODO Q: Does fullAccess file system include system folders?
 
 *Protip*: Make sure you pick the most accurate permission for your use case because in the future we may ask users to provide their consent based on it. You may find 'fullAccess' to be the least restrictive and hence the safest to pick, but a user may not be comfortable giving full access to their system unless it's absolutely necessary and might deny the installation of your plugin. 
 
-### Schemas
-UXP provides a shorthand representation of these locations via schemas.
+### Schemes
+UXP provides a shorthand representation of these locations via schemes.
 
-For sandbox, you can use `plugin:/`, `plugin-data:/`and `plugin-temp:/`. // TODO Q: Do these work in scripts? <br></br>
+For sandbox, you can use `plugin:/`, `plugin-data:/`and `plugin-temp:/`. <!-- // TODO Q: Do these work in scripts? <br></br> -->
 And, for other locations, use `file:/`.
 
 ```html
@@ -59,9 +65,9 @@ And, for other locations, use `file:/`.
 <img src="file:/Users/user/Downloads/sample.png" /> <!-- update the path based on your system -->
 ```
 
-## APIs
+## Example
 You have two options to access the file system - `LocalFileSytem` and `FS` module.
-// TODO Q: How should a developer choose between the FS module and localfilesystem? What special use cases are supported by them?
+<!-- // TODO Q: How should a developer choose between the FS module and localfilesystem? What special use cases are supported by them? -->
 
 ### LocalFileSytem API
 Available via `require('uxp').storage.localFileSystem` which returns an instance of `FileSystemProvider`.
@@ -168,6 +174,8 @@ async function foo() {
                 console.error("Something went wrong.");
                 return;
             }
+
+            // read the file content
             const text = await file.read();
             console.log(`File content: ${text}`);
         } catch (err) {
@@ -185,6 +193,8 @@ async function bar() {
                 console.error("Something went wrong.");
                 return;
             }
+
+            // write content to file
             await file.write("UXP saved sample file.");
         } catch (err) {
             console.error(err);
@@ -203,7 +213,12 @@ async function bar() {
 ```
 **Save user's choice of location**
 
-If you would like to remember the user's choice for an extended period, you can do it with the help of a token. The example below shows the essence of this usage but you should ideally save these tokens in the storage (more details covered in [Storage](./storage.md) section) for later use.
+If you would like to remember the user's choice for an extended period, you can do it with the help of a token. There are two types of tokens you can create
+- Session token - lasts until the plugin is 'Unloaded' or 'Uninstalled'
+- Persistent token - is more permanent in nature, and can last for multiple sessions.
+
+The example below shows the essence of this usage but you should ideally save these tokens in the storage (more details covered in [Storage](./storage.md) section) for later use.
+
 
 ```js
 const fsProvider = require('uxp').storage.localFileSystem;
@@ -223,8 +238,6 @@ async function readFileUsingTokensInLocalFileSystem() {
     }
 }
 ```
-
-//TODO Q: What is the difference between persistent and session token?
 
 #### Reference material
 - Instance of [localFileSystem](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/FileSystemProvider/)
@@ -290,12 +303,9 @@ async function foo() {
 ```
 
 #### Reference material
-- [FS module](/indesign/uxp/reference/uxp-api/reference-js/Modules/FileSystem/)
+- [FS module](/indesign/uxp/reference/uxp-api/reference-js/Modules/fs/)
 - [Path](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Path/)
 
-## Applicable to
-- InDesign version v18.5
-- UXP version v7.1
-- Manifest v5
 
-
+## Additional Notes
+- Despite the manifest setting `fullAccess`, certain files and folders may still not be accessible. It depends on the permission of the Operating System. For Win32 and Mac, `FS` APIs can access anywhere in the file system. But, for UWP, accessing the system folder is prohibited.

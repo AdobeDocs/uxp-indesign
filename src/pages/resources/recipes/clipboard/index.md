@@ -2,11 +2,19 @@
 # Clipboard
 Read and write content from and to the clipboard.
 
+
+## System requirements
+Please make sure your local environment uses the following application versions before proceeding.
+- InDesign v18.5 or higher
+- UXP version v7.1 or higher
+- Manifest version v5 or higher
+
+
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
 Scripts and plugins
 
-**In plugins**, you should seek permission for `clipboard` access in the manifest. IMPORTANT: Read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) before you proceed.
+**In plugins**, you should seek permission for `clipboard` access in the manifest. <br></br> IMPORTANT: Read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) before you proceed.
 
 **In scripts**, assume this value to be '' and ignore the manifest details in the following example.//TODO Get value for scripts and ignore the manifest details below.
 
@@ -55,18 +63,4 @@ async function foo() {
 ## Reference material
 - [Clipboard](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/) APIs
 
-
-## Compatibility
-
-- InDesign version v18.5
-- UXP version v7.1
-- Manifest version v5
-
-| Scripts | Plugins |
-| ------- | ------- |
-| ✅      |  ✅      |
-
-| InDesign | InDesign Cloud Server | InDesign Server |
-| -------- | --------------------- | -------------- |
-| ✅       | ✅ (via Scripts only)  | ✅ (Scripts) |
 

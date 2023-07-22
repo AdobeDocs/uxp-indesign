@@ -9,12 +9,12 @@ You may be looking for ways to make network calls for various reasons such as fe
 Scripts and plugins
 
 **In plugins**, you should seek permission for `network` access in the manifest and specify the `domains` of the endpoints. <br></br> 
-IMPORTANT: Be sure you know about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before you proceed.
+IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#networkpermission) module before you proceed.
 
 **In scripts**, assume this value to be ''//TODO get value for scripts and ignore the manifest details below.
 
 
-// TODO Q: is localhost and http (macOS) allowed?
+<!-- // TODO Q: is localhost and http (macOS) allowed? -->
 
 The fastest way to try out a network call is by rendering an image from the web
 
@@ -165,8 +165,8 @@ async function foo() {
 ```
 
 ## Additional notes
-- These APIs are available in the global scope. Note, that you didn't have to mount them using `require`.
-- The `domains` in the plugin's manifest also let you configure variations of the endpoints. For example, your plugin may access 'api.dev.example.com', 'api.stage.example.com' or 'api.prod.example.com' depending upon the environment. You can configure the domains with `["https://api.*.example.com"]` to manage all three.
+- These APIs are available in the global scope. Observe that you didn't have to mount them using `require`.
+- The `domains` in the plugin's manifest also let you configure variations of the endpoints. For example, your plugin may like to access 'api.dev.example.com', 'api.stage.example.com' or 'api.prod.example.com' depending upon the environment. You can configure the domains with `["https://api.*.example.com"]` to manage all three.
 
 
 

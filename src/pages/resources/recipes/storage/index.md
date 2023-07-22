@@ -4,10 +4,11 @@ Sometimes, you may want to simply store a key-value pair and use it later with a
 
 UXP supports three types of storages `Session Storage`, `Local Storage` and `Secure Storage`. The APIs for all three look very similar, but you should choose the right storage based on your use case.
 
-**Session Storage** keeps data only valid up to a session. 
-//TODO: Q: How do we define a 'session' for plugins and scripts?
+**Session Storage** keeps data only valid up to a session.
+- In plugins, a session lasts from 'Load' to 'Unload' of the plugin when managed from UDT. If installed, it lasts from the launch' till the quit of the application.
+- In scripts, every execution is considered a separate session.
 
-To store the data for an extended period you can choose from **Local storage** and **Secure storage**. Secure Storage is apt for storing sensitive information such as passwords.
+To store the data for an extended period choose from **Local storage** and **Secure storage**. Secure Storage is apt for storing sensitive information such as passwords.
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -34,7 +35,7 @@ await storage.setItem('key', 'value');
 await storage.getItem('key');
 ```
 
-// TODO Q: Any size constraints?
+<!-- // TODO Q: Any size constraints? -->
 
 ## Reference material
 - [Local Storage](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Storage/LocalStorage/)

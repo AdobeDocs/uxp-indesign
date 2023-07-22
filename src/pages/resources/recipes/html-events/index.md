@@ -1,8 +1,8 @@
 
 # HTML events and event listeners
-On the web, you can use different techniques to capture an HTML event and add `eventlisteners`` to an element. UXP too, supports these ways. 
+There are different techniques to capture an HTML event and add `eventlisteners` to an element.
 
-It is simply your preference; the method you feel most comfortable with. However, there might be a need for you to configure the right permission for inline event handlers, such as `<button onclick="btnClick()">Click Me</button>` 
+The technique you choose is simply your preference. Pick the method you feel most comfortable with. However, you need to configure one particular permission for inline event handlers, such as `<button onclick="btnClick()">Click Me</button>` 
 
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
@@ -10,13 +10,20 @@ It is simply your preference; the method you feel most comfortable with. However
 Scripts and plugins
 
 **In plugins**, you will need to enable `allowCodeGenerationFromStrings` if you would like to use the inline event handlers shown above. <br></br>
-IMPORTANT: Be sure you know about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before you proceed.
+IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before you proceed.
 
-**In scripts**, these permissions are fixed to '' and you cannot alter them. //(TODO Add link to details)
+**In scripts**, since you cannot add inline event listeners, this permission is not applicable.
 
 
+## System requirements
+Please make sure your local environment uses the following application versions before proceeding.
+- InDesign v18.5 or higher
+- UXP version v7.1 or higher
+- Manifest version v5 or higher
 
-## Example
+## Examples
+
+**Declaring event listeners in JavaScript**
 
 <CodeBlock slots="heading, code" repeat="2" languages="HTML, JavaScript" />
 
@@ -39,7 +46,7 @@ function foo(event) {
 }
 ```
 
-## Example using inline event handlers
+**Declaring inline event handlers**
 
 <CodeBlock slots="heading, code" repeat="3" languages="HTML, JavaScript, JSON" />
 
@@ -64,23 +71,10 @@ function foo(event) {
 }
 ```
 
-
+<!-- 
 ## Additional notes
 // TODO Q: Any difference in the way the events and events listeners work with SWC and Spectrum widgets?
+-->
 
 ## Reference material
 - [HTML Events](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/)
-
-## Applicable to
-
-- InDesign version v18.5
-- UXP version v7.1
-- Manifest version v5
-
-| Scripts | Plugins |
-| ------- | ------- |
-| ✅ (only via modal dialog) |  ✅      |
-
-| InDesign | InDesign Cloud Server | InDesign Server |
-| -------- | --------------------- | -------------- |
-| ✅       | ✅ (via Scripts only)  | ✅ (via Scripts only)|

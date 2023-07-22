@@ -16,6 +16,11 @@ Additionally, you will need
     - the structure of arguments to be passed (if applicable)
 - `enablePluginCommunication` permission for your plugin
 
+## System requirements
+Please make sure your local environment uses the following application versions before proceeding.
+- InDesign v18.5 or higher
+- UXP version v7.1 or higher
+- Manifest version v5 or higher
 
 ## Example 
 
@@ -126,9 +131,3 @@ Keep in mind that,
 
 ## Reference docs
 - [Plugin Manager](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Plugin%20Manager/PluginManager/)
-
-
-## Applicable to
-- InDesign version v18.5 onwards
-- UXP version v7.1 onwards
-- Manifest version v5 onwards

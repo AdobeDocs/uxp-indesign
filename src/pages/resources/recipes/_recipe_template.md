@@ -20,6 +20,13 @@ Scripts and plugins
 
 
 
+## System requirements
+Please make sure your local environment uses the following application versions before proceeding.
+- InDesign v18.5 or higher
+- UXP version v7.1 or higher
+- Manifest version v5 or higher
+
+
 ## Example
 <!-- Provide a simple example using code snippets -->
 
@@ -47,11 +54,6 @@ Screenshot illustrating the output (if applicable)
 
 
 ## Reference material
-<!-- Links to API docs used in the code above -->
+<!-- Recipes should end with links to API docs used in the code above -->
 - <!-- <a href={`${siteConfig.uxpApiPath}`}>API</a> -->
 
-## Prerequisites & Compatibility 
-<!-- Summarize the availability -->
-- InDesign version v18.5
-- UXP version v7.1
-- Manifest version v5

@@ -1,13 +1,20 @@
 
 # HTML Elements
 
-UXP core APIs let you create renditions. But depending on whether you are writing scripts or plugins, you can create UI using HTML tags or just JavaScript.
+UXP core APIs let you create renditions but depending on whether you are writing scripts or plugins, you can create UI either by using HTML tags or just stick to JavaScript.
+
+## System requirements
+Please make sure your local environment uses the following application versions before proceeding.
+- InDesign v18.5 or higher
+- UXP version v7.1 or higher
+- Manifest version v5 or higher
+
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
 Scripts and plugins
 
-**In scripts**, you only have the option to create UI from the script (JavaScript) file. Moreover, remember that scripts only allow you to create modal dialogs requiring you to handle the showing/hiding with async/promises.
+**In scripts**, you only have the option to create UI from the `.idjs` script (JavaScript) file. Moreover, remember that scripts only allow you to create UI within a modal dialog.
 
 **In plugins**, a panel can be created both ways - using HTML tags or JavaScript. However, command plugins behave similarly to scripts and can create only modal dialogs from JavaScript.
 
@@ -101,25 +108,10 @@ function showDialog() {
 
 ![Sample dialog](sample-dialog.png)
 
+## Additional notes
+- Creating dialogs within scripts can sometimes be a little tricky requiring you to handle the showing/hiding with async/promises. Check out the script tutorial on modal dialogs.<!--// TODO add linkI>
+
 ## Reference material
 - [Dialog Element](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLDialogElement/)
 - [Other HTML Elements](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/)
-
-## Compatibility
-- InDesign version v18.5
-- UXP version v7.1
-- Manifest version v5
-
-| Scripts | Plugins |
-| ------- | ------- |
-| ✅      |  ✅      |
-
-| InDesign | InDesign Cloud Server | InDesign Server |
-| -------- | --------------------- | -------------- |
-| ✅       | ✅ (via Scripts only)  | ✅ (via Scripts only) |
-
-
-
-
-
 

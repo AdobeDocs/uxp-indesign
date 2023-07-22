@@ -17,7 +17,7 @@ InDesign has a bunch of sample UXP Scripts readily available within the app. Fin
 ![Packaged sample scripts](scripts-panel.png)
 
 ## Recipes
-The next section covers [recipes](../recipes/) for common use cases. 
+The next section of [recipes](../recipes/) also has examples of common use cases. 
 
 
 <br></br> <br></br>
