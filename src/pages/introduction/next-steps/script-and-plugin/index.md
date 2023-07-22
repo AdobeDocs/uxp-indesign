@@ -45,11 +45,11 @@ The following table will let you compare other differences. <br></br>
         </tr>
         <tr>
             <td><b>Distributable</b> <br></br>
-                <i>(Privately or via Adobe Marketplace)</i> 
+                <i>(Privately, own distribution channel or via Adobe Marketplace)</i> 
             </td>
             <td> <br></br>
-                Privately, Yes. You can share your `.idjs` file with others who can include it in the scripts panel. <br></br>
-                However, scripts ate **not** distributable via Adobe Marketplace.<br></br></td>
+                You can share your `.idjs` file with others who can include it in the scripts panel. <br></br>
+                However, scripts are <b>not</b> distributable via Adobe Marketplace.<br></br></td>
             <td>
                 Once you create a packaged plugin with a `.ccx` extension, you can share it with others in multiple ways - privately, or via Adobe Marketplace or your own distribution channel.<br></br>
                 </td>

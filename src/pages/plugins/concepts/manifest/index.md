@@ -548,6 +548,14 @@ Represents a localized string. The key is the locale, and the value is the trans
 ### PermissionsDefinition
 
 <p>To ensure that plugins are secure, UXP requires that plugins declare the permissions they need to function.</p>
+
+
+<InlineAlert variant="info" slots="header, text"/>
+
+**Pro tip**
+
+Make sure you configure the most accurate permission for your use case because in the future we will ask users to provide their consent based on it. For example, for file operations, you may find 'fullAccess' to be the least restrictive and hence the easiest to pick, but a user may not be comfortable giving full access to their system unless it's absolutely necessary and might deny the installation of your plugin altogether. 
+
 <h4>Properties</h4>
 <table>
     <thead>
@@ -837,6 +845,7 @@ window.addEventListener("message", (event) => \{
 </table>
 
 <p>The <a href="/indesign/uxp/plugins/tutorials/inter-plugin-comm/">inter-plugin communication example</a> has more details.</p>
+
 
 ### FeatureFlags
 
