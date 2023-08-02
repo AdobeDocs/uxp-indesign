@@ -19,8 +19,7 @@ The below code snippets demonstrate how to read the script result of another scr
 
 ```js
 // caller.idjs
-const myInDesign = require("indesign");
-const app = myInDesign.app;
+let { app } = require("indesign");
 const resultOfCalledScript = app.doScript("PATH_TO_CALLED.IDJS/called.idjs", myInDesign.ScriptLanguage.UXPSCRIPT);
 console.log(resultOfCalledScript);
 ```

@@ -12,7 +12,7 @@ The objects in the object model generally correspond to the names of controls in
 
 
 ```js
-const { app } = require("indesign").app;
+const { app } = require("indesign");
 let myDocument = app.documents.add();
 ```
 
@@ -21,6 +21,7 @@ The following script fragment shows how to create a new document and set the mar
 
 ```js 
 //Set the measurement units and ruler origin.
+const { MeasurementUnits, RulerOrigin} =  require("indesign");
 myDocument.viewPreferences.horizontalMeasurementUnits = MeasurementUnits.points;
 myDocument.viewPreferences.verticalMeasurementUnits = MeasurementUnits.points;
 myDocument.viewPreferences.rulerOrigin = RulerOrigin.pageOrigin;
@@ -69,6 +70,7 @@ In the "Hello World" example, we created a text frame and specified its position
 ![InDesign object model](Image5.png)
 
 ```js
+const { FirstBaseline, SpecialCharacters, Justification} =  require("indesign");
 var myMasterSpread = myDocument.masterSpreads.item(0);
 var myLeftPage = myMasterSpread.pages.item(0);
 var myRightPage = myMasterSpread.pages.item(1);
@@ -93,6 +95,7 @@ Next, we add master text frames. The following block diagram shows the objects a
 ![InDesign object model](Image6.png)
 
 ```js
+const { FirstBaseline } =  require("indesign");
 var myLeftPage = myMasterSpread.pages.item(0);
 var myRightPage = myMasterSpread.pages.item(1);
 var myLeftTextFrame = myLeftPage.textFrames.add();
@@ -129,6 +132,7 @@ Our headline looks plain, so we will format it in a paragraph style. To do that,
 ![InDesign object model](Image7.png)
 
 ```js
+const { ColorModel } =  require("indesign");
 //First, check to see if the paragraph style already exists.
 var myParagraphStyle = myDocument.paragraphStyles.item("Heading 1");
 try {
@@ -180,6 +184,7 @@ if((myTextFile != "")&&(myTextFile != null)){
 Placing a graphic is like importing a text file. Again, the script displays a dialog box that you can use to select the graphic to place. When we place the graphic, InDesign returns a reference to the graphic itself rather than to the frame containing the graphic. To get a reference to the frame, use the parent property of the graphic. Once we have that reference, we can apply an object style to the frame.
 
 ```js
+const { FitOptions, TextWrapModes } =  require("indesign");
 //Display a standard open file dialog box to select a graphic file.
  var myGraphicFile = <File Path of graphic file>
 //Example : var myGraphicFile = "C://IDS/myImage.PNG";

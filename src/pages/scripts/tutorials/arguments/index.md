@@ -52,8 +52,7 @@ You can pass a variable of type array as the third parameter of the doScript API
 
 ```js
 //caller.idjs
-const myInDesign = require("indesign");
-const app = myInDesign.app;
+let { app } = require("indesign");
 const argsArray = [100,200];
 app.doScript("PATH_TO_CALLED/called.idjs", myInDesign.ScriptLanguage.UXPSCRIPT, argsArray);
 ```
