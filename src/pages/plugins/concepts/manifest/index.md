@@ -410,7 +410,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td>
             <p>A description of the entrypoint. This description is used in tooltips and other places where a longer description is appropriate, depending on the host app.</p>
             <p><strong>Default value</strong></p>
-            <p><inlineCode>undefined</inlineCode> (use plugin name)</p>
+            <p><inlineCode>undefined</inlineCode> (uses the plugin's name)</p>
         </td>
     </tr>
     <tr>
@@ -420,8 +420,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td>
             <p>A keyboard shortcut that can be used to invoke the entrypoint.</p>
             <p>Keyboard shortcuts are specified separately for Windows and macOS platforms. If the shortcut is not available in the host application, it will be ignored.</p>
-            <p><strong>Remarks</strong></p>
-            <p>Currently, keyboard shortcuts are supported in Adobe XD only.</p>
+            <p><strong>Please note:</strong> <em>Currently, keyboard shortcuts are only supported in Adobe XD.</em></p>
             <p><strong>Example</strong></p>
             <code class="language-json">{`"shortcut": {
     "mac": "Cmd+Shift+P", 
@@ -436,8 +435,7 @@ Represents a localized string. The key is the locale, and the value is the trans
                 <li>A letter or number key.</li>
             </ul>
             <p>Letters are case-insensitive (e.g., "Cmd+P" and "Cmd+p" mean the same thing and neither requires pressing Shift). Other keys (including punctuation, arrow keys, or F1-F12) are currently not supported.</p>
-            <p><strong>Info</strong></p>
-            <p>If your shortcut collides with a built-in XD command or another plugin's shortcut, your shortcut will be ignored, and you"ll see a warning printed to the developer console.</p>
+            <p><strong>Please note:</strong><em> If your shortcut collides with a built-in command in the host app, or another plugin's shortcut, your shortcut will be ignored, and you"ll see a warning printed to the developer console.</em></p>
             <p><strong>Default value</strong></p>
             <p><inlineCode>undefined</inlineCode> (no shortcut)</p>
         </td>
@@ -806,7 +804,7 @@ window.addEventListener("message", (event) => \{
 
 [//]: # (TODO: Add link to recipe later https://github.com/AdobeDocs/uxp-indesign/blob/6d1ad4ff1c2e096d01edaf91809cd8b4c8f4cad7/src/pages/resources/recipes/ipc.md)
 
-<p>Allows communication with other plugin.</p>
+<p>Allows communication with other plugins.</p>
 <p><strong>Example</strong></p>
 <code class="language-json">{`{
     "enablePluginCommunication": true
@@ -883,7 +881,7 @@ window.addEventListener("message", (event) => \{
         <td><inlineCode>boolean</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Enables the plugin to use Spectrum Web Components (requires installing and importing the components separately)</p>
+            <p>Enables the plugin to use <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-spectrum/swc/">Spectrum Web Components</a> (requires installing and importing the components separately)</p>
             <p><strong>Example</strong></p>
             <code class="language-html">{`<sp-button variant="primary">
     Click me
