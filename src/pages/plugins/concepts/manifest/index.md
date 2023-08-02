@@ -10,16 +10,12 @@ Each UXP plugin has one `manifest.json` file that describes the plugin. It conta
 version, icons, and entry points.
 
 The manifest file also contains the permissions that the plugin requires. Most importantly, it
-contains your plugin ID which is used to identify your plugin.
+contains your plugin ID which is used to identify your plugin. (Valid plugin IDs are required for distributing in Adobe's Marketplace, read more [in the docmentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/plugin_id/).)
 
 Since UXP plugins can be run in a number of different hosts, the manifest also contains a `host` field that specifies
 which host the plugin is for. This is used to identify the plugin in the manifest and in the plugin bundle.
 
 ## Reference
-
-<InlineAlert slots="text" />
-
-Properties marked with an asterisk (\*) are required.
 
 ### Manifest
 
@@ -72,6 +68,9 @@ Properties marked with an asterisk (\*) are required.
 	}
 }
 ```
+<InlineAlert slots="text" />
+
+Properties marked with an asterisk (\*) are required.
 
 <h4>Properties</h4>
 <table>
@@ -97,7 +96,7 @@ Properties marked with an asterisk (\*) are required.
         <td><inlineCode>string</inlineCode></td>
         <td>required</td>
         <td>
-            <p>The id uniquely identifies a plugin and is used to disambiguate plugin contexts, storage, errors, etc. For plugins distributed through the plugin marketplace, the ID has to match the ID in the Developer Distribution portal.</p>
+            <p>The id uniquely identifies a plugin and is used to disambiguate plugin contexts, storage, errors, etc. For plugins distributed through the plugin marketplace, the ID has to match the ID in <a href="https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/plugin_id/">the Developer Distribution portal</a>.</p>
         </td>
     </tr>
     <tr>
@@ -123,7 +122,7 @@ Properties marked with an asterisk (\*) are required.
         <td><inlineCode>string</inlineCode></td>
         <td>required</td>
         <td>
-            <p>The version indicates the plugin"s version. The string has a format of major.minor.patch.</p>
+            <p>The version indicates the plugin's version. The string has a format of major.minor.patch.</p>
         </td>
     </tr>
     <tr>
@@ -131,7 +130,7 @@ Properties marked with an asterisk (\*) are required.
         <td><inlineCode>string</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Indicates the primary JavaScript or HTML file, relative to the plugin"s installation directory. Supports HTML and JS files, such as <inlineCode>index.html</inlineCode> and <inlineCode>index.js</inlineCode>. If not specified (for deprecations), <inlineCode>main.js</inlineCode> is used.</p>
+            <p>Indicates the primary JavaScript or HTML file, relative to the plugin's installation directory. Supports HTML and JS files, such as <inlineCode>index.html</inlineCode> and <inlineCode>index.js</inlineCode>. If not specified (for deprecations), <inlineCode>main.js</inlineCode> is used.</p>
             <p><strong>Default value</strong></p>
             <p><inlineCode>"main.js"</inlineCode></p>
         </td>
@@ -151,7 +150,7 @@ Properties marked with an asterisk (\*) are required.
         <td><inlineCode>HostDefinition</inlineCode></td>
         <td>required</td>
         <td>
-            <p>The host object indicates the plugin"s compatibility with the host. Incompatible plugins will:</p>
+            <p>The host object indicates the plugin's compatibility with the host. Incompatible plugins will:</p>
             <ul>
                 <li>fail to install if attempted in the given host</li>
                 <li>be invisible in the in-app plugin marketplace for the given host</li>
@@ -297,7 +296,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td><inlineCode>string</inlineCode></td>
         <td>required</td>
         <td>
-            <p>The path to the icon, relative to the plugin"s installation directory. Supports PNG (<inlineCode>.png</inlineCode>), JPG (<inlineCode>.jpg</inlineCode> or <inlineCode>.jpeg</inlineCode>), and SVG (<inlineCode>.svg</inlineCode>) files.</p>
+            <p>The path to the icon, relative to the plugin's installation directory. Supports PNG (<inlineCode>.png</inlineCode>), JPG (<inlineCode>.jpg</inlineCode> or <inlineCode>.jpeg</inlineCode>), and SVG (<inlineCode>.svg</inlineCode>) files.</p>
         </td>
     </tr>
     <tr>
@@ -438,7 +437,7 @@ Represents a localized string. The key is the locale, and the value is the trans
             </ul>
             <p>Letters are case-insensitive (e.g., "Cmd+P" and "Cmd+p" mean the same thing and neither requires pressing Shift). Other keys (including punctuation, arrow keys, or F1-F12) are currently not supported.</p>
             <p><strong>Info</strong></p>
-            <p>If your shortcut collides with a built-in XD command or another plugin"s shortcut, your shortcut will be ignored, and you"ll see a warning printed to the developer console.</p>
+            <p>If your shortcut collides with a built-in XD command or another plugin's shortcut, your shortcut will be ignored, and you"ll see a warning printed to the developer console.</p>
             <p><strong>Default value</strong></p>
             <p><inlineCode>undefined</inlineCode> (no shortcut)</p>
         </td>
