@@ -92,7 +92,7 @@ You have two options to access the file system - `LocalFileSytem` and `FS` modul
 ### LocalFileSytem API
 Available via `require('uxp').storage.localFileSystem` which returns an instance of `FileSystemProvider`.
 
-**Nomenclature**
+#### Nomenclature
 A file system is a conglomerate of files and folders. You can use the `File` and `Folder` classes to refer to them. However, these classes have a base class called `Entry`. The nomenclature of some of the APIs uses 'entry' in them typically when the output type can be either of the two - `File` or `Folder` and be determined only at runtime. Therefore, it's a good practice to check using `isfile` or `isFolder` before using specific APIs.
 
 ```js
@@ -113,7 +113,7 @@ async function foo(){
 
 Now let's take a look at some examples to access system locations based on permission settings.
 
-**Accessing sandbox**
+#### Accessing sandbox
 
 <CodeBlock slots="heading, code" repeat="2" languages="JSON, JavaScript" />
 
@@ -142,7 +142,7 @@ async function foo() {
 }
 ```
 
-**Accessing other locations**
+#### Accessing other locations
 
 <CodeBlock slots="heading, code" repeat="2" languages="JSON, JavaScript" />
 
@@ -171,9 +171,7 @@ async function foo() {
 }
 ```
 
-<br></br>
-
-**User's choice of location**
+#### User's choice of location
 
 These APIs are particularly handy when you want to request the user to select a folder/file location of their choice. For example, the below code snippet using `getFileForOpening` and `getFileForSaving` methods presents a file picker for the user to choose from.
 
@@ -231,7 +229,8 @@ async function bar() {
     }
 }
 ```
-**Save user's choice of location**
+
+#### Save user's choice of location
 
 If you would like to remember the user's choice for an extended period, you can do it with the help of a token. There are two types of tokens you can create
 - Session token - has a shorter span. It lasts until the plugin is 'Unloaded' from UDT or the script finishes its execution or the application is closed. 

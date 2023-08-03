@@ -1,10 +1,10 @@
 ---
-title: 
-description: 
+title: InDesign Document changes
+description: Make modifications to InDesign document
 keywords:
-  - 
+  - InDesign document
 contributors:
-  - 
+  - https://github.com/padmkris123
 ---
 
 # Document changes
