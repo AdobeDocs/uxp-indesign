@@ -1,3 +1,14 @@
+---
+title: Tips and tricks for UXP scripts
+description: quick tips for working with scripts
+keywords:
+  - idjs
+  - code editor
+  - scripts panel
+contributors:
+  - https://github.com/padmkris123
+---
+
 # Tips and tricks for UXP scripts
 Additional tips and tricks that will help you while developing UXP Scripts.
 
@@ -20,9 +31,9 @@ To add a keyboard shortcut for a script, choose Edit > Keyboard Shortcuts, selec
 
 To run a specific script when InDesign starts, put it inside a folder named "Startup Scripts" inside the Scripts folder
 - macOS - `/Applications/Adobe InDesign 2023/Scripts/startup scripts`
-- Windows - //TODO path?
+- Windows - `%APPDATA%\Adobe\InDesign\Version 19.0\en_US\Scripts\startup scripts`
 
-Create this folder if it does not already exist.
+Adjust the version number of InDesign in the above path based on your local environment. And create the folders if it does not already exist.
 
 
 ## Associate a Text-Editor for .idjs Files

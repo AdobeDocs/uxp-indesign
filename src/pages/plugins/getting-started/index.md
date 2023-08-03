@@ -1,3 +1,16 @@
+---
+title: Get started - UXP plugin
+description: Steps to create a simple UXP plugin
+keywords:
+  - UXP Plugin
+  - Getting started
+  - First plugin
+  - Simple plugin
+  - Hello world
+contributors:
+  - https://github.com/padmkris123
+---
+
 # Building your first plugin
 
 This tutorial will walk you through the process of building your first plugin. You will learn how to create a plugin, add a command to it, and then run it in InDesign.

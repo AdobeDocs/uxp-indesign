@@ -1,3 +1,13 @@
+---
+title: HTML events
+description: Ways to configure HTML events
+keywords:
+  - event listeners
+  - sample html events
+contributors:
+  - https://github.com/padmkris123
+---
+
 
 # HTML events and event listeners
 There are different techniques to capture an HTML event and add `eventlisteners` to an element.
@@ -7,7 +17,7 @@ The technique you choose is simply your preference. Pick the method you feel mos
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
-Scripts and plugins
+Plugins and Scripts
 
 **In plugins**, you will need to enable `allowCodeGenerationFromStrings` if you would like to use the inline event handlers shown above. <br></br>
 IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before you proceed.
@@ -18,7 +28,7 @@ IMPORTANT: Please read about the [manifest permissions](../../../plugins/concept
 ## System requirements
 Please make sure your local environment uses the following application versions before proceeding.
 - InDesign v18.5 or higher
-- UXP version v7.1 or higher
+- UDT v1.9.0 or higher
 - Manifest version v5 or higher
 
 ## Examples
@@ -70,11 +80,10 @@ function foo(event) {
     }
 }
 ```
-
-<!-- 
+ 
 ## Additional notes
-// TODO Q: Any difference in the way the events and events listeners work with SWC and Spectrum widgets?
--->
+- The above examples will also work for Spectrum Widgets and Spectrum Web Components in UXP.
+
 
 ## Reference material
 - [HTML Events](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/)

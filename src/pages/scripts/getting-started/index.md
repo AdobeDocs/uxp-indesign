@@ -1,8 +1,14 @@
-<!-- 
-IDJS banner 
-Intro to scripts
-Prerequiste - read through Introduction -> Scripts
--->
+---
+title: UXP Scripts
+description: Get started by writing a simple UXP script
+keywords:
+  - first script
+  - simple script
+  - hello world
+  - getting started
+contributors:
+  - https://github.com/padmkris123
+---
 
 
 # Building your first script

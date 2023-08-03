@@ -1,8 +1,11 @@
 ---
+title: InDesign DOM APIs
+description: DOM APIs and way to mount it.
 keywords:
-  - InDesign DOM
   - DOM Versions 
-  - Mount API
+  - InDesign DOM
+contributors:
+  - https://github.com/padmkris123
 ---
 
 # InDesign DOM APIs

@@ -1,4 +1,13 @@
-
+---
+title: Network
+description: Network pi
+keywords:
+  - fetch
+  - xhr
+  - websockets 
+contributors:
+  - https://github.com/padmkris123
+---
 
 # Network I/O
 
@@ -6,15 +15,14 @@ You may be looking for ways to make network calls for various reasons such as fe
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
-Scripts and plugins
+Plugins and Scripts
 
-**In plugins**, you should seek permission for `network` access in the manifest and specify the `domains` of the endpoints. <br></br> 
+**In plugins**, you should seek permission for `` access in the manifest and specify the `domains` of the endpoints. <br></br> 
 IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#networkpermission) module before you proceed.
 
-**In scripts**, assume this value to be ''//TODO get value for scripts and ignore the manifest details below.
+**In scripts**, the permission for `network` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/). 
 
 
-<!-- // TODO Q: is localhost and http (macOS) allowed? -->
 
 The fastest way to try out a network call is by rendering an image from the web
 
@@ -167,6 +175,7 @@ async function foo() {
 ## Additional notes
 - These APIs are available in the global scope. Observe that you didn't have to mount them using `require`.
 - The `domains` in the plugin's manifest also let you configure variations of the endpoints. For example, your plugin may like to access 'api.dev.example.com', 'api.stage.example.com' or 'api.prod.example.com' depending upon the environment. You can configure the domains with `["https://api.*.example.com"]` to manage all three.
+- While using `http` domains, keep in mind that Photoshop only allows http protocol on Win32 but not on macOS. InDesign has no such restrictions.
 
 
 

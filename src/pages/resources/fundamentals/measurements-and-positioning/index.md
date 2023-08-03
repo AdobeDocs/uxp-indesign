@@ -1,3 +1,12 @@
+---
+title: Measurement & positioning
+description: 
+keywords:
+  - 
+contributors:
+  - https://github.com/padmkris123
+---
+
 # Measurements and positioning
 
 All items and objects in InDesign are positioned on the page according to the measurements you choose. It's helpful to know how the InDesign coordinate system works and what measurement units it uses.
@@ -5,7 +14,7 @@ All items and objects in InDesign are positioned on the page according to the me
 ### Coordinates
 InDesign, like every other page layout and drawing program, uses simple, two-dimensional geometry to set the position of objects on a page or spread. The horizontal component of a coordinate pair is referred to as x; the vertical component as y. You can see these coordinates in the Transform panel or Control when you select an object using the Selection tool.
 
-<!-- TODO Add screenshots of transform panel -->
+![Transform panel](./transform-panel.png)
 
 <InlineAlert variant="info" slots="text1, text2"/>
 

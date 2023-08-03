@@ -1,3 +1,12 @@
+---
+title: Debugging
+description: Simple ways to debug in UXP
+keywords:
+  - console
+  - alerts
+contributors:
+  - https://github.com/padmkris123
+---
 
 # Debugging
 
@@ -6,7 +15,7 @@ While writing complex logic, you might be in the cycle of testing/debugging your
 ## System requirements
 Please make sure your local environment uses the following application versions before proceeding.
 - InDesign v18.5 or higher
-- UXP version v7.1 or higher
+- UDT v1.9.0 or higher
 - Manifest version v5 or higher
 
 
@@ -23,7 +32,7 @@ async function foo() {
 ```
 
 ## Alerts
-Creates a modal dialog that pauses the execution of your script/plugin until you dismiss it. <!-- // TODO verify this statement -->
+Create a modal dialog that pauses the execution of your script/plugin until you dismiss it. <!-- // TODO verify this statement -->
 
 <CodeBlock slots="heading, code" repeat="1" languages="JavaScript" />
 

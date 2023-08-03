@@ -1,3 +1,15 @@
+---
+title: Changelog
+description: Changelog maintains the latest news about the released versions.
+keywords:
+  - UXP InDesign APIs
+  - What's new
+  - Changelog
+  - APIs
+  - UXP Releases
+contributors:
+  - https://github.com/padmkris123
+---
 # Changelog
 
 ## InDesign v18.5

@@ -32,6 +32,7 @@ Add a variety of UI elements to your plugin
 
 [Adding User Interfaces](../../resources/fundamentals/create-ui/)
 
+<!-- 
 ![Complex hierarchical component structure icon](react.jpg)
 
 #### React
@@ -39,6 +40,7 @@ Add a variety of UI elements to your plugin
 Use React to build highly interactive user interfaces
 [//]: # (TODO: Add right links)
 [React in UXP](#)
+-->
 
 ![Ellipsis](more.jpg)
 

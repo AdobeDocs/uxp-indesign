@@ -1,16 +1,13 @@
 ---
-keywords:
-  - Creative Cloud
-  - API Documentation
-  - UXP
-  - Plugins
-  - JavaScript
-  - ExtendScript
-  - SDK
-  - C++
-  - Scripting
 title: Plugin Management
 description: Information on how to manage your list of plugins in the UXP Developer Tool.
+keywords:
+  - Create plugins
+  - Remove plugins
+  - Load plugin
+  - Add plugin into UDT
+contributors:
+  - https://github.com/padmkris123
 ---
 
 # Plugin management

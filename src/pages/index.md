@@ -43,6 +43,8 @@ Check out the [sample repository](https://github.com/AdobeDocs/uxp-indesign-samp
 ## Share & Distribute
 Share your work with your family, friends and more users by distributing it via Adobe Marketplace. Learn more [here](./introduction/next-steps/distribution/).
 
+## Migration
+Find [guides for migrating](./resources/migration-guides/) from other extensibility platforms into UXP.
 
 ## Join the community
 Join the worldwide community of Creative Cloud Developers who are building plugins and integrations to empower creativity. Need support? [Click here](./support/).
@@ -51,9 +53,4 @@ Here are a few other ways to get involved:
 - Join the [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/c/indesign/) to meet other developers, ask questions, and offer help.
 - Subscribe to the [Adobe Creative Cloud Developer Newsletter](https://www.adobe.com/subscription/ccdevnewsletter.html).
 
-<!--- 
-// TODO Specify links for migration
-## Migration Guides
-Migrate your work from ExtendScript or CEP to UXP world. [Learn more](./resources/_tbd_migration-guides/) and
-[here](./scripts/tutorials/migrate-from-extendscript/)
- -->
+

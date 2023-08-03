@@ -1,16 +1,16 @@
 ---
+title: Plugin Workflows
+description: Row actions that can be performed on each plugin.
 keywords:
-  - Creative Cloud
-  - API Documentation
-  - UXP
-  - Plugins
-  - JavaScript
-  - ExtendScript
-  - SDK
-  - C++
-  - Scripting
-title: Plugin workflows
-description:
+  - Load plugins
+  - Debug
+  - Reload
+  - Unload
+  - Watch
+  - Package
+  - plugin in UDT
+contributors:
+  - https://github.com/padmkris123
 ---
 
 # Plugin workflows

@@ -12,7 +12,7 @@ import { siteConfig } from '../../../../site-config';
 <!-- Difference in behavior between scripts and plugins and prerequisites -->
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
-Scripts and plugins
+Plugins and Scripts
 
 **In plugins**, lorem ipsum.
 
@@ -23,7 +23,7 @@ Scripts and plugins
 ## System requirements
 Please make sure your local environment uses the following application versions before proceeding.
 - InDesign v18.5 or higher
-- UXP version v7.1 or higher
+- UDT v1.9.0 or higher
 - Manifest version v5 or higher
 
 

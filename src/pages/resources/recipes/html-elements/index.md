@@ -1,3 +1,12 @@
+---
+title: HTML elements
+description: Ways to create HTML elements
+keywords:
+  - User interface
+  - UI in UXP
+contributors:
+  - https://github.com/padmkris123
+---
 
 # HTML Elements
 
@@ -6,7 +15,7 @@ UXP core APIs let you create renditions but depending on whether you are writing
 ## System requirements
 Please make sure your local environment uses the following application versions before proceeding.
 - InDesign v18.5 or higher
-- UXP version v7.1 or higher
+- UDT v1.9.0 or higher
 - Manifest version v5 or higher
 
 
@@ -110,6 +119,7 @@ function showDialog() {
 
 ## Additional notes
 - Creating dialogs within scripts can sometimes be a little tricky requiring you to handle the showing/hiding with async/promises. Check out the script tutorial on modal dialogs.<!--// TODO add linkI>
+- You can also use `document.createElement` to createSpectrum Widgets `sp-*` in UXP. However, it will not work for Spectrum Web Components.
 
 ## Reference material
 - [Dialog Element](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLDialogElement/)

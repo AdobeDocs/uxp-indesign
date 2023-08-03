@@ -1,3 +1,14 @@
+---
+title: Plugin manifest
+description: Details of plugin manifest and its configuration.
+keywords:
+  - plugin manifest
+  - UXP configuration
+  - manifest.json
+contributors:
+  - https://github.com/padmkris123
+---
+
 import './table-styles.css';
 
 # UXP Manifest
@@ -634,7 +645,7 @@ Make sure you configure the most accurate permission for your use case because i
         <td><inlineCode>boolean</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Allows you to declare inline event handlers in HTML elements. The <a href="/indesign/uxp/resources/recipes/html-events/">html-events recipe</a> has more examples.</p>
+            <p>Allows you to generate code from strings. You will need this while using inline event handlers for HTML elements, <inlineCode>eval()</inlineCode>, and <inlineCode>new Function()</inlineCode> syntax.</p>
             <p><strong>Default value</strong></p>
             <p><inlineCode>false</inlineCode></p>
         </td>

@@ -1,3 +1,14 @@
+---
+title: Plugin entry points
+description: Details of plugin entrypoints
+keywords:
+  - plugin entry points
+  - UXP commands
+  - UXP panels
+contributors:
+  - https://github.com/padmkris123
+---
+
 # UXP Entry Points
 
 Plugins can have multiple entry points. An entrypoint is a way for a plugin to be invoked.

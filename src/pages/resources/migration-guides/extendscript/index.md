@@ -1,14 +1,20 @@
-<!-- 
-TODO Q: Are these applicable to plugins as well?
--->
+---
+title: ExtendScript to UXP
+description: Migrate ExtendScript to UXP
+keywords:
+  - ExtendScript
+contributors:
+  - https://github.com/padmkris123
+---
 
-# ExtendScript to UXP Script
+# ExtendScript to UXP
 ExtendScript uses an older version of JavaScript (ES3). In contrast, UXP uses the V8 JavaScript engine which supports ES6; this has several notable features lacking in ExtendScript. 
 
 Not all the newer features of ES6 are used and/or supported in the UXP world, but as an ExtendScript developer, you should familiarize yourself with ECMAScript ES6 so you can understand the sample code.
 
-This page goes over how ExtendScript can be converted to UXP script in simple steps.
+This page goes over how ExtendScript can be rewritten in UXP script in simple steps.
 
+For scripts,
 1. Save the file with `.idjs` extension.
 2. Update the script for unsupported methods
 

@@ -1,3 +1,12 @@
+---
+title: Inter Plugin Communication
+description: Communicate to another plugin
+keywords:
+  - UXP ipc
+  - inter plugin
+contributors:
+  - https://github.com/padmkris123
+---
 
 # Inter Plugin Communication
 
@@ -19,7 +28,7 @@ Additionally, you will need
 ## System requirements
 Please make sure your local environment uses the following application versions before proceeding.
 - InDesign v18.5 or higher
-- UXP version v7.1 or higher
+- UDT v1.9.0 or higher
 - Manifest version v5 or higher
 
 ## Example 
@@ -69,8 +78,6 @@ function communicateWithAnotherPlugin() {
     }
 } 
 ```
-<!-- TODO: Q: What does 'plugin.enabled' mean? When can the value be false? -->
-
 
 **Callee Plugin**
 
@@ -123,11 +130,12 @@ function doThing(args) {
 }
 ```
 
-Keep in mind that,
+## Additional notes
 - You may not see any error if the entrypoint is not found. Therefore, we advise you to use `plugin.manifest.commands` and `plugin.manifest.panels` to select from the complete list of entrypoints.
 - Invoking a plugin installed/running on a different application is not possible
 - Passing methods in the argument object is also not possible
-
+- There is a possibility that the user might have disabled a particular plugin via Adobe Creative Cloud Desktop App. Check the plugin's availability by using `plugin.enabled` before invoking.
+    
 
 ## Reference docs
 - [Plugin Manager](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Plugin%20Manager/PluginManager/)

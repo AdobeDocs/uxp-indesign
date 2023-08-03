@@ -1,3 +1,13 @@
+---
+title: Launch process
+description: Launch applications and files in UXP
+keywords:
+  - shell
+  - external process
+contributors:
+  - https://github.com/padmkris123
+---
+
 
 # Launch process
 UXP core APIs also offer `shell` APIs to launch processes in the user's system.
@@ -11,18 +21,18 @@ Before we take a look at some examples, you must know that these APIs are associ
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
-Scripts and plugins
+Plugins and Scripts
 
 **In plugins**, you should specify the schemes and file extensions in the `launchProcess` permission in your manifest for it to work.<br></br> 
 IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before you proceed.
 
-**In scripts**, assume this value to be '' and ignore the manifest details in the following example.//TODO get value for scripts and ignore the manifest details below.
+**In scripts**, the permission for `launchProcess` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/). 
 
 
 ## System requirements
 Please make sure your local environment uses the following application versions before proceeding.
 - InDesign v18.5 or higher
-- UXP version v7.1 or higher
+- UDT v1.9.0 or higher
 - Manifest version v5 or higher
 
 ## Opening a file

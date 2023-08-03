@@ -1,3 +1,14 @@
+---
+title: UXP developer tools
+description: Tools used for effectively developing in UXP
+keywords:
+  - Code Editor
+  - UDT
+  - UXP Developer Tool
+contributors:
+  - https://github.com/padmkris123
+---
+
 # Developer Tools
 
 While writing UXP scripts and plugins, the following tools will make your job easier.
@@ -47,15 +58,6 @@ If you have problems with this step, you can also configure Developer Mode manua
 4. Launch the UXP Developer Tool again.
 
 For now, successfully installing UDT is sufficient. We will understand UDT in more depth, once you write your first script or plugin. 
-
-
-<!--
-TODO Photoshop docs talks about UDT CLI. Mention its use only if its stable. Confirm with Sujai.
-## UDT CLI
-
-If you're using the UXP CLI, you'll need a command-line environment. The Terminal app in macOS works fine, as does the Windows Command Prompt. VS Code has a built-in terminal window which is convenient. And there are a dozen other command-line interpreters on both platforms, including Windows PowerShell. If you're building plugins that don't involve using React, you probably don't need to worry about this.
-
--->
 
 <!--
 TODO Add this section once details are available

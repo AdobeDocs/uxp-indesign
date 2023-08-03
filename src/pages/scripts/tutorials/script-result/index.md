@@ -1,3 +1,12 @@
+---
+title: UXP Script result
+description: Return a script result
+keywords:
+  - script result
+contributors:
+  - https://github.com/padmkris123
+---
+
 # Setting Script Result
 
 Since InDesign v18.4, you can "set result" of a UXP script. 

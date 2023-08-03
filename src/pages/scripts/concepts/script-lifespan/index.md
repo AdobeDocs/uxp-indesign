@@ -1,5 +1,14 @@
+---
+title: Script lifespan
+description: 
+keywords:
+  - script session
+contributors:
+  - https://github.com/padmkris123
+---
+
 # Script lifespan
-UXP scripts, like JavaScript, are single-threaded and non-blocking. It lives until the last statement in the execution stack.  
+UXP scripts, like JavaScript, are single-threaded and non-blocking. It lives until the last statement in the execution stack.
 
 Let's understand this with a very simple example.
 
@@ -7,13 +16,15 @@ Let's understand this with a very simple example.
 
 #### sample.idjs
 ```js
+console.log("Start of execution.");
+
 function foo() {
-    console.log("Start of execution.");
     console.log("Greetings: Hello");
-    console.log("End of execution.");
 }
 
 foo();
+
+console.log("End of execution.");
 ```
 
 #### Output
@@ -23,13 +34,15 @@ Greetings: Hello
 End of execution
 ```
 
-In the above code, the script is considered to be complete or done once it executes the last line. It is no longer is alive after the last line - "End of execution". This is the standard way in which how JavaScript execution stack work. Learn about the [execution stack](https://www.javascripttutorial.net/javascript-call-stack/), if you are not already familiar with it. 
+In the above code, the script is considered to be complete or done once it executes the last line. It is no longer alive after the last line - "End of execution". This is the standard way in which how JavaScript execution stack work. Learn about the [execution stack](https://www.javascripttutorial.net/javascript-call-stack/), if you are not already familiar with it. 
 
-<InlineAlert variant="info" slots="text1, text2"/>
+<InlineAlert variant="info" slots="text1, text2, text3"/>
 
 **Pro tip**
 
 While debugging your scripts, adding a breakpoint to the last statement will help in seeing all the `console.logs` before they disappear when the script completes and debug window closes.
+
+It's also worth noting that a script session too coincides with its lifespan. Every execution is a different session. 
 
 
 The above example also showcases pure synchronous operations. Such operations are always executed sequentially.

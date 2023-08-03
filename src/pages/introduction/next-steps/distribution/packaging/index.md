@@ -1,16 +1,14 @@
 ---
+title: Share & Distribute
+description: Options to share and distribute
 keywords:
-  - Creative Cloud
-  - API Documentation
-  - UXP
-  - Plugins
-  - JavaScript
-  - ExtendScript
-  - SDK
-  - C++
-  - Scripting
-title: Packaging Your Plugin or Script
-description:
+  - Packaging scripts
+  - Packaging plugins
+  - ccx
+  - idjs
+  - plugin bundle
+contributors:
+  - https://github.com/padmkris123
 ---
 
 # Packaging 

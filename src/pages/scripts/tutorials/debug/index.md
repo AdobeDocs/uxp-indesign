@@ -1,3 +1,14 @@
+---
+title: UXP scripts in UDT
+description: Debug UXP scripts using UDT
+keywords:
+  - UDT
+  - Scripts logs
+  - debug scripts
+contributors:
+  - https://github.com/padmkris123
+---
+
 # Debugging a Script
 This page goes over how to debug common problems you may run into.
 

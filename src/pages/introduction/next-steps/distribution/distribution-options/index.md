@@ -1,16 +1,13 @@
 ---
+title: Share & Distribute
+description: Options to share and distribute plugins and scripts
 keywords:
-  - Creative Cloud
-  - API Documentation
-  - UXP
-  - Plugins
-  - JavaScript
-  - ExtendScript
-  - SDK
-  - C++
-  - Scripting
-title: Distribution Options
-description:
+  - Distribute scripts
+  - Distribute plugins
+  - ccx package
+  - Marketplace
+contributors:
+  - https://github.com/padmkris123
 ---
 
 # Distribution Options

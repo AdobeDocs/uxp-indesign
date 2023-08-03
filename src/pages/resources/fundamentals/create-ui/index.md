@@ -6,8 +6,10 @@ keywords:
   - Web Components
   - Spectrum differences
   - Spectrum in UXP
-title: Adobe Spectrum UXP Reference
-description: Describes the Spectrum-related UI options available within UXP 
+  - UI
+  - User interface
+title: Create UI in UXP Spectrum UXP Reference
+description: Describes the options available within UXP to create UI
 contributors:
   - https://github.com/padmkris123
 ---
@@ -111,6 +113,9 @@ If you are looking for a ready-made Adobe Spectrum-styled UI or are just getting
 
 However, if you prefer vanilla HTML and don't mind undertaking the efforts of styling, use the HTML elements along with your custom stylesheet. Make sure you read the [CSS Styling](../../recipes/css-styling/) recipe.
 
+<!-- 
+// TODO add once the starter templates are ready
+
 ## Additional notes
 
 While writing a simple JS/HTML/CSS plugin is possible, those who are building plugins that have internal state management, or more complicated UI may benefit from commonly used UI libraries. The below examples are not necessarily only ones you can use but can serve as good starters if you already are familiar with a library.
@@ -125,7 +130,7 @@ See [react-starter](https://github.com/AdobeDocs/uxp-indesign-samples/plugins/re
 
 We soon will be adding more samples for other popular frameworks such as Vue, and Svelte.
 
-<!--
+
 ### Vue
 
 [Vue.js](https://vuejs.org/) is another declarative UI library that's easy to learn. 
@@ -141,7 +146,7 @@ See [ui-svelte-starter](https://github.com/AdobeDocs/uxp-photoshop-plugin-sample
 
 
 ## Reference material
-- [Spectrum Web Components](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/) <!-- //TODO link to Id starter/ kitchen sink sample -->
+- [Spectrum Web Components](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/)
 - [Spectrum UXP widgets](/indesign/uxp/reference/uxp-api/reference-spectrum/Spectrum%20UXP%20Widgets/)
 - Supported HTML [tags](/indesign/uxp/reference/uxp-api/reference-html/) and [elements](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/)
 <!-- [Kitchen sink sample]() - //TODO link to Id starter/ kitchen sink sample -->

@@ -1,16 +1,13 @@
 ---
+title: Working with framework
+description: UDT setup for frameworks
 keywords:
-  - Creative Cloud
-  - API Documentation
-  - UXP
-  - Plugins
-  - JavaScript
-  - ExtendScript
-  - SDK
-  - C++
-  - Scripting
-title: Working with React
-description:
+  - Frameworks
+  - React plugin
+  - Vue
+  - Svelte
+contributors:
+  - https://github.com/padmkris123
 ---
 
 # Working with React

@@ -1,3 +1,13 @@
+---
+title: Global await on scripts
+description: Handle asynchronous scripts
+keywords:
+  - global await
+  - asynchronous scripts
+contributors:
+  - https://github.com/padmkris123
+---
+
 # Global await
 
 Global await is the way to handle asynchronous operations inside a UXP Script. 

@@ -93,7 +93,7 @@ module.exports = {
           }
         ]
       },
-     /* {
+      {
         title: 'Applications',
         path: '/introduction/applications/',
         header: true,
@@ -103,7 +103,7 @@ module.exports = {
             path: '/introduction/applications/ids/'
           },
         ]
-      }, */
+      },
       {
         title: 'Scripts',
         path: '/scripts/',
@@ -147,11 +147,6 @@ module.exports = {
                 title: 'InDesign Server Object Model',
                 path: '/scripts/tutorials/ids-object-model/'
               },
-              {
-                title: 'Migrating from ExtendScript',
-                path: '/scripts/tutorials/migrate-from-extendscript/'
-              },
-              
               {
                 title: 'Tips & tricks',
                 path: '/scripts/tutorials/tips-tricks/'
@@ -263,6 +258,24 @@ module.exports = {
                 title: "Create UI",
                 path: "/resources/fundamentals/create-ui/"
               },
+              {
+                title: 'UXP Manifest',
+                path: '/resources/fundamentals/manifest/',
+              },
+            ]
+          },
+          {
+            title: 'Migration guides',
+            path: '/resources/migration-guides/',
+            pages: [
+              {
+                title: 'ExtendScript',
+                path: '/resources/migration-guides/extendscript/'
+              },
+              {
+                title: 'CEP',
+                path: '/resources/migration-guides/cep/'
+              }
             ]
           },
           {
@@ -273,11 +286,7 @@ module.exports = {
             title: 'Recipes',
             path: '/resources/recipes/',
             pages: require("./reference-recipes.js"),
-          },
-          /*{
-            title: 'UDT Deep dive',
-            path: '/resources/udt/'
-          }*/
+          }
         ]
       }
     ]

@@ -1,3 +1,16 @@
+---
+title: Scripts & Plugins
+description: Details about scripts and plugins to compare
+keywords:
+  - UXP Scripts
+  - UXP Plugins
+  - Scripts vs plugins
+  - Comparison of Scripts & Plugins
+  - Difference between Scripts & Plugins
+contributors:
+  - https://github.com/padmkris123
+---
+
 # UXP Scripts and Plugins
 
 UXP offers two ways of extending the application's capabilities. You can choose between a script or a plugin. 
@@ -74,4 +87,4 @@ The following table will let you compare other differences. <br></br>
 
 <br></br>
 
-Hope the above table helps you in deciding the best route suitable for your use case. Next, we recommend you to write your first [script](../../scripts/getting-started) or [plugin](../../plugins/getting-started).
+Hope the above table helps you in deciding the best route suitable for your use case. Next, we recommend you write your first [script](../../scripts/getting-started) or [plugin](../../plugins/getting-started).

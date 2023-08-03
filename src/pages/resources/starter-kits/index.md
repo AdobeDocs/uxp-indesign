@@ -1,3 +1,14 @@
+---
+title: Reservoir of samples
+description: Links for starter, samples and helper scripts and plugins
+keywords:
+  - samples
+  - starter kits
+  - templates
+contributors:
+  - https://github.com/padmkris123
+---
+
 # Starters and samples
 To help you start writing scripts and plugins to solve real-world problems, you can use the samples and starter templates.
 

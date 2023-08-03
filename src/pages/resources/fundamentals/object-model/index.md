@@ -1,3 +1,13 @@
+---
+title: Object model
+description: 
+keywords:
+  - Hierarchy
+  - Object model
+contributors:
+  - https://github.com/padmkris123
+---
+
 # Object model
 
 Understanding the object model of an InDesign document is the key to finding the object you want to work with.

@@ -1,3 +1,12 @@
+---
+title: CSS styling
+description: Techniques to style UI in UXP
+keywords:
+  - CSS in UXP
+contributors:
+  - https://github.com/padmkris123
+---
+
 # CSS styling
 Spectrum is Adobe's design system, used across multiple applications. We recommend that you use Spectrum-based controls wherever possible for UI, for consistency. In fact, UXP offers a ready-made Spectrum-styled UI library. 
 
@@ -15,7 +24,7 @@ Scripts and plugins
 ## System requirements
 Please make sure your local environment uses the following application versions before proceeding.
 - InDesign v18.5 or higher
-- UXP version v7.1 or higher
+- UDT v1.9.0 or higher
 - Manifest version v5 or higher
 
 ## Example

@@ -1,3 +1,17 @@
+---
+title: Resources for developers
+description: Resources for developers to build UXP scripts and plugins
+keywords:
+  - Deep dive
+  - Fundamentals
+  - How tos
+  - Recipes 
+  - Contribute
+  - Migration guides
+contributors:
+  - https://github.com/padmkris123
+---
+
 # Resources
 
 By now, we hope that you have already tried a simple script or plugin by following the getting-started guides. 

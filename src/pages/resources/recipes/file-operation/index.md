@@ -1,3 +1,14 @@
+---
+title: File operations
+description: Perform file operations in UXP
+keywords:
+  - localFileSystem
+  - FS API
+  - fullaccess
+contributors:
+  - https://github.com/padmkris123
+---
+
 # File operations
 
 To perform any file operations including read, write, create, and delete, UXP provides a couple of options. But before we look at the APIs, let's get acquainted with a few concepts.
@@ -6,7 +17,7 @@ To perform any file operations including read, write, create, and delete, UXP pr
 ## System requirements
 Please make sure your local environment uses the following application versions before proceeding.
 - InDesign v18.5 or higher
-- UXP version v7.1 or higher
+- UDT v1.9.0 or higher
 - Manifest version v5 or higher
 
 ## Concepts
@@ -16,7 +27,7 @@ UXP, by default, only allows access to certain locations in the user's file syst
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
-Scripts and plugins
+Plugins and Scripts
 
 **In plugins**, a sandbox is typically the plugin's folder, plus a temporary and data folder. The plugin's location is read-only. Whereas, the temporary and data folders are provided to you to store transitory information. Note that the data stored in these locations can get accidentally erased and should not be considered permanent.
 
@@ -31,11 +42,11 @@ For file system access you require permission for the `localFileSystem` module.
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
-Scripts and plugins
-
-**In scripts**, these permissions are fixed to '' and you cannot alter them //(TODO Add link to details) and ignore the manifest details below. 
+Plugins and Scripts
 
 **In plugins**, you should seek permission for `localFileSystem` in your manifest.<br></br> IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before proceeding.
+
+**In scripts**, the permission for `localFileSystem` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/). 
 
 
 Let's understand the manifest settings a bit more in detail.
@@ -57,7 +68,7 @@ Allowed values for `localFileSystem` are:
 ### Schemes
 UXP provides a shorthand representation of these locations via schemes.
 
-For sandbox, you can use `plugin:/`, `plugin-data:/`and `plugin-temp:/`. <!-- // TODO Q: Do these work in scripts? <br></br> -->
+For sandbox, you can use `plugin:/`, `plugin-data:/`and `plugin-temp:/`.
 And, for other locations, use `file:/`.
 
 ```html
@@ -65,9 +76,18 @@ And, for other locations, use `file:/`.
 <img src="file:/Users/user/Downloads/sample.png" /> <!-- update the path based on your system -->
 ```
 
+<InlineAlert variant="info" slots="header, text1, text2"/>
+
+Plugins and Scripts
+
+**In plugins**, you should seek permission for `localFileSystem` in your manifest.<br></br> IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before proceeding.
+
+**In scripts**, you can avail only `plugin-temp:/` to read/write from/to a temporary folder. 
+
 ## Example
-You have two options to access the file system - `LocalFileSytem` and `FS` module.
-<!-- // TODO Q: How should a developer choose between the FS module and localfilesystem? What special use cases are supported by them? -->
+You have two options to access the file system - `LocalFileSytem` and `FS` module. These modules are very similar in terms of the capabilities they offer, however, there is a difference in the way they carry out the task.
+
+`LocalFileSytem` APIs work with an object reference called `Entry`. Having an object reference makes it easier to manage and perform multiple operations. Whereas the `FS` APIs are very similar to NodeJS path-based file system APIs which make them ideal for carrying out single operations. 
 
 ### LocalFileSytem API
 Available via `require('uxp').storage.localFileSystem` which returns an instance of `FileSystemProvider`.
@@ -214,8 +234,8 @@ async function bar() {
 **Save user's choice of location**
 
 If you would like to remember the user's choice for an extended period, you can do it with the help of a token. There are two types of tokens you can create
-- Session token - lasts until the plugin is 'Unloaded' or 'Uninstalled'
-- Persistent token - is more permanent in nature, and can last for multiple sessions.
+- Session token - has a shorter span. It lasts until the plugin is 'Unloaded' from UDT or the script finishes its execution or the application is closed. 
+- Persistent token - is more permanent in nature, and can last for multiple sessions or until the plugin is 'Uninstalled'. (Since scripts only last for the time of their execution, you should not use persistent tokens in scripts.)
 
 The example below shows the essence of this usage but you should ideally save these tokens in the storage (more details covered in [Storage](./storage.md) section) for later use.
 
@@ -308,4 +328,4 @@ async function foo() {
 
 
 ## Additional Notes
-- Despite the manifest setting `fullAccess`, certain files and folders may still not be accessible. It depends on the permission of the Operating System. For Win32 and Mac, `FS` APIs can access anywhere in the file system. But, for UWP, accessing the system folder is prohibited.
+- Despite the manifest setting `fullAccess`, certain files and folders may still not be accessible. It depends on the permission of the Operating System. For Win32 and Mac, these APIs can access anywhere in the file system. But, in UWP, accessing the system folder is prohibited.

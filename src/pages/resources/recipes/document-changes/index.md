@@ -1,3 +1,12 @@
+---
+title: 
+description: 
+keywords:
+  - 
+contributors:
+  - 
+---
+
 # Document changes
 Let's add some details to the InDesign document
 

@@ -1,3 +1,12 @@
+---
+title: Clipboard
+description: Read and write content from and to the clipboard.
+keywords:
+  - Read write
+  - Clipboard sample
+contributors:
+  - https://github.com/padmkris123
+---
 
 # Clipboard
 Read and write content from and to the clipboard.
@@ -12,11 +21,11 @@ Please make sure your local environment uses the following application versions 
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
-Scripts and plugins
+Plugins and Scripts
 
 **In plugins**, you should seek permission for `clipboard` access in the manifest. <br></br> IMPORTANT: Read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) before you proceed.
 
-**In scripts**, assume this value to be '' and ignore the manifest details in the following example.//TODO Get value for scripts and ignore the manifest details below.
+**In scripts**, the permission for `clipboard` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/).
 
 
 ## Example
