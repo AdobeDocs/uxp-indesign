@@ -20,8 +20,8 @@ required for all plugins.
 Each UXP plugin has one `manifest.json` file that describes the plugin. It contains metadata such as the plugin's name,
 version, icons, and entry points.
 
-The manifest file also contains the permissions that the plugin requires. Most importantly, it
-contains your plugin ID which is used to identify your plugin.  (Valid plugin IDs are required for distributing in Adobe's Marketplace, read more [in the docmentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/plugin_id/).)
+The manifest file also contains the permissions that the plugin requires. Most importantly, it contains your plugin ID which is used to identify your plugin. (Valid plugin IDs are required for distributing in Adobe's Marketplace, read more [in the docmentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/plugin_id/).)
+
 
 Since UXP plugins can be run in a number of different hosts, the manifest also contains a `host` field that specifies
 which host the plugin is for. This is used to identify the plugin in the manifest and in the plugin bundle.
@@ -83,6 +83,9 @@ Properties marked with an asterisk (\*) are required.
 	}
 }
 ```
+<InlineAlert slots="text" />
+
+Properties marked with an asterisk (\*) are required.
 
 <h4>Properties</h4>
 <table className="manifest-table">
@@ -108,7 +111,7 @@ Properties marked with an asterisk (\*) are required.
         <td><inlineCode>string</inlineCode></td>
         <td>required</td>
         <td>
-            <p>The id uniquely identifies a plugin and is used to disambiguate plugin contexts, storage, errors, etc. For plugins distributed through the plugin marketplace, the ID has to match the ID in the Developer Distribution portal.</p>
+            <p>The id uniquely identifies a plugin and is used to disambiguate plugin contexts, storage, errors, etc. For plugins distributed through the plugin marketplace, the ID has to match the ID in <a href="https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/plugin_id/">the Developer Distribution portal</a>.</p>
         </td>
     </tr>
     <tr>
@@ -422,7 +425,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td>
             <p>A description of the entrypoint. This description is used in tooltips and other places where a longer description is appropriate, depending on the host app.</p>
             <p><strong>Default value</strong></p>
-            <p><inlineCode>undefined</inlineCode> (use the plugin's name)</p>
+            <p><inlineCode>undefined</inlineCode> (uses the plugin's name)</p>
         </td>
     </tr>
     <tr>
@@ -447,7 +450,7 @@ Represents a localized string. The key is the locale, and the value is the trans
                 <li>A letter or number key.</li>
             </ul>
             <p>Letters are case-insensitive (e.g., "Cmd+P" and "Cmd+p" mean the same thing and neither requires pressing Shift). Other keys (including punctuation, arrow keys, or F1-F12) are currently not supported.</p>
-             <p><strong>Please note:</strong><em> If your shortcut collides with a built-in command in the host app, or another plugin's shortcut, your shortcut will be ignored, and you"ll see a warning printed to the developer console.</em></p>
+            <p><strong>Please note:</strong><em> If your shortcut collides with a built-in command in the host app, or another plugin's shortcut, your shortcut will be ignored, and you"ll see a warning printed to the developer console.</em></p>
             <p><strong>Default value</strong></p>
             <p><inlineCode>undefined</inlineCode> (no shortcut)</p>
         </td>
