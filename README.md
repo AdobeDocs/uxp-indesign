@@ -65,6 +65,12 @@ adobe.io/{product}/community/contribute
 
 You can deploy using the GitHub actions deploy workflow see [deploy instructions](https://github.com/adobe/aio-theme#deploy-to-azure-storage-static-websites).
 
+## Redirections
+- `https://developer.adobe.com/indesign/uxp/guides/` -> `https://developer.adobe.com/indesign/uxp/`
+- `https://developer.adobe.com/indesign/uxp/server/` -> `https://developer.adobe.com/indesign/uxp/`
+- `https://developer.adobe.com/indesign/uxp/recipes/` -> `https://developer.adobe.com/indesign/uxp/`
+- `https://developer.adobe.com/indesign/uxp/uxp-scripting-samples/` -> `https://developer.adobe.com/indesign/uxp/`
+
 ## URLs
 During InDesign v18.5 release, we revamped the information architecture of the whole site. This will break previously (prior to v18.5) bookmarked URLs.
 
