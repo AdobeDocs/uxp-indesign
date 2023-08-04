@@ -66,8 +66,15 @@ adobe.io/{product}/community/contribute
 You can deploy using the GitHub actions deploy workflow see [deploy instructions](https://github.com/adobe/aio-theme#deploy-to-azure-storage-static-websites).
 
 ## Redirections
-We performed structural changes to this repo by moving some files into a different repo and setup the following redirections to avoid any bookmarks to break
-- `https://developer-stage.adobe.com/indesign/uxp/omv/` -> https://developer-stage.adobe.com/indesign/dom/api/
-- `https://developer-stage.adobe.com/indesign/uxp/uxp/*` -> https://developer-stage.adobe.com/indesign/uxp/reference/uxp-api/*
-- `https://developer-stage.adobe.com/indesign/uxp/reference/uxp-scripting-samples/` -> https://developer-stage.adobe.com/indesign/uxp/uxp-scripting-samples/
-- `https://developer.adobe.com/indesign/uxp/reference/recipes` -> https://developer.adobe.com/indesign/uxp/recipes
+- `https://developer.adobe.com/indesign/uxp/guides/` -> `https://developer.adobe.com/indesign/uxp/`
+- `https://developer.adobe.com/indesign/uxp/server/` -> `https://developer.adobe.com/indesign/uxp/`
+- `https://developer.adobe.com/indesign/uxp/recipes/` -> `https://developer.adobe.com/indesign/uxp/`
+- `https://developer.adobe.com/indesign/uxp/uxp-scripting-samples/` -> `https://developer.adobe.com/indesign/uxp/`
+
+## URLs
+During InDesign v18.5 release, we revamped the information architecture of the whole site. This will break previously (prior to v18.5) bookmarked URLs.
+
+## Contribute
+
+### Recipes
+Use the [template](./src/pages/resources/recipes/_recipe_template.md) for recipes and make sure you provide all the necessary details. Open a pull request.

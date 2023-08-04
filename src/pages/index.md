@@ -12,74 +12,45 @@ contributors:
 
 # UXP for Adobe InDesign
 
-UXP scripting allows developers to execute a single file to accomplish tasks in InDesign. Any action that can change a document or its contents can be scripted.
+Welcome to the world of UXP (**U**nified E**x**tensibility **P**latform) in Adobe InDesign!
 
 <Resources slots="heading, links"/>
 
 #### Resources
 
-- [Scripting quick start guide](guides/getting-started)
-- [Platform concepts](guides/platform-concepts/)
-- [UXP API reference](uxp/reference-js/)
-- [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/)
+- [What's new](./changelog/)
+- [UXP APIs](/indesign/uxp/reference/uxp-api/)
+- [InDesign APIs](/indesign/dom/api/)
+- [Scripts](./scripts/getting-started)
+- [Plugins](./plugins/getting-started/)
+- [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/c/indesign/)
 
 
-## Overview
+## Getting started
+UXP allows you to accomplish tasks, and make changes to a document or its contents quickly.
+Get started by [learning about UXP](./introduction/) and setting up your environment with [essential tools](./introduction/essentials/tech-stack/).
 
-Welcome to the world of Adobe InDesign UXP (**U**nified E**x**tensibility **P**latform) scripting!
+## Scripts and plugins
+UXP offers you two ways of extending the application's capabilities - scripts and plugins. Begin by knowing the [difference between them](./introduction/next-steps/script-and-plugin/) and finding a suitable choice for your use case. Followed by, writing your very first [script](./scripts/) or [plugin](./plugins/).
 
-Scripts can perform all the actions that you do with InDesign's user interface. You can draw frames, enter and format text, place graphics, and print or export the pages of the document. Any action that can change a document or its contents can be scripted. There are a few things you can do in scripting that you cannot do using the user interface.
+## Resources and API references
+Learn the [fundamental concepts](./resources/fundamentals/) needed to develop UXP scripts and plugins and find bite-size [recipes](./resources/recipes/) for common use cases.
 
-Scripts can also create menus, add menu items, create and display dialog boxes and panels, and respond to user-interface selections. Scripts can read and write text files and parse XML data. They are perfect for doing everything from small tasks (like setting a tab stop at the location of the text cursor) to providing complete features. You can start with simple scripts that do only one thing and move on to scripts that automate your entire publishing workflow.
+Since UXP is still evolving, keep an eye out for the [latest APIs](./changelog/) in recent releases and their references in [UXP APIs](/indesign/uxp/reference/uxp-api/) and [InDesign APIs](/indesign/dom/api/).
 
-We tend to think of scripting as a solution for long, repetitive tasks, like laying out a phone book. It also is good for things like the following:
+Check out the [sample repository](https://github.com/AdobeDocs/uxp-indesign-samples) that has ready-made plugins and scripts to help you set up popular frameworks easily.
 
-* Automating the myriad, small, annoying tasks that you face every day.
-* Customizing InDesign to match your work habits and layouts.
-* Achieving creative effects that would be difficult or impossible to attain by other means.
+## Share & Distribute
+Share your work with your family, friends and more users by distributing it via Adobe Marketplace. Learn more [here](./introduction/next-steps/distribution/).
 
-
-
-## Discover
-
-<DiscoverBlock width="100%" slots="heading, link, text"/>
-
-### InDesign UXP scripting
-
-[Learn more](./guides/platform-concepts/)
-    
-Understand more about InDesign UXP scripting, the power of UXP, and UXP Script vs ExtendScript.
-
-### Getting started with InDesign Scripting
-
-[Learn more](./guides/getting-started/)
-    
-Install the neccesary requirements for InDesign scripting, and learn how you can create your very first hello-world script. 
-
-### Getting started with InDesign Server Scripting
-
-[Learn more](./guides/getting-started/)
-    
-Dive into InDesign Server scripting and create your first hello-world server script. 
-
-### Migrating to UXP Script
-
-[Learn more](./guides/migrating-to-UXPScript/)
-    
-Learn how convert Javascripts to UXP script in simple steps.
-
-### Object model
-
-[Learn more](./guides/object-modal/)
-    
-Understand more about over how the InDesign object model works in more detail. 
-
+## Migration
+Find [guides for migrating](./resources/migration-guides/) from other extensibility platforms into UXP.
 
 ## Join the community
-
 Join the worldwide community of Creative Cloud Developers who are building plugins and integrations to empower creativity. Need support? [Click here](./support/).
 
-Here are a few ways to get involved:
-
-- Join the [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/) to meet other developers, ask questions, and offer help.
+Here are a few other ways to get involved:
+- Join the [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/c/indesign/) to meet other developers, ask questions, and offer help.
 - Subscribe to the [Adobe Creative Cloud Developer Newsletter](https://www.adobe.com/subscription/ccdevnewsletter.html).
+
+

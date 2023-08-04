@@ -1,3 +1,12 @@
+---
+title: Plugin tutorials
+description: Tutorials for UXP plugins
+keywords:
+  - UXP plugin tutorials 
+contributors:
+  - https://github.com/padmkris123
+---
+
 # Tutorials
 
 This section contains tutorials that will help you get started with plugin development. They will walk you step by step through solving common tasks for plugin development.

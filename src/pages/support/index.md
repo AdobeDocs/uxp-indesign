@@ -1,6 +1,13 @@
 ---
 title: Community - UXP for InDesign
 description: This is the community page of UXP for InDesign
+keywords:
+  - Prerelease
+  - Community
+  - Forums
+  - Support
+  - feedback
+  - bug
 ---
 
 <Hero slots="heading, text" background="rgb(19, 93, 183)"/>
