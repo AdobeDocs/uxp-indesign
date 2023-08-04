@@ -24,7 +24,7 @@ Scripts and plugins
 
 **In scripts**, you can only create modal dialogs.
 
-**In plugins**, you can create persistent plugin panels, visible at all times.
+**In plugins**, you can create persistent plugin panels, visible at all times. Or command plugins, that can create modal dialogs only.
 
 
 But before we proceed, it's important to understand some terminology

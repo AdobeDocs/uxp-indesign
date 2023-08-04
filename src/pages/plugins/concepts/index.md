@@ -2,7 +2,7 @@
 title: Plugin concepts
 description: Crucial concepts for creating UXP plugins
 keywords:
-  - plugin concepts
+  - UXP plugin concepts
 contributors:
   - https://github.com/padmkris123
 ---

@@ -2,8 +2,10 @@
 title: Share & Distribute
 description: Options to share and distribute
 keywords:
-  - Share
-  - Distribute
+  - Share UXP scripts
+  - Share UXP plugins
+  - Distribute UXP scripts
+  - Distribute UXP plugins
 contributors:
   - https://github.com/padmkris123
 ---

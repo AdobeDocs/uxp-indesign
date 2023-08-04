@@ -30,10 +30,11 @@ InDesign has a bunch of sample UXP Scripts readily available within the app. Fin
 ## Recipes
 The next section of [recipes](../recipes/) also has examples of common use cases. 
 
+<br></br> <br></br> 
 
-<br></br> <br></br>
+---
 
-Remember, that examples within scripts can also be used within plugins, and vice versa. After all, you can think of UXP plugins as UXP scripts + sophisticated UI controls + manifest configurations. 
+Remember, that examples within scripts can also be used within plugins, and vice versa. After all, you can think of UXP plugins as UXP scripts + rich UI controls + manifest configuration. 
 
 We would love to add more samples that cover relevant use cases. Please contribute to the repo and share your work with the community. Create a pull request and tag us for review.
  

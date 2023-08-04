@@ -2,8 +2,8 @@
 title: Share & Distribute
 description: Options to share and distribute plugins and scripts
 keywords:
-  - Distribute scripts
-  - Distribute plugins
+  - Distribute UXP scripts
+  - Distribute UXP plugins
   - ccx package
   - Marketplace
 contributors:

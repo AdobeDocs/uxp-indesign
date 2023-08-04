@@ -3,7 +3,7 @@ title: Introduction
 description: Introduction to UXP
 keywords:
   - Introduction
-  - Prerequisites
+  - UXP Prerequisites
   - Local set up
   - What is UXP
 contributors:
