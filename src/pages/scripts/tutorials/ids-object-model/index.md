@@ -13,12 +13,7 @@ Since InDesign v18.0, InDesign Server supports UXP Scripts as well.
 
 For running UXP Scripts in InDesign Server, you need both - InDesign and InDesign Server. It will be easier if you start by writing a script for InDesign and then make changes to the object model based on InDesign Server. Or else,  to see the result of your script in InDesign Server, you would have to save the document and open it using InDesign, or export the document and view the exported file in another program (like Acrobat ® or Adobe Reader®). If you use InDesign to develop your InDesign Server scripts, you can reduce your development time dramatically.
 
-Go to the [introduction to InDesign Server](../../../introduction/_tbd_applications/), if you don't already have the setup for IDS. 
-
-## Getting started
-## Run the script
-
-*Note: These examples assume that you are entering and running the script on the system on which InDesign Server is installed. For instructions on running scripts using the Test Client or SOAP commands, see Introduction to Adobe InDesign Server Development.
+*Note: These examples assume that you are entering and running the script on the system on which InDesign Server is installed. For instructions on running scripts using the Test Client or SOAP commands, see [Introduction to InDesign Server](../../../introduction/_tbd_applications/) Development.
 
 
 ## Object Model

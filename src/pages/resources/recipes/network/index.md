@@ -23,7 +23,6 @@ IMPORTANT: Please read about the [manifest permissions](../../../plugins/concept
 **In scripts**, the permission for `network` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/). 
 
 
-
 The fastest way to try out a network call is by rendering an image from the web
 
 <CodeBlock slots="heading, code" repeat="2" languages="HTML, JSON" />
@@ -47,6 +46,13 @@ The fastest way to try out a network call is by rendering an image from the web
 ```
 
 As mentioned earlier, UXP has `fetch`, `XHR (XML HTTP Request)`, and `WebSocket` available in the global scope. If you aren't aware of the difference and want to understand which one is the right option for you, we recommend you learn about them first - [fetch](https://javascript.info/fetch) | [WebSocket](https://javascript.info/websocket) | [XHR](https://javascript.info/xmlhttprequest)
+
+
+## System requirements
+Please make sure your local environment uses the following application versions before proceeding.
+- InDesign v18.5 or higher
+- UDT v1.9.0 or higher
+- Manifest version v5 or higher
 
 
 ## Examples

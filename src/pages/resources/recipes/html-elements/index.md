@@ -12,13 +12,6 @@ contributors:
 
 UXP core APIs let you create renditions but depending on whether you are writing scripts or plugins, you can create UI either by using HTML tags or just stick to JavaScript.
 
-## System requirements
-Please make sure your local environment uses the following application versions before proceeding.
-- InDesign v18.5 or higher
-- UDT v1.9.0 or higher
-- Manifest version v5 or higher
-
-
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
 Scripts and plugins
@@ -28,6 +21,12 @@ Scripts and plugins
 **In plugins**, a panel can be created both ways - using HTML tags or JavaScript. However, command plugins behave similarly to scripts and can create only modal dialogs from JavaScript.
 
 Let's take 'dialog' as an example and demonstrate both ways. You can extend the same principle to other HTML Elements
+
+## System requirements
+Please make sure your local environment uses the following application versions before proceeding.
+- InDesign v18.5 or higher
+- UDT v1.9.0 or higher
+- Manifest version v5 or higher
 
 ## Using HTML
 <!-- Provide a simple example using code snippets -->
