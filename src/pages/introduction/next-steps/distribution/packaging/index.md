@@ -2,8 +2,8 @@
 title: Share & Distribute
 description: Options to share and distribute
 keywords:
-  - Packaging scripts
-  - Packaging plugins
+  - Packaging UXP scripts
+  - Packaging UXP plugins
   - ccx
   - idjs
   - plugin bundle

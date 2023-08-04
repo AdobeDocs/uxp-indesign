@@ -3,7 +3,7 @@ title: Prerequisites for UXP
 description: Set of tools and programming languages developers should know before developing in UXP
 keywords:
   - Tech stack
-  - Prerequisites
+  - UXP Prerequisites
   - Programming languages
   - System requirements
   - Frameworks setup

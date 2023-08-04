@@ -5,7 +5,7 @@ keywords:
   - UXP InDesign APIs
   - What's new
   - Changelog
-  - APIs
+  - UXP APIs
   - UXP Releases
 contributors:
   - https://github.com/padmkris123

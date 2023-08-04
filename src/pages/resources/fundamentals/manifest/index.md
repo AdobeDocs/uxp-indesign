@@ -12,7 +12,7 @@ contributors:
 
 Manifest is a significant underlying concept in UXP development. Simply put, it is a set of configurations to make your script or plugin work correctly. 
 
-This tutorial's intention is only to make you aware of how scripts and plugins are influenced by manifest so that you can interpret the samples and recipes easily. 
+This tutorial's intention is only to make you aware of how scripts and plugins are influenced by manifest under the hood so that you can interpret the samples and recipes easily. 
 
 In the case of plugins, it is mandatory to set up these configurations with the help of a `manifest.json` file.
 
@@ -43,7 +43,7 @@ One of the key modules in the manifest that drives the access and working of man
         </tr>
         <tr>
             <td><inlineCode>network</inlineCode></td>
-            <td><inlineCode>"all"</inlineCode>d</td>
+            <td><inlineCode>"all"</inlineCode></td>
             <td>Allows access to network</td>
         </tr>
         <tr>
@@ -60,11 +60,6 @@ One of the key modules in the manifest that drives the access and working of man
             <td><inlineCode>allowCodeGenerationFromStrings</inlineCode></td>
             <td>false</td>
             <td>Not applicable for scripts.</td>
-        </tr>
-        <tr>
-            <td><b>ipc</b></td>
-            <td></td>
-            <td></td>
         </tr>
     </tbody>
 </table>

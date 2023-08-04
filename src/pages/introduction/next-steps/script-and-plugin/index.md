@@ -5,7 +5,7 @@ keywords:
   - UXP Scripts
   - UXP Plugins
   - Scripts vs plugins
-  - Comparison of Scripts & Plugins
+  - Comparison of UXP Scripts & Plugins
   - Difference between Scripts & Plugins
 contributors:
   - https://github.com/padmkris123
@@ -78,9 +78,9 @@ The following table will let you compare other differences. <br></br>
             <td>-</td>
             <td>
                 You have three flavors within plugins - command, panel and hybrid plugins. <br></br>
-                A **command plugin** is almost like a headless plugin that can occasionally ask for user inputs with the help of modal dialogs (like scripts). It is the best way to convert your existing script into a plugin to make it distributable. <br></br><br></br>
-                A panel plugin has a persistent UI. <br></br><br></br>
-                Hybrid plugins, which will be available in the future, can let you use the power of C++ libraries alongside JavaScript.</td>
+                A <b>command plugin</b>, also referred to as a modal plugin sometimes, is almost like a headless plugin that can occasionally ask for user inputs with the help of modal dialogs (like scripts). It is the best way to convert your existing script into a plugin to make it distributable. <br></br><br></br>
+                A <b>panel plugin</b> has a persistent UI. <br></br><br></br>
+                <b>Hybrid plugins</b>, which will be available in the future, can let you use the power of C++ libraries alongside JavaScript.</td>
         </tr>
     </tbody>
 </table>

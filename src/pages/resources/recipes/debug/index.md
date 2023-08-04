@@ -32,7 +32,7 @@ async function foo() {
 ```
 
 ## Alerts
-Create a modal dialog that pauses the execution of your script/plugin until you dismiss it. <!-- // TODO verify this statement -->
+Create a modal dialog that pauses the execution of your script/plugin until you dismiss it.
 
 <CodeBlock slots="heading, code" repeat="1" languages="JavaScript" />
 
