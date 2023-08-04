@@ -21,20 +21,20 @@ Each UXP plugin has one `manifest.json` file that describes the plugin. It conta
 version, icons, and entry points.
 
 The manifest file also contains the permissions that the plugin requires. Most importantly, it
-contains your plugin ID which is used to identify your plugin.
+contains your plugin ID which is used to identify your plugin.  (Valid plugin IDs are required for distributing in Adobe's Marketplace, read more [in the docmentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/plugin_id/).)
 
 Since UXP plugins can be run in a number of different hosts, the manifest also contains a `host` field that specifies
 which host the plugin is for. This is used to identify the plugin in the manifest and in the plugin bundle.
 
 ## Reference
 
-<InlineAlert slots="text" />
-
-Properties marked with an asterisk (\*) are required.
-
 ### Manifest
 
 <p>The object at the root of the manifest file.</p>
+
+<InlineAlert slots="text" />
+
+Properties marked with an asterisk (\*) are required.
 
 #### Example
 
@@ -134,7 +134,7 @@ Properties marked with an asterisk (\*) are required.
         <td><inlineCode>string</inlineCode></td>
         <td>required</td>
         <td>
-            <p>The version indicates the plugin"s version. The string has a format of major.minor.patch.</p>
+            <p>The version indicates the plugin's version. The string has a format of major.minor.patch.</p>
         </td>
     </tr>
     <tr>
@@ -142,7 +142,7 @@ Properties marked with an asterisk (\*) are required.
         <td><inlineCode>string</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Indicates the primary JavaScript or HTML file, relative to the plugin"s installation directory. Supports HTML and JS files, such as <inlineCode>index.html</inlineCode> and <inlineCode>index.js</inlineCode>. If not specified (for deprecations), <inlineCode>main.js</inlineCode> is used.</p>
+            <p>Indicates the primary JavaScript or HTML file, relative to the plugin's installation directory. Supports HTML and JS files, such as <inlineCode>index.html</inlineCode> and <inlineCode>index.js</inlineCode>. If not specified (for deprecations), <inlineCode>main.js</inlineCode> is used.</p>
             <p><strong>Default value</strong></p>
             <p><inlineCode>"main.js"</inlineCode></p>
         </td>
@@ -162,7 +162,7 @@ Properties marked with an asterisk (\*) are required.
         <td><inlineCode>HostDefinition</inlineCode></td>
         <td>required</td>
         <td>
-            <p>The host object indicates the plugin"s compatibility with the host. Incompatible plugins will:</p>
+            <p>The host object indicates the plugin's compatibility with the host. Incompatible plugins will:</p>
             <ul>
                 <li>fail to install if attempted in the given host</li>
                 <li>be invisible in the in-app plugin marketplace for the given host</li>
@@ -308,7 +308,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td><inlineCode>string</inlineCode></td>
         <td>required</td>
         <td>
-            <p>The path to the icon, relative to the plugin"s installation directory. Supports PNG (<inlineCode>.png</inlineCode>), JPG (<inlineCode>.jpg</inlineCode> or <inlineCode>.jpeg</inlineCode>), and SVG (<inlineCode>.svg</inlineCode>) files.</p>
+            <p>The path to the icon, relative to the plugin's installation directory. Supports PNG (<inlineCode>.png</inlineCode>), JPG (<inlineCode>.jpg</inlineCode> or <inlineCode>.jpeg</inlineCode>), and SVG (<inlineCode>.svg</inlineCode>) files.</p>
         </td>
     </tr>
     <tr>
@@ -422,7 +422,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td>
             <p>A description of the entrypoint. This description is used in tooltips and other places where a longer description is appropriate, depending on the host app.</p>
             <p><strong>Default value</strong></p>
-            <p><inlineCode>undefined</inlineCode> (use plugin name)</p>
+            <p><inlineCode>undefined</inlineCode> (use the plugin's name)</p>
         </td>
     </tr>
     <tr>
@@ -432,8 +432,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td>
             <p>A keyboard shortcut that can be used to invoke the entrypoint.</p>
             <p>Keyboard shortcuts are specified separately for Windows and macOS platforms. If the shortcut is not available in the host application, it will be ignored.</p>
-            <p><strong>Remarks</strong></p>
-            <p>Currently, keyboard shortcuts are supported in Adobe XD only.</p>
+            <p><strong>Please note:</strong> <em>Currently, keyboard shortcuts are only supported in Adobe XD.</em></p>
             <p><strong>Example</strong></p>
             <code class="language-json">{`"shortcut": {
     "mac": "Cmd+Shift+P", 
@@ -448,8 +447,7 @@ Represents a localized string. The key is the locale, and the value is the trans
                 <li>A letter or number key.</li>
             </ul>
             <p>Letters are case-insensitive (e.g., "Cmd+P" and "Cmd+p" mean the same thing and neither requires pressing Shift). Other keys (including punctuation, arrow keys, or F1-F12) are currently not supported.</p>
-            <p><strong>Info</strong></p>
-            <p>If your shortcut collides with a built-in XD command or another plugin"s shortcut, your shortcut will be ignored, and you"ll see a warning printed to the developer console.</p>
+             <p><strong>Please note:</strong><em> If your shortcut collides with a built-in command in the host app, or another plugin's shortcut, your shortcut will be ignored, and you"ll see a warning printed to the developer console.</em></p>
             <p><strong>Default value</strong></p>
             <p><inlineCode>undefined</inlineCode> (no shortcut)</p>
         </td>
@@ -826,7 +824,7 @@ window.addEventListener("message", (event) => \{
 
 #### IpcPermission
 
-<p>Allows communication with other plugin.</p>
+<p>Allows communication with other plugins.</p>
 <p><strong>Example</strong></p>
 <code class="language-json">{`{
     "enablePluginCommunication": true
@@ -906,7 +904,7 @@ window.addEventListener("message", (event) => \{
         <td><inlineCode>boolean</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Enables the plugin to use Spectrum Web Components (requires installing and importing the components separately)</p>
+            <p>Enables the plugin to use <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-spectrum/swc/">Spectrum Web Components</a> (requires installing and importing the components separately)</p>
             <p><strong>Example</strong></p>
             <code class="language-html">{`<sp-button variant="primary">
     Click me
