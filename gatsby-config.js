@@ -19,20 +19,28 @@ module.exports = {
         path: '/'
       },
       {
-        title: 'Guides',
-        path: '/guides/'
+        title: 'Introduction',
+        path: '/introduction/'
+      },
+      {
+        title: 'Scripts',
+        path: '/scripts/'
       },
       {
         title: 'Plugins',
         path: '/plugins/'
       },
       {
-        title: 'InDesign Server',
-        path: '/server/'
+        title: 'Resources',
+        path: '/resources/'
       },
       {
         title: 'References',
         menu: [
+          {
+            title: `What's New?`,
+            path: '/changelog/',
+          },
           {
             title: 'UXP API',
             path: '/indesign/uxp/reference/uxp-api/',
@@ -40,58 +48,114 @@ module.exports = {
           {
             title: 'InDesign API',
             path: '/indesign/dom/api/',
-          },
-          {
-            title: 'Recipes',
-            path: '/recipes/'
-          },
-          {
-            title: 'What\'s New',
-            path: '/changelog/'
           }
         ]
-      },
-      {
-        title: 'Code Samples',
-        path: '/uxp-scripting-samples/'
-      },
-      {
-        title: 'Support',
-        path: '/support/'
       }
     ],
     subPages: [
       {
-        title: 'Guides overview',
-        path: '/guides/',
+        title: 'Essentials',
+        path: '/introduction/essentials/',
+        header: true,
         pages: [
           {
-            title: 'Getting Started',
-            path: '/guides/getting-started/'
+            title: 'Programming languages',
+            path: '/introduction/essentials/tech-stack/'
           },
           {
-            title: 'Platform Concepts',
-            path: '/guides/platform-concepts/'
+            title: 'Developer Tools',
+            path: '/introduction/essentials/dev-tools/'
+          }
+        ]
+      },
+      {
+        title: 'Next steps',
+        path: '/introduction/next-steps/',
+        header: true,
+        pages: [
+          {
+            title: 'Scripts & Plugins',
+            path: '/introduction/next-steps/script-and-plugin/'
           },
           {
-            title: 'Debugging a Script',
-            path: '/guides/debugging/'
+            title: 'Share & Distribute',
+            path: '/introduction/next-steps/distribution/',
+            pages: [
+              {
+                title: "Packaging",
+                path: "/introduction/next-steps/distribution/packaging/",
+              },
+              {
+                title: "Options for Distribution",
+                path: "/introduction/next-steps/distribution/distribution-options/",
+              }
+            ]
+          }
+        ]
+      },
+      {
+        title: 'Applications',
+        path: '/introduction/applications/',
+        header: true,
+        pages: [
+          {
+            title: 'InDesign Server',
+            path: '/introduction/applications/ids/'
+          },
+        ]
+      },
+      {
+        title: 'Scripts',
+        path: '/scripts/',
+        header: true,
+        pages: [
+          {
+            title: 'Getting started',
+            path: '/scripts/getting-started/',
           },
           {
-            title: 'Migrating',
-            path: '/guides/migrating-to-UXPScript/'
+            title: 'Concepts',
+            path: '/scripts/concepts/',
+            pages: [
+              {
+                title: 'Script lifespan',
+                path: '/scripts/concepts/script-lifespan/'
+              },
+              {
+                title: 'Global await',
+                path: '/scripts/concepts/global-await/',
+              },
+            ]
           },
           {
-            title: 'Object Model',
-            path: '/guides/object-modal/'
+            title: 'Tutorials',
+            path: '/scripts/tutorials/',
+            pages: [
+              {
+                title: 'Debugging Scripts',
+                path: '/scripts/tutorials/debug/'
+              },
+              {
+                title: 'Passing Arguments',
+                path: '/scripts/tutorials/arguments/'
+              },
+              {
+                title: 'Script Result',
+                path: '/scripts/tutorials/script-result/'
+              },
+              {
+                title: 'InDesign Server Object Model',
+                path: '/scripts/tutorials/ids-object-model/'
+              },
+              {
+                title: 'Tips & tricks',
+                path: '/scripts/tutorials/tips-tricks/'
+              },
+            ]
           },
           {
-            title: 'Right to Left Scripting',
-            path: '/guides/rtl-scripting/'
-          },
-          {
-            title: 'IDJS File Association',
-            path: '/guides/text-editor-association/'
+            title: 'Advanced topics',
+            path: '/scripts/advanced/'
           }
         ]
       },
@@ -122,10 +186,40 @@ module.exports = {
             title: 'Tutorials',
             path: '/plugins/tutorials/',
             pages: [
-                {
-                    title: 'Adding command entrypoints',
-                    path: '/plugins/tutorials/adding-command-entrypoints/'
-                },
+              {
+                title: "Developing plugins with UDT",
+                path: "/plugins/tutorials/udt-deep-dive/",
+                pages: [
+                  {
+                    title: 'Plugin Management',
+                    path: '/plugins/tutorials/udt-deep-dive/plugin-management/'
+                  },
+                  {
+                    title: 'Plugin Workflows',
+                    path: '/plugins/tutorials/udt-deep-dive/plugin-workflows/'
+                  },
+                  {
+                    title: 'Working with React',
+                    path: '/plugins/tutorials/udt-deep-dive/working-with-react/'
+                  },
+                ],
+              },
+              {
+                title: 'Adding command entrypoints',
+                path: '/plugins/tutorials/adding-command-entrypoints/'
+              },
+              {
+                title: "Lifecycle hooks",
+                path: "/plugins/tutorials/plugin-lifecycle-hooks/"
+              },
+              {
+                title: "Communicate with other plugins",
+                path: "/plugins/tutorials/inter-plugin-comm/"
+              },
+              {
+                title: "Modularizing code",
+                path: "/plugins/tutorials/importing-modules/"
+              }
             ]
           },
           {
@@ -135,42 +229,63 @@ module.exports = {
         ]
       },
       {
-        title: 'InDesign Server',
-        path: '/server/',
+        title: "Resources",
+        path: "/resources/",
+        header: true,
         pages: [
           {
-            title: 'Get started',
-            path: '/server/guides/'
+            title: 'Fundamentals',
+            path: '/resources/fundamentals/',
+            header: true,
+            pages: [
+              {
+                title: 'APIs',
+                path: '/resources/fundamentals/apis/'
+              },
+              {
+                title: 'DOM Version',
+                path: '/resources/fundamentals/dom-versioning/'
+              },
+              {
+                title: 'Object model',
+                path: '/resources/fundamentals/object-model/'
+              },
+              {
+                title: 'Measurement & positioning',
+                path: '/resources/fundamentals/measurements-and-positioning/'
+              },
+              {
+                title: "Create UI",
+                path: "/resources/fundamentals/create-ui/"
+              },
+              {
+                title: 'UXP Manifest',
+                path: '/resources/fundamentals/manifest/',
+              },
+            ]
           },
           {
-            title: 'Reference',
-            path: '/server/reference/'
-          }
-        ]
-      },
-      {
-        title: 'Recipes',
-        path: '/recipes/',
-        pages: [
-          {
-            title: 'DOM Versioning',
-            path: '/recipes/dom-versioning'
+            title: 'Migration guides',
+            path: '/resources/migration-guides/',
+            pages: [
+              {
+                title: 'ExtendScript',
+                path: '/resources/migration-guides/extendscript/'
+              },
+              {
+                title: 'CEP',
+                path: '/resources/migration-guides/cep/'
+              }
+            ]
           },
           {
-            title: 'Events',
-            path: '/recipes/events/'
+            title: 'Starters & Samples',
+            path: '/resources/starter-kits/',
           },
           {
-            title: 'Menus',
-            path: '/recipes/menus/'
-          },
-          {
-            title: 'Passing Arguments',
-            path: '/recipes/arguments/'
-          },
-          {
-            title: 'Setting Script Result',
-            path: '/recipes/script-result'
+            title: 'Recipes',
+            path: '/resources/recipes/',
+            pages: require("./reference-recipes.js"),
           }
         ]
       }

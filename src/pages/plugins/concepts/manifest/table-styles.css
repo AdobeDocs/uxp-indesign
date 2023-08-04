@@ -1,12 +1,12 @@
-td p:first-child {
+.manifest-table > td p:first-child {
     margin-top: 0;
 }
 
-td:not(:last-child) {
+.manifest-table > td:not(:last-child) {
     width: 0;
 }
 
-td:nth-child(3),
-th:nth-child(3) {
+.manifest-table > td:nth-child(3),
+.manifest-table > th:nth-child(3) {
     display: none;
 }

@@ -31,3 +31,5 @@ cypress/screenshots
 
 # lerna
 lerna-debug.log
+
+todo.md

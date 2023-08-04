@@ -1,3 +1,14 @@
+---
+title: Plugin manifest
+description: Details of plugin manifest and its configuration.
+keywords:
+  - plugin manifest
+  - UXP configuration
+  - manifest.json
+contributors:
+  - https://github.com/padmkris123
+---
+
 import './table-styles.css';
 
 # UXP Manifest
@@ -74,7 +85,7 @@ Properties marked with an asterisk (\*) are required.
 ```
 
 <h4>Properties</h4>
-<table>
+<table className="manifest-table">
     <thead>
     <tr>
         <th>Name</th>
@@ -548,6 +559,14 @@ Represents a localized string. The key is the locale, and the value is the trans
 ### PermissionsDefinition
 
 <p>To ensure that plugins are secure, UXP requires that plugins declare the permissions they need to function.</p>
+
+
+<InlineAlert variant="info" slots="header, text"/>
+
+**Pro tip**
+
+Make sure you configure the most accurate permission for your use case because in the future we will ask users to provide their consent based on it. For example, for file operations, you may find 'fullAccess' to be the least restrictive and hence the easiest to pick, but a user may not be comfortable giving full access to their system unless it's absolutely necessary and might deny the installation of your plugin altogether. 
+
 <h4>Properties</h4>
 <table>
     <thead>
@@ -564,7 +583,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td><inlineCode>"read" | "readAndWrite"</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Enables the plugin to read and write to the clipboard.</p>
+            <p>Enables the plugin to read and write to the clipboard. The <a href="/indesign/uxp/resources/recipes/clipboard/">clipboard recipe</a> has more examples.</p>
             <p>Possible values:</p>
             <ul>
                 <li><inlineCode>read</inlineCode>: enables the plugin to read from the clipboard.</li>
@@ -579,7 +598,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td><inlineCode>"plugin" | "request" | "fullAccess"</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Enables the plugin to access the file system.</p>
+            <p>Enables the plugin to access the file system. The <a href="/indesign/uxp/resources/recipes/file-operation/">file-operation recipe</a> has a detailed example.</p>
             <p>Possible values:</p>
             <ul>
                 <li><inlineCode>plugin</inlineCode>: enables the plugin to access the file system in the plugin folder.</li>
@@ -626,7 +645,7 @@ Represents a localized string. The key is the locale, and the value is the trans
         <td><inlineCode>boolean</inlineCode></td>
         <td>optional</td>
         <td>
-            <p>Allows you to declare inline event handlers in HTML elements.</p>
+            <p>Allows you to generate code from strings. You will need this while using inline event handlers for HTML elements, <inlineCode>eval()</inlineCode>, and <inlineCode>new Function()</inlineCode> syntax.</p>
             <p><strong>Default value</strong></p>
             <p><inlineCode>false</inlineCode></p>
         </td>
@@ -689,11 +708,11 @@ Represents a localized string. The key is the locale, and the value is the trans
     </tbody>
 </table>
 
+<p>The <a href="/indesign/uxp/resources/recipes/network/">network recipe</a> has more details.</p>
+
 #### WebViewPermission
 
-[//]: # (TODO: Add link to internal documentation)
-
-<p>Enables the plugin to use webviews in its UI to display web content or complex UI.</p>
+<p>Enables the plugin to use webviews in its UI to display web content or complex UI. </p>
 <p><strong>Example</strong></p>
 <code class="language-json">{`{
     "allow": "yes",
@@ -757,9 +776,9 @@ window.addEventListener("message", (event) => \{
     </tbody>
 </table>
 
-#### LaunchProcessPermission
+<p>Find the detailed <a href="/indesign/uxp/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement/">WebView API reference</a> or use the webview-starter template plugin in UDT.</p>
 
-[//]: # (TODO: Add link to recipe later https://github.com/AdobeDocs/uxp-indesign/blob/6d1ad4ff1c2e096d01edaf91809cd8b4c8f4cad7/src/pages/resources/recipes/launch-process.md)
+#### LaunchProcessPermission
 
 <p>Specifies the schemas and extensions that the plugin can launch.</p>
 <p>For example, if the plugin can launch a web browser, it should specify the <inlineCode>http</inlineCode> and <inlineCode>https</inlineCode> schemas.</p>
@@ -803,9 +822,9 @@ window.addEventListener("message", (event) => \{
     </tbody>
 </table>
 
-#### IpcPermission
+<p>The <a href="/indesign/uxp/resources/recipes/launch-process/">launch process recipe</a> has more details.</p>
 
-[//]: # (TODO: Add link to recipe later https://github.com/AdobeDocs/uxp-indesign/blob/6d1ad4ff1c2e096d01edaf91809cd8b4c8f4cad7/src/pages/resources/recipes/ipc.md)
+#### IpcPermission
 
 <p>Allows communication with other plugin.</p>
 <p><strong>Example</strong></p>
@@ -835,6 +854,9 @@ window.addEventListener("message", (event) => \{
     </tr>
     </tbody>
 </table>
+
+<p>The <a href="/indesign/uxp/plugins/tutorials/inter-plugin-comm/">inter-plugin communication example</a> has more details.</p>
+
 
 ### FeatureFlags
 

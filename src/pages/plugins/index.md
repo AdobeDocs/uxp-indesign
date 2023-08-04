@@ -1,21 +1,18 @@
 ---
-title: UXP Powered Plugins for InDesign
-description: UXP Plugin Reference for InDesign
-# openAPISpec:  /petstore.json
---- 
+title: UXP plugins in InDesign
+description: UXP plugins in InDesign
+keywords:
+  - UXP Plugins
+  - What are UXP plugins
+contributors:
+  - https://github.com/padmkris123
+---
 
 # UXP Plugins
 
-InDesign v18.5, currently in pre-release, introduces UXP plugins. [Join the pre-release](https://www.adobeprerelease.com/beta/D1A76A97-F7DC-4552-DE3C-FF5F211C7492) to try them out.
+InDesign v18.5 introduces UXP plugins.
 
-With plugins you can build extensive UI and more interacting components for the users. This section will help you write your first plugin, and explains important concepts required to understand how plugins work. 
+With plugins, you can build extensive UI and more interacting components for the users. Read the [introduction to scripts and plugins](../../introduction/next-steps/script-and-plugin/) to understand if plugins are the right fit for your use case before proceeding. 
 
-
-
-
-<!-- 
-//TODO
-Pre req - read introduction -> Scripts & Plugins
-Remind developers to check fundamentals, whats new section 
--->
+This section will help you write your first plugin, and explain important concepts required to understand how plugins work. 
 
