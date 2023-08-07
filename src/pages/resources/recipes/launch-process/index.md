@@ -91,7 +91,7 @@ async function foo() {
 ```json
 {
     "launchProcess": {
-        "schemes": ["https", "mailto"]
+        "schemas": ["https", "mailto"]
     }
 }
 ```
