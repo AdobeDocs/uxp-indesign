@@ -14,7 +14,7 @@ The following sample script creates a new document, and then sets or gets the pa
 
 ```js
 const { app } = require("indesign");
-var myDocument = app.documents.add();
+let myDocument = app.documents.add();
 with(myDocument ){
     //set number of pages
     documentPreferences.pagesPerDocument = 4;
@@ -58,6 +58,7 @@ Using enumerations, InDesign Server gives you the ability to insert three Hebrew
 
 ```js
 const { SpecialCharacters } = require("indesign");
+var myTextFrame = myDocument.pages.item(0).textFrames.add();
 //Entering InDesign special ME characters by their enumerations:
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "Hebrew Maqaf: ";
 myTextFrame.parentStory.insertionPoints.item(-1).contents = SpecialCharacters.hebrewMaqaf;
@@ -93,8 +94,8 @@ myTextFrame.parentStory.insertionPoints.item(-1).contents = "\r";
 With InDesign scripting, you can find and replace Middle Eastern text. The following sample script shows how to find and replace words in the Middle Eastern text (for the complete script, see MENAFindAndReplaceText).
 
 ```js
-const { NothingEnum } = require("indesign");
-var myDocument = app.documents.add();
+const { app, NothingEnum } = require("indesign");
+let myDocument = app.documents.add();
 //Clear the find/change text preferences.
 app.findTextPreferences = NothingEnum.nothing;
 app.changeTextPreferences = NothingEnum.nothing;
@@ -108,11 +109,11 @@ app.findChangeTextOptions.includeLockedLayersForFind = false;
 app.findChangeTextOptions.includeLockedStoriesForFind = false;
 app.findChangeTextOptions.includeMasterPages = false;
 app.findChangeTextOptions.wholeWord = false;
-var myFoundItems = myDocument.findText(); Converting an InDesign script to InDesign Server
+var myFoundItems = myDocument.findText(); //Converting an InDesign script to InDesign Server
 app.findTextPreferences = NothingEnum.nothing;
 app.changeTextPreferences = NothingEnum.nothing;
 //Replace the text in myString
-for(var i = 0; i < myFoundItems.length; i++)
+for(let i = 0; i < myFoundItems.length; i++)
 {
     myFoundItems[i].contents = "Adobe";
 }
@@ -211,7 +212,7 @@ To correctly handle bidirectional text, InDesign Server stores character directi
 ```js
 const { CharacterDirectionOptions } = require("indesign");
 myTextFrame.contents = "Farsi + L dir: 1234567890";
-for (i=15 ; i < 25 ; i++) {
+for (let i=15 ; i < 25 ; i++) {
     myTextFrame.parentStory.characters.item(i).characterDirection = CharacterDirectionOptions.leftToRightDirection;
 }
 ```

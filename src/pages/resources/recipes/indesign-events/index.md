@@ -83,7 +83,7 @@ async function listenAfterNew(){
  
 function mySnippet(){
     //![Add event listener.]
-    let myEventListener = app.addEventListener("afterNew", myDisplayEventType);
+    app.addEventListener("afterNew", myDisplayEventType);
 }
  
 //![Function that gets executed.]
@@ -105,7 +105,7 @@ async function myPromiseFunction(){
  
 function mySnippet(){
     //![Add event listener.]
-    let myEventListener = app.addEventListener("afterNew", myDisplayEventType);
+    app.addEventListener("afterNew", myDisplayEventType);
 }
  
 //![Function that gets executed.]

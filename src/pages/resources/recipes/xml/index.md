@@ -2,7 +2,7 @@
 
 ### Importing XML
 
-Once you set the XML import preferences the way you want them, you can import an XML file, as shown in the following script fragment (from the ImportXML tutorial script):
+Once you set the XML import preferences using the [XMLImportPreference](https://developer.adobe.com/indesign/dom/api/x/XMLImportPreference/) API, you can import an XML file, as shown in the following script fragment:
 
 ```js
 const { app } = require("indesign");
@@ -72,9 +72,10 @@ let myDocument = app.documents.item(0);
 let folder =  await ufs.getEntryWithUrl("file:c:/Users/uxp/Desktop");
 let filePath;
 try {    
-filePath = await folder.getEntry("sampleXML.indd");
-} catch (error){    
-filePath = await folder.createEntry("sampleXML.indd");
+    filePath = await folder.getEntry("sampleXML.indd");
+} 
+catch (error){    
+    filePath = await folder.createEntry("sampleXML.indd");
 }
 myDocument.loadXMLTags (filePath);
 ```

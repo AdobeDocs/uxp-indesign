@@ -69,7 +69,6 @@ To edit a script shown in the Scripts panel, select the script and choose 'Edit 
 Let's add the following, to update the font and size of the text
 
 ```js
-let { app } = require("indesign");
 let myFont = app.fonts.item("Arial");
 let myPage = myDocument.pages.item(0);
 
