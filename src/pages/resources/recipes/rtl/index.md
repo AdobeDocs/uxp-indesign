@@ -13,7 +13,7 @@ In a Roman publication, the binding of documents is always on the left. Converse
 The following sample script creates a new document, and then sets or gets the page binding for the created document (for the complete script, see PageBinding).
 
 ```js
-const { app } = require("indesign");
+const { app, PageBindingOptions } = require("indesign");
 let myDocument = app.documents.add();
 with(myDocument ){
     //set number of pages
@@ -30,6 +30,7 @@ InDesign Server comes with special styles for page, paragraph, and footnote numb
 The following script shows how to set these settings for pages (for the complete script, see NumberingME).
 
 ```js
+const { PageNumberStyle } = require("indesign");
 myDocument.sections.item(0).pageNumberStyle = PageNumberStyle.arabicAlifBaTah;
 myDocument.sections.item(1).pageNumberStyle = PageNumberStyle.arabicAbjad;
 ```
@@ -169,7 +170,7 @@ With InDesign scripting, you can change the default or the existing attribute of
 ### Justification for an existing paragraph
 
 ```js
-const { ParagraphDirectionOptions } = require("indesign");
+const { ParagraphJustificationOptions } = require("indesign");
 with(myTextFrame){
     //Set ME paragraph attributes.
     paragraphs.item(1).paragraphJustification = ParagraphJustificationOptions.naskhJustification;
@@ -179,7 +180,7 @@ with(myTextFrame){
 ### Justification for text defaults
 
 ```js
-const { ParagraphDirectionOptions } = require("indesign");
+const { ParagraphJustificationOptions } = require("indesign");
 myDocument.textDefaults.paragraphJustification = ParagraphJustificationOptions.arabicJustification;
 ```
 
