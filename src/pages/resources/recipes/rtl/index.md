@@ -59,7 +59,7 @@ Using enumerations, InDesign Server gives you the ability to insert three Hebrew
 
 ```js
 const { SpecialCharacters } = require("indesign");
-var myTextFrame = myDocument.pages.item(0).textFrames.add();
+let myTextFrame = myDocument.pages.item(0).textFrames.add();
 //Entering InDesign special ME characters by their enumerations:
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "Hebrew Maqaf: ";
 myTextFrame.parentStory.insertionPoints.item(-1).contents = SpecialCharacters.hebrewMaqaf;

@@ -76,7 +76,7 @@ Available via `require('uxp').storage.localFileSystem` which returns an instance
 A file system is a conglomerate of files and folders. You can use the `File` and `Folder` classes to refer to them. However, these classes have a base class called `Entry`. The nomenclature of some of the APIs uses 'entry' in them typically when the output type can be either of the two - `File` or `Folder` and be determined only at runtime. Therefore, it's a good practice to check using `isfile` or `isFolder` before using specific APIs.
 
 ```js
-const {localFileSystem, types} = require('uxp').storage;
+const { localFileSystem, types } = require('uxp').storage;
 async function foo(){
     // Create new folder and file
     try {

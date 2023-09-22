@@ -21,16 +21,16 @@ The following script fragment shows how to create a new document and set the mar
 
 ```js 
 //Set the measurement units and ruler origin.
-const { MeasurementUnits, RulerOrigin} =  require("indesign");
+const { MeasurementUnits, RulerOrigin } =  require("indesign");
 myDocument.viewPreferences.horizontalMeasurementUnits = MeasurementUnits.points;
 myDocument.viewPreferences.verticalMeasurementUnits = MeasurementUnits.points;
 myDocument.viewPreferences.rulerOrigin = RulerOrigin.pageOrigin;
  
 //Get a reference to the first master spread.
-var myMasterSpread = myDocument.masterSpreads.item(0);
+let myMasterSpread = myDocument.masterSpreads.item(0);
  
 //Get a reference to the margin preferences of the first page in the master spread.
-var myMarginPreferences = myMasterSpread.pages.item(0).marginPreferences;
+let myMarginPreferences = myMasterSpread.pages.item(0).marginPreferences;
  
 //Now set up the page margins and columns.
 myMarginPreferences.left = 84;
@@ -41,7 +41,7 @@ myMarginPreferences.columnCount = 3;
 myMarginPreferences.columnGutter = 14;
  
 //Page margins and columns for the right-hand page.
-var myMarginPreferences = myMasterSpread.pages.item(1).marginPreferences;
+let myMarginPreferences = myMasterSpread.pages.item(1).marginPreferences;
 myMarginPreferences.left = 84;
 myMarginPreferences.top = 70;
 myMarginPreferences.right = 70;
@@ -56,7 +56,7 @@ Now that we have a master spread set up, we will add a baseline grid. Here is a 
 ![InDesign object model](Image4.png)
 
 ```js
-var myGridPreferences = myDocument.gridPreferences;
+let myGridPreferences = myDocument.gridPreferences;
 myGridPreferences.baselineDivision = 14;
 myGridPreferences.baselineStart = 70;
 myGridPreferences.baselineGridShown = true;
@@ -70,17 +70,17 @@ In the "Hello World" example, we created a text frame and specified its position
 ![InDesign object model](Image5.png)
 
 ```js
-const { FirstBaseline, SpecialCharacters, Justification} =  require("indesign");
-var myMasterSpread = myDocument.masterSpreads.item(0);
-var myLeftPage = myMasterSpread.pages.item(0);
-var myRightPage = myMasterSpread.pages.item(1);
-var myLeftFooter = myLeftPage.textFrames.add();
+const { FirstBaseline, SpecialCharacters, Justification } =  require("indesign");
+let myMasterSpread = myDocument.masterSpreads.item(0);
+let myLeftPage = myMasterSpread.pages.item(0);
+let myRightPage = myMasterSpread.pages.item(1);
+let myLeftFooter = myLeftPage.textFrames.add();
 myLeftFooter.geometricBounds = [63, 3, 66, 9];
 myLeftFooter.textFramePreferences.firstBaselineOffset = FirstBaseline.leadingOffset;
 myLeftFooter.contents = SpecialCharacters.autoPageNumber;
 myLeftFooter.parentStory.characters.item(0).pointSize = 11;
 myLeftFooter.parentStory.characters.item(0).leading = 14;
-var myRightFooter = myRightPage.textFrames.add();
+let myRightFooter = myRightPage.textFrames.add();
 myRightFooter.geometricBounds = [63, 92, 66, 99];
 myRightFooter.textFramePreferences.firstBaselineOffset = FirstBaseline.leadingOffset;
 myRightFooter.contents = SpecialCharacters.autoPageNumber;
@@ -96,16 +96,16 @@ Next, we add master text frames. The following block diagram shows the objects a
 
 ```js
 const { FirstBaseline } =  require("indesign");
-var myLeftPage = myMasterSpread.pages.item(0);
-var myRightPage = myMasterSpread.pages.item(1);
-var myLeftTextFrame = myLeftPage.textFrames.add();
+let myLeftPage = myMasterSpread.pages.item(0);
+let myRightPage = myMasterSpread.pages.item(1);
+let myLeftTextFrame = myLeftPage.textFrames.add();
 myLeftTextFrame.geometricBounds = [3, 3, 25, 43];
 myLeftTextFrame.textFramePreferences.firstBaselineOffset = FirstBaseline.leadingOffset;
 myLeftTextFrame.textFramePreferences.textColumnCount = 3;
 myLeftTextFrame.textFramePreferences.textColumnGutter = 14;
 //Add a label to make the frame easier to find later on.
 myLeftTextFrame.label = "BodyTextFrame";
-var myRightTextFrame = myRightPage.textFrames.add();
+let myRightTextFrame = myRightPage.textFrames.add();
 myRightTextFrame.geometricBounds = [3, 54, 25, 91];
 myRightTextFrame.textFramePreferences.firstBaselineOffset = FirstBaseline.leadingOffset;
 myRightTextFrame.textFramePreferences.textColumnCount = 3;
@@ -120,7 +120,7 @@ myLeftTextFrame.nextTextFrame = myRightTextFrame;
 Next, we override one of the master text frames we created and add text.
 
 ```js
-var myTextFrame = myDocument.masterSpreads.item(0).pages.item(1).textFrames.item(0).override(myDocument.pages.item(0));
+let myTextFrame = myDocument.masterSpreads.item(0).pages.item(1).textFrames.item(0).override(myDocument.pages.item(0));
 //Add text by setting the contents of an insertion point to a string.
 //In JavaScript, "\r" is a return character.
 myTextFrame.insertionPoints.item(0).contents = "Headline!\r";
@@ -134,16 +134,16 @@ Our headline looks plain, so we will format it in a paragraph style. To do that,
 ```js
 const { ColorModel } =  require("indesign");
 //First, check to see if the paragraph style already exists.
-var myParagraphStyle = myDocument.paragraphStyles.item("Heading 1");
+let myParagraphStyle = myDocument.paragraphStyles.item("Heading 1");
 try {
-    var myName = myParagraphStyle.name;
+    let myName = myParagraphStyle.name;
 }
 catch (myError){
     //The paragraph style did not exist, so create it.
     myParagraphStyle = myDocument.paragraphStyles.add({name:"Heading 1"});
 }
 //We'll need to create a color. Check to see if the color already exists.
-var myColor = myDocument.colors.item("Red");
+let myColor = myDocument.colors.item("Red");
 try {
     myName = myColor.name;
 }
@@ -171,8 +171,8 @@ Next, we import a text file. We add the text after the headline in the first tex
 
 ```js
 //Display a standard open file dialog box to select a text file.
-var myTextFile = <File Path of txt file>
- //Example : var myTextFile = "C://IDS/myText.txt";
+let myTextFile = <File Path of txt file>
+ //Example : let myTextFile = "C://IDS/myText.txt";
  //If a text file was selected, and if you didn't press Cancel,
 //place the text file at the first insertion point after the headline.
 if((myTextFile != "")&&(myTextFile != null)){
@@ -186,20 +186,20 @@ Placing a graphic is like importing a text file. Again, the script displays a di
 ```js
 const { FitOptions, TextWrapModes } =  require("indesign");
 //Display a standard open file dialog box to select a graphic file.
- var myGraphicFile = <File Path of graphic file>
-//Example : var myGraphicFile = "C://IDS/myImage.PNG";
+ let myGraphicFile = <File Path of graphic file>
+//Example : let myGraphicFile = "C://IDS/myImage.PNG";
  //If a graphic file was selected, and if you didn't press Cancel,
 //place the graphic file on the page.
 if((myGraphicFile != "")&&(myGraphicFile != null)){
-    var myGraphic = myDocument.pages.item(0).place(myGraphicFile);
+    let myGraphic = myDocument.pages.item(0).place(myGraphicFile);
     //Since you can place multiple graphics at once, the place method
     //returns an array. To get the graphic you placed, get the first
     //item in the array (JavaScript arrays start with item 0).
     myGraphic = myGraphic[0];
     //Create an object style to apply to the graphic frame.
-    var myObjectStyle = myDocument.objectStyles.item("GraphicFrame");
+    let myObjectStyle = myDocument.objectStyles.item("GraphicFrame");
     try {
-        var myName = myObjectStyle.name;
+        let myName = myObjectStyle.name;
     }
     catch (myError){
         //The object style did not exist, so create it.
@@ -210,7 +210,7 @@ if((myGraphicFile != "")&&(myGraphicFile != null)){
     myObjectStyle.strokeType = myDocument.strokeStyles.item("Solid");
     myObjectStyle.strokeColor = myDocument.colors.item("Red");
     //The frame containing the graphic is the parent of the graphic.
-    var myFrame = myGraphic.parent;
+    let myFrame = myGraphic.parent;
     myFrame.applyObjectStyle(myObjectStyle, true);
     //Resize the frame to a specific size.
     myFrame.geometricBounds = [0,0,144,144];
@@ -218,11 +218,11 @@ if((myGraphicFile != "")&&(myGraphicFile != null)){
     myFrame.fit(FitOptions.proportionally);
     //Next, fit frame to the resized graphic.
     myFrame.fit(FitOptions.frameToContent);
-    var myBounds = myFrame.geometricBounds;
-    var myGraphicWidth = myBounds[3]-myBounds[1];
+    let myBounds = myFrame.geometricBounds;
+    let myGraphicWidth = myBounds[3]-myBounds[1];
     //Move the graphic frame.
-    var myPageWidth = myDocument.documentPreferences.pageWidth;
-    var myTopMargin = myDocument.pages.item(0).marginPreferences.top;
+    let myPageWidth = myDocument.documentPreferences.pageWidth;
+    let myTopMargin = myDocument.pages.item(0).marginPreferences.top;
     myFrame.move([myPageWidth-myGraphicWidth, myTopMargin]);
     //Apply a text wrap to the graphic frame.
     myFrame.textWrapPreferences.textWrapMode = TextWrapModes.BOUNDING_BOX_TEXT_WRAP;
