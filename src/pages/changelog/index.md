@@ -20,7 +20,7 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 
 #### Fixed
 
-- Random app freeze issue when invoking doScript() from UXP plugins.
+- Random app hang issue when invoking doScript() from UXP plugins.
 - App crash at quit when event handlers are registered.
 
 ## InDesign v18.5
