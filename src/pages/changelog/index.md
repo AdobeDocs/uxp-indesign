@@ -12,6 +12,12 @@ contributors:
 ---
 # Changelog
 
+## InDesign v19.0
+
+Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
+
+  ![Plug-Ins Menu](./PlugInsMenu.png)
+
 ## InDesign v18.5
 
 UXP Plugins are now available! Get started [here](../plugins).
