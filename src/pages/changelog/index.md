@@ -16,7 +16,7 @@ contributors:
 
 Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 
-  ![Plug-Ins Menu](./PlugInsMenu.png)
+  ![Plug-Ins Menu](./PluginsMenu.png)
 
 #### Fixed
 
