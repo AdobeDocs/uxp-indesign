@@ -12,6 +12,17 @@ contributors:
 ---
 # Changelog
 
+## InDesign v19.0
+
+Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
+
+  ![Plug-Ins Menu](./PlugInsMenu.png)
+
+#### Fixed
+
+- Random app hang issue when invoking doScript() from UXP plugins.
+- App crash at quit when event handlers are registered.
+
 ## InDesign v18.5
 
 UXP Plugins are now available! Get started [here](../plugins).
