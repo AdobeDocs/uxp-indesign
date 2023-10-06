@@ -11,7 +11,7 @@ Here's how to use them:
 #### index.js
 ```js
 // specify the path of the JS file that has the required module
-const {foo, bar} = require("./includeMe.js");
+const { foo, bar } = require("./includeMe.js");
 . . .
 const result = foo(3); // will return 6
 ```
@@ -33,5 +33,5 @@ module.exports = {
 
 The `require` in UXP isn't as robust as some other include systems (e.g., it doesn't search any global paths to find the file you want), but careful use of relative paths allows you to structure your plugin directory the way you want. For example, you can have a subdirectory named `lib` and require a file in there this way:
 
-`const {foo, bar} = require("./lib/includeMe.js");`
+`const { foo, bar } = require("./lib/includeMe.js");`
 

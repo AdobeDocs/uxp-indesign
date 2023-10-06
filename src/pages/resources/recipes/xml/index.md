@@ -2,11 +2,10 @@
 
 ### Importing XML
 
-Once you set the XML import preferences the way you want them, you can import an XML file, as shown in the following script fragment (from the ImportXML tutorial script):
+Once you set the XML import preferences using the [XMLImportPreference](https://developer.adobe.com/indesign/dom/api/x/XMLImportPreference/) API, you can import an XML file, as shown in the following script fragment:
 
 ```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
+const { app } = require("indesign");
 let ufs = require("uxp").storage.localFileSystem;
 let myDocument = app.documents.item(0);
 //You'll have to fill in a valid file path for your system.
@@ -25,8 +24,7 @@ myDocument.xmlElements.item(0).importXML(filePath);
 When you need to import the contents of an XML file into a specific XML element, use the importXML method of the XML element, rather than the corresponding method of the document. See the following script fragment (from the ImportXMLIntoElement tutorial script):
 
 ```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
+const { app, SelectionOptions } = require("indesign");
 let ufs = require("uxp").storage.localFileSystem;
 let myDocument = app.documents.item(0);
 //You'll have to fill in a valid file path for your system.
@@ -52,8 +50,7 @@ myDocument.importXML(filePath);
 You also can set the importToSelected property of the xmlImportPreferences object to true, then select the XML element, and then import the XML file, as shown in the following script fragment (from the ImportXMLIntoSelectedElement tutorial script):
 
 ```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
+const { app } = require("indesign");
 let myDocument = app.documents.item(0);
 let myXMLTag = myDocument.xmlTags.item("xml_element");
 let myXMLElement = myDocument.xmlElements.item(0).xmlElements.add(myXMLTag);
@@ -68,17 +65,17 @@ myDocument.importXML(filePath);
 You can import XML tags from an XML file without importing the XML contents of the file. You might want to do this to work out a tag-to-style or style-to-tag mapping before you import the XML data., as shown in the following script fragment (from the LoadXMLTags tutorial script):
 
 ```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
+const { app } = require("indesign");
 let ufs = require("uxp").storage.localFileSystem;
 let myDocument = app.documents.item(0);
 //You'll have to fill in a valid file path for your system.
 let folder =  await ufs.getEntryWithUrl("file:c:/Users/uxp/Desktop");
 let filePath;
 try {    
-filePath = await folder.getEntry("sampleXML.indd");
-} catch (error){    
-filePath = await folder.createEntry("sampleXML.indd");
+    filePath = await folder.getEntry("sampleXML.indd");
+} 
+catch (error){    
+    filePath = await folder.createEntry("sampleXML.indd");
 }
 myDocument.loadXMLTags (filePath);
 ```
@@ -97,8 +94,7 @@ myDocument.saveXMLTags(filePath);
 ### Setting up a sample document
 
 ```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
+const { app } = require("indesign");
 let ufs = require("uxp").storage.localFileSystem;
 let myDocument = app.documents.item(0);
 let folder =  await ufs.getEntryWithUrl("file:c:/Users/uxp/Desktop");

@@ -11,8 +11,7 @@ InDesign APIs can be used to add or remove menu items, perform any menu command,
 Here is a sample code for adding a menu item and associating an action to it. 
 
 ```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
+const { app } = require("indesign");
  
 await main();
 async function main()
