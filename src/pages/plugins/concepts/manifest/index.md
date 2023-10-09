@@ -88,7 +88,7 @@ Properties marked with an asterisk (\*) are required.
 Properties marked with an asterisk (\*) are required.
 
 <h4>Properties</h4>
-<table className="manifest-table">
+<table className="manifest-table" columnWidths="10,20,10,60">
     <thead>
     <tr>
         <th>Name</th>
@@ -255,7 +255,7 @@ Represents a localized string. The key is the locale, and the value is the trans
 
 #### Properties
 
-<table>
+<table columnWidths="10,20,10,60">
     <thead>
     <tr>
         <th>Name</th>
@@ -781,11 +781,11 @@ window.addEventListener("message", (event) => \{
 
 #### LaunchProcessPermission
 
-<p>Specifies the schemas and extensions that the plugin can launch.</p>
-<p>For example, if the plugin can launch a web browser, it should specify the <inlineCode>http</inlineCode> and <inlineCode>https</inlineCode> schemas.</p>
+<p>Specifies the schemes and extensions that the plugin can launch.</p>
+<p>For example, if the plugin can launch a web browser, it should specify the <inlineCode>http</inlineCode> and <inlineCode>https</inlineCode> schemes.</p>
 <p><strong>Example</strong></p>
 <code class="language-json">{`{
-    "schemas": ["http", "https"],
+    "schemes": ["http", "https"],
     "extensions": []
 }
 `}</code>
@@ -801,11 +801,11 @@ window.addEventListener("message", (event) => \{
     </thead>
     <tbody>
     <tr>
-        <td><inlineCode>schemas</inlineCode> *</td>
+        <td><inlineCode>schemes</inlineCode> *</td>
         <td><inlineCode>string[]</inlineCode></td>
         <td>required</td>
         <td>
-            <p>A set of schemas that the plugin can launch.</p>
+            <p>A set of schemes that the plugin can launch.</p>
             <p><strong>Example</strong></p>
             <p><inlineCode>["http", "https", "mailto"]</inlineCode></p>
         </td>

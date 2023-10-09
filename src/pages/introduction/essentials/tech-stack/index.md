@@ -58,6 +58,6 @@ React, Vue, and Svelte are some of the popular frameworks, that developers often
 - [npm](https://www.npmjs.com): a "package manager" bundled with Node which helps manage your project's dependencies (i.e., other code and files that are needed to make your plugin work).
 - [yarn](https://yarnpkg.com): a "better" package manager than npm for Node. To install yarn you'll need to have npm installed first (see above). After that, use this command:
 
-```bash
-npm install yarn --global
-```
+  ```bash
+  npm install yarn --global
+  ```

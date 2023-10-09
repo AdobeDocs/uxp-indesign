@@ -20,8 +20,50 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 
 #### Fixed
 
-- Random app hang issue when invoking doScript() from UXP plugins.
-- App crash at quit when event handlers are registered.
+- Random app hang issue when invoking `doScript()` from UXP plugins.
+- App crashes at quit when event handlers are registered.
+
+### UXP v7.3.0 & UXP v7.2
+
+#### New
+- <b>(Photoshop Only)</b> GUID for uniquely identifying a Creative Cloud User.
+- Multipart `FormData` support in [Request](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Request.md) and [Response](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Response.md) for [fetch](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/fetch/)
+- [FormData](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/FormData.md) now supports the following APIs
+    - delete()
+    - get()
+    - getAll()
+    - has()
+    - keys()
+    - set()
+    - values()
+- Adobe [Extensibility Metadata Platform (XMP)](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/XMP/) support
+- [pointer-events: none](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events) `CSS` property
+- Support for `pseudoElement` in [getComputedStyle(element, pseudoElement)](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/getComputedStyle.md) API
+
+
+#### Updated
+- [FormData's append](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/FormData.md#append--namevaluefilename) now supports `Blob` as an additional parameter.
+- [Spectrum Web Component (SWC)](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/) in UXP is moving out of Beta. 
+    - Additional [ components and variants](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md#list-of-supported-swc)
+    - `Spectrum Web Components` support in `React` context is now available for all 30 components.
+    - Starter plugins for [Spectrum Web Component](https://github.com/AdobeDocs/uxp-indesign-samples/tree/main/plugins/swc-uxp-starter) and [Spectrum Web Component in React context](https://github.com/AdobeDocs/uxp-indesign-samples/tree/main/plugins/swc-uxp-react-starter)
+
+#### Fixed
+- Tab Navigation not working for several SWC Components is now fixed
+- Spacebar doesn't work on SWC Button component when reached via TAB navigation.
+- Support for `Alerts`
+    - [alert()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert.md)
+    - [prompt()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/prompt.md)
+    - [confirm()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/confirm.md)
+
+
+### UDT v2.0
+
+#### New
+- UXP Playground to experiment with APIs. Click on the 'Playground' tab next to 'Developer Workspace' to select an app and get started.
+
+#### Updated
+- Plugin actions are surfaced based on the 'Status' of your plugin in the Developer Workspace
 
 ## InDesign v18.5
 
