@@ -13,7 +13,8 @@ In a Roman publication, the binding of documents is always on the left. Converse
 The following sample script creates a new document, and then sets or gets the page binding for the created document (for the complete script, see PageBinding).
 
 ```js
-var myDocument = app.documents.add();
+const { app, PageBindingOptions } = require("indesign");
+let myDocument = app.documents.add();
 with(myDocument ){
     //set number of pages
     documentPreferences.pagesPerDocument = 4;
@@ -29,6 +30,7 @@ InDesign Server comes with special styles for page, paragraph, and footnote numb
 The following script shows how to set these settings for pages (for the complete script, see NumberingME).
 
 ```js
+const { PageNumberStyle } = require("indesign");
 myDocument.sections.item(0).pageNumberStyle = PageNumberStyle.arabicAlifBaTah;
 myDocument.sections.item(1).pageNumberStyle = PageNumberStyle.arabicAbjad;
 ```
@@ -56,6 +58,8 @@ myDocument.changeComposer();
 Using enumerations, InDesign Server gives you the ability to insert three Hebrew characters (Geresh, Gershayim, Maqaf) and four Arabic ones (Kashida, Arabic comma, Arabic Semicolon, and Arabic Question mark), as well as a right-to-left marker or left-to-right marker. The following script shows how to insert special Middle Eastern characters (for the complete script, see SpecialCharactersME).
 
 ```js
+const { SpecialCharacters } = require("indesign");
+let myTextFrame = myDocument.pages.item(0).textFrames.add();
 //Entering InDesign special ME characters by their enumerations:
 myTextFrame.parentStory.insertionPoints.item(-1).contents = "Hebrew Maqaf: ";
 myTextFrame.parentStory.insertionPoints.item(-1).contents = SpecialCharacters.hebrewMaqaf;
@@ -91,7 +95,8 @@ myTextFrame.parentStory.insertionPoints.item(-1).contents = "\r";
 With InDesign scripting, you can find and replace Middle Eastern text. The following sample script shows how to find and replace words in the Middle Eastern text (for the complete script, see MENAFindAndReplaceText).
 
 ```js
-var myDocument = app.documents.add();
+const { app, NothingEnum } = require("indesign");
+let myDocument = app.documents.add();
 //Clear the find/change text preferences.
 app.findTextPreferences = NothingEnum.nothing;
 app.changeTextPreferences = NothingEnum.nothing;
@@ -105,11 +110,11 @@ app.findChangeTextOptions.includeLockedLayersForFind = false;
 app.findChangeTextOptions.includeLockedStoriesForFind = false;
 app.findChangeTextOptions.includeMasterPages = false;
 app.findChangeTextOptions.wholeWord = false;
-var myFoundItems = myDocument.findText(); Converting an InDesign script to InDesign Server
+var myFoundItems = myDocument.findText(); //Converting an InDesign script to InDesign Server
 app.findTextPreferences = NothingEnum.nothing;
 app.changeTextPreferences = NothingEnum.nothing;
 //Replace the text in myString
-for(var i = 0; i < myFoundItems.length; i++)
+for(let i = 0; i < myFoundItems.length; i++)
 {
     myFoundItems[i].contents = "Adobe";
 }
@@ -122,6 +127,7 @@ for(var i = 0; i < myFoundItems.length; i++)
 With InDesign Scripting, if you need to change the main direction of an existing text story, even after typing or placing some text inside, use the storyDirection property. This property is part of the StoryPreferences object and can get one value from the StoryDirectionOptions enumeration (leftToRightDirection and rightToLeftDirection). The following sample script creates a two-column text frame, then sets the story direction (for the complete script, see StoryDirection).
 
 ```js
+const { Justification, StoryDirectionOptions } = require("indesign");
 with(myTextFrame){
     //Set the bounds of the text frame.
     geometricBounds = [70, 200, 300, 500];
@@ -143,6 +149,7 @@ Paragraph direction controls the order of multidirectional text inside the parag
 With InDesign scripting, if you need to change the main direction of an existing paragraph, use the paragraphDirection property. This property is part of the Text objects and can get one value from the ParagraphDirectionOptions enumeration (leftToRightDirection and rightToLeftDirection). The following sample script shows how to set this property (for the complete script, see MEParagraphAttributes).
 
 ```js
+const { ParagraphDirectionOptions } = require("indesign");
 with(myTextFrame){
     //Set ME paragraph attributes.
     paragraphs.item(0).paragraphDirection = ParagraphDirectionOptions.leftToRightDirection;
@@ -153,6 +160,7 @@ with(myTextFrame){
 You can also use this property to set text defaults both for the application and for each document:
 
 ```js
+const { ParagraphDirectionOptions } = require("indesign");
 myDocument.textDefaults.paragraphDirection = ParagraphDirectionOptions.rightToLeftDirection;
 ```
 
@@ -162,6 +170,7 @@ With InDesign scripting, you can change the default or the existing attribute of
 ### Justification for an existing paragraph
 
 ```js
+const { ParagraphJustificationOptions } = require("indesign");
 with(myTextFrame){
     //Set ME paragraph attributes.
     paragraphs.item(1).paragraphJustification = ParagraphJustificationOptions.naskhJustification;
@@ -171,6 +180,7 @@ with(myTextFrame){
 ### Justification for text defaults
 
 ```js
+const { ParagraphJustificationOptions } = require("indesign");
 myDocument.textDefaults.paragraphJustification = ParagraphJustificationOptions.arabicJustification;
 ```
 
@@ -181,6 +191,7 @@ InDesign Server comes with special character settings for laying out Arabic/Hebr
 You can choose the language in which you want your numeric digits to be displayed. The Default setting means that the numbers will be in the same language as that of the previous character. Otherwise, you can choose between Arabic, Hindi, and Farsi numbers. The corresponding text object property is DigitsType.
 
 ```js
+const { DigitsTypeOptions } = require("indesign");
 myTextFrame.contents = "Farsi Digits: 1234567890";
 myTextFrame.paragraphs.item(0).digitsType = DigitsTypeOptions.farsiDigits;
 ```
@@ -189,6 +200,7 @@ myTextFrame.paragraphs.item(0).digitsType = DigitsTypeOptions.farsiDigits;
 The Arabic and Naskh justification algorithms insert kashidas and spaces. If you don't want Kashidas to be inserted in the Arabic text, with InDesign scripting, you can change the Kashidas property to set it to kashidasOff; otherwise, set it to defaultKashidas.
 
 ```js
+const { KashidasOptions, Justification, ParagraphJustificationOptions } = require("indesign");
 myTextFrame.contents = "كُتِبَ Kashidas Off";
 myTextFrame.paragraphs.item(0).kashidas = KashidasOptions.kashidasOff;
 myTextFrame.paragraphs.item(0).justification = Justification.fullyJustified;
@@ -199,8 +211,9 @@ myTextFrame.paragraphs.item(0).paragraphJustification = ParagraphJustificationOp
 To correctly handle bidirectional text, InDesign Server stores character direction information. With scripting, this information can be changed using the CharacterDirection property which can get one value from the CharacterDirectionOptions enumeration (defaultDirection, leftToRightDirection and rightToLeftDirection).
 
 ```js
+const { CharacterDirectionOptions } = require("indesign");
 myTextFrame.contents = "Farsi + L dir: 1234567890";
-for (i=15 ; i < 25 ; i++) {
+for (let i=15 ; i < 25 ; i++) {
     myTextFrame.parentStory.characters.item(i).characterDirection = CharacterDirectionOptions.leftToRightDirection;
 }
 ```
@@ -211,6 +224,7 @@ Short Arabic vowels are floating diacritics, written either over or under the co
 Diacritic Positioning can be accessed with scripting using the DiacriticPosition to choose from five predefined positions (defaultPosition, loosePosition, mediumPosition, tightPosition, and opentypePosition) or a custom position using the XOffsetDiacritic for horizontal adjustment and YOffsetDiacritic for vertical adjustment.
 
 ```js
+const { DiacriticPositionOptions } = require("indesign");
 myTextFrame.contents = "كُتِبَ Loose";
 myTextFrame.paragraphs.item(0).diacriticPosition = DiacriticPositionOptions.loosePosition;
 myTextFrame.contents = "كُتِبَ Custom";
@@ -234,6 +248,7 @@ Paragraph and character styles are the keys to text formatting productivity and 
 The following example script fragment shows how to create paragraph and character styles with Middle Eastern attributes (for the complete script, see CreateStylesME).
 
 ```js
+const { DigitsTypeOptions, CharacterDirectionOptions, ParagraphDirectionOptions,  ParagraphJustificationOptions, KashidasOptions, DigitsTypeOptions } = require("indesign");
 //Create a character style named "myCharacterStyleME" if
 //no style by that name already exists.
 try{

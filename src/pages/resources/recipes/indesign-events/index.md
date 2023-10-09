@@ -27,8 +27,7 @@ To attach to an event, you register an eventListener with an object capable of r
 When you create an eventListener, you specify the event type and the event handler (as a function or file reference). The following script fragment shows how to add an eventListener for a specific event (for the complete script, see AddEventListener).
 
 ```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
+const { app } = require("indesign");
 let myEventListener = app.addEventListener("afterNew", myDisplayEventType);
 
 function myDisplayEventType(myEvent){
@@ -41,16 +40,14 @@ function myDisplayEventType(myEvent){
 To remove the eventListener created by the preceding script, run the following script:
 
 ```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
+const { app } = require("indesign");
 let myResult = app.removeEventListener("afterNew", myDisplayEventType);
 ```
 
 An event can trigger multiple eventListeners as it propagates through the scripting object model. The following sample script demonstrates an event triggering eventListeners registered to different objects:
 
 ```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
+const { app } = require("indesign");
 let myApplicationEventListener = app.eventListeners.add("beforeImport", myEventInfo);
 let myDocumentEventListener = app.documents.item(0).eventListeners.add("beforeImport", myEventInfo);
 function myEventInfo(myEvent){
@@ -65,8 +62,7 @@ When you run the preceding script and place a file, InDesign displays the follow
 Use the following script to remove the event listeners added by the preceding script:
 
 ```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
+const { app } = require("indesign");
 app.removeEventListener("beforeImport", myEventInfo);
 app.documents.item(0).removeEventListener("beforeImport", myEventInfo);
 ```
@@ -77,8 +73,7 @@ After the event listener is associated, the script is blocked by a promise and w
 Here is a sample events script to run and listen for “afterNew” event **throughout the InDesign session** and prints a relevant string whenever a new document is created.
 
 ```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
+const { app } = require("indesign");
  
 await listenAfterNew();
  
@@ -88,7 +83,7 @@ async function listenAfterNew(){
  
 function mySnippet(){
     //![Add event listener.]
-    let myEventListener = app.addEventListener("afterNew", myDisplayEventType);
+    app.addEventListener("afterNew", myDisplayEventType);
 }
  
 //![Function that gets executed.]
@@ -99,8 +94,7 @@ function myDisplayEventType(myEvent){
 Here is a sample events script to run and listen for "afterNew" event **only once** and remove, which prints a relevant string if a new document is created.
 
 ```js
-let myInDesign = require("indesign");
-let app = myInDesign.app;
+const { app } = require("indesign");
 let myResolve;
  
 await myPromiseFunction();
@@ -111,7 +105,7 @@ async function myPromiseFunction(){
  
 function mySnippet(){
     //![Add event listener.]
-    let myEventListener = app.addEventListener("afterNew", myDisplayEventType);
+    app.addEventListener("afterNew", myDisplayEventType);
 }
  
 //![Function that gets executed.]

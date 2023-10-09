@@ -55,7 +55,7 @@ module.exports = {
     subPages: [
       {
         title: 'Essentials',
-        path: '/introduction/essentials/',
+        path: '/introduction/essentials/tech-stack/',
         header: true,
         pages: [
           {
@@ -70,7 +70,7 @@ module.exports = {
       },
       {
         title: 'Next steps',
-        path: '/introduction/next-steps/',
+        path: '/introduction/next-steps/script-and-plugin/',
         header: true,
         pages: [
           {
@@ -95,7 +95,7 @@ module.exports = {
       },
       {
         title: 'Applications',
-        path: '/introduction/applications/',
+        path: '/introduction/applications/ids/',
         header: true,
         pages: [
           {
