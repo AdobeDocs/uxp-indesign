@@ -26,7 +26,6 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 ### UXP v7.3.0 & UXP v7.2
 
 #### New
-- <b>(Photoshop Only)</b> GUID for uniquely identifying a Creative Cloud User.
 - Multipart `FormData` support in [Request](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Request.md) and [Response](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Response.md) for [fetch](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/fetch/)
 - [FormData](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/FormData.md) now supports the following APIs
     - delete()
@@ -36,7 +35,8 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
     - keys()
     - set()
     - values()
-- Adobe [Extensibility Metadata Platform (XMP)](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/XMP/) support
+- <b>(Photoshop Only)</b> GUID for uniquely identifying a Creative Cloud User.
+- Adobe [Extensibility Metadata Platform (XMP)](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/XMP/getting-started/) support
 - [pointer-events: none](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events) `CSS` property
 - Support for `pseudoElement` in [getComputedStyle(element, pseudoElement)](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/getComputedStyle.md) API
 
