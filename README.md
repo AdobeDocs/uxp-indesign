@@ -74,6 +74,10 @@ You can deploy using the GitHub actions deploy workflow see [deploy instructions
 ## URLs
 During InDesign v18.5 release, we revamped the information architecture of the whole site. This will break previously (prior to v18.5) bookmarked URLs.
 
+
+## Search metadata
+- Add titles and descriptions at a minimum (https://github.com/adobe/aio-theme#frontmatter). No titles mean no indexing.
+- Keywords help with Google SEO but only work as filters within dev site
 ## Contribute
 
 ### Recipes

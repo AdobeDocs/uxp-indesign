@@ -18,7 +18,7 @@ For scripts,
 1. Save the file with `.idjs` extension.
 2. Update the script for unsupported methods
 
-<table columnWidths="30,30,30, 10">
+<table columnWidths="20,35,35,10">
     <thead>
         <tr>
             <th>Differences</th>
@@ -37,15 +37,13 @@ For scripts,
 for (j = 0; j < app.selection[0].paragraphs.length; j++) {
     var item = app.selection[0].paragraphs[j];
 }
-`}</code>
-            </td>
+`}</code></td>
             <td>
 <code class="language-javascript">{`
 for (j = 0; j < app.selection[0].paragraphs.length; j++) {
     var item = app.selection[0].paragraphs.item(j);
 }
-`}</code>
-            </td>
+`}</code></td>
             <td>All Versions</td>
         </tr>
         <tr>
@@ -60,8 +58,7 @@ switch(myPageItem.constructor.name) {
         ...
         break; 
 }
-`}</code>
-            </td>
+`}</code></td>
             <td>
 <code class="language-javascript">{`
 switch(myPageItem.constructorName) {
@@ -70,8 +67,7 @@ switch(myPageItem.constructorName) {
         ...
         break; 
 }
-`}</code>
-            </td>
+`}</code></td>
             <td>Prior to v18.4</td>
         </tr>
         <tr>
@@ -81,13 +77,11 @@ switch(myPageItem.constructorName) {
             <td>
 <code class="language-javascript">{`
 if (myPath.pathType == PathType.closedPath) { ... }
-`}</code>
-            </td>
+`}</code></td>
             <td>
 <code class="language-javascript">{`
 if (myPath.pathType.equals(PathType.closedPath)) { ... }
-`}</code>
-            </td>
+`}</code></td>
             <td> All Versions</td>
         </tr>
         <tr>
@@ -97,13 +91,11 @@ The <inlineCode>instanceof</inlineCode> keyword isn't supported for InDesign DOM
             <td>
 <code class="language-javascript">{`
 if (app.selection[0].paragraphs[0].appliedParagraphStyle.parent instanceofParagraphStyleGroup) { ... }
-`}</code>
-            </td>
+`}</code></td>
             <td>
 <code class="language-javascript">{`
 if (app.selection[0].paragraphs.item(0).parent.constructorName == "ParagraphStyleGroup") { ... } 
-`}</code>
-            </td>
+`}</code></td>
             <td> Prior to v18.4</td>
         </tr>
         <tr>
@@ -113,13 +105,11 @@ Global object 'document' is not supported now. Instead, use <inlineCode>app.acti
             <td>
 <code class="language-javascript">{`
 document.findText()
-`}</code>
-            </td>
+`}</code></td>
             <td>
 <code class="language-javascript">{`
 app.activeDocument.findText()
-`}</code>
-            </td>
+`}</code></td>
             <td> All Versions</td>
         </tr>
         <tr>
