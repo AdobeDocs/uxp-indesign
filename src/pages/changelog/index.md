@@ -26,8 +26,8 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 ### UXP v7.3.0 & UXP v7.2
 
 #### New
-- Multipart `FormData` support in [Request](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Request.md) and [Response](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Response.md) for [fetch](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/fetch/)
-- [FormData](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/FormData.md) now supports the following APIs
+- Multipart `FormData` support in [Request](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Request/) and [Response](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Response/) for [fetch](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/fetch/)
+- [FormData](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/FormData/) now supports the following APIs
     - delete()
     - get()
     - getAll()
@@ -38,13 +38,13 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 - <b>(Photoshop Only)</b> GUID for uniquely identifying a Creative Cloud User.
 - Adobe [Extensibility Metadata Platform (XMP)](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/XMP/getting-started/) support
 - [pointer-events: none](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events) `CSS` property
-- Support for `pseudoElement` in [getComputedStyle(element, pseudoElement)](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/getComputedStyle.md) API
+- Support for `pseudoElement` in [getComputedStyle(element, pseudoElement)](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/getComputedStyle) API
 
 
 #### Updated
 - [FormData's append](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/FormData.md#append--namevaluefilename) now supports `Blob` as an additional parameter.
 - [Spectrum Web Component (SWC)](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/) in UXP is moving out of Beta. 
-    - Additional [ components and variants](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md#list-of-supported-swc)
+    - Additional [components and variants](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md#list-of-supported-swc)
     - `Spectrum Web Components` support in `React` context is now available for all 30 components.
     - Starter plugins for [Spectrum Web Component](https://github.com/AdobeDocs/uxp-indesign-samples/tree/main/plugins/swc-uxp-starter) and [Spectrum Web Component in React context](https://github.com/AdobeDocs/uxp-indesign-samples/tree/main/plugins/swc-uxp-react-starter)
 
@@ -52,9 +52,9 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 - Tab Navigation not working for several SWC Components is now fixed
 - Spacebar doesn't work on SWC Button component when reached via TAB navigation.
 - Support for `Alerts`
-    - [alert()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert.md)
-    - [prompt()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/prompt.md)
-    - [confirm()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/confirm.md)
+    - [alert()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert/)
+    - [prompt()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/prompt/)
+    - [confirm()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/confirm/)
 
 
 ### UDT v2.0
