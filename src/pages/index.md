@@ -25,6 +25,15 @@ Welcome to the world of UXP (**U**nified E**x**tensibility **P**latform) in Adob
 - [Plugins](./plugins/getting-started/)
 - [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/c/indesign/)
 
+<InlineAlert variant="neutral" slots="text1, text2" />
+
+We want your feedback to know how we’re doing with UXP.
+
+Please fill out the [annual survey](https://survey.adobe.com/jfe/form/SV_bOTadEb8jZIHkHk?Source=id_docs) and share more about your experience building UXP Plugins or Scripts. We read every response, and any and all feedback is appreciated!
+
+
+<br></br>
+<br></br>
 
 ## Getting started
 UXP allows you to accomplish tasks, and make changes to a document or its contents quickly.
