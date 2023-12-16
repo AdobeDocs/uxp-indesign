@@ -25,13 +25,6 @@ Welcome to the world of UXP (**U**nified E**x**tensibility **P**latform) in Adob
 - [Plugins](./plugins/getting-started/)
 - [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/c/indesign/)
 
-<InlineAlert slots="text" />
-
-**How likely are you to recommend developing add-ons for Adobe Express to a fellow developer?** <br /><br />
-(Not at all likely) [1](https://survey.adobe.com/jfe/form/SV_bOTadEb8jZIHkHk?Q_PopulateResponse=%7B%22QID42%22:%221%22%7D&Source=id_docs) • [2️](https://survey.adobe.com/jfe/form/SV_bOTadEb8jZIHkHk?Q_PopulateResponse=%7B%22QID42%22:%222%22%7D&Source=id_docs) • [3️](https://survey.adobe.com/jfe/form/SV_bOTadEb8jZIHkHk?Q_PopulateResponse=%7B%22QID42%22:%223%22%7D&Source=id_docs) • [4️](https://survey.adobe.com/jfe/form/SV_bOTadEb8jZIHkHk?Q_PopulateResponse=%7B%22QID42%22:%224%22%7D&Source=id_docs) • [5️](https://survey.adobe.com/jfe/form/SV_bOTadEb8jZIHkHk?Q_PopulateResponse=%7B%22QID42%22:%225%22%7D&Source=id_docs) • [6️](https://survey.adobe.com/jfe/form/SV_bOTadEb8jZIHkHk?Q_PopulateResponse=%7B%22QID42%22:%226%22%7D&Source=id_docs) • [7️](https://survey.adobe.com/jfe/form/SV_bOTadEb8jZIHkHk?Q_PopulateResponse=%7B%22QID42%22:%227%22%7D&Source=id_docs) • [8️](https://survey.adobe.com/jfe/form/SV_bOTadEb8jZIHkHk?Q_PopulateResponse=%7B%22QID42%22:%228%22%7D&Source=id_docs) • [9️](https://survey.adobe.com/jfe/form/SV_bOTadEb8jZIHkHk?Q_PopulateResponse=%7B%22QID42%22:%229%22%7D&Source=id_docs) • [10](https://survey.adobe.com/jfe/form/SV_bOTadEb8jZIHkHk?Q_PopulateResponse=%7B%22QID42%22:%2210%22%7D&Source=id_docs) (Extremely likely)
-
-<br></br>
-<br></br>
 
 ## Getting started
 UXP allows you to accomplish tasks, and make changes to a document or its contents quickly.
