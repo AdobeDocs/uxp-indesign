@@ -11,6 +11,9 @@ contributors:
   - https://github.com/padmkris123
 ---
 # Changelog
+## InDesign v19.0
+#### Updated
+- **[BREAKING CHANGE]** UXP logs and console.log paths have changed.
 
 ## InDesign v19.0
 
