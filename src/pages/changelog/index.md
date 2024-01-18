@@ -13,7 +13,7 @@ contributors:
 # Changelog
 ## InDesign v19.2
 #### Updated
-- **[BREAKING CHANGE]** UXP logs and console.log paths have changed.
+- **[BREAKING CHANGE]** UXP logs and console.log [paths](/scripts/tutorials/debug/) have changed.
 
 ## InDesign v19.0
 
