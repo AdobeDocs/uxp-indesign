@@ -11,6 +11,9 @@ contributors:
   - https://github.com/padmkris123
 ---
 # Changelog
+## InDesign v19.2
+#### Updated
+- **[BREAKING CHANGE]** UXP logs and console.log [paths](/scripts/tutorials/debug/) have changed.
 
 ## InDesign v19.0
 
@@ -36,7 +39,7 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
     - set()
     - values()
 - <b>(Photoshop Only)</b> GUID for uniquely identifying a Creative Cloud User.
-- Adobe [Extensibility Metadata Platform (XMP)](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/XMP/getting-started/) support
+- <b>(Photoshop Only)</b> Adobe Extensibility Metadata Platform (XMP) support.
 - [pointer-events: none](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events) `CSS` property
 - Support for `pseudoElement` in [getComputedStyle(element, pseudoElement)](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/getComputedStyle) API
 
