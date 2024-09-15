@@ -12,7 +12,7 @@ contributors:
 ---
 # Changelog
 ## InDesign v20.0
-#### Updated
+#### New
 - [Flyout Menus Support](/src/pages/resources/recipes/flyout-menu/index.md)
 - [Peristent Storage Migration](/src/pages/resources/recipes/persistent-storage-migration/index.md)
 - [GUID support](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/User%20Information/) 
