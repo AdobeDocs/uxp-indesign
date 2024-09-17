@@ -58,5 +58,13 @@ module.exports = [
     {
         "title": `Right-to-left`,
         "path": "/resources/recipes/rtl/"
+    },
+    {
+        "title": `Flyout Menus`,
+        "path": "resources/recipes/flyout-menu"
+    },
+    {
+        "title": `Persistent Storage Migration`,
+        "path": "resources/recipes/persistent-storage-migration"
     }
 ]
