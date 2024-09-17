@@ -37,18 +37,22 @@ While installing the new InDesign version, if the "Import Previous Settings and 
 **Plugins Installed from CCD or Plugin Market Place (External)**
 
 - **Windows:**
-  *AppData\Roaming\Adobe\UXP\PluginsStorage\IDSN\\{App Version}\External*
+
+  `AppData\Roaming\Adobe\UXP\PluginsStorage\IDSN\{App Version}\External`
 
 - **MAC:**
-  *Library/Application Support/Adobe/UXP/PluginsStorage/IDSN/{App Version}/External*
+
+  `Library/Application Support/Adobe/UXP/PluginsStorage/IDSN/{App Version}/External`
 
 **Plugins Installed from UDT or Developer Plugins (Developer)**
 
-- **Windows**
-  *AppData\Roaming\Adobe\UXP\PluginsStorage\IDSN\\{App Version}\Developer*
+- **Windows:**
 
-- **MAC**
-  *Library/Application Support/Adobe/UXP/PluginsStorage/IDSN/{App Version}/Developer*
+  `AppData\Roaming\Adobe\UXP\PluginsStorage\IDSN\{App Version}\Developer`
+
+- **MAC:**
+
+  `Library/Application Support/Adobe/UXP/PluginsStorage/IDSN/{App Version}/Developer`
 
 
   
