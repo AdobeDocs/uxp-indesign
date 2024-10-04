@@ -90,7 +90,7 @@ The <inlineCode>instanceof</inlineCode> keyword isn't supported for InDesign DOM
             </td>
             <td>
 <code class="language-javascript">{`
-if (app.selection[0].paragraphs[0].appliedParagraphStyle.parent instanceofParagraphStyleGroup) { ... }
+if (app.selection[0].paragraphs[0].appliedParagraphStyle.parent instanceof ParagraphStyleGroup) { ... }
 `}</code></td>
             <td>
 <code class="language-javascript">{`
