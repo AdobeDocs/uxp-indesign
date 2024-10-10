@@ -67,6 +67,23 @@ contributors:
 - Upgraded Spectrum Web Components to v0.37.0. [More detail](https://github.com/adobe/swc-uxp-wrappers/tree/main?tab=readme-ov-file#spectrum-web-components-uxp-wrappers)
 - [UXP Clipboard.writeText()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md#writetexttext) now accepts strings as input to meet standards
 
+## InDesign v19.4
+
+### UXP v7.4.0
+
+#### Updated
+- UXP Alerts ([alert](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert.md), [prompt](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/prompt.md), [confirm](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/confirm.md)) have been moved back to beta due to a few inherent instabilities in this feature. While we work on addressing these issues, the feature can be accessed using the feature flag `enableAlerts` in the manifest.json file. Also, note that UXP alerts will be `available only in Plugins` and `not in scripts`.
+- Wildcards (*) at the top-level `domain` name are not allowed. Please ensure you revisit the `permissions` setup in manifest.json for [WebView](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement.md), and network calls [XMLHttp](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/XMLHttpRequest.md) [fetch](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/fetch.md)
+- New doc for tracking the [mapping between Spectrum widgets and Spectrum Web Components](/indesign/uxp/reference/uxp-api/reference-spectrum/spectrum-widgets-to-swc-mapping/index.md) in UXP
+
+
+#### Fixed
+- XMP in Scripts.
+- Plugin crashes while using [fit-content](https://forums.creativeclouddeveloper.com/t/ps-2024-crashes-when-opening-my-uxp-plugin/6840/7) 
+- WebView support for [file selector](https://forums.creativeclouddeveloper.com/t/macos-uxp-webview-for-photoshop-is-missing-file-selector/6843) in MacOS
+- GUID returning hashed empty string
+- Updated missing docs for pseudo-class [defined](/indesign/uxp/reference/uxp-api/reference-css/Pseudo-classes/defined.md) (Available since UXP v6.0)
+
 ## InDesign v19.2
 #### Updated
 - **[BREAKING CHANGE]** UXP logs and console.log [paths](/scripts/tutorials/debug/) have changed.
