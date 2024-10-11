@@ -24,15 +24,15 @@ contributors:
 
 #### Deprecations
 - Changes to Clipboard
-  - [Clipboard.setContent](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md#setcontentdata) is deprecated. Please use [Clipboard.write](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md#writedata) instead.
-  - [Clipboard.getContent](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md#getcontent) is deprecated. Please use [Clipboard.read](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md#read) instead.
-  - Passing an `object` to [Clipboard.writeText(object)](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md##writetexttext) is deprecated. Please use [Clipboard.write(object)](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md#writedata) instead.
-  - [Clipboard.clearContent](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md#clearcontent) is deprecated. [Clipboard.writeText("")](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md#writetexttext) would be an alternative.
+  - [Clipboard.setContent](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md/#setcontentdata) is deprecated. Please use [Clipboard.write](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md/#writedata) instead.
+  - [Clipboard.getContent](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md/#getcontent) is deprecated. Please use [Clipboard.read](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md/#read) instead.
+  - Passing an `object` to [Clipboard.writeText(object)](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md/##writetexttext) is deprecated. Please use [Clipboard.write(object)](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md/#writedata) instead.
+  - [Clipboard.clearContent](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md/#clearcontent) is deprecated. [Clipboard.writeText("")](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md/#writetexttext) would be an alternative.
 - Changes to VideoElement
-  - Event `uxpvideoload` in [load()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md#load) is deprecated. Use `loadeddata` instead.
-  - Event `uxpvideoplay` in [play()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md#play) is deprecated. Use `ended` instead.
-  - Event `uxpvideocomplete` in [play()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md#play) is deprecated. Use `ended` instead.
-  - Event `uxpvideopause` in [pause()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md#pause) is deprecated. Use `pause` instead.
+  - Event `uxpvideoload` in [load()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md/#load) is deprecated. Use `loadeddata` instead.
+  - Event `uxpvideoplay` in [play()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md/#play) is deprecated. Use `ended` instead.
+  - Event `uxpvideocomplete` in [play()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md/#play) is deprecated. Use `ended` instead.
+  - Event `uxpvideopause` in [pause()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md/#pause) is deprecated. Use `pause` instead.
 
 #### New
 - New components supported in Spectrum Web Components (SWC). More details [here](https://github.com/adobe/swc-uxp-wrappers/tree/main?tab=readme-ov-file#spectrum-web-components-uxp-wrappers)
@@ -43,8 +43,8 @@ contributors:
   - sp-quick-actions
   - sp-search
   - sp-swatch
-- New command line templates to get started with SWC easily. Find details in this [section](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md#command-line-templates).
-- Support for local HTML files in [WebView](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement.md#load-local-content-onto-webview)
+- New command line templates to get started with SWC easily. Find details in this [section](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md/#command-line-templates).
+- Support for local HTML files in [WebView](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement.md/#load-local-content-onto-webview)
 - New CSS capabilities
   - scaleX() & scaleY()
   - transform-origin
@@ -60,12 +60,12 @@ contributors:
   Note that `"enableSWCSupport": true` will enable `CSSNextSupport` by default, even if it is not done explicitly in plugin manifest otherwise.
 - Video enhancements: Support added for [Seek Event](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md)
 - Support for [Navigator.language](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/language) API
-- Support for new HTMLElement APIs - [append](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement.md#appendnodes), [prepend](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement.md#prependnodes) and [replaceChildren](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement.md#replacechildrennodes)
+- Support for new HTMLElement APIs - [append](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement.md/#appendnodes), [prepend](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement.md/#prependnodes) and [replaceChildren](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement.md/#replacechildrennodes)
 - [Beta] Support for form reset in [HTMLFormElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 
 #### Updated
 - Upgraded Spectrum Web Components to v0.37.0. [More detail](https://github.com/adobe/swc-uxp-wrappers/tree/main?tab=readme-ov-file#spectrum-web-components-uxp-wrappers)
-- [UXP Clipboard.writeText()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md#writetexttext) now accepts strings as input to meet standards
+- [UXP Clipboard.writeText()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard.md/#writetexttext) now accepts strings as input to meet standards
 
 ## InDesign v19.4
 
@@ -118,9 +118,9 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 
 
 #### Updated
-- [FormData's append](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/FormData.md#append--namevaluefilename) now supports `Blob` as an additional parameter.
+- [FormData's append](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/FormData.md/#append--namevaluefilename) now supports `Blob` as an additional parameter.
 - [Spectrum Web Component (SWC)](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/) in UXP is moving out of Beta. 
-    - Additional [components and variants](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md#list-of-supported-swc)
+    - Additional [components and variants](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md/#list-of-supported-swc)
     - `Spectrum Web Components` support in `React` context is now available for all 30 components.
     - Starter plugins for [Spectrum Web Component](https://github.com/AdobeDocs/uxp-indesign-samples/tree/main/plugins/swc-uxp-starter) and [Spectrum Web Component in React context](https://github.com/AdobeDocs/uxp-indesign-samples/tree/main/plugins/swc-uxp-react-starter)
 
@@ -179,7 +179,7 @@ html {
         - [HTMLSlotElement](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLSlotElement/)
         - [HTMLTemplateElement](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLTemplateElement/)
     - Methods
-        - [Element.assignedSlot](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#assignedslot--htmlslotelement)
+        - [Element.assignedSlot](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md/#assignedslot--htmlslotelement)
         - [Element.slot](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#slot--string)
         - [Element.attachShadow](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#attachshadowinit)
         - [Element.shadowRoot](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element#shadowroot--shadowroot)
