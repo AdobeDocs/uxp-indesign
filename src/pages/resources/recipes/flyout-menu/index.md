@@ -29,7 +29,7 @@ Please make sure your local environment uses the following application versions 
 
 ## Defining Flyout Menus
 
-Flyout menus are defined by a JSON structure that's passed to the UXP `entrypoints.setup` method. The JSON tells UXP what the menu items are and what to do when they're invoked. In the following example, there are three space-related menu items. When a menu item is chosen by the user ("invoked"), UXP calls the plugin-defined function `handleFlyout`.
+Flyout menus are defined by a JSON structure that's passed to the UXP `entrypoints.setup` method. The JSON tells UXP what the menu items are and what to do when they're invoked. In the following example, there are three menu items, a seperator, and two submenu items. When a menu item is chosen by the user ("invoked"), UXP calls the plugin-defined function `handleFlyout`.
 
 ```js
 const { entrypoints } = require("uxp");
