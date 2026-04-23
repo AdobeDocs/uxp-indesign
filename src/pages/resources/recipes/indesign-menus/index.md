@@ -26,18 +26,14 @@ function mySnippet()
     //Adds a menu at the end of the main menu bar.
     let mySampleScriptAction = app.scriptMenuActions.add("Display Message");
  
-    let myEventListener = mySampleScriptAction.eventListeners.add("onInvoke", function(){
+    mySampleScriptAction.eventListeners.add("onInvoke", function(){
         console.log("This menu item was added by a script.");
     });
  
+    let mySampleScriptMenu = app.menus.item("Main").submenus.item("Script Menu Action");
     //If the submenu "Script Menu Action" does not already exist, create it.
-    try
-    {
-        let mySampleScriptMenu = app.menus.item("Main").submenus.item("Script Menu Action");
-    }
-    catch (myError)
-    {
-        let mySampleScriptMenu = app.menus.item("Main").submenus.add("Script Menu Action");
+    if (!mySampleScriptMenu.isValid) {
+        mySampleScriptMenu = app.menus.item("Main").submenus.add("Script Menu Action");
     }
  
     mySampleScriptMenu.menuItems.add(mySampleScriptAction);
