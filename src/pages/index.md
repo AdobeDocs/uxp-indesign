@@ -5,7 +5,7 @@ contributors:
   - https://github.com/oihamza
 ---
 
-<Hero slots="image, heading, text" background="rgb(64, 34, 138)"/>
+<Superhero slots="image, heading, text" background="rgb(64, 34, 138)"/>
 
 ![Hero image](./illustration.png)
 

@@ -10,7 +10,7 @@ keywords:
   - bug
 ---
 
-<Hero slots="heading, text" background="rgb(19, 93, 183)"/>
+<Superhero slots="heading, text" background="rgb(19, 93, 183)"/>
 
 # Community
 

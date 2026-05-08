@@ -222,7 +222,7 @@ UXP supports a number of different host applications. The host definition specif
 To ensure that plugins are secure, UXP requires that plugins declare the permissions they need to function.
 
 
-<InlineAlert variant="info" slots="header, text"/>
+<InlineAlert variant="info" slots="heading, text"/>
 
 **Pro tip**
 
