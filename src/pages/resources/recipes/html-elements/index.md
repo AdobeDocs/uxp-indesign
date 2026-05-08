@@ -29,7 +29,7 @@ Please make sure your local environment uses the following application versions 
 - Manifest version v5 or higher
 
 ## Using HTML
-<!-- Provide a simple example using code snippets -->
+\<!-- Provide a simple example using code snippets --\>
 
 <CodeBlock slots="heading, code" repeat="3" languages="HTML, JavaScript, CSS" />
 

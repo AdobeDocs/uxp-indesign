@@ -22,46 +22,15 @@ In scripts, however, these configurations are fixed and invisible. Almost as if 
 
 One of the key modules in the manifest that drives the access and working of many APIs is the 'permission' module.  We elaborated on the meaning of each permission and the various options in great detail in the [plugin manifest section](../../../plugins/concepts/manifest/index.md#permissionsdefinition). And for the sake of completeness, the table below summarizes the permissions implicitly defined for **scripts**.
 
-<table columnWidths="20,20,60">
-    <thead>
-        <tr>
-            <th>Permission module</th>
-            <th>Value</th>
-            <th>Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><inlineCode>clipboard</inlineCode></td>
-            <td><inlineCode>"readAndWrite"</inlineCode></td>
-            <td>Allows you to read from and write to the clipboard.</td>
-        </tr>
-        <tr>
-            <td><inlineCode>localFileSystem</inlineCode></td>
-            <td><inlineCode>"fullAccess"</inlineCode></td>
-            <td>Enables full file system access.</td>
-        </tr>
-        <tr>
-            <td><inlineCode>network</inlineCode></td>
-            <td><inlineCode>"all"</inlineCode></td>
-            <td>Allows access to network</td>
-        </tr>
-        <tr>
-            <td><b>webview</b></td>
-            <td><i>any</i></td>
-            <td>Access to any domain</td>
-        </tr>
-        <tr>
-            <td><inlineCode>launchProcess</inlineCode></td>
-            <td><i>any</i></td>
-            <td>Full access to launch applications and files</td>
-        </tr>
-        <tr>
-            <td><inlineCode>allowCodeGenerationFromStrings</inlineCode></td>
-            <td>false</td>
-            <td>Not applicable for scripts.</td>
-        </tr>
-    </tbody>
-</table>
+
+| Permission module | Value | Description |
+| --- | --- | --- |
+| `clipboard` | `"readAndWrite"` | Allows you to read from and write to the clipboard. |
+| `localFileSystem` | `"fullAccess"` | Enables full file system access. |
+| `network` | `"all"` | Allows access to network |
+| **webview** | _any_ | Access to any domain |
+| `launchProcess` | _any_ | Full access to launch applications and files |
+| `allowCodeGenerationFromStrings` | false | Not applicable for scripts. |
+
 
 **Note:** The permissions for scripts may appear to be more lenient compared to plugins, but plugins have their advantage. The details in the [introduction to scrips and plugins](../../../introduction/next-steps/script-and-plugin/index.md) can help you determine a suitable match for your use case.

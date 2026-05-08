@@ -1,6 +1,6 @@
 ---
 title: Object model in indesign server
-description: 
+description: Guide to the InDesign Server object model for UXP scripts
 keywords:
   - InDesign server 
 contributors:
@@ -18,7 +18,7 @@ For running UXP Scripts in InDesign Server, you need both - InDesign and InDesig
 
 ## Object Model
 
-<!-- TODO give code snippets and examples -->
+\<!-- TODO give code snippets and examples --\>
 
 The InDesign Object Model is described in the [Resources](../../../resources/fundamentals/object-model/index.md) section. However, InDesign Server's object model differs slightly.
 

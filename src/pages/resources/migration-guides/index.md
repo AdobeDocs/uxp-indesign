@@ -1,3 +1,8 @@
+---
+title: Migration Guides
+description: Migrate from other extensibility platforms to UXP.
+---
+
 # Migration Guides
 
 Migrate from other extensibility platforms to UXP.

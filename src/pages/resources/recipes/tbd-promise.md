@@ -1,3 +1,8 @@
+---
+title: Tbd Promise
+description:             // add listeners on the dialog close and cancel and resolve/reject the promise returned in one of them.
+---
+
 
 link to some material
 soemthing that falls out of 

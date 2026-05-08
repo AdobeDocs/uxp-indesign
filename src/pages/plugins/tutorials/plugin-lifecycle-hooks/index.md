@@ -77,7 +77,7 @@ entrypoints.setup({
 }
 ```
 
-<!-- 
+\<!-- 
 ## Reference material
 // TODO add links to API reference 
--->
+--\>

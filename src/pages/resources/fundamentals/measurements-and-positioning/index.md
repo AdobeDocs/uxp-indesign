@@ -1,6 +1,6 @@
 ---
 title: Measurement & positioning
-description: 
+description: Understanding measurement units and positioning in InDesign UXP
 keywords:
   - 
 contributors:
@@ -34,7 +34,7 @@ You can set measurement values using numbers (for example, 14.65) or strings (fo
 
 Alternatively, you can use measurement overrides, like many of the sample scripts. A measurement override is a string containing a special character, as shown in the following table:
 
-<!-- TODO Give an example or point to API docs that let dev set/get/override measurement units -->
+\<!-- TODO Give an example or point to API docs that let dev set/get/override measurement units --\>
 
 | Override  | Meaning                                        | Example |
 |-----------|------------------------------------------------|---------|

@@ -65,9 +65,9 @@ Once you've got a plugin that's ready for sharing, after it's been thoroughly po
 - Select a folder to store the ccx file. Note that the plugin package will always be named after the plugin's ID.
 
 To find more details about distributing your plugin, see [Sharing Your Plugin](../../../introduction/next-steps/distribution/index.md).
-<br></br><br></br>
 
----
+
+<HorizontalLine />
 
 The **Advanced** section allows you to specify the plugin's build folder, relative to its `manifest.json` file. This is particularly useful when [working with React](working-with-react.md) or other bundlers.
 

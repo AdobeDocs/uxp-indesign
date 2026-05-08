@@ -44,13 +44,13 @@ myTextFrame.contents = "Hello World!";
 ### Step 2: Save the file to Scripts panel
 
 Scripts can only be executed once they appear in the Scripts panel. To add your scripts to the panel, you have two options
-1. Save your scripts to the InDesign application scripts folder.<br></br>
-    macOS - `/Applications/Adobe InDesign 2023/Scripts` <br></br>
-    Windows - <!-- //TODO path? --> <br></br>
+1. Save your scripts to the InDesign application scripts folder.
+    macOS - `/Applications/Adobe InDesign 2023/Scripts` 
+    Windows - \<!-- //TODO path? --\> 
     (Create the Scripts folder if it does not already exist but this may require admin access.)
-2. Alternatively, put the script inside the Scripts Panel folder in your preferences folder. Your preferences folder is at: <br></br>
-    macOS: `/Users/<username>/Library/Preferences/Adobe InDesign/Version 18.0/<locale>/Scripts` <br></br>
-    Windows: `C:\Users\<username>\AppData\Roaming\Adobe\InDesign\Version 18.0\<locale>\Scripts` <br></br>
+2. Alternatively, put the script inside the Scripts Panel folder in your preferences folder. Your preferences folder is at: 
+    macOS: `/Users/<username>/Library/Preferences/Adobe InDesign/Version 18.0/<locale>/Scripts` 
+    Windows: `C:\Users\<username>\AppData\Roaming\Adobe\InDesign\Version 18.0\<locale>\Scripts` 
     Above, `<username>` is your user name and `<locale>` references your location and language, for example, en_US.
 
 Save the script as a plain-text file with the `.idjs` file extension.

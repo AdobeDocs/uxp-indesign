@@ -28,7 +28,6 @@ UXP plugins are distributed in the form of a `.ccx` file. Under the hood, this i
 . Without an id (which goes in the `id` field of your plugin's `manifest.json` file), you won't be able to distribute your plugin in the Creative Cloud Marketplace.
 
 
-
 ### Packaging a plugin
 Taking your plugin code and packaging it has never been easier.
 

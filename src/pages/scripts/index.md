@@ -4,7 +4,7 @@ description: UXP Scripts Reference for InDesign
 # openAPISpec:  /petstore.json
 --- 
 
-# UXP Scripts 
+## UXP Scripts 
 
 **InDesign v18.0** onwards supports UXP scripts. 
 

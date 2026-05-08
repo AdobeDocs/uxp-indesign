@@ -1,6 +1,6 @@
 ---
 title: Script lifespan
-description: 
+description: Understanding the lifecycle of UXP scripts in InDesign
 keywords:
   - script session
 contributors:

@@ -1,6 +1,6 @@
 ---
 title: Object model
-description: 
+description: Overview of the InDesign object model for UXP development
 keywords:
   - Hierarchy
   - Object model

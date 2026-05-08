@@ -34,10 +34,10 @@ But before we proceed, it's important to understand some terminology
 
 
 With that in mind, let's get into the details:
-- **HTML elements** <br></br>
+- **HTML elements** 
    These are pure HTML elements following web standards. For example, `<img>`, `<dialog>` etc. You have the flexibility to style them with your custom stylesheet. 
   
-- **Spectrum UXP widgets** <br></br>
+- **Spectrum UXP widgets** 
    These are built-in Spectrum-styled UXP components. These widgets mimic the Adobe SWC library APIs and expose a subset of the functionality of the corresponding SWC. 
 
    You can use them as you would any other HTML tag. For example,
@@ -46,7 +46,7 @@ With that in mind, let's get into the details:
    <sp-button variant="primary">I'm a Spectrum button</sp-button>
    ```
 
-- **UXP Spectrum web components (Beta)** <br></br>
+- **UXP Spectrum web components (Beta)** 
     These are the Adobe Spectrum Web Components, recently added and supported by UXP v7.0 onwards. It's built using Web Components technology.
 
     To use them, you require to install the components individually and then `import` them before using the component tag. For example,
@@ -71,16 +71,16 @@ With that in mind, let's get into the details:
 Now that you know the various options, you must understand their differences and limitations
 
 
-- **HTML elements** <br></br>
+- **HTML elements** 
    Keep in mind that UXP is not a browser. It's a platform that provides the ease of using web technologies to build plugins/scripts for desktop applications. Hence, it does not support all the HTML/CSS capabilities you can use in a browser. In fact, the tags that are _not_ supported are treated like simple `<div>`.
 
    Do take a look at the list of HTML [elements](/indesign/uxp/reference/uxp-api/reference-html/General/Unsupported%20Elements/), and [attributes](/indesign/uxp/reference/uxp-api/reference-html/General/Unsupported%20Attributes/) that are _not_ supported.
   
-- **Spectrum UXP widgets**<br></br>
+- **Spectrum UXP widgets**
    Remember that these are built-in within UXP. Therefore, they may appear to be a black-box solution that does not allow you to peek into the details while debugging or altering their behavior easily.
 
 
-- **UXP Spectrum web components (Beta)** <br></br>
+- **UXP Spectrum web components (Beta)** 
    Requires basic knowledge of [Web Components](https://javascript.info/web-components). And since this is in the beta phase and we are working on supporting more components in the future, you may not find all the components you need. 
   
    Moreover, these components follow the principles of SWC and web components, which means
@@ -88,17 +88,16 @@ Now that you know the various options, you must understand their differences and
    2. You can debug SWC like a regular Web Component. 
 
 
-
 That said, you can mix and match these three offerings to suit your use case. For example, the following will work seamlessly
 
 
 ```HTML
-<form> <!-- plain HTML element -->
-   <sp-banner> <!-- Spectrum Web Component -->
+<form> \<!-- plain HTML element --\>
+   <sp-banner> \<!-- Spectrum Web Component --\>
      <div slot="header">Header text</div>
      <div slot="content">Content of the banner</div>
   </sp-banner>
-  <sp-button variant="primary">I'm a button</sp-button> <!-- Spectrum widget -->
+  <sp-button variant="primary">I'm a button</sp-button> \<!-- Spectrum widget --\>
 </form>
 ```
 
@@ -113,7 +112,7 @@ If you are looking for a ready-made Adobe Spectrum-styled UI or are just getting
 
 However, if you prefer vanilla HTML and don't mind undertaking the efforts of styling, use the HTML elements along with your custom stylesheet. Make sure you read the [CSS Styling](../../recipes/css-styling/index.md) recipe.
 
-<!-- 
+\<!-- 
 // TODO add once the starter templates are ready
 
 ## Additional notes
@@ -142,12 +141,12 @@ See [ui-vue-starter](https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/t
 [Svelte](https://svelte.dev/) is different from the other two libraries, in the sense that it compiles your code to a simple JS application, shrinking its size.
 
 See [ui-svelte-starter](https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/tree/main/ui-svelte-starter) for the sample project.  // TODO update link
--->
+--\>
 
 
 ## Reference material
 - [Spectrum Web Components](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/)
 - [Spectrum UXP widgets](/indesign/uxp/reference/uxp-api/reference-spectrum/Spectrum%20UXP%20Widgets/)
 - Supported HTML [tags](/indesign/uxp/reference/uxp-api/reference-html/) and [elements](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/)
-<!-- [Kitchen sink sample]() - //TODO link to Id starter/ kitchen sink sample -->
+\<!-- [Kitchen sink sample]() - //TODO link to Id starter/ kitchen sink sample --\>
 

@@ -1,3 +1,8 @@
+---
+title: XML
+description: //You'll have to fill in a valid file path for your system.
+---
+
 # XML
 
 ### Importing XML
@@ -89,7 +94,7 @@ Just as you can load XML tags from a file, you can save XML tags to a file, as s
 myDocument.saveXMLTags(filePath);
 ```
 
-# XML Rules
+## XML Rules
 
 ### Setting up a sample document
 

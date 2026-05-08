@@ -1,3 +1,8 @@
+---
+title: JavaScript Modules
+description: The beauty of plugins is that it allows you to have more than just one JavaScript file. And in order to manage elaborate projects, you might want to modularize 
+---
+
 # JavaScript Modules
 
 The beauty of plugins is that it allows you to have more than just one JavaScript file. And in order to manage elaborate projects, you might want to modularize your code and manage it from separate JS files.

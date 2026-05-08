@@ -21,7 +21,7 @@ A UXP script can be directly shared. Just share your `.idjs` file with your fami
 
 While sharing your plugins, you have a couple of options:
 
-<SummaryBlock slots="heading, text, buttons" background="rgb(141, 52, 78)" />
+<Summary slots="heading, text, buttons" background="rgb(141, 52, 78)" />
 
 ### Distribute on Creative Cloud Plugin Marketplace
 

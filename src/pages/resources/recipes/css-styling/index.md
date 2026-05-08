@@ -70,6 +70,6 @@ exampleDiv.style.backgroundColor = 'orange';
 ## Reference material
 - [CSS reference](/indesign/uxp/reference/uxp-api/reference-css/)
 - [Spectrum-styled components](/indesign/uxp/reference/uxp-api/reference-spectrum/) 
-<!-- [Sample]() // TODO link to kitchen sink plugin -->
-<!-- [Webpack template]() // TODO link to webpack template -->
+\<!-- [Sample]() // TODO link to kitchen sink plugin --\>
+\<!-- [Webpack template]() // TODO link to webpack template --\>
 

@@ -44,7 +44,7 @@ For file system access you require permission for the `localFileSystem` module.
 
 Plugins and Scripts
 
-**In plugins**, you should seek permission for `localFileSystem` in your manifest.<br></br> IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/index.md#permissionsdefinition) module before proceeding.
+**In plugins**, you should seek permission for `localFileSystem` in your manifest. IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/index.md#permissionsdefinition) module before proceeding.
 
 **In scripts**, the permission for `localFileSystem` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/index.md). 
 
@@ -73,14 +73,14 @@ And, for other locations, use `file:/`.
 
 ```html
 <img src="plugin:/sample.png" />
-<img src="file:/Users/user/Downloads/sample.png" /> <!-- update the path based on your system -->
+<img src="file:/Users/user/Downloads/sample.png" /> \<!-- update the path based on your system --\>
 ```
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
 Plugins and Scripts
 
-**In plugins**, you should seek permission for `localFileSystem` in your manifest.<br></br> IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/index.md#permissionsdefinition) module before proceeding.
+**In plugins**, you should seek permission for `localFileSystem` in your manifest. IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/index.md#permissionsdefinition) module before proceeding.
 
 **In scripts**, you can avail only `plugin-temp:/` to read/write from/to a temporary folder. 
 

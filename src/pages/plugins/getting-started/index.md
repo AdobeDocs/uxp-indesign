@@ -31,10 +31,7 @@ You can create your plugin directly in the UXP Developer Tool. To do so, open th
 
 This opens a dialog where you can enter the details for your plugin:
 
-<figure>
-  <img src="create-plugin.png" alt="Screenshot of the create plugin dialog" />
-  <figcaption>The create plugin dialog</figcaption>
-</figure>
+![Screenshot of the create plugin dialog](create-plugin.png)
 
 In the dialog, enter the following information:
 
@@ -64,17 +61,11 @@ First things first, you'll need to run InDesign. You can verify that UDT is conn
 
 Then, in the UXP Developer Tool, in the row for your plugin, click **⋯ &rarr; Load**:
 
-<figure>
-  <img src="load-plugin.png" alt="Screenshot of the UXP Developer Tool with the load button highlighted" />
-  <figcaption>The load button</figcaption>
-</figure>
+![Screenshot of the UXP Developer Tool with the load button highlighted](load-plugin.png)
 
 This will load your plugin into InDesign. You should see the plugin's panel appear in InDesign:
 
-<figure>
-  <img src="loaded-plugin.png" alt="Screenshot of InDesign with the plugin panel open" />
-  <figcaption>The plugin panel</figcaption>
-</figure>
+![Screenshot of InDesign with the plugin panel open](loaded-plugin.png)
 
 ### Step 3: Make a change
 
@@ -110,10 +101,7 @@ Or you could add a paragraph below the heading:
 
 To see your changes, you'll need to reload the plugin in InDesign. To do so, in the UXP Developer Tool, in the row for your plugin, click **⋯ &rarr; Reload**:
 
-<figure>
-  <img src="reload-plugin.png" alt="Screenshot of the UXP Developer Tool with the reload button highlighted" />
-  <figcaption>The reload button</figcaption>
-</figure>
+![Screenshot of the UXP Developer Tool with the reload button highlighted](reload-plugin.png)
 
 <InlineAlert slots="text" />
 

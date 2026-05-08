@@ -13,18 +13,18 @@ contributors:
 This page goes over how to debug common problems you may run into.
 
 Quick tips for logs:
-* The UXP logs and `console.log` from scripts get written to the following locations <br></br>
-  For the InDesign versions below 19.2 -  <br></br>
-    - macOS: `/Users/<user name>/Library/Caches/UXPLogs/` <br></br>
-    - Windows: `C:\Users\<username>\AppData\Local\Temp\UXPLogs` <br></br>
+* The UXP logs and `console.log` from scripts get written to the following locations 
+  For the InDesign versions below 19.2 -  
+    - macOS: `/Users/<user name>/Library/Caches/UXPLogs/` 
+    - Windows: `C:\Users\<username>\AppData\Local\Temp\UXPLogs` 
 
-  From InDesign 19.2 version onwards log paths have changed as below - <br></br>
-    - Adobe InDesign - <br></br>
-      macOS: `/Users/<user name>/Library/Logs/Adobe/Adobe InDesign <InDesign version year>/` <br></br>
-      Windows: `C:\Users\<username>\AppData\Roaming\Adobe\InDesign\Logs` <br></br>
-    - Adobe InDesign Server - <br></br>
-      macOS: `/Users/<user name>/Library/Logs/Adobe/Adobe InDesign Server <InDesign version year>/` <br></br>
-      Windows: `C:\Users\<username>\AppData\Roaming\Adobe\InDesign Server\Logs` <br></br>
+  From InDesign 19.2 version onwards log paths have changed as below - 
+    - Adobe InDesign - 
+      macOS: `/Users/<user name>/Library/Logs/Adobe/Adobe InDesign <InDesign version year>/` 
+      Windows: `C:\Users\<username>\AppData\Roaming\Adobe\InDesign\Logs` 
+    - Adobe InDesign Server - 
+      macOS: `/Users/<user name>/Library/Logs/Adobe/Adobe InDesign Server <InDesign version year>/` 
+      Windows: `C:\Users\<username>\AppData\Roaming\Adobe\InDesign Server\Logs` 
 
   If you find multiple files in the location, pick the one with the latest timestamp.
 * All the sample scripts have a try/catch block. Any exceptions raised from the InDesign side will be caught and dumped to the console or displayed on the dialog box.

@@ -30,9 +30,9 @@ These APIs are meant for modifying or interacting with the document.
 
 <InlineAlert slots="text1, text2, text3" />
 
-**IMPORTANT** <br></br> 
+**IMPORTANT**  
 
-Note that these are also referred to as **Document Object Model (DOM) APIs** and **Object Model View (OMV)**. Throughout our documentation, we will use InDesign APIs, DOM APIs or OMV interchangeably. <br></br>
+Note that these are also referred to as **Document Object Model (DOM) APIs** and **Object Model View (OMV)**. Throughout our documentation, we will use InDesign APIs, DOM APIs or OMV interchangeably. 
 
 Also, keep in mind that, these should **not** be confused with the HTML DOM which serves your plugin/script UI.
 
@@ -45,7 +45,7 @@ Let's imagine you want to write a script/plugin that
 2. Adds the text to the document.
 3. And, applies certain modifications to it.
 
-For Step #1, since you would like to access the user's file system, you will use the UXP API's `localFileSystem` or `fs` module.<br></br>
+For Step #1, since you would like to access the user's file system, you will use the UXP API's `localFileSystem` or `fs` module.
 In Steps #2 and 3, since you need to update the document, you will use the DOM APIs. 
 
 ## Updates and releases 

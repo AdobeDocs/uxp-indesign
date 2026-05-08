@@ -1,3 +1,8 @@
+---
+title: Adding command entrypoints to your plugin
+description: Command entrypoints are the most common type of entrypoint. They allow you to add commands to the InDesign user interface. When the user runs a command, your pl
+---
+
 # Adding command entrypoints to your plugin
 
 Command entrypoints are the most common type of entrypoint. They allow you to add commands to the InDesign user interface. When the user runs a command, your plugin can perform a variety of actions, such as opening a dialog and changing the document.
@@ -89,9 +94,6 @@ Now, the HTML file is no longer needed. You can delete it. This is especially us
 
 That's it! You've added a command entrypoint to your plugin. When you now load your plugin, you should see a new command called _My Command_ in the **Plugins** menu:
 
-<figure>
-  <img src="command-plugin.png" alt="Screenshot of the Plugins menu with the My Command menu item highlighted" />
-  <figcaption>The My Command menu item</figcaption>
-</figure>
+![Screenshot of the Plugins menu with the My Command menu item highlighted](command-plugin.png)
 
 When you click on it, the `myCommandHandler()` function will run.

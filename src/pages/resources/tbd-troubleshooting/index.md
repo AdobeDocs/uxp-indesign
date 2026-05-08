@@ -1,4 +1,9 @@
-<!-- 
+---
+title: Index
+description: Overview of Index
+---
+
+\<!-- 
 
 Try to keep these docs dettached from the host application as much as possible. So that these docs can be repurposed across applicaitons 
 
@@ -15,5 +20,5 @@ manifest and app and uxp version compatibility
 
 Isolate the issue
 Break points, 
--->
+--\>
 

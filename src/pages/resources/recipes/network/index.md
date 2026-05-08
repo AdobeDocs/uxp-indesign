@@ -17,7 +17,7 @@ You may be looking for ways to make network calls for various reasons such as fe
 
 Plugins and Scripts
 
-**In plugins**, you should seek permission for `` access in the manifest and specify the `domains` of the endpoints. <br></br> 
+**In plugins**, you should seek permission for `` access in the manifest and specify the `domains` of the endpoints.  
 IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/index.md#networkpermission) module before you proceed.
 
 **In scripts**, the permission for `network` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/index.md). 
@@ -182,7 +182,6 @@ async function foo() {
 - These APIs are available in the global scope. Observe that you didn't have to mount them using `require`.
 - The `domains` in the plugin's manifest also let you configure variations of the endpoints. For example, your plugin may like to access 'api.dev.example.com', 'api.stage.example.com' or 'api.prod.example.com' depending upon the environment. You can configure the domains with `["https://api.*.example.com"]` to manage all three.
 - While using `http` domains, keep in mind that Photoshop only allows http protocol on Win32 but not on macOS. InDesign has no such restrictions.
-
 
 
 ## Reference material
