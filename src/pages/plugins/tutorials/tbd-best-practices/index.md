@@ -17,7 +17,7 @@ Work with ID team
 
 \<!-- 
 
-https://developer.adobe.com/photoshop/uxp/2022/design/
+[https://developer.adobe.com/photoshop/uxp/2022/design/](https://developer.adobe.com/photoshop/uxp/2022/design/)
 Add InDesign specific practices
 
 Remove this section if there isnt anything to share

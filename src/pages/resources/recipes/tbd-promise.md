@@ -87,4 +87,4 @@ function createDialog() {
 ```
 
 
-https://javascript.info/promise-basics
+[https://javascript.info/promise-basics](https://javascript.info/promise-basics)
