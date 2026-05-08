@@ -61,7 +61,7 @@ Now that you have created your script, you can run it in InDesign. Open the Scri
 
 Find your saved script, and then double-click on the script name. You can also right-click on the script name and then click on `run` in the drop-down menu.
 
-![Running a script](running_a_script.png)
+![Running a script](running-a-script.png)
 
 
 ![First script output](hello-world.png)

@@ -47,18 +47,18 @@ Open the logs panel to view logs from UDT and the host application.
 
 <DiscoverBlock slots="link, text"/>
 
-[Plugin management](plugin-management/)
+[Plugin management](plugin-management.md)
 
 Create or Add new plugins to your workspace
 
 <DiscoverBlock slots="link, text"/>
 
-[Plugin workflows](plugin-workflows/)
+[Plugin workflows](plugin-workflows.md)
 
 Load, debug, watch your plugins into the app.
 
 <DiscoverBlock slots="link, text"/>
 
-[Working with React](working-with-react/)
+[Working with React](working-with-react.md)
 
 Advanced workflows when working with React-based plugins.

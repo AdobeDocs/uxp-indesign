@@ -14,7 +14,7 @@ There's a lot more to plugin development than what we've covered so far. For mor
 
 Save data to and load data from the file system
 
-[File I/O](../../resources/recipes/file-operation/)
+[File I/O](../../resources/recipes/file-operation/index.md)
 
 ![Network icon](network.jpg)
 
@@ -22,7 +22,7 @@ Save data to and load data from the file system
 
 Make network requests to fetch data from the internet
 
-[Network I/O](../../resources/recipes/network/)
+[Network I/O](../../resources/recipes/network/index.md)
 
 ![Application window icon](ui.jpg)
 
@@ -30,7 +30,7 @@ Make network requests to fetch data from the internet
 
 Add a variety of UI elements to your plugin
 
-[Adding User Interfaces](../../resources/fundamentals/create-ui/)
+[Adding User Interfaces](../../resources/fundamentals/create-ui/index.md)
 
 <!-- 
 ![Complex hierarchical component structure icon](react.jpg)
@@ -48,5 +48,5 @@ Use React to build highly interactive user interfaces
 
 See all the resources available to you for plugin development
 
-[All resources](../../resources/)
+[All resources](../../resources/index.md)
 

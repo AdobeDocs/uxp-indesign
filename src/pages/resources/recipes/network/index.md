@@ -18,9 +18,9 @@ You may be looking for ways to make network calls for various reasons such as fe
 Plugins and Scripts
 
 **In plugins**, you should seek permission for `` access in the manifest and specify the `domains` of the endpoints. <br></br> 
-IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#networkpermission) module before you proceed.
+IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/index.md#networkpermission) module before you proceed.
 
-**In scripts**, the permission for `network` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/). 
+**In scripts**, the permission for `network` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/index.md). 
 
 
 The fastest way to try out a network call is by rendering an image from the web

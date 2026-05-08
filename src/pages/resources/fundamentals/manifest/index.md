@@ -20,7 +20,7 @@ In scripts, however, these configurations are fixed and invisible. Almost as if 
 
 ## Permission module for Scripts
 
-One of the key modules in the manifest that drives the access and working of many APIs is the 'permission' module.  We elaborated on the meaning of each permission and the various options in great detail in the [plugin manifest section](../../../plugins/concepts/manifest/#permissionsdefinition). And for the sake of completeness, the table below summarizes the permissions implicitly defined for **scripts**.
+One of the key modules in the manifest that drives the access and working of many APIs is the 'permission' module.  We elaborated on the meaning of each permission and the various options in great detail in the [plugin manifest section](../../../plugins/concepts/manifest/index.md#permissionsdefinition). And for the sake of completeness, the table below summarizes the permissions implicitly defined for **scripts**.
 
 <table columnWidths="20,20,60">
     <thead>
@@ -64,4 +64,4 @@ One of the key modules in the manifest that drives the access and working of man
     </tbody>
 </table>
 
-**Note:** The permissions for scripts may appear to be more lenient compared to plugins, but plugins have their advantage. The details in the [introduction to scrips and plugins](../../../introduction/next-steps/script-and-plugin/) can help you determine a suitable match for your use case.
+**Note:** The permissions for scripts may appear to be more lenient compared to plugins, but plugins have their advantage. The details in the [introduction to scrips and plugins](../../../introduction/next-steps/script-and-plugin/index.md) can help you determine a suitable match for your use case.

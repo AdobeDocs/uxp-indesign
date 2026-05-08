@@ -111,7 +111,7 @@ The choice you make depends on your use case and the stage of development you ar
 If you are looking for a ready-made Adobe Spectrum-styled UI or are just getting started with programming your UI, we recommend you start your journey with SWC. Fall back to Spectrum UXP widgets for the comps that are not available yet. And use plain HTML elements when they are not available in either.
 
 
-However, if you prefer vanilla HTML and don't mind undertaking the efforts of styling, use the HTML elements along with your custom stylesheet. Make sure you read the [CSS Styling](../../recipes/css-styling/) recipe.
+However, if you prefer vanilla HTML and don't mind undertaking the efforts of styling, use the HTML elements along with your custom stylesheet. Make sure you read the [CSS Styling](../../recipes/css-styling/index.md) recipe.
 
 <!-- 
 // TODO add once the starter templates are ready

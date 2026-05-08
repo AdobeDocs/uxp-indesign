@@ -13,8 +13,8 @@ contributors:
 # Changelog
 ## InDesign v20.0
 #### New
-- [Flyout Menus Support](/src/pages/resources/recipes/flyout-menu/index.md)
-- [Peristent Storage Migration](/src/pages/resources/recipes/persistent-storage-migration/index.md)
+- [Flyout Menus Support](../resources/recipes/flyout-menu/index.md)
+- [Peristent Storage Migration](../resources/recipes/persistent-storage-migration/index.md)
 - [GUID support](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/User%20Information/) 
 
 ### UXP v8.0.1
@@ -92,7 +92,7 @@ contributors:
 
 Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 
-  ![Plug-Ins Menu](./PluginsMenu.png)
+  ![Plug-Ins Menu](./plugins-menu.png)
 
 #### Fixed
 
@@ -143,7 +143,7 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 
 ## InDesign v18.5
 
-UXP Plugins are now available! Get started [here](../plugins).
+UXP Plugins are now available! Get started [here](../plugins/index.md).
 
 ### UXP v7.1
 

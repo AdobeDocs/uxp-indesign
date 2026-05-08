@@ -12,13 +12,13 @@ contributors:
 
 # APIs within UXP
 
-We assume that you have been able to write your first [script](../../../scripts/getting-started/) or [plugin](../../../plugins/getting-started/) successfully by now. For writing more complex tasks, you will need access to more APIs. But first, let's understand what types of APIs are available and where to find them.
+We assume that you have been able to write your first [script](../../../scripts/getting-started/index.md) or [plugin](../../../plugins/getting-started/index.md) successfully by now. For writing more complex tasks, you will need access to more APIs. But first, let's understand what types of APIs are available and where to find them.
 
 The UXP platform has two main constituents
 1. Core UXP APIs
 2. Host-specific APIs
 
-You will see a few examples of these APIs in the [recipes](../../recipes/) but for now, just try and understand the difference between them.
+You will see a few examples of these APIs in the [recipes](../../recipes/index.md) but for now, just try and understand the difference between them.
 
 ## UXP Core APIs
 These APIs enable you to create user interfaces, perform file operations, make network calls, etc. 
@@ -36,7 +36,7 @@ Note that these are also referred to as **Document Object Model (DOM) APIs** and
 
 Also, keep in mind that, these should **not** be confused with the HTML DOM which serves your plugin/script UI.
 
-You will learn more about the mounting technique in the [InDesign API](../dom-versioning/) topic.
+You will learn more about the mounting technique in the [InDesign API](../dom-versioning/index.md) topic.
 
 ## Example
 
@@ -52,11 +52,11 @@ In Steps #2 and 3, since you need to update the document, you will use the DOM A
 
 We are still evolving the API surface and future releases will support more capabilities. Therefore, each release will have updates to both - DOM and UXP APIs.
 
-The [What's new](../../../changelog) section, lists all the new features, changes, and fixes carried by the latest release. The DOM APIs are versioned as per the application version. However, you need to pay attention to the UXP version associated with each release. 
+The [What's new](../../../changelog/index.md) section, lists all the new features, changes, and fixes carried by the latest release. The DOM APIs are versioned as per the application version. However, you need to pay attention to the UXP version associated with each release. 
 
 When your plugin/script intends to use a specific UXP API, the host application must support that version of UXP. For example, InDesign v18.5 supports UXP v7.1, but if you use an API from UXP v7.2, your plugin/script will not work and lead to unexpected errors. Pay attention to the minimum compatible versions of UXP and the host application called out in the API references, examples and samples. 
 
 To determine the minimum UXP version supported by the application, you have a couple of options
 1. In UDT, once you have InDesign running and it appears under 'Connected apps', you will see the UXP version displayed along with the InDesign version number.
-2. Programmatically, you can query the host information using UXP APIs. Use the example from [this recipe](../../recipes/host-info).
-3. [What's new](../../../changelog) section, will mention the UXP version number for each release.
+2. Programmatically, you can query the host information using UXP APIs. Use the example from [this recipe](../../recipes/host-info/index.md).
+3. [What's new](../../../changelog/index.md) section, will mention the UXP version number for each release.

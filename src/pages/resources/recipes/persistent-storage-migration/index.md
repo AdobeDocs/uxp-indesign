@@ -29,7 +29,7 @@ Please make sure your local environment uses the following application versions 
 
 ## Import Previous Settings and Preferences
 
-![CCD Setting](./CCD-setting.png)
+![CCD Setting](./ccd-setting.png)
 
 While installing the new InDesign version, if the "Import Previous Settings and Preferences" option is selected in the Creative Cloud Desktop (CCD) app, the plugin data would be copied to the following folder locations:
 

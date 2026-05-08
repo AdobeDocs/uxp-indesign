@@ -11,7 +11,7 @@ contributors:
 Spectrum is Adobe's design system, used across multiple applications. We recommend that you use Spectrum-based controls wherever possible for UI, for consistency. In fact, UXP offers a ready-made Spectrum-styled UI library. 
 
 
-While you are exploring importing a stylesheet or making tweaks, you should keep in mind that **UXP is not a browser**. Its architecture does not (and will not) support all the CSS properties. For example, UXP cannot support grid layout innately. The ones that are supported are listed in the [API reference docs](./#reference-material). 
+While you are exploring importing a stylesheet or making tweaks, you should keep in mind that **UXP is not a browser**. Its architecture does not (and will not) support all the CSS properties. For example, UXP cannot support grid layout innately. The ones that are supported are listed in the [API reference docs](index.md#reference-material). 
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
@@ -64,7 +64,7 @@ exampleDiv.style.backgroundColor = 'orange';
 ```
 
 ## Additional notes
-- **CSS preprocessors**: UXP understands pure CSS only. Using CSS preprocessors such as SASS or SCSS is possible, provided you transpile your code to a CSS stylesheet before using it. Additionally, you will require a tool like Webpack to create your plugin bundle correctly and a slightly different way to [debug using UDT](../../../plugins/tutorials/udt-deep-dive/working-with-react/) (similar to React framework setup).
+- **CSS preprocessors**: UXP understands pure CSS only. Using CSS preprocessors such as SASS or SCSS is possible, provided you transpile your code to a CSS stylesheet before using it. Additionally, you will require a tool like Webpack to create your plugin bundle correctly and a slightly different way to [debug using UDT](../../../plugins/tutorials/udt-deep-dive/working-with-react.md) (similar to React framework setup).
 
 
 ## Reference material

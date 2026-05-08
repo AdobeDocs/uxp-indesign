@@ -27,7 +27,7 @@ Plugins and Scripts
 
 **In plugins**, you can use either of the three storages.
 
-**In scripts**, you can only use session storage since they last only for the length of their execution. It may produce erroneous results if you use persistent, such as local or secure, storage. Read more about [script lifespan](../../../scripts/concepts/script-lifespan/). 
+**In scripts**, you can only use session storage since they last only for the length of their execution. It may produce erroneous results if you use persistent, such as local or secure, storage. Read more about [script lifespan](../../../scripts/concepts/script-lifespan/index.md). 
 
 In either case, note that though technically the stored data should last forever, there is a possibility that the data gets erased accidentally by a user's action. Make sure you store data that can be regenerated after the time of loss.
 

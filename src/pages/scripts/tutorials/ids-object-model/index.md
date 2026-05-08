@@ -20,7 +20,7 @@ For running UXP Scripts in InDesign Server, you need both - InDesign and InDesig
 
 <!-- TODO give code snippets and examples -->
 
-The InDesign Object Model is described in the [Resources](../../../resources/fundamentals/object-model/) section. However, InDesign Server's object model differs slightly.
+The InDesign Object Model is described in the [Resources](../../../resources/fundamentals/object-model/index.md) section. However, InDesign Server's object model differs slightly.
 
 Keep the following in mind when you write UXP scripts specifically for InDesign Server.
 

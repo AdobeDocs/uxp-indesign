@@ -58,4 +58,4 @@ Since you wrote the plugin, it's probably safe to install. Click `Install` and y
 
 Since, in this case, *you* are the third-party developer, it's safe to click OK. Obviously, if someone else sends you a `.ccx` file and you get this dialog, you should make sure you trust the person who sent it.
 
-Now that you have your plugin installed, test it again to make sure the packaged version performs correctly. Then move on to [Options for Distribution](../distribution-options) to get your plugin out into the world.
+Now that you have your plugin installed, test it again to make sure the packaged version performs correctly. Then move on to [Options for Distribution](../distribution-options/index.md) to get your plugin out into the world.

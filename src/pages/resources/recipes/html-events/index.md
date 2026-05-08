@@ -20,7 +20,7 @@ The technique you choose is simply your preference. Pick the method you feel mos
 Plugins and Scripts
 
 **In plugins**, you will need to enable `allowCodeGenerationFromStrings` if you would like to use the inline event handlers shown above. <br></br>
-IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before you proceed.
+IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/index.md#permissionsdefinition) module before you proceed.
 
 **In scripts**, since you cannot add inline event listeners, this permission is not applicable.
 

@@ -15,8 +15,8 @@ UXP allows communication between plugins that are installed in the same applicat
 This is particularly handy when you know a certain task is already automated by another plugin and you would like to invoke it instead of duplicating the effort. But make sure the user is not caught by surprise. Your plugin should call out such dependencies to ensure flawless functioning of your plugin.
 
 The `Plugin Manager` module provides APIs that will help establish the connection. But before we take a look at an example, be sure to be well-versed in these topics
-- [Plugin entrypoints](../../concepts/entry-points/)
-- [Manifest permission module](../../concepts/manifest/#permissionsdefinition)
+- [Plugin entrypoints](../../concepts/entry-points/index.md)
+- [Manifest permission module](../../concepts/manifest/index.md#permissionsdefinition)
 
 Additionally, you will need
 - A basic knowledge of the plugin you are going to communicate with. This includes:

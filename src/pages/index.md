@@ -18,36 +18,36 @@ Welcome to the world of UXP (**U**nified E**x**tensibility **P**latform) in Adob
 
 #### Resources
 
-- [What's new](./changelog/)
+- [What's new](changelog/index.md)
 - [UXP APIs](/indesign/uxp/reference/uxp-api/)
 - [InDesign APIs](/indesign/dom/api/)
-- [Scripts](./scripts/getting-started)
-- [Plugins](./plugins/getting-started/)
+- [Scripts](scripts/getting-started/index.md)
+- [Plugins](plugins/getting-started/index.md)
 - [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/c/indesign/)
 
 
 ## Getting started
 UXP allows you to accomplish tasks, and make changes to a document or its contents quickly.
-Get started by [learning about UXP](./introduction/) and setting up your environment with [essential tools](./introduction/essentials/tech-stack/).
+Get started by [learning about UXP](introduction/index.md) and setting up your environment with [essential tools](introduction/essentials/tech-stack/index.md).
 
 ## Scripts and plugins
-UXP offers you two ways of extending the application's capabilities - scripts and plugins. Begin by knowing the [difference between them](./introduction/next-steps/script-and-plugin/) and finding a suitable choice for your use case. Followed by, writing your very first [script](./scripts/) or [plugin](./plugins/).
+UXP offers you two ways of extending the application's capabilities - scripts and plugins. Begin by knowing the [difference between them](introduction/next-steps/script-and-plugin/index.md) and finding a suitable choice for your use case. Followed by, writing your very first [script](scripts/index.md) or [plugin](plugins/index.md).
 
 ## Resources and API references
-Learn the [fundamental concepts](./resources/fundamentals/) needed to develop UXP scripts and plugins and find bite-size [recipes](./resources/recipes/) for common use cases.
+Learn the [fundamental concepts](resources/fundamentals/index.md) needed to develop UXP scripts and plugins and find bite-size [recipes](resources/recipes/index.md) for common use cases.
 
-Since UXP is still evolving, keep an eye out for the [latest APIs](./changelog/) in recent releases and their references in [UXP APIs](/indesign/uxp/reference/uxp-api/) and [InDesign APIs](/indesign/dom/api/).
+Since UXP is still evolving, keep an eye out for the [latest APIs](changelog/index.md) in recent releases and their references in [UXP APIs](/indesign/uxp/reference/uxp-api/) and [InDesign APIs](/indesign/dom/api/).
 
 Check out the [sample repository](https://github.com/AdobeDocs/uxp-indesign-samples) that has ready-made plugins and scripts to help you set up popular frameworks easily.
 
 ## Share & Distribute
-Share your work with your family, friends and more users by distributing it via Adobe Marketplace. Learn more [here](./introduction/next-steps/distribution/).
+Share your work with your family, friends and more users by distributing it via Adobe Marketplace. Learn more [here](introduction/next-steps/distribution/index.md).
 
 ## Migration
-Find [guides for migrating](./resources/migration-guides/) from other extensibility platforms into UXP.
+Find [guides for migrating](resources/migration-guides/index.md) from other extensibility platforms into UXP.
 
 ## Join the community
-Join the worldwide community of Creative Cloud Developers who are building plugins and integrations to empower creativity. Need support? [Click here](./support/).
+Join the worldwide community of Creative Cloud Developers who are building plugins and integrations to empower creativity. Need support? [Click here](support/index.md).
 
 Here are a few other ways to get involved:
 - Join the [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/c/indesign/) to meet other developers, ask questions, and offer help.
