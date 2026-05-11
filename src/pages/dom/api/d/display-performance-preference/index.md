@@ -1,0 +1,79 @@
+# DisplayPerformancePreference
+Default display performance settings for the application.
+
+## Instance
+> *Read Only* 
+> 
+> Boolean **isValid** 
+>
+> Returns true if the object specifier resolves to valid objects.
+*** 
+> *Read Only* 
+> 
+> Application **parent** 
+>
+> The parent of the DisplayPerformancePreference (a Application).
+*** 
+> *Read Only* 
+> 
+> Events **events** 
+>
+> A collection of events.
+*** 
+> *Read Only* 
+> 
+> EventListeners **eventListeners** 
+>
+> A collection of event listeners.
+*** 
+> ViewDisplaySettings **defaultDisplaySettings** 
+>
+> Object-level default display performance settings. Note: The settings do not apply to graphics that are already placed in the document.
+*** 
+> Boolean **ignoreLocalSettings** 
+>
+> If true, ignores object-level default display performance settings and uses the application-level default display settings; also prevents setting object-level settings.
+*** 
+> Boolean **persistLocalSettings** 
+>
+> If true, sets application-level preferences to preserve object-level display settings.
+*** 
+> Object **properties** 
+>
+> A property that allows setting of several properties at the same time.
+
+### Methods
+> String **toSource**()
+> 
+> Generates a string which, if executed, will return the DisplayPerformancePreference.
+*** 
+> DisplayPerformancePreference **getElements**()
+> 
+> Resolves the object specifier, creating an array of object references.
+*** 
+> String **toSpecifier**()
+> 
+> Retrieves the object specifier.
+*** 
+> EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
+> 
+> Adds an event listener.
+#### Parameters
+| Type | Name | Description |
+|---|---|---|
+| String | eventType | The event type. |
+| Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
+| Boolean | captures | This parameter is obsolete. (Optional) |
+
+*** 
+> Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
+> 
+> Removes the event listener.
+#### Parameters
+| Type | Name | Description |
+|---|---|---|
+| String | eventType | The registered event type. |
+| Mixed | handler | The registered event handler. Can accept: File or JavaScript Function. |
+| Boolean | captures | This parameter is obsolete. (Optional) |
+
+

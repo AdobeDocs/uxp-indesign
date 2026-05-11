@@ -9,8 +9,8 @@
     - [Resources](/resources/index.md)
     - References
         - [What's New?](/changelog/index.md)
-        - [UXP API](/indesign/uxp/reference/uxp-api.md)
-        - [InDesign API](/indesign/dom/api.md)
+        - [UXP API](/reference/uxp-api/index.md)
+        - [InDesign API](/dom/api/index.md)
 
 - subPages:
     - Essentials header
