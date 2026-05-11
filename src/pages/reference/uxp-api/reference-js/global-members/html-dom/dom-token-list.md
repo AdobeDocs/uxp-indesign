@@ -1,6 +1,4 @@
 
-<a name="domtokenlist" id="domtokenlist"></a>
-
 # window.DOMTokenList
 DOMTokenList supports the ClassList and other token list functionality
 
@@ -11,8 +9,6 @@ DOMTokenList supports the ClassList and other token list functionality
 
 
 
-<a name="domtokenlist-length" id="domtokenlist-length"></a>
-
 ## length
 **Read only**
 Returns the number of tokens in the list
@@ -20,16 +16,12 @@ Returns the number of tokens in the list
 **See**: https://dom.spec.whatwg.org/#dom-domtokenlist-length  
 
 
-<a name="domtokenlist-value" id="domtokenlist-value"></a>
-
 ## value
 **Read only**
 The serialized string value of the token list
 
 **See**: https://dom.spec.whatwg.org/#dom-domtokenlist-value  
 
-
-<a name="domtokenlist-add" id="domtokenlist-add"></a>
 
 ## add(...tokens)
 Adds the specified tokens to the token list. If the token is already present, no error is thrown.
@@ -46,8 +38,6 @@ Adds the specified tokens to the token list. If the token is already present, no
 
 
 
-<a name="domtokenlist-remove" id="domtokenlist-remove"></a>
-
 ## remove(...tokens)
 Removes the specified items from the token list. If the token is not present, no error is thrown.
 
@@ -62,8 +52,6 @@ Removes the specified items from the token list. If the token is not present, no
 | ...tokens | `string` | 
 
 
-
-<a name="domtokenlist-replace" id="domtokenlist-replace"></a>
 
 ## replace(oldToken, newToken)
 Replaces an old token with a new token. If the old token doesn't exist,
@@ -81,8 +69,6 @@ no action occurs, and `false` is returned.
 | newToken | `any` | 
 
 
-
-<a name="domtokenlist-toggle" id="domtokenlist-toggle"></a>
 
 ## toggle(token, force)
 Toggles a token within the list. If `force` is not present, then the following
@@ -110,8 +96,6 @@ If `force` is supplied, then:
 
 
 
-<a name="domtokenlist-item" id="domtokenlist-item"></a>
-
 ## item(index)
 Return the item at the specified index, or `null` if the index is out-of-range
 
@@ -128,8 +112,6 @@ Return the item at the specified index, or `null` if the index is out-of-range
 
 
 
-<a name="domtokenlist-contains" id="domtokenlist-contains"></a>
-
 ## contains(token)
 Returns whether the token is in the list or not.
 
@@ -145,8 +127,6 @@ Returns whether the token is in the list or not.
 | token | `any` | 
 
 
-
-<a name="domtokenlist-supports" id="domtokenlist-supports"></a>
 
 ## supports(token)
 Returns `true` if the token is acceptable to the list; otherwise returns `false`.

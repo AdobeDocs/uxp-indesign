@@ -15,7 +15,7 @@ contributors:
 #### New
 - [Flyout Menus Support](../resources/recipes/flyout-menu/index.md)
 - [Peristent Storage Migration](../resources/recipes/persistent-storage-migration/index.md)
-- [GUID support](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/User%20Information/) 
+- [GUID support](/reference/uxp-api/reference-js/modules/uxp/user-information/index.md) 
 
 ### UXP v8.0.1
 
@@ -24,15 +24,15 @@ contributors:
 
 #### Deprecations
 - Changes to Clipboard
-  - [Clipboard.setContent](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/index.md#setcontentdata) is deprecated. Please use [Clipboard.write](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/index.md#writedata) instead.
-  - [Clipboard.getContent](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/index.md#getcontent) is deprecated. Please use [Clipboard.read](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/index.md#read) instead.
-  - Passing an `object` to [Clipboard.writeText(object)](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/index.md#writetexttext) is deprecated. Please use [Clipboard.write(object)](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/index.md#writedata) instead.
-  - [Clipboard.clearContent](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/index.md#clearcontent) is deprecated. [Clipboard.writeText("")](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/index.md#writetexttext) would be an alternative.
+  - [Clipboard.setContent](/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#setcontentdata) is deprecated. Please use [Clipboard.write](/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#writedata) instead.
+  - [Clipboard.getContent](/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#getcontent) is deprecated. Please use [Clipboard.read](/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#read) instead.
+  - Passing an `object` to [Clipboard.writeText(object)](/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#writetexttext) is deprecated. Please use [Clipboard.write(object)](/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#writedata) instead.
+  - [Clipboard.clearContent](/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#clearcontent) is deprecated. [Clipboard.writeText("")](/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#writetexttext) would be an alternative.
 - Changes to VideoElement
-  - Event `uxpvideoload` in [load()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement/index.md#load) is deprecated. Use `loadeddata` instead.
-  - Event `uxpvideoplay` in [play()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement/index.md#play) is deprecated. Use `ended` instead.
-  - Event `uxpvideocomplete` in [play()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement/index.md#play) is deprecated. Use `ended` instead.
-  - Event `uxpvideopause` in [pause()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement/index.md#pause) is deprecated. Use `pause` instead.
+  - Event `uxpvideoload` in [load()](/reference/uxp-api/reference-js/global-members/html-elements/html-video-element.md#load) is deprecated. Use `loadeddata` instead.
+  - Event `uxpvideoplay` in [play()](/reference/uxp-api/reference-js/global-members/html-elements/html-video-element.md#play) is deprecated. Use `ended` instead.
+  - Event `uxpvideocomplete` in [play()](/reference/uxp-api/reference-js/global-members/html-elements/html-video-element.md#play) is deprecated. Use `ended` instead.
+  - Event `uxpvideopause` in [pause()](/reference/uxp-api/reference-js/global-members/html-elements/html-video-element.md#pause) is deprecated. Use `pause` instead.
 
 #### New
 - New components supported in Spectrum Web Components (SWC). More details [here](https://github.com/adobe/swc-uxp-wrappers/tree/main?tab=readme-ov-file#spectrum-web-components-uxp-wrappers)
@@ -43,8 +43,8 @@ contributors:
   - sp-quick-actions
   - sp-search
   - sp-swatch
-- New command line templates to get started with SWC easily. Find details in this [section](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md#command-line-templates).
-- Support for local HTML files in [WebView](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement/index.md#load-local-content-onto-webview)
+- New command line templates to get started with SWC easily. Find details in this [section](/reference/uxp-api/reference-spectrum/swc/index.md#command-line-templates).
+- Support for local HTML files in [WebView](/reference/uxp-api/reference-js/global-members/html-elements/html-web-view-element.md#load-local-content-onto-webview)
 - New CSS capabilities
   - scaleX() & scaleY()
   - transform-origin
@@ -58,23 +58,23 @@ contributors:
   | `featureFlags: {"CSSNextSupport": ["boxShadow", "transformFunctions", "transformProperties" ]}` | Enables only the named properties in the list. |
   
   Note that `"enableSWCSupport": true` will enable `CSSNextSupport` by default, even if it is not done explicitly in plugin manifest otherwise.
-- Video enhancements: Support added for [Seek Event](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md)
+- Video enhancements: Support added for [Seek Event](/reference/uxp-api/reference-js/global-members/html-elements/html-video-element.md)
 - Support for [Navigator.language](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/language) API
-- Support for new HTMLElement APIs - [append](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement/index.md#appendnodes), [prepend](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement/index.md#prependnodes) and [replaceChildren](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement/index.md#replacechildrennodes)
+- Support for new HTMLElement APIs - [append](/reference/uxp-api/reference-js/global-members/html-elements/html-element.md#appendnodes), [prepend](/reference/uxp-api/reference-js/global-members/html-elements/html-element.md#prependnodes) and [replaceChildren](/reference/uxp-api/reference-js/global-members/html-elements/html-element.md#replacechildrennodes)
 - [Beta] Support for form reset in [HTMLFormElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 
 #### Updated
 - Upgraded Spectrum Web Components to v0.37.0. [More detail](https://github.com/adobe/swc-uxp-wrappers/tree/main?tab=readme-ov-file#spectrum-web-components-uxp-wrappers)
-- [UXP Clipboard.writeText()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/index.md#writetexttext) now accepts strings as input to meet standards
+- [UXP Clipboard.writeText()](/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#writetexttext) now accepts strings as input to meet standards
 
 ## InDesign v19.4
 
 ### UXP v7.4.0
 
 #### Updated
-- UXP Alerts ([alert](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert.md), [prompt](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/prompt.md), [confirm](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/confirm.md)) have been moved back to beta due to a few inherent instabilities in this feature. While we work on addressing these issues, the feature can be accessed using the feature flag `enableAlerts` in the manifest.json file. Also, note that UXP alerts will be `available only in Plugins` and `not in scripts`.
-- Wildcards (*) at the top-level `domain` name are not allowed. Please ensure you revisit the `permissions` setup in manifest.json for [WebView](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement.md), and network calls [XMLHttp](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/XMLHttpRequest.md) [fetch](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/fetch.md)
-- New doc for tracking the [mapping between Spectrum widgets and Spectrum Web Components](/indesign/uxp/reference/uxp-api/reference-spectrum/spectrum-widgets-to-swc-mapping/index.md) in UXP
+- UXP Alerts ([alert](/reference/uxp-api/reference-js/global-members/html-dom/alert.md), [prompt](/reference/uxp-api/reference-js/global-members/html-dom/prompt.md), [confirm](/reference/uxp-api/reference-js/global-members/html-dom/confirm.md)) have been moved back to beta due to a few inherent instabilities in this feature. While we work on addressing these issues, the feature can be accessed using the feature flag `enableAlerts` in the manifest.json file. Also, note that UXP alerts will be `available only in Plugins` and `not in scripts`.
+- Wildcards (*) at the top-level `domain` name are not allowed. Please ensure you revisit the `permissions` setup in manifest.json for [WebView](/reference/uxp-api/reference-js/global-members/html-elements/html-web-view-element.md), and network calls [XMLHttp](/reference/uxp-api/reference-js/global-members/data-transfers/xml-http-request.md) [fetch](/reference/uxp-api/reference-js/global-members/data-transfers/fetch.md)
+- New doc for tracking the [mapping between Spectrum widgets and Spectrum Web Components](/reference/uxp-api/reference-spectrum/spectrum-widgets-to-swc-mapping/index.md) in UXP
 
 
 #### Fixed
@@ -82,7 +82,7 @@ contributors:
 - Plugin crashes while using [fit-content](https://forums.creativeclouddeveloper.com/t/ps-2024-crashes-when-opening-my-uxp-plugin/6840/7) 
 - WebView support for [file selector](https://forums.creativeclouddeveloper.com/t/macos-uxp-webview-for-photoshop-is-missing-file-selector/6843) in MacOS
 - GUID returning hashed empty string
-- Updated missing docs for pseudo-class [defined](/indesign/uxp/reference/uxp-api/reference-css/Pseudo-classes/defined.md) (Available since UXP v6.0)
+- Updated missing docs for pseudo-class [defined](/reference/uxp-api/reference-css/pseudo-classes/defined.md) (Available since UXP v6.0)
 
 ## InDesign v19.2
 #### Updated
@@ -102,8 +102,8 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 ### UXP v7.3.0 & UXP v7.2
 
 #### New
-- Multipart `FormData` support in [Request](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Request/) and [Response](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Response/) for [fetch](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/fetch/)
-- [FormData](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/FormData/) now supports the following APIs
+- Multipart `FormData` support in [Request](/reference/uxp-api/reference-js/global-members/data-transfers/request.md) and [Response](/reference/uxp-api/reference-js/global-members/data-transfers/response.md) for [fetch](/reference/uxp-api/reference-js/global-members/data-transfers/fetch.md)
+- [FormData](/reference/uxp-api/reference-js/global-members/data-transfers/form-data.md) now supports the following APIs
     - delete()
     - get()
     - getAll()
@@ -114,13 +114,13 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 - **(Photoshop Only)** GUID for uniquely identifying a Creative Cloud User.
 - **(Photoshop Only)** Adobe Extensibility Metadata Platform (XMP) support.
 - [pointer-events: none](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events) `CSS` property
-- Support for `pseudoElement` in [getComputedStyle(element, pseudoElement)](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/getComputedStyle) API
+- Support for `pseudoElement` in [getComputedStyle(element, pseudoElement)](/reference/uxp-api/reference-js/global-members/html-dom/get-computed-style.md) API
 
 
 #### Updated
-- [FormData's append](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/FormData/index.md#append--namevaluefilename) now supports `Blob` as an additional parameter.
-- [Spectrum Web Component (SWC)](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/) in UXP is moving out of Beta. 
-    - Additional [components and variants](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md#list-of-supported-swc)
+- [FormData's append](/reference/uxp-api/reference-js/global-members/data-transfers/form-data.md#append--namevaluefilename) now supports `Blob` as an additional parameter.
+- [Spectrum Web Component (SWC)](/reference/uxp-api/reference-spectrum/swc/index.md) in UXP is moving out of Beta. 
+    - Additional [components and variants](/reference/uxp-api/reference-spectrum/swc/index.md#list-of-supported-swc)
     - `Spectrum Web Components` support in `React` context is now available for all 30 components.
     - Starter plugins for [Spectrum Web Component](https://github.com/AdobeDocs/uxp-indesign-samples/tree/main/plugins/swc-uxp-starter) and [Spectrum Web Component in React context](https://github.com/AdobeDocs/uxp-indesign-samples/tree/main/plugins/swc-uxp-react-starter)
 
@@ -128,9 +128,9 @@ Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.
 - Tab Navigation not working for several SWC Components is now fixed
 - Spacebar doesn't work on SWC Button component when reached via TAB navigation.
 - Support for `Alerts`
-    - [alert()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert/)
-    - [prompt()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/prompt/)
-    - [confirm()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/confirm/)
+    - [alert()](/reference/uxp-api/reference-js/global-members/html-dom/alert.md)
+    - [prompt()](/reference/uxp-api/reference-js/global-members/html-dom/prompt.md)
+    - [confirm()](/reference/uxp-api/reference-js/global-members/html-dom/confirm.md)
 
 
 ### UDT v2.0
@@ -149,13 +149,13 @@ UXP Plugins are now available! Get started [here](../plugins/index.md).
 
 #### New
 HTMLElement now supports
-- [setPointerCapture](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#setpointercapturepointerid)
-- [releasePointerCapture](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#releasepointercapturepointerid)
-- [hasPointerCapture](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#haspointercapturepointerid)
-- [dir](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLHtmlElement.md#dir--string)
+- [setPointerCapture](/reference/uxp-api/reference-js/global-members/html-dom/element.md#setpointercapturepointerid)
+- [releasePointerCapture](/reference/uxp-api/reference-js/global-members/html-dom/element.md#releasepointercapturepointerid)
+- [hasPointerCapture](/reference/uxp-api/reference-js/global-members/html-dom/element.md#haspointercapturepointerid)
+- [dir](/reference/uxp-api/reference-js/global-members/html-elements/html-html-element.md#dir--string)
 
 #### Updated
-- Documentation for `shell` moved to [new location](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/shell/)
+- Documentation for `shell` moved to [new location](/reference/uxp-api/reference-js/modules/uxp/shell/index.md)
 
 #### Fixed
 - `SVGElement`: The color of the `fill` attribute using a CSS variable will resolve as per the variable value. For now, please test this fix by enabling the feature flag in your plugin manifest `"featureFlags" : { "enableFillAsCustomAttribute" : true }`. This flag will be turned on by default in the next UXP release. 
@@ -176,44 +176,44 @@ html {
 #### New
 - Support for Web Components in UXP Plugins. Various HTML elements and methods have been added to support this feature.
     - Classes
-        - [HTMLSlotElement](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLSlotElement/)
-        - [HTMLTemplateElement](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLTemplateElement/)
+        - [HTMLSlotElement](/reference/uxp-api/reference-js/global-members/html-elements/html-slot-element.md)
+        - [HTMLTemplateElement](/reference/uxp-api/reference-js/global-members/html-elements/html-template-element.md)
     - Methods
-        - [Element.assignedSlot](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element/index.md#assignedslot--htmlslotelement)
-        - [Element.slot](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#slot--string)
-        - [Element.attachShadow](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#attachshadowinit)
-        - [Element.shadowRoot](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#shadowroot--shadowroot)
-        - [CustomElementRegistry.upgrade](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry.md#upgraderoot)
-        - [CustomElementRegistry.whenDefined](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry.md#whendefinedname)
-- [Spectrum Web Components (Beta)](/indesign/uxp/reference/uxp-api/indesign/uxp/reference-spectrum/swc/) Support for Adobe SWC.
+        - [Element.assignedSlot](/reference/uxp-api/reference-js/global-members/html-dom/element.md#assignedslot--htmlslotelement)
+        - [Element.slot](/reference/uxp-api/reference-js/global-members/html-dom/element.md#slot--string)
+        - [Element.attachShadow](/reference/uxp-api/reference-js/global-members/html-dom/element.md#attachshadowinit)
+        - [Element.shadowRoot](/reference/uxp-api/reference-js/global-members/html-dom/element.md#shadowroot--shadowroot)
+        - [CustomElementRegistry.upgrade](/reference/uxp-api/reference-js/global-members/html-dom/custom-element-registry.md#upgraderoot)
+        - [CustomElementRegistry.whenDefined](/reference/uxp-api/reference-js/global-members/html-dom/custom-element-registry.md#whendefinedname)
+- [Spectrum Web Components (Beta)](/reference/uxp-api/reference-spectrum/swc/index.md) Support for Adobe SWC.
 - Several augmentations to the JS API set
     - Properties
-        - [HTMLElement.lang](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLElement.md#lang--string)
+        - [HTMLElement.lang](/reference/uxp-api/reference-js/global-members/html-elements/html-element.md#lang--string)
     - Classes added to the global scope
-        - [TreeWalker](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/TreeWalker/)
-        - [NodeFilter](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/NodeFilter/)
+        - [TreeWalker](/reference/uxp-api/reference-js/global-members/html-dom/tree-walker.md)
+        - [NodeFilter](/reference/uxp-api/reference-js/global-members/html-dom/node-filter.md)
     - Methods
-        - [Element.hasAttributes](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#hasattributes)
-        - [Element.getAttributeNames](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/Element.md#getattributenames)
-        - [Event.composed](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/Event.md#composed--boolean)
-        - [Event.composedPath](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/Event.md#composedpath)
-        - [DocumentFragment.append](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment.md#appendargs)
-        - [DocumentFragment.querySelector](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment.md#queryselectorselector)
-        - [DocumentFragment.querySelectorAll](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/DocumentFragment.md#queryselectorallselector)
+        - [Element.hasAttributes](/reference/uxp-api/reference-js/global-members/html-dom/element.md#hasattributes)
+        - [Element.getAttributeNames](/reference/uxp-api/reference-js/global-members/html-dom/element.md#getattributenames)
+        - [Event.composed](/reference/uxp-api/reference-js/global-members/html-events/event.md#composed--boolean)
+        - [Event.composedPath](/reference/uxp-api/reference-js/global-members/html-events/event.md#composedpath)
+        - [DocumentFragment.append](/reference/uxp-api/reference-js/global-members/html-dom/document-fragment.md#appendargs)
+        - [DocumentFragment.querySelector](/reference/uxp-api/reference-js/global-members/html-dom/document-fragment.md#queryselectorselector)
+        - [DocumentFragment.querySelectorAll](/reference/uxp-api/reference-js/global-members/html-dom/document-fragment.md#queryselectorallselector)
 - New focus events to support React 16
     - [Focusin Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusin_event)
     - [Focusout Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event)
-- HTML [2D Canvas Support](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLCanvasElement/) for basic shapes and styling.
+- HTML [2D Canvas Support](/reference/uxp-api/reference-js/global-members/html-elements/html-canvas-element.md) for basic shapes and styling.
 - Alerts
-    - [alert()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/alert/)
-    - [prompt()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/prompt/)
-    - [confirm()](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20DOM/confirm/)
-- Support for [pipeThrough](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream.md#pipeThroughtransform-options) and [tee](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream.md#tee) in [ReadableStream](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Streams/ReadableStream). Refer to [Streams](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Streams/) for more details
-- [ImageBlob](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/ImageBlob/) to render an uncompressed image buffer in UXP
+    - [alert()](/reference/uxp-api/reference-js/global-members/html-dom/alert.md)
+    - [prompt()](/reference/uxp-api/reference-js/global-members/html-dom/prompt.md)
+    - [confirm()](/reference/uxp-api/reference-js/global-members/html-dom/confirm.md)
+- Support for [pipeThrough](/reference/uxp-api/reference-js/global-members/streams/readable-stream.md#pipeThroughtransform-options) and [tee](/reference/uxp-api/reference-js/global-members/streams/readable-stream.md#tee) in [ReadableStream](/reference/uxp-api/reference-js/global-members/streams/readable-stream.md). Refer to [Streams](/reference/uxp-api/reference-js/global-members/streams/index.md) for more details
+- [ImageBlob](/reference/uxp-api/reference-js/global-members/image-blob/index.md) to render an uncompressed image buffer in UXP
 
 #### Changed
-- [HTMLVideoElement](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement/): 'metadata' is the default value for `preload` attribute
-- [FS API](/indesign/uxp/reference/uxp-api/reference-js/Modules/fs/): No need for the `file://` protocol
+- [HTMLVideoElement](/reference/uxp-api/reference-js/global-members/html-elements/html-video-element.md): 'metadata' is the default value for `preload` attribute
+- [FS API](/reference/uxp-api/reference-js/modules/fs/index.md): No need for the `file://` protocol
 
 
 ## InDesign v18.4
@@ -222,12 +222,12 @@ html {
 
 #### Added
 - **[BREAKING CHANGE]** Mounting APIs 
-    InDesign DOM APIs are no longer available in the global scope. You must [mount the APIs](../recipes/dom-versioning/) first before using them. Plus, you can now access different versions of DOM APIs.
+    InDesign DOM APIs are no longer available in the global scope. You must [mount the APIs](../resources/fundamentals/dom-versioning/index.md) first before using them. Plus, you can now access different versions of DOM APIs.
 - Events 
-    UXP scripts now have the functionality to handle standard events that InDesign emits. You can use the [eventListener](../recipes/events/)object to catch such events. 
+    UXP scripts now have the functionality to handle standard events that InDesign emits. You can use the [eventListener](../resources/recipes/indesign-events/index.md)object to catch such events. 
 - Arguments in UXP Scripts 
-    [Arguments](../recipes/arguments/) can now be passed to a UXP script, and can be used within the script. 
+    [Arguments](../scripts/tutorials/arguments/index.md) can now be passed to a UXP script, and can be used within the script. 
 - Setting script result 
-    UXP scripts now have a "result" associated with them. [Set a result](../recipes/script-result/) for a script for debugging puposes as well as passed to another script for utilization.
+    UXP scripts now have a "result" associated with them. [Set a result](../scripts/tutorials/script-result/index.md) for a script for debugging puposes as well as passed to another script for utilization.
 - Menus 
-    UXP scripts now have APIs which can be used to add new menu items, remove existing menu items etc. [Read more](../recipes/menus/).
+    UXP scripts now have APIs which can be used to add new menu items, remove existing menu items etc. [Read more](../resources/recipes/indesign-menus/index.md).

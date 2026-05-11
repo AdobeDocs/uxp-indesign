@@ -2,9 +2,9 @@
 
 Technical documentation regarding the kinds of CSS styles and features available in UXP.
 ## Pages in this section
-* [General](General/index.md)
-* [Media Queries](Media%20Queries/index.md)
-* [Pseudo-classes](Pseudo-classes/index.md)
-* [Pseudo-elements](Pseudo-elements/index.md)
-* [Selectors](Selectors/index.md)
-* [Styles](Styles/index.md)
+* [General](general/index.md)
+* [Media Queries](media-queries/index.md)
+* [Pseudo-classes](pseudo-classes/index.md)
+* [Pseudo-elements](pseudo-elements/index.md)
+* [Selectors](selectors/index.md)
+* [Styles](styles/index.md)

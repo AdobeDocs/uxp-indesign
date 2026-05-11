@@ -1,11 +1,7 @@
 
-<a name="writablestream" id="writablestream"></a>
-
 # window.WritableStream
 **See**: [Web APIs - WritableStream](https://developer.mozilla.org/en-US/docs/Web/API/WritableStream)  
 
-
-<a name="new-writablestream-new" id="new-writablestream-new"></a>
 
 ## WritableStream(underlyingSink, strategy)
 Creates a new WritableStream object wrapping the provided underlying sink.
@@ -24,14 +20,10 @@ Creates a new WritableStream object wrapping the provided underlying sink.
 
 
 
-<a name="writablestream-locked" id="writablestream-locked"></a>
-
 ## locked : `boolean`
 Indicate whether the WritableStream is locked.
 
 
-
-<a name="writablestream-abort" id="writablestream-abort"></a>
 
 ## abort(reason)
 Aborts the stream, signalling that the producer can no longer successfully write to the stream and
@@ -45,8 +37,6 @@ it's to be immediately moved to an error state, with any queued writes discarded
 
 
 
-<a name="writablestream-close" id="writablestream-close"></a>
-
 ## close()
 Closes the stream.
 
@@ -57,8 +47,6 @@ Closes the stream.
 - `TypeError` thrown if the stream is closed or closing.
 
 
-
-<a name="writablestream-getwriter" id="writablestream-getwriter"></a>
 
 ## getWriter()
 Returns a new WritableStreamDefaultWriter object and locks the stream to that object.

@@ -86,4 +86,4 @@ function foo(event) {
 
 
 ## Reference material
-- [HTML Events](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Events/)
+- [HTML Events](/reference/uxp-api/reference-js/global-members/html-events/index.md)

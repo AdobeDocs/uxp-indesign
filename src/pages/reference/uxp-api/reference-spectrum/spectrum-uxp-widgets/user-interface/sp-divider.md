@@ -25,6 +25,6 @@ There are three supported sizes.
 
 ```html
 <sp-divider size="large"></sp-divider>
-<sp-divider size="medium"></sp-divider> <!-- default -->
+<sp-divider size="medium"></sp-divider> \<!-- default --\>
 <sp-divider size="small"></sp-divider>
 ```

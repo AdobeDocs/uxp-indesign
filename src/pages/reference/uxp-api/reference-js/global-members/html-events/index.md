@@ -3,7 +3,7 @@
 * [CloseEvent](close-event.md)
 * [DragEvent](drag-event.md)
 * [ErrorEvent](error-event.md)
-* [Event](Event.md)
+* [Event](event.md)
 * [EventTarget](event-target.md)
 * [GestureEvent](gesture-event.md)
 * [KeyboardEvent](keyboard-event.md)

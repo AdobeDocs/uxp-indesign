@@ -1,20 +1,14 @@
 
-<a name="canvasrenderingcontext2d" id="canvasrenderingcontext2d"></a>
-
 # window.CanvasRenderingContext2D
-**See**: [Web APIs - CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D) for more details<br></br>
-Also, refer to the interface [HTMLCanvasElement](../HTML%20Elements/HTMLCanvasElement.md#module:global.htmlcanvaselement)<br></br>  
+**See**: [Web APIs - CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D) for more details\<br/\>
+Also, refer to the interface [HTMLCanvasElement](../html-elements/html-canvas-element.md#module:global.htmlcanvaselement)\<br/\>  
 **Since**: v7.0.0  
 
-
-<a name="new-canvasrenderingcontext2d-new" id="new-canvasrenderingcontext2d-new"></a>
 
 ## CanvasRenderingContext2D()
 Creates an instance of CanvasRenderingContext2D.
 
 
-
-<a name="canvasrenderingcontext2d-linewidth" id="canvasrenderingcontext2d-linewidth"></a>
 
 ## lineWidth : `number`
 Get the thickness of lines.
@@ -22,15 +16,11 @@ Get the thickness of lines.
 **See**: [CanvasRenderingContext2D - lineWidth](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineWidth) for more details  
 
 
-<a name="canvasrenderingcontext2d-linejoin" id="canvasrenderingcontext2d-linejoin"></a>
-
 ## lineJoin : `string`
 Get the shape used to join two line segments where they meet.
 
 **See**: [CanvasRenderingContext2D - lineJoin](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineJoin) for more details  
 
-
-<a name="canvasrenderingcontext2d-linecap" id="canvasrenderingcontext2d-linecap"></a>
 
 ## lineCap : `string`
 Get the shape used to draw the end points of lines.
@@ -38,15 +28,11 @@ Get the shape used to draw the end points of lines.
 **See**: [CanvasRenderingContext2D - lineCap](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineCap) for more details  
 
 
-<a name="canvasrenderingcontext2d-globalalpha" id="canvasrenderingcontext2d-globalalpha"></a>
-
 ## globalAlpha : `number`
 Get the global alpha(transparency) value.
 
 **See**: [CanvasRenderingContext2D - globalAlpha](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalAlpha) for more details  
 
-
-<a name="canvasrenderingcontext2d-fillstyle" id="canvasrenderingcontext2d-fillstyle"></a>
 
 ## fillStyle : `string` \| `CanvasGradient`
 Get the fill style used inside shapes.
@@ -54,15 +40,11 @@ Get the fill style used inside shapes.
 **See**: [CanvasRenderingContext2D - fillStyle](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillStyle) for more details  
 
 
-<a name="canvasrenderingcontext2d-strokestyle" id="canvasrenderingcontext2d-strokestyle"></a>
-
 ## strokeStyle : `string`
 Get the color to use for the strokes (outlines) around shapes.
 
 **See**: [CanvasRenderingContext2D - strokeStyle](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeStyle) for more details  
 
-
-<a name="canvasrenderingcontext2d-createlineargradient" id="canvasrenderingcontext2d-createlineargradient"></a>
 
 ## createLinearGradient(x0, y0, x1, y1)
 Creates a gradient along the line connecting two given coordinates.
@@ -82,8 +64,6 @@ Creates a gradient along the line connecting two given coordinates.
 | y1 | `number` | The y-axis coordinate of the end point. |
 
 
-
-<a name="canvasrenderingcontext2d-createradialgradient" id="canvasrenderingcontext2d-createradialgradient"></a>
 
 ## createRadialGradient(x0, y0, r0, x1, y1, r1)
 Creates a radial gradient using the size and coordinates of two circles.
@@ -106,23 +86,17 @@ Creates a radial gradient using the size and coordinates of two circles.
 
 
 
-<a name="canvasrenderingcontext2d-beginpath" id="canvasrenderingcontext2d-beginpath"></a>
-
 ## beginPath()
 Creates a new path.
 
 **See**: [CanvasRenderingContext2D - beginPath](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/beginPath) for more details  
 
 
-<a name="canvasrenderingcontext2d-closepath" id="canvasrenderingcontext2d-closepath"></a>
-
 ## closePath()
 Add a straight line from the current point to the start of the current sub-path.
 
 **See**: [CanvasRenderingContext2D - closePath](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/closePath) for more details  
 
-
-<a name="canvasrenderingcontext2d-moveto" id="canvasrenderingcontext2d-moveto"></a>
 
 ## moveTo(x, y)
 Begins a new sub-path at the point specified by the given (x, y) coordinates.
@@ -136,8 +110,6 @@ Begins a new sub-path at the point specified by the given (x, y) coordinates.
 
 
 
-<a name="canvasrenderingcontext2d-lineto" id="canvasrenderingcontext2d-lineto"></a>
-
 ## lineTo(x, y)
 Adds a straight line to the current sub-path by connecting the sub-path's
 last point to the specified (x, y) coordinates.
@@ -150,8 +122,6 @@ last point to the specified (x, y) coordinates.
 | y | `number` | The y-axis coordinate of the line's end point. |
 
 
-
-<a name="canvasrenderingcontext2d-arc" id="canvasrenderingcontext2d-arc"></a>
 
 ## arc(x, y, radius, startAngle, endAngle, counterclockwise)
 Adds a circular arc to the current sub-path.
@@ -169,8 +139,6 @@ Adds a circular arc to the current sub-path.
 
 
 
-<a name="canvasrenderingcontext2d-arcto" id="canvasrenderingcontext2d-arcto"></a>
-
 ## arcTo(x1, y1, x2, y2, radius)
 Adds a circular arc to the current sub-path, using the given control points and radius.
 
@@ -185,8 +153,6 @@ Adds a circular arc to the current sub-path, using the given control points and 
 | radius | `number` | The arc's radius. Must be non-negative. |
 
 
-
-<a name="canvasrenderingcontext2d-beziercurveto" id="canvasrenderingcontext2d-beziercurveto"></a>
 
 ## bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x, y)
 Adds a cubic Bézier curve to the current sub-path.
@@ -204,8 +170,6 @@ Adds a cubic Bézier curve to the current sub-path.
 
 
 
-<a name="canvasrenderingcontext2d-quadraticcurveto" id="canvasrenderingcontext2d-quadraticcurveto"></a>
-
 ## quadraticCurveTo(cpx, cpy, x, y)
 Adds a quadratic Bézier curve to the current sub-path.
 
@@ -219,8 +183,6 @@ Adds a quadratic Bézier curve to the current sub-path.
 | y | `number` | The y-axis coordinate of the end point. |
 
 
-
-<a name="canvasrenderingcontext2d-rect" id="canvasrenderingcontext2d-rect"></a>
 
 ## rect(x, y, width, height)
 Adds a rectangle to the current path.
@@ -236,8 +198,6 @@ Adds a rectangle to the current path.
 
 
 
-<a name="canvasrenderingcontext2d-stroke" id="canvasrenderingcontext2d-stroke"></a>
-
 ## stroke(path)
 Strokes (outlines) the current or given path with the current stroke style.
 
@@ -249,10 +209,8 @@ Strokes (outlines) the current or given path with the current stroke style.
 
 
 
-<a name="canvasrenderingcontext2d-fill" id="canvasrenderingcontext2d-fill"></a>
-
 ## fill(pathOrFillRule)
-Fills the current or given path with the current fillStyle.<br></br>
+Fills the current or given path with the current fillStyle.\<br/\>
 
 **See**: [CanvasRenderingContext2D - fill](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fill) for more details  
 
@@ -261,8 +219,6 @@ Fills the current or given path with the current fillStyle.<br></br>
 | pathOrFillRule | `Path2D` \| `string` | An optional Path2D object to fill or String which defines an algorithm to determine if a point is inside or outside the filling region. |
 
 
-
-<a name="canvasrenderingcontext2d-fillrect" id="canvasrenderingcontext2d-fillrect"></a>
 
 ## fillRect(x, y, width, height)
 Draws a rectangle that is filled according to the current fillStyle.
@@ -278,8 +234,6 @@ Draws a rectangle that is filled according to the current fillStyle.
 
 
 
-<a name="canvasrenderingcontext2d-strokerect" id="canvasrenderingcontext2d-strokerect"></a>
-
 ## strokeRect(x, y, width, height)
 Draws a rectangle that is stroked (outlined) according to the current strokeStyle
 
@@ -293,8 +247,6 @@ Draws a rectangle that is stroked (outlined) according to the current strokeStyl
 | height | `number` | The rectangle's height. |
 
 
-
-<a name="canvasrenderingcontext2d-clearrect" id="canvasrenderingcontext2d-clearrect"></a>
 
 ## clearRect(x, y, width, height)
 Erases the pixels in a rectangular area by setting them to transparent black.

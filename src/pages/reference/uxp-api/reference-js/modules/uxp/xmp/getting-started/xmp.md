@@ -1,15 +1,13 @@
 
-<a name="module-xmp" id="module-xmp"></a>
-
 # require('uxp').xmp
 **Since**: v7.2.0
-<br></br>
+\<br/\>
 
 Adobe's XMP (Extensible Metadata Platform) is a metadata standard developed by Adobe Systems. It allows users to embed descriptive, rights, and other metadata into digital files.
 XMP is extensible and customizable, supporting various types of information and user-defined schemas. It is compatible with Adobe software and third-party applications, promoting interoperability.
 Based on open standards, XMP follows XML syntax and RDF model. It enhances searchability, organization, and rights management of files. Overall, XMP facilitates efficient metadata management and effective digital asset management.
 For more information about XMP metadata, see the [XMP Specification at Adobe Developer Center](https://www.adobe.com/devnet/xmp.html).
-<br></br>
+\<br/\>
 
 XMP module in UXP offers JavaScript access to the Adobe XMP Core and XMP Files libraries.
 To use the XMP objects, you must import the XMP module.
@@ -21,19 +19,19 @@ const xmp = require("uxp").xmp;
 After importing the module, you can access the top-level objects of the XMP scripting API.
 | Class | Description |
 | --- | --- |
-| [XMPMeta](../XMP%20Classes/XMPMeta.md) | Provides interface to work with XMP metadata (got via the hosts DOM APIs) for reading, writing and modifying. |
-| [XMPFile](../XMP%20Classes/XMPFile.md) | Provides interface to work with XMP metadata on a file directly, (instead of depending on host to fetch the XMP metadata contents). |
-| [XMPUtils](../XMP%20Classes/XMPUtils.md) | Provides additional utility functions for array handling. |
-| [XMPDateTime](../XMP%20Classes/XMPDateTime.md) | Represents date-time values. |
-| [XMPConst](../XMP%20Classes/XMPConst.md) | Contains numeric and string constant values for use with the JavaScript API. |
+| [XMPMeta](../xmp-classes/xmp-meta.md) | Provides interface to work with XMP metadata (got via the hosts DOM APIs) for reading, writing and modifying. |
+| [XMPFile](../xmp-classes/xmp-file.md) | Provides interface to work with XMP metadata on a file directly, (instead of depending on host to fetch the XMP metadata contents). |
+| [XMPUtils](../xmp-classes/xmp-utils.md) | Provides additional utility functions for array handling. |
+| [XMPDateTime](../xmp-classes/xmp-date-time.md) | Represents date-time values. |
+| [XMPConst](../xmp-classes/xmp-const.md) | Contains numeric and string constant values for use with the JavaScript API. |
 
 The top-level objects provide access to additional support classes that encapsulate individual metadata properties, file information, and XMP packet information, and a utility that allows iteration through properties.
 | Class | Description |
 | --- | --- |
-| [XMPIterator](../XMP%20Classes/XMPIterator.md) | Allows iteration through properties in an XMPMeta object. |
-| [XMPProperty](../XMP%20Classes/XMPProperty.md) | Describes a metadata property. |
-| [XMPFileInfo](../XMP%20Classes/XMPFileInfo.md) | Describes a file. |
-| [XMPPacketInfo](../XMP%20Classes/XMPPacketInfo.md) | Describes a raw XMP packet in a file. |
+| [XMPIterator](../xmp-classes/xmp-iterator.md) | Allows iteration through properties in an XMPMeta object. |
+| [XMPProperty](../xmp-classes/xmp-property.md) | Describes a metadata property. |
+| [XMPFileInfo](../xmp-classes/xmp-file-info.md) | Describes a file. |
+| [XMPPacketInfo](../xmp-classes/xmp-packet-info.md) | Describes a raw XMP packet in a file. |
 
 See specific object reference for details of the class, its properties and methods.
 

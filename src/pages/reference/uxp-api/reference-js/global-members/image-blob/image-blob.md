@@ -1,25 +1,21 @@
 
-<a name="imageblob" id="imageblob"></a>
-
 # window.ImageBlob
 **Since**: UXP v7.0.0  
 
 
-<a name="new-imageblob-new" id="new-imageblob-new"></a>
-
 ## ImageBlob(arrayBuffer, options)
 Blobs are used to create URLs, which can be used as `src` in `HTMLImageElement`. It can be created using image data in the standard compression formats such as PNG, JPG, JPEG ,etc.
-ImageBlob is a custom type that extends the support to use uncompressed image data. <br></br>
+ImageBlob is a custom type that extends the support to use uncompressed image data. \<br/\>
 e.g. ImageBlob can be created by passing arrayBuffer containing the RGB values for each pixel and options containing metadata to interpret the data in arraybuffer.
 
 ImageBlob can be created in the following ways
 - standard image compression formats: pass ArrayBuffer of the `standard compression formats` and mimeType of the compression in the options.type.
-- uncompressed image: pass ArrayBuffer of the uncompressed image data i.e. raw data of each pixel and options to interpret the data, option.type should be passed as "image/uncompressed".<br></br>
+- uncompressed image: pass ArrayBuffer of the uncompressed image data i.e. raw data of each pixel and options to interpret the data, option.type should be passed as "image/uncompressed".\<br/\>
 
-[PhotoshopImageData](/ps_reference/media/imaging/#photoshopimagedata-1) is compatible with ImageBlob,
+PhotoshopImageData is compatible with ImageBlob,
 `PhotoshopImageData` object can be directly passed in for options.
 
-<b>Note: `ImageBlob support is subject to enablement by HostApp. Currently supported by Photoshop.`</b>
+**Note: `ImageBlob support is subject to enablement by HostApp. Currently supported by Photoshop.`**
 
 **Returns**: Instance of `ImageBlob` with the given data  
 **Throws**:
@@ -134,15 +130,11 @@ URL.revokeObjectURL(url);
 ```
 
 
-<a name="blob-size" id="blob-size"></a>
-
 ## size : `number`
 **Read only**
 Size of the Blob in bytes.
 
 
-
-<a name="blob-type" id="blob-type"></a>
 
 ## type : `string`
 **Read only**
@@ -150,15 +142,11 @@ MIME type of the Blob.
 
 
 
-<a name="blob-arraybuffer" id="blob-arraybuffer"></a>
-
 ## arrayBuffer()
 Get the contents of the Blob in the form of an ArrayBuffer.
 
 **Returns**: `Promise<ArrayBuffer>` Promise that resolves with an ArrayBuffer that contains the blob's data in binary form.  
 
-
-<a name="blob-slice" id="blob-slice"></a>
 
 ## slice([start], [end], [contentType])
 Get a portion of the Blob's data selected from start to end (end not included).
@@ -174,15 +162,11 @@ The original blob is not altered.
 
 
 
-<a name="blob-stream" id="blob-stream"></a>
-
 ## stream()
 Get the data contained within the Blob as a ReadableStream.
 
 **Returns**: `ReadableStream` - Content of the Blob.  
 
-
-<a name="blob-text" id="blob-text"></a>
 
 ## text()
 Get contents of the Blob as a string.

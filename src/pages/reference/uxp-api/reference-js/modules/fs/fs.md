@@ -1,23 +1,19 @@
 
-<a name="fs" id="fs"></a>
-
 # require('fs')
 UXP Provides Node.js style file system API, FSAPI.
-Unlike [Entry](./uxp/Persistent%20File%20Storage/Entry/) based [File](./uxp/Persistent%20File%20Storage/File/) or [Folder](./uxp/Persistent%20File%20Storage/Folder/) classes,
+Unlike [Entry](../uxp/persistent-file-storage/entry.md) based [File](../uxp/persistent-file-storage/file.md) or [Folder](../uxp/persistent-file-storage/folder.md) classes,
 these methods can directly access a local file or folder with path or file descriptor.
 The starting point of a path in the native filesystem depends on the scheme.
 UXP supports plugin-specific storage schemes, such as "plugin:", "plugin-data:",
-and "plugin-temp:", as well as a native "file:" scheme for the path parameter.<br></br>
-Note:<br></br>
-1. If there are no schemes defined for the path parameter of FSAPI methods, it considers to have "file:" scheme for the path.<br></br>
+and "plugin-temp:", as well as a native "file:" scheme for the path parameter.\<br/\>
+Note:\<br/\>
+1. If there are no schemes defined for the path parameter of FSAPI methods, it considers to have "file:" scheme for the path.\<br/\>
 2. [UWP](https://learn.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide)(Universal Windows Platform)
 has the strict [File access permissions](https://learn.microsoft.com/en-us/windows/uwp/files/file-access-permissions),
-and UXP FSAPI may have access issues with anonymous filepaths. So, XD does not support this feature for compatibility across platforms.<br></br>
-3. The native layer of UXP FSAPI is based on [libUV](https://libuv.org/) except UWP powered features, such as FilePicker and Drag&Drop on Win10 XD.<br></br>
+and UXP FSAPI may have access issues with anonymous filepaths. So, XD does not support this feature for compatibility across platforms.\<br/\>
+3. The native layer of UXP FSAPI is based on [libUV](https://libuv.org/) except UWP powered features, such as FilePicker and Drag&Drop on Win10 XD.\<br/\>
 
 
-
-<a name="fs-readfile" id="fs-readfile"></a>
 
 ## readFile(path, options, callback)
 Reads data from the path asynchronously.
@@ -43,8 +39,6 @@ const text = await fs.readFile("plugin-data:/textFile.txt", {encoding: "utf-8"})
 ```
 
 
-<a name="fs-readfilesync" id="fs-readfilesync"></a>
-
 ## readFileSync(path, options)
 Reads data from the path synchronously.
 The file format can be specified with the encoding options.
@@ -67,8 +61,6 @@ const data = fs.readFileSync("plugin-data:/binaryFile.obj");
 const text = fs.readFileSync("plugin-data:/textFile.txt", {encoding: "utf-8"});
 ```
 
-
-<a name="fs-writefile" id="fs-writefile"></a>
 
 ## writeFile(path, data, options, callback)
 Writes data to the path asynchronously, appending if desired.
@@ -96,8 +88,6 @@ const strLen = await fs.writeFile("plugin-data:/textFile.txt", "It was a dark an
 ```
 
 
-<a name="fs-writefilesync" id="fs-writefilesync"></a>
-
 ## writeFileSync(path, data, options)
 Writes data to a path synchronously, appending if desired.
 The format of the file is controlled via the encoding option, and defaults to a binary format.
@@ -123,8 +113,6 @@ const strLen = fs.writeFileSync("plugin-data:/textFile.txt", "It was a dark and 
 ```
 
 
-<a name="fs-open" id="fs-open"></a>
-
 ## open(path, [flag], [mode], callback)
 Opens or a creates a file asynchronously
 
@@ -143,8 +131,6 @@ const fd = await fs.open("plugin-data:/fileToRead.txt", "r");
 ```
 
 
-<a name="fs-close" id="fs-close"></a>
-
 ## close(fd, callback)
 Closes a file descriptor asynchronously
 
@@ -161,12 +147,10 @@ await fs.close(fd);
 ```
 
 
-<a name="fs-read" id="fs-read"></a>
-
 ## read(fd, buffer, offset, length, position, callback)
 Reads data in chunks from the file it refers to the file descriptor
 
-**Returns**: `Promise<Object>` - { bytesRead: number, buffer: ArrayBuffer }  
+**Returns**: `Promise<Object>` - \{ bytesRead: number, buffer: ArrayBuffer }  
 **Throws**:
 
 - `Error` if invalid file descriptor is passed.
@@ -199,12 +183,10 @@ await fs.close(fd);
 ```
 
 
-<a name="fs-write" id="fs-write"></a>
-
 ## write(fd, buffer, offset, length, position, callback)
 Writes data in chunks to the file it refers to the file descriptor
 
-**Returns**: `Promise<Object>` - { bytesWritten, buffer }  
+**Returns**: `Promise<Object>` - \{ bytesWritten, buffer }  
 **Throws**:
 
 - `Error` if invalid file descriptor is passed
@@ -233,8 +215,6 @@ await fs.close(fd);
 ```
 
 
-<a name="fs-lstat" id="fs-lstat"></a>
-
 ## lstat(path, callback)
 Gets information asynchronously from a file or a folder of the path
 
@@ -253,8 +233,6 @@ const isFile = stats.isFile();
 ```
 
 
-<a name="fs-lstatsync" id="fs-lstatsync"></a>
-
 ## lstatSync(path)
 Gets information synchronously from a file or a folder of the path
 
@@ -272,8 +250,6 @@ const birthTime = stats.birthtime;
 ```
 
 
-<a name="fs-rename" id="fs-rename"></a>
-
 ## rename(oldPath, newPath, callback)
 Renames or moves, if required, the file from the oldPath to the newPath
 
@@ -290,8 +266,6 @@ Renames or moves, if required, the file from the oldPath to the newPath
 fs.rename("plugin-data:/oldName.txt", "plugin-temp:/newName.txt");
 ```
 
-
-<a name="fs-copyfile" id="fs-copyfile"></a>
 
 ## copyFile(srcPath, destPath, flags, callback)
 Copies a file or a folder from the source path to the destination path
@@ -311,8 +285,6 @@ const data = fs.copyFile("plugin-data:/copyFrom.txt", "plugin-temp:/copyTo.txt")
 ```
 
 
-<a name="fs-unlink" id="fs-unlink"></a>
-
 ## unlink(path, callback)
 Deletes a name with the file it refers to asynchronously
 
@@ -328,8 +300,6 @@ Deletes a name with the file it refers to asynchronously
 await fs.unlink("plugin-data:/fileToDelete.txt");
 ```
 
-
-<a name="fs-mkdir" id="fs-mkdir"></a>
 
 ## mkdir(path, options, callback)
 Creates a directory of the path asynchronously
@@ -349,8 +319,6 @@ await fs.mkdir("plugin-data:/newDir");
 ```
 
 
-<a name="fs-rmdir" id="fs-rmdir"></a>
-
 ## rmdir(path, callback)
 Removes a directory asynchronously
 
@@ -367,8 +335,6 @@ await fs.rmdir("plugin-data:/dirToRemove");
 ```
 
 
-<a name="fs-readdir" id="fs-readdir"></a>
-
 ## readdir(path, callback)
 Reads a directory to list the containing files and directories asynchronously
 
@@ -384,8 +350,6 @@ Reads a directory to list the containing files and directories asynchronously
 const paths = await fs.readdir("plugin-data:/dirToRead");
 ```
 
-
-<a name="fs-readdirsync" id="fs-readdirsync"></a>
 
 ## readdirSync(path)
 Reads a directory to list the containing files and directories synchronously

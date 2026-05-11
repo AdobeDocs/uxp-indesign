@@ -1,6 +1,4 @@
 
-<a name="path" id="path"></a>
-
 # window.path
 The `path` module provides utilities for working with file and directory paths.
 This module accepts string and Entry object as path parameters.
@@ -11,21 +9,15 @@ The `path` module is registered in the global scope and can be used without decl
 **Since**: UXP v6.4.0  
 
 
-<a name="path-sep" id="path-sep"></a>
-
 ## sep : `string`
 The platform-specific file separator. '\\' or '/'.
 
 
 
-<a name="path-delimiter" id="path-delimiter"></a>
-
 ## delimiter : `string`
 The platform-specific file delimiter. ';' or ':'.
 
 
-
-<a name="path-posix" id="path-posix"></a>
 
 ## posix : `Object`
 It provides access to POSIX specific implementations of the path methods.
@@ -33,15 +25,11 @@ Same as parent object on posix.
 
 
 
-<a name="path-win32" id="path-win32"></a>
-
 ## win32 : `Object`
 It provides access to Windows-specific implementations of the path methods.
 Same as parent object on Windows
 
 
-
-<a name="path-normalize" id="path-normalize"></a>
 
 ## normalize(path)
 Normalize a string path, reducing '..' and '.' parts.
@@ -59,8 +47,6 @@ When multiple slashes are found, they're replaced by a single one; when the path
 
 
 
-<a name="path-join" id="path-join"></a>
-
 ## join(paths)
 Join all arguments together and normalize the resulting path.
 
@@ -76,15 +62,13 @@ Join all arguments together and normalize the resulting path.
 
 
 
-<a name="path-resolve" id="path-resolve"></a>
-
 ## resolve(paths)
-The right-most parameter is considered {to}. Other parameters are considered an array of {from}.
+The right-most parameter is considered \{to}. Other parameters are considered an array of \{from}.
 
-Starting from leftmost {from} parameter, resolves {to} to an absolute path.
+Starting from leftmost \{from} parameter, resolves \{to} to an absolute path.
 
-If {to} isn't already absolute, {from} arguments are prepended in right to left order,
-until an absolute path is found. If after using all {from} paths still no absolute path is found,
+If \{to} isn't already absolute, \{from} arguments are prepended in right to left order,
+until an absolute path is found. If after using all \{from} paths still no absolute path is found,
 the current working directory is used as well. The resulting path is normalized,
 and trailing slashes are removed unless the path gets resolved to the root directory.
 
@@ -100,12 +84,10 @@ and trailing slashes are removed unless the path gets resolved to the root direc
 
 
 
-<a name="path-isabsolute" id="path-isabsolute"></a>
-
 ## isAbsolute(path)
-Determines whether {path} is an absolute path. An absolute path will always resolve to the same location, regardless of the working directory.
+Determines whether \{path} is an absolute path. An absolute path will always resolve to the same location, regardless of the working directory.
 
-If the given {path} is a zero-length string, `false` will be returned.
+If the given \{path} is a zero-length string, `false` will be returned.
 
 **Returns**: `boolean` - if the path is an absolute path or not  
 **Throws**:
@@ -119,10 +101,8 @@ If the given {path} is a zero-length string, `false` will be returned.
 
 
 
-<a name="path-relative" id="path-relative"></a>
-
 ## relative(from, to)
-Solve the relative path from {from} to {to} based on the current working directory.
+Solve the relative path from \{from} to \{to} based on the current working directory.
 At times we have two absolute paths, and we need to derive the relative path from one to the other. This is actually the reverse transform of path.resolve.
 
 **Returns**: `string` - relative string path  
@@ -138,8 +118,6 @@ At times we have two absolute paths, and we need to derive the relative path fro
 
 
 
-<a name="path-dirname" id="path-dirname"></a>
-
 ## dirname(path)
 Return the directory name of a path. Similar to the Unix dirname command.
 
@@ -154,8 +132,6 @@ Return the directory name of a path. Similar to the Unix dirname command.
 | path | `string` \| `Entry` | the path to evaluate |
 
 
-
-<a name="path-basename" id="path-basename"></a>
 
 ## basename(path, [ext])
 Return the last portion of a path. Similar to the Unix basename command.
@@ -174,8 +150,6 @@ Often used to extract the file name from a fully qualified path.
 
 
 
-<a name="path-extname" id="path-extname"></a>
-
 ## extname(path)
 Return the extension of the path, from the last '.' to end of string in the last portion of the path.
 If there is no '.' in the last portion of the path or the first character of it is '.', then it returns an empty string.
@@ -192,12 +166,10 @@ If there is no '.' in the last portion of the path or the first character of it 
 
 
 
-<a name="path-parse" id="path-parse"></a>
-
 ## parse(path)
 Returns an object from a path string - the opposite of format().
 
-**Returns**: `Object` - { dir: `string`, root: `string`, base: `string`, name: `string`, ext: `string` }  
+**Returns**: `Object` - \{ dir: `string`, root: `string`, base: `string`, name: `string`, ext: `string` }  
 **Throws**:
 
 - `Error` if `path` is not a string
@@ -209,8 +181,6 @@ Returns an object from a path string - the opposite of format().
 
 
 
-<a name="path-format" id="path-format"></a>
-
 ## format(pathObject)
 Returns a path string from an object - the opposite of parse().
 
@@ -218,7 +188,7 @@ Returns a path string from an object - the opposite of parse().
 
 | Param | Type | Description |
 | --- | --- | --- |
-| pathObject | `Object` | { dir: `string`, root: `string`, base: `string`, name: `string`, ext: `string` } path to evaluate |
+| pathObject | `Object` | \{ dir: `string`, root: `string`, base: `string`, name: `string`, ext: `string` } path to evaluate |
 
 
   

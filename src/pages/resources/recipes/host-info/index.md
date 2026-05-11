@@ -40,7 +40,7 @@ Application: InDesign v18.5.0 powered by uxp-7.1.0
 
 
 ## Reference material
-- [Host](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Host%20Information/Host/) APIs
-- [Versions](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Versions/Versions/) APIs
-- [OS](/indesign/uxp/reference/uxp-api/reference-js/Modules/os/OS/) APIs
+- [Host](/reference/uxp-api/reference-js/modules/uxp/host-information/host.md) APIs
+- [Versions](/reference/uxp-api/reference-js/modules/uxp/versions/versions.md) APIs
+- [OS](/reference/uxp-api/reference-js/modules/os/os.md) APIs
 

@@ -1,13 +1,9 @@
 
-<a name="path2d" id="path2d"></a>
-
 # window.Path2D
-**See**: [Web APIs - Path2D](https://developer.mozilla.org/en-US/docs/Web/API/Path2D) for more details<br></br>
-Also, refer to the interface [HTMLCanvasElement](../HTML%20Elements/HTMLCanvasElement.md#module:global.htmlcanvaselement)<br></br>  
+**See**: [Web APIs - Path2D](https://developer.mozilla.org/en-US/docs/Web/API/Path2D) for more details\<br/\>
+Also, refer to the interface [HTMLCanvasElement](../html-elements/html-canvas-element.md#module:global.htmlcanvaselement)\<br/\>  
 **Since**: v7.0.0  
 
-
-<a name="new-path2d-new" id="new-path2d-new"></a>
 
 ## Path2D(path)
 Creates an instance of Path2D.
@@ -19,10 +15,8 @@ Creates an instance of Path2D.
 
 
 
-<a name="path2d-addpath" id="path2d-addpath"></a>
-
 ## addPath(path)
-Adds one Path2D object to another Path2D object.<br></br>
+Adds one Path2D object to another Path2D object.\<br/\>
 
 **See**: [Path2D - addPath](https://developer.mozilla.org/en-US/docs/Web/API/Path2D/addPath) for more details  
 
@@ -32,15 +26,11 @@ Adds one Path2D object to another Path2D object.<br></br>
 
 
 
-<a name="path2d-closepath" id="path2d-closepath"></a>
-
 ## closePath()
 Add a straight line from the current point to the start of the current sub-path.
 
 **See**: [CanvasRenderingContext2D - closePath](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/closePath) for more details  
 
-
-<a name="path2d-moveto" id="path2d-moveto"></a>
 
 ## moveTo(x, y)
 Begins a new sub-path at the point specified by the given (x, y) coordinates.
@@ -54,8 +44,6 @@ Begins a new sub-path at the point specified by the given (x, y) coordinates.
 
 
 
-<a name="path2d-lineto" id="path2d-lineto"></a>
-
 ## lineTo(x, y)
 Adds a straight line to the current sub-path by connecting the sub-path's
 last point to the specified (x, y) coordinates.
@@ -68,8 +56,6 @@ last point to the specified (x, y) coordinates.
 | y | `number` | The y-axis coordinate of the line's end point. |
 
 
-
-<a name="path2d-beziercurveto" id="path2d-beziercurveto"></a>
 
 ## bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x, y)
 Adds a cubic Bézier curve to the current sub-path.
@@ -87,8 +73,6 @@ Adds a cubic Bézier curve to the current sub-path.
 
 
 
-<a name="path2d-quadraticcurveto" id="path2d-quadraticcurveto"></a>
-
 ## quadraticCurveTo(cpx, cpy, x, y)
 Adds a quadratic Bézier curve to the current sub-path.
 
@@ -102,8 +86,6 @@ Adds a quadratic Bézier curve to the current sub-path.
 | y | `number` | The y-axis coordinate of the end point. |
 
 
-
-<a name="path2d-arc" id="path2d-arc"></a>
 
 ## arc(x, y, radius, startAngle, endAngle, counterclockwise)
 Adds a circular arc to the current sub-path.
@@ -121,8 +103,6 @@ Adds a circular arc to the current sub-path.
 
 
 
-<a name="path2d-arcto" id="path2d-arcto"></a>
-
 ## arcTo(x1, y1, x2, y2, radius)
 Adds a circular arc to the current sub-path, using the given control points and radius.
 
@@ -137,8 +117,6 @@ Adds a circular arc to the current sub-path, using the given control points and 
 | radius | `number` | The arc's radius. Must be non-negative. |
 
 
-
-<a name="path2d-rect" id="path2d-rect"></a>
 
 ## rect(x, y, width, height)
 Adds a rectangle to the current path.

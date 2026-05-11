@@ -1,16 +1,12 @@
 
-<a name="readablestream" id="readablestream"></a>
-
 # window.ReadableStream
 **See**: [Web APIs - ReadableStream](https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream)  
 **Since**: UXP v6.1  
 
 
-<a name="new-readablestream-new" id="new-readablestream-new"></a>
-
 ## ReadableStream(underlyingSource, strategy)
 Creates a ReadableStream object from the given handlers.
-<br></br>Note that `underlyingSource.type` and `underlyingSource.autoAllocateChunkSize` are not supported.
+\<br/\>Note that `underlyingSource.type` and `underlyingSource.autoAllocateChunkSize` are not supported.
 
 **Returns**: `ReadableStream`  
 
@@ -26,15 +22,11 @@ Creates a ReadableStream object from the given handlers.
 
 
 
-<a name="readablestream-locked" id="readablestream-locked"></a>
-
 ## locked : `boolean`
 **Read only**
 Indicate whether the readable stream is locked.
 
 
-
-<a name="readablestream-cancel" id="readablestream-cancel"></a>
 
 ## cancel(reason)
 Cancel the readable stream.
@@ -51,11 +43,9 @@ Cancel the readable stream.
 
 
 
-<a name="readablestream-getreader" id="readablestream-getreader"></a>
-
 ## getReader(options)
 Create a reader and lock the stream to it.
-<br></br>Note that currently ReadableStreamDefaultReader object is returned as options.mode <b>"byob" is not supported.</b>
+\<br/\>Note that currently ReadableStreamDefaultReader object is returned as options.mode **"byob" is not supported.**
 
 **Returns**: `ReadableStreamDefaultReader`  
 **Throws**:
@@ -69,8 +59,6 @@ Create a reader and lock the stream to it.
 | options.mode | `*` | ReadableStreamDefaultReader being created, defaults to `undefined` and `byob` is not yet supported. |
 
 
-
-<a name="readablestream-pipethrough" id="readablestream-pipethrough"></a>
 
 ## pipeThrough(transform, options)
 Provides a chainable way of piping the current stream through a transform stream.
@@ -88,7 +76,7 @@ Provides a chainable way of piping the current stream through a transform stream
 
 | Param | Type | Description |
 | --- | --- | --- |
-| transform | `TransformStream` \| `WritableAndReadable` | TransformStream or an object with the structure {writable, readable} |
+| transform | `TransformStream` \| `WritableAndReadable` | TransformStream or an object with the structure \{writable, readable} |
 | options | `Object` |  |
 | options.preventClose | `boolean` | If true, the source ReadableStream closing will no loger cause the destination WritableStream          to be closed. |
 | options.preventAbort | `boolean` | If true, errors in the source ReadableStream will no longer abort the destination WritableStream. |
@@ -96,8 +84,6 @@ Provides a chainable way of piping the current stream through a transform stream
 | options.signal | `AbortSignal` | If aborted, ongoing pipe operations can be aborted. |
 
 
-
-<a name="readablestream-pipeto" id="readablestream-pipeto"></a>
 
 ## pipeTo(destination, options)
 Pipes this readable stream to a given writable stream destination.
@@ -123,8 +109,6 @@ Pipes this readable stream to a given writable stream destination.
 | options.signal | `AbortSignal` | If aborted, ongoing pipe operations can be aborted. |
 
 
-
-<a name="readablestream-tee" id="readablestream-tee"></a>
 
 ## tee()
 Tees the current ReadableStream, returning a two-element array

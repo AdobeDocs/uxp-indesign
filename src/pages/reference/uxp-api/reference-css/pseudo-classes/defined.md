@@ -26,7 +26,7 @@ Represents any element that has been defined.
 ```
 
 **Example:**
-<br></br>
+\<br/\>
 Demonstrates the application of styles via `:defined`
 <CodeBlock slots="heading, code" repeat="2" languages="HTML, CSS" />
 

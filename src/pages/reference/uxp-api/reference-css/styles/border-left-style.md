@@ -5,7 +5,7 @@ jsDoc: true
 
 **Since**  UXP v2.0
 
-Specifies the [style](../border-style/) of left border to render.
+Specifies the [style](border-style.md) of left border to render.
 
 **See**: https://developer.mozilla.org/en/docs/Web/CSS/border-left-style  
 

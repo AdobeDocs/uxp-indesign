@@ -19,8 +19,8 @@ Welcome to the world of UXP (**U**nified E**x**tensibility **P**latform) in Adob
 #### Resources
 
 - [What's new](changelog/index.md)
-- [UXP APIs](/indesign/uxp/reference/uxp-api/)
-- [InDesign APIs](/indesign/dom/api/)
+- [UXP APIs](/reference/uxp-api/index.md)
+- [InDesign APIs](/dom/api/index.md)
 - [Scripts](scripts/getting-started/index.md)
 - [Plugins](plugins/getting-started/index.md)
 - [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/c/indesign/)
@@ -36,7 +36,7 @@ UXP offers you two ways of extending the application's capabilities - scripts an
 ## Resources and API references
 Learn the [fundamental concepts](resources/fundamentals/index.md) needed to develop UXP scripts and plugins and find bite-size [recipes](resources/recipes/index.md) for common use cases.
 
-Since UXP is still evolving, keep an eye out for the [latest APIs](changelog/index.md) in recent releases and their references in [UXP APIs](/indesign/uxp/reference/uxp-api/) and [InDesign APIs](/indesign/dom/api/).
+Since UXP is still evolving, keep an eye out for the [latest APIs](changelog/index.md) in recent releases and their references in [UXP APIs](/reference/uxp-api/index.md) and [InDesign APIs](/dom/api/index.md).
 
 Check out the [sample repository](https://github.com/AdobeDocs/uxp-indesign-samples) that has ready-made plugins and scripts to help you set up popular frameworks easily.
 

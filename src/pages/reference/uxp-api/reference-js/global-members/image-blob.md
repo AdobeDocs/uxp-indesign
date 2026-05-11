@@ -1,4 +1,8 @@
+---
+title: ImageBlob
+description: UXP ImageBlob API reference for image data handling.
+---
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-js/Global Members/ImageBlob/ImageBlob.md";
+# ImageBlob
 
-<Content query="product=photoshop"/>
+See [ImageBlob API](image-blob/image-blob.md) for full documentation.

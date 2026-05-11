@@ -54,6 +54,6 @@ await storage.getItem('key');
 ```
 
 ## Reference material
-- [Local Storage](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Storage/LocalStorage/)
-- [Session Storage](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Storage/SessionStorage/)
-- [Secure Storage](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Key-Value%20Storage/SecureStorage/)
+- [Local Storage](/reference/uxp-api/reference-js/global-members/data-storage/local-storage.md)
+- [Session Storage](/reference/uxp-api/reference-js/global-members/data-storage/session-storage.md)
+- [Secure Storage](/reference/uxp-api/reference-js/modules/uxp/key-value-storage/secure-storage.md)

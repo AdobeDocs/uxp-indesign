@@ -232,8 +232,8 @@ Make sure you configure the most accurate permission for your use case because i
 
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
-| `clipboard` | `"read" \| "readAndWrite"` | optional | Enables the plugin to read and write to the clipboard. The [clipboard recipe](/indesign/uxp/resources/recipes/clipboard/) has more examples. Possible values: • `read`: enables the plugin to read from the clipboard.\\• `readAndWrite`: enables the plugin to read from and write to the clipboard. **Default value** `undefined` (no clipboard access) |
-| `localFileSystem` | `"plugin" \| "request" \| "fullAccess"` | optional | Enables the plugin to access the file system. The [file-operation recipe](/indesign/uxp/resources/recipes/file-operation/) has a detailed example. Possible values: • `plugin`: enables the plugin to access the file system in the plugin folder.\\• `request`: enables the plugin to request access to the file system (user consent).\\• `fullAccess`: enables the plugin to access the file system without requesting access. **Default value** `"plugin"` |
+| `clipboard` | `"read" \| "readAndWrite"` | optional | Enables the plugin to read and write to the clipboard. The [clipboard recipe](/resources/recipes/clipboard/index.md) has more examples. Possible values: • `read`: enables the plugin to read from the clipboard.\\• `readAndWrite`: enables the plugin to read from and write to the clipboard. **Default value** `undefined` (no clipboard access) |
+| `localFileSystem` | `"plugin" \| "request" \| "fullAccess"` | optional | Enables the plugin to access the file system. The [file-operation recipe](/resources/recipes/file-operation/index.md) has a detailed example. Possible values: • `plugin`: enables the plugin to access the file system in the plugin folder.\\• `request`: enables the plugin to request access to the file system (user consent).\\• `fullAccess`: enables the plugin to access the file system without requesting access. **Default value** `"plugin"` |
 | `network` | `NetworkPermission` | optional | Enables the plugin to access the network. For example, to make HTTP requests (XHR, fetch, etc.), load images (`&lt;img src="" /&gt;`), etc. **Default value** `undefined` (no network access) |
 | `webview` | `WebviewPermission` | optional | Enables the plugin to use webviews in its UI to display web content or complex UI. **Default value** `undefined` (no webview usage) |
 | `launchProcess` | `LaunchProcessPermission` | optional | Enables the plugin to launch processes using APIs like `require("uxp").shell.openPath()` or `shell.openExternal()`. **Default value** `undefined` (no process launching) |
@@ -291,7 +291,7 @@ You can also allow access to all domains by setting `domains` to `"all"`.
 | `domains` * | `string[] \| "all"` | required | The domains that the plugin can access. Can be a list of domains, or the string "all" to allow access to all domains. |
 
 
-The [network recipe](/indesign/uxp/resources/recipes/network/) has more details.
+The [network recipe](/resources/recipes/network/index.md) has more details.
 
 
 #### WebViewPermission
@@ -346,7 +346,7 @@ window.addEventListener("message", (event) => \{
 | `enableMessageBridge` | `"no" \| "localAndRemote"` | optional | Specifies whether the plugin can communicate with the webview using the message API. **Default value** `"no"` |
 
 
-Find the detailed [WebView API reference](/indesign/uxp/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement/) or use the webview-starter template plugin in UDT.
+Find the detailed [WebView API reference](/reference/uxp-api/reference-js/global-members/html-elements/html-web-view-element.md) or use the webview-starter template plugin in UDT.
 
 
 #### LaunchProcessPermission
@@ -376,7 +376,7 @@ For example, if the plugin can launch a web browser, it should specify the `http
 | `extensions` * | `string[]` | required | A set of extensions that the plugin can launch. Only relevant for local files (using the `file://` schema) **Example** `["pdf", "png", "jpg"]` |
 
 
-The [launch process recipe](/indesign/uxp/resources/recipes/launch-process/) has more details.
+The [launch process recipe](/resources/recipes/launch-process/index.md) has more details.
 
 
 #### IpcPermission
@@ -402,7 +402,7 @@ Allows communication with other plugins.
 | `enablePluginCommunication` * | `boolean` | required | Enables plugin communication. |
 
 
-The [inter-plugin communication example](/indesign/uxp/plugins/tutorials/inter-plugin-comm/) has more details.
+The [inter-plugin communication example](/plugins/tutorials/inter-plugin-comm/index.md) has more details.
 
 
 ### FeatureFlags

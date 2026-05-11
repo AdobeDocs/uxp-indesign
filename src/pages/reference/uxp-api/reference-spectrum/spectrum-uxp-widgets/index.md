@@ -26,5 +26,5 @@ It's that easy!
 
 
 ## Pages in this section
-* [Typography](Typography/index.md)
-* [User Interface](User%20Interface/index.md)
+* [Typography](typography/index.md)
+* [User Interface](user-interface/index.md)

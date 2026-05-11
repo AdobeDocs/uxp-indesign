@@ -27,5 +27,5 @@ For scripts,
 | **instanceof** \\ The `instanceof` keyword isn't supported for InDesign DOM objects. Instead using `object.constructorName` property. | `if (app.selection[0].paragraphs[0].appliedParagraphStyle.parent instanceof ParagraphStyleGroup) { ... }` | `if (app.selection[0].paragraphs.item(0).parent.constructorName == "ParagraphStyleGroup") { ... }` | Prior to v18.4 |
 | **Global object 'document'**\\ Global object 'document' is not supported now. Instead, use `app.activeDocument` | `document.findText()` | `app.activeDocument.findText()` | All Versions |
 | ActiveScript `app.activeScript` | `app.activeScript` returns the current running script as a file object on which you can access other properties. | `app.activeScript` returns the path of the current script as a string. No other properties can be accessed on `app.activeScript` | Prior to v18.4 |
-| Fetching the InDesign Server arguments passed to a script. | `var myArg = app.scriptArgs.getValue("*argumentName*");` | `let arguments = script.args;` [Learn More](/indesign/uxp/scripts/tutorials/arguments/) | v18.4 Onwards |
+| Fetching the InDesign Server arguments passed to a script. | `var myArg = app.scriptArgs.getValue("*argumentName*");` | `let arguments = script.args;` [Learn More](/scripts/tutorials/arguments/index.md) | v18.4 Onwards |
 

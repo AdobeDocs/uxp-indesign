@@ -57,4 +57,4 @@ const inDesign = require("indesign");
 const inDesignV17 = require("indesign-17.0");
 ```
 
-Once you have the right DOM API version, use the [API reference](/indesign/dom/api/) to access available objects, methods etc.
+Once you have the right DOM API version, use the [API reference](/dom/api/index.md) to access available objects, methods etc.

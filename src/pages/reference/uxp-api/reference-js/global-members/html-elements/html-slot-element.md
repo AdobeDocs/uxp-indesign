@@ -1,12 +1,8 @@
 
-<a name="htmlslotelement" id="htmlslotelement"></a>
-
 # window.HTMLSlotElement
 **See**: [Web APIs - HTMLSlotElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement)  
 **Since**: v7.0.0  
 
-
-<a name="htmlslotelement-name" id="htmlslotelement-name"></a>
 
 ## name : `string`
 A string used to get and set slot's name.
@@ -14,11 +10,9 @@ A string used to get and set slot's name.
 **See**: [HTMLSlotElement - name](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement/name)  
 
 
-<a name="htmlslotelement-assignednodes" id="htmlslotelement-assignednodes"></a>
-
 ## assignedNodes(options)
 returns a sequence of the nodes assigned to this slot. If options object is used with flatten: "true",
-If slottables is the empty list, then append each slottable child of slot, in tree order, to slottables.<br></br>
+If slottables is the empty list, then append each slottable child of slot, in tree order, to slottables.\<br/\>
 Refer [find-flattened-slotables](https://dom.spec.whatwg.org/#find-flattened-slotables)
 
 **Returns**: `Array` - An array of nodes  
@@ -36,11 +30,9 @@ Refer [find-flattened-slotables](https://dom.spec.whatwg.org/#find-flattened-slo
 
 
 
-<a name="htmlslotelement-assignedelements" id="htmlslotelement-assignedelements"></a>
-
 ## assignedElements(options)
 returns a sequence of the elements assigned to this slot. If options object is used with flatten: "true",
-If slottables is the empty list, then append each slottable child of slot, in tree order, to slottables.<br></br>
+If slottables is the empty list, then append each slottable child of slot, in tree order, to slottables.\<br/\>
 Refer [find-flattened-slotables](https://dom.spec.whatwg.org/#find-flattened-slotables)
 
 **Returns**: `Array` - An array of elements  

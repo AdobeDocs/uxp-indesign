@@ -1,6 +1,4 @@
 
-<a name="module-global-fetch" id="module-global-fetch"></a>
-
 # window.fetch(input, [init])
 Fetches a resource from the network.
 
@@ -10,9 +8,9 @@ Fetches a resource from the network.
 - `TypeError` If init.body is set and init.method is either "GET" or "HEAD".
 - `TypeError` If either network error or network time-out occurs after a http request is made.
 - `TypeError` If there is a failure in reading files in FormData during posting FormData.
-<br></br>
+\<br/\>
 In order to leverage `fetch`, update the `manifest.json` with the `network.domains` permission shown below.
-<b>Example:</b>
+**Example:**
 
 ```json
 {
@@ -27,15 +25,15 @@ In order to leverage `fetch`, update the `manifest.json` with the `network.domai
   }
 }
 ```
-<b>Limitation:</b>
+**Limitation:**
 From UXP v7.4.0 onwards `permissions.network.domains` does not support WildCards in top-level domains.
-<b>Example:</b>
+**Example:**
 
 ```json
 "domains": [ "https://www.adobe.*", "https://www.*" ]
 ```
 
-**See**: [Headers](./Headers.md), [Request](./Request.md) and [Response](./Response.md)  
+**See**: [Headers](headers.md), [Request](request.md) and [Response](response.md)  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -44,6 +42,6 @@ From UXP v7.4.0 onwards `permissions.network.domains` does not support WildCards
 | [init.method] | `string` | HTTP request method. The default value is "GET". |
 | [init.headers] | `Headers` | HTTP request headers to add. |
 | [init.body] | `string` \| `ArrayBuffer` \| `TypedArray` \| `Blob` \| `FormData` \| `URLSearchParams` | Body to add to HTTP request. |
-| [init.credentials] | `string` | Indicates whether to send cookies. The default value is "include". Possible values and functions are as follows: <ul style="list-style: none;">  <li>"omit" : cookies are NOT sent.</li> <li>"include" : cookies are sent.</li> </ul> |
+| [init.credentials] | `string` | Indicates whether to send cookies. The default value is "include". Possible values and functions are as follows: \<ul style="list-style: none;"\>  \<li\>"omit" : cookies are NOT sent.\</li\> \<li\>"include" : cookies are sent.\</li\> \</ul\> |
 
 

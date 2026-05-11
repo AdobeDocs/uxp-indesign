@@ -1,6 +1,6 @@
-<!--
+\<!--
 index_desc: List of known issues in UXP
--->
+--\>
 
 # Known Issues
 
@@ -85,7 +85,7 @@ The following issues are known. Please check this page with future updates, as k
 
 * When a dialog is closed, it is not removed from the DOM. This is per spec. If you want the dialog to be removed from the DOM, you must call `HTMLDialogElement#remove` explicitly.
 * When applying HTML using `innerHTML`, event handlers and scripts are currently parsed in Photoshop, but not in XD. **DO NOT RELY ON THIS BEHAVIOR**, as it will likely go away in the future and match XD's behavior (which is by design).
-* The following <b>Canvas</b> APIs are not working on `Windows` - createLinearGradient(), createRadialGradient() and clearRect().
+* The following **Canvas** APIs are not working on `Windows` - createLinearGradient(), createRadialGradient() and clearRect().
 
 ## Network I/O
 

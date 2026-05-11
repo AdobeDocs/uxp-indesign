@@ -1,6 +1,4 @@
 
-<a name="xmpmeta" id="xmpmeta"></a>
-
 # require('uxp').xmp.XMPMeta
 XMPMeta
 This class provides the core services of the XMP Toolkit. The functions provide the ability to create
@@ -17,8 +15,6 @@ For convenience, the object also provides more specific functions for use with s
 
 **Since**: v7.2.0  
 
-
-<a name="new-xmpmeta-new" id="new-xmpmeta-new"></a>
 
 ## XMPMeta(packet, buffer)
 To create an XMPMeta object, use the new operator. The constructor accepts an RDF/XML
@@ -83,8 +79,6 @@ if (meta.doesStructFieldExist(XMPConst.NS_XML, "structNameSample", XMPConst.NS_X
 ```
 
 
-<a name="xmpmeta-appendarrayitem" id="xmpmeta-appendarrayitem"></a>
-
 ## appendArrayItem(schemaNS, arrayName, itemValue, [itemOptions], [arrayOptions])
 Appends an item to an existing array, or creates a new array-type property if the named array does not exist.
 
@@ -94,16 +88,14 @@ Appends an item to an existing array, or creates a new array-type property if th
 | schemaNS | `string` |  | The namespace URI string. See [Schema namespace string constants](xmp-const.md#schema-namespace-string-constants). |
 | arrayName | `string` |  | The array-type property name string. Can be a general path expression. |
 | itemValue | `string` |  | The new item value string. Pass null for array items that do not have values. |
-| [itemOptions] | `number` | `0` | A flag that describes the new item, if it is being created. One of:<br></br> - 0: A simple item, or the type implied by the arrayOptions value.<br></br> - XMPConst.PROP_IS_ARRAY: The item is an array (of type alt, bag, or seq).<br></br> - XMPConst.PROP_IS_STRUCT: The item is a structure with nested fields.<br></br> |
-| [arrayOptions] | `number` | `0` | A flag that describes the array form.  Must be provided if the array is being created; ignored if the array already exists. One of:<br></br> - XMPConst.ARRAY_IS_ORDERED: Item order is significant. Implies XMPConst.PROP_IS_Array<br></br> - XMPConst.ARRAY_IS_ALTERNATIVE: Items are mutually exclusive alternates. Implies XMPConst.PROP_IS_ARRAY and XMPConst.ARRAY_IS_ORDERED`<br></br> |
+| [itemOptions] | `number` | `0` | A flag that describes the new item, if it is being created. One of:\</br\> - 0: A simple item, or the type implied by the arrayOptions value.\</br\> - XMPConst.PROP_IS_ARRAY: The item is an array (of type alt, bag, or seq).\</br\> - XMPConst.PROP_IS_STRUCT: The item is a structure with nested fields.\</br\> |
+| [arrayOptions] | `number` | `0` | A flag that describes the array form.  Must be provided if the array is being created; ignored if the array already exists. One of:\</br\> - XMPConst.ARRAY_IS_ORDERED: Item order is significant. Implies XMPConst.PROP_IS_Array\</br\> - XMPConst.ARRAY_IS_ALTERNATIVE: Items are mutually exclusive alternates. Implies XMPConst.PROP_IS_ARRAY and XMPConst.ARRAY_IS_ORDERED` |
 
 **Example**  
 ```js
 XMPMetaObj.appendArrayItem(schemaNS, arrayName, itemValue[, itemOptions, arrayOptions])
 ```
 
-
-<a name="xmpmeta-countarrayitems" id="xmpmeta-countarrayitems"></a>
 
 ## countArrayItems(schemaNS, arrayName)
 Reports the number of items in an array-type metadata property.
@@ -121,8 +113,6 @@ XMPMetaObj.countArrayItems(schemaNS, arrayName)
 ```
 
 
-<a name="xmpmeta-deletearrayitem" id="xmpmeta-deletearrayitem"></a>
-
 ## deleteArrayItem(schemaNS, arrayName, itemIndex)
 Deletes the metadata tree that has the given array item as its root.
 
@@ -139,8 +129,6 @@ XMPMetaObj.deleteArrayItem(schemaNS, arrayName, itemIndex)
 ```
 
 
-<a name="xmpmeta-deleteproperty" id="xmpmeta-deleteproperty"></a>
-
 ## deleteProperty(schemaNS, propName)
 Deletes the metadata tree that has the given property as its root. If the property does not exist, does nothing.
 
@@ -155,8 +143,6 @@ Deletes the metadata tree that has the given property as its root. If the proper
 XMPMetaObj.deleteProperty(schemaNS, propName)
 ```
 
-
-<a name="xmpmeta-deletestructfield" id="xmpmeta-deletestructfield"></a>
 
 ## deleteStructField(schemaNS, structName, fieldNS, fieldName)
 Deletes the metadata tree that has the given structure field as its root.
@@ -175,8 +161,6 @@ XMPMetaObj.deleteStructField(schemaNS, structName, fieldNS, fieldName)
 ```
 
 
-<a name="xmpmeta-deletequalifier" id="xmpmeta-deletequalifier"></a>
-
 ## deleteQualifier(schemaNS, structName, qualNS, qualName)
 Deletes the metadata tree that has the given qualifier as its root. If the qualifier does not exist, does nothing.
 
@@ -193,8 +177,6 @@ Deletes the metadata tree that has the given qualifier as its root. If the quali
 XMPMetaObj.deleteQualifier(schemaNS, structName, qualNS, qualName)
 ```
 
-
-<a name="xmpmeta-doesarrayitemexist" id="xmpmeta-doesarrayitemexist"></a>
 
 ## doesArrayItemExist(schemaNS, arrayName, itemIndex)
 Reports whether an array item with a given index currently exists in an existing array in the metadata.
@@ -213,8 +195,6 @@ XMPMetaObj.doesArrayItemExist(schemaNS, arrayName, itemIndex)
 ```
 
 
-<a name="xmpmeta-doespropertyexist" id="xmpmeta-doespropertyexist"></a>
-
 ## doesPropertyExist(schemaNS, propName)
 Reports whether a property with a given name currently exists in the metadata.
 
@@ -230,8 +210,6 @@ Reports whether a property with a given name currently exists in the metadata.
 XMPMetaObj.doesPropertyExist(schemaNS, propName)
 ```
 
-
-<a name="xmpmeta-doesstructfieldexist" id="xmpmeta-doesstructfieldexist"></a>
 
 ## doesStructFieldExist(schemaNS, structName, fieldNS, fieldName)
 Reports whether a structure field with a given name currently exists in the metadata.
@@ -251,8 +229,6 @@ XMPMetaObj.doesStructFieldExist(schemaNS, structName, fieldNS, fieldName)
 ```
 
 
-<a name="xmpmeta-doesqualifierexist" id="xmpmeta-doesqualifierexist"></a>
-
 ## doesQualifierExist(schemaNS, structName, qualNS, qualName)
 Reports whether a qualifier with a given name currently exists for a given property.
 
@@ -271,8 +247,6 @@ XMPMetaObj.doesQualifierExist(schemaNS, structName, qualNS, qualName)
 ```
 
 
-<a name="xmpmeta-dumpobject" id="xmpmeta-dumpobject"></a>
-
 ## dumpObject()
 Creates and returns a string containing the metadata content of this object as RDF.
 
@@ -282,8 +256,6 @@ Creates and returns a string containing the metadata content of this object as R
 XMPMetaObj.dumpObject()
 ```
 
-
-<a name="xmpmeta-getarrayitem" id="xmpmeta-getarrayitem"></a>
 
 ## getArrayItem(schemaNS, arrayName, itemIndex)
 Retrieves an item from an array-type metadata property.
@@ -302,8 +274,6 @@ Returns an [XMPProperty object](xmp-property.md).
 XMPMetaObj.getArrayItem(schemaNS, arrayName, itemIndex)
 ```
 
-
-<a name="xmpmeta-getlocalizedtext" id="xmpmeta-getlocalizedtext"></a>
 
 ## getLocalizedText(schemaNS, altTextName, genericLang, specificLang)
 Retrieves the text value for a specific language from an alternate-text array. First tries to match the specific language.
@@ -324,8 +294,6 @@ XMPMetaObj.getLocalizedText(schemaNS, altTextName, genericLang, specificLang)
 ```
 
 
-<a name="xmpmeta-getproperty" id="xmpmeta-getproperty"></a>
-
 ## getProperty(schemaNS, propName, [valueType])
 Retrieves the value and options of a metadata property. Use for top-level, simple properties, or after using the path-composition functions in the [XMPUtils object](xmp-utils.md).
 Returns an [XMPProperty object](xmp-property.md).
@@ -343,8 +311,6 @@ Returns an [XMPProperty object](xmp-property.md).
 XMPMetaObj.getProperty(schemaNS, propName[, valueType])
 ```
 
-
-<a name="xmpmeta-getstructfield" id="xmpmeta-getstructfield"></a>
 
 ## getStructField(schemaNS, structName, fieldNS, fieldName)
 Retrieves a field value from within a nested structure in metadata.
@@ -365,8 +331,6 @@ XMPMetaObj.getStructField(schemaNS, structName, fieldNS, fieldName)
 ```
 
 
-<a name="xmpmeta-getqualifier" id="xmpmeta-getqualifier"></a>
-
 ## getQualifier(schemaNS, structName, qualNS, qualName)
 Retrieves a qualifier attached to a metadata property.
 Returns an [XMPProperty object](xmp-property.md).
@@ -386,8 +350,6 @@ XMPMetaObj.getQualifier(schemaNS, structName, qualNS, qualName)
 ```
 
 
-<a name="xmpmeta-insertarrayitem" id="xmpmeta-insertarrayitem"></a>
-
 ## insertArrayItem(schemaNS, arrayName, itemIndex, itemValue, [itemOptions])
 Inserts an item into an array, before an existing item. The index positions of all later items are incremented. The array must exist.
 
@@ -398,15 +360,13 @@ Inserts an item into an array, before an existing item. The index positions of a
 | arrayName | `string` |  | The array-type property name string. Can be a general path expression. |
 | itemIndex | `number` |  | The 1-based position index at which to insert the new item. Use XMPConst.ARRAY_LAST_ITEM to reference the last existing item in the array. |
 | itemValue | `string` |  | The new item value. Pass null for array items that do not have values. |
-| [itemOptions] | `number` | `0` | A flag that describes the new item, if it is being created. One of:<br></br> - 0: A simple item, the default.<br></br> - XMPConst.PROP_IS_ARRAY: The item is an array (of type alt, bag, or seq).<br></br> - XMPConst.PROP_IS_STRUCT: The item is a structure with nested fields.<br></br> |
+| [itemOptions] | `number` | `0` | A flag that describes the new item, if it is being created. One of:\</br\> - 0: A simple item, the default.\</br\> - XMPConst.PROP_IS_ARRAY: The item is an array (of type alt, bag, or seq).\</br\> - XMPConst.PROP_IS_STRUCT: The item is a structure with nested fields.\</br\> |
 
 **Example**  
 ```js
 XMPMetaObj.insertArrayItem(schemaNS, arrayName, itemIndex, itemValue[, itemOptions])
 ```
 
-
-<a name="xmpmeta-iterator" id="xmpmeta-iterator"></a>
 
 ## iterator(options, schemaNS, propName)
 Creates an iteration object that can iterate over the properties, arrays, and qualifiers within this metadata.
@@ -417,7 +377,7 @@ Returns an [XMPIterator object](xmp-iterator.md).
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
-| options | `number` | `0` | The set of options that control how the iteration is performed, and how values are returned. A logical OR of these bit-flag constants:<br></br> XMPConst.ITERATOR_JUST_CHILDREN - Limit iteration to immediate children of the root property. By default, iterates into subtrees.<br></br> XMPConst.ITERATOR_JUST_LEAFNODES - Limit iteration to leaf nodes. By default, iterates into all nodes of a subtree.<br></br> XMPConst.ITERATOR_JUST_LEAFNAMES - Return only the leaf part of the path. By default, returns a full path.<br></br> XMPConst.ITERATOR_INCLUDE_ALIASES - Include aliases. By default, considers only actual properties.<br></br> XMPConst.ITERATOR_OMIT_QUALIFIERS - Omit qualifiers from iteration.<br></br> |
+| options | `number` | `0` | The set of options that control how the iteration is performed, and how values are returned. A logical OR of these bit-flag constants:\</br\> XMPConst.ITERATOR_JUST_CHILDREN - Limit iteration to immediate children of the root property. By default, iterates into subtrees.\</br\> XMPConst.ITERATOR_JUST_LEAFNODES - Limit iteration to leaf nodes. By default, iterates into all nodes of a subtree.\</br\> XMPConst.ITERATOR_JUST_LEAFNAMES - Return only the leaf part of the path. By default, returns a full path.\</br\> XMPConst.ITERATOR_INCLUDE_ALIASES - Include aliases. By default, considers only actual properties.\</br\> XMPConst.ITERATOR_OMIT_QUALIFIERS - Omit qualifiers from iteration.\</br\> |
 | schemaNS | `string` |  | The namespace URI string. See [Schema namespace string constants](xmp-const.md#schema-namespace-string-constants). |
 | propName | `string` |  | The array-type property name string. Can be a general path expression. |
 
@@ -427,8 +387,6 @@ XMPMetaObj.iterator(options, schemaNS, propName)
 ```
 
 
-<a name="xmpmeta-serialize" id="xmpmeta-serialize"></a>
-
 ## serialize([options], [padding], [indent], [newline], [baseIndent])
 Serializes this XMP metadata into a string as RDF.
 
@@ -436,7 +394,7 @@ Serializes this XMP metadata into a string as RDF.
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
-| [options] | `number` | `0` | The set of options that control how the serialization is performed. The options must be logically consistent; if they conflict, the function throws an exception. A logical OR of these bit-flag constants:<br></br> XMPConst.SERIALIZE_OMIT_PACKET_WRAPPER - Do not include an XML packet wrapper.<br></br> XMPConst.SERIALIZE_READ_ONLY_PACKET - Create a read-only XML packet wrapper.<br></br> XMPConst.SERIALIZE_USE_COMPACT_FORMAT - Use a highly compact RDF syntax and layout.<br></br> XMPConst.SERIALIZE_USE_PLAIN_XMP - Serialize a plain XMP (not currently supported).<br></br> XMPConst.SERIALIZE_INCLUDE_THUMBNAIL_PAD - Include typical space for a JPEG thumbnail in the padding if no xmp:Thumbnail property is present.<br></br> XMPConst.SERIALIZE_EXACT_PACKET_LENGTH - Compute padding to meet the overall packet length provided by the padding parameter. Throws an exception if the unpadded packet exceeds this length.<br></br> XMPConst.SERIALIZE_WRITE_ALIAS_COMMENTS - Include XML comments for aliases.<br></br> |
+| [options] | `number` | `0` | The set of options that control how the serialization is performed. The options must be logically consistent; if they conflict, the function throws an exception. A logical OR of these bit-flag constants:\</br\> XMPConst.SERIALIZE_OMIT_PACKET_WRAPPER - Do not include an XML packet wrapper.\</br\> XMPConst.SERIALIZE_READ_ONLY_PACKET - Create a read-only XML packet wrapper.\</br\> XMPConst.SERIALIZE_USE_COMPACT_FORMAT - Use a highly compact RDF syntax and layout.\</br\> XMPConst.SERIALIZE_USE_PLAIN_XMP - Serialize a plain XMP (not currently supported).\</br\> XMPConst.SERIALIZE_INCLUDE_THUMBNAIL_PAD - Include typical space for a JPEG thumbnail in the padding if no xmp:Thumbnail property is present.\</br\> XMPConst.SERIALIZE_EXACT_PACKET_LENGTH - Compute padding to meet the overall packet length provided by the padding parameter. Throws an exception if the unpadded packet exceeds this length.\</br\> XMPConst.SERIALIZE_WRITE_ALIAS_COMMENTS - Include XML comments for aliases.\</br\> |
 | [padding] | `number` | `0` | If the options value is SERIALIZE_EXACT_PACKET_LENGTH, this the exact length of the packet, including padding characters that are added to meet this length. If the options value is not SERIALIZE_EXACT_PACKET_LENGTH, this is a number of padding characters to add.Default is 0, meaning to use the appropriate amount of padding. |
 | [indent] | `string` | `&quot;\&quot;  \&quot;&quot;` | The string to use as an indent. Default is two spaces. |
 | [newline] | `string` | `&quot;\&quot;U+000A\&quot;&quot;` | The newline character to use. |
@@ -448,8 +406,6 @@ XMPMetaObj.serialize([options, padding, indent, newline, baseIndent])
 ```
 
 
-<a name="xmpmeta-serializetoarray" id="xmpmeta-serializetoarray"></a>
-
 ## serializeToArray([options], [padding], [indent], [newline], [baseIndent])
 Serializes this XMP metadata into a string as RDF, then converts that to an array of one-byte numeric values, the UTF-8 or UTF-16 encoded characters.
 
@@ -457,7 +413,7 @@ Serializes this XMP metadata into a string as RDF, then converts that to an arra
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
-| [options] | `number` | `0` | The set of options that control how the serialization is performed. The options must be logically consistent; if they conflict, the function throws an exception. A logical OR of these bit-flag constants:<br></br> XMPConst.SERIALIZE_OMIT_PACKET_WRAPPER - Do not include an XML packet wrapper.<br></br> XMPConst.SERIALIZE_READ_ONLY_PACKET - Create a read-only XML packet wrapper.<br></br> XMPConst.SERIALIZE_USE_COMPACT_FORMAT - Use a highly compact RDF syntax and layout.<br></br> XMPConst.SERIALIZE_USE_PLAIN_XMP - Serialize a plain XMP (not currently supported).<br></br> XMPConst.SERIALIZE_INCLUDE_THUMBNAIL_PAD - Include typical space for a JPEG thumbnail in the padding if no xmp:Thumbnail property is present.<br></br> XMPConst.SERIALIZE_EXACT_PACKET_LENGTH - Compute padding to meet the overall packet length provided by the padding parameter. Throws an exception if the unpadded packet exceeds this length.<br></br> XMPConst.SERIALIZE_WRITE_ALIAS_COMMENTS - Include XML comments for aliases.<br></br> |
+| [options] | `number` | `0` | The set of options that control how the serialization is performed. The options must be logically consistent; if they conflict, the function throws an exception. A logical OR of these bit-flag constants:\</br\> XMPConst.SERIALIZE_OMIT_PACKET_WRAPPER - Do not include an XML packet wrapper.\</br\> XMPConst.SERIALIZE_READ_ONLY_PACKET - Create a read-only XML packet wrapper.\</br\> XMPConst.SERIALIZE_USE_COMPACT_FORMAT - Use a highly compact RDF syntax and layout.\</br\> XMPConst.SERIALIZE_USE_PLAIN_XMP - Serialize a plain XMP (not currently supported).\</br\> XMPConst.SERIALIZE_INCLUDE_THUMBNAIL_PAD - Include typical space for a JPEG thumbnail in the padding if no xmp:Thumbnail property is present.\</br\> XMPConst.SERIALIZE_EXACT_PACKET_LENGTH - Compute padding to meet the overall packet length provided by the padding parameter. Throws an exception if the unpadded packet exceeds this length.\</br\> XMPConst.SERIALIZE_WRITE_ALIAS_COMMENTS - Include XML comments for aliases.\</br\> |
 | [padding] | `number` | `0` | If the options value is SERIALIZE_EXACT_PACKET_LENGTH, this the exact length of the packet, including padding characters that are added to meet this length. If the options value is not SERIALIZE_EXACT_PACKET_LENGTH, this is a number of padding characters to add. Default is 0, meaning to use the appropriate amount of padding. |
 | [indent] | `string` | `&quot;\&quot;  \&quot;&quot;` | The string to use as an indent. Default is two spaces. |
 | [newline] | `string` | `&quot;\&quot;U+000A\&quot;&quot;` | The newline character to use. |
@@ -469,8 +425,6 @@ XMPMetaObj.serializeToArray([options, padding, indent, newline, baseIndent])
 ```
 
 
-<a name="xmpmeta-setarrayitem" id="xmpmeta-setarrayitem"></a>
-
 ## setArrayItem(schemaNS, arrayName, itemIndex, itemValue, [itemOptions])
 Replaces an item within an array, or appends an item. The array must exist. To create an item, appendArrayItem() and insertArrayItem() are preferred.
 
@@ -481,15 +435,13 @@ Replaces an item within an array, or appends an item. The array must exist. To c
 | arrayName | `string` |  | The array-type property name string. Can be a general path expression. |
 | itemIndex | `number` |  | The 1-based position index of the item. Use XMPConst.ARRAY_LAST_ITEM to reference the last existing item in the array. |
 | itemValue | `string` |  | The new item value string. Pass null for array items that do not have values. |
-| [itemOptions] | `number` | `0` | A flag that describes the new item, if it is being created. One of:<br></br> - 0: A simple item, or the type implied by the arrayOptions value.<br></br> - XMPConst.PROP_IS_ARRAY: The item is an array (of type alt, bag, or seq).<br></br> - XMPConst.PROP_IS_STRUCT: The item is a structure with nested fields.<br></br> |
+| [itemOptions] | `number` | `0` | A flag that describes the new item, if it is being created. One of:\</br\> - 0: A simple item, or the type implied by the arrayOptions value.\</br\> - XMPConst.PROP_IS_ARRAY: The item is an array (of type alt, bag, or seq).\</br\> - XMPConst.PROP_IS_STRUCT: The item is a structure with nested fields.\</br\> |
 
 **Example**  
 ```js
 XMPMetaObj.setArrayItem(schemaNS, arrayName, itemIndex, itemValue[, itemOptions])
 ```
 
-
-<a name="xmpmeta-setlocalizedtext" id="xmpmeta-setlocalizedtext"></a>
 
 ## setLocalizedText(schemaNS, altTextName, genericLang, specificLang, itemValueThe)
 Sets the text value for a specific language in an alternate-text array. Handles special cases for the x-default item.
@@ -509,8 +461,6 @@ XMPMetaObj.setLocalizedText(schemaNS, altTextName, genericLang, specificLang, it
 ```
 
 
-<a name="xmpmeta-setstructfield" id="xmpmeta-setstructfield"></a>
-
 ## setStructField(schemaNS, structName, fieldNS, fieldName, fieldValue, [options])
 Sets the value of a field within a structure-type property, or creates a new field if the named field does not exist in the structure,
 or creates a new structure containing the named field if the named structure does not exist.
@@ -523,15 +473,13 @@ or creates a new structure containing the named field if the named structure doe
 | fieldNS | `string` |  | The field type namespace string. See [Schema namespace string constants](xmp-const.md#schema-namespace-string-constants). |
 | fieldName | `string` |  | The field name string. Must be a simple XML name. |
 | fieldValue | `string` |  | he new field value string. Pass null for fields that do not have values. |
-| [options] | `number` | `0` | option flags that describe a new structure. Used only if the structure is being created. One of:<br></br> - 0: A simple item, the default.<br></br> - XMPConst.PROP_IS_ARRAY: The item is an array (of type alt, bag, or seq).<br></br> - XMPConst.PROP_IS_STRUCT: The item is a structure with nested fields.<br></br> |
+| [options] | `number` | `0` | option flags that describe a new structure. Used only if the structure is being created. One of:\</br\> - 0: A simple item, the default.\</br\> - XMPConst.PROP_IS_ARRAY: The item is an array (of type alt, bag, or seq).\</br\> - XMPConst.PROP_IS_STRUCT: The item is a structure with nested fields.\</br\> |
 
 **Example**  
 ```js
 XMPMetaObj.setStructField(schemaNS, structName, fieldNS, fieldName, fieldValue[, options])
 ```
 
-
-<a name="xmpmeta-setqualifier" id="xmpmeta-setqualifier"></a>
 
 ## setQualifier(schemaNS, propName, qualNS, qualName, qualValue, [options])
 Attaches a new qualifier to a metadata property. A qualifier can be added to a simple property, an array item, a struct field, or another qualifier.
@@ -544,15 +492,13 @@ Attaches a new qualifier to a metadata property. A qualifier can be added to a s
 | qualNS | `string` |  | The URI of the qualifier namespace. Has the same URI and prefix usage as a schema namespace. |
 | qualName | `string` |  | The name of the qualifier. Must be a simple XML name. Has the same prefix usage as a property name. |
 | qualValue | `string` |  | The new qualifier value string. Pass null for qualifiers that do not have values. |
-| [options] | `number` | `0` | option flags that describe a new structure. Used only if the structure is being created. One of:<br></br> - 0: A simple item, the default.<br></br> - XMPConst.PROP_IS_ARRAY: The item is an array (of type alt, bag, or seq).<br></br> - XMPConst.PROP_IS_STRUCT: The item is a structure with nested fields.<br></br> |
+| [options] | `number` | `0` | option flags that describe a new structure. Used only if the structure is being created. One of:\</br\> - 0: A simple item, the default.\</br\> - XMPConst.PROP_IS_ARRAY: The item is an array (of type alt, bag, or seq).\</br\> - XMPConst.PROP_IS_STRUCT: The item is a structure with nested fields.\</br\> |
 
 **Example**  
 ```js
 XMPMetaObj.setQualifier(schemaNS, propName, qualNS, qualName, qualValue[, options])
 ```
 
-
-<a name="xmpmeta-setproperty" id="xmpmeta-setproperty"></a>
 
 ## setProperty(schemaNS, propName, propValue, [setOptions], [valueType])
 Sets the value of a simple metadata property, creating the property if necessary, or creates a new array or structure property.
@@ -565,16 +511,14 @@ Use this call to create or set top-level, simple properties, or after using the 
 | schemaNS | `string` |  | The namespace URI string. See [Schema namespace string constants](xmp-const.md#schema-namespace-string-constants). |
 | propName | `string` |  | The property name string. Can be a general path expression. |
 | propValue | `string` |  | The new property value string. Pass null to create an array or non-leaf level structure property. |
-| [setOptions] | `number` | `0` | option flags that describe a new structure. Used only if the structure is being created. One of:<br></br> - 0: A simple item, the default.<br></br> - XMPConst.PROP_IS_ARRAY: The item is an array (of type alt, bag, or seq).<br></br> - XMPConst.PROP_IS_STRUCT: The item is a structure with nested fields.<br></br> |
-| [valueType] | `string` | `&quot;\&quot;\&quot;&quot;` | The property data type, If supplied, the value is converted to this type. one of: <br></br> - XMPConst.STRING<br></br>         - XMPConst.INTEGER<br></br>         - XMPConst.NUMBER<br></br>         - XMPConst.BOOLEAN<br></br>         - XMPConst.XMPDATE<br></br> |
+| [setOptions] | `number` | `0` | option flags that describe a new structure. Used only if the structure is being created. One of:\</br\> - 0: A simple item, the default.\</br\> - XMPConst.PROP_IS_ARRAY: The item is an array (of type alt, bag, or seq).\</br\> - XMPConst.PROP_IS_STRUCT: The item is a structure with nested fields.\</br\> |
+| [valueType] | `string` | `&quot;\&quot;\&quot;&quot;` | The property data type, If supplied, the value is converted to this type. one of: \</br\> - XMPConst.STRING\</br\>         - XMPConst.INTEGER\</br\>         - XMPConst.NUMBER\</br\>         - XMPConst.BOOLEAN\</br\>         - XMPConst.XMPDATE\</br\> |
 
 **Example**  
 ```js
 XMPMetaObj.setProperty(schemaNS, propName, propValue[, setOptions, valueType])
 ```
 
-
-<a name="xmpmeta-sort" id="xmpmeta-sort"></a>
 
 ## sort()
 Sorts the XMP contents alphabetically. At the top level, sorts namespaces by their prefixes.
@@ -586,8 +530,6 @@ Sorts unordered arrays of simple items by value. Sorts language alternative arra
 XMPMetaObj.sort()
 ```
 
-
-<a name="xmpmeta-deletenamespace" id="xmpmeta-deletenamespace"></a>
 
 ## deleteNamespace(namespaceURI)
 Deletes a registered prefix - namespace URI pair.
@@ -602,8 +544,6 @@ Deletes a registered prefix - namespace URI pair.
 XMPMeta.deleteNamespace(namespaceURI)
 ```
 
-
-<a name="xmpmeta-dumpnamespaces" id="xmpmeta-dumpnamespaces"></a>
 
 ## dumpNamespaces(namespaceURI)
 Creates and returns a human-readable string containing the list of registered namespace URIs and their associated prefixes.
@@ -620,8 +560,6 @@ XMPMeta.dumpNamespaces()
 ```
 
 
-<a name="xmpmeta-getnamespaceprefix" id="xmpmeta-getnamespaceprefix"></a>
-
 ## getNamespacePrefix(namespaceURI)
 Retrieves the prefix associated with a registered namespace URI.
 
@@ -637,8 +575,6 @@ XMPMeta.getNamespacePrefix(namespaceURI)
 ```
 
 
-<a name="xmpmeta-getnamespaceuri" id="xmpmeta-getnamespaceuri"></a>
-
 ## getNamespaceURI(namespacePrefix)
 Retrieves the registered namespace URI associated with a namespace prefix.
 
@@ -653,8 +589,6 @@ Retrieves the registered namespace URI associated with a namespace prefix.
 XMPMeta.getNamespaceURI(namespacePrefix)
 ```
 
-
-<a name="xmpmeta-registernamespace" id="xmpmeta-registernamespace"></a>
 
 ## registerNamespace(namespaceURI, suggestedPrefix)
 Registers a namespace with a prefix. If the suggested prefix is already in use, generates, registers,

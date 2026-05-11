@@ -1,6 +1,4 @@
 
-<a name="securestorage" id="securestorage"></a>
-
 # require('uxp').storage.secureStorage
 SecureStorage provides a protected storage which can be used to store sensitive data
 per plugin. SecureStorage takes a key-value pair and encrypts the value before being
@@ -22,15 +20,11 @@ should be able to be regenerated from plugins after the time of loss.
 
 
 
-<a name="securestorage-length" id="securestorage-length"></a>
-
 ## length : `number`
 **Read only**
 Number of items stored in the secure storage.
 
 
-
-<a name="securestorage-setitem" id="securestorage-setitem"></a>
 
 ## setItem(key, value)
 Stores a key and value pair after the value is encrypted in a secure storage.
@@ -48,8 +42,6 @@ Stores a key and value pair after the value is encrypted in a secure storage.
 
 
 
-<a name="securestorage-getitem" id="securestorage-getitem"></a>
-
 ## getItem(key)
 Retrieves a value associated with a provided key after the value is being decrypted from a secure storage.
 
@@ -64,8 +56,6 @@ Retrieves a value associated with a provided key after the value is being decryp
 | key | `string` | Key to get value |
 
 
-
-<a name="securestorage-removeitem" id="securestorage-removeitem"></a>
 
 ## removeItem(key)
 Removes a value associated with a provided key.
@@ -82,8 +72,6 @@ Removes a value associated with a provided key.
 
 
 
-<a name="securestorage-key" id="securestorage-key"></a>
-
 ## key(index)
 Returns a key which is stored at the given index.
 
@@ -94,8 +82,6 @@ Returns a key which is stored at the given index.
 | index | `number` | Integer representing the number of the key |
 
 
-
-<a name="securestorage-clear" id="securestorage-clear"></a>
 
 ## clear()
 Clear all values in a secure storage.

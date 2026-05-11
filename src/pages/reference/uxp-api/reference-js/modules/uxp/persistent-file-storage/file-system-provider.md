@@ -1,6 +1,4 @@
 
-<a name="module-storage-filesystemprovider" id="module-storage-filesystemprovider"></a>
-
 # require('uxp').storage.localFileSystem
 Provides access to files and folders on a file system. You'll typically not
 instantiate this directly; instead you'll use an instance of one that has
@@ -10,14 +8,10 @@ These APIs work with UXP Manifest version v5 and above.
 
 
 
-<a name="module-storage-filesystemprovider-isfilesystemprovider" id="module-storage-filesystemprovider-isfilesystemprovider"></a>
-
 ## isFileSystemProvider : `boolean`
 Indicates that this is a `FileSystemProvider`. Useful for type-checking.
 
 
-
-<a name="module-storage-filesystemprovider-supporteddomains" id="module-storage-filesystemprovider-supporteddomains"></a>
 
 ## supportedDomains : `Array<Symbol>`
 An array of the domains this file system supports. If the file system can
@@ -30,8 +24,6 @@ if (fs.supportedDomains.contains(domains.userDocuments)) {
 }
 ```
 
-
-<a name="module-storage-filesystemprovider-getfileforopening" id="module-storage-filesystemprovider-getfileforopening"></a>
 
 ## getFileForOpening(options)
 Gets a file (or files) from the file system provider for the purpose of
@@ -68,8 +60,6 @@ if (files.length === 0) {
 ```
 
 
-<a name="module-storage-filesystemprovider-getfileforsaving" id="module-storage-filesystemprovider-getfileforsaving"></a>
-
 ## getFileForSaving(suggestedName, options)
 Gets a file reference suitable for read-write. Displays a file picker to select a location to "Save" the file.
 
@@ -96,11 +86,9 @@ await file.write("It was a dark and stormy night");
 ```
 
 
-<a name="module-storage-filesystemprovider-getfolder" id="module-storage-filesystemprovider-getfolder"></a>
-
 ## getFolder(options)
 Gets a folder from the file system via a folder picker dialog. The files
-and folders within can be accessed via [Folder#getEntries](./Folder#getentries). Any
+and folders within can be accessed via [Folder#getEntries](folder.md#getentries). Any
 files within are read-write.
 
 If the user dismisses the picker, `null` is returned instead.
@@ -120,8 +108,6 @@ const text = await myNovel.read();
 ```
 
 
-<a name="module-storage-filesystemprovider-gettemporaryfolder" id="module-storage-filesystemprovider-gettemporaryfolder"></a>
-
 ## getTemporaryFolder()
 Returns a temporary folder. The contents of the folder will be removed when
 the extension is disposed.
@@ -133,8 +119,6 @@ const temp = await fs.getTemporaryFolder();
 ```
 
 
-<a name="module-storage-filesystemprovider-getdatafolder" id="module-storage-filesystemprovider-getdatafolder"></a>
-
 ## getDataFolder()
 Returns a folder that can be used for extension's data storage without user interaction.
 It is persistent across host-app version upgrades.
@@ -142,16 +126,12 @@ It is persistent across host-app version upgrades.
 **Returns**: `Promise<Folder>`  
 
 
-<a name="module-storage-filesystemprovider-getpluginfolder" id="module-storage-filesystemprovider-getpluginfolder"></a>
-
 ## getPluginFolder()
 Returns an plugin's folder – this folder and everything within it are read only.
 This contains all the Plugin related packaged assets.
 
 **Returns**: `Promise<Folder>`  
 
-
-<a name="module-storage-filesystemprovider-createentrywithurl" id="module-storage-filesystemprovider-createentrywithurl"></a>
 
 ## createEntryWithUrl(url, options)
 Creates an entry for the given url and returns the appropriate instance.
@@ -185,8 +165,6 @@ const newTxtFile = await fs.createEntryWithUrl("file:/Users/user/Documents/test.
 ```
 
 
-<a name="module-storage-filesystemprovider-getentrywithurl" id="module-storage-filesystemprovider-getentrywithurl"></a>
-
 ## getEntryWithUrl(url)
 Gets an entry of the given url and returns the appropriate instance.
 
@@ -213,8 +191,6 @@ const docFile = await fs.getEntryWithUrl("file:/Users/user/Documents/test.txt");
 ```
 
 
-<a name="module-storage-filesystemprovider-getfsurl" id="module-storage-filesystemprovider-getfsurl"></a>
-
 ## getFsUrl(entry)
 Returns the fs url of given entry.
 
@@ -226,8 +202,6 @@ Returns the fs url of given entry.
 
 
 
-<a name="module-storage-filesystemprovider-getnativepath" id="module-storage-filesystemprovider-getnativepath"></a>
-
 ## getNativePath(entry)
 Returns the platform native file system path of given entry.
 
@@ -238,8 +212,6 @@ Returns the platform native file system path of given entry.
 | entry | `Entry` | 
 
 
-
-<a name="module-storage-filesystemprovider-createsessiontoken" id="module-storage-filesystemprovider-createsessiontoken"></a>
 
 ## createSessionToken(entry)
 Returns a token suitable for use with certain host-specific APIs (such as Photoshop). This token is valid only for the current plugin session. As such, it is of no use if you serialize the token to persistent storage, as the token will be invalid in the future.
@@ -267,8 +239,6 @@ let result = await require('photoshop').action.batchPlay([{
 ```
 
 
-<a name="module-storage-filesystemprovider-getentryforsessiontoken" id="module-storage-filesystemprovider-getentryforsessiontoken"></a>
-
 ## getEntryForSessionToken(token)
 Returns the file system Entry that corresponds to the session token obtained from `createSessionToken`. If an entry cannot be found that matches the token, then a `Reference Error: token is not defined` error is thrown.
 
@@ -279,8 +249,6 @@ Returns the file system Entry that corresponds to the session token obtained fro
 | token | `string` | 
 
 
-
-<a name="module-storage-filesystemprovider-createpersistenttoken" id="module-storage-filesystemprovider-createpersistenttoken"></a>
 
 ## createPersistentToken(entry)
 Returns a token suitable for use with host-specific APIs (such as Photoshop), or for storing a persistent reference to an entry (useful if you want to only ask for permission to access a file or folder once). A persistent token is not guaranteed to last forever -- certain scenarios can cause the token to longer work (including moving files, changing permissions, or OS-specific limitations). If a persistent token cannot be reused, you'll get an error at the time of use.
@@ -299,8 +267,6 @@ let token = await fs.createPersistentToken(entry);
 localStorage.setItem("persistent-file", token);
 ```
 
-
-<a name="module-storage-filesystemprovider-getentryforpersistenttoken" id="module-storage-filesystemprovider-getentryforpersistenttoken"></a>
 
 ## getEntryForPersistentToken(token)
 Returns the file system Entry that corresponds to the persistent token obtained from `createPersistentToken`. If an entry cannot be found that matches the token, then a `Reference Error: token is not defined` error is thrown.
@@ -334,8 +300,6 @@ if (!success) {
 }
 ```
 
-
-<a name="module-storage-filesystemprovider-isfilesystemprovider" id="module-storage-filesystemprovider-isfilesystemprovider"></a>
 
 ## isFileSystemProvider(fs)
 Checks if the supplied object is a `FileSystemProvider`. It's safe to use even

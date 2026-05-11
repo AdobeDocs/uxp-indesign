@@ -1,11 +1,7 @@
 
-<a name="customelementregistry" id="customelementregistry"></a>
-
 # window.CustomElementRegistry
 **See**: Refer [Web APIs - CustomElementRegistry](https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry)  
 
-
-<a name="customelementregistry-define" id="customelementregistry-define"></a>
 
 ## define(name, constructor, options)
 Defines a new custom element.
@@ -25,8 +21,6 @@ Defines a new custom element.
 
 
 
-<a name="customelementregistry-get" id="customelementregistry-get"></a>
-
 ## get(name)
 Returns the constructor for the named custom element
 
@@ -37,8 +31,6 @@ Returns the constructor for the named custom element
 | name | `string` | The name of the custom element |
 
 
-
-<a name="customelementregistry-upgrade" id="customelementregistry-upgrade"></a>
 
 ## upgrade(root)
 Upgrade all potential custom elements under tree rooted at 'root'.
@@ -52,8 +44,6 @@ Upgrade all potential custom elements under tree rooted at 'root'.
 | root | Node instance with shadow-containing descendant elements to upgrade |
 
 
-
-<a name="customelementregistry-whendefined" id="customelementregistry-whendefined"></a>
 
 ## whenDefined(name)
 Returns a Promise that resolves when the named custom-element is defined.

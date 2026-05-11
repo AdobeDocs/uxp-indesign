@@ -11,11 +11,11 @@ contributors:
 
 This document provides a comprehensive mapping guide for transitioning from Spectrum UXP widgets to their corresponding SWC (Spectrum Web Component) UXP equivalents. Use this guide to seamlessly map your required UI components and ensure a smooth transition between the two libraries.
 
-The status of each component represents the following <br></br>
-✅ : Ready to be integrated.<br></br>
-🟡  : The component exists in the SWC library but is not yet supported by UXP.<br></br>
-N/A : The corresponding component does not exist in the SWC library.<br></br>
-<br></br>
+The status of each component represents the following \<br/\>
+✅ : Ready to be integrated.\<br/\>
+🟡  : The component exists in the SWC library but is not yet supported by UXP.\<br/\>
+N/A : The corresponding component does not exist in the SWC library.\<br/\>
+\<br/\>
 
 | Control Name      | Spectrum UXP Widget    | Corresponding SWC in UXP                        | Status |
 |-------------------|------------------------|-------------------------------------------------|--------|

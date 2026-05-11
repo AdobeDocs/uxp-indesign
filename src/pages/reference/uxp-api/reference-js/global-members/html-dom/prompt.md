@@ -1,13 +1,11 @@
 
-<a name="prompt" id="prompt"></a>
-
 # window.prompt()
 **Returns**: `string` - message entered by the user in the prompt field or default value if nothing entered.  
 **Since**: v7.0.0
 
-<br></br>
+\<br/\>
 
-Displays a Prompt message dialog putting the application in a modal state while <b>not blocking</b> the Javascript thread and still allowing processing of events in the main event loop.
+Displays a Prompt message dialog putting the application in a modal state while **not blocking** the Javascript thread and still allowing processing of events in the main event loop.
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -30,7 +28,7 @@ The following are additional simple alerts supported by UXP
 prompt("Enter your name: ","Adobe");
 ```
 
-<b> Note: </b>
+** Note: **
 1. Since UXP v7.4, `prompt()` can only be invoked in `plugin` via the featureFlags `enableAlerts`. Update your Manifest v5 with the following
 
 ```json

@@ -32,4 +32,4 @@ The following table will let you compare other differences.
 | **Miscellaneous** | - | You have three flavors within plugins - command, panel and hybrid plugins. \\ A **command plugin**, also referred to as a modal plugin sometimes, is almost like a headless plugin that can occasionally ask for user inputs with the help of modal dialogs (like scripts). It is the best way to convert your existing script into a plugin to make it distributable. \\\\ A **panel plugin** has a persistent UI. \\\\ **Hybrid plugins**, which will be available in the future, can let you use the power of C++ libraries alongside JavaScript. |
 
 
-Hope the above table helps you in deciding the best route suitable for your use case. Next, we recommend you write your first [script](../../scripts/getting-started/index.md) or [plugin](../../plugins/getting-started/index.md).
+Hope the above table helps you in deciding the best route suitable for your use case. Next, we recommend you write your first [script](../../../scripts/getting-started/index.md) or [plugin](../../../plugins/getting-started/index.md).

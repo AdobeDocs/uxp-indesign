@@ -138,4 +138,4 @@ function doThing(args) {
     
 
 ## Reference docs
-- [Plugin Manager](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Plugin%20Manager/PluginManager/)
+- [Plugin Manager](/reference/uxp-api/reference-js/modules/uxp/plugin-manager/plugin-manager.md)

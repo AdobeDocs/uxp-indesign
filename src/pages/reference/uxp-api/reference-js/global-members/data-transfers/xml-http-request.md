@@ -1,10 +1,6 @@
 
-<a name="module-global--xmlhttprequest" id="module-global--xmlhttprequest"></a>
-
 # window.XMLHttpRequest
 
-
-<a name="new-module-global--xmlhttprequest-new" id="new-module-global--xmlhttprequest-new"></a>
 
 ## XMLHttpRequest()
 XMLHttpRequest objects are used to interact with servers.
@@ -13,7 +9,7 @@ This enables a Web page to update just part of a page without disrupting what th
 
 In order to leverage `XMLHttpRequest`, update the `manifest.json` with the `network.domains` permission shown in the example section
 
-<b> Example </b>
+** Example **
 
 ```json
 {
@@ -29,7 +25,7 @@ In order to leverage `XMLHttpRequest`, update the `manifest.json` with the `netw
 }
 ```
 
-<b>Limitation:</b>
+**Limitation:**
 From UXP v7.4.0 onwards `permissions.network.domains` does not support WildCards in top-level domains. Example:
 
 ```json
@@ -38,8 +34,6 @@ From UXP v7.4.0 onwards `permissions.network.domains` does not support WildCards
 
 **Returns**: `XMLHttpRequest` - New XMLHttpRequest object  
 
-
-<a name="module-global--xmlhttprequest-responseurl" id="module-global--xmlhttprequest-responseurl"></a>
 
 ## responseURL : `string`
 **Read only**
@@ -56,8 +50,6 @@ xhr.open("GET", "https://www.adobe.com");
 xhr.send();
 ```
 
-
-<a name="module-global--xmlhttprequest-readystate" id="module-global--xmlhttprequest-readystate"></a>
 
 ## readyState : `number`
 **Read only**
@@ -80,8 +72,6 @@ xhr.send();
 ```
 
 
-<a name="module-global--xmlhttprequest-responsetext" id="module-global--xmlhttprequest-responsetext"></a>
-
 ## responseText : `string`
 **Read only**
 Text receive from a server following a request being sent.
@@ -103,8 +93,6 @@ xhr.open("GET", "https://www.adobe.com");
 xhr.send();
 ```
 
-
-<a name="module-global--xmlhttprequest-responsexml" id="module-global--xmlhttprequest-responsexml"></a>
 
 ## responseXML : `Document`
 **Read only**
@@ -130,8 +118,6 @@ xhr.send();
 ```
 
 
-<a name="module-global--xmlhttprequest-response" id="module-global--xmlhttprequest-response"></a>
-
 ## response : `string` \| `ArrayBuffer` \| `Blob` \| `Document` \| `Object`
 **Read only**
 Response's body content.
@@ -150,8 +136,6 @@ xhr.send();
 ```
 
 
-<a name="module-global--xmlhttprequest-status" id="module-global--xmlhttprequest-status"></a>
-
 ## status : `number`
 **Read only**
 HTTP status code of the response.
@@ -166,8 +150,6 @@ xhr.open("GET", "https://www.adobe.com");
 xhr.send();
 ```
 
-
-<a name="module-global--xmlhttprequest-statustext" id="module-global--xmlhttprequest-statustext"></a>
 
 ## statusText : `string`
 **Read only**
@@ -185,15 +167,11 @@ xhr.send();
 ```
 
 
-<a name="module-global--xmlhttprequest-timeout" id="module-global--xmlhttprequest-timeout"></a>
-
 ## timeout : `number`
 Number of milliseconds a request can take before automatically being terminated.
 Default value is 0, which means there is no timeout.
 
 
-
-<a name="module-global--xmlhttprequest-timeout" id="module-global--xmlhttprequest-timeout"></a>
 
 ## timeout
 **Example**  
@@ -208,8 +186,6 @@ xhr.send();
 ```
 
 
-<a name="module-global--xmlhttprequest-responsetype" id="module-global--xmlhttprequest-responsetype"></a>
-
 ## responseType : `string`
 Type of data contained in the response.
 Available types are as follows.
@@ -223,8 +199,6 @@ Available types are as follows.
 
 
 
-<a name="module-global--xmlhttprequest-responsetype" id="module-global--xmlhttprequest-responsetype"></a>
-
 ## responseType
 **Throws**:
 
@@ -237,16 +211,12 @@ xhr.responseType = "blob";
 ```
 
 
-<a name="module-global--xmlhttprequest-withcredentials" id="module-global--xmlhttprequest-withcredentials"></a>
-
 ## withCredentials : `boolean`
 Gets the value of the withCredentials. It indicates whether to send cookies on a HTTP request.
 When the value is set to true, XMLHttpRequest sends cookies. Otherwise, cookies are not sent.
 Note that unlike the specification, the default is true.
 
 
-
-<a name="module-global--xmlhttprequest-withcredentials" id="module-global--xmlhttprequest-withcredentials"></a>
 
 ## withCredentials
 **Throws**:
@@ -259,8 +229,6 @@ const xhr = new XMLHttpRequest();
 xhr.withCredentials = true;
 ```
 
-
-<a name="module-global--xmlhttprequest-upload" id="module-global--xmlhttprequest-upload"></a>
 
 ## upload : `XMLHttpRequestEventUpload`
 **Read only**
@@ -288,8 +256,6 @@ xhr.send(arraybuffer);
 ```
 
 
-<a name="module-global--xmlhttprequest-abort" id="module-global--xmlhttprequest-abort"></a>
-
 ## abort()
 Aborts the request if it has already been sent.
 When a request is aborted, its readyState is changed to UNSENT(0) and the request's status code is set to 0.
@@ -308,8 +274,6 @@ abortButton.addEventListener("click", () => {
 ```
 
 
-<a name="module-global--xmlhttprequest-getallresponseheaders" id="module-global--xmlhttprequest-getallresponseheaders"></a>
-
 ## getAllResponseHeaders()
 Returns sorted and combined response’s header list.
 Each header field is defined by a group of [lower cased name]": "[value]"\r\n". Combined value is separated by ", ".
@@ -327,8 +291,6 @@ xhr.open("GET", "https://www.adobe.com");
 xhr.send();
 ```
 
-
-<a name="module-global--xmlhttprequest-getresponseheader" id="module-global--xmlhttprequest-getresponseheader"></a>
 
 ## getResponseHeader(name)
 Returns the matching value of the given field name in response's header.
@@ -357,8 +319,6 @@ xhr.send();
 ```
 
 
-<a name="module-global--xmlhttprequest-open" id="module-global--xmlhttprequest-open"></a>
-
 ## open(method, url, [async], [user], [password])
 Initializes a request or re-initializes an existing one.
 Self-signed certificates are not currently supported for HTTPS connections.
@@ -381,8 +341,6 @@ Note that UXP does not support synchronous request, which means 'async' is false
 | [password] | `string` | `null` | Optional password to use for authentication purposes; by default, this is the null value. |
 
 
-
-<a name="module-global--xmlhttprequest-overridemimetype" id="module-global--xmlhttprequest-overridemimetype"></a>
 
 ## overrideMimeType(mimetype)
 Specifies a MIME type other than the one specified in the response to be used
@@ -410,8 +368,6 @@ xhr.overrideMimeType("text/plain");
 xhr.send();
 ```
 
-
-<a name="module-global--xmlhttprequest-setrequestheader" id="module-global--xmlhttprequest-setrequestheader"></a>
 
 ## setRequestHeader(header, data)
 Adds a new request header or appends a value to an existing request header.
@@ -460,8 +416,6 @@ xhr.setRequestHeader("Accept", "text/xml");
 xhr.send();
 ```
 
-
-<a name="module-global--xmlhttprequest-send" id="module-global--xmlhttprequest-send"></a>
 
 ## send([body])
 Sends the request to the server.

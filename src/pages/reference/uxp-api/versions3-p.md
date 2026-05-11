@@ -1,6 +1,6 @@
-<!--
+\<!--
 index_desc: General information on UXP and its dependencies for 3rd party plugins and scripts
--->
+--\>
 
 # UXP General Information
 - ECMAScript Version in UXP v6.4 : ECMA-262

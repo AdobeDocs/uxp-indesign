@@ -1,12 +1,10 @@
 
-<a name="confirm" id="confirm"></a>
-
 # window.confirm()
 **Returns**: `boolean` - true If OK button is pressed and false when Cancel button is pressed.  
 **Since**: v7.0.0
-<br></br>
+\<br/\>
 
-Displays a Confirm message dialog putting the application in a modal state while <b>not blocking</b> the Javascript thread and still allowing processing of events in the main event loop.
+Displays a Confirm message dialog putting the application in a modal state while **not blocking** the Javascript thread and still allowing processing of events in the main event loop.
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -25,7 +23,7 @@ The following are additional simple alerts supported by UXP
 confirm("This is confirmation message");
 ```
 
-<b> Note: </b>
+** Note: **
 1. Since UXP v7.4, `confirm()` can only be invoked in `plugin` via the featureFlags `enableAlerts`. Update your Manifest v5 with the following
 
 ```json

@@ -1,11 +1,7 @@
 
-<a name="blob" id="blob"></a>
-
 # window.Blob
 **Since**: UXP v6.3  
 
-
-<a name="new-blob-new" id="new-blob-new"></a>
 
 ## Blob(array, [options])
 The Blob object represents a blob, which is a file-like object of immutable, raw data;
@@ -23,15 +19,11 @@ so its methods can be used for processing the data.
 
 
 
-<a name="blob-size" id="blob-size"></a>
-
 ## size : `number`
 **Read only**
 Size of the Blob in bytes.
 
 
-
-<a name="blob-type" id="blob-type"></a>
 
 ## type : `string`
 **Read only**
@@ -39,15 +31,11 @@ MIME type of the Blob.
 
 
 
-<a name="blob-arraybuffer" id="blob-arraybuffer"></a>
-
 ## arrayBuffer()
 Get the contents of the Blob in the form of an ArrayBuffer.
 
 **Returns**: `Promise<ArrayBuffer>` Promise that resolves with an ArrayBuffer that contains the blob's data in binary form.  
 
-
-<a name="blob-slice" id="blob-slice"></a>
 
 ## slice([start], [end], [contentType])
 Get a portion of the Blob's data selected from start to end (end not included).
@@ -63,15 +51,11 @@ The original blob is not altered.
 
 
 
-<a name="blob-stream" id="blob-stream"></a>
-
 ## stream()
 Get the data contained within the Blob as a ReadableStream.
 
 **Returns**: `ReadableStream` - Content of the Blob.  
 
-
-<a name="blob-text" id="blob-text"></a>
 
 ## text()
 Get contents of the Blob as a string.

@@ -1,11 +1,7 @@
 
-<a name="writablestreamdefaultwriter" id="writablestreamdefaultwriter"></a>
-
 # window.WritableStreamDefaultWriter
 **See**: [Web APIs - WritableStreamDefaultWriter](https://developer.mozilla.org/en-US/docs/Web/API/WritableStreamDefaultWriter)  
 
-
-<a name="new-writablestreamdefaultwriter-new" id="new-writablestreamdefaultwriter-new"></a>
 
 ## WritableStreamDefaultWriter(stream)
 Creates a new WritableStreamDefaultWriter object.
@@ -18,15 +14,11 @@ Creates a new WritableStreamDefaultWriter object.
 
 
 
-<a name="writablestreamdefaultwriter-closed" id="writablestreamdefaultwriter-closed"></a>
-
 ## closed : `Promise<void>`
 Returns a Promise that fullfils if the stream becomes closed,
 or rejects if the stream errors or the writer's lock is released.
 
 
-
-<a name="writablestreamdefaultwriter-desiredsize" id="writablestreamdefaultwriter-desiredsize"></a>
 
 ## desiredSize : `number`
 The desired size required to fill the stream's internal queue.
@@ -39,8 +31,6 @@ It will return zero if the stream is closed.
 
 
 
-<a name="writablestreamdefaultwriter-ready" id="writablestreamdefaultwriter-ready"></a>
-
 ## ready : `Promise<void>`
 Returns a Promise that resolves when the desired size of the stream's internal queue transitions
 from non-positive to positive, signaling that it is no longer applying backpressure.
@@ -48,8 +38,6 @@ Once the desired size dips back to zero or below, the getter will return a new p
 If the stream becomes errored or aborted, or the writer’s lock is released, the returned promise will become rejected.
 
 
-
-<a name="writablestreamdefaultwriter-abort" id="writablestreamdefaultwriter-abort"></a>
 
 ## abort(reason)
 Aborts the stream, signaling that the producer can no longer successfully write to the stream
@@ -69,8 +57,6 @@ It will reject with a TypeError if the stream is curretly locked.
 
 
 
-<a name="writablestreamdefaultwriter-close" id="writablestreamdefaultwriter-close"></a>
-
 ## close()
 Closes the stream and returns a Promise that will fulfill if all remaining chunks are successfully written
 and the stream successfully closes, or rejects if an error is encountered during this process.
@@ -79,16 +65,12 @@ It will reject with a TypeError (without attempting to cancel the stream) if the
 **Returns**: `Promise<void>`  
 
 
-<a name="writablestreamdefaultwriter-releaselock" id="writablestreamdefaultwriter-releaselock"></a>
-
 ## releaseLock()
 Releases the writer’s lock on the corresponding stream. After the lock is released, the writer is no longer active.
 If the associated stream is errored when the lock is released, the writer will appear errored in the same way from now on;
 otherwise, the writer will appear closed.
 
 
-
-<a name="writablestreamdefaultwriter-write" id="writablestreamdefaultwriter-write"></a>
 
 ## write(chunk)
 Writes the given chunk to the writable stream and its underlying sink,

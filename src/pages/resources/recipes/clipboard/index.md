@@ -70,6 +70,6 @@ async function foo() {
 
 
 ## Reference material
-- [Clipboard](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/Clipboard/) APIs
+- [Clipboard](/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md) APIs
 
 

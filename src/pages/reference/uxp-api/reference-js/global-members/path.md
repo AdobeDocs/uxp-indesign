@@ -1,4 +1,8 @@
+---
+title: Path
+description: UXP Path module reference for working with file and directory paths.
+---
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-js/Global Members/Path/Path.md";
+# Path
 
-<Content query="product=photoshop"/>
+See [Path API](path/path.md) for full documentation.

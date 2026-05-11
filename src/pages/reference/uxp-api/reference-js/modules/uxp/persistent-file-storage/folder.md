@@ -1,10 +1,8 @@
 
-<a name="module-storage-folder" id="module-storage-folder"></a>
-
 # Folder
 Represents a folder on a file system. You'll never instantiate this directly,
 but will get it by calling [FileSystemProvider.getTemporaryFolder](storage.md#gettemporaryfolder),
-[FileSystemProvider.getFolder](storage.md#getfolderoptions), or via [Folder.getEntries](./Folder#getentries).
+[FileSystemProvider.getFolder](storage.md#getfolderoptions), or via [Folder.getEntries](folder.md#getentries).
 
 **Example**
 ```js
@@ -16,14 +14,10 @@ console.log(folder.isFolder); // returns true
 
 
 
-<a name="module-storage-folder-isfolder" id="module-storage-folder-isfolder"></a>
-
 ## isFolder
 Indicates that this instance is a folder. Useful for type checking.
 
 
-
-<a name="module-storage-folder-getentries" id="module-storage-folder-getentries"></a>
 
 ## getEntries()
 Returns an array of entries contained within this folder.
@@ -35,8 +29,6 @@ const entries = await aFolder.getEntries();
 const allFiles = entries.filter(entry => entry.isFile);
 ```
 
-
-<a name="module-storage-folder-createentry" id="module-storage-folder-createentry"></a>
 
 ## createEntry(name, options)
 Creates an entry within this folder and returns the appropriate instance.
@@ -60,8 +52,6 @@ const catImageCollection = await aFolder.createEntry("cats", {type: types.folder
 ```
 
 
-<a name="module-storage-folder-createfile" id="module-storage-folder-createfile"></a>
-
 ## createFile(name, options)
 Creates a File Entry object within this folder and returns the appropriate instance.
 Note that this method just create a file entry object and not the actual file on the disk.
@@ -81,8 +71,6 @@ const myNovelTxtFile = await aFolder.createFile("mynovel.txt");
 ```
 
 
-<a name="module-storage-folder-createfolder" id="module-storage-folder-createfolder"></a>
-
 ## createFolder(name)
 Creates a Folder within this folder and returns the appropriate instance.
 
@@ -98,8 +86,6 @@ const myCollectionsFolder = await aFolder.createFolder("collections");
 ```
 
 
-<a name="module-storage-folder-getentry" id="module-storage-folder-getentry"></a>
-
 ## getEntry(filePath)
 Gets an entry from within this folder and returns the appropriate instance.
 
@@ -114,8 +100,6 @@ Gets an entry from within this folder and returns the appropriate instance.
 const myNovel = await aFolder.getEntry("mynovel.txt");
 ```
 
-
-<a name="module-storage-folder-renameentry" id="module-storage-folder-renameentry"></a>
 
 ## renameEntry(entry, newName, options)
 Renames an entry to a new name.
@@ -134,8 +118,6 @@ Renames an entry to a new name.
 await myNovels.rename(myNovel, "myFantasticNovel.txt");
 ```
 
-
-<a name="module-storage-folder-isfolder" id="module-storage-folder-isfolder"></a>
 
 ## isFolder ⇒ `boolean`
 Checks if an entry is a folder. Safe to use if entry might be `null` or

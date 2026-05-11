@@ -1,11 +1,7 @@
 
-<a name="xmpfile" id="xmpfile"></a>
-
 # require('uxp').xmp.XMPFile
 **Since**: v7.2.0  
 
-
-<a name="new-xmpfile-new" id="new-xmpfile-new"></a>
 
 ## XMPFile()
 This class corresponds to the Adobe XMP Toolkit’s File Handler component, which provides convenient I/O access to the main,
@@ -60,19 +56,15 @@ console.log(xmpFileInfo.format);
 ```
 
 
-<a name="new-xmpfile-new" id="new-xmpfile-new"></a>
-
 ## XMPFile(filePath, format, openFlags)
 
 | Param | Type | Description |
 | --- | --- | --- |
 | filePath | `string` | A string containing the file path of a document. |
 | format | `number` | The file format constant. See [File format numeric constants](xmp-const.md#file-format-numeric-constants). |
-| openFlags | `number` | The open options for the file. One of these constants:<br></br>                          - XMPConst.OPEN_FOR_READ - Open for read-only access.<br></br>                          - XMPConst.OPEN_FOR_UPDATE - Open for reading and writing.<br></br>                          - XMPConst.OPEN_ONLY_XMP - Only the XMP is wanted, allows space/time optimizations.<br></br>                          - XMPConst.OPEN_STRICTLY - Be strict about locating XMP and reconciling with other forms.<br></br>                          - XMPConst.OPEN_USE_SMART_HANDLER - Require the use of a smart handler. No packet scanning is performed.<br></br>                          - XMPConst.OPEN_USE_PACKET_SCANNING - Force packet scanning, do not use a smart handler.<br></br>                          - XMPConst.OPEN_LIMITED_SCANNING - Only packet-scan files known to need scanning.<br></br> |
+| openFlags | `number` | The open options for the file. One of these constants:\</br\>                          - XMPConst.OPEN_FOR_READ - Open for read-only access.\</br\>                          - XMPConst.OPEN_FOR_UPDATE - Open for reading and writing.\</br\>                          - XMPConst.OPEN_ONLY_XMP - Only the XMP is wanted, allows space/time optimizations.\</br\>                          - XMPConst.OPEN_STRICTLY - Be strict about locating XMP and reconciling with other forms.\</br\>                          - XMPConst.OPEN_USE_SMART_HANDLER - Require the use of a smart handler. No packet scanning is performed.\</br\>                          - XMPConst.OPEN_USE_PACKET_SCANNING - Force packet scanning, do not use a smart handler.\</br\>                          - XMPConst.OPEN_LIMITED_SCANNING - Only packet-scan files known to need scanning.\</br\> |
 
 
-
-<a name="xmpfile-canputxmp" id="xmpfile-canputxmp"></a>
 
 ## canPutXMP(xmpData)
 Reports whether XMP metadata of a given size can be updated for this file.
@@ -85,11 +77,9 @@ Use putXMP() to actually update the XMP in the open file.
 
 | Param | Description |
 | --- | --- |
-| xmpData | The XMP metadata as an XMPMeta object<br></br>                or The XMP metadata as a string containing an XMP packet<br></br>                or The XMP metadata as an Array of Number containing raw XMP packet data.<br></br> |
+| xmpData | The XMP metadata as an XMPMeta object\</br\>                or The XMP metadata as a string containing an XMP packet\</br\>                or The XMP metadata as an Array of Number containing raw XMP packet data.\</br\> |
 
 
-
-<a name="xmpfile-closefile" id="xmpfile-closefile"></a>
 
 ## closeFile(closeFlags)
 Closes this open file, after writing to it as necessary; that is, if the file was opened for update,
@@ -104,16 +94,12 @@ is also updated to be consistent with the XMP metadata.
 
 
 
-<a name="xmpfile-getxmp" id="xmpfile-getxmp"></a>
-
 ## getXMP()
 Retrieves and parses the existing XMP metadata from this file. If the file format contains legacy metadata in a format
 that is recognized by the File Handler, the function creates an XMP packet containing the metadata.
 
 **Returns**: `XMPMeta` - Returns an XMPMeta object, or null if the files does not contain XMP or convertible legacy metadata.  
 
-
-<a name="xmpfile-getpacketinfo" id="xmpfile-getpacketinfo"></a>
 
 ## getPacketInfo()
 Retrieves the raw XMP packet from this file, along with information about the packet. The options with
@@ -122,15 +108,11 @@ which the file was opened determine whether this function reconciles other forms
 **Returns**: `XMPPacketInfo` - Returns an XMPPacketInfo object, or null if the files does not contain XMP metadata.  
 
 
-<a name="xmpfile-getfileinfo" id="xmpfile-getfileinfo"></a>
-
 ## getFileInfo()
 Retrieves basic information about this file.
 
 **Returns**: `XMPFileInfo` - Returns an XMPFileInfo object.  
 
-
-<a name="xmpfile-putxmp" id="xmpfile-putxmp"></a>
 
 ## putXMP(xmpData)
 Supplies new XMP metadata for this file. The file is not actually written until closeFile() is called.
@@ -140,11 +122,9 @@ forms of metadata; that is, whether any legacy metadata is also updated to be co
 
 | Param | Description |
 | --- | --- |
-| xmpData | The XMP metadata as an XMPMeta object<br></br>                or The XMP metadata as a String containing an XMP packet<br></br>                or The XMP metadata as an Array of Number containing raw XMP packet data.<br></br> |
+| xmpData | The XMP metadata as an XMPMeta object\</br\>                or The XMP metadata as a String containing an XMP packet\</br\>                or The XMP metadata as an Array of Number containing raw XMP packet data.\</br\> |
 
 
-
-<a name="xmpfile-getformatinfo" id="xmpfile-getformatinfo"></a>
 
 ## getFormatInfo(format)
 Reports the supported features for the given file format.

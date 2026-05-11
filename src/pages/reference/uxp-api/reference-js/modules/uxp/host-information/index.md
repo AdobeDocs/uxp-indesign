@@ -1,2 +1,2 @@
 # Host Information
-* [Host](Host.md)
+* [Host](host.md)

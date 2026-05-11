@@ -1,2 +1,2 @@
 # os
-* [OS](OS.md)
+* [OS](os.md)

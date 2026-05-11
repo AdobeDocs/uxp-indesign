@@ -1,6 +1,4 @@
 
-<a name="getcomputedstyle" id="getcomputedstyle"></a>
-
 # window.getComputedStyle
 Returns an object containing the values of all CSS properties of an element,
 after applying active stylesheets and resolving any basic computation those values may contain.

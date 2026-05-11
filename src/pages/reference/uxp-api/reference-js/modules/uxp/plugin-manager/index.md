@@ -1,4 +1,4 @@
 # Plugin Manager
-* [Plugin](Plugin.md)
+* [Plugin](plugin.md)
 * [PluginManager](plugin-manager.md)
-* [Script](Script.md)
+* [Script](script.md)

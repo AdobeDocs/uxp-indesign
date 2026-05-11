@@ -1,6 +1,4 @@
 
-<a name="module-storage-file" id="module-storage-file"></a>
-
 # File
 Represents a file on a file system. Provides methods for reading from and
 writing to the file. You'll never instantiate a `File` directly; instead
@@ -17,8 +15,6 @@ console.log(file.isFile); // returns true
 
 
 
-<a name="module-storage-file-isfile" id="module-storage-file-isfile"></a>
-
 ## isFile
 Indicates that this instance is a file.
 
@@ -30,8 +26,6 @@ if (anEntry.isFile) {
 ```
 
 
-<a name="module-storage-file-mode" id="module-storage-file-mode"></a>
-
 ## mode : `Symbol`
 Indicates whether this file is read-only or read-write. See [readOnly](modes.md#readonly--symbol) and [readWrite](modes.md#readwrite--symbol).
 
@@ -42,8 +36,6 @@ if (aFile.mode === modes.readOnly) {
 }
 ```
 
-
-<a name="module-storage-file-read" id="module-storage-file-read"></a>
 
 ## read(options)
 Reads data from the file and returns it. The file format can be specified
@@ -66,8 +58,6 @@ const text = await myNovel.read();
 const data = await myNovel.read({format: formats.binary});
 ```
 
-
-<a name="module-storage-file-write" id="module-storage-file-write"></a>
 
 ## write(data, options)
 Writes data to a file, appending if desired. The format of the file
@@ -98,8 +88,6 @@ const data = new ArrayBuffer();
 await aDataFile.write(data, {format: formats.binary});
 ```
 
-
-<a name="module-storage-file-isfile" id="module-storage-file-isfile"></a>
 
 ## isFile(entry)
 Determines if the entry is a file or not. This is safe to use even if the

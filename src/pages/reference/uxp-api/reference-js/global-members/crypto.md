@@ -1,4 +1,8 @@
+---
+title: Crypto
+description: UXP Crypto API reference for generating random values and UUIDs.
+---
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-js/Global Members/Crypto/Crypto.md";
+# Crypto
 
-<Content query="product=photoshop"/>
+See [Crypto API](crypto/crypto.md) for full documentation.

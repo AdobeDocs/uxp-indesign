@@ -1,17 +1,11 @@
 
-<a name="module-global--formdata" id="module-global--formdata"></a>
-
 # window.FormData
 
-
-<a name="new-module-global--formdata-new" id="new-module-global--formdata-new"></a>
 
 ## FormData()
 FormData provides a way to construct a set of key/value pairs, which can be used in fetch(), XMLHttpRequest.
 
 
-
-<a name="module-global--formdata-append" id="module-global--formdata-append"></a>
 
 ## append(name, value, fileName)
 Appends a key value pair into FormData.
@@ -30,8 +24,6 @@ Consequently, the File object and the cloned one refer to the same content.
 
 
 
-<a name="module-global--formdata-delete" id="module-global--formdata-delete"></a>
-
 ## delete(name)
 Removes all entries from FormData whose name is same with the input name.
 
@@ -44,8 +36,6 @@ Removes all entries from FormData whose name is same with the input name.
 
 
 
-<a name="module-global--formdata-entries" id="module-global--formdata-entries"></a>
-
 ## entries()
 Returns an iterator which iterates through all key/value pairs contained in the FormData.
 The key of each pair is a string object and the value is either a string or a Blob object.
@@ -54,8 +44,6 @@ The key of each pair is a string object and the value is either a string or a Bl
 **See**: [FormData - entries](https://developer.mozilla.org/en-US/docs/Web/API/FormData/entries)  
 **Since**: v7.3.0  
 
-
-<a name="module-global--formdata-get" id="module-global--formdata-get"></a>
 
 ## get(name)
 Returns the first value associated with a given key from within a FormData object.
@@ -71,8 +59,6 @@ Use getAll() if you expect multiple values and want all of them.
 
 
 
-<a name="module-global--formdata-getall" id="module-global--formdata-getall"></a>
-
 ## getAll(name)
 Returns all the values associated with a given key from within a FormData object.
 
@@ -85,8 +71,6 @@ Returns all the values associated with a given key from within a FormData object
 | name | `string` | Name of the key to retrieve |
 
 
-
-<a name="module-global--formdata-has" id="module-global--formdata-has"></a>
 
 ## has(name)
 Test if a FormData object contains a certain key.
@@ -101,8 +85,6 @@ Test if a FormData object contains a certain key.
 
 
 
-<a name="module-global--formdata-keys" id="module-global--formdata-keys"></a>
-
 ## keys()
 Returns an iterator which iterates through all keys in FormData.
 The keys are strings.
@@ -111,8 +93,6 @@ The keys are strings.
 **See**: [FormData - keys](https://developer.mozilla.org/en-US/docs/Web/API/FormData/keys)  
 **Since**: v7.3.0  
 
-
-<a name="module-global--formdata-set" id="module-global--formdata-set"></a>
 
 ## set(name, value, filename)
 If there are entries whose name is same with the input name,
@@ -129,8 +109,6 @@ If not, appends a new entry with name/value.
 | filename | `string` | Filename reported to the server when a Blob object or a File object is passed as a value.      The default filename is "blob" for Blob object and the file name would be taken from the name property for File object. |
 
 
-
-<a name="module-global--formdata-values" id="module-global--formdata-values"></a>
 
 ## values()
 Returns an iterator which iterates through all values in the FormData.

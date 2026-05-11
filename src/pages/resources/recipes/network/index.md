@@ -185,6 +185,6 @@ async function foo() {
 
 
 ## Reference material
-- [fetch API](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/fetch/)
-- [XHR API](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/XMLHttpRequest/)
-- [WebSocket API](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/WebSocket/)
+- [fetch API](/reference/uxp-api/reference-js/global-members/data-transfers/fetch.md)
+- [XHR API](/reference/uxp-api/reference-js/global-members/data-transfers/xml-http-request.md)
+- [WebSocket API](/reference/uxp-api/reference-js/global-members/data-transfers/web-socket.md)

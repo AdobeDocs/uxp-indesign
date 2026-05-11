@@ -1,6 +1,6 @@
-<!--
+\<!--
 index_desc: Changelog in UXP version
--->
+--\>
 
 # UXP Changelog
 
@@ -11,15 +11,15 @@ index_desc: Changelog in UXP version
 
 ### Deprecations
 - Changes to Clipboard
-  - [Clipboard.setContent](./reference-js/Global%20Members/Data%20Transfers/Clipboard.md#setcontentdata) is deprecated. Please use [Clipboard.write](./reference-js/Global%20Members/Data%20Transfers/Clipboard.md#writedata) instead.
-  - [Clipboard.getContent](./reference-js/Global%20Members/Data%20Transfers/Clipboard.md#getcontent) is deprecated. Please use [Clipboard.read](./reference-js/Global%20Members/Data%20Transfers/Clipboard.md#read) instead.
-  - Passing an `object` to [Clipboard.writeText(object)](./reference-js/Global%20Members/Data%20Transfers/Clipboard.md#writetexttext) is deprecated. Please use [Clipboard.write(object)](./reference-js/Global%20Members/Data%20Transfers/Clipboard.md#writedata) instead.
-  - [Clipboard.clearContent](./reference-js/Global%20Members/Data%20Transfers/Clipboard.md#clearcontent) is deprecated. [Clipboard.writeText("")](./reference-js/Global%20Members/Data%20Transfers/Clipboard.md#writetexttext) would be an alternative.
+  - [Clipboard.setContent](reference-js/global-members/data-transfers/clipboard.md#setcontentdata) is deprecated. Please use [Clipboard.write](reference-js/global-members/data-transfers/clipboard.md#writedata) instead.
+  - [Clipboard.getContent](reference-js/global-members/data-transfers/clipboard.md#getcontent) is deprecated. Please use [Clipboard.read](reference-js/global-members/data-transfers/clipboard.md#read) instead.
+  - Passing an `object` to [Clipboard.writeText(object)](reference-js/global-members/data-transfers/clipboard.md#writetexttext) is deprecated. Please use [Clipboard.write(object)](reference-js/global-members/data-transfers/clipboard.md#writedata) instead.
+  - [Clipboard.clearContent](reference-js/global-members/data-transfers/clipboard.md#clearcontent) is deprecated. [Clipboard.writeText("")](reference-js/global-members/data-transfers/clipboard.md#writetexttext) would be an alternative.
 - Changes to VideoElement
-  - Event `uxpvideoload` in [load()](./reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md#load) is deprecated. Use `loadeddata` instead.
-  - Event `uxpvideoplay` in [play()](./reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md#play) is deprecated. Use `ended` instead.
-  - Event `uxpvideocomplete` in [play()](./reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md#play) is deprecated. Use `ended` instead.
-  - Event `uxpvideopause` in [pause()](./reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md#pause) is deprecated. Use `pause` instead.
+  - Event `uxpvideoload` in [load()](reference-js/global-members/html-elements/html-video-element.md#load) is deprecated. Use `loadeddata` instead.
+  - Event `uxpvideoplay` in [play()](reference-js/global-members/html-elements/html-video-element.md#play) is deprecated. Use `ended` instead.
+  - Event `uxpvideocomplete` in [play()](reference-js/global-members/html-elements/html-video-element.md#play) is deprecated. Use `ended` instead.
+  - Event `uxpvideopause` in [pause()](reference-js/global-members/html-elements/html-video-element.md#pause) is deprecated. Use `pause` instead.
 
 ### New
 - New components supported in Spectrum Web Components (SWC). More details [here](https://github.com/adobe/swc-uxp-wrappers/tree/main?tab=readme-ov-file#spectrum-web-components-uxp-wrappers).
@@ -31,7 +31,7 @@ index_desc: Changelog in UXP version
   - sp-search
   - sp-swatch
 - New command line templates to get started with SWC easily. Find details in this [section](reference-spectrum/swc/index.md#command-line-templates).
-- Support for local HTML files in [WebView](./reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement.md#load-local-content-onto-webview)
+- Support for local HTML files in [WebView](reference-js/global-members/html-elements/html-web-view-element.md#load-local-content-onto-webview)
 - New CSS capabilities
   - scaleX() & scaleY()
   - transform-origin
@@ -45,20 +45,20 @@ index_desc: Changelog in UXP version
   | `featureFlags: {"CSSNextSupport": ["boxShadow", "transformFunctions", "transformProperties" ]}` | Enables only the named properties in the list. |
   
   Note that `"enableSWCSupport": true` will enable `CSSNextSupport` by default.
-- Video enhancements: Support added for [Seek Event](./reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md)
+- Video enhancements: Support added for [Seek Event](reference-js/global-members/html-elements/html-video-element.md)
 - Support for [Navigator.language](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/language) API
-- Support for new HTMLElement APIs - [append](./reference-js/Global%20Members/HTML%20Elements/HTMLElement.md#appendnodes), [prepend](./reference-js/Global%20Members/HTML%20Elements/HTMLElement.md#prependnodes) and [replaceChildren](./reference-js/Global%20Members/HTML%20Elements/HTMLElement.md#replacechildrennodes)
+- Support for new HTMLElement APIs - [append](reference-js/global-members/html-elements/html-element.md#appendnodes), [prepend](reference-js/global-members/html-elements/html-element.md#prependnodes) and [replaceChildren](reference-js/global-members/html-elements/html-element.md#replacechildrennodes)
 - [Beta] Support for form reset in [HTMLFormElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 
 ### Updated
 - Upgraded Spectrum Web Components to v0.37.0. More details [here](https://github.com/adobe/swc-uxp-wrappers/tree/main?tab=readme-ov-file#spectrum-web-components-uxp-wrappers).
-- [UXP Clipboard.writeText()](./reference-js/Global%20Members/Data%20Transfers/Clipboard.md#writetexttext) now accepts strings as input to meet standards
+- [UXP Clipboard.writeText()](reference-js/global-members/data-transfers/clipboard.md#writetexttext) now accepts strings as input to meet standards
 
 
 ## UXP v7.4.0
 ### Updated
-- UXP Alerts ([alert](./reference-js/Global%20Members/HTML%20DOM/alert.md), [prompt](./reference-js/Global%20Members/HTML%20DOM/prompt.md), [confirm](./reference-js/Global%20Members/HTML%20DOM/confirm.md)) have been moved back to beta due to a few inherent instabilities in this feature. While we work on addressing these issues, the feature can be accessed using the feature flag `enableAlerts` in the manifest.json file. Also, note that UXP alerts will be `available only in Plugins` and `not in scripts`.
-- Wildcards (*) at the top-level `domain` name are not allowed. Please ensure you revisit the `permissions` setup in manifest.json for [WebView](./reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement.md), and network calls [XMLHttp](./reference-js/Global%20Members/Data%20Transfers/XMLHttpRequest.md) [fetch](./reference-js/Global%20Members/Data%20Transfers/fetch.md)
+- UXP Alerts ([alert](reference-js/global-members/html-dom/alert.md), [prompt](reference-js/global-members/html-dom/prompt.md), [confirm](reference-js/global-members/html-dom/confirm.md)) have been moved back to beta due to a few inherent instabilities in this feature. While we work on addressing these issues, the feature can be accessed using the feature flag `enableAlerts` in the manifest.json file. Also, note that UXP alerts will be `available only in Plugins` and `not in scripts`.
+- Wildcards (*) at the top-level `domain` name are not allowed. Please ensure you revisit the `permissions` setup in manifest.json for [WebView](reference-js/global-members/html-elements/html-web-view-element.md), and network calls [XMLHttp](reference-js/global-members/data-transfers/xml-http-request.md) [fetch](reference-js/global-members/data-transfers/fetch.md)
 - New doc for tracking the [mapping between Spectrum widgets and Spectrum Web Components](reference-spectrum/spectrum-widgets-to-swc-mapping/index.md) in UXP
 
 
@@ -67,13 +67,13 @@ index_desc: Changelog in UXP version
 - Plugin crashes while using [fit-content](https://forums.creativeclouddeveloper.com/t/ps-2024-crashes-when-opening-my-uxp-plugin/6840/7) 
 - WebView support for [file selector](https://forums.creativeclouddeveloper.com/t/macos-uxp-webview-for-photoshop-is-missing-file-selector/6843) in MacOS
 - GUID returning hashed empty string
-- Updated missing docs for pseudo-class [defined](./reference-css/Pseudo-classes/defined.md) (Available since UXP v6.0)
+- Updated missing docs for pseudo-class [defined](reference-css/pseudo-classes/defined.md) (Available since UXP v6.0)
 
 ## UXP v7.3.0
 ### New
-- [GUID](./reference-js/Modules/uxp/User%20Information/UserInfo.md) for uniquely identifying a Creative Cloud User (Currently Supported only in `Photoshop`).
-- Multipart `FormData` support in [Request](./reference-js/Global%20Members/Data%20Transfers/Request.md) and [Response](./reference-js/Global%20Members/Data%20Transfers/Response.md) for `fetch`
-- [FormData](./reference-js/Global%20Members/Data%20Transfers/FormData.md) now supports the following APIs
+- [GUID](reference-js/modules/uxp/user-information/user-info.md) for uniquely identifying a Creative Cloud User (Currently Supported only in `Photoshop`).
+- Multipart `FormData` support in [Request](reference-js/global-members/data-transfers/request.md) and [Response](reference-js/global-members/data-transfers/response.md) for `fetch`
+- [FormData](reference-js/global-members/data-transfers/form-data.md) now supports the following APIs
     - delete()
     - get()
     - getAll()
@@ -84,16 +84,16 @@ index_desc: Changelog in UXP version
 
 
 ### Updated
-- [FormData's append](./reference-js/Global%20Members/Data%20Transfers/FormData.md#append--namevaluefilename) now supports `Blob` as additional parameter.
+- [FormData's append](reference-js/global-members/data-transfers/form-data.md#append--namevaluefilename) now supports `Blob` as additional parameter.
 - `Spectrum Web Components` support in `React` context is now available for all the 30 components.
     - Sample plugin for UXP-SWC plugin in React context can be referred [here](https://github.com/AdobeDocs/uxp-photoshop-plugin-samples/tree/main/swc-uxp-react-starter)
 ### Fixed
 - Tab Navigation not working for several SWC Components is now fixed
 - Spacebar doesn't work on SWC Button component when reached via TAB navigation.
 - Support for `Alerts` in InDesign
-    - [alert()](./reference-js/Global%20Members/HTML%20DOM/alert.md)
-    - [prompt()](./reference-js/Global%20Members/HTML%20DOM/prompt.md)
-    - [confirm()](./reference-js/Global%20Members/HTML%20DOM/confirm.md)
+    - [alert()](reference-js/global-members/html-dom/alert.md)
+    - [prompt()](reference-js/global-members/html-dom/prompt.md)
+    - [confirm()](reference-js/global-members/html-dom/confirm.md)
 
 ## UDT v2.0
 ### New
@@ -105,9 +105,9 @@ Plugin actions are surfaced based on the 'Status' of your plugin in the Develope
 
 ## UXP v7.2.0
 ### New
-- Adobe [Extensibility Metadata Platform (XMP)](./reference-js/Modules/uxp/XMP/getting-started/xmp.md) support
+- Adobe [Extensibility Metadata Platform (XMP)](reference-js/modules/uxp/xmp/getting-started/xmp.md) support
 - [pointer-events: none](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events) `CSS` property
-- Support for `pseudoElement` in [getComputedStyle(element, pseudoElement)](./reference-js/Global%20Members/HTML%20DOM/getComputedStyle.md) API
+- Support for `pseudoElement` in [getComputedStyle(element, pseudoElement)](reference-js/global-members/html-dom/get-computed-style.md) API
 
 ### Updated
 - `Spectrum Web Component` is promoted to `release` and has support for [additional list of components](https://developer.adobe.com/photoshop/uxp/2022/uxp-api/reference-spectrum/swc/).
@@ -119,13 +119,13 @@ Plugin actions are surfaced based on the 'Status' of your plugin in the Develope
 
 ### New
 HTMLElement now supports
-- [setPointerCapture](./reference-js/Global%20Members/HTML%20DOM/Element.md#setpointercapturepointerid)
-- [releasePointerCapture](./reference-js/Global%20Members/HTML%20DOM/Element.md#releasepointercapturepointerid)
-- [hasPointerCapture](./reference-js/Global%20Members/HTML%20DOM/Element.md#haspointercapturepointerid)
-- [dir](./reference-js/Global%20Members/HTML%20Elements/HTMLHtmlElement.md#dir--string)
+- [setPointerCapture](reference-js/global-members/html-dom/element.md#setpointercapturepointerid)
+- [releasePointerCapture](reference-js/global-members/html-dom/element.md#releasepointercapturepointerid)
+- [hasPointerCapture](reference-js/global-members/html-dom/element.md#haspointercapturepointerid)
+- [dir](reference-js/global-members/html-elements/html-html-element.md#dir--string)
 
 ### Updated
-- Documentation for `shell` moved to [new location](./reference-js/Modules/uxp/shell/)
+- Documentation for `shell` moved to [new location](reference-js/modules/uxp/shell/index.md)
 
 ### Fixed
 - `SVGElement`: The color of the `fill` attribute using a CSS variable will resolve as per the variable value. For now, please test this fix by enabling the feature flag in your plugin manifest `"featureFlags" : { "enableFillAsCustomAttribute" : true }`. This flag will be turned on by default in the next UXP release.
@@ -146,58 +146,58 @@ html {
 ### New
 - Support for Web Components in UXP Plugins. Various HTML elements and methods have been added to support this feature.
     - Classes
-        - [HTMLSlotElement](./reference-js/Global%20Members/HTML%20Elements/HTMLSlotElement.md)
-        - [HTMLTemplateElement](./reference-js/Global%20Members/HTML%20Elements/HTMLTemplateElement.md)
+        - [HTMLSlotElement](reference-js/global-members/html-elements/html-slot-element.md)
+        - [HTMLTemplateElement](reference-js/global-members/html-elements/html-template-element.md)
     - Methods
-        - [Element.assignedSlot](./reference-js/Global%20Members/HTML%20DOM/Element.md#assignedslot--htmlslotelement)
-        - [Element.slot](./reference-js/Global%20Members/HTML%20DOM/Element.md#slot--string)
-        - [Element.attachShadow](./reference-js/Global%20Members/HTML%20DOM/Element.md#attachshadowinit)
-        - [Element.shadowRoot](./reference-js/Global%20Members/HTML%20DOM/Element.md#shadowroot--shadowroot)
-        - [CustomElementRegistry.upgrade](./reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry.md#upgraderoot)
-        - [CustomElementRegistry.whenDefined](./reference-js/Global%20Members/HTML%20DOM/CustomElementRegistry.md#whendefinedname)
+        - [Element.assignedSlot](reference-js/global-members/html-dom/element.md#assignedslot--htmlslotelement)
+        - [Element.slot](reference-js/global-members/html-dom/element.md#slot--string)
+        - [Element.attachShadow](reference-js/global-members/html-dom/element.md#attachshadowinit)
+        - [Element.shadowRoot](reference-js/global-members/html-dom/element.md#shadowroot--shadowroot)
+        - [CustomElementRegistry.upgrade](reference-js/global-members/html-dom/custom-element-registry.md#upgraderoot)
+        - [CustomElementRegistry.whenDefined](reference-js/global-members/html-dom/custom-element-registry.md#whendefinedname)
 - [Spectrum Web Components (Beta)](reference-spectrum/swc/index.md) Support for Adobe SWC.
 - Several augmentations to the JS API set
     - Properties
-        - [HTMLElement.lang](./reference-js/Global%20Members/HTML%20Elements/HTMLElement.md#lang--string)
+        - [HTMLElement.lang](reference-js/global-members/html-elements/html-element.md#lang--string)
     - Classes added to the global scope
-        - [TreeWalker](./reference-js/Global%20Members/HTML%20DOM/TreeWalker.md)
-        - [NodeFilter](./reference-js/Global%20Members/HTML%20DOM/NodeFilter.md)
+        - [TreeWalker](reference-js/global-members/html-dom/tree-walker.md)
+        - [NodeFilter](reference-js/global-members/html-dom/node-filter.md)
     - Methods
-        - [Element.hasAttributes](./reference-js/Global%20Members/HTML%20DOM/Element.md#hasattributes)
-        - [Element.getAttributeNames](./reference-js/Global%20Members/HTML%20DOM/Element.md#getattributenames)
-        - [Event.composed](./reference-js/Global%20Members/HTML%20Events/Event.md#composed--boolean)
-        - [Event.composedPath](./reference-js/Global%20Members/HTML%20Events/Event.md#composedpath)
-        - [DocumentFragment.append](./reference-js/Global%20Members/HTML%20DOM/DocumentFragment.md#appendargs)
-        - [DocumentFragment.querySelector](./reference-js/Global%20Members/HTML%20DOM/DocumentFragment.md#queryselectorselector)
-        - [DocumentFragment.querySelectorAll](./reference-js/Global%20Members/HTML%20DOM/DocumentFragment.md#queryselectorallselector)
+        - [Element.hasAttributes](reference-js/global-members/html-dom/element.md#hasattributes)
+        - [Element.getAttributeNames](reference-js/global-members/html-dom/element.md#getattributenames)
+        - [Event.composed](reference-js/global-members/html-events/event.md#composed--boolean)
+        - [Event.composedPath](reference-js/global-members/html-events/event.md#composedpath)
+        - [DocumentFragment.append](reference-js/global-members/html-dom/document-fragment.md#appendargs)
+        - [DocumentFragment.querySelector](reference-js/global-members/html-dom/document-fragment.md#queryselectorselector)
+        - [DocumentFragment.querySelectorAll](reference-js/global-members/html-dom/document-fragment.md#queryselectorallselector)
 - New focus events to support React 16
     - [Focusin Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusin_event)
     - [Focusout Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event)
-- HTML [2D Canvas Support](./reference-js/Global%20Members/HTML%20Elements/HTMLCanvasElement.md) for Basic Shapes and Styling.
+- HTML [2D Canvas Support](reference-js/global-members/html-elements/html-canvas-element.md) for Basic Shapes and Styling.
 - Alerts
-    - [alert()](./reference-js/Global%20Members/HTML%20DOM/alert.md)
-    - [prompt()](./reference-js/Global%20Members/HTML%20DOM/prompt.md)
-    - [confirm()](./reference-js/Global%20Members/HTML%20DOM/confirm.md)
-- Support for [pipeThrough](./reference-js/Global%20Members/Streams/ReadableStream.md#pipeThroughtransform,-options) and [tee](./reference-js/Global%20Members/Streams/ReadableStream.md#tee) in ReadableStream](./reference-js/Global%20Members/Streams/ReadableStream.md). Refer to [Streams](./reference-js/Global%20Members/Streams/index.md) for more details
-- [ImageBlob](./reference-js/Global%20Members/ImageBlob/ImageBlob.md) to render an uncompressed image buffer in UXP
+    - [alert()](reference-js/global-members/html-dom/alert.md)
+    - [prompt()](reference-js/global-members/html-dom/prompt.md)
+    - [confirm()](reference-js/global-members/html-dom/confirm.md)
+- Support for [pipeThrough](reference-js/global-members/streams/readable-stream.md#pipeThroughtransform,-options) and [tee](reference-js/global-members/streams/readable-stream.md#tee) in ReadableStream](./reference-js/Global%20Members/Streams/ReadableStream.md). Refer to [Streams](reference-js/global-members/streams/index.md) for more details
+- [ImageBlob](reference-js/global-members/image-blob/image-blob.md) to render an uncompressed image buffer in UXP
 
 ### Changed
-- [HTMLVideoElement](./reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md): 'metadata' is the default value for `preload` attribute
-- [FS API](./reference-js/Modules/fs/): No need for the `file://` protocol
+- [HTMLVideoElement](reference-js/global-members/html-elements/html-video-element.md): 'metadata' is the default value for `preload` attribute
+- [FS API](reference-js/modules/fs/index.md): No need for the `file://` protocol
 
 ## UXP v6.5.0
 
 ### New
-- [UXP Hybrid plugins](../../guides/hybrid-plugins/)
+- UXP Hybrid plugins
 - Allow unrestricted relative paths in require from scripts
-- [getEntryWithUrl](./reference-js/Modules/uxp/Persistent%20File%20Storage/FileSystemProvider.md#getentrywithurlurl) in LocalFileProvider
+- [getEntryWithUrl](reference-js/modules/uxp/persistent-file-storage/file-system-provider.md#getentrywithurlurl) in LocalFileProvider
 
 
 ## UXP v6.4
 
 ### New
-- [WebView](./reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement.md) for anels
-- [Path Module APIs](./reference-js/Global%20Members/Path/Path.md)
+- [WebView](reference-js/global-members/html-elements/html-web-view-element.md) for anels
+- [Path Module APIs](reference-js/global-members/path/path.md)
 - UXP Scripts can run fsapi with full access in localFileSystem
 
 ### Bugs Fixes
@@ -218,11 +218,11 @@ html {
 ## UXP v6.3
 
 ### New
-- [Blob](./reference-js/Global%20Members/Data%20Transfers/Blob.md) APIs.
+- [Blob](reference-js/global-members/data-transfers/blob.md) APIs.
 - Blob support in Fetch API.
-- [Crypto APIs](./reference-js/Global%20Members/Crypto/Crypto.md)
+- [Crypto APIs](reference-js/global-members/crypto/crypto.md)
 - UXP Developer Tools v1.7.0 has supports for Debugging UXP Scripts in Photoshop and InDesign, refer [here](https://developer.adobe.com/photoshop/uxp/2022/scripting/getting-started/) for more details
-- UXP Developer Tools has new templates in the Create Plugin Dialog. This includes examples for using WebView and Multiple Menus in a Plugin. For more details on Webview refer [HTMLWebViewElement](./reference-js/Global%20Members/HTML%20Elements/HTMLWebViewElement.md) module under `Global Members/HTML Elements` in JavaScript Reference
+- UXP Developer Tools has new templates in the Create Plugin Dialog. This includes examples for using WebView and Multiple Menus in a Plugin. For more details on Webview refer [HTMLWebViewElement](reference-js/global-members/html-elements/html-web-view-element.md) module under `Global Members/HTML Elements` in JavaScript Reference
 
 ### Bugs Fixes
 - Plugin cannot open its own folders because version dots are rejected

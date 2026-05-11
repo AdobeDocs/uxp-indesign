@@ -1,11 +1,9 @@
 
-<a name="alert" id="alert"></a>
-
 # window.alert()
 **Since**: v7.0.0
-<br></br>
+\<br/\>
 
-Displays an Alert message dialog putting the application in a modal state while <b>not blocking</b> the JavaScript thread and still allowing processing of events in the main event loop.
+Displays an Alert message dialog putting the application in a modal state while **not blocking** the JavaScript thread and still allowing processing of events in the main event loop.
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -17,14 +15,14 @@ The following are additional simple alerts supported by UXP
 
 | Param | Type | Description |
 | --- | --- | --- |
-| message | `string` | A message you want to display in the alert dialog<br></br> |
+| message | `string` | A message you want to display in the alert dialog\</br\> |
 
 **Example**  
 ```javascript
 alert("This is alert message");
 ```
 
-<b> Note: </b>
+** Note: **
 1. Since UXP v7.4, `alert()` can only be invoked in `plugin` via the featureFlags `enableAlerts`. Update your Manifest v5 with the following
 
 ```json

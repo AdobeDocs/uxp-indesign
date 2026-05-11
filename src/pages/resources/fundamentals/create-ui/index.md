@@ -74,7 +74,7 @@ Now that you know the various options, you must understand their differences and
 - **HTML elements** 
    Keep in mind that UXP is not a browser. It's a platform that provides the ease of using web technologies to build plugins/scripts for desktop applications. Hence, it does not support all the HTML/CSS capabilities you can use in a browser. In fact, the tags that are _not_ supported are treated like simple `<div>`.
 
-   Do take a look at the list of HTML [elements](/indesign/uxp/reference/uxp-api/reference-html/General/Unsupported%20Elements/), and [attributes](/indesign/uxp/reference/uxp-api/reference-html/General/Unsupported%20Attributes/) that are _not_ supported.
+   Do take a look at the list of HTML [elements](/reference/uxp-api/reference-html/general/unsupported-elements.md), and [attributes](/reference/uxp-api/reference-html/general/unsupported-attributes.md) that are _not_ supported.
   
 - **Spectrum UXP widgets**
    Remember that these are built-in within UXP. Therefore, they may appear to be a black-box solution that does not allow you to peek into the details while debugging or altering their behavior easily.
@@ -145,8 +145,8 @@ See [ui-svelte-starter](https://github.com/AdobeDocs/uxp-photoshop-plugin-sample
 
 
 ## Reference material
-- [Spectrum Web Components](/indesign/uxp/reference/uxp-api/reference-spectrum/swc/)
-- [Spectrum UXP widgets](/indesign/uxp/reference/uxp-api/reference-spectrum/Spectrum%20UXP%20Widgets/)
-- Supported HTML [tags](/indesign/uxp/reference/uxp-api/reference-html/) and [elements](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/)
+- [Spectrum Web Components](/reference/uxp-api/reference-spectrum/swc/index.md)
+- [Spectrum UXP widgets](/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/index.md)
+- Supported HTML [tags](/reference/uxp-api/reference-html/index.md) and [elements](/reference/uxp-api/reference-js/global-members/html-elements/index.md)
 \<!-- [Kitchen sink sample]() - //TODO link to Id starter/ kitchen sink sample --\>
 

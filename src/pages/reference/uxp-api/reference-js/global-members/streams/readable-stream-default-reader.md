@@ -1,11 +1,7 @@
 
-<a name="readablestreamdefaultreader" id="readablestreamdefaultreader"></a>
-
 # window.ReadableStreamDefaultReader
 **See**: [Web APIs - ReadableStreamDefaultReader](https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader)  
 
-
-<a name="new-readablestreamdefaultreader-new" id="new-readablestreamdefaultreader-new"></a>
 
 ## ReadableStreamDefaultReader(stream)
 Create a new ReadableStreamDefaultReader object and locks the stream to the new reader.
@@ -23,16 +19,12 @@ Create a new ReadableStreamDefaultReader object and locks the stream to the new 
 
 
 
-<a name="readablestreamdefaultreader-closed" id="readablestreamdefaultreader-closed"></a>
-
 ## closed ⇒
 Returns a promise that will be fulfilled when the stream becomes closed,
 or rejected if the stream ever errors or the reader’s lock is released before the stream finishes closing.
 
 **Returns**: `Promise<void>`  
 
-
-<a name="readablestreamdefaultreader-cancel" id="readablestreamdefaultreader-cancel"></a>
 
 ## cancel(reason)
 Cancels the stream, signaling a loss of interest in the stream by a consumer.
@@ -53,23 +45,19 @@ It will reject with a TypeError (without attempting to cancel the stream) if the
 
 
 
-<a name="readablestreamdefaultreader-read" id="readablestreamdefaultreader-read"></a>
-
 ## read()
 Returns a promise that allows access to the next chunk from the stream’s internal queue, if available.
 
-**Returns**: `Promise<Object>` - <br></br>&emsp;If a chunk is available, the promise will be fulfilled with an object of the form
-         { value: theChunk, done: false }.
-     <br></br>&emsp;If the stream becomes closed, the promise will be fulfilled with an object of the form
-         { value: undefined, done: true }.
-     <br></br>&emsp;If the stream becomes errored, the promise will be rejected with the relevant error.  
+**Returns**: `Promise<Object>` - \<br/\>&emsp;If a chunk is available, the promise will be fulfilled with an object of the form
+         \{ value: theChunk, done: false }.
+     \<br/\>&emsp;If the stream becomes closed, the promise will be fulfilled with an object of the form
+         \{ value: undefined, done: true }.
+     \<br/\>&emsp;If the stream becomes errored, the promise will be rejected with the relevant error.  
 **Throws**:
 
 - `TypeError` thrown if the source is not a ReadableStreamDefaultReader or if the source is not readable.
 
 
-
-<a name="readablestreamdefaultreader-releaselock" id="readablestreamdefaultreader-releaselock"></a>
 
 ## releaseLock()
 Releases the reader’s lock on the corresponding stream.

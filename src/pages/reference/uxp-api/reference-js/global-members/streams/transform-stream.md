@@ -1,11 +1,7 @@
 
-<a name="transformstream" id="transformstream"></a>
-
 # window.TransformStream
 **See**: [Web APIs - TransformStream](https://developer.mozilla.org/en-US/docs/Web/API/TransformStream)  
 
-
-<a name="new-transformstream-new" id="new-transformstream-new"></a>
 
 ## TransformStream(transformer, writableStrategy, readableStrategy)
 Cretes a new TransformStream object wrapping the provided transformer.
@@ -27,14 +23,10 @@ If no transformer argument is supplied, then the result will be an identity tran
 
 
 
-<a name="transformstream-readable" id="transformstream-readable"></a>
-
 ## readable : `ReadableStream`
 ReadableStream representing the readable of this TransformStream.
 
 
-
-<a name="transformstream-writable" id="transformstream-writable"></a>
 
 ## writable : `WritableStream`
 WritableStream representing the writable of this TransformStream.

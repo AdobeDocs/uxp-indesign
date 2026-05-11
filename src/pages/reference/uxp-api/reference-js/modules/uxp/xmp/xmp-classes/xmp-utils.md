@@ -1,11 +1,7 @@
 
-<a name="xmputils" id="xmputils"></a>
-
 # require('uxp').xmp.XMPUtils
 **Since**: v7.2.0  
 
-
-<a name="new-xmputils-new" id="new-xmputils-new"></a>
 
 ## XMPUtils()
 This class provides additional utility functions for the XMP Toolkit, layered upon the functionality of
@@ -20,8 +16,6 @@ in an [XMPMeta object](xmp-meta.md).
 
 
 
-<a name="xmputils-appendproperties" id="xmputils-appendproperties"></a>
-
 ## appendProperties(source, dest, [options])
 Copies properties from a source [XMPMeta object](xmp-meta.md) and appends them to a destination [XMPMeta object](xmp-meta.md).
 
@@ -30,15 +24,13 @@ Copies properties from a source [XMPMeta object](xmp-meta.md) and appends them t
 | --- | --- | --- | --- |
 | source | `XMPMeta` |  | The source [XMPMeta object](xmp-meta.md). |
 | dest | `XMPMeta` |  | The destination [XMPMeta object](xmp-meta.md). |
-| [options] | `number` | `0` | Option flags that control the copying operation. A logical OR of these bit-flag constants:<br></br> - XMPConst.APPEND_ALL_PROPERTIES: Include both internal and external properties. By default, copies only external properties. This applies only to top-level properties.<br></br> - XMPConst.APPEND_REPLACE_OLD_VALUES: Replace the values of existing properties with the value from the source object. By default, existing values are retained. This applies to properties at all levels of hierarchy.<br></br> - XMPConst.APPEND_DELETE_EMPTY_VALUES: Delete properties if the new value is empty. |
+| [options] | `number` | `0` | Option flags that control the copying operation. A logical OR of these bit-flag constants:\</br\> - XMPConst.APPEND_ALL_PROPERTIES: Include both internal and external properties. By default, copies only external properties. This applies only to top-level properties.\</br\> - XMPConst.APPEND_REPLACE_OLD_VALUES: Replace the values of existing properties with the value from the source object. By default, existing values are retained. This applies to properties at all levels of hierarchy.\</br\> - XMPConst.APPEND_DELETE_EMPTY_VALUES: Delete properties if the new value is empty. |
 
 **Example**  
 ```js
 XMPUtils.appendProperties(source, dest, options)
 ```
 
-
-<a name="xmputils-catenatearrayitems" id="xmputils-catenatearrayitems"></a>
 
 ## catenateArrayItems(xmpObj, schemaNS, arrayName, [separator], [quotes &#x3D;], [options])
 Concatenates a set of array item values into a single string. The resulting string can be separated back out into array items using separateArrayItems().
@@ -52,15 +44,13 @@ Concatenates a set of array item values into a single string. The resulting stri
 | arrayName | `string` |  | The array property name string. Can be a general path expression. Each item in the array must be a simple string value. |
 | [separator] | `string` | `&quot;;&quot;` | The string used to separate the items in the result string. Default is ‘; ‘, an ASCII semicolon and space (U+003B,U+0020). |
 | [quotes =] | `string` |  | The character used to quote items that contain a separator. Default is ‘”’, an ASCII double quote (U+0022). |
-| [options] | `number` | `0` | Option flag that controls the concatenation. This constant value:<br></br> - XMPConst.SEPARATE_ALLOW_COMMAS: Allow commas in item values (such as “LastName, FirstName”). This option must be set the same way in this function and in [separateArrayItems()](#separatearrayitemsxmpobj-schemans-arrayname-arrayoptions-concatstring) to reconstruct the items correctly. |
+| [options] | `number` | `0` | Option flag that controls the concatenation. This constant value:\</br\> - XMPConst.SEPARATE_ALLOW_COMMAS: Allow commas in item values (such as “LastName, FirstName”). This option must be set the same way in this function and in [separateArrayItems()](#separatearrayitemsxmpobj-schemans-arrayname-arrayoptions-concatstring) to reconstruct the items correctly. |
 
 **Example**  
 ```js
 XMPUtils.catenateArrayItems(xmpObj, schemaNS, arrayName, separator, quotes, options)
 ```
 
-
-<a name="xmputils-composearrayitempath" id="xmputils-composearrayitempath"></a>
 
 ## composeArrayItemPath(schemaNS, arrayName, itemIndex)
 Creates and returns a string containing the path expression for an item in an array, using the registered prefix for the namespace, in the form:
@@ -79,8 +69,6 @@ schemaNS:arrayName[itemIndex]
 XMPUtils.composeArrayItemPath(schemaNS, arrayName, itemIndex)
 ```
 
-
-<a name="xmputils-composefieldselector" id="xmputils-composefieldselector"></a>
 
 ## composeFieldSelector(schemaNS, arrayName, fieldNS, fieldName, fieldValue)
 Creates and returns a string containing the path expression to select an alternate item by a field’s value, using the registered prefixes for the namespaces, in the form:
@@ -101,8 +89,6 @@ schemaNS:arrayName[fieldNS:fieldName='fieldValue']
 XMPUtils.composeFieldSelector(schemaNS, arrayName, fieldNS, fieldName, fieldValue)
 ```
 
-
-<a name="xmputils-composelangselector" id="xmputils-composelangselector"></a>
 
 ## composeLangSelector(schemaNS, arrayName, locale)
 Creates and returns a string containing the path expression to select an alternate item in an alt text array by language, using the registered prefix for the namespace, in the form:
@@ -125,8 +111,6 @@ XMPUtils.composeLanguageSelector(schemaNS, arrayName, locale)
 ```
 
 
-<a name="xmputils-composestructfieldpath" id="xmputils-composestructfieldpath"></a>
-
 ## composeStructFieldPath(schemaNS, structName, fieldNS, fieldName)
 Creates and returns a string containing the path expression for a field in a structure, using the registered prefixes for the namespaces, in the form:
 schemaNS:structName/fieldNS:fieldName
@@ -145,8 +129,6 @@ schemaNS:structName/fieldNS:fieldName
 XMPUtils.composeStructFieldPath(schemaNS, structName, fieldNS, fieldName)
 ```
 
-
-<a name="xmputils-composequalifierpath" id="xmputils-composequalifierpath"></a>
 
 ## composeQualifierPath(schemaNS, propName, qualNS, qualName)
 Creates and returns a string containing the path expression for a qualifier attached to a property, using the registered prefix for the namespace, in the form:
@@ -167,8 +149,6 @@ XMPUtils.composeQualifierPath(schemaNS, propName, qualNS, qualName)
 ```
 
 
-<a name="xmputils-duplicatesubtree" id="xmputils-duplicatesubtree"></a>
-
 ## duplicateSubtree(source, dest, sourceNS, sourceRoot, destNS, [destRoot], [options])
 Copies properties in the specified subtree from a source [XMPMeta object](xmp-meta.md) and adds them into a destination [XMPMeta object](xmp-meta.md).
 
@@ -181,7 +161,7 @@ Copies properties in the specified subtree from a source [XMPMeta object](xmp-me
 | sourceRoot | `string` |  | The property name string for the root location of the source subtree. Can be a general path expression. |
 | destNS | `string` |  | The destination namespace URI string. See [Schema namespace string constants](xmp-const.md#schema-namespace-string-constants). |
 | [destRoot] | `string` |  | The property name string for the root location of the destination subtree. Can be a general path expression. Default is the source root location. |
-| [options] | `number` | `0` | Option flags that control the copying operation. A logical OR of these bit-flag constants:<br></br> - XMPConst.APPEND_ALL_PROPERTIES: Include both internal and external properties. By default, copies only external properties. This applies only to top-level properties.<br></br> - XMPConst.APPEND_REPLACE_OLD_VALUES: Replace the values of existing properties with the value from the source object. By default, existing values are retained. This applies to properties at all levels of hierarchy.<br></br> - XMPConst.APPEND_DELETE_EMPTY_VALUES: Delete properties if the new value is empty. |
+| [options] | `number` | `0` | Option flags that control the copying operation. A logical OR of these bit-flag constants:\</br\> - XMPConst.APPEND_ALL_PROPERTIES: Include both internal and external properties. By default, copies only external properties. This applies only to top-level properties.\</br\> - XMPConst.APPEND_REPLACE_OLD_VALUES: Replace the values of existing properties with the value from the source object. By default, existing values are retained. This applies to properties at all levels of hierarchy.\</br\> - XMPConst.APPEND_DELETE_EMPTY_VALUES: Delete properties if the new value is empty. |
 
 **Example**  
 ```js
@@ -189,15 +169,13 @@ XMPUtils.duplicateSubtree(source, dest, sourceNS, sourceRoot, destNS, destRoot, 
 ```
 
 
-<a name="xmputils-removeproperties" id="xmputils-removeproperties"></a>
-
 ## removeProperties(xmpObj, [schemaNS], [propName], [options])
-Removes multiple properties from an [XMPMeta object](xmp-meta.md).<br></br><br></br>
-If both the namespace and property name are supplied, removes the property if it is external, even if it is an alias.<br></br>
-If it is internal, removes it if the option XMPConst.REMOVE_ALL_PROPERTIES is specified.<br></br><br></br>
-If the namespace is supplied and the property name is not, removes all external properties in the namespace,<br></br>
-and optionally all internal properties. Removes aliases only if the option XMPConst.REMOVE_INCLUDE_ALIASES is specified.<br></br><br></br>
-If neither the namespace nor the property name are supplied, removes all external properties, and optionally all internal properties.<br></br>
+Removes multiple properties from an [XMPMeta object](xmp-meta.md).\<br/\>\<br/\>
+If both the namespace and property name are supplied, removes the property if it is external, even if it is an alias.\<br/\>
+If it is internal, removes it if the option XMPConst.REMOVE_ALL_PROPERTIES is specified.\<br/\>\<br/\>
+If the namespace is supplied and the property name is not, removes all external properties in the namespace,\<br/\>
+and optionally all internal properties. Removes aliases only if the option XMPConst.REMOVE_INCLUDE_ALIASES is specified.\<br/\>\<br/\>
+If neither the namespace nor the property name are supplied, removes all external properties, and optionally all internal properties.\<br/\>
 Aliases are handled implicitly, because the associated actual is removed.
 
 
@@ -206,15 +184,13 @@ Aliases are handled implicitly, because the associated actual is removed.
 | xmpObj | `XMPMeta` |  | The [XMPMeta object](xmp-meta.md). |
 | [schemaNS] | `string` |  | The namespace URI string. See [Schema namespace string constants](xmp-const.md#schema-namespace-string-constants). Must be supplied if a property name is supplied. |
 | [propName] | `string` |  | The property name string. Can be a general path expression. |
-| [options] | `number` | `0` | Option flags that control the deletion operation. A logical OR of these bit-flag constants:<br></br> - XMPConst.REMOVE_ALL_PROPERTIES: Remove internal and external properties. By default, removes only external properties. Applies only to top-level properties.<br></br> - XMPConst.REMOVE_INCLUDE_ALIASES: Remove aliases defined in the namespace. If the property name is supplied, removes it regardless of this option. |
+| [options] | `number` | `0` | Option flags that control the deletion operation. A logical OR of these bit-flag constants:\</br\> - XMPConst.REMOVE_ALL_PROPERTIES: Remove internal and external properties. By default, removes only external properties. Applies only to top-level properties.\</br\> - XMPConst.REMOVE_INCLUDE_ALIASES: Remove aliases defined in the namespace. If the property name is supplied, removes it regardless of this option. |
 
 **Example**  
 ```js
 XMPUtils.removeProperties(xmpObj, schemaNS, propName, options)
 ```
 
-
-<a name="xmputils-separatearrayitems" id="xmputils-separatearrayitems"></a>
 
 ## separateArrayItems(xmpObj, schemaNS, arrayName, [arrayOptions], concatString)
 Updates individual array item strings in the [XMPMeta object](xmp-meta.md) from a concatenated string returned by catenateArrayItems().
@@ -226,7 +202,7 @@ Recognizes a large set of separator characters, including semicolons, commas, ta
 | xmpObj | `XMPMeta` |  | The [XMPMeta object](xmp-meta.md) containing the array. |
 | schemaNS | `string` |  | The namespace URI string. See [Schema namespace string constants](xmp-const.md#schema-namespace-string-constants). |
 | arrayName | `string` |  | The array property name string. Can be a general path expression. Each item in the array must be a simple string value. |
-| [arrayOptions] | `number` | `0` | Option flags that control how the array property is updated from the separated string. A logical OR of these bit-flag constants:<br></br> - XMPConst.APPEND_ALL_PROPERTIES: Include both internal and external properties. By default, copies only external properties. This applies only to top-level properties.<br></br> - XMPConst.APPEND_REPLACE_OLD_VALUES: Replace the values of existing properties with the value from the source object. By default, existing values are retained. This applies to properties at all levels of hierarchy.<br></br> - XMPConst.APPEND_DELETE_EMPTY_VALUES: Delete properties if the new value is empty.<br></br> - XMPConst.SEPARATE_ALLOW_COMMAS: Allow commas in item values. If not specified, an item containing a comma (such as “LastName, FirstName”) is separated into two array items. |
+| [arrayOptions] | `number` | `0` | Option flags that control how the array property is updated from the separated string. A logical OR of these bit-flag constants:\</br\> - XMPConst.APPEND_ALL_PROPERTIES: Include both internal and external properties. By default, copies only external properties. This applies only to top-level properties.\</br\> - XMPConst.APPEND_REPLACE_OLD_VALUES: Replace the values of existing properties with the value from the source object. By default, existing values are retained. This applies to properties at all levels of hierarchy.\</br\> - XMPConst.APPEND_DELETE_EMPTY_VALUES: Delete properties if the new value is empty.\</br\> - XMPConst.SEPARATE_ALLOW_COMMAS: Allow commas in item values. If not specified, an item containing a comma (such as “LastName, FirstName”) is separated into two array items. |
 | concatString | `string` |  | The string containing the concatenated array values, as returned by catenateArrayItems(). |
 
 **Example**  

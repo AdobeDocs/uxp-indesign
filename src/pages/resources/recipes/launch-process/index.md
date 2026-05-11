@@ -105,5 +105,5 @@ async function foo() {
 
 
 ## Reference material
-- [Shell API](/indesign/uxp/reference/uxp-api/reference-js/Modules/shell/Shell/)
+- [Shell API](/reference/uxp-api/reference-js/modules/uxp/shell/shell.md)
 
