@@ -1,4 +1,5 @@
-
-import Content from "uxp-documentation/src/pages/uxp-api/reference-spectrum/Spectrum UXP Widgets/Typography/index.md";
-
-<Content query="product=photoshop"/>
+# Typography
+* [sp-body](sp-body.md)
+* [sp-detail](sp-detail.md)
+* [sp-heading](sp-heading.md)
+* [sp-label](sp-label.md)

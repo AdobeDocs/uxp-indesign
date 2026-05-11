@@ -1,4 +1,4 @@
-
-import Content from "uxp-documentation/src/pages/uxp-api/reference-js//Modules/index.md";
-
-<Content query="product=photoshop"/>
+# Modules
+* [fs](fs/index.md)
+* [os](os/index.md)
+* [uxp](uxp/index.md)

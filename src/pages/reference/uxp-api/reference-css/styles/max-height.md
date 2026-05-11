@@ -1,4 +1,18 @@
+---
+jsDoc: true
+---
+# max-height
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-css/Styles/max-height";
+**Since** UXP v2.0
 
-<Content query="product=photoshop"/>
+Specifies the maximum height for an element.
+
+**See**: https://developer.mozilla.org/en/docs/Web/CSS/max-height
+
+**Example**:
+
+```css
+.someElement {
+    max-height: 100px;
+}
+```

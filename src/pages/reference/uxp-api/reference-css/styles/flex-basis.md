@@ -1,4 +1,18 @@
+---
+jsDoc: true
+---
+# flex-basis
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-css/Styles/flex-basis";
+**Since** UXP v3.0
 
-<Content query="product=photoshop"/>
+Sets the basis for determining the size of an item in a flexible layout container.
+
+**See**: https://developer.mozilla.org/en/docs/Web/CSS/flex-basis
+
+**Example**
+
+```css
+.someElement {
+    flex-basis: auto;
+}
+```

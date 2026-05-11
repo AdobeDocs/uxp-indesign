@@ -1,4 +1,16 @@
+---
+jsDoc: true
+---
+# Attribute selector
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-css/Selectors/Attribute selector";
+**Since** UXP v3.0
 
-<Content query="product=photoshop"/>
+**See**: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+
+**Example**
+
+```css
+div[data-row] {
+    border: 1px solid red;
+}
+```

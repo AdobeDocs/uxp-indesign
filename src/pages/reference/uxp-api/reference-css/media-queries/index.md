@@ -1,4 +1,4 @@
-
-import Content from "uxp-documentation/src/pages/uxp-api/reference-css//Media Queries/index.md";
-
-<Content query="product=photoshop"/>
+# Media Queries
+* [height](height.md)
+* [prefers-color-scheme](prefers-color-scheme.md)
+* [width](width.md)

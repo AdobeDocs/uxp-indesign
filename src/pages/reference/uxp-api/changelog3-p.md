@@ -67,7 +67,7 @@ index_desc: Changelog in UXP version
 - Plugin crashes while using [fit-content](https://forums.creativeclouddeveloper.com/t/ps-2024-crashes-when-opening-my-uxp-plugin/6840/7) 
 - WebView support for [file selector](https://forums.creativeclouddeveloper.com/t/macos-uxp-webview-for-photoshop-is-missing-file-selector/6843) in MacOS
 - GUID returning hashed empty string
-- Updated missing docs for pseudo-class [defined](./reference-css/pseudo-classes/defined.md) (Available since UXP v6.0)
+- Updated missing docs for pseudo-class [defined](./reference-css/Pseudo-classes/defined.md) (Available since UXP v6.0)
 
 ## UXP v7.3.0
 ### New
@@ -125,7 +125,7 @@ HTMLElement now supports
 - [dir](./reference-js/Global%20Members/HTML%20Elements/HTMLHtmlElement.md#dir--string)
 
 ### Updated
-- Documentation for `shell` moved to [new location](reference-js/Modules/uxp/shell/index.md)
+- Documentation for `shell` moved to [new location](./reference-js/Modules/uxp/shell/)
 
 ### Fixed
 - `SVGElement`: The color of the `fill` attribute using a CSS variable will resolve as per the variable value. For now, please test this fix by enabling the feature flag in your plugin manifest `"featureFlags" : { "enableFillAsCustomAttribute" : true }`. This flag will be turned on by default in the next UXP release.
@@ -183,7 +183,7 @@ html {
 
 ### Changed
 - [HTMLVideoElement](./reference-js/Global%20Members/HTML%20Elements/HTMLVideoElement.md): 'metadata' is the default value for `preload` attribute
-- [FS API](reference-js/Modules/fs/index.md): No need for the `file://` protocol
+- [FS API](./reference-js/Modules/fs/): No need for the `file://` protocol
 
 ## UXP v6.5.0
 

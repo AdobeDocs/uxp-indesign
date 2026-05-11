@@ -1,4 +1,10 @@
-
-import Content from "uxp-documentation/src/pages/uxp-api/reference-js/Global Members/Data Transfers/index.md";
-
-<Content query="product=photoshop"/>
+# Data Transfers
+* [Blob](Blob.md)
+* [Clipboard](Clipboard.md)
+* [fetch](fetch.md)
+* [FormData](form-data.md)
+* [Headers](Headers.md)
+* [Request](Request.md)
+* [Response](Response.md)
+* [WebSocket](web-socket.md)
+* [XMLHttpRequest](xml-http-request.md)

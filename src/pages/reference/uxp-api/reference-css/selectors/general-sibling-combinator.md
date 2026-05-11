@@ -1,4 +1,16 @@
+---
+jsDoc: true
+---
+# General Sibling combinator
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-css/Selectors/General Sibling combinator";
+**Since** UXP v3.0
 
-<Content query="product=photoshop"/>
+**See**: https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator
+
+**Example**
+
+```css
+sp-action-button ~ sp-button {
+    margin-right: 0;
+}
+```

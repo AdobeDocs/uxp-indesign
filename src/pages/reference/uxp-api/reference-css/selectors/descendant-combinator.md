@@ -1,4 +1,16 @@
+---
+jsDoc: true
+---
+# Descendant combinator
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-css/Selectors/Descendant combinator";
+**Since** UXP v3.0
 
-<Content query="product=photoshop"/>
+**See**: https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator
+
+**Example**
+
+```css
+footer sp-button {
+    margin: 12px;
+}
+```

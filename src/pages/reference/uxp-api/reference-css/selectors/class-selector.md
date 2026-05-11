@@ -1,4 +1,16 @@
+---
+jsDoc: true
+---
+# Class selector
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-css/Selectors/Class selector";
+**Since** UXP v3.0
 
-<Content query="product=photoshop"/>
+**See**: https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors
+
+**Example**
+
+```css
+sp-action-button.icon-only {
+    padding: 0;
+}
+```

@@ -1,3 +1,4 @@
-import Content from "uxp-documentation/src/pages/uxp-api/reference-js/Modules/uxp/Plugin Manager/index.md";
-
-<Content query="product=photoshop"/>
+# Plugin Manager
+* [Plugin](Plugin.md)
+* [PluginManager](plugin-manager.md)
+* [Script](Script.md)

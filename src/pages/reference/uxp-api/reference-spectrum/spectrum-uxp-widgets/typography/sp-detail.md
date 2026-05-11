@@ -1,4 +1,17 @@
+---
+jsDoc: true
+---
+# sp-detail
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-spectrum/Spectrum UXP Widgets/Typography/sp-detail";
+**Since:** UXP v4.1
 
-<Content query="product=photoshop"/>
+Renders detail text in a smaller font.
+
+**See**:
+- https://spectrum.adobe.com/page/detail
+
+**Example**
+
+```html
+<sp-detail>A NICE DIVIDER<sp-detail>
+```

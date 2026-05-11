@@ -1,4 +1,8 @@
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-js/Global Members/HTML DOM/NodeFilter";
+<a name="nodefilter" id="nodefilter"></a>
 
-<Content query="product=photoshop"/>
+# window.NodeFilter
+**See**: [interface-nodefilter](https://dom.spec.whatwg.org/#interface-nodefilter)  
+**Since**: v7.0.0  
+
+  

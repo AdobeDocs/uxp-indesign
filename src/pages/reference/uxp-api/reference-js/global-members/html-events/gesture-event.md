@@ -1,4 +1,340 @@
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-js/Global Members/HTML Events/GestureEvent";
+<a name="gestureevent" id="gestureevent"></a>
 
-<Content query="product=photoshop"/>
+# window.GestureEvent
+**See**: https://developer.mozilla.org/en-US/docs/Web/API/GestureEvent  
+
+
+<a name="new-gestureevent-new" id="new-gestureevent-new"></a>
+
+## GestureEvent(type, eventInit)
+Creates an instance of GestureEvent.
+
+
+| Param | Type |
+| --- | --- |
+| type | `*` | 
+| eventInit | `*` | 
+
+
+
+<a name="gestureevent-expansion" id="gestureevent-expansion"></a>
+
+## expansion : `number`
+**Read only**
+
+
+<a name="gestureevent-rotation" id="gestureevent-rotation"></a>
+
+## rotation : `number`
+**Read only**
+
+
+<a name="gestureevent-scale" id="gestureevent-scale"></a>
+
+## scale : `number`
+**Read only**
+
+
+<a name="gestureevent-translationx" id="gestureevent-translationx"></a>
+
+## translationX : `number`
+**Read only**
+
+
+<a name="gestureevent-translationy" id="gestureevent-translationy"></a>
+
+## translationY : `number`
+**Read only**
+
+
+<a name="gestureevent-velocityangular" id="gestureevent-velocityangular"></a>
+
+## velocityAngular : `number`
+**Read only**
+
+
+<a name="gestureevent-velocityexpansion" id="gestureevent-velocityexpansion"></a>
+
+## velocityExpansion : `number`
+**Read only**
+
+
+<a name="gestureevent-velocityx" id="gestureevent-velocityx"></a>
+
+## velocityX : `number`
+**Read only**
+
+
+<a name="gestureevent-velocityy" id="gestureevent-velocityy"></a>
+
+## velocityY : `number`
+**Read only**
+
+
+<a name="baseuievent-pointerid" id="baseuievent-pointerid"></a>
+
+## pointerId
+**Read only**
+
+
+<a name="baseuievent-width" id="baseuievent-width"></a>
+
+## width : `number`
+**Read only**
+
+
+<a name="baseuievent-height" id="baseuievent-height"></a>
+
+## height : `number`
+**Read only**
+
+
+<a name="baseuievent-pressure" id="baseuievent-pressure"></a>
+
+## pressure : `number`
+**Read only**
+
+
+<a name="baseuievent-tangentialpressure" id="baseuievent-tangentialpressure"></a>
+
+## tangentialPressure : `number`
+**Read only**
+
+
+<a name="baseuievent-tiltx" id="baseuievent-tiltx"></a>
+
+## tiltX : `number`
+**Read only**
+
+
+<a name="baseuievent-tilty" id="baseuievent-tilty"></a>
+
+## tiltY : `number`
+**Read only**
+
+
+<a name="baseuievent-twist" id="baseuievent-twist"></a>
+
+## twist : `number`
+**Read only**
+
+
+<a name="baseuievent-clientx" id="baseuievent-clientx"></a>
+
+## clientX : `number`
+**Read only**
+
+
+<a name="baseuievent-clienty" id="baseuievent-clienty"></a>
+
+## clientY : `number`
+**Read only**
+
+
+<a name="baseuievent-offsetx" id="baseuievent-offsetx"></a>
+
+## offsetX : `number`
+**Read only**
+
+
+<a name="baseuievent-offsety" id="baseuievent-offsety"></a>
+
+## offsetY : `number`
+**Read only**
+
+
+<a name="baseuievent-pagex" id="baseuievent-pagex"></a>
+
+## pageX : `number`
+**Read only**
+
+
+<a name="baseuievent-pagey" id="baseuievent-pagey"></a>
+
+## pageY : `number`
+**Read only**
+
+
+<a name="baseuievent-screenx" id="baseuievent-screenx"></a>
+
+## screenX : `number`
+**Read only**
+
+
+<a name="baseuievent-screeny" id="baseuievent-screeny"></a>
+
+## screenY : `number`
+**Read only**
+
+
+<a name="baseuievent-movementx" id="baseuievent-movementx"></a>
+
+## movementX : `number`
+**Read only**
+
+
+<a name="baseuievent-movementy" id="baseuievent-movementy"></a>
+
+## movementY : `number`
+**Read only**
+
+
+<a name="baseuievent-button" id="baseuievent-button"></a>
+
+## button : `number`
+**Read only**
+
+
+<a name="baseuievent-buttons" id="baseuievent-buttons"></a>
+
+## buttons
+**Read only**
+
+
+<a name="baseuievent-detail" id="baseuievent-detail"></a>
+
+## detail
+**Read only**
+
+
+<a name="baseuievent-pointertype" id="baseuievent-pointertype"></a>
+
+## pointerType
+**Read only**
+
+
+<a name="baseuievent-altkey" id="baseuievent-altkey"></a>
+
+## altKey
+**Read only**
+
+
+<a name="baseuievent-shiftkey" id="baseuievent-shiftkey"></a>
+
+## shiftKey
+**Read only**
+
+
+<a name="baseuievent-metakey" id="baseuievent-metakey"></a>
+
+## metaKey
+**Read only**
+
+
+<a name="baseuievent-ctrlkey" id="baseuievent-ctrlkey"></a>
+
+## ctrlKey
+**Read only**
+
+
+<a name="baseuievent-isprimary" id="baseuievent-isprimary"></a>
+
+## isPrimary
+**Read only**
+
+
+<a name="baseuievent-which" id="baseuievent-which"></a>
+
+## which
+**Read only**
+
+
+<a name="event-type" id="event-type"></a>
+
+## type
+**Read only**
+
+
+<a name="event-istrusted" id="event-istrusted"></a>
+
+## isTrusted : `boolean`
+**Read only**
+
+
+<a name="event-target" id="event-target"></a>
+
+## target : `Node`
+**Read only**
+
+
+<a name="event-currenttarget" id="event-currenttarget"></a>
+
+## currentTarget : `Node`
+**Read only**
+
+
+<a name="event-bubbles" id="event-bubbles"></a>
+
+## bubbles : `boolean`
+**Read only**
+
+
+<a name="event-cancelable" id="event-cancelable"></a>
+
+## cancelable : `boolean`
+**Read only**
+
+
+<a name="event-composed" id="event-composed"></a>
+
+## composed : `boolean`
+**Read only**
+
+
+<a name="event-eventphase" id="event-eventphase"></a>
+
+## eventPhase
+**Read only**
+
+
+<a name="event-defaultprevented" id="event-defaultprevented"></a>
+
+## defaultPrevented : `boolean`
+**Read only**
+
+
+<a name="event-returnvalue" id="event-returnvalue"></a>
+
+## returnValue : `*`
+
+
+<a name="event-initevent" id="event-initevent"></a>
+
+## initEvent(typeArg, bubblesArg, cancelableArg)
+
+| Param | Type |
+| --- | --- |
+| typeArg | `string` | 
+| bubblesArg | `boolean` | 
+| cancelableArg | `boolean` | 
+
+
+
+<a name="event-composedpath" id="event-composedpath"></a>
+
+## composedPath()
+Returns the event's path
+
+**See**
+
+- https://developer.mozilla.org/en-US/docs/Web/API/Event/composedPath
+- https://dom.spec.whatwg.org/#dom-event-composedpath
+
+
+
+<a name="event-preventdefault" id="event-preventdefault"></a>
+
+## preventDefault()
+
+
+<a name="event-stopimmediatepropagation" id="event-stopimmediatepropagation"></a>
+
+## stopImmediatePropagation()
+
+
+<a name="event-stoppropagation" id="event-stoppropagation"></a>
+
+## stopPropagation()
+
+  

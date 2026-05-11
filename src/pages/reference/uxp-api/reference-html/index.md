@@ -1,4 +1,6 @@
+# HTML Reference
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-html/index.md";
-
-<Content query="product=photoshop"/>
+Technical documentation regarding some of the HTML elements and attributes that are supported.
+## Pages in this section
+* [General](General/index.md)
+* [Hierarchy](Hierarchy/index.md)

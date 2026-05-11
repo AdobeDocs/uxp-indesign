@@ -1,4 +1,16 @@
+---
+jsDoc: true
+---
+# Universal selector
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-css/Selectors/Universal selector";
+**Since** UXP v3.0
 
-<Content query="product=photoshop"/>
+**See**: https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors
+
+**Example**
+
+```css
+* {
+    border: 1px solid red;
+}
+```

@@ -1,4 +1,17 @@
-
-import Content from "uxp-documentation/src/pages/uxp-api/reference-css//Pseudo-classes/index.md";
-
-<Content query="product=photoshop"/>
+# Pseudo-classes
+* [active](active.md)
+* [checked](checked.md)
+* [defined](defined.md)
+* [disabled](disabled.md)
+* [empty](empty.md)
+* [enabled](enabled.md)
+* [first-child](first-child.md)
+* [focus](focus.md)
+* [hover](hover.md)
+* [last-child](last-child.md)
+* [nth-child](nth-child.md)
+* [nth-last-child](nth-last-child.md)
+* [nth-last-of-type](nth-last-of-type.md)
+* [nth-of-type](nth-of-type.md)
+* [only-child](only-child.md)
+* [root](root.md)

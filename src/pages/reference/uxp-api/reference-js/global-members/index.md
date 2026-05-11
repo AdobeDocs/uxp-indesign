@@ -1,4 +1,10 @@
-
-import Content from "uxp-documentation/src/pages/uxp-api/reference-js//Global Members/index.md";
-
-<Content query="product=photoshop"/>
+# Global Members
+* [Crypto](Crypto/index.md)
+* [Data Storage](Data%20Storage/index.md)
+* [Data Transfers](Data%20Transfers/index.md)
+* [HTML DOM](HTML%20DOM/index.md)
+* [HTML Elements](HTML%20Elements/index.md)
+* [HTML Events](HTML%20Events/index.md)
+* [ImageBlob](ImageBlob/index.md)
+* [Path](Path/index.md)
+* [Streams](Streams/index.md)

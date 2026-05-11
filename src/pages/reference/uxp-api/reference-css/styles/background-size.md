@@ -1,4 +1,10 @@
+---
+jsDoc: true
+---
+# background-size
 
-import Content from "uxp-documentation/src/pages/uxp-api/reference-css/Styles/background-size";
+**Since**  UXP v3.0
 
-<Content query="product=photoshop"/>
+Determines the size of the background content. Also supports `cover` and `contain`.
+
+**See**: https://developer.mozilla.org/en/docs/Web/CSS/background-size

@@ -1,4 +1,10 @@
-
-import Content from "uxp-documentation/src/pages/uxp-api/reference-css//Selectors/index.md";
-
-<Content query="product=photoshop"/>
+# Selectors
+* [Adjacent Sibling combinator](Adjacent%20Sibling%20combinator.md)
+* [Attribute selector](Attribute%20selector.md)
+* [Child combinator](Child%20combinator.md)
+* [Class selector](Class%20selector.md)
+* [Descendant combinator](Descendant%20combinator.md)
+* [General Sibling combinator](General%20Sibling%20combinator.md)
+* [Identifier selector](Identifier%20selector.md)
+* [Type selector](Type%20selector.md)
+* [Universal selector](Universal%20selector.md)
