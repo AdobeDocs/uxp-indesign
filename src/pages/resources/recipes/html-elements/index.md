@@ -117,7 +117,7 @@ function showDialog() {
 ![Sample dialog](sample-dialog.png)
 
 ## Additional notes
-- Creating dialogs within scripts can sometimes be a little tricky requiring you to handle the showing/hiding with async/promises. Check out the script tutorial on modal dialogs.<!--// TODO add linkI>
+- Creating dialogs within scripts can sometimes be a little tricky requiring you to handle the showing/hiding with async/promises. Check out the script tutorial on modal dialogs.
 - You can also use `document.createElement` to createSpectrum Widgets `sp-*` in UXP. However, it will not work for Spectrum Web Components.
 
 ## Reference material
