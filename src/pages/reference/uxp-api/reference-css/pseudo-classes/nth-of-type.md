@@ -7,7 +7,7 @@ jsDoc: true
 
 Matches only the Nth child of a given type. Can use an expression or `even` or `odd`.
 
-**See:** https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type
+**See:** [https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type)
 
 **Example:**
 

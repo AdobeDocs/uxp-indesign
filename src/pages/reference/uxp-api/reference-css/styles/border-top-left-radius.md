@@ -7,7 +7,7 @@ jsDoc: true
 
 Sets the top left border radius.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/border-top-left-radius  
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/border-top-left-radius](https://developer.mozilla.org/en/docs/Web/CSS/border-top-left-radius)  
 
 ## Quirks and Exceptions
 

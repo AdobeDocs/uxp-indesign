@@ -5,7 +5,7 @@ This module accepts string and Entry object as path parameters.
 However, local file schemes, such as `plugin-data:` or `plugin-temp:`, will not be resolved to a native path in string paths.
 The `path` module is registered in the global scope and can be used without declaration.
 
-**See**: https://nodejs.org/api/path.html  
+**See**: [https://nodejs.org/api/path.html](https://nodejs.org/api/path.html)  
 **Since**: UXP v6.4.0  
 
 

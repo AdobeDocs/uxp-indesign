@@ -7,7 +7,7 @@ jsDoc: true
 
 Shorthand for the `flex-grow`, `flex-shrink`, and `flex-basis` styles.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/flex
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/flex](https://developer.mozilla.org/en/docs/Web/CSS/flex)
 
 **Example**
 

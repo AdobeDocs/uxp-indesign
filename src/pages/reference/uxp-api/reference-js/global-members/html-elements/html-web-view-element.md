@@ -30,7 +30,7 @@ To configure the Webview, you will first require the `webview` permission for yo
 | --- | --- | --- | --- |
 | .allow | "yes" | Enables WebView access to the plugin | Mandatory |
 | .allowLocalRendering | "yes" | Enables WebView to load local contents (supported from UXP v8.0.0❗) | Optional |
-| .domains | string[] | Allows access to the specified domains. Wildcards (except top-level) are supported. e.g "https://*.adobe.com".  Recommended | Mandatory |
+| .domains | string[] | Allows access to the specified domains. Wildcards (except top-level) are supported. e.g "[https://*.adobe.com](https://*.adobe.com)".  Recommended | Mandatory |
 | .domains | "all" | Allows access to all domains.Not recommended, may affect performance, security and privacy. Plugin may be blocked by enterprises. | Mandatory |
 | .enableMessageBridge | "localAndRemote" | Allows Plugin & the content loaded on WebView to communicate regardless of where the content is loaded from **locally or remotely.** | Optional |
 | .enableMessageBridge | "localOnly" | Allows Plugin & the content loaded on WebView to communicate if the content is loaded from **locally.** (supported from UXP v8.0.0❗) | Optional |

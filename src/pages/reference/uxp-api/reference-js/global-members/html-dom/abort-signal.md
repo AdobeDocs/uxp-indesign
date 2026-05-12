@@ -1,6 +1,6 @@
 
 # window.AbortSignal
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal](https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal)
 \<br/\>
 Please note that AbortSignal works only for web streams.  
 

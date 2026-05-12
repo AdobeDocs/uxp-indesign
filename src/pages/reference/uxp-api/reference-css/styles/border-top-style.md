@@ -7,7 +7,7 @@ jsDoc: true
 
 Specifies the [style](border-style.md) of top border to render.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/border-top-style  
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/border-top-style](https://developer.mozilla.org/en/docs/Web/CSS/border-top-style)  
 
 **Example**
 

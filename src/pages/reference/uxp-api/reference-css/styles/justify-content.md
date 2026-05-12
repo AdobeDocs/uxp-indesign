@@ -7,7 +7,7 @@ jsDoc: true
 
 Supported values are `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `stretch`.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/justify-content
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/justify-content](https://developer.mozilla.org/en/docs/Web/CSS/justify-content)
 
 **Example**
 

@@ -7,7 +7,7 @@ jsDoc: true
 
 Refers to other, related content. In UXP, this tag allows you to load an external stylesheet. No other use is supported.
 
-**See**: https://developer.mozilla.org/en/docs/Web/HTML/Element/link
+**See**: [https://developer.mozilla.org/en/docs/Web/HTML/Element/link](https://developer.mozilla.org/en/docs/Web/HTML/Element/link)
 
 **Example**
 

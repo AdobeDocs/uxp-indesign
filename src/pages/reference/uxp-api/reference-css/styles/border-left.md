@@ -12,7 +12,7 @@ Shorthand for specifying the [style](border-left-style.md), [color](border-left-
 > An element's border can only consist of a single color. If you specify
 > multiple border colors, you'll see a warning on the JavaScript console.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/border-left  
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/border-left](https://developer.mozilla.org/en/docs/Web/CSS/border-left)  
 
 ## Quirks and Exceptions
 

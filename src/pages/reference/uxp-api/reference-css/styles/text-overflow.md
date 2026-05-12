@@ -7,7 +7,7 @@ jsDoc: true
 
 Determines if an ellipsis should be shown when text is clipped. Supports `clip` (default) and `ellipsis`.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/text-overflow
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/text-overflow](https://developer.mozilla.org/en/docs/Web/CSS/text-overflow)
 
 **Example**
 

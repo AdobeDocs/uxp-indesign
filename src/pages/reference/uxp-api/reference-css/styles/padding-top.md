@@ -7,7 +7,7 @@ jsDoc: true
 
 Specifies the top padding for an element.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/padding-top
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/padding-top](https://developer.mozilla.org/en/docs/Web/CSS/padding-top)
 
 **Example**:
 

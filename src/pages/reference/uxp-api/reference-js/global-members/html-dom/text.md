@@ -1,6 +1,6 @@
 
 # window.Text
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Text  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Text](https://developer.mozilla.org/en-US/docs/Web/API/Text)  
 
 
 ## Text(document, textContent)

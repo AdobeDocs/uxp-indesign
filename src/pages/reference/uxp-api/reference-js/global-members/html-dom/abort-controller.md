@@ -1,6 +1,6 @@
 
 # window.AbortController
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/AbortController
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
 \<br/\> See also [AbortSignal](abort-signal.md#module:global.AbortSignal)  
 
 

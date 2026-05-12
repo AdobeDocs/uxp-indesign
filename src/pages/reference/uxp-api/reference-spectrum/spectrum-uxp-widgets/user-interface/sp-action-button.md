@@ -10,8 +10,8 @@ Renders an action button.
 ![Action Buttons](../../assets/sp-action-button.png)
 
 **See**:
-- https://spectrum.adobe.com/page/action-button/
-- https://opensource.adobe.com/spectrum-web-components/components/action-button
+- [https://spectrum.adobe.com/page/action-button/](https://spectrum.adobe.com/page/action-button/)
+- [https://opensource.adobe.com/spectrum-web-components/components/action-button](https://opensource.adobe.com/spectrum-web-components/components/action-button)
 
 **Example**
 

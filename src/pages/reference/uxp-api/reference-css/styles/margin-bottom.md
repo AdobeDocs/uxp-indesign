@@ -7,7 +7,7 @@ jsDoc: true
 
 Specifies the bottom margin for an element.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/margin-bottom
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/margin-bottom](https://developer.mozilla.org/en/docs/Web/CSS/margin-bottom)
 
 **Example**:
 

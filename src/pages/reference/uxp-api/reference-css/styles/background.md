@@ -7,7 +7,7 @@ jsDoc: true
 
 Specifies an element's background. Supports colors, multiple background images, as well as linear and radial gradients.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/background
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/background](https://developer.mozilla.org/en/docs/Web/CSS/background)
 
 **Example**:
 

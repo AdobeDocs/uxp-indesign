@@ -10,8 +10,8 @@ Renders a slider with optional associated label.
 ![Sliders](../../assets/sp-slider.png)
 
 **See**:
-- https://spectrum.adobe.com/page/slider/
-- https://opensource.adobe.com/spectrum-web-components/components/slider
+- [https://spectrum.adobe.com/page/slider/](https://spectrum.adobe.com/page/slider/)
+- [https://opensource.adobe.com/spectrum-web-components/components/slider](https://opensource.adobe.com/spectrum-web-components/components/slider)
 
 **Example**
 

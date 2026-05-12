@@ -2,8 +2,8 @@
 # window.ErrorEvent
 **See**
 
-- https://developer.mozilla.org/en-US/docs/Web/API/ErrorEvent
-- https://html.spec.whatwg.org/#the-errorevent-interface
+- [https://developer.mozilla.org/en-US/docs/Web/API/ErrorEvent](https://developer.mozilla.org/en-US/docs/Web/API/ErrorEvent)
+- [https://html.spec.whatwg.org/#the-errorevent-interface](https://html.spec.whatwg.org/#the-errorevent-interface)
 
 
 
@@ -92,8 +92,8 @@ Returns the event's path
 
 **See**
 
-- https://developer.mozilla.org/en-US/docs/Web/API/Event/composedPath
-- https://dom.spec.whatwg.org/#dom-event-composedpath
+- [https://developer.mozilla.org/en-US/docs/Web/API/Event/composedPath](https://developer.mozilla.org/en-US/docs/Web/API/Event/composedPath)
+- [https://dom.spec.whatwg.org/#dom-event-composedpath](https://dom.spec.whatwg.org/#dom-event-composedpath)
 
 
 

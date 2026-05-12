@@ -1,6 +1,6 @@
 
 # window.HTMLCollection
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection)  
 
 
 ## length : `number`

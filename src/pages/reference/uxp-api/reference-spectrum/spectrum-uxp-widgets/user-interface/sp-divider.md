@@ -10,8 +10,8 @@ Renders a divider.
 ![Dividers](../../assets/sp-divider.png)
 
 **See**:
-- https://spectrum.adobe.com/page/rule/
-- https://opensource.adobe.com/spectrum-web-components/components/rule
+- [https://spectrum.adobe.com/page/rule/](https://spectrum.adobe.com/page/rule/)
+- [https://opensource.adobe.com/spectrum-web-components/components/rule](https://opensource.adobe.com/spectrum-web-components/components/rule)
 
 **Example**
 

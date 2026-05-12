@@ -1,6 +1,6 @@
 
 # require('os')
-**See**: https://nodejs.org/api/os.html  
+**See**: [https://nodejs.org/api/os.html](https://nodejs.org/api/os.html)  
 
 
 ## platform()

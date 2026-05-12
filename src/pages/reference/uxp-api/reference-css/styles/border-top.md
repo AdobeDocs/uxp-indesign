@@ -12,7 +12,7 @@ Shorthand for specifying the [style](border-top-style.md), [color](border-top-co
 > An element's border can only consist of a single color. If you specify
 > multiple border colors, you'll see a warning on the JavaScript console.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/border-top  
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/border-top](https://developer.mozilla.org/en/docs/Web/CSS/border-top)  
 
 ## Quirks and Exceptions
 

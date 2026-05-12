@@ -8,7 +8,7 @@ jsDoc: true
 Renders heading text that is theme aware.
 
 **See**:
-- https://spectrum.adobe.com/page/heading
+- [https://spectrum.adobe.com/page/heading](https://spectrum.adobe.com/page/heading)
 
 **Example**
 

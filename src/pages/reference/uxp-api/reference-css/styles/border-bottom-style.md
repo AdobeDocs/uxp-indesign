@@ -7,7 +7,7 @@ jsDoc: true
 
 Specifies the [style](border-style.md) of bottom border to render.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/border-bottom-style  
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/border-bottom-style](https://developer.mozilla.org/en/docs/Web/CSS/border-bottom-style)  
 
 **Example**
 

@@ -5,7 +5,7 @@ jsDoc: true
 
 **Since** UXP v3.0
 
-**See**: https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator
+**See**: [https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator)
 
 **Example**
 

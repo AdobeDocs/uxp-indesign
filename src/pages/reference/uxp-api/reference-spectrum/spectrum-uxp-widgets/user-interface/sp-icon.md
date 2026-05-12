@@ -10,8 +10,8 @@ Display a named icon.
 ![Icons](../../assets/sp-icon.png)
 
 **See**:
-- https://spectrum.adobe.com/page/icons/
-- https://opensource.adobe.com/spectrum-web-components/components/icon
+- [https://spectrum.adobe.com/page/icons/](https://spectrum.adobe.com/page/icons/)
+- [https://opensource.adobe.com/spectrum-web-components/components/icon](https://opensource.adobe.com/spectrum-web-components/components/icon)
 
 **Example**
 

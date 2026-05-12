@@ -7,7 +7,7 @@ jsDoc: true
 
 Specifies various metadata about the UXP HTML document, including additional styles, scripts, etc.
 
-**See**: https://developer.mozilla.org/en/docs/Web/HTML/Element/head
+**See**: [https://developer.mozilla.org/en/docs/Web/HTML/Element/head](https://developer.mozilla.org/en/docs/Web/HTML/Element/head)
 
 **Example**
 

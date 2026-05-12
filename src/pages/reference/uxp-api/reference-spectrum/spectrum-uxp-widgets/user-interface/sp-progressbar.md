@@ -10,7 +10,7 @@ Renders a progress bar.
 ![Progress Bars](../../assets/sp-progressbar.png)
 
 **See**:
-- https://spectrum.adobe.com/page/progress-bar/
+- [https://spectrum.adobe.com/page/progress-bar/](https://spectrum.adobe.com/page/progress-bar/)
 
 **Example**
 

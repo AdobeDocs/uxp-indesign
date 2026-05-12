@@ -10,8 +10,8 @@ Renders a checkbox with associated label.
 ![Checkboxes](../../assets/sp-checkbox.png)
 
 **See**:
-- https://spectrum.adobe.com/page/checkbox/
-- https://opensource.adobe.com/spectrum-web-components/components/checkbox
+- [https://spectrum.adobe.com/page/checkbox/](https://spectrum.adobe.com/page/checkbox/)
+- [https://opensource.adobe.com/spectrum-web-components/components/checkbox](https://opensource.adobe.com/spectrum-web-components/components/checkbox)
 
 **Example**
 

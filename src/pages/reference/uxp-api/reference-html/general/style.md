@@ -7,7 +7,7 @@ jsDoc: true
 
 Specifies an inline stylesheet.
 
-**See**: https://developer.mozilla.org/en/docs/Web/HTML/Element/style
+**See**: [https://developer.mozilla.org/en/docs/Web/HTML/Element/style](https://developer.mozilla.org/en/docs/Web/HTML/Element/style)
 
 **Example**
 

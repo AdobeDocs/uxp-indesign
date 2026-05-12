@@ -7,7 +7,7 @@ jsDoc: true
 
 Determines if a flexible item can shrink, and if so, how it shrinks relative to other items in the flexible container.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/flex-shrink
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/flex-shrink](https://developer.mozilla.org/en/docs/Web/CSS/flex-shrink)
 
 **Example**
 

@@ -10,8 +10,8 @@ Renders a radio button with associated label.
 ![Radio groups](../../assets/sp-radio.png)
 
 **See**:
-- https://spectrum.adobe.com/page/radio-button/
-- https://opensource.adobe.com/spectrum-web-components/components/radio
+- [https://spectrum.adobe.com/page/radio-button/](https://spectrum.adobe.com/page/radio-button/)
+- [https://opensource.adobe.com/spectrum-web-components/components/radio](https://opensource.adobe.com/spectrum-web-components/components/radio)
 
 **Example**
 

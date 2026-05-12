@@ -7,51 +7,51 @@
 
 ## root : `Node`
 **Read only**
-**See**: https://dom.spec.whatwg.org/#dom-treewalker-root  
+**See**: [https://dom.spec.whatwg.org/#dom-treewalker-root](https://dom.spec.whatwg.org/#dom-treewalker-root)  
 
 
 ## whatToShow : `Number`
 **Read only**
-**See**: https://dom.spec.whatwg.org/#dom-treewalker-whattoshow  
+**See**: [https://dom.spec.whatwg.org/#dom-treewalker-whattoshow](https://dom.spec.whatwg.org/#dom-treewalker-whattoshow)  
 
 
 ## filter : `NodeFilter`
 **Read only**
-**See**: https://dom.spec.whatwg.org/#dom-treewalker-filter  
+**See**: [https://dom.spec.whatwg.org/#dom-treewalker-filter](https://dom.spec.whatwg.org/#dom-treewalker-filter)  
 
 
 ## parentNode()
 **Returns**: `Node` \| `null`  
-**See**: https://dom.spec.whatwg.org/#dom-treewalker-parentnode  
+**See**: [https://dom.spec.whatwg.org/#dom-treewalker-parentnode](https://dom.spec.whatwg.org/#dom-treewalker-parentnode)  
 
 
 ## firstChild()
 **Returns**: `Node` \| `null`  
-**See**: https://dom.spec.whatwg.org/#dom-treewalker-firstchild  
+**See**: [https://dom.spec.whatwg.org/#dom-treewalker-firstchild](https://dom.spec.whatwg.org/#dom-treewalker-firstchild)  
 
 
 ## lastChild()
 **Returns**: `Node` \| `null`  
-**See**: https://dom.spec.whatwg.org/#dom-treewalker-lastchild  
+**See**: [https://dom.spec.whatwg.org/#dom-treewalker-lastchild](https://dom.spec.whatwg.org/#dom-treewalker-lastchild)  
 
 
 ## previousSibling()
 **Returns**: `Node` \| `null`  
-**See**: https://dom.spec.whatwg.org/#dom-node-previoussibling  
+**See**: [https://dom.spec.whatwg.org/#dom-node-previoussibling](https://dom.spec.whatwg.org/#dom-node-previoussibling)  
 
 
 ## nextSibling()
 **Returns**: `Node` \| `null`  
-**See**: https://dom.spec.whatwg.org/#dom-treewalker-nextsibling  
+**See**: [https://dom.spec.whatwg.org/#dom-treewalker-nextsibling](https://dom.spec.whatwg.org/#dom-treewalker-nextsibling)  
 
 
 ## previousNode()
 **Returns**: `Node` \| `null`  
-**See**: https://dom.spec.whatwg.org/#dom-treewalker-previousnode  
+**See**: [https://dom.spec.whatwg.org/#dom-treewalker-previousnode](https://dom.spec.whatwg.org/#dom-treewalker-previousnode)  
 
 
 ## nextNode()
 **Returns**: `Node` \| `null`  
-**See**: https://dom.spec.whatwg.org/#dom-treewalker-nextnode  
+**See**: [https://dom.spec.whatwg.org/#dom-treewalker-nextnode](https://dom.spec.whatwg.org/#dom-treewalker-nextnode)  
 
   

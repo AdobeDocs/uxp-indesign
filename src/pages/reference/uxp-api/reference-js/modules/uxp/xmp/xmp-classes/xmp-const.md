@@ -8,7 +8,7 @@ Constant values for the namespace URI strings used in all get and set property o
 
 | Name | Type | Access | Description |
 | --- | --- | --- | --- |
-| NS_DC | string | Read-only | The XML namespace for the Dublin Core schema, http://purl.org/dc/elements/1.1 |
+| NS_DC | string | Read-only | The XML namespace for the Dublin Core schema, [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.1) |
 | NS_IPTC_CORE | string | Read-only | The XML namespace for the IPTC Core schema. |
 | NS_RDF | string | Read-only | The XML namespace for RDF. |
 | NS_XML | string | Read-only | The XML namespace for XML. |

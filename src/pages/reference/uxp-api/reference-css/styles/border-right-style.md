@@ -7,7 +7,7 @@ jsDoc: true
 
 Specifies the [style](border-style.md) of right border to render.
 
-**See**: https://developer.mozilla.org/en/docs/Web/CSS/border-right-style  
+**See**: [https://developer.mozilla.org/en/docs/Web/CSS/border-right-style](https://developer.mozilla.org/en/docs/Web/CSS/border-right-style)  
 
 **Example**
 

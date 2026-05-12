@@ -1,6 +1,6 @@
 
 # window.CharacterData
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/CharacterData  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/CharacterData](https://developer.mozilla.org/en-US/docs/Web/API/CharacterData)  
 
 
 ## data : `string`

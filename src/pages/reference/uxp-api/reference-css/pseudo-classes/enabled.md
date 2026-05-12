@@ -7,7 +7,7 @@ jsDoc: true
 
 Matches when the selected element is enabled. 
 
-**See:** https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled
+**See:** [https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled](https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled)
 
 **Example:**
 

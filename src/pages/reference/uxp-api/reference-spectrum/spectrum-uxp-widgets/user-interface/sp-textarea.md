@@ -10,8 +10,8 @@ Renders a text area with optional associated label.
 ![Text areas](../../assets/sp-textarea.png)
 
 **See**:
-- https://spectrum.adobe.com/page/text-area/
-- https://opensource.adobe.com/spectrum-web-components/components/textarea
+- [https://spectrum.adobe.com/page/text-area/](https://spectrum.adobe.com/page/text-area/)
+- [https://opensource.adobe.com/spectrum-web-components/components/textarea](https://opensource.adobe.com/spectrum-web-components/components/textarea)
 
 **Example**
 

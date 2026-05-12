@@ -5,7 +5,7 @@ jsDoc: true
 
 **Since** UXP v3.0
 
-**See**: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+**See**: [https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
 
 **Example**
 

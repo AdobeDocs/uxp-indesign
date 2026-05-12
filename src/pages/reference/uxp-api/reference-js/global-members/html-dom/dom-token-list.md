@@ -4,8 +4,8 @@ DOMTokenList supports the ClassList and other token list functionality
 
 **See**
 
-- https://dom.spec.whatwg.org/#interface-domtokenlist
-- https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList
+- [https://dom.spec.whatwg.org/#interface-domtokenlist](https://dom.spec.whatwg.org/#interface-domtokenlist)
+- [https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList)
 
 
 
@@ -13,14 +13,14 @@ DOMTokenList supports the ClassList and other token list functionality
 **Read only**
 Returns the number of tokens in the list
 
-**See**: https://dom.spec.whatwg.org/#dom-domtokenlist-length  
+**See**: [https://dom.spec.whatwg.org/#dom-domtokenlist-length](https://dom.spec.whatwg.org/#dom-domtokenlist-length)  
 
 
 ## value
 **Read only**
 The serialized string value of the token list
 
-**See**: https://dom.spec.whatwg.org/#dom-domtokenlist-value  
+**See**: [https://dom.spec.whatwg.org/#dom-domtokenlist-value](https://dom.spec.whatwg.org/#dom-domtokenlist-value)  
 
 
 ## add(...tokens)
@@ -30,7 +30,7 @@ Adds the specified tokens to the token list. If the token is already present, no
 
 - `DOMException` 
 
-**See**: https://dom.spec.whatwg.org/#dom-domtokenlist-add  
+**See**: [https://dom.spec.whatwg.org/#dom-domtokenlist-add](https://dom.spec.whatwg.org/#dom-domtokenlist-add)  
 
 | Param | Type |
 | --- | --- |
@@ -45,7 +45,7 @@ Removes the specified items from the token list. If the token is not present, no
 
 - `DOMException` 
 
-**See**: https://dom.spec.whatwg.org/#dom-domtokenlist-remove  
+**See**: [https://dom.spec.whatwg.org/#dom-domtokenlist-remove](https://dom.spec.whatwg.org/#dom-domtokenlist-remove)  
 
 | Param | Type |
 | --- | --- |
@@ -61,7 +61,7 @@ no action occurs, and `false` is returned.
 
 - `DOMException` 
 
-**See**: https://dom.spec.whatwg.org/#dom-domtokenlist-replace  
+**See**: [https://dom.spec.whatwg.org/#dom-domtokenlist-replace](https://dom.spec.whatwg.org/#dom-domtokenlist-replace)  
 
 | Param | Type |
 | --- | --- |
@@ -87,7 +87,7 @@ If `force` is supplied, then:
 
 - `DOMException` 
 
-**See**: https://dom.spec.whatwg.org/#dom-domtokenlist-toggle  
+**See**: [https://dom.spec.whatwg.org/#dom-domtokenlist-toggle](https://dom.spec.whatwg.org/#dom-domtokenlist-toggle)  
 
 | Param | Type |
 | --- | --- |
@@ -104,7 +104,7 @@ Return the item at the specified index, or `null` if the index is out-of-range
 
 - `DOMException` 
 
-**See**: https://dom.spec.whatwg.org/#dom-domtokenlist-item  
+**See**: [https://dom.spec.whatwg.org/#dom-domtokenlist-item](https://dom.spec.whatwg.org/#dom-domtokenlist-item)  
 
 | Param | Type |
 | --- | --- |
@@ -120,7 +120,7 @@ Returns whether the token is in the list or not.
 
 - `DOMException` 
 
-**See**: https://dom.spec.whatwg.org/#dom-domtokenlist-contains  
+**See**: [https://dom.spec.whatwg.org/#dom-domtokenlist-contains](https://dom.spec.whatwg.org/#dom-domtokenlist-contains)  
 
 | Param | Type |
 | --- | --- |
@@ -134,7 +134,7 @@ If `false` is returned, passing the token would throw an error when calling
 any other method.
 
 **Returns**: `boolean` - if `true`, the token is acceptable when calling other methods  
-**See**: https://dom.spec.whatwg.org/#dom-domtokenlist-supports  
+**See**: [https://dom.spec.whatwg.org/#dom-domtokenlist-supports](https://dom.spec.whatwg.org/#dom-domtokenlist-supports)  
 
 | Param | Type |
 | --- | --- |

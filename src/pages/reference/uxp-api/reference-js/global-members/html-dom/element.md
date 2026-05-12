@@ -1,6 +1,6 @@
 
 # window.Element
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)  
 
 
 ## nodeName : `string`
@@ -11,14 +11,14 @@
 **Read only**
 A string representing the local part of the qualified name of the element
 
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/localName  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/localName](https://developer.mozilla.org/en-US/docs/Web/API/Element/localName)  
 
 
 ## tagName : `string`
 **Read only**
 A string indicating the element's tag name
 
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName](https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName)  
 
 
 ## nodeType : `number`
@@ -29,13 +29,13 @@ A string indicating the element's tag name
 **Read only**
 Returns the namespace URI of the element, or null if the element is not in a namespace.
 
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/namespaceURI  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/namespaceURI](https://developer.mozilla.org/en-US/docs/Web/API/Element/namespaceURI)  
 
 
 ## id : `string`
 Returns the property of the `Element` interface represents the element's identifier, reflecting the id global attribute.
 
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/id  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/id](https://developer.mozilla.org/en-US/docs/Web/API/Element/id)  
 
 
 ## tabIndex : `number`
@@ -130,8 +130,8 @@ Returns the open shadow root that is hosted by the element, or null if no open s
 ## innerHTML
 **See**
 
-- https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
-- https://w3c.github.io/DOM-Parsing/#the-innerhtml-mixin
+- [https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+- [https://w3c.github.io/DOM-Parsing/#the-innerhtml-mixin](https://w3c.github.io/DOM-Parsing/#the-innerhtml-mixin)
 
 
 | Param | Type |
@@ -222,7 +222,7 @@ Returns the open shadow root that is hosted by the element, or null if no open s
 ## append(...nodes)
 Inserts a set of Node objects or string objects after the last child of the Element.
 
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/append  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/append](https://developer.mozilla.org/en-US/docs/Web/API/Element/append)  
 **Since**: v8.0  
 
 | Param | Type |
@@ -234,7 +234,7 @@ Inserts a set of Node objects or string objects after the last child of the Elem
 ## prepend(...nodes)
 Inserts a set of Node objects or string objects before the first child of the Element.
 
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend](https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend)  
 **Since**: v8.0  
 
 | Param | Type |
@@ -246,7 +246,7 @@ Inserts a set of Node objects or string objects before the first child of the El
 ## replaceChildren(...nodes)
 Replaces the existing children of a Node with a specified new set of children. These can be string or Node objects.
 
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren](https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren)  
 **Since**: v8.0  
 
 | Param | Type |
@@ -258,7 +258,7 @@ Replaces the existing children of a Node with a specified new set of children. T
 ## scrollTo(xOrOptions, y)
 Scrolls the element to the new x and y positions. If options object is used with behavior: "smooth" then the element is smoothly scrolled.
 
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo)  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -300,7 +300,7 @@ Attaches a shadow DOM tree to the specified element and returns a reference to i
 
 ## getAttribute(name)
 **Returns**: `string`  
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute)  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -309,7 +309,7 @@ Attaches a shadow DOM tree to the specified element and returns a reference to i
 
 
 ## setAttribute(name, value)
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -319,7 +319,7 @@ Attaches a shadow DOM tree to the specified element and returns a reference to i
 
 
 ## removeAttribute(name)
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute](https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute)  
 
 | Param | Type |
 | --- | --- |
@@ -329,7 +329,7 @@ Attaches a shadow DOM tree to the specified element and returns a reference to i
 
 ## hasAttribute(name)
 **Returns**: `boolean`  
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute)  
 
 | Param | Type |
 | --- | --- |
@@ -341,19 +341,19 @@ Attaches a shadow DOM tree to the specified element and returns a reference to i
 Returns a boolean value indicating whether the current element has any attributes or not.
 
 **Returns**: `boolean`  
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttributes  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttributes](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttributes)  
 
 
 ## getAttributeNames()
 Returns the attribute names of the element as an Array of strings
 
 **Returns**: `Array`  
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNames  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNames](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNames)  
 
 
 ## getAttributeNode(name)
 **Returns**: `*`  
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNode  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNode](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNode)  
 
 | Param | Type |
 | --- | --- |
@@ -362,7 +362,7 @@ Returns the attribute names of the element as an Array of strings
 
 
 ## setAttributeNode(newAttr)
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttributeNode  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttributeNode](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttributeNode)  
 
 | Param | Type |
 | --- | --- |
@@ -500,7 +500,7 @@ Checks if the element has pointer capture for the specified pointer.
 
 ## closest(selectorString)
 **Returns**: `Element`  
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/closest  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/closest](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest)  
 
 | Param | Type |
 | --- | --- |
@@ -510,7 +510,7 @@ Checks if the element has pointer capture for the specified pointer.
 
 ## matches(selectorString)
 **Returns**: `boolean`  
-**See**: https://developer.mozilla.org/en-US/docs/Web/API/Element/matches  
+**See**: [https://developer.mozilla.org/en-US/docs/Web/API/Element/matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)  
 
 | Param | Type |
 | --- | --- |

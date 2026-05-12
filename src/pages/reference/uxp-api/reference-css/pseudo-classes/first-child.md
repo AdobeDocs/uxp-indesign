@@ -7,7 +7,7 @@ jsDoc: true
 
 Matches only the first child.
 
-**See:** https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child
+**See:** [https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child)
 
 **Example:**
 
