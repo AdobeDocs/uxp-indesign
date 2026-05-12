@@ -1,7 +1,7 @@
 {
-  "total": 1473,
+  "total": 1465,
   "offset": 0,
-  "limit": 1473,
+  "limit": 1465,
   "data": [
     {
       "page": "/",
@@ -6750,20 +6750,10 @@
     {
       "page": "/reference/uxp-api/reference-js/modules/fs/",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
-    },
-    {
-      "page": "/reference/uxp-api/reference-js/modules/fs/fs",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/modules/os/",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
-    },
-    {
-      "page": "/reference/uxp-api/reference-js/modules/os/os",
       "avatars": [],
       "lastUpdated": "5/12/2026"
     },
@@ -6815,22 +6805,12 @@
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/host-information/",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
-    },
-    {
-      "page": "/reference/uxp-api/reference-js/modules/uxp/host-information/host",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/key-value-storage/",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
-    },
-    {
-      "page": "/reference/uxp-api/reference-js/modules/uxp/key-value-storage/secure-storage",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/persistent-file-storage/",
@@ -6925,12 +6905,7 @@
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/shell/",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
-    },
-    {
-      "page": "/reference/uxp-api/reference-js/modules/uxp/shell/shell",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/user-information/",
@@ -6938,19 +6913,9 @@
       "lastUpdated": "5/11/2026"
     },
     {
-      "page": "/reference/uxp-api/reference-js/modules/uxp/user-information/user-info",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
-    },
-    {
       "page": "/reference/uxp-api/reference-js/modules/uxp/versions/",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
-    },
-    {
-      "page": "/reference/uxp-api/reference-js/modules/uxp/versions/versions",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/xmp/",
@@ -6960,12 +6925,7 @@
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/xmp/getting-started/",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
-    },
-    {
-      "page": "/reference/uxp-api/reference-js/modules/uxp/xmp/getting-started/xmp",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/xmp/xmp-classes/",
