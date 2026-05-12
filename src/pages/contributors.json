@@ -1,7 +1,7 @@
 {
-  "total": 1476,
+  "total": 1473,
   "offset": 0,
-  "limit": 1476,
+  "limit": 1473,
   "data": [
     {
       "page": "/",
@@ -26,7 +26,7 @@
     {
       "page": "/config",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/dom/api/",
@@ -5615,17 +5615,17 @@
     {
       "page": "/reference/uxp-api/reference-css/general/calc",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/general/units",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/general/variables",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/media-queries/",
@@ -5635,7 +5635,7 @@
     {
       "page": "/reference/uxp-api/reference-css/media-queries/height",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/media-queries/prefers-color-scheme",
@@ -5645,7 +5645,7 @@
     {
       "page": "/reference/uxp-api/reference-css/media-queries/width",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/",
@@ -5655,12 +5655,12 @@
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/active",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/checked",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/defined",
@@ -5670,67 +5670,67 @@
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/disabled",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/empty",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/enabled",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/first-child",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/focus",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/hover",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/last-child",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/nth-child",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/nth-last-child",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/nth-last-of-type",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/nth-of-type",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/only-child",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-classes/root",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-elements/",
@@ -5740,12 +5740,12 @@
     {
       "page": "/reference/uxp-api/reference-css/pseudo-elements/after",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/pseudo-elements/before",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/selectors/",
@@ -5755,47 +5755,47 @@
     {
       "page": "/reference/uxp-api/reference-css/selectors/adjacent-sibling-combinator",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/selectors/attribute-selector",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/selectors/child-combinator",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/selectors/class-selector",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/selectors/descendant-combinator",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/selectors/general-sibling-combinator",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/selectors/identifier-selector",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/selectors/type-selector",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/selectors/universal-selector",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/",
@@ -5805,372 +5805,372 @@
     {
       "page": "/reference/uxp-api/reference-css/styles/align-content",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/align-items",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/align-self",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/background",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/background-attachment",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/background-color",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/background-image",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/background-repeat",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/background-size",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-bottom",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-bottom-color",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-bottom-left-radius",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-bottom-right-radius",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-bottom-style",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-bottom-width",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-color",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-left",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-left-color",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-left-style",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-left-width",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-radius",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-right",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-right-color",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-right-style",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-right-width",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-style",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-top",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-top-color",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-top-left-radius",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-top-style",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-top-width",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/border-width",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/bottom",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/color",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/display",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/flex",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/flex-basis",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/flex-direction",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/flex-grow",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/flex-shrink",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/flex-wrap",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/font-family",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/font-size",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/font-style",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/font-weight",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/height",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/justify-content",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/left",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/letter-spacing",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/margin",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/margin-bottom",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/margin-left",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/margin-right",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/margin-top",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/max-height",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/max-width",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/min-height",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/min-width",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/opacity",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/overflow",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/overflow-x",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/overflow-y",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/padding",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/padding-bottom",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/padding-left",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/padding-right",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/padding-top",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/right",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/text-align",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/text-overflow",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/top",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/visibility",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/white-space",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-css/styles/width",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/",
@@ -6185,32 +6185,32 @@
     {
       "page": "/reference/uxp-api/reference-html/general/body",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/general/head",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/general/html",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/general/link",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/general/script",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/general/style",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/general/unsupported-attributes",
@@ -6230,42 +6230,42 @@
     {
       "page": "/reference/uxp-api/reference-html/hierarchy/footer",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/hierarchy/h1",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/hierarchy/h2",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/hierarchy/h3",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/hierarchy/h4",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/hierarchy/h5",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/hierarchy/h6",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-html/hierarchy/hr",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/",
@@ -6285,12 +6285,7 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/crypto/",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
-    },
-    {
-      "page": "/reference/uxp-api/reference-js/global-members/crypto/crypto",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/data-storage/",
@@ -6320,7 +6315,7 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/data-transfers/clipboard",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/data-transfers/fetch",
@@ -6350,7 +6345,7 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/data-transfers/web-socket",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/data-transfers/xml-http-request",
@@ -6365,12 +6360,12 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/abort-controller",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/abort-signal",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/alert",
@@ -6380,7 +6375,7 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/attr",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/canvas-gradient",
@@ -6395,17 +6390,17 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/character-data",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/class-list",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/comment",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/confirm",
@@ -6420,7 +6415,7 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/document",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/document-fragment",
@@ -6430,12 +6425,12 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/dom-token-list",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/get-computed-style",
@@ -6445,17 +6440,17 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/html-collection",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/named-node-map",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/node",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/node-filter",
@@ -6465,7 +6460,7 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/node-list",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/path2-d",
@@ -6485,12 +6480,12 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/text",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-dom/tree-walker",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/",
@@ -6500,17 +6495,17 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-anchor-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-body-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-button-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-canvas-element",
@@ -6520,72 +6515,72 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-dialog-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-head-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-html-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-image-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-input-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-label-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-link-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-menu-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-menu-item-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-option-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-progress-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-script-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-select-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-slot-element",
@@ -6595,7 +6590,7 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-style-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-template-element",
@@ -6605,17 +6600,17 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-text-area-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-video-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-elements/html-web-view-element",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-events/",
@@ -6625,57 +6620,57 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-events/base-ui-event",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-events/close-event",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-events/drag-event",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-events/error-event",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-events/event",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-events/event-target",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-events/gesture-event",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-events/keyboard-event",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-events/message-event",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-events/pointer-event",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/html-events/progress-event",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/image-blob",
@@ -6685,12 +6680,7 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/image-blob/",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
-    },
-    {
-      "page": "/reference/uxp-api/reference-js/global-members/image-blob/image-blob",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/path",
@@ -6700,12 +6690,7 @@
     {
       "page": "/reference/uxp-api/reference-js/global-members/path/",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
-    },
-    {
-      "page": "/reference/uxp-api/reference-js/global-members/path/path",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/streams/",
@@ -6780,7 +6765,7 @@
     {
       "page": "/reference/uxp-api/reference-js/modules/os/os",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/",
@@ -6795,7 +6780,7 @@
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/entry-points/entry-points",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/entry-points/entry-points-error",
@@ -6990,7 +6975,7 @@
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/xmp/xmp-classes/xmp-const",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/xmp/xmp-classes/xmp-date-time",
@@ -7055,22 +7040,22 @@
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/typography/sp-body",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/typography/sp-detail",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/typography/sp-heading",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/typography/sp-label",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/",
@@ -7080,77 +7065,77 @@
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-action-button",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-button",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-checkbox",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-divider",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-dropdown",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-icon",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-link",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-menu",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-menu-item",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-progressbar",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-radio",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-radio-group",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-slider",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-textarea",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/user-interface/sp-textfield",
       "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "5/12/2026"
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/using-with-react",
