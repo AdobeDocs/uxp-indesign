@@ -81,7 +81,6 @@
         - [Flyout Menus](/resources/recipes/flyout-menu/index.md)
         - [Persistent Storage Migration](/resources/recipes/persistent-storage-migration/index.md)
     - UXP API reference header
-    - [UXP API](/reference/uxp-api/index.md)
     - [JavaScript Reference](/reference/uxp-api/reference-js/index.md)
         - [Global Members](/reference/uxp-api/reference-js/global-members/index.md)
             - [Crypto](/reference/uxp-api/reference-js/global-members/crypto/index.md)

@@ -22,13 +22,13 @@ A UXP script can be directly shared. Just share your `.idjs` file with your fami
 
 While sharing your plugins, you have a couple of options:
 
-<Announcement slots="heading, text, buttons" backgroundColor="background-color-gray" />
+<Announcement slots="heading, text, button" variant="primary" backgroundColor="background-color-gray"/>
 
 ### Distribute on Creative Cloud Plugin Marketplace
 
 Use the Developer Distribution portal to submit your plugin to the Plugin Marketplace to reach a large number of users. Users can download your plugin directly in the Creative Cloud desktop app.
 
-[Developer Distribution Documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/)
+- [Developer Distribution Documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/)
 
 ### Direct distribution with `.ccx` files
 
