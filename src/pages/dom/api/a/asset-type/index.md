@@ -7,43 +7,43 @@ Asset type options.
 > Number **IMAGE_TYPE** = 1952409965
 > 
 > The asset is cataloged as an image asset.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EPS_TYPE** = 1952400720
 > 
 > The asset is cataloged as an EPS asset.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PDF_TYPE** = 1952403524
 > 
 > The asset is cataloged as a PDF asset.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **GEOMETRY_TYPE** = 1952409445
 > 
 > The asset is cataloged as a geometric page item asset.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PAGE_TYPE** = 1952411745
 > 
 > The asset is cataloged as a page asset.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TEXT_TYPE** = 1952412773
 > 
 > The asset is cataloged as a text asset.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **STRUCTURE_TYPE** = 1952412532
 > 
 > Structure asset
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **INDESIGN_FILE_TYPE** = 1952409956

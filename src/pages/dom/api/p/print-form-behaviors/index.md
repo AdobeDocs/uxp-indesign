@@ -12,7 +12,7 @@ A collection of print form behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the PrintFormBehavior.
-*** 
+<HorizontalLine />
 > PrintFormBehavior **add**( Object **withProperties** )
 > 
 > Creates a new PrintFormBehavior.
@@ -21,7 +21,7 @@ A collection of print form behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new PrintFormBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > PrintFormBehavior **item**( Mixed **index** )
 > 
 > Returns the PrintFormBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of print form behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PrintFormBehavior **itemByName**( String **name** )
 > 
 > Returns the PrintFormBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of print form behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > PrintFormBehavior **itemByID**( Number **id** )
 > 
 > Returns the PrintFormBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of print form behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > PrintFormBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the PrintFormBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of print form behavior objects.
 | Mixed | from | The PrintFormBehavior, index, or name at the beginning of the range. Can accept: PrintFormBehavior, Long Integer or String. |
 | Mixed | to | The PrintFormBehavior, index, or name at the end of the range. Can accept: PrintFormBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PrintFormBehavior **firstItem**()
 > 
 > Returns the first PrintFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > PrintFormBehavior **lastItem**()
 > 
 > Returns the last PrintFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > PrintFormBehavior **middleItem**()
 > 
 > Returns the middle PrintFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > PrintFormBehavior **previousItem**( PrintFormBehavior **obj** )
 > 
 > Returns the PrintFormBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of print form behavior objects.
 |---|---|---|
 | PrintFormBehavior | obj | The index of the PrintFormBehavior that follows the desired PrintFormBehavior. |
 
-*** 
+<HorizontalLine />
 > PrintFormBehavior **nextItem**( PrintFormBehavior **obj** )
 > 
 > Returns the PrintFormBehavior whose index follows the specified PrintFormBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of print form behavior objects.
 |---|---|---|
 | PrintFormBehavior | obj | The PrintFormBehavior whose index comes before the desired PrintFormBehavior. |
 
-*** 
+<HorizontalLine />
 > PrintFormBehavior **anyItem**()
 > 
 > Returns any PrintFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > PrintFormBehavior **everyItem**()
 > 
 > Returns every PrintFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the PrintFormBehavior.
-*** 
+<HorizontalLine />
 > PrintFormBehavior **[]**( Number **index** )
 > 
 > Returns the PrintFormBehavior with the specified index.

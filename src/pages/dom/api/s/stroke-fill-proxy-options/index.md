@@ -7,7 +7,7 @@ Options for the active stroke/fill proxy.
 > Number **STROKE** = 1400140395
 > 
 > Stroke proxy is active.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FILL** = 1181314156

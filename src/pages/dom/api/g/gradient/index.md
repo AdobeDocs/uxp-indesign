@@ -7,61 +7,61 @@ A gradient.
 > ColorGroup **parentColorGroup** 
 >
 > The color group that a swatch belongs to
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **id** 
 >
 > The unique ID of the Gradient.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Mixed **parent** 
 >
 > The parent of the Gradient (a Application or Document).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **index** 
 >
 > The index of the Gradient within its containing object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > GradientStops **gradientStops** 
 >
 > A collection of gradient stops.
-*** 
+<HorizontalLine />
 > GradientType **type** 
 >
 > The gradient type.
-*** 
+<HorizontalLine />
 > String **name** 
 >
 > The name of the Gradient.
-*** 
+<HorizontalLine />
 > String **label** 
 >
 > A property that can be set to any string.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -75,11 +75,11 @@ A gradient.
 |---|---|---|
 | Swatch | replacingWith | The swatch to apply in place of the deleted swatch. (Optional) |
 
-*** 
+<HorizontalLine />
 > Gradient **duplicate**()
 > 
 > Duplicates the Gradient.
-*** 
+<HorizontalLine />
 > Swatch **merge**( Mixed **with** )
 > 
 > Merges the specified swatches with the swatch.
@@ -88,7 +88,7 @@ A gradient.
 |---|---|---|
 | Mixed | with | The swatches to merge. Can accept: Array of Swatches, Swatch or String. |
 
-*** 
+<HorizontalLine />
 > **insertLabel**( String **key**, String **value** )
 > 
 > Sets the label to the value associated with the specified key.
@@ -98,7 +98,7 @@ A gradient.
 | String | key | The key. |
 | String | value | The value. |
 
-*** 
+<HorizontalLine />
 > String **extractLabel**( String **key** )
 > 
 > Gets the label value associated with the specified key.
@@ -107,19 +107,19 @@ A gradient.
 |---|---|---|
 | String | key | The key. |
 
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Gradient.
-*** 
+<HorizontalLine />
 > Gradient **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -130,7 +130,7 @@ A gradient.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

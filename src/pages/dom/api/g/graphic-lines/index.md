@@ -12,7 +12,7 @@ A collection of graphic lines.
 > Number **count**()
 > 
 > Displays the number of elements in the GraphicLine.
-*** 
+<HorizontalLine />
 > GraphicLine **add**( Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new GraphicLine
@@ -24,7 +24,7 @@ A collection of graphic lines.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new GraphicLine (Optional) |
 
-*** 
+<HorizontalLine />
 > GraphicLine **item**( Mixed **index** )
 > 
 > Returns the GraphicLine with the specified index or name.
@@ -33,7 +33,7 @@ A collection of graphic lines.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GraphicLine **itemByName**( String **name** )
 > 
 > Returns the GraphicLine with the specified name.
@@ -42,7 +42,7 @@ A collection of graphic lines.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > GraphicLine **itemByID**( Number **id** )
 > 
 > Returns the GraphicLine with the specified ID.
@@ -51,7 +51,7 @@ A collection of graphic lines.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > GraphicLine **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the GraphicLines within the specified range.
@@ -61,19 +61,19 @@ A collection of graphic lines.
 | Mixed | from | The GraphicLine, index, or name at the beginning of the range. Can accept: GraphicLine, Long Integer or String. |
 | Mixed | to | The GraphicLine, index, or name at the end of the range. Can accept: GraphicLine, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GraphicLine **firstItem**()
 > 
 > Returns the first GraphicLine in the collection.
-*** 
+<HorizontalLine />
 > GraphicLine **lastItem**()
 > 
 > Returns the last GraphicLine in the collection.
-*** 
+<HorizontalLine />
 > GraphicLine **middleItem**()
 > 
 > Returns the middle GraphicLine in the collection.
-*** 
+<HorizontalLine />
 > GraphicLine **previousItem**( GraphicLine **obj** )
 > 
 > Returns the GraphicLine with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of graphic lines.
 |---|---|---|
 | GraphicLine | obj | The index of the GraphicLine that follows the desired GraphicLine. |
 
-*** 
+<HorizontalLine />
 > GraphicLine **nextItem**( GraphicLine **obj** )
 > 
 > Returns the GraphicLine whose index follows the specified GraphicLine in the collection.
@@ -91,19 +91,19 @@ A collection of graphic lines.
 |---|---|---|
 | GraphicLine | obj | The GraphicLine whose index comes before the desired GraphicLine. |
 
-*** 
+<HorizontalLine />
 > GraphicLine **anyItem**()
 > 
 > Returns any GraphicLine in the collection.
-*** 
+<HorizontalLine />
 > GraphicLine **everyItem**()
 > 
 > Returns every GraphicLine in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the GraphicLine.
-*** 
+<HorizontalLine />
 > GraphicLine **[]**( Number **index** )
 > 
 > Returns the GraphicLine with the specified index.

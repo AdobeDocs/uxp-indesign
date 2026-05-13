@@ -7,61 +7,61 @@ Spell-check preferences.
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Application **parent** 
 >
 > The parent of the SpellPreference (a Application).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > Boolean **dynamicSpellCheck** 
 >
 > If true, underlines misspelled and repeated words, uncapitalized proper nouns, and uncapitalized first words in sentences. Note: Valid only when the corresponding properties are true. For information, see check misspelled words, check repeated words, check capitalized words, and check capitalized sentences.
-*** 
+<HorizontalLine />
 > Mixed **misspelledWordColor** 
 >
 > The underline color for misspelled words, specified either as an array of three doubles, each in the range 0 to 255 and representing R, G, and B values, or as a UI color. Note: Valid only when both dynamic spell check and check misspelled words are true. Can return: Array of 3 Reals (0 - 255) or UIColors enumerator.
-*** 
+<HorizontalLine />
 > Mixed **repeatedWordColor** 
 >
 > The underline color for repeated words, specified either as an array of three doubles, each in the range 0 to 255 and representing R, G, and B values, or as a UI color. Note: Valid only when both dynamic spell check and check repeated words are true. . Can return: Array of 3 Reals (0 - 255) or UIColors enumerator.
-*** 
+<HorizontalLine />
 > Mixed **uncapitalizedWordColor** 
 >
 > The underline color for uncapitalized proper nouns, specified either as an array of three doubles, each in the range 0 to 255 and representing R, G, and B values, or as a UI color. Note: Valid only when both dynamic spell check and check capitalized words are true. . Can return: Array of 3 Reals (0 - 255) or UIColors enumerator.
-*** 
+<HorizontalLine />
 > Mixed **uncapitalizedSentenceColor** 
 >
 > The underline color for the first word in sentences that do not begin with a capital letter, specified either as an array of three doubles, each in the range 0 to 255 and representing R, G, and B values, or as a UI color. Note: Valid when both dynamic spell check and check capitalized sentences are true. Can return: Array of 3 Reals (0 - 255) or UIColors enumerator.
-*** 
+<HorizontalLine />
 > Boolean **checkMisspelledWords** 
 >
 > If true, checks for misspelled words.
-*** 
+<HorizontalLine />
 > Boolean **checkRepeatedWords** 
 >
 > If true, checks for repeated words.
-*** 
+<HorizontalLine />
 > Boolean **checkCapitalizedWords** 
 >
 > If true, checks for uncapitalized proper nouns.
-*** 
+<HorizontalLine />
 > Boolean **checkCapitalizedSentences** 
 >
 > If true, checks for uncapitalized first words in sentences.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -70,15 +70,15 @@ Spell-check preferences.
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the SpellPreference.
-*** 
+<HorizontalLine />
 > SpellPreference **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -89,7 +89,7 @@ Spell-check preferences.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

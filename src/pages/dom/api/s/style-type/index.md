@@ -7,7 +7,7 @@ Style Type
 > Number **CHARACTER_STYLE_TYPE** = 1665684340
 > 
 > Character Style
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PARAGRAPH_STYLE_TYPE** = 1883730548

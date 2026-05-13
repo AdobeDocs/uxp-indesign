@@ -7,7 +7,7 @@ Change bar location options.
 > Number **LEFT_ALIGN** = 1818584692
 > 
 > Change bars are in the left margin.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **RIGHT_ALIGN** = 1919379572

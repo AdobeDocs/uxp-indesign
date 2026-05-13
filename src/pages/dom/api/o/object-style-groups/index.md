@@ -17,11 +17,11 @@ A collection of object style groups.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new ObjectStyleGroup (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the ObjectStyleGroup.
-*** 
+<HorizontalLine />
 > ObjectStyleGroup **item**( Mixed **index** )
 > 
 > Returns the ObjectStyleGroup with the specified index or name.
@@ -30,7 +30,7 @@ A collection of object style groups.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ObjectStyleGroup **itemByName**( String **name** )
 > 
 > Returns the ObjectStyleGroup with the specified name.
@@ -39,7 +39,7 @@ A collection of object style groups.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > ObjectStyleGroup **itemByID**( Number **id** )
 > 
 > Returns the ObjectStyleGroup with the specified ID.
@@ -48,7 +48,7 @@ A collection of object style groups.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > ObjectStyleGroup **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ObjectStyleGroups within the specified range.
@@ -58,19 +58,19 @@ A collection of object style groups.
 | Mixed | from | The ObjectStyleGroup, index, or name at the beginning of the range. Can accept: ObjectStyleGroup, Long Integer or String. |
 | Mixed | to | The ObjectStyleGroup, index, or name at the end of the range. Can accept: ObjectStyleGroup, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ObjectStyleGroup **firstItem**()
 > 
 > Returns the first ObjectStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > ObjectStyleGroup **lastItem**()
 > 
 > Returns the last ObjectStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > ObjectStyleGroup **middleItem**()
 > 
 > Returns the middle ObjectStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > ObjectStyleGroup **previousItem**( ObjectStyleGroup **obj** )
 > 
 > Returns the ObjectStyleGroup with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of object style groups.
 |---|---|---|
 | ObjectStyleGroup | obj | The index of the ObjectStyleGroup that follows the desired ObjectStyleGroup. |
 
-*** 
+<HorizontalLine />
 > ObjectStyleGroup **nextItem**( ObjectStyleGroup **obj** )
 > 
 > Returns the ObjectStyleGroup whose index follows the specified ObjectStyleGroup in the collection.
@@ -88,19 +88,19 @@ A collection of object style groups.
 |---|---|---|
 | ObjectStyleGroup | obj | The ObjectStyleGroup whose index comes before the desired ObjectStyleGroup. |
 
-*** 
+<HorizontalLine />
 > ObjectStyleGroup **anyItem**()
 > 
 > Returns any ObjectStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > ObjectStyleGroup **everyItem**()
 > 
 > Returns every ObjectStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ObjectStyleGroup.
-*** 
+<HorizontalLine />
 > ObjectStyleGroup **[]**( Number **index** )
 > 
 > Returns the ObjectStyleGroup with the specified index.

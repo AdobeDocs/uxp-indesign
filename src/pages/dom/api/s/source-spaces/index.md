@@ -7,7 +7,7 @@ Color-management system source options.
 > Number **USE_DOCUMENT** = 1967419235
 > 
 > Uses the color space of the document.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PROOF_SPACE** = 1886548848

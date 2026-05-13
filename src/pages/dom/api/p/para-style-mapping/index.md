@@ -7,43 +7,43 @@ A para style mapping.
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Mixed **parent** 
 >
 > The parent of the ParaStyleMapping (a Application, Document, Story or XmlStory).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **index** 
 >
 > The index of the ParaStyleMapping within its containing object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > String **sourceStyleName** 
 >
 > The source style name property.
-*** 
+<HorizontalLine />
 > String **destinationStyleName** 
 >
 > The destination style name property.
-*** 
+<HorizontalLine />
 > MapType **mappingRuleType** 
 >
 > The type of the mapping rule.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -52,19 +52,19 @@ A para style mapping.
 > **remove**()
 > 
 > deletes a style mapping.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ParaStyleMapping.
-*** 
+<HorizontalLine />
 > ParaStyleMapping **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -75,7 +75,7 @@ A para style mapping.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

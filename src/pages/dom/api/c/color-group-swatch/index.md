@@ -7,43 +7,43 @@ A color group swatch.
 > Swatch **swatchItemRef** 
 >
 > The underlying swatch item
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **id** 
 >
 > The unique ID of the ColorGroupSwatch.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > ColorGroup **parent** 
 >
 > The parent of the ColorGroupSwatch (a ColorGroup).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **index** 
 >
 > The index of the ColorGroupSwatch within its containing object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -52,15 +52,15 @@ A color group swatch.
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ColorGroupSwatch.
-*** 
+<HorizontalLine />
 > ColorGroupSwatch **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -71,7 +71,7 @@ A color group swatch.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

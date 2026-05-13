@@ -7,19 +7,19 @@ Marking options for changed text.
 > Number **NONE** = 1852796517
 > 
 > Does not mark changed text.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **STRIKETHROUGH** = 1699968114
 > 
 > Uses a strikethrough to mark changed text.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **UNDERLINE_SINGLE** = 1700097636
 > 
 > Underlines changed text.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OUTLINE** = 1869900910

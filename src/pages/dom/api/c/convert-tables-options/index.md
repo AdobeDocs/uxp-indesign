@@ -7,7 +7,7 @@ Options for converting tables.
 > Number **UNFORMATTED_TABLE** = 1396921684
 > 
 > Converts tables to basic, unformatted tables.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **UNFORMATTED_TABBED_TEXT** = 1398101076

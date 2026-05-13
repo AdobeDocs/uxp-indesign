@@ -12,7 +12,7 @@ A collection of goto next page behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the GotoNextPageBehavior.
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **add**( Object **withProperties** )
 > 
 > Creates a new GotoNextPageBehavior.
@@ -21,7 +21,7 @@ A collection of goto next page behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new GotoNextPageBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **item**( Mixed **index** )
 > 
 > Returns the GotoNextPageBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of goto next page behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **itemByName**( String **name** )
 > 
 > Returns the GotoNextPageBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of goto next page behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **itemByID**( Number **id** )
 > 
 > Returns the GotoNextPageBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of goto next page behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the GotoNextPageBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of goto next page behavior objects.
 | Mixed | from | The GotoNextPageBehavior, index, or name at the beginning of the range. Can accept: GotoNextPageBehavior, Long Integer or String. |
 | Mixed | to | The GotoNextPageBehavior, index, or name at the end of the range. Can accept: GotoNextPageBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **firstItem**()
 > 
 > Returns the first GotoNextPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **lastItem**()
 > 
 > Returns the last GotoNextPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **middleItem**()
 > 
 > Returns the middle GotoNextPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **previousItem**( GotoNextPageBehavior **obj** )
 > 
 > Returns the GotoNextPageBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of goto next page behavior objects.
 |---|---|---|
 | GotoNextPageBehavior | obj | The index of the GotoNextPageBehavior that follows the desired GotoNextPageBehavior. |
 
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **nextItem**( GotoNextPageBehavior **obj** )
 > 
 > Returns the GotoNextPageBehavior whose index follows the specified GotoNextPageBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of goto next page behavior objects.
 |---|---|---|
 | GotoNextPageBehavior | obj | The GotoNextPageBehavior whose index comes before the desired GotoNextPageBehavior. |
 
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **anyItem**()
 > 
 > Returns any GotoNextPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **everyItem**()
 > 
 > Returns every GotoNextPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the GotoNextPageBehavior.
-*** 
+<HorizontalLine />
 > GotoNextPageBehavior **[]**( Number **index** )
 > 
 > Returns the GotoNextPageBehavior with the specified index.

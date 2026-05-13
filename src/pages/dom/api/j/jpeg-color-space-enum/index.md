@@ -7,13 +7,13 @@ Color space options for representing color in the exported JPEG.
 > Number **RGB** = 1666336578
 > 
 > Represents all color values using the RGB color space. Best suited for documents that will be viewed on-screen.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CMYK** = 1129142603
 > 
 > Represents all color values using the CMYK color space.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **GRAY** = 1766290041

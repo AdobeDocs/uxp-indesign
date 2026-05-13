@@ -7,19 +7,19 @@ The ICC profiles to include in the PDF document.
 > Number **INCLUDE_NONE** = 1229144942
 > 
 > Does not include ICC profiles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **INCLUDE_ALL** = 1229144929
 > 
 > Includes all ICC profiles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **INCLUDE_TAGGED** = 1229144948
 > 
 > Includes tagged source profiles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **INCLUDE_RGB_AND_TAGGED** = 1229144946

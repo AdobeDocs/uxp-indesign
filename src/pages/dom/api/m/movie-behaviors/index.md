@@ -12,7 +12,7 @@ A collection of movie behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the MovieBehavior.
-*** 
+<HorizontalLine />
 > MovieBehavior **add**( Object **withProperties** )
 > 
 > Creates a new MovieBehavior.
@@ -21,7 +21,7 @@ A collection of movie behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new MovieBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > MovieBehavior **item**( Mixed **index** )
 > 
 > Returns the MovieBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of movie behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MovieBehavior **itemByName**( String **name** )
 > 
 > Returns the MovieBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of movie behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > MovieBehavior **itemByID**( Number **id** )
 > 
 > Returns the MovieBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of movie behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > MovieBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the MovieBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of movie behavior objects.
 | Mixed | from | The MovieBehavior, index, or name at the beginning of the range. Can accept: MovieBehavior, Long Integer or String. |
 | Mixed | to | The MovieBehavior, index, or name at the end of the range. Can accept: MovieBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MovieBehavior **firstItem**()
 > 
 > Returns the first MovieBehavior in the collection.
-*** 
+<HorizontalLine />
 > MovieBehavior **lastItem**()
 > 
 > Returns the last MovieBehavior in the collection.
-*** 
+<HorizontalLine />
 > MovieBehavior **middleItem**()
 > 
 > Returns the middle MovieBehavior in the collection.
-*** 
+<HorizontalLine />
 > MovieBehavior **previousItem**( MovieBehavior **obj** )
 > 
 > Returns the MovieBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of movie behavior objects.
 |---|---|---|
 | MovieBehavior | obj | The index of the MovieBehavior that follows the desired MovieBehavior. |
 
-*** 
+<HorizontalLine />
 > MovieBehavior **nextItem**( MovieBehavior **obj** )
 > 
 > Returns the MovieBehavior whose index follows the specified MovieBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of movie behavior objects.
 |---|---|---|
 | MovieBehavior | obj | The MovieBehavior whose index comes before the desired MovieBehavior. |
 
-*** 
+<HorizontalLine />
 > MovieBehavior **anyItem**()
 > 
 > Returns any MovieBehavior in the collection.
-*** 
+<HorizontalLine />
 > MovieBehavior **everyItem**()
 > 
 > Returns every MovieBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the MovieBehavior.
-*** 
+<HorizontalLine />
 > MovieBehavior **[]**( Number **index** )
 > 
 > Returns the MovieBehavior with the specified index.

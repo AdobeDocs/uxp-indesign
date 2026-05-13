@@ -12,7 +12,7 @@ A collection of xml stories.
 > Number **count**()
 > 
 > Displays the number of elements in the XmlStory.
-*** 
+<HorizontalLine />
 > XmlStory **item**( Mixed **index** )
 > 
 > Returns the XmlStory with the specified index or name.
@@ -21,7 +21,7 @@ A collection of xml stories.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XmlStory **itemByName**( String **name** )
 > 
 > Returns the XmlStory with the specified name.
@@ -30,7 +30,7 @@ A collection of xml stories.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > XmlStory **itemByID**( Number **id** )
 > 
 > Returns the XmlStory with the specified ID.
@@ -39,7 +39,7 @@ A collection of xml stories.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > XmlStory **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the XmlStories within the specified range.
@@ -49,19 +49,19 @@ A collection of xml stories.
 | Mixed | from | The XmlStory, index, or name at the beginning of the range. Can accept: XmlStory, Long Integer or String. |
 | Mixed | to | The XmlStory, index, or name at the end of the range. Can accept: XmlStory, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XmlStory **firstItem**()
 > 
 > Returns the first XmlStory in the collection.
-*** 
+<HorizontalLine />
 > XmlStory **lastItem**()
 > 
 > Returns the last XmlStory in the collection.
-*** 
+<HorizontalLine />
 > XmlStory **middleItem**()
 > 
 > Returns the middle XmlStory in the collection.
-*** 
+<HorizontalLine />
 > XmlStory **previousItem**( XmlStory **obj** )
 > 
 > Returns the XmlStory with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of xml stories.
 |---|---|---|
 | XmlStory | obj | The index of the XmlStory that follows the desired XmlStory. |
 
-*** 
+<HorizontalLine />
 > XmlStory **nextItem**( XmlStory **obj** )
 > 
 > Returns the XmlStory whose index follows the specified XmlStory in the collection.
@@ -79,19 +79,19 @@ A collection of xml stories.
 |---|---|---|
 | XmlStory | obj | The XmlStory whose index comes before the desired XmlStory. |
 
-*** 
+<HorizontalLine />
 > XmlStory **anyItem**()
 > 
 > Returns any XmlStory in the collection.
-*** 
+<HorizontalLine />
 > XmlStory **everyItem**()
 > 
 > Returns every XmlStory in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the XmlStory.
-*** 
+<HorizontalLine />
 > XmlStory **[]**( Number **index** )
 > 
 > Returns the XmlStory with the specified index.

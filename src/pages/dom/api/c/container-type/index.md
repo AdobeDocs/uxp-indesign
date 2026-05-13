@@ -7,13 +7,13 @@ The container type.
 > Number **BAG** = 1298424423
 > 
 > The container contains unordered items.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SEQ** = 1298428785
 > 
 > The container contains ordered or sequential items.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ALT** = 1298424180

@@ -18,11 +18,11 @@ A collection of hyperlink URL destinations.
 | String | destination | The URL that the hyperlink points to. (Optional) |
 | Object | withProperties | Initial values for properties of the new HyperlinkURLDestination (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the HyperlinkURLDestination.
-*** 
+<HorizontalLine />
 > HyperlinkURLDestination **item**( Mixed **index** )
 > 
 > Returns the HyperlinkURLDestination with the specified index or name.
@@ -31,7 +31,7 @@ A collection of hyperlink URL destinations.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > HyperlinkURLDestination **itemByName**( String **name** )
 > 
 > Returns the HyperlinkURLDestination with the specified name.
@@ -40,7 +40,7 @@ A collection of hyperlink URL destinations.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > HyperlinkURLDestination **itemByID**( Number **id** )
 > 
 > Returns the HyperlinkURLDestination with the specified ID.
@@ -49,7 +49,7 @@ A collection of hyperlink URL destinations.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > HyperlinkURLDestination **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the HyperlinkURLDestinations within the specified range.
@@ -59,19 +59,19 @@ A collection of hyperlink URL destinations.
 | Mixed | from | The HyperlinkURLDestination, index, or name at the beginning of the range. Can accept: HyperlinkURLDestination, Long Integer or String. |
 | Mixed | to | The HyperlinkURLDestination, index, or name at the end of the range. Can accept: HyperlinkURLDestination, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > HyperlinkURLDestination **firstItem**()
 > 
 > Returns the first HyperlinkURLDestination in the collection.
-*** 
+<HorizontalLine />
 > HyperlinkURLDestination **lastItem**()
 > 
 > Returns the last HyperlinkURLDestination in the collection.
-*** 
+<HorizontalLine />
 > HyperlinkURLDestination **middleItem**()
 > 
 > Returns the middle HyperlinkURLDestination in the collection.
-*** 
+<HorizontalLine />
 > HyperlinkURLDestination **previousItem**( HyperlinkURLDestination **obj** )
 > 
 > Returns the HyperlinkURLDestination with the index previous to the specified index.
@@ -80,7 +80,7 @@ A collection of hyperlink URL destinations.
 |---|---|---|
 | HyperlinkURLDestination | obj | The index of the HyperlinkURLDestination that follows the desired HyperlinkURLDestination. |
 
-*** 
+<HorizontalLine />
 > HyperlinkURLDestination **nextItem**( HyperlinkURLDestination **obj** )
 > 
 > Returns the HyperlinkURLDestination whose index follows the specified HyperlinkURLDestination in the collection.
@@ -89,19 +89,19 @@ A collection of hyperlink URL destinations.
 |---|---|---|
 | HyperlinkURLDestination | obj | The HyperlinkURLDestination whose index comes before the desired HyperlinkURLDestination. |
 
-*** 
+<HorizontalLine />
 > HyperlinkURLDestination **anyItem**()
 > 
 > Returns any HyperlinkURLDestination in the collection.
-*** 
+<HorizontalLine />
 > HyperlinkURLDestination **everyItem**()
 > 
 > Returns every HyperlinkURLDestination in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the HyperlinkURLDestination.
-*** 
+<HorizontalLine />
 > HyperlinkURLDestination **[]**( Number **index** )
 > 
 > Returns the HyperlinkURLDestination with the specified index.

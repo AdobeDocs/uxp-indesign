@@ -7,13 +7,13 @@ EPub export option for cover image.
 > Number **NONE** = 1852796517
 > 
 > no cover image.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FIRST_PAGE** = 1700947536
 > 
 > Rasterize first page as cover image.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EXTERNAL_IMAGE** = 1700952169

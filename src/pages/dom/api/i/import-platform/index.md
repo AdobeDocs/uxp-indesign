@@ -7,7 +7,7 @@ Import platform options.
 > Number **MACINTOSH** = 1296130931
 > 
 > Macintosh.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PC** = 1466852474

@@ -7,7 +7,7 @@ Options for resolving style conflicts when importing tagged text.
 > Number **PUBLICATION_DEFINITION** = 1414819940
 > 
 > Uses the publication style.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TAG_FILE_DEFINITION** = 1413903460

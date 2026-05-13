@@ -7,7 +7,7 @@ Scopes for page number variable.
 > Number **DOCUMENT_SCOPE** = 1129538671
 > 
 > The scope is limited to the current document.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SECTION_SCOPE** = 1129542501

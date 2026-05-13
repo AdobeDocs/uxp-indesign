@@ -7,7 +7,7 @@ Options for how to draw interactive elements.
 > Number **DO_NOT_INCLUDE** = 1145981283
 > 
 > Do not include interactive elements.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **APPEARANCE_ONLY** = 1097887823

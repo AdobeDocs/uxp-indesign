@@ -7,13 +7,13 @@ Zero point placement options.
 > Number **SPREAD_ORIGIN** = 1380143983
 > 
 > The zero point is at the top-left corner of the spread and the ruler increments continuously across all pages of the spread.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PAGE_ORIGIN** = 1380143215
 > 
 > The top-left corner of each page is a new zero point on the horizontal ruler.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SPINE_ORIGIN** = 1380143984

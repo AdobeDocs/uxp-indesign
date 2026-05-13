@@ -7,13 +7,13 @@ Options for specifying a feature set.
 > Number **ROMAN** = 1383034222
 > 
 > Uses the Roman feature set and defaults.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **JAPANESE** = 1247899758
 > 
 > Uses the Japanese feature set and defaults.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **RIGHTTOLEFT** = 1381265228

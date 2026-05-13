@@ -12,7 +12,7 @@ A collection of show/hide fields behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the ShowHideFieldsBehavior.
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **add**( Object **withProperties** )
 > 
 > Creates a new ShowHideFieldsBehavior.
@@ -21,7 +21,7 @@ A collection of show/hide fields behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new ShowHideFieldsBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **item**( Mixed **index** )
 > 
 > Returns the ShowHideFieldsBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of show/hide fields behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **itemByName**( String **name** )
 > 
 > Returns the ShowHideFieldsBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of show/hide fields behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **itemByID**( Number **id** )
 > 
 > Returns the ShowHideFieldsBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of show/hide fields behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ShowHideFieldsBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of show/hide fields behavior objects.
 | Mixed | from | The ShowHideFieldsBehavior, index, or name at the beginning of the range. Can accept: ShowHideFieldsBehavior, Long Integer or String. |
 | Mixed | to | The ShowHideFieldsBehavior, index, or name at the end of the range. Can accept: ShowHideFieldsBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **firstItem**()
 > 
 > Returns the first ShowHideFieldsBehavior in the collection.
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **lastItem**()
 > 
 > Returns the last ShowHideFieldsBehavior in the collection.
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **middleItem**()
 > 
 > Returns the middle ShowHideFieldsBehavior in the collection.
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **previousItem**( ShowHideFieldsBehavior **obj** )
 > 
 > Returns the ShowHideFieldsBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of show/hide fields behavior objects.
 |---|---|---|
 | ShowHideFieldsBehavior | obj | The index of the ShowHideFieldsBehavior that follows the desired ShowHideFieldsBehavior. |
 
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **nextItem**( ShowHideFieldsBehavior **obj** )
 > 
 > Returns the ShowHideFieldsBehavior whose index follows the specified ShowHideFieldsBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of show/hide fields behavior objects.
 |---|---|---|
 | ShowHideFieldsBehavior | obj | The ShowHideFieldsBehavior whose index comes before the desired ShowHideFieldsBehavior. |
 
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **anyItem**()
 > 
 > Returns any ShowHideFieldsBehavior in the collection.
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **everyItem**()
 > 
 > Returns every ShowHideFieldsBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ShowHideFieldsBehavior.
-*** 
+<HorizontalLine />
 > ShowHideFieldsBehavior **[]**( Number **index** )
 > 
 > Returns the ShowHideFieldsBehavior with the specified index.

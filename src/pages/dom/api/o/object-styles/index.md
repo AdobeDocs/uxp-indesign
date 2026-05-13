@@ -17,11 +17,11 @@ A collection of object styles.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new ObjectStyle (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the ObjectStyle.
-*** 
+<HorizontalLine />
 > ObjectStyle **item**( Mixed **index** )
 > 
 > Returns the ObjectStyle with the specified index or name.
@@ -30,7 +30,7 @@ A collection of object styles.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ObjectStyle **itemByName**( String **name** )
 > 
 > Returns the ObjectStyle with the specified name.
@@ -39,7 +39,7 @@ A collection of object styles.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > ObjectStyle **itemByID**( Number **id** )
 > 
 > Returns the ObjectStyle with the specified ID.
@@ -48,7 +48,7 @@ A collection of object styles.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > ObjectStyle **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ObjectStyles within the specified range.
@@ -58,19 +58,19 @@ A collection of object styles.
 | Mixed | from | The ObjectStyle, index, or name at the beginning of the range. Can accept: ObjectStyle, Long Integer or String. |
 | Mixed | to | The ObjectStyle, index, or name at the end of the range. Can accept: ObjectStyle, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ObjectStyle **firstItem**()
 > 
 > Returns the first ObjectStyle in the collection.
-*** 
+<HorizontalLine />
 > ObjectStyle **lastItem**()
 > 
 > Returns the last ObjectStyle in the collection.
-*** 
+<HorizontalLine />
 > ObjectStyle **middleItem**()
 > 
 > Returns the middle ObjectStyle in the collection.
-*** 
+<HorizontalLine />
 > ObjectStyle **previousItem**( ObjectStyle **obj** )
 > 
 > Returns the ObjectStyle with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of object styles.
 |---|---|---|
 | ObjectStyle | obj | The index of the ObjectStyle that follows the desired ObjectStyle. |
 
-*** 
+<HorizontalLine />
 > ObjectStyle **nextItem**( ObjectStyle **obj** )
 > 
 > Returns the ObjectStyle whose index follows the specified ObjectStyle in the collection.
@@ -88,19 +88,19 @@ A collection of object styles.
 |---|---|---|
 | ObjectStyle | obj | The ObjectStyle whose index comes before the desired ObjectStyle. |
 
-*** 
+<HorizontalLine />
 > ObjectStyle **anyItem**()
 > 
 > Returns any ObjectStyle in the collection.
-*** 
+<HorizontalLine />
 > ObjectStyle **everyItem**()
 > 
 > Returns every ObjectStyle in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ObjectStyle.
-*** 
+<HorizontalLine />
 > ObjectStyle **[]**( Number **index** )
 > 
 > Returns the ObjectStyle with the specified index.

@@ -21,11 +21,11 @@ A collection of articles.
 | Article | reference | The reference object. Note: Required when the to value specifies before or after. (Optional) |
 | Object | withProperties | Initial values for properties of the new Article (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Article.
-*** 
+<HorizontalLine />
 > Article **item**( Mixed **index** )
 > 
 > Returns the Article with the specified index or name.
@@ -34,7 +34,7 @@ A collection of articles.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Article **itemByName**( String **name** )
 > 
 > Returns the Article with the specified name.
@@ -43,7 +43,7 @@ A collection of articles.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Article **itemByID**( Number **id** )
 > 
 > Returns the Article with the specified ID.
@@ -52,7 +52,7 @@ A collection of articles.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Article **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Articles within the specified range.
@@ -62,19 +62,19 @@ A collection of articles.
 | Mixed | from | The Article, index, or name at the beginning of the range. Can accept: Article, Long Integer or String. |
 | Mixed | to | The Article, index, or name at the end of the range. Can accept: Article, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Article **firstItem**()
 > 
 > Returns the first Article in the collection.
-*** 
+<HorizontalLine />
 > Article **lastItem**()
 > 
 > Returns the last Article in the collection.
-*** 
+<HorizontalLine />
 > Article **middleItem**()
 > 
 > Returns the middle Article in the collection.
-*** 
+<HorizontalLine />
 > Article **previousItem**( Article **obj** )
 > 
 > Returns the Article with the index previous to the specified index.
@@ -83,7 +83,7 @@ A collection of articles.
 |---|---|---|
 | Article | obj | The index of the Article that follows the desired Article. |
 
-*** 
+<HorizontalLine />
 > Article **nextItem**( Article **obj** )
 > 
 > Returns the Article whose index follows the specified Article in the collection.
@@ -92,19 +92,19 @@ A collection of articles.
 |---|---|---|
 | Article | obj | The Article whose index comes before the desired Article. |
 
-*** 
+<HorizontalLine />
 > Article **anyItem**()
 > 
 > Returns any Article in the collection.
-*** 
+<HorizontalLine />
 > Article **everyItem**()
 > 
 > Returns every Article in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Article.
-*** 
+<HorizontalLine />
 > Article **[]**( Number **index** )
 > 
 > Returns the Article with the specified index.

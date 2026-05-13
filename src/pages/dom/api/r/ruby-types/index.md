@@ -7,7 +7,7 @@ Ruby type options.
 > Number **GROUP_RUBY** = 1249011570
 > 
 > Provides ruby for a group of characters.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PER_CHARACTER_RUBY** = 1249013859

@@ -19,11 +19,11 @@ A collection of table columns.
 | Mixed | reference | The reference object. Note: The reference object must be within the table. Required only when the at value contains before or after. Can accept: Row, Column, Cell or Table. (Optional) |
 | Object | withProperties | Initial values for properties of the new Column (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Column.
-*** 
+<HorizontalLine />
 > Column **item**( Mixed **index** )
 > 
 > Returns the Column with the specified index or name.
@@ -32,7 +32,7 @@ A collection of table columns.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Column **itemByName**( String **name** )
 > 
 > Returns the Column with the specified name.
@@ -41,7 +41,7 @@ A collection of table columns.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Column **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Columns within the specified range.
@@ -51,19 +51,19 @@ A collection of table columns.
 | Mixed | from | The Column, index, or name at the beginning of the range. Can accept: Column, Long Integer or String. |
 | Mixed | to | The Column, index, or name at the end of the range. Can accept: Column, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Column **firstItem**()
 > 
 > Returns the first Column in the collection.
-*** 
+<HorizontalLine />
 > Column **lastItem**()
 > 
 > Returns the last Column in the collection.
-*** 
+<HorizontalLine />
 > Column **middleItem**()
 > 
 > Returns the middle Column in the collection.
-*** 
+<HorizontalLine />
 > Column **previousItem**( Column **obj** )
 > 
 > Returns the Column with the index previous to the specified index.
@@ -72,7 +72,7 @@ A collection of table columns.
 |---|---|---|
 | Column | obj | The index of the Column that follows the desired Column. |
 
-*** 
+<HorizontalLine />
 > Column **nextItem**( Column **obj** )
 > 
 > Returns the Column whose index follows the specified Column in the collection.
@@ -81,19 +81,19 @@ A collection of table columns.
 |---|---|---|
 | Column | obj | The Column whose index comes before the desired Column. |
 
-*** 
+<HorizontalLine />
 > Column **anyItem**()
 > 
 > Returns any Column in the collection.
-*** 
+<HorizontalLine />
 > Column **everyItem**()
 > 
 > Returns every Column in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Column.
-*** 
+<HorizontalLine />
 > Column **[]**( Number **index** )
 > 
 > Returns the Column with the specified index.

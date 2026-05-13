@@ -12,7 +12,7 @@ A collection of polygons.
 > Number **count**()
 > 
 > Displays the number of elements in the Polygon.
-*** 
+<HorizontalLine />
 > Polygon **add**( Layer **layer**, Number **numberOfSides**, Number **insetPercentage**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new Polygon.
@@ -26,7 +26,7 @@ A collection of polygons.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new Polygon (Optional) |
 
-*** 
+<HorizontalLine />
 > Polygon **item**( Mixed **index** )
 > 
 > Returns the Polygon with the specified index or name.
@@ -35,7 +35,7 @@ A collection of polygons.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Polygon **itemByName**( String **name** )
 > 
 > Returns the Polygon with the specified name.
@@ -44,7 +44,7 @@ A collection of polygons.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Polygon **itemByID**( Number **id** )
 > 
 > Returns the Polygon with the specified ID.
@@ -53,7 +53,7 @@ A collection of polygons.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Polygon **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Polygons within the specified range.
@@ -63,19 +63,19 @@ A collection of polygons.
 | Mixed | from | The Polygon, index, or name at the beginning of the range. Can accept: Polygon, Long Integer or String. |
 | Mixed | to | The Polygon, index, or name at the end of the range. Can accept: Polygon, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Polygon **firstItem**()
 > 
 > Returns the first Polygon in the collection.
-*** 
+<HorizontalLine />
 > Polygon **lastItem**()
 > 
 > Returns the last Polygon in the collection.
-*** 
+<HorizontalLine />
 > Polygon **middleItem**()
 > 
 > Returns the middle Polygon in the collection.
-*** 
+<HorizontalLine />
 > Polygon **previousItem**( Polygon **obj** )
 > 
 > Returns the Polygon with the index previous to the specified index.
@@ -84,7 +84,7 @@ A collection of polygons.
 |---|---|---|
 | Polygon | obj | The index of the Polygon that follows the desired Polygon. |
 
-*** 
+<HorizontalLine />
 > Polygon **nextItem**( Polygon **obj** )
 > 
 > Returns the Polygon whose index follows the specified Polygon in the collection.
@@ -93,19 +93,19 @@ A collection of polygons.
 |---|---|---|
 | Polygon | obj | The Polygon whose index comes before the desired Polygon. |
 
-*** 
+<HorizontalLine />
 > Polygon **anyItem**()
 > 
 > Returns any Polygon in the collection.
-*** 
+<HorizontalLine />
 > Polygon **everyItem**()
 > 
 > Returns every Polygon in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Polygon.
-*** 
+<HorizontalLine />
 > Polygon **[]**( Number **index** )
 > 
 > Returns the Polygon with the specified index.

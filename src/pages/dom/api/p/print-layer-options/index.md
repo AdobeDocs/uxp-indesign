@@ -7,13 +7,13 @@ Print layer options
 > Number **ALL_LAYERS** = 1634495564
 > 
 > Prints all layers.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **VISIBLE_LAYERS** = 1986622284
 > 
 > Prints all visible layers.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **VISIBLE_PRINTABLE_LAYERS** = 1987080780

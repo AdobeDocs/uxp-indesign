@@ -12,7 +12,7 @@ A collection of checkboxes.
 > Number **count**()
 > 
 > Displays the number of elements in the CheckBox.
-*** 
+<HorizontalLine />
 > CheckBox **add**( Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new CheckBox
@@ -24,7 +24,7 @@ A collection of checkboxes.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new CheckBox (Optional) |
 
-*** 
+<HorizontalLine />
 > CheckBox **item**( Mixed **index** )
 > 
 > Returns the CheckBox with the specified index or name.
@@ -33,7 +33,7 @@ A collection of checkboxes.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CheckBox **itemByName**( String **name** )
 > 
 > Returns the CheckBox with the specified name.
@@ -42,7 +42,7 @@ A collection of checkboxes.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > CheckBox **itemByID**( Number **id** )
 > 
 > Returns the CheckBox with the specified ID.
@@ -51,7 +51,7 @@ A collection of checkboxes.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > CheckBox **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the CheckBoxes within the specified range.
@@ -61,19 +61,19 @@ A collection of checkboxes.
 | Mixed | from | The CheckBox, index, or name at the beginning of the range. Can accept: CheckBox, Long Integer or String. |
 | Mixed | to | The CheckBox, index, or name at the end of the range. Can accept: CheckBox, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CheckBox **firstItem**()
 > 
 > Returns the first CheckBox in the collection.
-*** 
+<HorizontalLine />
 > CheckBox **lastItem**()
 > 
 > Returns the last CheckBox in the collection.
-*** 
+<HorizontalLine />
 > CheckBox **middleItem**()
 > 
 > Returns the middle CheckBox in the collection.
-*** 
+<HorizontalLine />
 > CheckBox **previousItem**( CheckBox **obj** )
 > 
 > Returns the CheckBox with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of checkboxes.
 |---|---|---|
 | CheckBox | obj | The index of the CheckBox that follows the desired CheckBox. |
 
-*** 
+<HorizontalLine />
 > CheckBox **nextItem**( CheckBox **obj** )
 > 
 > Returns the CheckBox whose index follows the specified CheckBox in the collection.
@@ -91,19 +91,19 @@ A collection of checkboxes.
 |---|---|---|
 | CheckBox | obj | The CheckBox whose index comes before the desired CheckBox. |
 
-*** 
+<HorizontalLine />
 > CheckBox **anyItem**()
 > 
 > Returns any CheckBox in the collection.
-*** 
+<HorizontalLine />
 > CheckBox **everyItem**()
 > 
 > Returns every CheckBox in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the CheckBox.
-*** 
+<HorizontalLine />
 > CheckBox **[]**( Number **index** )
 > 
 > Returns the CheckBox with the specified index.

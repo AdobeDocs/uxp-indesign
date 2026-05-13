@@ -17,11 +17,11 @@ A collection of gradient stops.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new GradientStop (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the GradientStop.
-*** 
+<HorizontalLine />
 > GradientStop **item**( Mixed **index** )
 > 
 > Returns the GradientStop with the specified index or name.
@@ -30,7 +30,7 @@ A collection of gradient stops.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GradientStop **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the GradientStops within the specified range.
@@ -40,19 +40,19 @@ A collection of gradient stops.
 | Mixed | from | The GradientStop, index, or name at the beginning of the range. Can accept: GradientStop, Long Integer or String. |
 | Mixed | to | The GradientStop, index, or name at the end of the range. Can accept: GradientStop, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GradientStop **firstItem**()
 > 
 > Returns the first GradientStop in the collection.
-*** 
+<HorizontalLine />
 > GradientStop **lastItem**()
 > 
 > Returns the last GradientStop in the collection.
-*** 
+<HorizontalLine />
 > GradientStop **middleItem**()
 > 
 > Returns the middle GradientStop in the collection.
-*** 
+<HorizontalLine />
 > GradientStop **previousItem**( GradientStop **obj** )
 > 
 > Returns the GradientStop with the index previous to the specified index.
@@ -61,7 +61,7 @@ A collection of gradient stops.
 |---|---|---|
 | GradientStop | obj | The index of the GradientStop that follows the desired GradientStop. |
 
-*** 
+<HorizontalLine />
 > GradientStop **nextItem**( GradientStop **obj** )
 > 
 > Returns the GradientStop whose index follows the specified GradientStop in the collection.
@@ -70,19 +70,19 @@ A collection of gradient stops.
 |---|---|---|
 | GradientStop | obj | The GradientStop whose index comes before the desired GradientStop. |
 
-*** 
+<HorizontalLine />
 > GradientStop **anyItem**()
 > 
 > Returns any GradientStop in the collection.
-*** 
+<HorizontalLine />
 > GradientStop **everyItem**()
 > 
 > Returns every GradientStop in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the GradientStop.
-*** 
+<HorizontalLine />
 > GradientStop **[]**( Number **index** )
 > 
 > Returns the GradientStop with the specified index.

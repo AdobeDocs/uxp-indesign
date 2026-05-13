@@ -7,59 +7,59 @@ Gradient feather effect settings.
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Mixed **parent** 
 >
 > The parent of the GradientFeatherSetting (a TransparencySetting, StrokeTransparencySetting, FillTransparencySetting or ContentTransparencySetting).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > OpacityGradientStops **opacityGradientStops** 
 >
 > A collection of opacity gradient stops.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > Boolean **applied** 
 >
 > If true, the gradient feather effect is applied.
-*** 
+<HorizontalLine />
 > GradientType **type** 
 >
 > The type of gradient.
-*** 
+<HorizontalLine />
 > Number **angle** 
 >
 > The angle of the gradient feather.
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **length** 
 >
 > The length of the axial gradient, or radius of the radial gradient.
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **gradientStart** 
 >
 > The center point (for a radial gradient) or starting point (for a linear gradient) applied to the fill, as page coordinates in the format [x, y].
-*** 
+<HorizontalLine />
 > Number **hiliteAngle** 
 >
 > The hilite angle of the radial gradient feather.
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **hiliteLength** 
 >
 > The hilite length of the radial gradient feather.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -68,15 +68,15 @@ Gradient feather effect settings.
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the GradientFeatherSetting.
-*** 
+<HorizontalLine />
 > GradientFeatherSetting **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -87,7 +87,7 @@ Gradient feather effect settings.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

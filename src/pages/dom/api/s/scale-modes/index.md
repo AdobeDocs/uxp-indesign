@@ -7,7 +7,7 @@ Page scaling options.
 > Number **SCALE_WIDTH_HEIGHT** = 1935898745
 > 
 > Scales the page width and height.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SCALE_TO_FIT** = 1935897702

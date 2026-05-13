@@ -7,13 +7,13 @@ PDF export raster resolution options.
 > Number **SEVENTY_TWO_PPI** = 1937010800
 > 
 > 72 pixels per inch.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **NINETY_SIX_PPI** = 1853059184
 > 
 > 96 pixels per inch.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ONE_HUNDRED_FORTY_FOUR_PPI** = 1868984432

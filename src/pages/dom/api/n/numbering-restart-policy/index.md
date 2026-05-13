@@ -7,37 +7,37 @@ Numbering restart policy.
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Mixed **parent** 
 >
 > The parent of the NumberingRestartPolicy (a TextDefault, ParagraphStyle, Text, InsertionPoint, TextStyleRange, Paragraph, TextColumn, Line, Word, Character, Story, XmlStory, FindTextPreference, ChangeTextPreference, FindGrepPreference or ChangeGrepPreference).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > RestartPolicy **numberingPolicy** 
 >
 > The numbering restart policy to use.
-*** 
+<HorizontalLine />
 > Number **numberingLowerLevel** 
 >
 > The lower numbering level for a numbered list.
-*** 
+<HorizontalLine />
 > Number **numberingUpperLevel** 
 >
 > The upper numbering level for a numbered list.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -46,15 +46,15 @@ Numbering restart policy.
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the NumberingRestartPolicy.
-*** 
+<HorizontalLine />
 > NumberingRestartPolicy **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -65,7 +65,7 @@ Numbering restart policy.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

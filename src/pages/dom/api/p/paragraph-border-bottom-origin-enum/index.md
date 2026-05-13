@@ -7,7 +7,7 @@ Options for specifying basis of the bottom origin of the paragraph border.
 > Number **DESCENT_BOTTOM_ORIGIN** = 1886601828
 > 
 > Makes the paragraph border bottom origin based on descent of the text in the paragraph.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BASELINE_BOTTOM_ORIGIN** = 1886601826

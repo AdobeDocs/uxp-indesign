@@ -20,11 +20,11 @@ A collection of submenus.
 | MenuElement | reference | The reference object. Note: Required when the at parameter specifies before or after. (Optional) |
 | Object | withProperties | Initial values for properties of the new Submenu (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Submenu.
-*** 
+<HorizontalLine />
 > Submenu **item**( Mixed **index** )
 > 
 > Returns the Submenu with the specified index or name.
@@ -33,7 +33,7 @@ A collection of submenus.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Submenu **itemByName**( String **name** )
 > 
 > Returns the Submenu with the specified name.
@@ -42,7 +42,7 @@ A collection of submenus.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Submenu **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Submenus within the specified range.
@@ -52,19 +52,19 @@ A collection of submenus.
 | Mixed | from | The Submenu, index, or name at the beginning of the range. Can accept: Submenu, Long Integer or String. |
 | Mixed | to | The Submenu, index, or name at the end of the range. Can accept: Submenu, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Submenu **firstItem**()
 > 
 > Returns the first Submenu in the collection.
-*** 
+<HorizontalLine />
 > Submenu **lastItem**()
 > 
 > Returns the last Submenu in the collection.
-*** 
+<HorizontalLine />
 > Submenu **middleItem**()
 > 
 > Returns the middle Submenu in the collection.
-*** 
+<HorizontalLine />
 > Submenu **previousItem**( Submenu **obj** )
 > 
 > Returns the Submenu with the index previous to the specified index.
@@ -73,7 +73,7 @@ A collection of submenus.
 |---|---|---|
 | Submenu | obj | The index of the Submenu that follows the desired Submenu. |
 
-*** 
+<HorizontalLine />
 > Submenu **nextItem**( Submenu **obj** )
 > 
 > Returns the Submenu whose index follows the specified Submenu in the collection.
@@ -82,19 +82,19 @@ A collection of submenus.
 |---|---|---|
 | Submenu | obj | The Submenu whose index comes before the desired Submenu. |
 
-*** 
+<HorizontalLine />
 > Submenu **anyItem**()
 > 
 > Returns any Submenu in the collection.
-*** 
+<HorizontalLine />
 > Submenu **everyItem**()
 > 
 > Returns every Submenu in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Submenu.
-*** 
+<HorizontalLine />
 > Submenu **[]**( Number **index** )
 > 
 > Returns the Submenu with the specified index.

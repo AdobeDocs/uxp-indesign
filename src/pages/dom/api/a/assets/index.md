@@ -12,7 +12,7 @@ A collection of object library assets.
 > Number **count**()
 > 
 > Displays the number of elements in the Asset.
-*** 
+<HorizontalLine />
 > Asset **item**( Mixed **index** )
 > 
 > Returns the Asset with the specified index or name.
@@ -21,7 +21,7 @@ A collection of object library assets.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Asset **itemByName**( String **name** )
 > 
 > Returns the Asset with the specified name.
@@ -30,7 +30,7 @@ A collection of object library assets.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Asset **itemByID**( Number **id** )
 > 
 > Returns the Asset with the specified ID.
@@ -39,7 +39,7 @@ A collection of object library assets.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Asset **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Assets within the specified range.
@@ -49,19 +49,19 @@ A collection of object library assets.
 | Mixed | from | The Asset, index, or name at the beginning of the range. Can accept: Asset, Long Integer or String. |
 | Mixed | to | The Asset, index, or name at the end of the range. Can accept: Asset, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Asset **firstItem**()
 > 
 > Returns the first Asset in the collection.
-*** 
+<HorizontalLine />
 > Asset **lastItem**()
 > 
 > Returns the last Asset in the collection.
-*** 
+<HorizontalLine />
 > Asset **middleItem**()
 > 
 > Returns the middle Asset in the collection.
-*** 
+<HorizontalLine />
 > Asset **previousItem**( Asset **obj** )
 > 
 > Returns the Asset with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of object library assets.
 |---|---|---|
 | Asset | obj | The index of the Asset that follows the desired Asset. |
 
-*** 
+<HorizontalLine />
 > Asset **nextItem**( Asset **obj** )
 > 
 > Returns the Asset whose index follows the specified Asset in the collection.
@@ -79,19 +79,19 @@ A collection of object library assets.
 |---|---|---|
 | Asset | obj | The Asset whose index comes before the desired Asset. |
 
-*** 
+<HorizontalLine />
 > Asset **anyItem**()
 > 
 > Returns any Asset in the collection.
-*** 
+<HorizontalLine />
 > Asset **everyItem**()
 > 
 > Returns every Asset in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Asset.
-*** 
+<HorizontalLine />
 > Asset **[]**( Number **index** )
 > 
 > Returns the Asset with the specified index.

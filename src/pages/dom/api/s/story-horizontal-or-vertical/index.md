@@ -7,13 +7,13 @@ Text orientation options.
 > Number **HORIZONTAL** = 1752134266
 > 
 > Orients the text horizontally.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **VERTICAL** = 1986359924
 > 
 > Orients the text vertically.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **UNKNOWN** = 1433299822

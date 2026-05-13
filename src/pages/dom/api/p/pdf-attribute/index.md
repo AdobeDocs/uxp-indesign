@@ -7,43 +7,43 @@ PDF attributes.
 > Number **pageNumber** 
 >
 > The page number of the PDF document page to place.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > PDFCrop **pdfCrop** 
 >
 > The type of cropping to apply.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Boolean **transparentBackground** 
 >
 > If true, the background of the PDF is transparent.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Mixed **parent** 
 >
 > The parent of the PDFAttribute (a PDF or ImportedPage).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -52,15 +52,15 @@ PDF attributes.
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the PDFAttribute.
-*** 
+<HorizontalLine />
 > PDFAttribute **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -71,7 +71,7 @@ PDF attributes.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

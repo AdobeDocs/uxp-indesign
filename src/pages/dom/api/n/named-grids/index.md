@@ -17,11 +17,11 @@ A collection of named grids.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new NamedGrid (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the NamedGrid.
-*** 
+<HorizontalLine />
 > NamedGrid **item**( Mixed **index** )
 > 
 > Returns the NamedGrid with the specified index or name.
@@ -30,7 +30,7 @@ A collection of named grids.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > NamedGrid **itemByName**( String **name** )
 > 
 > Returns the NamedGrid with the specified name.
@@ -39,7 +39,7 @@ A collection of named grids.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > NamedGrid **itemByID**( Number **id** )
 > 
 > Returns the NamedGrid with the specified ID.
@@ -48,7 +48,7 @@ A collection of named grids.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > NamedGrid **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the NamedGrids within the specified range.
@@ -58,19 +58,19 @@ A collection of named grids.
 | Mixed | from | The NamedGrid, index, or name at the beginning of the range. Can accept: NamedGrid, Long Integer or String. |
 | Mixed | to | The NamedGrid, index, or name at the end of the range. Can accept: NamedGrid, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > NamedGrid **firstItem**()
 > 
 > Returns the first NamedGrid in the collection.
-*** 
+<HorizontalLine />
 > NamedGrid **lastItem**()
 > 
 > Returns the last NamedGrid in the collection.
-*** 
+<HorizontalLine />
 > NamedGrid **middleItem**()
 > 
 > Returns the middle NamedGrid in the collection.
-*** 
+<HorizontalLine />
 > NamedGrid **previousItem**( NamedGrid **obj** )
 > 
 > Returns the NamedGrid with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of named grids.
 |---|---|---|
 | NamedGrid | obj | The index of the NamedGrid that follows the desired NamedGrid. |
 
-*** 
+<HorizontalLine />
 > NamedGrid **nextItem**( NamedGrid **obj** )
 > 
 > Returns the NamedGrid whose index follows the specified NamedGrid in the collection.
@@ -88,19 +88,19 @@ A collection of named grids.
 |---|---|---|
 | NamedGrid | obj | The NamedGrid whose index comes before the desired NamedGrid. |
 
-*** 
+<HorizontalLine />
 > NamedGrid **anyItem**()
 > 
 > Returns any NamedGrid in the collection.
-*** 
+<HorizontalLine />
 > NamedGrid **everyItem**()
 > 
 > Returns every NamedGrid in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the NamedGrid.
-*** 
+<HorizontalLine />
 > NamedGrid **[]**( Number **index** )
 > 
 > Returns the NamedGrid with the specified index.

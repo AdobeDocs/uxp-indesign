@@ -7,13 +7,13 @@ Overprint options for kenten marks.
 > Number **AUTO** = 1635019116
 > 
 > Uses auto overprint.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OVERPRINT_ON** = 1701736302
 > 
 > Turns on overprint.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OVERPRINT_OFF** = 1701736294

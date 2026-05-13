@@ -20,11 +20,11 @@ A collection of preflight processes.
 | PreflightOption | preflightOptions | The preflight options that should be used. (Optional) |
 | Object | withProperties | Initial values for properties of the new PreflightProcess (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the PreflightProcess.
-*** 
+<HorizontalLine />
 > PreflightProcess **item**( Mixed **index** )
 > 
 > Returns the PreflightProcess with the specified index or name.
@@ -33,7 +33,7 @@ A collection of preflight processes.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PreflightProcess **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the PreflightProcesses within the specified range.
@@ -43,19 +43,19 @@ A collection of preflight processes.
 | Mixed | from | The PreflightProcess, index, or name at the beginning of the range. Can accept: PreflightProcess, Long Integer or String. |
 | Mixed | to | The PreflightProcess, index, or name at the end of the range. Can accept: PreflightProcess, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PreflightProcess **firstItem**()
 > 
 > Returns the first PreflightProcess in the collection.
-*** 
+<HorizontalLine />
 > PreflightProcess **lastItem**()
 > 
 > Returns the last PreflightProcess in the collection.
-*** 
+<HorizontalLine />
 > PreflightProcess **middleItem**()
 > 
 > Returns the middle PreflightProcess in the collection.
-*** 
+<HorizontalLine />
 > PreflightProcess **previousItem**( PreflightProcess **obj** )
 > 
 > Returns the PreflightProcess with the index previous to the specified index.
@@ -64,7 +64,7 @@ A collection of preflight processes.
 |---|---|---|
 | PreflightProcess | obj | The index of the PreflightProcess that follows the desired PreflightProcess. |
 
-*** 
+<HorizontalLine />
 > PreflightProcess **nextItem**( PreflightProcess **obj** )
 > 
 > Returns the PreflightProcess whose index follows the specified PreflightProcess in the collection.
@@ -73,19 +73,19 @@ A collection of preflight processes.
 |---|---|---|
 | PreflightProcess | obj | The PreflightProcess whose index comes before the desired PreflightProcess. |
 
-*** 
+<HorizontalLine />
 > PreflightProcess **anyItem**()
 > 
 > Returns any PreflightProcess in the collection.
-*** 
+<HorizontalLine />
 > PreflightProcess **everyItem**()
 > 
 > Returns every PreflightProcess in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the PreflightProcess.
-*** 
+<HorizontalLine />
 > PreflightProcess **[]**( Number **index** )
 > 
 > Returns the PreflightProcess with the specified index.

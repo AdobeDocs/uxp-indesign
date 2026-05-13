@@ -12,7 +12,7 @@ A collection of WMF graphics.
 > Number **count**()
 > 
 > Displays the number of elements in the WMF.
-*** 
+<HorizontalLine />
 > WMF **item**( Mixed **index** )
 > 
 > Returns the WMF with the specified index or name.
@@ -21,7 +21,7 @@ A collection of WMF graphics.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > WMF **itemByName**( String **name** )
 > 
 > Returns the WMF with the specified name.
@@ -30,7 +30,7 @@ A collection of WMF graphics.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > WMF **itemByID**( Number **id** )
 > 
 > Returns the WMF with the specified ID.
@@ -39,7 +39,7 @@ A collection of WMF graphics.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > WMF **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the WMFs within the specified range.
@@ -49,19 +49,19 @@ A collection of WMF graphics.
 | Mixed | from | The WMF, index, or name at the beginning of the range. Can accept: WMF, Long Integer or String. |
 | Mixed | to | The WMF, index, or name at the end of the range. Can accept: WMF, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > WMF **firstItem**()
 > 
 > Returns the first WMF in the collection.
-*** 
+<HorizontalLine />
 > WMF **lastItem**()
 > 
 > Returns the last WMF in the collection.
-*** 
+<HorizontalLine />
 > WMF **middleItem**()
 > 
 > Returns the middle WMF in the collection.
-*** 
+<HorizontalLine />
 > WMF **previousItem**( WMF **obj** )
 > 
 > Returns the WMF with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of WMF graphics.
 |---|---|---|
 | WMF | obj | The index of the WMF that follows the desired WMF. |
 
-*** 
+<HorizontalLine />
 > WMF **nextItem**( WMF **obj** )
 > 
 > Returns the WMF whose index follows the specified WMF in the collection.
@@ -79,19 +79,19 @@ A collection of WMF graphics.
 |---|---|---|
 | WMF | obj | The WMF whose index comes before the desired WMF. |
 
-*** 
+<HorizontalLine />
 > WMF **anyItem**()
 > 
 > Returns any WMF in the collection.
-*** 
+<HorizontalLine />
 > WMF **everyItem**()
 > 
 > Returns every WMF in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the WMF.
-*** 
+<HorizontalLine />
 > WMF **[]**( Number **index** )
 > 
 > Returns the WMF with the specified index.

@@ -7,13 +7,13 @@ Choices for footnote placement.
 > Number **FOOTNOTE_AFTER_STORY** = 1701213267
 > 
 > Footnote after story.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FOOTNOTE_AFTER_PARAGRAPH** = 1701213296
 > 
 > Footnote after paragraph.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FOOTNOTE_INSIDE_POPUP** = 1701213235

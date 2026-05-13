@@ -12,7 +12,7 @@ A collection of text columns.
 > Number **count**()
 > 
 > Displays the number of elements in the TextColumn.
-*** 
+<HorizontalLine />
 > TextColumn **item**( Mixed **index** )
 > 
 > Returns the TextColumn with the specified index or name.
@@ -21,7 +21,7 @@ A collection of text columns.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TextColumn **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TextColumns within the specified range.
@@ -31,19 +31,19 @@ A collection of text columns.
 | Mixed | from | The TextColumn, index, or name at the beginning of the range. Can accept: TextColumn, Long Integer or String. |
 | Mixed | to | The TextColumn, index, or name at the end of the range. Can accept: TextColumn, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TextColumn **firstItem**()
 > 
 > Returns the first TextColumn in the collection.
-*** 
+<HorizontalLine />
 > TextColumn **lastItem**()
 > 
 > Returns the last TextColumn in the collection.
-*** 
+<HorizontalLine />
 > TextColumn **middleItem**()
 > 
 > Returns the middle TextColumn in the collection.
-*** 
+<HorizontalLine />
 > TextColumn **previousItem**( TextColumn **obj** )
 > 
 > Returns the TextColumn with the index previous to the specified index.
@@ -52,7 +52,7 @@ A collection of text columns.
 |---|---|---|
 | TextColumn | obj | The index of the TextColumn that follows the desired TextColumn. |
 
-*** 
+<HorizontalLine />
 > TextColumn **nextItem**( TextColumn **obj** )
 > 
 > Returns the TextColumn whose index follows the specified TextColumn in the collection.
@@ -61,19 +61,19 @@ A collection of text columns.
 |---|---|---|
 | TextColumn | obj | The TextColumn whose index comes before the desired TextColumn. |
 
-*** 
+<HorizontalLine />
 > TextColumn **anyItem**()
 > 
 > Returns any TextColumn in the collection.
-*** 
+<HorizontalLine />
 > TextColumn **everyItem**()
 > 
 > Returns every TextColumn in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TextColumn.
-*** 
+<HorizontalLine />
 > TextColumn **[]**( Number **index** )
 > 
 > Returns the TextColumn with the specified index.

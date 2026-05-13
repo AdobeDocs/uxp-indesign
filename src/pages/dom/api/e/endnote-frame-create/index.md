@@ -7,7 +7,7 @@ Options for frame creation of endnotes.
 > Number **LOAD_ENDNOTE_PLACE_GUN** = 1162768487
 > 
 > Endnotes are loaded in placegun to be placed anywhere in document.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **NEW_PAGE** = 1162767984

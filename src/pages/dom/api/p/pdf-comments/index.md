@@ -12,7 +12,7 @@ A collection of PDF comment objects
 > Number **count**()
 > 
 > Displays the number of elements in the PDFComment.
-*** 
+<HorizontalLine />
 > PDFComment **item**( Mixed **index** )
 > 
 > Returns the PDFComment with the specified index or name.
@@ -21,7 +21,7 @@ A collection of PDF comment objects
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PDFComment **itemByName**( String **name** )
 > 
 > Returns the PDFComment with the specified name.
@@ -30,7 +30,7 @@ A collection of PDF comment objects
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > PDFComment **itemByID**( Number **id** )
 > 
 > Returns the PDFComment with the specified ID.
@@ -39,7 +39,7 @@ A collection of PDF comment objects
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > PDFComment **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the PDFComments within the specified range.
@@ -49,19 +49,19 @@ A collection of PDF comment objects
 | Mixed | from | The PDFComment, index, or name at the beginning of the range. Can accept: PDFComment, Long Integer or String. |
 | Mixed | to | The PDFComment, index, or name at the end of the range. Can accept: PDFComment, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PDFComment **firstItem**()
 > 
 > Returns the first PDFComment in the collection.
-*** 
+<HorizontalLine />
 > PDFComment **lastItem**()
 > 
 > Returns the last PDFComment in the collection.
-*** 
+<HorizontalLine />
 > PDFComment **middleItem**()
 > 
 > Returns the middle PDFComment in the collection.
-*** 
+<HorizontalLine />
 > PDFComment **previousItem**( PDFComment **obj** )
 > 
 > Returns the PDFComment with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of PDF comment objects
 |---|---|---|
 | PDFComment | obj | The index of the PDFComment that follows the desired PDFComment. |
 
-*** 
+<HorizontalLine />
 > PDFComment **nextItem**( PDFComment **obj** )
 > 
 > Returns the PDFComment whose index follows the specified PDFComment in the collection.
@@ -79,19 +79,19 @@ A collection of PDF comment objects
 |---|---|---|
 | PDFComment | obj | The PDFComment whose index comes before the desired PDFComment. |
 
-*** 
+<HorizontalLine />
 > PDFComment **anyItem**()
 > 
 > Returns any PDFComment in the collection.
-*** 
+<HorizontalLine />
 > PDFComment **everyItem**()
 > 
 > Returns every PDFComment in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the PDFComment.
-*** 
+<HorizontalLine />
 > PDFComment **[]**( Number **index** )
 > 
 > Returns the PDFComment with the specified index.

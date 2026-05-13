@@ -17,11 +17,11 @@ A collection of table styles.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new TableStyle (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the TableStyle.
-*** 
+<HorizontalLine />
 > TableStyle **item**( Mixed **index** )
 > 
 > Returns the TableStyle with the specified index or name.
@@ -30,7 +30,7 @@ A collection of table styles.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TableStyle **itemByName**( String **name** )
 > 
 > Returns the TableStyle with the specified name.
@@ -39,7 +39,7 @@ A collection of table styles.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > TableStyle **itemByID**( Number **id** )
 > 
 > Returns the TableStyle with the specified ID.
@@ -48,7 +48,7 @@ A collection of table styles.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > TableStyle **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TableStyles within the specified range.
@@ -58,19 +58,19 @@ A collection of table styles.
 | Mixed | from | The TableStyle, index, or name at the beginning of the range. Can accept: TableStyle, Long Integer or String. |
 | Mixed | to | The TableStyle, index, or name at the end of the range. Can accept: TableStyle, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TableStyle **firstItem**()
 > 
 > Returns the first TableStyle in the collection.
-*** 
+<HorizontalLine />
 > TableStyle **lastItem**()
 > 
 > Returns the last TableStyle in the collection.
-*** 
+<HorizontalLine />
 > TableStyle **middleItem**()
 > 
 > Returns the middle TableStyle in the collection.
-*** 
+<HorizontalLine />
 > TableStyle **previousItem**( TableStyle **obj** )
 > 
 > Returns the TableStyle with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of table styles.
 |---|---|---|
 | TableStyle | obj | The index of the TableStyle that follows the desired TableStyle. |
 
-*** 
+<HorizontalLine />
 > TableStyle **nextItem**( TableStyle **obj** )
 > 
 > Returns the TableStyle whose index follows the specified TableStyle in the collection.
@@ -88,19 +88,19 @@ A collection of table styles.
 |---|---|---|
 | TableStyle | obj | The TableStyle whose index comes before the desired TableStyle. |
 
-*** 
+<HorizontalLine />
 > TableStyle **anyItem**()
 > 
 > Returns any TableStyle in the collection.
-*** 
+<HorizontalLine />
 > TableStyle **everyItem**()
 > 
 > Returns every TableStyle in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TableStyle.
-*** 
+<HorizontalLine />
 > TableStyle **[]**( Number **index** )
 > 
 > Returns the TableStyle with the specified index.

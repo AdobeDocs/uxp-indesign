@@ -7,7 +7,7 @@ Values to specify the order table cells will display in story and galley views.
 > Number **ORDER_BY_ROWS** = 1652118103
 > 
 > Order by rows.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ORDER_BY_COLUMNS** = 1652114254

@@ -7,7 +7,7 @@ Image size option for a converted object
 > Number **SIZE_FIXED** = 1182295162
 > 
 > Image size to be used is absolute.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SIZE_RELATIVE_TO_TEXT_FLOW** = 1383486566

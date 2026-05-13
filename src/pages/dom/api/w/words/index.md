@@ -12,7 +12,7 @@ A collection of words.
 > Number **count**()
 > 
 > Displays the number of elements in the Word.
-*** 
+<HorizontalLine />
 > Word **item**( Mixed **index** )
 > 
 > Returns the Word with the specified index or name.
@@ -21,7 +21,7 @@ A collection of words.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Word **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Words within the specified range.
@@ -31,19 +31,19 @@ A collection of words.
 | Mixed | from | The Word, index, or name at the beginning of the range. Can accept: Word, Long Integer or String. |
 | Mixed | to | The Word, index, or name at the end of the range. Can accept: Word, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Word **firstItem**()
 > 
 > Returns the first Word in the collection.
-*** 
+<HorizontalLine />
 > Word **lastItem**()
 > 
 > Returns the last Word in the collection.
-*** 
+<HorizontalLine />
 > Word **middleItem**()
 > 
 > Returns the middle Word in the collection.
-*** 
+<HorizontalLine />
 > Word **previousItem**( Word **obj** )
 > 
 > Returns the Word with the index previous to the specified index.
@@ -52,7 +52,7 @@ A collection of words.
 |---|---|---|
 | Word | obj | The index of the Word that follows the desired Word. |
 
-*** 
+<HorizontalLine />
 > Word **nextItem**( Word **obj** )
 > 
 > Returns the Word whose index follows the specified Word in the collection.
@@ -61,19 +61,19 @@ A collection of words.
 |---|---|---|
 | Word | obj | The Word whose index comes before the desired Word. |
 
-*** 
+<HorizontalLine />
 > Word **anyItem**()
 > 
 > Returns any Word in the collection.
-*** 
+<HorizontalLine />
 > Word **everyItem**()
 > 
 > Returns every Word in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Word.
-*** 
+<HorizontalLine />
 > Word **[]**( Number **index** )
 > 
 > Returns the Word with the specified index.

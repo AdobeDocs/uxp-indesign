@@ -7,7 +7,7 @@ Changed text color options.
 > Number **CHANGE_USES_GALLEY_TEXT_COLOR** = 1700095843
 > 
 > The text color for changed text is the same as the galley text color.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CHANGE_USES_CHANGE_PREF_COLOR** = 1700098147

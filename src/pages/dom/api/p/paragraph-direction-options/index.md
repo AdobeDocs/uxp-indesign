@@ -7,7 +7,7 @@ Paragraph direction.
 > Number **LEFT_TO_RIGHT_DIRECTION** = 1278366308
 > 
 > Left to Right paragraph direction
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **RIGHT_TO_LEFT_DIRECTION** = 1379028068

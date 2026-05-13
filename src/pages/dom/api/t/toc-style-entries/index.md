@@ -18,11 +18,11 @@ A collection TOC style entries.
 | String | styleName | The paragraph style to include as TOC entries in the TOC. (Optional) |
 | Object | withProperties | Initial values for properties of the new TOCStyleEntry (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the TOCStyleEntry.
-*** 
+<HorizontalLine />
 > TOCStyleEntry **item**( Mixed **index** )
 > 
 > Returns the TOCStyleEntry with the specified index or name.
@@ -31,7 +31,7 @@ A collection TOC style entries.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TOCStyleEntry **itemByName**( String **name** )
 > 
 > Returns the TOCStyleEntry with the specified name.
@@ -40,7 +40,7 @@ A collection TOC style entries.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > TOCStyleEntry **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TOCStyleEntries within the specified range.
@@ -50,19 +50,19 @@ A collection TOC style entries.
 | Mixed | from | The TOCStyleEntry, index, or name at the beginning of the range. Can accept: TOCStyleEntry, Long Integer or String. |
 | Mixed | to | The TOCStyleEntry, index, or name at the end of the range. Can accept: TOCStyleEntry, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TOCStyleEntry **firstItem**()
 > 
 > Returns the first TOCStyleEntry in the collection.
-*** 
+<HorizontalLine />
 > TOCStyleEntry **lastItem**()
 > 
 > Returns the last TOCStyleEntry in the collection.
-*** 
+<HorizontalLine />
 > TOCStyleEntry **middleItem**()
 > 
 > Returns the middle TOCStyleEntry in the collection.
-*** 
+<HorizontalLine />
 > TOCStyleEntry **previousItem**( TOCStyleEntry **obj** )
 > 
 > Returns the TOCStyleEntry with the index previous to the specified index.
@@ -71,7 +71,7 @@ A collection TOC style entries.
 |---|---|---|
 | TOCStyleEntry | obj | The index of the TOCStyleEntry that follows the desired TOCStyleEntry. |
 
-*** 
+<HorizontalLine />
 > TOCStyleEntry **nextItem**( TOCStyleEntry **obj** )
 > 
 > Returns the TOCStyleEntry whose index follows the specified TOCStyleEntry in the collection.
@@ -80,19 +80,19 @@ A collection TOC style entries.
 |---|---|---|
 | TOCStyleEntry | obj | The TOCStyleEntry whose index comes before the desired TOCStyleEntry. |
 
-*** 
+<HorizontalLine />
 > TOCStyleEntry **anyItem**()
 > 
 > Returns any TOCStyleEntry in the collection.
-*** 
+<HorizontalLine />
 > TOCStyleEntry **everyItem**()
 > 
 > Returns every TOCStyleEntry in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TOCStyleEntry.
-*** 
+<HorizontalLine />
 > TOCStyleEntry **[]**( Number **index** )
 > 
 > Returns the TOCStyleEntry with the specified index.

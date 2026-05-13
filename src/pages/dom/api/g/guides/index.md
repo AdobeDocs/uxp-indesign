@@ -18,11 +18,11 @@ A collection of guides.
 | Layer | layer | The layer on which to create the guide. (Optional) |
 | Object | withProperties | Initial values for properties of the new Guide (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Guide.
-*** 
+<HorizontalLine />
 > Guide **item**( Mixed **index** )
 > 
 > Returns the Guide with the specified index or name.
@@ -31,7 +31,7 @@ A collection of guides.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Guide **itemByName**( String **name** )
 > 
 > Returns the Guide with the specified name.
@@ -40,7 +40,7 @@ A collection of guides.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Guide **itemByID**( Number **id** )
 > 
 > Returns the Guide with the specified ID.
@@ -49,7 +49,7 @@ A collection of guides.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Guide **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Guides within the specified range.
@@ -59,19 +59,19 @@ A collection of guides.
 | Mixed | from | The Guide, index, or name at the beginning of the range. Can accept: Guide, Long Integer or String. |
 | Mixed | to | The Guide, index, or name at the end of the range. Can accept: Guide, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Guide **firstItem**()
 > 
 > Returns the first Guide in the collection.
-*** 
+<HorizontalLine />
 > Guide **lastItem**()
 > 
 > Returns the last Guide in the collection.
-*** 
+<HorizontalLine />
 > Guide **middleItem**()
 > 
 > Returns the middle Guide in the collection.
-*** 
+<HorizontalLine />
 > Guide **previousItem**( Guide **obj** )
 > 
 > Returns the Guide with the index previous to the specified index.
@@ -80,7 +80,7 @@ A collection of guides.
 |---|---|---|
 | Guide | obj | The index of the Guide that follows the desired Guide. |
 
-*** 
+<HorizontalLine />
 > Guide **nextItem**( Guide **obj** )
 > 
 > Returns the Guide whose index follows the specified Guide in the collection.
@@ -89,19 +89,19 @@ A collection of guides.
 |---|---|---|
 | Guide | obj | The Guide whose index comes before the desired Guide. |
 
-*** 
+<HorizontalLine />
 > Guide **anyItem**()
 > 
 > Returns any Guide in the collection.
-*** 
+<HorizontalLine />
 > Guide **everyItem**()
 > 
 > Returns every Guide in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Guide.
-*** 
+<HorizontalLine />
 > Guide **[]**( Number **index** )
 > 
 > Returns the Guide with the specified index.

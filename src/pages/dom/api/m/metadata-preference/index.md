@@ -7,87 +7,87 @@ Metadata preferences.
 > String **serverURL** 
 >
 > The location of the document on the asset management server.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Date **modificationDate** 
 >
 > The most recent modification date of the document.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Date **creationDate** 
 >
 > The creation date of the document.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > String **creator** 
 >
 > The name of the application used to create the document.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > String **format** 
 >
 > The format of the document.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Document **parent** 
 >
 > The parent of the MetadataPreference (a Document).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > String **author** 
 >
 > The author of the document.
-*** 
+<HorizontalLine />
 > String **description** 
 >
 > The description of the MetadataPreference.
-*** 
+<HorizontalLine />
 > String **jobName** 
 >
 > The job name.
-*** 
+<HorizontalLine />
 > CopyrightStatus **copyrightStatus** 
 >
 > The copyright status of the document.
-*** 
+<HorizontalLine />
 > String **copyrightNotice** 
 >
 > The text to use as a copyright notice.
-*** 
+<HorizontalLine />
 > String **copyrightInfoURL** 
 >
 > The URL of the file that contains the linked copyright statement.
-*** 
+<HorizontalLine />
 > String **keywords** 
 >
 > The list of keywords associated with the document.
-*** 
+<HorizontalLine />
 > String **documentTitle** 
 >
 > The title of the document.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -101,7 +101,7 @@ Metadata preferences.
 |---|---|---|
 | File | to | The path to the external file. |
 
-*** 
+<HorizontalLine />
 > **replace**( File **using**, Boolean **affectAll** )
 > 
 > Replaces the current metadata in the document with metadata from the specified file.
@@ -111,7 +111,7 @@ Metadata preferences.
 | File | using | The full path to the file that contains the replacement metadata. |
 | Boolean | affectAll | If true, treats all properties as external. Note: Defaults to false. (Optional) |
 
-*** 
+<HorizontalLine />
 > **append**( File **from**, Boolean **affectAll** )
 > 
 > Uses metadata from the specified external file to define any undefined metadata properties in the document.
@@ -121,7 +121,7 @@ Metadata preferences.
 | File | from | The path to the external file that contains the metadata. |
 | Boolean | affectAll | If true, also replaces existing metadata with data from the external file. If false, does not replace existing metadata. Note: Defaults to false. (Optional) |
 
-*** 
+<HorizontalLine />
 > String **getProperty**( String **namespace**, String **path** )
 > 
 > Gets the XMP property value associated with the specified path.
@@ -131,7 +131,7 @@ Metadata preferences.
 | String | namespace | The namespace of the property. |
 | String | path | The specified path. |
 
-*** 
+<HorizontalLine />
 > **setProperty**( String **namespace**, String **path**, String **value** )
 > 
 > Sets the XMP property associated with the specified path.
@@ -142,7 +142,7 @@ Metadata preferences.
 | String | path | The specified path(s). |
 | String | value | The value to assign to the property. Note: To remove the property, pass an empty string. |
 
-*** 
+<HorizontalLine />
 > **createContainerItem**( String **namespace**, String **path**, Number **index**, ContainerType **container** )
 > 
 > Creates an empty container.
@@ -154,7 +154,7 @@ Metadata preferences.
 | Number | index | The index of the item within the container. Specified values must be 1 or greater. To append the item to the end of the index and allow the next available value to be assigned, use 0. (Optional) |
 | ContainerType | container | The container type. Note: Required when the new item is the first item added to the container. (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **countContainer**( String **namespace**, String **path** )
 > 
 > Counts the number of items in the container.
@@ -164,19 +164,19 @@ Metadata preferences.
 | String | namespace | The namespace of the container. |
 | String | path | The path to the container. |
 
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the MetadataPreference.
-*** 
+<HorizontalLine />
 > MetadataPreference **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -187,7 +187,7 @@ Metadata preferences.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

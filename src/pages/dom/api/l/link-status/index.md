@@ -7,25 +7,25 @@ Link status options.
 > Number **NORMAL** = 1852797549
 > 
 > The link is a normal link.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LINK_OUT_OF_DATE** = 1819242340
 > 
 > A more recent version of the file exists on the disk.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LINK_MISSING** = 1819109747
 > 
 > The linked file has been moved, renamed, or deleted.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LINK_EMBEDDED** = 1282237028
 > 
 > The file is embedded in the document.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LINK_INACCESSIBLE** = 1818848865

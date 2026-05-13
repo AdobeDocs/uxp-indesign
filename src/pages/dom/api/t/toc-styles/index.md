@@ -17,11 +17,11 @@ A collection of TOC styles.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new TOCStyle (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the TOCStyle.
-*** 
+<HorizontalLine />
 > TOCStyle **item**( Mixed **index** )
 > 
 > Returns the TOCStyle with the specified index or name.
@@ -30,7 +30,7 @@ A collection of TOC styles.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TOCStyle **itemByName**( String **name** )
 > 
 > Returns the TOCStyle with the specified name.
@@ -39,7 +39,7 @@ A collection of TOC styles.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > TOCStyle **itemByID**( Number **id** )
 > 
 > Returns the TOCStyle with the specified ID.
@@ -48,7 +48,7 @@ A collection of TOC styles.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > TOCStyle **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TOCStyles within the specified range.
@@ -58,19 +58,19 @@ A collection of TOC styles.
 | Mixed | from | The TOCStyle, index, or name at the beginning of the range. Can accept: TOCStyle, Long Integer or String. |
 | Mixed | to | The TOCStyle, index, or name at the end of the range. Can accept: TOCStyle, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TOCStyle **firstItem**()
 > 
 > Returns the first TOCStyle in the collection.
-*** 
+<HorizontalLine />
 > TOCStyle **lastItem**()
 > 
 > Returns the last TOCStyle in the collection.
-*** 
+<HorizontalLine />
 > TOCStyle **middleItem**()
 > 
 > Returns the middle TOCStyle in the collection.
-*** 
+<HorizontalLine />
 > TOCStyle **previousItem**( TOCStyle **obj** )
 > 
 > Returns the TOCStyle with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of TOC styles.
 |---|---|---|
 | TOCStyle | obj | The index of the TOCStyle that follows the desired TOCStyle. |
 
-*** 
+<HorizontalLine />
 > TOCStyle **nextItem**( TOCStyle **obj** )
 > 
 > Returns the TOCStyle whose index follows the specified TOCStyle in the collection.
@@ -88,19 +88,19 @@ A collection of TOC styles.
 |---|---|---|
 | TOCStyle | obj | The TOCStyle whose index comes before the desired TOCStyle. |
 
-*** 
+<HorizontalLine />
 > TOCStyle **anyItem**()
 > 
 > Returns any TOCStyle in the collection.
-*** 
+<HorizontalLine />
 > TOCStyle **everyItem**()
 > 
 > Returns every TOCStyle in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TOCStyle.
-*** 
+<HorizontalLine />
 > TOCStyle **[]**( Number **index** )
 > 
 > Returns the TOCStyle with the specified index.

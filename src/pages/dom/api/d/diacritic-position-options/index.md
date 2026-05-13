@@ -7,31 +7,31 @@ Diacritic position.
 > Number **DEFAULT_POSITION** = 1685090150
 > 
 > Default position
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LOOSE_POSITION** = 1685089391
 > 
 > Loose position
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **MEDIUM_POSITION** = 1685089637
 > 
 > Medium position
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TIGHT_POSITION** = 1685091433
 > 
 > Tight position
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OPENTYPE_POSITION** = 1685090164
 > 
 > OpenType position
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OPENTYPE_POSITION_FROM_BASELINE** = 1685090146

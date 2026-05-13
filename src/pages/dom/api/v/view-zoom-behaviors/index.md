@@ -12,7 +12,7 @@ A collection of view zoom behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the ViewZoomBehavior.
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **add**( Object **withProperties** )
 > 
 > Creates a new ViewZoomBehavior.
@@ -21,7 +21,7 @@ A collection of view zoom behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new ViewZoomBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **item**( Mixed **index** )
 > 
 > Returns the ViewZoomBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of view zoom behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **itemByName**( String **name** )
 > 
 > Returns the ViewZoomBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of view zoom behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **itemByID**( Number **id** )
 > 
 > Returns the ViewZoomBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of view zoom behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ViewZoomBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of view zoom behavior objects.
 | Mixed | from | The ViewZoomBehavior, index, or name at the beginning of the range. Can accept: ViewZoomBehavior, Long Integer or String. |
 | Mixed | to | The ViewZoomBehavior, index, or name at the end of the range. Can accept: ViewZoomBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **firstItem**()
 > 
 > Returns the first ViewZoomBehavior in the collection.
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **lastItem**()
 > 
 > Returns the last ViewZoomBehavior in the collection.
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **middleItem**()
 > 
 > Returns the middle ViewZoomBehavior in the collection.
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **previousItem**( ViewZoomBehavior **obj** )
 > 
 > Returns the ViewZoomBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of view zoom behavior objects.
 |---|---|---|
 | ViewZoomBehavior | obj | The index of the ViewZoomBehavior that follows the desired ViewZoomBehavior. |
 
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **nextItem**( ViewZoomBehavior **obj** )
 > 
 > Returns the ViewZoomBehavior whose index follows the specified ViewZoomBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of view zoom behavior objects.
 |---|---|---|
 | ViewZoomBehavior | obj | The ViewZoomBehavior whose index comes before the desired ViewZoomBehavior. |
 
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **anyItem**()
 > 
 > Returns any ViewZoomBehavior in the collection.
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **everyItem**()
 > 
 > Returns every ViewZoomBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ViewZoomBehavior.
-*** 
+<HorizontalLine />
 > ViewZoomBehavior **[]**( Number **index** )
 > 
 > Returns the ViewZoomBehavior with the specified index.

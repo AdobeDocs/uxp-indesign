@@ -12,7 +12,7 @@ A collection of rectangles.
 > Number **count**()
 > 
 > Displays the number of elements in the Rectangle.
-*** 
+<HorizontalLine />
 > Rectangle **add**( Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new Rectangle
@@ -24,7 +24,7 @@ A collection of rectangles.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new Rectangle (Optional) |
 
-*** 
+<HorizontalLine />
 > Rectangle **item**( Mixed **index** )
 > 
 > Returns the Rectangle with the specified index or name.
@@ -33,7 +33,7 @@ A collection of rectangles.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Rectangle **itemByName**( String **name** )
 > 
 > Returns the Rectangle with the specified name.
@@ -42,7 +42,7 @@ A collection of rectangles.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Rectangle **itemByID**( Number **id** )
 > 
 > Returns the Rectangle with the specified ID.
@@ -51,7 +51,7 @@ A collection of rectangles.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Rectangle **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Rectangles within the specified range.
@@ -61,19 +61,19 @@ A collection of rectangles.
 | Mixed | from | The Rectangle, index, or name at the beginning of the range. Can accept: Rectangle, Long Integer or String. |
 | Mixed | to | The Rectangle, index, or name at the end of the range. Can accept: Rectangle, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Rectangle **firstItem**()
 > 
 > Returns the first Rectangle in the collection.
-*** 
+<HorizontalLine />
 > Rectangle **lastItem**()
 > 
 > Returns the last Rectangle in the collection.
-*** 
+<HorizontalLine />
 > Rectangle **middleItem**()
 > 
 > Returns the middle Rectangle in the collection.
-*** 
+<HorizontalLine />
 > Rectangle **previousItem**( Rectangle **obj** )
 > 
 > Returns the Rectangle with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of rectangles.
 |---|---|---|
 | Rectangle | obj | The index of the Rectangle that follows the desired Rectangle. |
 
-*** 
+<HorizontalLine />
 > Rectangle **nextItem**( Rectangle **obj** )
 > 
 > Returns the Rectangle whose index follows the specified Rectangle in the collection.
@@ -91,19 +91,19 @@ A collection of rectangles.
 |---|---|---|
 | Rectangle | obj | The Rectangle whose index comes before the desired Rectangle. |
 
-*** 
+<HorizontalLine />
 > Rectangle **anyItem**()
 > 
 > Returns any Rectangle in the collection.
-*** 
+<HorizontalLine />
 > Rectangle **everyItem**()
 > 
 > Returns every Rectangle in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Rectangle.
-*** 
+<HorizontalLine />
 > Rectangle **[]**( Number **index** )
 > 
 > Returns the Rectangle with the specified index.

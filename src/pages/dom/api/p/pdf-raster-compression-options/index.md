@@ -7,13 +7,13 @@ PDF raster compression options.
 > Number **JPEG_COMPRESSION** = 1936878179
 > 
 > Uses JPEG compression.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LOSSLESS_COMPRESSION** = 1936878691
 > 
 > Uses the best quality type.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **AUTOMATIC_COMPRESSION** = 1936875875

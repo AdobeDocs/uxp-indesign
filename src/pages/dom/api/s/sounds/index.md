@@ -20,11 +20,11 @@ A collection of sound clips.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new Sound (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Sound.
-*** 
+<HorizontalLine />
 > Sound **item**( Mixed **index** )
 > 
 > Returns the Sound with the specified index or name.
@@ -33,7 +33,7 @@ A collection of sound clips.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Sound **itemByName**( String **name** )
 > 
 > Returns the Sound with the specified name.
@@ -42,7 +42,7 @@ A collection of sound clips.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Sound **itemByID**( Number **id** )
 > 
 > Returns the Sound with the specified ID.
@@ -51,7 +51,7 @@ A collection of sound clips.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Sound **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Sounds within the specified range.
@@ -61,19 +61,19 @@ A collection of sound clips.
 | Mixed | from | The Sound, index, or name at the beginning of the range. Can accept: Sound, Long Integer or String. |
 | Mixed | to | The Sound, index, or name at the end of the range. Can accept: Sound, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Sound **firstItem**()
 > 
 > Returns the first Sound in the collection.
-*** 
+<HorizontalLine />
 > Sound **lastItem**()
 > 
 > Returns the last Sound in the collection.
-*** 
+<HorizontalLine />
 > Sound **middleItem**()
 > 
 > Returns the middle Sound in the collection.
-*** 
+<HorizontalLine />
 > Sound **previousItem**( Sound **obj** )
 > 
 > Returns the Sound with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of sound clips.
 |---|---|---|
 | Sound | obj | The index of the Sound that follows the desired Sound. |
 
-*** 
+<HorizontalLine />
 > Sound **nextItem**( Sound **obj** )
 > 
 > Returns the Sound whose index follows the specified Sound in the collection.
@@ -91,19 +91,19 @@ A collection of sound clips.
 |---|---|---|
 | Sound | obj | The Sound whose index comes before the desired Sound. |
 
-*** 
+<HorizontalLine />
 > Sound **anyItem**()
 > 
 > Returns any Sound in the collection.
-*** 
+<HorizontalLine />
 > Sound **everyItem**()
 > 
 > Returns every Sound in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Sound.
-*** 
+<HorizontalLine />
 > Sound **[]**( Number **index** )
 > 
 > Returns the Sound with the specified index.

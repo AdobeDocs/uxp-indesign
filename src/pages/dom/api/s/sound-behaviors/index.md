@@ -12,7 +12,7 @@ A collection of sound behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the SoundBehavior.
-*** 
+<HorizontalLine />
 > SoundBehavior **add**( Object **withProperties** )
 > 
 > Creates a new SoundBehavior.
@@ -21,7 +21,7 @@ A collection of sound behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new SoundBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > SoundBehavior **item**( Mixed **index** )
 > 
 > Returns the SoundBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of sound behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > SoundBehavior **itemByName**( String **name** )
 > 
 > Returns the SoundBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of sound behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > SoundBehavior **itemByID**( Number **id** )
 > 
 > Returns the SoundBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of sound behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > SoundBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the SoundBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of sound behavior objects.
 | Mixed | from | The SoundBehavior, index, or name at the beginning of the range. Can accept: SoundBehavior, Long Integer or String. |
 | Mixed | to | The SoundBehavior, index, or name at the end of the range. Can accept: SoundBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > SoundBehavior **firstItem**()
 > 
 > Returns the first SoundBehavior in the collection.
-*** 
+<HorizontalLine />
 > SoundBehavior **lastItem**()
 > 
 > Returns the last SoundBehavior in the collection.
-*** 
+<HorizontalLine />
 > SoundBehavior **middleItem**()
 > 
 > Returns the middle SoundBehavior in the collection.
-*** 
+<HorizontalLine />
 > SoundBehavior **previousItem**( SoundBehavior **obj** )
 > 
 > Returns the SoundBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of sound behavior objects.
 |---|---|---|
 | SoundBehavior | obj | The index of the SoundBehavior that follows the desired SoundBehavior. |
 
-*** 
+<HorizontalLine />
 > SoundBehavior **nextItem**( SoundBehavior **obj** )
 > 
 > Returns the SoundBehavior whose index follows the specified SoundBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of sound behavior objects.
 |---|---|---|
 | SoundBehavior | obj | The SoundBehavior whose index comes before the desired SoundBehavior. |
 
-*** 
+<HorizontalLine />
 > SoundBehavior **anyItem**()
 > 
 > Returns any SoundBehavior in the collection.
-*** 
+<HorizontalLine />
 > SoundBehavior **everyItem**()
 > 
 > Returns every SoundBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the SoundBehavior.
-*** 
+<HorizontalLine />
 > SoundBehavior **[]**( Number **index** )
 > 
 > Returns the SoundBehavior with the specified index.

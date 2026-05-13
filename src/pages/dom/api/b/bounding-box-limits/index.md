@@ -7,7 +7,7 @@ Bounding box limits.
 > Number **OUTER_STROKE_BOUNDS** = 1768844081
 > 
 > Outer stroke bounds
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **GEOMETRIC_PATH_BOUNDS** = 1768844080

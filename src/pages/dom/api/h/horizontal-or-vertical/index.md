@@ -7,7 +7,7 @@ Orientation options.
 > Number **HORIZONTAL** = 1752134266
 > 
 > Horizontal orientation.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **VERTICAL** = 1986359924

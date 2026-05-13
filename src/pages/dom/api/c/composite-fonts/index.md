@@ -17,11 +17,11 @@ A collection of composite fonts.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new CompositeFont (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the CompositeFont.
-*** 
+<HorizontalLine />
 > CompositeFont **item**( Mixed **index** )
 > 
 > Returns the CompositeFont with the specified index or name.
@@ -30,7 +30,7 @@ A collection of composite fonts.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CompositeFont **itemByName**( String **name** )
 > 
 > Returns the CompositeFont with the specified name.
@@ -39,7 +39,7 @@ A collection of composite fonts.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > CompositeFont **itemByID**( Number **id** )
 > 
 > Returns the CompositeFont with the specified ID.
@@ -48,7 +48,7 @@ A collection of composite fonts.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > CompositeFont **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the CompositeFonts within the specified range.
@@ -58,19 +58,19 @@ A collection of composite fonts.
 | Mixed | from | The CompositeFont, index, or name at the beginning of the range. Can accept: CompositeFont, Long Integer or String. |
 | Mixed | to | The CompositeFont, index, or name at the end of the range. Can accept: CompositeFont, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CompositeFont **firstItem**()
 > 
 > Returns the first CompositeFont in the collection.
-*** 
+<HorizontalLine />
 > CompositeFont **lastItem**()
 > 
 > Returns the last CompositeFont in the collection.
-*** 
+<HorizontalLine />
 > CompositeFont **middleItem**()
 > 
 > Returns the middle CompositeFont in the collection.
-*** 
+<HorizontalLine />
 > CompositeFont **previousItem**( CompositeFont **obj** )
 > 
 > Returns the CompositeFont with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of composite fonts.
 |---|---|---|
 | CompositeFont | obj | The index of the CompositeFont that follows the desired CompositeFont. |
 
-*** 
+<HorizontalLine />
 > CompositeFont **nextItem**( CompositeFont **obj** )
 > 
 > Returns the CompositeFont whose index follows the specified CompositeFont in the collection.
@@ -88,19 +88,19 @@ A collection of composite fonts.
 |---|---|---|
 | CompositeFont | obj | The CompositeFont whose index comes before the desired CompositeFont. |
 
-*** 
+<HorizontalLine />
 > CompositeFont **anyItem**()
 > 
 > Returns any CompositeFont in the collection.
-*** 
+<HorizontalLine />
 > CompositeFont **everyItem**()
 > 
 > Returns every CompositeFont in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the CompositeFont.
-*** 
+<HorizontalLine />
 > CompositeFont **[]**( Number **index** )
 > 
 > Returns the CompositeFont with the specified index.

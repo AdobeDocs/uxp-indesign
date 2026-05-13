@@ -7,7 +7,7 @@ Options for page numbering.
 > Number **SECTION** = 1935897710
 > 
 > Numbers pages according to page numbering specifications of the section.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ABSOLUTE** = 1096971116

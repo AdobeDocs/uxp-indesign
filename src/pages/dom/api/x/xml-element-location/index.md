@@ -7,7 +7,7 @@ Location options for XML elements.
 > Number **ELEMENT_START** = 1482844014
 > 
 > Locates the element at the beginning of the containing object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ELEMENT_END** = 1483042404

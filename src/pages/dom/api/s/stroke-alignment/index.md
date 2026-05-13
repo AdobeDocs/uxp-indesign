@@ -7,13 +7,13 @@ Options for positioning the stroke relative to its path.
 > Number **CENTER_ALIGNMENT** = 1936998723
 > 
 > The stroke straddles the path.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **INSIDE_ALIGNMENT** = 1936998729
 > 
 > The stroke is inside the path.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OUTSIDE_ALIGNMENT** = 1936998735

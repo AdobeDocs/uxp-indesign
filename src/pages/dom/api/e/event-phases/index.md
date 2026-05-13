@@ -7,19 +7,19 @@ Phase options for event propagation.
 > Number **NOT_DISPATCHING** = 1701727812
 > 
 > Not yet propagating.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **AT_TARGET** = 1701724500
 > 
 > The at-target phase of propagation.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BUBBLING_PHASE** = 1701724789
 > 
 > The bubbling phase of propagation.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **DONE** = 1701725252

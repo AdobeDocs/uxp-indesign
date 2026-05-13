@@ -7,19 +7,19 @@ The color profile.
 > Number **USE_NO_PROFILE** = 1851868240
 > 
 > Uses no profile.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **USE_MONITOR_PROFILE** = 1836008528
 > 
 > Uses the monitor's color profile.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **USE_DOCUMENT** = 1967419235
 > 
 > Uses the document's CMYK profile.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **WORKING** = 1466921579

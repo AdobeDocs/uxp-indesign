@@ -7,13 +7,13 @@ Binding spine placement options.
 > Number **RIGHT_HAND** = 1919382632
 > 
 > The page is on the right side of the binding spine in the spread.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LEFT_HAND** = 1818653800
 > 
 > The page is on the left side of the binding spine in the spread.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SINGLE_SIDED** = 1970496888

@@ -7,7 +7,7 @@ On/off options for feathering.
 > Number **NONE** = 1852796517
 > 
 > Does not use feathering.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **STANDARD** = 2020623970

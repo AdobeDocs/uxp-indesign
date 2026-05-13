@@ -7,7 +7,7 @@ The number of records per page.
 > Number **SINGLE_RECORD** = 1684886386
 > 
 > Places each record on a new page.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **MULTIPLE_RECORD** = 1684884850

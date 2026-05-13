@@ -12,7 +12,7 @@ A collection of signature fields.
 > Number **count**()
 > 
 > Displays the number of elements in the SignatureField.
-*** 
+<HorizontalLine />
 > SignatureField **add**( Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new SignatureField
@@ -24,7 +24,7 @@ A collection of signature fields.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new SignatureField (Optional) |
 
-*** 
+<HorizontalLine />
 > SignatureField **item**( Mixed **index** )
 > 
 > Returns the SignatureField with the specified index or name.
@@ -33,7 +33,7 @@ A collection of signature fields.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > SignatureField **itemByName**( String **name** )
 > 
 > Returns the SignatureField with the specified name.
@@ -42,7 +42,7 @@ A collection of signature fields.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > SignatureField **itemByID**( Number **id** )
 > 
 > Returns the SignatureField with the specified ID.
@@ -51,7 +51,7 @@ A collection of signature fields.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > SignatureField **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the SignatureFields within the specified range.
@@ -61,19 +61,19 @@ A collection of signature fields.
 | Mixed | from | The SignatureField, index, or name at the beginning of the range. Can accept: SignatureField, Long Integer or String. |
 | Mixed | to | The SignatureField, index, or name at the end of the range. Can accept: SignatureField, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > SignatureField **firstItem**()
 > 
 > Returns the first SignatureField in the collection.
-*** 
+<HorizontalLine />
 > SignatureField **lastItem**()
 > 
 > Returns the last SignatureField in the collection.
-*** 
+<HorizontalLine />
 > SignatureField **middleItem**()
 > 
 > Returns the middle SignatureField in the collection.
-*** 
+<HorizontalLine />
 > SignatureField **previousItem**( SignatureField **obj** )
 > 
 > Returns the SignatureField with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of signature fields.
 |---|---|---|
 | SignatureField | obj | The index of the SignatureField that follows the desired SignatureField. |
 
-*** 
+<HorizontalLine />
 > SignatureField **nextItem**( SignatureField **obj** )
 > 
 > Returns the SignatureField whose index follows the specified SignatureField in the collection.
@@ -91,19 +91,19 @@ A collection of signature fields.
 |---|---|---|
 | SignatureField | obj | The SignatureField whose index comes before the desired SignatureField. |
 
-*** 
+<HorizontalLine />
 > SignatureField **anyItem**()
 > 
 > Returns any SignatureField in the collection.
-*** 
+<HorizontalLine />
 > SignatureField **everyItem**()
 > 
 > Returns every SignatureField in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the SignatureField.
-*** 
+<HorizontalLine />
 > SignatureField **[]**( Number **index** )
 > 
 > Returns the SignatureField with the specified index.

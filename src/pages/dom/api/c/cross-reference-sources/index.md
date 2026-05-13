@@ -19,11 +19,11 @@ A collection of cross reference text sources.
 | CrossReferenceFormat | appliedFormat | Format used for cross reference source. |
 | Object | withProperties | Initial values for properties of the new CrossReferenceSource (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the CrossReferenceSource.
-*** 
+<HorizontalLine />
 > CrossReferenceSource **item**( Mixed **index** )
 > 
 > Returns the CrossReferenceSource with the specified index or name.
@@ -32,7 +32,7 @@ A collection of cross reference text sources.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CrossReferenceSource **itemByName**( String **name** )
 > 
 > Returns the CrossReferenceSource with the specified name.
@@ -41,7 +41,7 @@ A collection of cross reference text sources.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > CrossReferenceSource **itemByID**( Number **id** )
 > 
 > Returns the CrossReferenceSource with the specified ID.
@@ -50,7 +50,7 @@ A collection of cross reference text sources.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > CrossReferenceSource **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the CrossReferenceSources within the specified range.
@@ -60,19 +60,19 @@ A collection of cross reference text sources.
 | Mixed | from | The CrossReferenceSource, index, or name at the beginning of the range. Can accept: CrossReferenceSource, Long Integer or String. |
 | Mixed | to | The CrossReferenceSource, index, or name at the end of the range. Can accept: CrossReferenceSource, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CrossReferenceSource **firstItem**()
 > 
 > Returns the first CrossReferenceSource in the collection.
-*** 
+<HorizontalLine />
 > CrossReferenceSource **lastItem**()
 > 
 > Returns the last CrossReferenceSource in the collection.
-*** 
+<HorizontalLine />
 > CrossReferenceSource **middleItem**()
 > 
 > Returns the middle CrossReferenceSource in the collection.
-*** 
+<HorizontalLine />
 > CrossReferenceSource **previousItem**( CrossReferenceSource **obj** )
 > 
 > Returns the CrossReferenceSource with the index previous to the specified index.
@@ -81,7 +81,7 @@ A collection of cross reference text sources.
 |---|---|---|
 | CrossReferenceSource | obj | The index of the CrossReferenceSource that follows the desired CrossReferenceSource. |
 
-*** 
+<HorizontalLine />
 > CrossReferenceSource **nextItem**( CrossReferenceSource **obj** )
 > 
 > Returns the CrossReferenceSource whose index follows the specified CrossReferenceSource in the collection.
@@ -90,19 +90,19 @@ A collection of cross reference text sources.
 |---|---|---|
 | CrossReferenceSource | obj | The CrossReferenceSource whose index comes before the desired CrossReferenceSource. |
 
-*** 
+<HorizontalLine />
 > CrossReferenceSource **anyItem**()
 > 
 > Returns any CrossReferenceSource in the collection.
-*** 
+<HorizontalLine />
 > CrossReferenceSource **everyItem**()
 > 
 > Returns every CrossReferenceSource in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the CrossReferenceSource.
-*** 
+<HorizontalLine />
 > CrossReferenceSource **[]**( Number **index** )
 > 
 > Returns the CrossReferenceSource with the specified index.

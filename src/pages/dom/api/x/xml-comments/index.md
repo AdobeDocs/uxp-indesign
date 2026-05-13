@@ -19,11 +19,11 @@ A collection of XML comments.
 | Mixed | storyOffset | The location within the story, specified as an insertion point. Can accept: InsertionPoint or Long Integer. (Optional) |
 | Object | withProperties | Initial values for properties of the new XMLComment (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the XMLComment.
-*** 
+<HorizontalLine />
 > XMLComment **item**( Mixed **index** )
 > 
 > Returns the XMLComment with the specified index or name.
@@ -32,7 +32,7 @@ A collection of XML comments.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XMLComment **itemByID**( Number **id** )
 > 
 > Returns the XMLComment with the specified ID.
@@ -41,7 +41,7 @@ A collection of XML comments.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > XMLComment **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the XMLComments within the specified range.
@@ -51,19 +51,19 @@ A collection of XML comments.
 | Mixed | from | The XMLComment, index, or name at the beginning of the range. Can accept: XMLComment, Long Integer or String. |
 | Mixed | to | The XMLComment, index, or name at the end of the range. Can accept: XMLComment, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XMLComment **firstItem**()
 > 
 > Returns the first XMLComment in the collection.
-*** 
+<HorizontalLine />
 > XMLComment **lastItem**()
 > 
 > Returns the last XMLComment in the collection.
-*** 
+<HorizontalLine />
 > XMLComment **middleItem**()
 > 
 > Returns the middle XMLComment in the collection.
-*** 
+<HorizontalLine />
 > XMLComment **previousItem**( XMLComment **obj** )
 > 
 > Returns the XMLComment with the index previous to the specified index.
@@ -72,7 +72,7 @@ A collection of XML comments.
 |---|---|---|
 | XMLComment | obj | The index of the XMLComment that follows the desired XMLComment. |
 
-*** 
+<HorizontalLine />
 > XMLComment **nextItem**( XMLComment **obj** )
 > 
 > Returns the XMLComment whose index follows the specified XMLComment in the collection.
@@ -81,19 +81,19 @@ A collection of XML comments.
 |---|---|---|
 | XMLComment | obj | The XMLComment whose index comes before the desired XMLComment. |
 
-*** 
+<HorizontalLine />
 > XMLComment **anyItem**()
 > 
 > Returns any XMLComment in the collection.
-*** 
+<HorizontalLine />
 > XMLComment **everyItem**()
 > 
 > Returns every XMLComment in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the XMLComment.
-*** 
+<HorizontalLine />
 > XMLComment **[]**( Number **index** )
 > 
 > Returns the XMLComment with the specified index.

@@ -12,7 +12,7 @@ A collection of text boxes.
 > Number **count**()
 > 
 > Displays the number of elements in the TextBox.
-*** 
+<HorizontalLine />
 > TextBox **add**( Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new TextBox
@@ -24,7 +24,7 @@ A collection of text boxes.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new TextBox (Optional) |
 
-*** 
+<HorizontalLine />
 > TextBox **item**( Mixed **index** )
 > 
 > Returns the TextBox with the specified index or name.
@@ -33,7 +33,7 @@ A collection of text boxes.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TextBox **itemByName**( String **name** )
 > 
 > Returns the TextBox with the specified name.
@@ -42,7 +42,7 @@ A collection of text boxes.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > TextBox **itemByID**( Number **id** )
 > 
 > Returns the TextBox with the specified ID.
@@ -51,7 +51,7 @@ A collection of text boxes.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > TextBox **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TextBoxes within the specified range.
@@ -61,19 +61,19 @@ A collection of text boxes.
 | Mixed | from | The TextBox, index, or name at the beginning of the range. Can accept: TextBox, Long Integer or String. |
 | Mixed | to | The TextBox, index, or name at the end of the range. Can accept: TextBox, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TextBox **firstItem**()
 > 
 > Returns the first TextBox in the collection.
-*** 
+<HorizontalLine />
 > TextBox **lastItem**()
 > 
 > Returns the last TextBox in the collection.
-*** 
+<HorizontalLine />
 > TextBox **middleItem**()
 > 
 > Returns the middle TextBox in the collection.
-*** 
+<HorizontalLine />
 > TextBox **previousItem**( TextBox **obj** )
 > 
 > Returns the TextBox with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of text boxes.
 |---|---|---|
 | TextBox | obj | The index of the TextBox that follows the desired TextBox. |
 
-*** 
+<HorizontalLine />
 > TextBox **nextItem**( TextBox **obj** )
 > 
 > Returns the TextBox whose index follows the specified TextBox in the collection.
@@ -91,19 +91,19 @@ A collection of text boxes.
 |---|---|---|
 | TextBox | obj | The TextBox whose index comes before the desired TextBox. |
 
-*** 
+<HorizontalLine />
 > TextBox **anyItem**()
 > 
 > Returns any TextBox in the collection.
-*** 
+<HorizontalLine />
 > TextBox **everyItem**()
 > 
 > Returns every TextBox in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TextBox.
-*** 
+<HorizontalLine />
 > TextBox **[]**( Number **index** )
 > 
 > Returns the TextBox with the specified index.

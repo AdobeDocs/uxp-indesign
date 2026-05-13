@@ -12,7 +12,7 @@ A collection of menus.
 > Number **count**()
 > 
 > Displays the number of elements in the Menu.
-*** 
+<HorizontalLine />
 > Menu **item**( Mixed **index** )
 > 
 > Returns the Menu with the specified index or name.
@@ -21,7 +21,7 @@ A collection of menus.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Menu **itemByName**( String **name** )
 > 
 > Returns the Menu with the specified name.
@@ -30,7 +30,7 @@ A collection of menus.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Menu **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Menus within the specified range.
@@ -40,19 +40,19 @@ A collection of menus.
 | Mixed | from | The Menu, index, or name at the beginning of the range. Can accept: Menu, Long Integer or String. |
 | Mixed | to | The Menu, index, or name at the end of the range. Can accept: Menu, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Menu **firstItem**()
 > 
 > Returns the first Menu in the collection.
-*** 
+<HorizontalLine />
 > Menu **lastItem**()
 > 
 > Returns the last Menu in the collection.
-*** 
+<HorizontalLine />
 > Menu **middleItem**()
 > 
 > Returns the middle Menu in the collection.
-*** 
+<HorizontalLine />
 > Menu **previousItem**( Menu **obj** )
 > 
 > Returns the Menu with the index previous to the specified index.
@@ -61,7 +61,7 @@ A collection of menus.
 |---|---|---|
 | Menu | obj | The index of the Menu that follows the desired Menu. |
 
-*** 
+<HorizontalLine />
 > Menu **nextItem**( Menu **obj** )
 > 
 > Returns the Menu whose index follows the specified Menu in the collection.
@@ -70,19 +70,19 @@ A collection of menus.
 |---|---|---|
 | Menu | obj | The Menu whose index comes before the desired Menu. |
 
-*** 
+<HorizontalLine />
 > Menu **anyItem**()
 > 
 > Returns any Menu in the collection.
-*** 
+<HorizontalLine />
 > Menu **everyItem**()
 > 
 > Returns every Menu in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Menu.
-*** 
+<HorizontalLine />
 > Menu **[]**( Number **index** )
 > 
 > Returns the Menu with the specified index.

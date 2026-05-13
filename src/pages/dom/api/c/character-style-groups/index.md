@@ -17,11 +17,11 @@ A collection of character style groups.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new CharacterStyleGroup (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the CharacterStyleGroup.
-*** 
+<HorizontalLine />
 > CharacterStyleGroup **item**( Mixed **index** )
 > 
 > Returns the CharacterStyleGroup with the specified index or name.
@@ -30,7 +30,7 @@ A collection of character style groups.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CharacterStyleGroup **itemByName**( String **name** )
 > 
 > Returns the CharacterStyleGroup with the specified name.
@@ -39,7 +39,7 @@ A collection of character style groups.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > CharacterStyleGroup **itemByID**( Number **id** )
 > 
 > Returns the CharacterStyleGroup with the specified ID.
@@ -48,7 +48,7 @@ A collection of character style groups.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > CharacterStyleGroup **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the CharacterStyleGroups within the specified range.
@@ -58,19 +58,19 @@ A collection of character style groups.
 | Mixed | from | The CharacterStyleGroup, index, or name at the beginning of the range. Can accept: CharacterStyleGroup, Long Integer or String. |
 | Mixed | to | The CharacterStyleGroup, index, or name at the end of the range. Can accept: CharacterStyleGroup, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CharacterStyleGroup **firstItem**()
 > 
 > Returns the first CharacterStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > CharacterStyleGroup **lastItem**()
 > 
 > Returns the last CharacterStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > CharacterStyleGroup **middleItem**()
 > 
 > Returns the middle CharacterStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > CharacterStyleGroup **previousItem**( CharacterStyleGroup **obj** )
 > 
 > Returns the CharacterStyleGroup with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of character style groups.
 |---|---|---|
 | CharacterStyleGroup | obj | The index of the CharacterStyleGroup that follows the desired CharacterStyleGroup. |
 
-*** 
+<HorizontalLine />
 > CharacterStyleGroup **nextItem**( CharacterStyleGroup **obj** )
 > 
 > Returns the CharacterStyleGroup whose index follows the specified CharacterStyleGroup in the collection.
@@ -88,19 +88,19 @@ A collection of character style groups.
 |---|---|---|
 | CharacterStyleGroup | obj | The CharacterStyleGroup whose index comes before the desired CharacterStyleGroup. |
 
-*** 
+<HorizontalLine />
 > CharacterStyleGroup **anyItem**()
 > 
 > Returns any CharacterStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > CharacterStyleGroup **everyItem**()
 > 
 > Returns every CharacterStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the CharacterStyleGroup.
-*** 
+<HorizontalLine />
 > CharacterStyleGroup **[]**( Number **index** )
 > 
 > Returns the CharacterStyleGroup with the specified index.

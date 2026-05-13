@@ -12,7 +12,7 @@ A collection of animation behaviors.
 > Number **count**()
 > 
 > Displays the number of elements in the AnimationBehavior.
-*** 
+<HorizontalLine />
 > AnimationBehavior **add**( Object **withProperties** )
 > 
 > Creates a new AnimationBehavior.
@@ -21,7 +21,7 @@ A collection of animation behaviors.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new AnimationBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > AnimationBehavior **item**( Mixed **index** )
 > 
 > Returns the AnimationBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of animation behaviors.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > AnimationBehavior **itemByName**( String **name** )
 > 
 > Returns the AnimationBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of animation behaviors.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > AnimationBehavior **itemByID**( Number **id** )
 > 
 > Returns the AnimationBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of animation behaviors.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > AnimationBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the AnimationBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of animation behaviors.
 | Mixed | from | The AnimationBehavior, index, or name at the beginning of the range. Can accept: AnimationBehavior, Long Integer or String. |
 | Mixed | to | The AnimationBehavior, index, or name at the end of the range. Can accept: AnimationBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > AnimationBehavior **firstItem**()
 > 
 > Returns the first AnimationBehavior in the collection.
-*** 
+<HorizontalLine />
 > AnimationBehavior **lastItem**()
 > 
 > Returns the last AnimationBehavior in the collection.
-*** 
+<HorizontalLine />
 > AnimationBehavior **middleItem**()
 > 
 > Returns the middle AnimationBehavior in the collection.
-*** 
+<HorizontalLine />
 > AnimationBehavior **previousItem**( AnimationBehavior **obj** )
 > 
 > Returns the AnimationBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of animation behaviors.
 |---|---|---|
 | AnimationBehavior | obj | The index of the AnimationBehavior that follows the desired AnimationBehavior. |
 
-*** 
+<HorizontalLine />
 > AnimationBehavior **nextItem**( AnimationBehavior **obj** )
 > 
 > Returns the AnimationBehavior whose index follows the specified AnimationBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of animation behaviors.
 |---|---|---|
 | AnimationBehavior | obj | The AnimationBehavior whose index comes before the desired AnimationBehavior. |
 
-*** 
+<HorizontalLine />
 > AnimationBehavior **anyItem**()
 > 
 > Returns any AnimationBehavior in the collection.
-*** 
+<HorizontalLine />
 > AnimationBehavior **everyItem**()
 > 
 > Returns every AnimationBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the AnimationBehavior.
-*** 
+<HorizontalLine />
 > AnimationBehavior **[]**( Number **index** )
 > 
 > Returns the AnimationBehavior with the specified index.

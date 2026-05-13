@@ -7,37 +7,37 @@ Options for fitting content to a frame.
 > Number **PROPORTIONAL** = 1684885618
 > 
 > Resizes content to fit the frame while preserving content proportions. If the content and frame have different proportions, some empty space occurs in the frame.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FIT_CONTENT_TO_FRAME** = 1684883043
 > 
 > Resizes content to fit the frame. Note: Content that is a different size than the frame appears stretched or squeezed.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FIT_FRAME_TO_CONTENT** = 1684883046
 > 
 > Resizes the frame to fit the content.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PRESERVE_SIZES** = 1684885619
 > 
 > Preserves the original sizes of the frame and the content. Note: Content that is larger than the frame is obscured around the edges.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CONTENT_AWARE_FITTING** = 1684882241
 > 
 > Selects best crop region of the content for the frame based on Adobe Sensei. Note: Preserves frame size but might scale the content size. If this fitting is set, centerImage property is turned-off.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **HONOUR_EXISTING_STYLE** = 1684883539
 > 
 > Apply the frame fitting based on existing setting applied on the orginal frame.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FILL_PROPORTIONAL** = 1684883056

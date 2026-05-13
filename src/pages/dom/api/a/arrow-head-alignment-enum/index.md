@@ -7,7 +7,7 @@ Arrowhead alignment types.
 > Number **INSIDE_PATH** = 1634230633
 > 
 > The arrowhead is inside the path, path geometry changes to accomodate arrow heads.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OUTSIDE_PATH** = 1634230639

@@ -12,7 +12,7 @@ A collection of open file behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the OpenFileBehavior.
-*** 
+<HorizontalLine />
 > OpenFileBehavior **add**( Object **withProperties** )
 > 
 > Creates a new OpenFileBehavior.
@@ -21,7 +21,7 @@ A collection of open file behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new OpenFileBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > OpenFileBehavior **item**( Mixed **index** )
 > 
 > Returns the OpenFileBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of open file behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > OpenFileBehavior **itemByName**( String **name** )
 > 
 > Returns the OpenFileBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of open file behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > OpenFileBehavior **itemByID**( Number **id** )
 > 
 > Returns the OpenFileBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of open file behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > OpenFileBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the OpenFileBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of open file behavior objects.
 | Mixed | from | The OpenFileBehavior, index, or name at the beginning of the range. Can accept: OpenFileBehavior, Long Integer or String. |
 | Mixed | to | The OpenFileBehavior, index, or name at the end of the range. Can accept: OpenFileBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > OpenFileBehavior **firstItem**()
 > 
 > Returns the first OpenFileBehavior in the collection.
-*** 
+<HorizontalLine />
 > OpenFileBehavior **lastItem**()
 > 
 > Returns the last OpenFileBehavior in the collection.
-*** 
+<HorizontalLine />
 > OpenFileBehavior **middleItem**()
 > 
 > Returns the middle OpenFileBehavior in the collection.
-*** 
+<HorizontalLine />
 > OpenFileBehavior **previousItem**( OpenFileBehavior **obj** )
 > 
 > Returns the OpenFileBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of open file behavior objects.
 |---|---|---|
 | OpenFileBehavior | obj | The index of the OpenFileBehavior that follows the desired OpenFileBehavior. |
 
-*** 
+<HorizontalLine />
 > OpenFileBehavior **nextItem**( OpenFileBehavior **obj** )
 > 
 > Returns the OpenFileBehavior whose index follows the specified OpenFileBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of open file behavior objects.
 |---|---|---|
 | OpenFileBehavior | obj | The OpenFileBehavior whose index comes before the desired OpenFileBehavior. |
 
-*** 
+<HorizontalLine />
 > OpenFileBehavior **anyItem**()
 > 
 > Returns any OpenFileBehavior in the collection.
-*** 
+<HorizontalLine />
 > OpenFileBehavior **everyItem**()
 > 
 > Returns every OpenFileBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the OpenFileBehavior.
-*** 
+<HorizontalLine />
 > OpenFileBehavior **[]**( Number **index** )
 > 
 > Returns the OpenFileBehavior with the specified index.

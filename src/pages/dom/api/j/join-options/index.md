@@ -7,7 +7,7 @@ Options for joining two path points.
 > Number **CONNECT** = 1668178804
 > 
 > Connect two end points (default).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **COMBINE** = 1668113006

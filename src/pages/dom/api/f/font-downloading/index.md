@@ -7,19 +7,19 @@ Options for downloading fonts to the printer.
 > Number **NONE** = 1852796517
 > 
 > Downloads only references to fonts. Note: Use when fonts reside in the printer.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **COMPLETE** = 2003332197
 > 
 > Downloads all fonts once per page.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SUBSET** = 1768842098
 > 
 > Downloads only the characters (glyphs) used in the document. Glyphs are downloaded once per page.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SUBSET_LARGE** = 1818325607

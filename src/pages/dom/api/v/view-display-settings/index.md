@@ -7,13 +7,13 @@ Options for display performance settings, which influence the speed and quality 
 > Number **HIGH_QUALITY** = 1346922866
 > 
 > Slower performance; displays high-resolution graphics and high-quality transparencies and turns on anti-aliasing.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TYPICAL** = 1349810544
 > 
 > Moderate performance speed; displays proxy graphics and low-quality transparencies and turns on anti-aliasing.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OPTIMIZED** = 1349480564

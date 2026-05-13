@@ -17,11 +17,11 @@ A collection of paragraph styles.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new ParagraphStyle (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the ParagraphStyle.
-*** 
+<HorizontalLine />
 > ParagraphStyle **item**( Mixed **index** )
 > 
 > Returns the ParagraphStyle with the specified index or name.
@@ -30,7 +30,7 @@ A collection of paragraph styles.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ParagraphStyle **itemByName**( String **name** )
 > 
 > Returns the ParagraphStyle with the specified name.
@@ -39,7 +39,7 @@ A collection of paragraph styles.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > ParagraphStyle **itemByID**( Number **id** )
 > 
 > Returns the ParagraphStyle with the specified ID.
@@ -48,7 +48,7 @@ A collection of paragraph styles.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > ParagraphStyle **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ParagraphStyles within the specified range.
@@ -58,19 +58,19 @@ A collection of paragraph styles.
 | Mixed | from | The ParagraphStyle, index, or name at the beginning of the range. Can accept: ParagraphStyle, Long Integer or String. |
 | Mixed | to | The ParagraphStyle, index, or name at the end of the range. Can accept: ParagraphStyle, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ParagraphStyle **firstItem**()
 > 
 > Returns the first ParagraphStyle in the collection.
-*** 
+<HorizontalLine />
 > ParagraphStyle **lastItem**()
 > 
 > Returns the last ParagraphStyle in the collection.
-*** 
+<HorizontalLine />
 > ParagraphStyle **middleItem**()
 > 
 > Returns the middle ParagraphStyle in the collection.
-*** 
+<HorizontalLine />
 > ParagraphStyle **previousItem**( ParagraphStyle **obj** )
 > 
 > Returns the ParagraphStyle with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of paragraph styles.
 |---|---|---|
 | ParagraphStyle | obj | The index of the ParagraphStyle that follows the desired ParagraphStyle. |
 
-*** 
+<HorizontalLine />
 > ParagraphStyle **nextItem**( ParagraphStyle **obj** )
 > 
 > Returns the ParagraphStyle whose index follows the specified ParagraphStyle in the collection.
@@ -88,19 +88,19 @@ A collection of paragraph styles.
 |---|---|---|
 | ParagraphStyle | obj | The ParagraphStyle whose index comes before the desired ParagraphStyle. |
 
-*** 
+<HorizontalLine />
 > ParagraphStyle **anyItem**()
 > 
 > Returns any ParagraphStyle in the collection.
-*** 
+<HorizontalLine />
 > ParagraphStyle **everyItem**()
 > 
 > Returns every ParagraphStyle in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ParagraphStyle.
-*** 
+<HorizontalLine />
 > ParagraphStyle **[]**( Number **index** )
 > 
 > Returns the ParagraphStyle with the specified index.

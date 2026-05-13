@@ -7,63 +7,63 @@ A cell style group.
 > CellStyle **allCellStyles** 
 >
 > All Cell styles
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **id** 
 >
 > The unique ID of the CellStyleGroup.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Mixed **parent** 
 >
 > The parent of the CellStyleGroup (a Document, Application or CellStyleGroup).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **index** 
 >
 > The index of the CellStyleGroup within its containing object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > CellStyles **cellStyles** 
 >
 > A collection of cell styles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > CellStyleGroups **cellStyleGroups** 
 >
 > A collection of cell style groups.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > String **name** 
 >
 > The name of the CellStyleGroup.
-*** 
+<HorizontalLine />
 > String **label** 
 >
 > A property that can be set to any string.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -72,7 +72,7 @@ A cell style group.
 > CellStyleGroup **duplicate**()
 > 
 > Duplicates the CellStyleGroup.
-*** 
+<HorizontalLine />
 > CellStyleGroup **move**( LocationOptions **to**, Mixed **reference** )
 > 
 > Moves the style to the specified location.
@@ -82,7 +82,7 @@ A cell style group.
 | LocationOptions | to | The location relative to the reference object or within the containing object. |
 | Mixed | reference | The reference object. Note: Required when the to parameter specifies before or after. Can accept: ParagraphStyle, ParagraphStyleGroup, CharacterStyle, CharacterStyleGroup, CellStyle, CellStyleGroup, TableStyle, TableStyleGroup, Document or Application. (Optional) |
 
-*** 
+<HorizontalLine />
 > **remove**( Mixed **replacingWith** )
 > 
 > Deletes the style.
@@ -91,7 +91,7 @@ A cell style group.
 |---|---|---|
 | Mixed | replacingWith | The style to apply in place of the deleted style. Can accept: ParagraphStyle or CharacterStyle. (Optional) |
 
-*** 
+<HorizontalLine />
 > **insertLabel**( String **key**, String **value** )
 > 
 > Sets the label to the value associated with the specified key.
@@ -101,7 +101,7 @@ A cell style group.
 | String | key | The key. |
 | String | value | The value. |
 
-*** 
+<HorizontalLine />
 > String **extractLabel**( String **key** )
 > 
 > Gets the label value associated with the specified key.
@@ -110,19 +110,19 @@ A cell style group.
 |---|---|---|
 | String | key | The key. |
 
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the CellStyleGroup.
-*** 
+<HorizontalLine />
 > CellStyleGroup **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -133,7 +133,7 @@ A cell style group.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

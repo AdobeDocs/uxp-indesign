@@ -12,7 +12,7 @@ A collection of form fields.
 > Number **count**()
 > 
 > Displays the number of elements in the FormField.
-*** 
+<HorizontalLine />
 > FormField **add**( Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new FormField
@@ -24,7 +24,7 @@ A collection of form fields.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new FormField (Optional) |
 
-*** 
+<HorizontalLine />
 > FormField **item**( Mixed **index** )
 > 
 > Returns the FormField with the specified index or name.
@@ -33,7 +33,7 @@ A collection of form fields.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > FormField **itemByName**( String **name** )
 > 
 > Returns the FormField with the specified name.
@@ -42,7 +42,7 @@ A collection of form fields.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > FormField **itemByID**( Number **id** )
 > 
 > Returns the FormField with the specified ID.
@@ -51,7 +51,7 @@ A collection of form fields.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > FormField **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the FormFields within the specified range.
@@ -61,19 +61,19 @@ A collection of form fields.
 | Mixed | from | The FormField, index, or name at the beginning of the range. Can accept: FormField, Long Integer or String. |
 | Mixed | to | The FormField, index, or name at the end of the range. Can accept: FormField, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > FormField **firstItem**()
 > 
 > Returns the first FormField in the collection.
-*** 
+<HorizontalLine />
 > FormField **lastItem**()
 > 
 > Returns the last FormField in the collection.
-*** 
+<HorizontalLine />
 > FormField **middleItem**()
 > 
 > Returns the middle FormField in the collection.
-*** 
+<HorizontalLine />
 > FormField **previousItem**( FormField **obj** )
 > 
 > Returns the FormField with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of form fields.
 |---|---|---|
 | FormField | obj | The index of the FormField that follows the desired FormField. |
 
-*** 
+<HorizontalLine />
 > FormField **nextItem**( FormField **obj** )
 > 
 > Returns the FormField whose index follows the specified FormField in the collection.
@@ -91,19 +91,19 @@ A collection of form fields.
 |---|---|---|
 | FormField | obj | The FormField whose index comes before the desired FormField. |
 
-*** 
+<HorizontalLine />
 > FormField **anyItem**()
 > 
 > Returns any FormField in the collection.
-*** 
+<HorizontalLine />
 > FormField **everyItem**()
 > 
 > Returns every FormField in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the FormField.
-*** 
+<HorizontalLine />
 > FormField **[]**( Number **index** )
 > 
 > Returns the FormField with the specified index.

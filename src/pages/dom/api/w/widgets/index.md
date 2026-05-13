@@ -12,7 +12,7 @@ A collection of widgets.
 > Number **count**()
 > 
 > Displays the number of elements in the Widget.
-*** 
+<HorizontalLine />
 > Widget **item**( Mixed **index** )
 > 
 > Returns the Widget with the specified index or name.
@@ -21,7 +21,7 @@ A collection of widgets.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Widget **itemByID**( Number **id** )
 > 
 > Returns the Widget with the specified ID.
@@ -30,7 +30,7 @@ A collection of widgets.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Widget **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Widgets within the specified range.
@@ -40,19 +40,19 @@ A collection of widgets.
 | Mixed | from | The Widget, index, or name at the beginning of the range. Can accept: Widget, Long Integer or String. |
 | Mixed | to | The Widget, index, or name at the end of the range. Can accept: Widget, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Widget **firstItem**()
 > 
 > Returns the first Widget in the collection.
-*** 
+<HorizontalLine />
 > Widget **lastItem**()
 > 
 > Returns the last Widget in the collection.
-*** 
+<HorizontalLine />
 > Widget **middleItem**()
 > 
 > Returns the middle Widget in the collection.
-*** 
+<HorizontalLine />
 > Widget **previousItem**( Widget **obj** )
 > 
 > Returns the Widget with the index previous to the specified index.
@@ -61,7 +61,7 @@ A collection of widgets.
 |---|---|---|
 | Widget | obj | The index of the Widget that follows the desired Widget. |
 
-*** 
+<HorizontalLine />
 > Widget **nextItem**( Widget **obj** )
 > 
 > Returns the Widget whose index follows the specified Widget in the collection.
@@ -70,19 +70,19 @@ A collection of widgets.
 |---|---|---|
 | Widget | obj | The Widget whose index comes before the desired Widget. |
 
-*** 
+<HorizontalLine />
 > Widget **anyItem**()
 > 
 > Returns any Widget in the collection.
-*** 
+<HorizontalLine />
 > Widget **everyItem**()
 > 
 > Returns every Widget in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Widget.
-*** 
+<HorizontalLine />
 > Widget **[]**( Number **index** )
 > 
 > Returns the Widget with the specified index.

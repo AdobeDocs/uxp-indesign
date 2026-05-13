@@ -7,7 +7,7 @@ Specify the type of cell, either text or graphic.
 > Number **TEXT_TYPE_CELL** = 1701730388
 > 
 > Text cell.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **GRAPHIC_TYPE_CELL** = 1701728329

@@ -12,7 +12,7 @@ A collection of notes.
 > Number **count**()
 > 
 > Displays the number of elements in the Note.
-*** 
+<HorizontalLine />
 > Note **add**( LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new note.
@@ -23,7 +23,7 @@ A collection of notes.
 | Mixed | reference | The reference object. Note: Required when the at parameter specifies before or after. Can accept: Note or InsertionPoint. (Optional) |
 | Object | withProperties | Initial values for properties of the new Note (Optional) |
 
-*** 
+<HorizontalLine />
 > Note **item**( Mixed **index** )
 > 
 > Returns the Note with the specified index or name.
@@ -32,7 +32,7 @@ A collection of notes.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Note **itemByName**( String **name** )
 > 
 > Returns the Note with the specified name.
@@ -41,7 +41,7 @@ A collection of notes.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Note **itemByID**( Number **id** )
 > 
 > Returns the Note with the specified ID.
@@ -50,7 +50,7 @@ A collection of notes.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Note **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Notes within the specified range.
@@ -60,19 +60,19 @@ A collection of notes.
 | Mixed | from | The Note, index, or name at the beginning of the range. Can accept: Note, Long Integer or String. |
 | Mixed | to | The Note, index, or name at the end of the range. Can accept: Note, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Note **firstItem**()
 > 
 > Returns the first Note in the collection.
-*** 
+<HorizontalLine />
 > Note **lastItem**()
 > 
 > Returns the last Note in the collection.
-*** 
+<HorizontalLine />
 > Note **middleItem**()
 > 
 > Returns the middle Note in the collection.
-*** 
+<HorizontalLine />
 > Note **previousItem**( Note **obj** )
 > 
 > Returns the Note with the index previous to the specified index.
@@ -81,7 +81,7 @@ A collection of notes.
 |---|---|---|
 | Note | obj | The index of the Note that follows the desired Note. |
 
-*** 
+<HorizontalLine />
 > Note **nextItem**( Note **obj** )
 > 
 > Returns the Note whose index follows the specified Note in the collection.
@@ -90,19 +90,19 @@ A collection of notes.
 |---|---|---|
 | Note | obj | The Note whose index comes before the desired Note. |
 
-*** 
+<HorizontalLine />
 > Note **anyItem**()
 > 
 > Returns any Note in the collection.
-*** 
+<HorizontalLine />
 > Note **everyItem**()
 > 
 > Returns every Note in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Note.
-*** 
+<HorizontalLine />
 > Note **[]**( Number **index** )
 > 
 > Returns the Note with the specified index.

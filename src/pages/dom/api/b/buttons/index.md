@@ -12,7 +12,7 @@ A collection of buttons.
 > Number **count**()
 > 
 > Displays the number of elements in the Button.
-*** 
+<HorizontalLine />
 > Button **add**( Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new Button
@@ -24,7 +24,7 @@ A collection of buttons.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new Button (Optional) |
 
-*** 
+<HorizontalLine />
 > Button **item**( Mixed **index** )
 > 
 > Returns the Button with the specified index or name.
@@ -33,7 +33,7 @@ A collection of buttons.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Button **itemByName**( String **name** )
 > 
 > Returns the Button with the specified name.
@@ -42,7 +42,7 @@ A collection of buttons.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Button **itemByID**( Number **id** )
 > 
 > Returns the Button with the specified ID.
@@ -51,7 +51,7 @@ A collection of buttons.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Button **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Buttons within the specified range.
@@ -61,19 +61,19 @@ A collection of buttons.
 | Mixed | from | The Button, index, or name at the beginning of the range. Can accept: Button, Long Integer or String. |
 | Mixed | to | The Button, index, or name at the end of the range. Can accept: Button, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Button **firstItem**()
 > 
 > Returns the first Button in the collection.
-*** 
+<HorizontalLine />
 > Button **lastItem**()
 > 
 > Returns the last Button in the collection.
-*** 
+<HorizontalLine />
 > Button **middleItem**()
 > 
 > Returns the middle Button in the collection.
-*** 
+<HorizontalLine />
 > Button **previousItem**( Button **obj** )
 > 
 > Returns the Button with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of buttons.
 |---|---|---|
 | Button | obj | The index of the Button that follows the desired Button. |
 
-*** 
+<HorizontalLine />
 > Button **nextItem**( Button **obj** )
 > 
 > Returns the Button whose index follows the specified Button in the collection.
@@ -91,19 +91,19 @@ A collection of buttons.
 |---|---|---|
 | Button | obj | The Button whose index comes before the desired Button. |
 
-*** 
+<HorizontalLine />
 > Button **anyItem**()
 > 
 > Returns any Button in the collection.
-*** 
+<HorizontalLine />
 > Button **everyItem**()
 > 
 > Returns every Button in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Button.
-*** 
+<HorizontalLine />
 > Button **[]**( Number **index** )
 > 
 > Returns the Button with the specified index.

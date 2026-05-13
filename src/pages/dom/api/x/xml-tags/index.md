@@ -19,11 +19,11 @@ A collection of XML tags.
 | Mixed | tagColor | The dolor of the tag, specified either as an array of three doubles, each in the range 0 to 255 and representing R, G, and B values, or as a UI color. Can accept: Array of 3 Reals (0 - 255) or UIColors enumerator. (Optional) |
 | Object | withProperties | Initial values for properties of the new XMLTag (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the XMLTag.
-*** 
+<HorizontalLine />
 > XMLTag **item**( Mixed **index** )
 > 
 > Returns the XMLTag with the specified index or name.
@@ -32,7 +32,7 @@ A collection of XML tags.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XMLTag **itemByName**( String **name** )
 > 
 > Returns the XMLTag with the specified name.
@@ -41,7 +41,7 @@ A collection of XML tags.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > XMLTag **itemByID**( Number **id** )
 > 
 > Returns the XMLTag with the specified ID.
@@ -50,7 +50,7 @@ A collection of XML tags.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > XMLTag **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the XMLTags within the specified range.
@@ -60,19 +60,19 @@ A collection of XML tags.
 | Mixed | from | The XMLTag, index, or name at the beginning of the range. Can accept: XMLTag, Long Integer or String. |
 | Mixed | to | The XMLTag, index, or name at the end of the range. Can accept: XMLTag, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XMLTag **firstItem**()
 > 
 > Returns the first XMLTag in the collection.
-*** 
+<HorizontalLine />
 > XMLTag **lastItem**()
 > 
 > Returns the last XMLTag in the collection.
-*** 
+<HorizontalLine />
 > XMLTag **middleItem**()
 > 
 > Returns the middle XMLTag in the collection.
-*** 
+<HorizontalLine />
 > XMLTag **previousItem**( XMLTag **obj** )
 > 
 > Returns the XMLTag with the index previous to the specified index.
@@ -81,7 +81,7 @@ A collection of XML tags.
 |---|---|---|
 | XMLTag | obj | The index of the XMLTag that follows the desired XMLTag. |
 
-*** 
+<HorizontalLine />
 > XMLTag **nextItem**( XMLTag **obj** )
 > 
 > Returns the XMLTag whose index follows the specified XMLTag in the collection.
@@ -90,19 +90,19 @@ A collection of XML tags.
 |---|---|---|
 | XMLTag | obj | The XMLTag whose index comes before the desired XMLTag. |
 
-*** 
+<HorizontalLine />
 > XMLTag **anyItem**()
 > 
 > Returns any XMLTag in the collection.
-*** 
+<HorizontalLine />
 > XMLTag **everyItem**()
 > 
 > Returns every XMLTag in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the XMLTag.
-*** 
+<HorizontalLine />
 > XMLTag **[]**( Number **index** )
 > 
 > Returns the XMLTag with the specified index.

@@ -20,11 +20,11 @@ A collection of numbered lists.
 | Boolean | continueNumbersAcrossDocuments | If true, numbering will continue across book documents. (Optional) |
 | Object | withProperties | Initial values for properties of the new NumberingList (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the NumberingList.
-*** 
+<HorizontalLine />
 > NumberingList **item**( Mixed **index** )
 > 
 > Returns the NumberingList with the specified index or name.
@@ -33,7 +33,7 @@ A collection of numbered lists.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > NumberingList **itemByName**( String **name** )
 > 
 > Returns the NumberingList with the specified name.
@@ -42,7 +42,7 @@ A collection of numbered lists.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > NumberingList **itemByID**( Number **id** )
 > 
 > Returns the NumberingList with the specified ID.
@@ -51,7 +51,7 @@ A collection of numbered lists.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > NumberingList **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the NumberingLists within the specified range.
@@ -61,19 +61,19 @@ A collection of numbered lists.
 | Mixed | from | The NumberingList, index, or name at the beginning of the range. Can accept: NumberingList, Long Integer or String. |
 | Mixed | to | The NumberingList, index, or name at the end of the range. Can accept: NumberingList, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > NumberingList **firstItem**()
 > 
 > Returns the first NumberingList in the collection.
-*** 
+<HorizontalLine />
 > NumberingList **lastItem**()
 > 
 > Returns the last NumberingList in the collection.
-*** 
+<HorizontalLine />
 > NumberingList **middleItem**()
 > 
 > Returns the middle NumberingList in the collection.
-*** 
+<HorizontalLine />
 > NumberingList **previousItem**( NumberingList **obj** )
 > 
 > Returns the NumberingList with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of numbered lists.
 |---|---|---|
 | NumberingList | obj | The index of the NumberingList that follows the desired NumberingList. |
 
-*** 
+<HorizontalLine />
 > NumberingList **nextItem**( NumberingList **obj** )
 > 
 > Returns the NumberingList whose index follows the specified NumberingList in the collection.
@@ -91,19 +91,19 @@ A collection of numbered lists.
 |---|---|---|
 | NumberingList | obj | The NumberingList whose index comes before the desired NumberingList. |
 
-*** 
+<HorizontalLine />
 > NumberingList **anyItem**()
 > 
 > Returns any NumberingList in the collection.
-*** 
+<HorizontalLine />
 > NumberingList **everyItem**()
 > 
 > Returns every NumberingList in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the NumberingList.
-*** 
+<HorizontalLine />
 > NumberingList **[]**( Number **index** )
 > 
 > Returns the NumberingList with the specified index.

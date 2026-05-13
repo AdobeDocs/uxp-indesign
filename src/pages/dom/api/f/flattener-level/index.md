@@ -7,25 +7,25 @@ Rasterization options.
 > Number **LOW** = 1701727351
 > 
 > Rasterizes all artwork.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **MEDIUM_LOW** = 1718373708
 > 
 > Rasterizes almost all artwork.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **MEDIUM** = 1701727588
 > 
 > Rasterizes a medium amount of artwork.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **MEDIUM_HIGH** = 1718373704
 > 
 > Rasterizes more than a medium amount of artwork.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **HIGH** = 1701726313

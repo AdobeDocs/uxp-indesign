@@ -17,11 +17,11 @@ A collection of paths.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new Path (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Path.
-*** 
+<HorizontalLine />
 > Path **item**( Mixed **index** )
 > 
 > Returns the Path with the specified index or name.
@@ -30,7 +30,7 @@ A collection of paths.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Path **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Paths within the specified range.
@@ -40,19 +40,19 @@ A collection of paths.
 | Mixed | from | The Path, index, or name at the beginning of the range. Can accept: Path, Long Integer or String. |
 | Mixed | to | The Path, index, or name at the end of the range. Can accept: Path, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Path **firstItem**()
 > 
 > Returns the first Path in the collection.
-*** 
+<HorizontalLine />
 > Path **lastItem**()
 > 
 > Returns the last Path in the collection.
-*** 
+<HorizontalLine />
 > Path **middleItem**()
 > 
 > Returns the middle Path in the collection.
-*** 
+<HorizontalLine />
 > Path **previousItem**( Path **obj** )
 > 
 > Returns the Path with the index previous to the specified index.
@@ -61,7 +61,7 @@ A collection of paths.
 |---|---|---|
 | Path | obj | The index of the Path that follows the desired Path. |
 
-*** 
+<HorizontalLine />
 > Path **nextItem**( Path **obj** )
 > 
 > Returns the Path whose index follows the specified Path in the collection.
@@ -70,19 +70,19 @@ A collection of paths.
 |---|---|---|
 | Path | obj | The Path whose index comes before the desired Path. |
 
-*** 
+<HorizontalLine />
 > Path **anyItem**()
 > 
 > Returns any Path in the collection.
-*** 
+<HorizontalLine />
 > Path **everyItem**()
 > 
 > Returns every Path in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Path.
-*** 
+<HorizontalLine />
 > Path **[]**( Number **index** )
 > 
 > Returns the Path with the specified index.

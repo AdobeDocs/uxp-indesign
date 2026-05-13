@@ -7,7 +7,7 @@ Formatting options for converted JPEG images.
 > Number **BASELINE_ENCODING** = 1785751394
 > 
 > Uses baseline encoding to download the image in one pass.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PROGRESSIVE_ENCODING** = 1785751408

@@ -12,7 +12,7 @@ A collection of events.
 > Number **count**()
 > 
 > Displays the number of elements in the Event.
-*** 
+<HorizontalLine />
 > Event **item**( Mixed **index** )
 > 
 > Returns the Event with the specified index or name.
@@ -21,7 +21,7 @@ A collection of events.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Event **itemByID**( Number **id** )
 > 
 > Returns the Event with the specified ID.
@@ -30,7 +30,7 @@ A collection of events.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Event **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Events within the specified range.
@@ -40,19 +40,19 @@ A collection of events.
 | Mixed | from | The Event, index, or name at the beginning of the range. Can accept: Event, Long Integer or String. |
 | Mixed | to | The Event, index, or name at the end of the range. Can accept: Event, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Event **firstItem**()
 > 
 > Returns the first Event in the collection.
-*** 
+<HorizontalLine />
 > Event **lastItem**()
 > 
 > Returns the last Event in the collection.
-*** 
+<HorizontalLine />
 > Event **middleItem**()
 > 
 > Returns the middle Event in the collection.
-*** 
+<HorizontalLine />
 > Event **previousItem**( Event **obj** )
 > 
 > Returns the Event with the index previous to the specified index.
@@ -61,7 +61,7 @@ A collection of events.
 |---|---|---|
 | Event | obj | The index of the Event that follows the desired Event. |
 
-*** 
+<HorizontalLine />
 > Event **nextItem**( Event **obj** )
 > 
 > Returns the Event whose index follows the specified Event in the collection.
@@ -70,19 +70,19 @@ A collection of events.
 |---|---|---|
 | Event | obj | The Event whose index comes before the desired Event. |
 
-*** 
+<HorizontalLine />
 > Event **anyItem**()
 > 
 > Returns any Event in the collection.
-*** 
+<HorizontalLine />
 > Event **everyItem**()
 > 
 > Returns every Event in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Event.
-*** 
+<HorizontalLine />
 > Event **[]**( Number **index** )
 > 
 > Returns the Event with the specified index.

@@ -12,7 +12,7 @@ A collection of text style ranges.
 > Number **count**()
 > 
 > Displays the number of elements in the TextStyleRange.
-*** 
+<HorizontalLine />
 > TextStyleRange **item**( Mixed **index** )
 > 
 > Returns the TextStyleRange with the specified index or name.
@@ -21,7 +21,7 @@ A collection of text style ranges.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TextStyleRange **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TextStyleRanges within the specified range.
@@ -31,19 +31,19 @@ A collection of text style ranges.
 | Mixed | from | The TextStyleRange, index, or name at the beginning of the range. Can accept: TextStyleRange, Long Integer or String. |
 | Mixed | to | The TextStyleRange, index, or name at the end of the range. Can accept: TextStyleRange, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TextStyleRange **firstItem**()
 > 
 > Returns the first TextStyleRange in the collection.
-*** 
+<HorizontalLine />
 > TextStyleRange **lastItem**()
 > 
 > Returns the last TextStyleRange in the collection.
-*** 
+<HorizontalLine />
 > TextStyleRange **middleItem**()
 > 
 > Returns the middle TextStyleRange in the collection.
-*** 
+<HorizontalLine />
 > TextStyleRange **previousItem**( TextStyleRange **obj** )
 > 
 > Returns the TextStyleRange with the index previous to the specified index.
@@ -52,7 +52,7 @@ A collection of text style ranges.
 |---|---|---|
 | TextStyleRange | obj | The index of the TextStyleRange that follows the desired TextStyleRange. |
 
-*** 
+<HorizontalLine />
 > TextStyleRange **nextItem**( TextStyleRange **obj** )
 > 
 > Returns the TextStyleRange whose index follows the specified TextStyleRange in the collection.
@@ -61,19 +61,19 @@ A collection of text style ranges.
 |---|---|---|
 | TextStyleRange | obj | The TextStyleRange whose index comes before the desired TextStyleRange. |
 
-*** 
+<HorizontalLine />
 > TextStyleRange **anyItem**()
 > 
 > Returns any TextStyleRange in the collection.
-*** 
+<HorizontalLine />
 > TextStyleRange **everyItem**()
 > 
 > Returns every TextStyleRange in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TextStyleRange.
-*** 
+<HorizontalLine />
 > TextStyleRange **[]**( Number **index** )
 > 
 > Returns the TextStyleRange with the specified index.

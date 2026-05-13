@@ -7,7 +7,7 @@ Shape options for the intersection of three-way traps.
 > Number **MITER_TRAP_ENDS** = 1953525093
 > 
 > Shapes the end of the trap to keep it away from the intersecting object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OVERLAP_TRAP_ENDS** = 1953525612

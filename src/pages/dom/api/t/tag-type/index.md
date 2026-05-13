@@ -7,13 +7,13 @@ The tag type of page item
 > Number **TAG_FROM_STRUCTURE** = 1952928613
 > 
 > Determine the tag from XML structure, or fallback to standard tag
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TAG_ARTIFACT** = 1952924006
 > 
 > Tag as artifact
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TAG_BASED_ON_OBJECT** = 1952924271

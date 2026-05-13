@@ -7,13 +7,13 @@ Options for Tools panel.
 > Number **SINGLE_COLUMN** = 1163092844
 > 
 > Single column
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **DOUBLE_COLUMN** = 1162109804
 > 
 > Double column
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SINGLE_ROW** = 1163096695

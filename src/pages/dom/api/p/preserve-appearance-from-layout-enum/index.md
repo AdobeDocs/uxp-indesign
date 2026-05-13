@@ -7,19 +7,19 @@ Preserve Appearance from Layout Options
 > Number **PRESERVE_APPEARANCE_DEFAULT** = 1349665893
 > 
 > Export preferences will be honoured
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PRESERVE_APPEARANCE_USE_EXISTING_IMAGE** = 1349670245
 > 
 > Exiting image will be used
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PRESERVE_APPEARANCE_RASTERIZE_CONTAINER** = 1349669490
 > 
 > Container & content both will be rasterized, if can be
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PRESERVE_APPEARANCE_RASTERIZE_CONTENT** = 1349669492

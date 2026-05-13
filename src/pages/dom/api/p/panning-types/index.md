@@ -7,13 +7,13 @@ The display performance settings to use while scrolling.
 > Number **NO_GREEKING** = 1699116368
 > 
 > While scrolling, does not greek images or text; lowest quality display with the fastest performance.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **GREEK_IMAGES** = 1699111248
 > 
 > While scrolling, greeks newly revealed images until the mouse is released; medium quality display with medium performance speed.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **GREEK_IMAGES_AND_TEXT** = 1699639120

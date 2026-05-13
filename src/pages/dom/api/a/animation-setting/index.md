@@ -7,91 +7,91 @@ Animation settings.
 > Boolean **hasCustomSettings** 
 >
 > Determines if this animated object has custom settings.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Mixed **parent** 
 >
 > The parent of the AnimationSetting (a PageItem, HtmlItem, FormField, SignatureField, TextBox, RadioButton, ListBox, ComboBox, CheckBox, MultiStateObject, Button, MediaItem, Sound, Movie, EPSText, SplineItem, Polygon, GraphicLine, Rectangle, Oval, Graphic, SVG, ImportedPage, PICT, WMF, PDF, EPS, Image, Group, TextFrame or EndnoteTextFrame).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > Mixed **preset** 
 >
 > The base animation preset applied. Can return: MotionPreset, String or NothingEnum enumerator.
-*** 
+<HorizontalLine />
 > Number **transformOffsets** 
 >
 > The tranform offset percentage from the target object bounding box's left-top corner.
-*** 
+<HorizontalLine />
 > Number **duration** 
 >
 > The duration in second for this animation.
-*** 
+<HorizontalLine />
 > Mixed **motionPathPoints** 
 >
 > The list of motion path points for this animation. Can return: Ordered array containing pathPointArray:Array of Ordered array containing anchor:Array of 2 Reals, leftDirection:Array of 2 Reals, rightDirection:Array of 2 Reals, pathOpen:Boolean.
-*** 
+<HorizontalLine />
 > Mixed **motionPath** 
 >
 > The list of motion path points and key frames for this animation. Can return: Ordered array containing keyFrame:Long Integer, pathPoint:Ordered array containing anchor:Array of 2 Reals, leftDirection:Array of 2 Reals, rightDirection:Array of 2 Reals.
-*** 
+<HorizontalLine />
 > Mixed **opacityArray** 
 >
 > The list of opacity key frames for this animation. Can return: Ordered array containing keyFrame:Long Integer, value:Real.
-*** 
+<HorizontalLine />
 > Mixed **rotationArray** 
 >
 > The list of rotation key frames for this animation. Can return: Ordered array containing keyFrame:Long Integer, value:Real.
-*** 
+<HorizontalLine />
 > Mixed **scaleXArray** 
 >
 > The list of scale x key frames for this animation. Can return: Ordered array containing keyFrame:Long Integer, value:Real.
-*** 
+<HorizontalLine />
 > Mixed **scaleYArray** 
 >
 > The list of scale y key frames for this animation. Can return: Ordered array containing keyFrame:Long Integer, value:Real.
-*** 
+<HorizontalLine />
 > DesignOptions **designOption** 
 >
 > The animation design option.
-*** 
+<HorizontalLine />
 > AnimationEaseOptions **easeType** 
 >
 > The ease type.
-*** 
+<HorizontalLine />
 > Number **plays** 
 >
 > The number of times this animation plays.
-*** 
+<HorizontalLine />
 > Boolean **playsLoop** 
 >
 > Set to true if animation play loops.
-*** 
+<HorizontalLine />
 > Boolean **initiallyHidden** 
 >
 > Determines if this object is initially hidden when displayed in an exported SWF file.
-*** 
+<HorizontalLine />
 > Boolean **hiddenAfter** 
 >
 > Determines if this object is hidden after its animation is played in an exported SWF file.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -105,7 +105,7 @@ Animation settings.
 |---|---|---|
 | File | to | The Flash motion preset file to export to. |
 
-*** 
+<HorizontalLine />
 > MotionPreset **save**( String **name** )
 > 
 > Save this motion preset as custom preset.
@@ -114,19 +114,19 @@ Animation settings.
 |---|---|---|
 | String | name | The name for the new motion preset. |
 
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the AnimationSetting.
-*** 
+<HorizontalLine />
 > AnimationSetting **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -137,7 +137,7 @@ Animation settings.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

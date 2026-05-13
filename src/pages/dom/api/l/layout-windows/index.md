@@ -12,7 +12,7 @@ A collection of layout windows.
 > Number **count**()
 > 
 > Displays the number of elements in the LayoutWindow.
-*** 
+<HorizontalLine />
 > LayoutWindow **item**( Mixed **index** )
 > 
 > Returns the LayoutWindow with the specified index or name.
@@ -21,7 +21,7 @@ A collection of layout windows.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > LayoutWindow **itemByName**( String **name** )
 > 
 > Returns the LayoutWindow with the specified name.
@@ -30,7 +30,7 @@ A collection of layout windows.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > LayoutWindow **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the LayoutWindows within the specified range.
@@ -40,19 +40,19 @@ A collection of layout windows.
 | Mixed | from | The LayoutWindow, index, or name at the beginning of the range. Can accept: LayoutWindow, Long Integer or String. |
 | Mixed | to | The LayoutWindow, index, or name at the end of the range. Can accept: LayoutWindow, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > LayoutWindow **firstItem**()
 > 
 > Returns the first LayoutWindow in the collection.
-*** 
+<HorizontalLine />
 > LayoutWindow **lastItem**()
 > 
 > Returns the last LayoutWindow in the collection.
-*** 
+<HorizontalLine />
 > LayoutWindow **middleItem**()
 > 
 > Returns the middle LayoutWindow in the collection.
-*** 
+<HorizontalLine />
 > LayoutWindow **previousItem**( LayoutWindow **obj** )
 > 
 > Returns the LayoutWindow with the index previous to the specified index.
@@ -61,7 +61,7 @@ A collection of layout windows.
 |---|---|---|
 | LayoutWindow | obj | The index of the LayoutWindow that follows the desired LayoutWindow. |
 
-*** 
+<HorizontalLine />
 > LayoutWindow **nextItem**( LayoutWindow **obj** )
 > 
 > Returns the LayoutWindow whose index follows the specified LayoutWindow in the collection.
@@ -70,19 +70,19 @@ A collection of layout windows.
 |---|---|---|
 | LayoutWindow | obj | The LayoutWindow whose index comes before the desired LayoutWindow. |
 
-*** 
+<HorizontalLine />
 > LayoutWindow **anyItem**()
 > 
 > Returns any LayoutWindow in the collection.
-*** 
+<HorizontalLine />
 > LayoutWindow **everyItem**()
 > 
 > Returns every LayoutWindow in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the LayoutWindow.
-*** 
+<HorizontalLine />
 > LayoutWindow **[]**( Number **index** )
 > 
 > Returns the LayoutWindow with the specified index.

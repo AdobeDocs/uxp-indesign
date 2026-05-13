@@ -17,11 +17,11 @@ A collection of enabling groups.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new EnablingGroup (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the EnablingGroup.
-*** 
+<HorizontalLine />
 > EnablingGroup **item**( Mixed **index** )
 > 
 > Returns the EnablingGroup with the specified index or name.
@@ -30,7 +30,7 @@ A collection of enabling groups.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > EnablingGroup **itemByID**( Number **id** )
 > 
 > Returns the EnablingGroup with the specified ID.
@@ -39,7 +39,7 @@ A collection of enabling groups.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > EnablingGroup **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the EnablingGroups within the specified range.
@@ -49,19 +49,19 @@ A collection of enabling groups.
 | Mixed | from | The EnablingGroup, index, or name at the beginning of the range. Can accept: EnablingGroup, Long Integer or String. |
 | Mixed | to | The EnablingGroup, index, or name at the end of the range. Can accept: EnablingGroup, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > EnablingGroup **firstItem**()
 > 
 > Returns the first EnablingGroup in the collection.
-*** 
+<HorizontalLine />
 > EnablingGroup **lastItem**()
 > 
 > Returns the last EnablingGroup in the collection.
-*** 
+<HorizontalLine />
 > EnablingGroup **middleItem**()
 > 
 > Returns the middle EnablingGroup in the collection.
-*** 
+<HorizontalLine />
 > EnablingGroup **previousItem**( EnablingGroup **obj** )
 > 
 > Returns the EnablingGroup with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of enabling groups.
 |---|---|---|
 | EnablingGroup | obj | The index of the EnablingGroup that follows the desired EnablingGroup. |
 
-*** 
+<HorizontalLine />
 > EnablingGroup **nextItem**( EnablingGroup **obj** )
 > 
 > Returns the EnablingGroup whose index follows the specified EnablingGroup in the collection.
@@ -79,19 +79,19 @@ A collection of enabling groups.
 |---|---|---|
 | EnablingGroup | obj | The EnablingGroup whose index comes before the desired EnablingGroup. |
 
-*** 
+<HorizontalLine />
 > EnablingGroup **anyItem**()
 > 
 > Returns any EnablingGroup in the collection.
-*** 
+<HorizontalLine />
 > EnablingGroup **everyItem**()
 > 
 > Returns every EnablingGroup in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the EnablingGroup.
-*** 
+<HorizontalLine />
 > EnablingGroup **[]**( Number **index** )
 > 
 > Returns the EnablingGroup with the specified index.

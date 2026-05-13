@@ -7,19 +7,19 @@ Options for displaying row and column strokes at corners.
 > Number **ROW_ON_TOP** = 1936879476
 > 
 > Places row strokes in front of column strokes.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **COLUMN_ON_TOP** = 1935896436
 > 
 > Places column strokes in front of row strokes.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BEST_JOINS** = 1935828330
 > 
 > Places row strokes in front of column strokes when row and column strokes are different colors; joins striped strokes and connects crossing points.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **INDESIGN_2_COMPATIBILITY** = 1936286819

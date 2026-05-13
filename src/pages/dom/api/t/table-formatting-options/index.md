@@ -7,19 +7,19 @@ Formatting options for imported spreadsheets.
 > Number **EXCEL_FORMATTED_TABLE** = 2020361812
 > 
 > Use formatting from the original spreadsheet.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EXCEL_UNFORMATTED_TABLE** = 2020365652
 > 
 > Convert the spreadsheet to an unformatted table.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EXCEL_UNFORMATTED_TABBED_TEXT** = 2018858068
 > 
 > Convert the spreadsheet to unformatted, tab-delimited text.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EXCEL_FORMAT_ONLY_ONCE** = 2017873748

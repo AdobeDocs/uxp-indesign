@@ -7,43 +7,43 @@ The source type of alternate or actual text
 > Number **SOURCE_CUSTOM** = 1934902125
 > 
 > Custom Text
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SOURCE_XMP_ALT_TEXT** = 1934907489
 > 
 > XMP Alt Text
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SOURCE_XMP_EXTENDED_DESCRIPTION** = 1934907493
 > 
 > XMP Extended Description
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SOURCE_XMP_TITLE** = 1934907508
 > 
 > XMP Title
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SOURCE_XMP_DESCRIPTION** = 1934907492
 > 
 > XMP Description
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SOURCE_XMP_HEADLINE** = 1934907496
 > 
 > XMP Headline
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SOURCE_XMP_OTHER** = 1934907503
 > 
 > User specified XMP metadata property
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SOURCE_XML_STRUCTURE** = 1934907507

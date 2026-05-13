@@ -17,11 +17,11 @@ A collection of measurement editboxes.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new MeasurementEditbox (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the MeasurementEditbox.
-*** 
+<HorizontalLine />
 > MeasurementEditbox **item**( Mixed **index** )
 > 
 > Returns the MeasurementEditbox with the specified index or name.
@@ -30,7 +30,7 @@ A collection of measurement editboxes.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MeasurementEditbox **itemByID**( Number **id** )
 > 
 > Returns the MeasurementEditbox with the specified ID.
@@ -39,7 +39,7 @@ A collection of measurement editboxes.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > MeasurementEditbox **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the MeasurementEditboxes within the specified range.
@@ -49,19 +49,19 @@ A collection of measurement editboxes.
 | Mixed | from | The MeasurementEditbox, index, or name at the beginning of the range. Can accept: MeasurementEditbox, Long Integer or String. |
 | Mixed | to | The MeasurementEditbox, index, or name at the end of the range. Can accept: MeasurementEditbox, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MeasurementEditbox **firstItem**()
 > 
 > Returns the first MeasurementEditbox in the collection.
-*** 
+<HorizontalLine />
 > MeasurementEditbox **lastItem**()
 > 
 > Returns the last MeasurementEditbox in the collection.
-*** 
+<HorizontalLine />
 > MeasurementEditbox **middleItem**()
 > 
 > Returns the middle MeasurementEditbox in the collection.
-*** 
+<HorizontalLine />
 > MeasurementEditbox **previousItem**( MeasurementEditbox **obj** )
 > 
 > Returns the MeasurementEditbox with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of measurement editboxes.
 |---|---|---|
 | MeasurementEditbox | obj | The index of the MeasurementEditbox that follows the desired MeasurementEditbox. |
 
-*** 
+<HorizontalLine />
 > MeasurementEditbox **nextItem**( MeasurementEditbox **obj** )
 > 
 > Returns the MeasurementEditbox whose index follows the specified MeasurementEditbox in the collection.
@@ -79,19 +79,19 @@ A collection of measurement editboxes.
 |---|---|---|
 | MeasurementEditbox | obj | The MeasurementEditbox whose index comes before the desired MeasurementEditbox. |
 
-*** 
+<HorizontalLine />
 > MeasurementEditbox **anyItem**()
 > 
 > Returns any MeasurementEditbox in the collection.
-*** 
+<HorizontalLine />
 > MeasurementEditbox **everyItem**()
 > 
 > Returns every MeasurementEditbox in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the MeasurementEditbox.
-*** 
+<HorizontalLine />
 > MeasurementEditbox **[]**( Number **index** )
 > 
 > Returns the MeasurementEditbox with the specified index.

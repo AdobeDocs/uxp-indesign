@@ -12,7 +12,7 @@ A collection of go to page behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the GotoPageBehavior.
-*** 
+<HorizontalLine />
 > GotoPageBehavior **add**( Object **withProperties** )
 > 
 > Creates a new GotoPageBehavior.
@@ -21,7 +21,7 @@ A collection of go to page behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new GotoPageBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > GotoPageBehavior **item**( Mixed **index** )
 > 
 > Returns the GotoPageBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of go to page behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GotoPageBehavior **itemByName**( String **name** )
 > 
 > Returns the GotoPageBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of go to page behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > GotoPageBehavior **itemByID**( Number **id** )
 > 
 > Returns the GotoPageBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of go to page behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > GotoPageBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the GotoPageBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of go to page behavior objects.
 | Mixed | from | The GotoPageBehavior, index, or name at the beginning of the range. Can accept: GotoPageBehavior, Long Integer or String. |
 | Mixed | to | The GotoPageBehavior, index, or name at the end of the range. Can accept: GotoPageBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GotoPageBehavior **firstItem**()
 > 
 > Returns the first GotoPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoPageBehavior **lastItem**()
 > 
 > Returns the last GotoPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoPageBehavior **middleItem**()
 > 
 > Returns the middle GotoPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoPageBehavior **previousItem**( GotoPageBehavior **obj** )
 > 
 > Returns the GotoPageBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of go to page behavior objects.
 |---|---|---|
 | GotoPageBehavior | obj | The index of the GotoPageBehavior that follows the desired GotoPageBehavior. |
 
-*** 
+<HorizontalLine />
 > GotoPageBehavior **nextItem**( GotoPageBehavior **obj** )
 > 
 > Returns the GotoPageBehavior whose index follows the specified GotoPageBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of go to page behavior objects.
 |---|---|---|
 | GotoPageBehavior | obj | The GotoPageBehavior whose index comes before the desired GotoPageBehavior. |
 
-*** 
+<HorizontalLine />
 > GotoPageBehavior **anyItem**()
 > 
 > Returns any GotoPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoPageBehavior **everyItem**()
 > 
 > Returns every GotoPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the GotoPageBehavior.
-*** 
+<HorizontalLine />
 > GotoPageBehavior **[]**( Number **index** )
 > 
 > Returns the GotoPageBehavior with the specified index.

@@ -7,13 +7,13 @@ Library panel views
 > Number **LIST_VIEW** = 1699501673
 > 
 > List view
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **THUMBNAIL_VIEW** = 1700030550
 > 
 > Thumbnail view
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LARGE_THUMBNAIL_VIEW** = 1699501142

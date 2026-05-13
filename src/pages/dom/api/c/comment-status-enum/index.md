@@ -7,7 +7,7 @@ Enum for status of the comment
 > Number **OPEN_STATUS** = 1634955120
 > 
 > Status is open
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **RESOLVED_STATUS** = 1634955877

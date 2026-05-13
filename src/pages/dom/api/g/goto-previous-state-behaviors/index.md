@@ -12,7 +12,7 @@ A collection of goto previous state behaviors.
 > Number **count**()
 > 
 > Displays the number of elements in the GotoPreviousStateBehavior.
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **add**( Object **withProperties** )
 > 
 > Creates a new GotoPreviousStateBehavior.
@@ -21,7 +21,7 @@ A collection of goto previous state behaviors.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new GotoPreviousStateBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **item**( Mixed **index** )
 > 
 > Returns the GotoPreviousStateBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of goto previous state behaviors.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **itemByName**( String **name** )
 > 
 > Returns the GotoPreviousStateBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of goto previous state behaviors.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **itemByID**( Number **id** )
 > 
 > Returns the GotoPreviousStateBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of goto previous state behaviors.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the GotoPreviousStateBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of goto previous state behaviors.
 | Mixed | from | The GotoPreviousStateBehavior, index, or name at the beginning of the range. Can accept: GotoPreviousStateBehavior, Long Integer or String. |
 | Mixed | to | The GotoPreviousStateBehavior, index, or name at the end of the range. Can accept: GotoPreviousStateBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **firstItem**()
 > 
 > Returns the first GotoPreviousStateBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **lastItem**()
 > 
 > Returns the last GotoPreviousStateBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **middleItem**()
 > 
 > Returns the middle GotoPreviousStateBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **previousItem**( GotoPreviousStateBehavior **obj** )
 > 
 > Returns the GotoPreviousStateBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of goto previous state behaviors.
 |---|---|---|
 | GotoPreviousStateBehavior | obj | The index of the GotoPreviousStateBehavior that follows the desired GotoPreviousStateBehavior. |
 
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **nextItem**( GotoPreviousStateBehavior **obj** )
 > 
 > Returns the GotoPreviousStateBehavior whose index follows the specified GotoPreviousStateBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of goto previous state behaviors.
 |---|---|---|
 | GotoPreviousStateBehavior | obj | The GotoPreviousStateBehavior whose index comes before the desired GotoPreviousStateBehavior. |
 
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **anyItem**()
 > 
 > Returns any GotoPreviousStateBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **everyItem**()
 > 
 > Returns every GotoPreviousStateBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the GotoPreviousStateBehavior.
-*** 
+<HorizontalLine />
 > GotoPreviousStateBehavior **[]**( Number **index** )
 > 
 > Returns the GotoPreviousStateBehavior with the specified index.

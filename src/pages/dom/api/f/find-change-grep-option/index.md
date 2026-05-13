@@ -7,57 +7,57 @@ Find/change grep options.
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Application **parent** 
 >
 > The parent of the FindChangeGrepOption (a Application).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > Boolean **searchBackwards** 
 >
 > If true, search in the backward direction.
-*** 
+<HorizontalLine />
 > Boolean **includeLockedStoriesForFind** 
 >
 > If true, includes locked stories in the find query.
-*** 
+<HorizontalLine />
 > Boolean **includeLockedLayersForFind** 
 >
 > If true, includes locked layers in the find query.
-*** 
+<HorizontalLine />
 > Boolean **includeHiddenLayers** 
 >
 > If true, includes hidden layers in the find/change query.
-*** 
+<HorizontalLine />
 > Boolean **includeMasterPages** 
 >
 > If true, includes master pages in the find/change query.
-*** 
+<HorizontalLine />
 > Boolean **includeFootnotes** 
 >
 > If true, includes footnotes in the find/change query.
-*** 
+<HorizontalLine />
 > Boolean **kanaSensitive** 
 >
 > If true, finds only text that matches the specified kana type.
-*** 
+<HorizontalLine />
 > Boolean **widthSensitive** 
 >
 > If true, finds only text that matches the specified character width.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -66,15 +66,15 @@ Find/change grep options.
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the FindChangeGrepOption.
-*** 
+<HorizontalLine />
 > FindChangeGrepOption **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -85,7 +85,7 @@ Find/change grep options.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

@@ -7,13 +7,13 @@ Placement options for header or footer rows.
 > Number **IN_ALL_TEXT_COLUMNS** = 1231115363
 > 
 > Places headers or footers in each text column.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ONCE_PER_TEXT_FRAME** = 1332761702
 > 
 > Repeats headers or footers in each text frame.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ONCE_PER_PAGE** = 1332760673

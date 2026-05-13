@@ -7,7 +7,7 @@ Options for exporting image data to the EPS document.
 > Number **ALL_IMAGE_DATA** = 1853058416
 > 
 > Exports high-resolution data. Note: Use when the file will be printed on a high-resolution output device.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PROXY_IMAGE_DATA** = 1819243130

@@ -20,11 +20,11 @@ A collection of cell style mappings.
 | MapType | mappingRuleType | The mapping type |
 | Object | withProperties | Initial values for properties of the new CellStyleMapping (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the CellStyleMapping.
-*** 
+<HorizontalLine />
 > CellStyleMapping **item**( Mixed **index** )
 > 
 > Returns the CellStyleMapping with the specified index or name.
@@ -33,7 +33,7 @@ A collection of cell style mappings.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CellStyleMapping **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the CellStyleMappings within the specified range.
@@ -43,19 +43,19 @@ A collection of cell style mappings.
 | Mixed | from | The CellStyleMapping, index, or name at the beginning of the range. Can accept: CellStyleMapping, Long Integer or String. |
 | Mixed | to | The CellStyleMapping, index, or name at the end of the range. Can accept: CellStyleMapping, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CellStyleMapping **firstItem**()
 > 
 > Returns the first CellStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > CellStyleMapping **lastItem**()
 > 
 > Returns the last CellStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > CellStyleMapping **middleItem**()
 > 
 > Returns the middle CellStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > CellStyleMapping **previousItem**( CellStyleMapping **obj** )
 > 
 > Returns the CellStyleMapping with the index previous to the specified index.
@@ -64,7 +64,7 @@ A collection of cell style mappings.
 |---|---|---|
 | CellStyleMapping | obj | The index of the CellStyleMapping that follows the desired CellStyleMapping. |
 
-*** 
+<HorizontalLine />
 > CellStyleMapping **nextItem**( CellStyleMapping **obj** )
 > 
 > Returns the CellStyleMapping whose index follows the specified CellStyleMapping in the collection.
@@ -73,19 +73,19 @@ A collection of cell style mappings.
 |---|---|---|
 | CellStyleMapping | obj | The CellStyleMapping whose index comes before the desired CellStyleMapping. |
 
-*** 
+<HorizontalLine />
 > CellStyleMapping **anyItem**()
 > 
 > Returns any CellStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > CellStyleMapping **everyItem**()
 > 
 > Returns every CellStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the CellStyleMapping.
-*** 
+<HorizontalLine />
 > CellStyleMapping **[]**( Number **index** )
 > 
 > Returns the CellStyleMapping with the specified index.

@@ -17,11 +17,11 @@ A collection of gradients.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new Gradient (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Gradient.
-*** 
+<HorizontalLine />
 > Gradient **item**( Mixed **index** )
 > 
 > Returns the Gradient with the specified index or name.
@@ -30,7 +30,7 @@ A collection of gradients.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Gradient **itemByName**( String **name** )
 > 
 > Returns the Gradient with the specified name.
@@ -39,7 +39,7 @@ A collection of gradients.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Gradient **itemByID**( Number **id** )
 > 
 > Returns the Gradient with the specified ID.
@@ -48,7 +48,7 @@ A collection of gradients.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Gradient **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Gradients within the specified range.
@@ -58,19 +58,19 @@ A collection of gradients.
 | Mixed | from | The Gradient, index, or name at the beginning of the range. Can accept: Gradient, Long Integer or String. |
 | Mixed | to | The Gradient, index, or name at the end of the range. Can accept: Gradient, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Gradient **firstItem**()
 > 
 > Returns the first Gradient in the collection.
-*** 
+<HorizontalLine />
 > Gradient **lastItem**()
 > 
 > Returns the last Gradient in the collection.
-*** 
+<HorizontalLine />
 > Gradient **middleItem**()
 > 
 > Returns the middle Gradient in the collection.
-*** 
+<HorizontalLine />
 > Gradient **previousItem**( Gradient **obj** )
 > 
 > Returns the Gradient with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of gradients.
 |---|---|---|
 | Gradient | obj | The index of the Gradient that follows the desired Gradient. |
 
-*** 
+<HorizontalLine />
 > Gradient **nextItem**( Gradient **obj** )
 > 
 > Returns the Gradient whose index follows the specified Gradient in the collection.
@@ -88,19 +88,19 @@ A collection of gradients.
 |---|---|---|
 | Gradient | obj | The Gradient whose index comes before the desired Gradient. |
 
-*** 
+<HorizontalLine />
 > Gradient **anyItem**()
 > 
 > Returns any Gradient in the collection.
-*** 
+<HorizontalLine />
 > Gradient **everyItem**()
 > 
 > Returns every Gradient in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Gradient.
-*** 
+<HorizontalLine />
 > Gradient **[]**( Number **index** )
 > 
 > Returns the Gradient with the specified index.

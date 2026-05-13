@@ -12,7 +12,7 @@ A collection of colors.
 > Number **count**()
 > 
 > Displays the number of elements in the Color.
-*** 
+<HorizontalLine />
 > Color **add**( Object **withProperties** )
 > 
 > Creates a new Color.
@@ -21,7 +21,7 @@ A collection of colors.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new Color (Optional) |
 
-*** 
+<HorizontalLine />
 > Color **item**( Mixed **index** )
 > 
 > Returns the Color with the specified index or name.
@@ -30,7 +30,7 @@ A collection of colors.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Color **itemByName**( String **name** )
 > 
 > Returns the Color with the specified name.
@@ -39,7 +39,7 @@ A collection of colors.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Color **itemByID**( Number **id** )
 > 
 > Returns the Color with the specified ID.
@@ -48,7 +48,7 @@ A collection of colors.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Color **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Colors within the specified range.
@@ -58,19 +58,19 @@ A collection of colors.
 | Mixed | from | The Color, index, or name at the beginning of the range. Can accept: Color, Long Integer or String. |
 | Mixed | to | The Color, index, or name at the end of the range. Can accept: Color, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Color **firstItem**()
 > 
 > Returns the first Color in the collection.
-*** 
+<HorizontalLine />
 > Color **lastItem**()
 > 
 > Returns the last Color in the collection.
-*** 
+<HorizontalLine />
 > Color **middleItem**()
 > 
 > Returns the middle Color in the collection.
-*** 
+<HorizontalLine />
 > Color **previousItem**( Color **obj** )
 > 
 > Returns the Color with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of colors.
 |---|---|---|
 | Color | obj | The index of the Color that follows the desired Color. |
 
-*** 
+<HorizontalLine />
 > Color **nextItem**( Color **obj** )
 > 
 > Returns the Color whose index follows the specified Color in the collection.
@@ -88,19 +88,19 @@ A collection of colors.
 |---|---|---|
 | Color | obj | The Color whose index comes before the desired Color. |
 
-*** 
+<HorizontalLine />
 > Color **anyItem**()
 > 
 > Returns any Color in the collection.
-*** 
+<HorizontalLine />
 > Color **everyItem**()
 > 
 > Returns every Color in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Color.
-*** 
+<HorizontalLine />
 > Color **[]**( Number **index** )
 > 
 > Returns the Color with the specified index.

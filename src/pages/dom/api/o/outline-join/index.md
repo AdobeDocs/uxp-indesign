@@ -7,13 +7,13 @@ End join types.
 > Number **MITER_END_JOIN** = 1835691886
 > 
 > Miter end join.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ROUND_END_JOIN** = 1919577966
 > 
 > Rounded end join.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BEVEL_END_JOIN** = 1651142510

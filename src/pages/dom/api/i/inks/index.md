@@ -12,7 +12,7 @@ A collection of inks.
 > Number **count**()
 > 
 > Displays the number of elements in the Ink.
-*** 
+<HorizontalLine />
 > Ink **item**( Mixed **index** )
 > 
 > Returns the Ink with the specified index or name.
@@ -21,7 +21,7 @@ A collection of inks.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Ink **itemByName**( String **name** )
 > 
 > Returns the Ink with the specified name.
@@ -30,7 +30,7 @@ A collection of inks.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Ink **itemByID**( Number **id** )
 > 
 > Returns the Ink with the specified ID.
@@ -39,7 +39,7 @@ A collection of inks.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Ink **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Inks within the specified range.
@@ -49,19 +49,19 @@ A collection of inks.
 | Mixed | from | The Ink, index, or name at the beginning of the range. Can accept: Ink, Long Integer or String. |
 | Mixed | to | The Ink, index, or name at the end of the range. Can accept: Ink, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Ink **firstItem**()
 > 
 > Returns the first Ink in the collection.
-*** 
+<HorizontalLine />
 > Ink **lastItem**()
 > 
 > Returns the last Ink in the collection.
-*** 
+<HorizontalLine />
 > Ink **middleItem**()
 > 
 > Returns the middle Ink in the collection.
-*** 
+<HorizontalLine />
 > Ink **previousItem**( Ink **obj** )
 > 
 > Returns the Ink with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of inks.
 |---|---|---|
 | Ink | obj | The index of the Ink that follows the desired Ink. |
 
-*** 
+<HorizontalLine />
 > Ink **nextItem**( Ink **obj** )
 > 
 > Returns the Ink whose index follows the specified Ink in the collection.
@@ -79,19 +79,19 @@ A collection of inks.
 |---|---|---|
 | Ink | obj | The Ink whose index comes before the desired Ink. |
 
-*** 
+<HorizontalLine />
 > Ink **anyItem**()
 > 
 > Returns any Ink in the collection.
-*** 
+<HorizontalLine />
 > Ink **everyItem**()
 > 
 > Returns every Ink in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Ink.
-*** 
+<HorizontalLine />
 > Ink **[]**( Number **index** )
 > 
 > Returns the Ink with the specified index.

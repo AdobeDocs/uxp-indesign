@@ -7,7 +7,7 @@ Preview image file format options.
 > Number **NONE** = 1852796517
 > 
 > Does not save a preview image.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TIFF_PREVIEW** = 1164997734

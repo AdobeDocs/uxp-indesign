@@ -7,19 +7,19 @@ Tab stop alignment options.
 > Number **LEFT_ALIGN** = 1818584692
 > 
 > Left.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CENTER_ALIGN** = 1667591796
 > 
 > Center.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **RIGHT_ALIGN** = 1919379572
 > 
 > Right.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CHARACTER_ALIGN** = 1952604515

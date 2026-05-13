@@ -7,19 +7,19 @@ Ink trapping type options.
 > Number **NORMAL** = 1852797549
 > 
 > Uses traditional process inks and most spot inks.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OPAQUE** = 1769230192
 > 
 > Uses heavy, nontransparent inks to prevent trapping of underlying colors but allow for trapping along the edges of the ink. Best for metallic inks.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TRANSPARENT** = 1769231474
 > 
 > Uses clear inks to ensure that underlying items trap. Best for varnishes and dieline inks.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OPAQUE_IGNORE** = 1769228647

@@ -7,19 +7,19 @@ The display method for raster images.
 > Number **GRAY_OUT** = 1917284985
 > 
 > Grays out raster images.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PROXY** = 1917874808
 > 
 > Displays a low-resolution proxy image appropriate for identifying and positioning an image.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **HIGH_RESOLUTION** = 1917348177
 > 
 > Displays a high-resolution version of the image.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **DEFAULT_VALUE** = 1147563124

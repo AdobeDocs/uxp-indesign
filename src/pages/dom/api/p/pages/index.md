@@ -12,7 +12,7 @@ A collection of pages.
 > Number **count**()
 > 
 > Displays the number of elements in the Page.
-*** 
+<HorizontalLine />
 > Page **add**( LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new page.
@@ -23,7 +23,7 @@ A collection of pages.
 | Mixed | reference | The reference object. Note: Required when the at parameter value specifies before or after. Can accept: Page, Spread, MasterSpread or Document. (Optional) |
 | Object | withProperties | Initial values for properties of the new Page (Optional) |
 
-*** 
+<HorizontalLine />
 > Page **item**( Mixed **index** )
 > 
 > Returns the Page with the specified index or name.
@@ -32,7 +32,7 @@ A collection of pages.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Page **itemByName**( String **name** )
 > 
 > Returns the Page with the specified name.
@@ -41,7 +41,7 @@ A collection of pages.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Page **itemByID**( Number **id** )
 > 
 > Returns the Page with the specified ID.
@@ -50,7 +50,7 @@ A collection of pages.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Page **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Pages within the specified range.
@@ -60,19 +60,19 @@ A collection of pages.
 | Mixed | from | The Page, index, or name at the beginning of the range. Can accept: Page, Long Integer or String. |
 | Mixed | to | The Page, index, or name at the end of the range. Can accept: Page, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Page **firstItem**()
 > 
 > Returns the first Page in the collection.
-*** 
+<HorizontalLine />
 > Page **lastItem**()
 > 
 > Returns the last Page in the collection.
-*** 
+<HorizontalLine />
 > Page **middleItem**()
 > 
 > Returns the middle Page in the collection.
-*** 
+<HorizontalLine />
 > Page **previousItem**( Page **obj** )
 > 
 > Returns the Page with the index previous to the specified index.
@@ -81,7 +81,7 @@ A collection of pages.
 |---|---|---|
 | Page | obj | The index of the Page that follows the desired Page. |
 
-*** 
+<HorizontalLine />
 > Page **nextItem**( Page **obj** )
 > 
 > Returns the Page whose index follows the specified Page in the collection.
@@ -90,19 +90,19 @@ A collection of pages.
 |---|---|---|
 | Page | obj | The Page whose index comes before the desired Page. |
 
-*** 
+<HorizontalLine />
 > Page **anyItem**()
 > 
 > Returns any Page in the collection.
-*** 
+<HorizontalLine />
 > Page **everyItem**()
 > 
 > Returns every Page in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Page.
-*** 
+<HorizontalLine />
 > Page **[]**( Number **index** )
 > 
 > Returns the Page with the specified index.

@@ -7,55 +7,55 @@ PDF export magnification options.
 > Number **DEFAULT_VALUE** = 1147563124
 > 
 > Uses default magnification.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ACTUAL_SIZE** = 2053206906
 > 
 > Uses the actual size.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FIT_PAGE** = 2053534832
 > 
 > Uses the fit page magnification option.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FIT_WIDTH** = 1212437335
 > 
 > Uses the fit width magnification option.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FIT_HEIGHT** = 1212437352
 > 
 > Uses the fit height magnification option.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FIT_VISIBLE** = 1212437334
 > 
 > Uses the fit visible magnification option.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TWENTY_FIVE_PERCENT** = 2053534822
 > 
 > Uses 25 percent magnification option.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FIFTY_PERCENT** = 2053531248
 > 
 > Uses 50 percent magnification option.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SEVENTY_FIVE_PERCENT** = 2053534566
 > 
 > Uses 75 percent magnification option.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ONE_HUNDRED_PERCENT** = 2053533544

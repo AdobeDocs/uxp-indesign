@@ -20,11 +20,11 @@ A collection of endnote text frames.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new EndnoteTextFrame (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the EndnoteTextFrame.
-*** 
+<HorizontalLine />
 > EndnoteTextFrame **item**( Mixed **index** )
 > 
 > Returns the EndnoteTextFrame with the specified index or name.
@@ -33,7 +33,7 @@ A collection of endnote text frames.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > EndnoteTextFrame **itemByName**( String **name** )
 > 
 > Returns the EndnoteTextFrame with the specified name.
@@ -42,7 +42,7 @@ A collection of endnote text frames.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > EndnoteTextFrame **itemByID**( Number **id** )
 > 
 > Returns the EndnoteTextFrame with the specified ID.
@@ -51,7 +51,7 @@ A collection of endnote text frames.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > EndnoteTextFrame **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the EndnoteTextFrames within the specified range.
@@ -61,19 +61,19 @@ A collection of endnote text frames.
 | Mixed | from | The EndnoteTextFrame, index, or name at the beginning of the range. Can accept: EndnoteTextFrame, Long Integer or String. |
 | Mixed | to | The EndnoteTextFrame, index, or name at the end of the range. Can accept: EndnoteTextFrame, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > EndnoteTextFrame **firstItem**()
 > 
 > Returns the first EndnoteTextFrame in the collection.
-*** 
+<HorizontalLine />
 > EndnoteTextFrame **lastItem**()
 > 
 > Returns the last EndnoteTextFrame in the collection.
-*** 
+<HorizontalLine />
 > EndnoteTextFrame **middleItem**()
 > 
 > Returns the middle EndnoteTextFrame in the collection.
-*** 
+<HorizontalLine />
 > EndnoteTextFrame **previousItem**( EndnoteTextFrame **obj** )
 > 
 > Returns the EndnoteTextFrame with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of endnote text frames.
 |---|---|---|
 | EndnoteTextFrame | obj | The index of the EndnoteTextFrame that follows the desired EndnoteTextFrame. |
 
-*** 
+<HorizontalLine />
 > EndnoteTextFrame **nextItem**( EndnoteTextFrame **obj** )
 > 
 > Returns the EndnoteTextFrame whose index follows the specified EndnoteTextFrame in the collection.
@@ -91,19 +91,19 @@ A collection of endnote text frames.
 |---|---|---|
 | EndnoteTextFrame | obj | The EndnoteTextFrame whose index comes before the desired EndnoteTextFrame. |
 
-*** 
+<HorizontalLine />
 > EndnoteTextFrame **anyItem**()
 > 
 > Returns any EndnoteTextFrame in the collection.
-*** 
+<HorizontalLine />
 > EndnoteTextFrame **everyItem**()
 > 
 > Returns every EndnoteTextFrame in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the EndnoteTextFrame.
-*** 
+<HorizontalLine />
 > EndnoteTextFrame **[]**( Number **index** )
 > 
 > Returns the EndnoteTextFrame with the specified index.

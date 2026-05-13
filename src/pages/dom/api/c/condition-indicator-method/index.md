@@ -7,7 +7,7 @@ Options for the condition indicator method.
 > Number **USE_UNDERLINE** = 1700097644
 > 
 > Underlines conditional text.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **USE_HIGHLIGHT** = 1699244391

@@ -7,7 +7,7 @@ Options for rotating the contents of the place gun
 > Number **FORWARD** = 1181708919
 > 
 > Rotate the list forward (i.e., move the front item to end)
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BACKWARD** = 1113680759

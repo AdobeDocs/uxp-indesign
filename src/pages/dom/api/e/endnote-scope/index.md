@@ -7,7 +7,7 @@ Options for scope of endnote placement.
 > Number **STORY_SCOPE** = 1162769267
 > 
 > Endnotes specific to each story.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ENDNOTE_DOCUMENT_SCOPE** = 1162765427

@@ -7,13 +7,13 @@ Bullet character type.
 > Number **UNICODE_ONLY** = 1111717231
 > 
 > Unicode only.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **UNICODE_WITH_FONT** = 1111717222
 > 
 > Unicode with font.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **GLYPH_WITH_FONT** = 1111713638

@@ -20,11 +20,11 @@ A collection of cross reference building blocks.
 | String | customText | Building block custom text. Currently this is only useful in custom string building block. It is ignored for other types of building blocks. (Optional) |
 | Object | withProperties | Initial values for properties of the new BuildingBlock (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the BuildingBlock.
-*** 
+<HorizontalLine />
 > BuildingBlock **item**( Mixed **index** )
 > 
 > Returns the BuildingBlock with the specified index or name.
@@ -33,7 +33,7 @@ A collection of cross reference building blocks.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > BuildingBlock **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the BuildingBlocks within the specified range.
@@ -43,19 +43,19 @@ A collection of cross reference building blocks.
 | Mixed | from | The BuildingBlock, index, or name at the beginning of the range. Can accept: BuildingBlock, Long Integer or String. |
 | Mixed | to | The BuildingBlock, index, or name at the end of the range. Can accept: BuildingBlock, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > BuildingBlock **firstItem**()
 > 
 > Returns the first BuildingBlock in the collection.
-*** 
+<HorizontalLine />
 > BuildingBlock **lastItem**()
 > 
 > Returns the last BuildingBlock in the collection.
-*** 
+<HorizontalLine />
 > BuildingBlock **middleItem**()
 > 
 > Returns the middle BuildingBlock in the collection.
-*** 
+<HorizontalLine />
 > BuildingBlock **previousItem**( BuildingBlock **obj** )
 > 
 > Returns the BuildingBlock with the index previous to the specified index.
@@ -64,7 +64,7 @@ A collection of cross reference building blocks.
 |---|---|---|
 | BuildingBlock | obj | The index of the BuildingBlock that follows the desired BuildingBlock. |
 
-*** 
+<HorizontalLine />
 > BuildingBlock **nextItem**( BuildingBlock **obj** )
 > 
 > Returns the BuildingBlock whose index follows the specified BuildingBlock in the collection.
@@ -73,19 +73,19 @@ A collection of cross reference building blocks.
 |---|---|---|
 | BuildingBlock | obj | The BuildingBlock whose index comes before the desired BuildingBlock. |
 
-*** 
+<HorizontalLine />
 > BuildingBlock **anyItem**()
 > 
 > Returns any BuildingBlock in the collection.
-*** 
+<HorizontalLine />
 > BuildingBlock **everyItem**()
 > 
 > Returns every BuildingBlock in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the BuildingBlock.
-*** 
+<HorizontalLine />
 > BuildingBlock **[]**( Number **index** )
 > 
 > Returns the BuildingBlock with the specified index.

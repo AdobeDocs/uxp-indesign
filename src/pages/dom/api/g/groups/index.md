@@ -12,7 +12,7 @@ A collection of groups.
 > Number **count**()
 > 
 > Displays the number of elements in the Group.
-*** 
+<HorizontalLine />
 > Group **add**( PageItem **groupItems**, Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new Group.
@@ -25,7 +25,7 @@ A collection of groups.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new Group (Optional) |
 
-*** 
+<HorizontalLine />
 > Group **item**( Mixed **index** )
 > 
 > Returns the Group with the specified index or name.
@@ -34,7 +34,7 @@ A collection of groups.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Group **itemByName**( String **name** )
 > 
 > Returns the Group with the specified name.
@@ -43,7 +43,7 @@ A collection of groups.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Group **itemByID**( Number **id** )
 > 
 > Returns the Group with the specified ID.
@@ -52,7 +52,7 @@ A collection of groups.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Group **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Groups within the specified range.
@@ -62,19 +62,19 @@ A collection of groups.
 | Mixed | from | The Group, index, or name at the beginning of the range. Can accept: Group, Long Integer or String. |
 | Mixed | to | The Group, index, or name at the end of the range. Can accept: Group, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Group **firstItem**()
 > 
 > Returns the first Group in the collection.
-*** 
+<HorizontalLine />
 > Group **lastItem**()
 > 
 > Returns the last Group in the collection.
-*** 
+<HorizontalLine />
 > Group **middleItem**()
 > 
 > Returns the middle Group in the collection.
-*** 
+<HorizontalLine />
 > Group **previousItem**( Group **obj** )
 > 
 > Returns the Group with the index previous to the specified index.
@@ -83,7 +83,7 @@ A collection of groups.
 |---|---|---|
 | Group | obj | The index of the Group that follows the desired Group. |
 
-*** 
+<HorizontalLine />
 > Group **nextItem**( Group **obj** )
 > 
 > Returns the Group whose index follows the specified Group in the collection.
@@ -92,19 +92,19 @@ A collection of groups.
 |---|---|---|
 | Group | obj | The Group whose index comes before the desired Group. |
 
-*** 
+<HorizontalLine />
 > Group **anyItem**()
 > 
 > Returns any Group in the collection.
-*** 
+<HorizontalLine />
 > Group **everyItem**()
 > 
 > Returns every Group in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Group.
-*** 
+<HorizontalLine />
 > Group **[]**( Number **index** )
 > 
 > Returns the Group with the specified index.

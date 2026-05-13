@@ -7,7 +7,7 @@ The order in which to arrange records in the target document.
 > Number **ROWS_FIRST** = 1684886118
 > 
 > Arranges records by row.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **COLUMNS_FIRST** = 1684882278

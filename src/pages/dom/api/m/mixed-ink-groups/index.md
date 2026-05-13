@@ -12,7 +12,7 @@ A collection of mixed ink groups.
 > Number **count**()
 > 
 > Displays the number of elements in the MixedInkGroup.
-*** 
+<HorizontalLine />
 > MixedInkGroup **add**( Ink **inkList**, Number **inkPercentages**, Number **repeatValues**, Number **incrementValues**, Object **withProperties** )
 > 
 > Creates a new mixed ink group.
@@ -25,7 +25,7 @@ A collection of mixed ink groups.
 | Number | incrementValues | The increment percent per repetition for each ink. (Range: 0 to 100) Note: The cumulative ink percentage per ink cannot exceed 100.) (Optional) |
 | Object | withProperties | Initial values for properties of the new MixedInkGroup (Optional) |
 
-*** 
+<HorizontalLine />
 > MixedInkGroup **item**( Mixed **index** )
 > 
 > Returns the MixedInkGroup with the specified index or name.
@@ -34,7 +34,7 @@ A collection of mixed ink groups.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MixedInkGroup **itemByName**( String **name** )
 > 
 > Returns the MixedInkGroup with the specified name.
@@ -43,7 +43,7 @@ A collection of mixed ink groups.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > MixedInkGroup **itemByID**( Number **id** )
 > 
 > Returns the MixedInkGroup with the specified ID.
@@ -52,7 +52,7 @@ A collection of mixed ink groups.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > MixedInkGroup **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the MixedInkGroups within the specified range.
@@ -62,19 +62,19 @@ A collection of mixed ink groups.
 | Mixed | from | The MixedInkGroup, index, or name at the beginning of the range. Can accept: MixedInkGroup, Long Integer or String. |
 | Mixed | to | The MixedInkGroup, index, or name at the end of the range. Can accept: MixedInkGroup, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MixedInkGroup **firstItem**()
 > 
 > Returns the first MixedInkGroup in the collection.
-*** 
+<HorizontalLine />
 > MixedInkGroup **lastItem**()
 > 
 > Returns the last MixedInkGroup in the collection.
-*** 
+<HorizontalLine />
 > MixedInkGroup **middleItem**()
 > 
 > Returns the middle MixedInkGroup in the collection.
-*** 
+<HorizontalLine />
 > MixedInkGroup **previousItem**( MixedInkGroup **obj** )
 > 
 > Returns the MixedInkGroup with the index previous to the specified index.
@@ -83,7 +83,7 @@ A collection of mixed ink groups.
 |---|---|---|
 | MixedInkGroup | obj | The index of the MixedInkGroup that follows the desired MixedInkGroup. |
 
-*** 
+<HorizontalLine />
 > MixedInkGroup **nextItem**( MixedInkGroup **obj** )
 > 
 > Returns the MixedInkGroup whose index follows the specified MixedInkGroup in the collection.
@@ -92,19 +92,19 @@ A collection of mixed ink groups.
 |---|---|---|
 | MixedInkGroup | obj | The MixedInkGroup whose index comes before the desired MixedInkGroup. |
 
-*** 
+<HorizontalLine />
 > MixedInkGroup **anyItem**()
 > 
 > Returns any MixedInkGroup in the collection.
-*** 
+<HorizontalLine />
 > MixedInkGroup **everyItem**()
 > 
 > Returns every MixedInkGroup in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the MixedInkGroup.
-*** 
+<HorizontalLine />
 > MixedInkGroup **[]**( Number **index** )
 > 
 > Returns the MixedInkGroup with the specified index.

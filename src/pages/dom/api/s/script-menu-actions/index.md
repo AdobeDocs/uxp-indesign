@@ -18,11 +18,11 @@ A collection of script menu actions.
 | String | title | The name of the ScriptMenuAction for display in the user interface. The title includes any ampersand characters (&), which are used to tell the Windows OS to underline the following character in the name for use with the Alt key to navigate to a menu item. Double ampersands are used to display an actual ampersand character in the name. The Mac OS ignores and removes the extra ampersand characters. (Optional) |
 | Object | withProperties | Initial values for properties of the new ScriptMenuAction (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the ScriptMenuAction.
-*** 
+<HorizontalLine />
 > ScriptMenuAction **item**( Mixed **index** )
 > 
 > Returns the ScriptMenuAction with the specified index or name.
@@ -31,7 +31,7 @@ A collection of script menu actions.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ScriptMenuAction **itemByName**( String **name** )
 > 
 > Returns the ScriptMenuAction with the specified name.
@@ -40,7 +40,7 @@ A collection of script menu actions.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > ScriptMenuAction **itemByID**( Number **id** )
 > 
 > Returns the ScriptMenuAction with the specified ID.
@@ -49,7 +49,7 @@ A collection of script menu actions.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > ScriptMenuAction **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ScriptMenuActions within the specified range.
@@ -59,19 +59,19 @@ A collection of script menu actions.
 | Mixed | from | The ScriptMenuAction, index, or name at the beginning of the range. Can accept: ScriptMenuAction, Long Integer or String. |
 | Mixed | to | The ScriptMenuAction, index, or name at the end of the range. Can accept: ScriptMenuAction, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ScriptMenuAction **firstItem**()
 > 
 > Returns the first ScriptMenuAction in the collection.
-*** 
+<HorizontalLine />
 > ScriptMenuAction **lastItem**()
 > 
 > Returns the last ScriptMenuAction in the collection.
-*** 
+<HorizontalLine />
 > ScriptMenuAction **middleItem**()
 > 
 > Returns the middle ScriptMenuAction in the collection.
-*** 
+<HorizontalLine />
 > ScriptMenuAction **previousItem**( ScriptMenuAction **obj** )
 > 
 > Returns the ScriptMenuAction with the index previous to the specified index.
@@ -80,7 +80,7 @@ A collection of script menu actions.
 |---|---|---|
 | ScriptMenuAction | obj | The index of the ScriptMenuAction that follows the desired ScriptMenuAction. |
 
-*** 
+<HorizontalLine />
 > ScriptMenuAction **nextItem**( ScriptMenuAction **obj** )
 > 
 > Returns the ScriptMenuAction whose index follows the specified ScriptMenuAction in the collection.
@@ -89,19 +89,19 @@ A collection of script menu actions.
 |---|---|---|
 | ScriptMenuAction | obj | The ScriptMenuAction whose index comes before the desired ScriptMenuAction. |
 
-*** 
+<HorizontalLine />
 > ScriptMenuAction **anyItem**()
 > 
 > Returns any ScriptMenuAction in the collection.
-*** 
+<HorizontalLine />
 > ScriptMenuAction **everyItem**()
 > 
 > Returns every ScriptMenuAction in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ScriptMenuAction.
-*** 
+<HorizontalLine />
 > ScriptMenuAction **[]**( Number **index** )
 > 
 > Returns the ScriptMenuAction with the specified index.

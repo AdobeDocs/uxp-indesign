@@ -7,7 +7,7 @@ Page range options.
 > Number **ALL_PAGES** = 1886547553
 > 
 > Print or export all pages in the document.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SELECTED_ITEMS** = 1886547571

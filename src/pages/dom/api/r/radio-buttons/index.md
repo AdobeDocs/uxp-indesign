@@ -12,7 +12,7 @@ A collection of radio buttons.
 > Number **count**()
 > 
 > Displays the number of elements in the RadioButton.
-*** 
+<HorizontalLine />
 > RadioButton **add**( Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new RadioButton
@@ -24,7 +24,7 @@ A collection of radio buttons.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new RadioButton (Optional) |
 
-*** 
+<HorizontalLine />
 > RadioButton **item**( Mixed **index** )
 > 
 > Returns the RadioButton with the specified index or name.
@@ -33,7 +33,7 @@ A collection of radio buttons.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > RadioButton **itemByName**( String **name** )
 > 
 > Returns the RadioButton with the specified name.
@@ -42,7 +42,7 @@ A collection of radio buttons.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > RadioButton **itemByID**( Number **id** )
 > 
 > Returns the RadioButton with the specified ID.
@@ -51,7 +51,7 @@ A collection of radio buttons.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > RadioButton **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the RadioButtons within the specified range.
@@ -61,19 +61,19 @@ A collection of radio buttons.
 | Mixed | from | The RadioButton, index, or name at the beginning of the range. Can accept: RadioButton, Long Integer or String. |
 | Mixed | to | The RadioButton, index, or name at the end of the range. Can accept: RadioButton, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > RadioButton **firstItem**()
 > 
 > Returns the first RadioButton in the collection.
-*** 
+<HorizontalLine />
 > RadioButton **lastItem**()
 > 
 > Returns the last RadioButton in the collection.
-*** 
+<HorizontalLine />
 > RadioButton **middleItem**()
 > 
 > Returns the middle RadioButton in the collection.
-*** 
+<HorizontalLine />
 > RadioButton **previousItem**( RadioButton **obj** )
 > 
 > Returns the RadioButton with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of radio buttons.
 |---|---|---|
 | RadioButton | obj | The index of the RadioButton that follows the desired RadioButton. |
 
-*** 
+<HorizontalLine />
 > RadioButton **nextItem**( RadioButton **obj** )
 > 
 > Returns the RadioButton whose index follows the specified RadioButton in the collection.
@@ -91,19 +91,19 @@ A collection of radio buttons.
 |---|---|---|
 | RadioButton | obj | The RadioButton whose index comes before the desired RadioButton. |
 
-*** 
+<HorizontalLine />
 > RadioButton **anyItem**()
 > 
 > Returns any RadioButton in the collection.
-*** 
+<HorizontalLine />
 > RadioButton **everyItem**()
 > 
 > Returns every RadioButton in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the RadioButton.
-*** 
+<HorizontalLine />
 > RadioButton **[]**( Number **index** )
 > 
 > Returns the RadioButton with the specified index.

@@ -7,13 +7,13 @@ Character direction.
 > Number **DEFAULT_DIRECTION** = 1147496036
 > 
 > Default direction
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LEFT_TO_RIGHT_DIRECTION** = 1278366308
 > 
 > Left to right direction
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **RIGHT_TO_LEFT_DIRECTION** = 1379028068

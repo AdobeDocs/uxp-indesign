@@ -7,41 +7,41 @@ Change glyph preferences.
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Application **parent** 
 >
 > The parent of the ChangeGlyphPreference (a Application).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > Mixed **designAxes** 
 >
 > Value of Design Axes. Can return: Array of Reals or NothingEnum enumerator.
-*** 
+<HorizontalLine />
 > Mixed **glyphID** 
 >
 > The GID/CID of the glyph. Can return: Long Integer or NothingEnum enumerator.
-*** 
+<HorizontalLine />
 > Mixed **appliedFont** 
 >
 > The font applied to the ChangeGlyphPreference, specified as either a font object or the name of font family. Can return: Font, String or NothingEnum enumerator.
-*** 
+<HorizontalLine />
 > Mixed **fontStyle** 
 >
 > The name of the font style. Can return: String or NothingEnum enumerator.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -56,7 +56,7 @@ Change glyph preferences.
 | Number | nthAxisIndex | Index of design axis. |
 | Number | nthAxisValue | Value of nth design axis. |
 
-*** 
+<HorizontalLine />
 > Boolean **isNthDesignAxisHidden**( Number **nthAxisIndex** )
 > 
 > If true, Nth design axis of variable font is hidden.
@@ -65,19 +65,19 @@ Change glyph preferences.
 |---|---|---|
 | Number | nthAxisIndex | Index of design axis. |
 
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ChangeGlyphPreference.
-*** 
+<HorizontalLine />
 > ChangeGlyphPreference **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -88,7 +88,7 @@ Change glyph preferences.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

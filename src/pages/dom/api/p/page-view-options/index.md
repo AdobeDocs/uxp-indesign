@@ -7,13 +7,13 @@ options for viewing pages in Pages Panel
 > Number **HORIZONTALLY** = 1752396907
 > 
 > Pages arranged in horizontal rows.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **VERTICALLY** = 1987211127
 > 
 > Pages arranged in a vertical column.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BY_ALTERNATE_LAYOUT** = 1987277931

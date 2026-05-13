@@ -21,11 +21,11 @@ A collection of object style export tag maps.
 | String | exportAttributes | The attributes to map. |
 | Object | withProperties | Initial values for properties of the new ObjectStyleExportTagMap (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the ObjectStyleExportTagMap.
-*** 
+<HorizontalLine />
 > ObjectStyleExportTagMap **item**( Mixed **index** )
 > 
 > Returns the ObjectStyleExportTagMap with the specified index or name.
@@ -34,7 +34,7 @@ A collection of object style export tag maps.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ObjectStyleExportTagMap **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ObjectStyleExportTagMaps within the specified range.
@@ -44,19 +44,19 @@ A collection of object style export tag maps.
 | Mixed | from | The ObjectStyleExportTagMap, index, or name at the beginning of the range. Can accept: ObjectStyleExportTagMap, Long Integer or String. |
 | Mixed | to | The ObjectStyleExportTagMap, index, or name at the end of the range. Can accept: ObjectStyleExportTagMap, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ObjectStyleExportTagMap **firstItem**()
 > 
 > Returns the first ObjectStyleExportTagMap in the collection.
-*** 
+<HorizontalLine />
 > ObjectStyleExportTagMap **lastItem**()
 > 
 > Returns the last ObjectStyleExportTagMap in the collection.
-*** 
+<HorizontalLine />
 > ObjectStyleExportTagMap **middleItem**()
 > 
 > Returns the middle ObjectStyleExportTagMap in the collection.
-*** 
+<HorizontalLine />
 > ObjectStyleExportTagMap **previousItem**( ObjectStyleExportTagMap **obj** )
 > 
 > Returns the ObjectStyleExportTagMap with the index previous to the specified index.
@@ -65,7 +65,7 @@ A collection of object style export tag maps.
 |---|---|---|
 | ObjectStyleExportTagMap | obj | The index of the ObjectStyleExportTagMap that follows the desired ObjectStyleExportTagMap. |
 
-*** 
+<HorizontalLine />
 > ObjectStyleExportTagMap **nextItem**( ObjectStyleExportTagMap **obj** )
 > 
 > Returns the ObjectStyleExportTagMap whose index follows the specified ObjectStyleExportTagMap in the collection.
@@ -74,19 +74,19 @@ A collection of object style export tag maps.
 |---|---|---|
 | ObjectStyleExportTagMap | obj | The ObjectStyleExportTagMap whose index comes before the desired ObjectStyleExportTagMap. |
 
-*** 
+<HorizontalLine />
 > ObjectStyleExportTagMap **anyItem**()
 > 
 > Returns any ObjectStyleExportTagMap in the collection.
-*** 
+<HorizontalLine />
 > ObjectStyleExportTagMap **everyItem**()
 > 
 > Returns every ObjectStyleExportTagMap in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ObjectStyleExportTagMap.
-*** 
+<HorizontalLine />
 > ObjectStyleExportTagMap **[]**( Number **index** )
 > 
 > Returns the ObjectStyleExportTagMap with the specified index.

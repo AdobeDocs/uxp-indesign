@@ -7,25 +7,25 @@ Figure style options for OpenType fonts.
 > Number **TABULAR_LINING** = 1330931316
 > 
 > Use monspaced lining figures.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PROPORTIONAL_OLDSTYLE** = 1330933619
 > 
 > Use proportional width oldstyle figures.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PROPORTIONAL_LINING** = 1330932848
 > 
 > Use proportional width lining figures.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TABULAR_OLDSTYLE** = 1330933620
 > 
 > Use monospaced oldstyle figures.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **DEFAULT_VALUE** = 1147563124

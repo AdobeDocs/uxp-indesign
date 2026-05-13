@@ -12,7 +12,7 @@ A collection of table cells.
 > Number **count**()
 > 
 > Displays the number of elements in the Cell.
-*** 
+<HorizontalLine />
 > Cell **item**( Mixed **index** )
 > 
 > Returns the Cell with the specified index or name.
@@ -21,7 +21,7 @@ A collection of table cells.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Cell **itemByName**( String **name** )
 > 
 > Returns the Cell with the specified name.
@@ -30,7 +30,7 @@ A collection of table cells.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Cell **itemByID**( Number **id** )
 > 
 > Returns the Cell with the specified ID.
@@ -39,7 +39,7 @@ A collection of table cells.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Cell **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Cells within the specified range.
@@ -49,19 +49,19 @@ A collection of table cells.
 | Mixed | from | The Cell, index, or name at the beginning of the range. Can accept: Cell, Long Integer or String. |
 | Mixed | to | The Cell, index, or name at the end of the range. Can accept: Cell, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Cell **firstItem**()
 > 
 > Returns the first Cell in the collection.
-*** 
+<HorizontalLine />
 > Cell **lastItem**()
 > 
 > Returns the last Cell in the collection.
-*** 
+<HorizontalLine />
 > Cell **middleItem**()
 > 
 > Returns the middle Cell in the collection.
-*** 
+<HorizontalLine />
 > Cell **previousItem**( Cell **obj** )
 > 
 > Returns the Cell with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of table cells.
 |---|---|---|
 | Cell | obj | The index of the Cell that follows the desired Cell. |
 
-*** 
+<HorizontalLine />
 > Cell **nextItem**( Cell **obj** )
 > 
 > Returns the Cell whose index follows the specified Cell in the collection.
@@ -79,19 +79,19 @@ A collection of table cells.
 |---|---|---|
 | Cell | obj | The Cell whose index comes before the desired Cell. |
 
-*** 
+<HorizontalLine />
 > Cell **anyItem**()
 > 
 > Returns any Cell in the collection.
-*** 
+<HorizontalLine />
 > Cell **everyItem**()
 > 
 > Returns every Cell in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Cell.
-*** 
+<HorizontalLine />
 > Cell **[]**( Number **index** )
 > 
 > Returns the Cell with the specified index.

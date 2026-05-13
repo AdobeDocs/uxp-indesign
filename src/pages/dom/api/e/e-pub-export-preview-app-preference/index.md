@@ -7,29 +7,29 @@ EPub export preview app preferences.
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Application **parent** 
 >
 > The parent of the EPubExportPreviewAppPreference (a Application).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > Boolean **viewDocumentAfterExport** 
 >
 > If true, open docuemnt in viewer after export.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -46,7 +46,7 @@ EPub export preview app preferences.
 | Boolean | selectedForFixedLayoutEpub | Check if the app is selected in Fixed Layout ePub export. |
 | Object | withProperties | Initial values for properties of the new EPubExportPreviewAppPreference (Optional) |
 
-*** 
+<HorizontalLine />
 > **removeApplication**( Number **indexOfApp**, Object **withProperties** )
 > 
 > Remove an application at specified index.
@@ -56,7 +56,7 @@ EPub export preview app preferences.
 | Number | indexOfApp | The index of the application to be removed. |
 | Object | withProperties | Initial values for properties of the new EPubExportPreviewAppPreference (Optional) |
 
-*** 
+<HorizontalLine />
 > Mixed **getApplicationAtIndex**( Boolean **indexOfApp**, Object **withProperties** )
 > 
 > Get the application at index.
@@ -66,23 +66,23 @@ EPub export preview app preferences.
 | Boolean | indexOfApp | The index of the application to get information for. |
 | Object | withProperties | Initial values for properties of the new EPubExportPreviewAppPreference (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **getApplicationCount**()
 > 
 > Number of applications added for ePub Preview.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the EPubExportPreviewAppPreference.
-*** 
+<HorizontalLine />
 > EPubExportPreviewAppPreference **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -93,7 +93,7 @@ EPub export preview app preferences.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

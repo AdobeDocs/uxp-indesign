@@ -7,13 +7,13 @@ Override clearing options.
 > Number **ALL** = 1634495520
 > 
 > Clears all types of override.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CHARACTER_ONLY** = 1667789423
 > 
 > Clears only character style overrides.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PARAGRAPH_ONLY** = 1885434479

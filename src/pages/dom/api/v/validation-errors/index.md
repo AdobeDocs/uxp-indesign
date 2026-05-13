@@ -12,7 +12,7 @@ A collection of XML validation errors.
 > Number **count**()
 > 
 > Displays the number of elements in the ValidationError.
-*** 
+<HorizontalLine />
 > ValidationError **item**( Mixed **index** )
 > 
 > Returns the ValidationError with the specified index or name.
@@ -21,7 +21,7 @@ A collection of XML validation errors.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ValidationError **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ValidationErrors within the specified range.
@@ -31,19 +31,19 @@ A collection of XML validation errors.
 | Mixed | from | The ValidationError, index, or name at the beginning of the range. Can accept: ValidationError, Long Integer or String. |
 | Mixed | to | The ValidationError, index, or name at the end of the range. Can accept: ValidationError, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ValidationError **firstItem**()
 > 
 > Returns the first ValidationError in the collection.
-*** 
+<HorizontalLine />
 > ValidationError **lastItem**()
 > 
 > Returns the last ValidationError in the collection.
-*** 
+<HorizontalLine />
 > ValidationError **middleItem**()
 > 
 > Returns the middle ValidationError in the collection.
-*** 
+<HorizontalLine />
 > ValidationError **previousItem**( ValidationError **obj** )
 > 
 > Returns the ValidationError with the index previous to the specified index.
@@ -52,7 +52,7 @@ A collection of XML validation errors.
 |---|---|---|
 | ValidationError | obj | The index of the ValidationError that follows the desired ValidationError. |
 
-*** 
+<HorizontalLine />
 > ValidationError **nextItem**( ValidationError **obj** )
 > 
 > Returns the ValidationError whose index follows the specified ValidationError in the collection.
@@ -61,19 +61,19 @@ A collection of XML validation errors.
 |---|---|---|
 | ValidationError | obj | The ValidationError whose index comes before the desired ValidationError. |
 
-*** 
+<HorizontalLine />
 > ValidationError **anyItem**()
 > 
 > Returns any ValidationError in the collection.
-*** 
+<HorizontalLine />
 > ValidationError **everyItem**()
 > 
 > Returns every ValidationError in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ValidationError.
-*** 
+<HorizontalLine />
 > ValidationError **[]**( Number **index** )
 > 
 > Returns the ValidationError with the specified index.

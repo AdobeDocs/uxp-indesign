@@ -17,11 +17,11 @@ A collection of angle editboxes.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new AngleEditbox (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the AngleEditbox.
-*** 
+<HorizontalLine />
 > AngleEditbox **item**( Mixed **index** )
 > 
 > Returns the AngleEditbox with the specified index or name.
@@ -30,7 +30,7 @@ A collection of angle editboxes.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > AngleEditbox **itemByID**( Number **id** )
 > 
 > Returns the AngleEditbox with the specified ID.
@@ -39,7 +39,7 @@ A collection of angle editboxes.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > AngleEditbox **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the AngleEditboxes within the specified range.
@@ -49,19 +49,19 @@ A collection of angle editboxes.
 | Mixed | from | The AngleEditbox, index, or name at the beginning of the range. Can accept: AngleEditbox, Long Integer or String. |
 | Mixed | to | The AngleEditbox, index, or name at the end of the range. Can accept: AngleEditbox, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > AngleEditbox **firstItem**()
 > 
 > Returns the first AngleEditbox in the collection.
-*** 
+<HorizontalLine />
 > AngleEditbox **lastItem**()
 > 
 > Returns the last AngleEditbox in the collection.
-*** 
+<HorizontalLine />
 > AngleEditbox **middleItem**()
 > 
 > Returns the middle AngleEditbox in the collection.
-*** 
+<HorizontalLine />
 > AngleEditbox **previousItem**( AngleEditbox **obj** )
 > 
 > Returns the AngleEditbox with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of angle editboxes.
 |---|---|---|
 | AngleEditbox | obj | The index of the AngleEditbox that follows the desired AngleEditbox. |
 
-*** 
+<HorizontalLine />
 > AngleEditbox **nextItem**( AngleEditbox **obj** )
 > 
 > Returns the AngleEditbox whose index follows the specified AngleEditbox in the collection.
@@ -79,19 +79,19 @@ A collection of angle editboxes.
 |---|---|---|
 | AngleEditbox | obj | The AngleEditbox whose index comes before the desired AngleEditbox. |
 
-*** 
+<HorizontalLine />
 > AngleEditbox **anyItem**()
 > 
 > Returns any AngleEditbox in the collection.
-*** 
+<HorizontalLine />
 > AngleEditbox **everyItem**()
 > 
 > Returns every AngleEditbox in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the AngleEditbox.
-*** 
+<HorizontalLine />
 > AngleEditbox **[]**( Number **index** )
 > 
 > Returns the AngleEditbox with the specified index.

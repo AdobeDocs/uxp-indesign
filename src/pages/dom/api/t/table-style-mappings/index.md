@@ -20,11 +20,11 @@ A collection of table style mappings.
 | MapType | mappingRuleType | The mapping type |
 | Object | withProperties | Initial values for properties of the new TableStyleMapping (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the TableStyleMapping.
-*** 
+<HorizontalLine />
 > TableStyleMapping **item**( Mixed **index** )
 > 
 > Returns the TableStyleMapping with the specified index or name.
@@ -33,7 +33,7 @@ A collection of table style mappings.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TableStyleMapping **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TableStyleMappings within the specified range.
@@ -43,19 +43,19 @@ A collection of table style mappings.
 | Mixed | from | The TableStyleMapping, index, or name at the beginning of the range. Can accept: TableStyleMapping, Long Integer or String. |
 | Mixed | to | The TableStyleMapping, index, or name at the end of the range. Can accept: TableStyleMapping, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TableStyleMapping **firstItem**()
 > 
 > Returns the first TableStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > TableStyleMapping **lastItem**()
 > 
 > Returns the last TableStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > TableStyleMapping **middleItem**()
 > 
 > Returns the middle TableStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > TableStyleMapping **previousItem**( TableStyleMapping **obj** )
 > 
 > Returns the TableStyleMapping with the index previous to the specified index.
@@ -64,7 +64,7 @@ A collection of table style mappings.
 |---|---|---|
 | TableStyleMapping | obj | The index of the TableStyleMapping that follows the desired TableStyleMapping. |
 
-*** 
+<HorizontalLine />
 > TableStyleMapping **nextItem**( TableStyleMapping **obj** )
 > 
 > Returns the TableStyleMapping whose index follows the specified TableStyleMapping in the collection.
@@ -73,19 +73,19 @@ A collection of table style mappings.
 |---|---|---|
 | TableStyleMapping | obj | The TableStyleMapping whose index comes before the desired TableStyleMapping. |
 
-*** 
+<HorizontalLine />
 > TableStyleMapping **anyItem**()
 > 
 > Returns any TableStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > TableStyleMapping **everyItem**()
 > 
 > Returns every TableStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TableStyleMapping.
-*** 
+<HorizontalLine />
 > TableStyleMapping **[]**( Number **index** )
 > 
 > Returns the TableStyleMapping with the specified index.

@@ -12,7 +12,7 @@ A collection of PICT graphics.
 > Number **count**()
 > 
 > Displays the number of elements in the PICT.
-*** 
+<HorizontalLine />
 > PICT **item**( Mixed **index** )
 > 
 > Returns the PICT with the specified index or name.
@@ -21,7 +21,7 @@ A collection of PICT graphics.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PICT **itemByName**( String **name** )
 > 
 > Returns the PICT with the specified name.
@@ -30,7 +30,7 @@ A collection of PICT graphics.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > PICT **itemByID**( Number **id** )
 > 
 > Returns the PICT with the specified ID.
@@ -39,7 +39,7 @@ A collection of PICT graphics.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > PICT **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the PICTs within the specified range.
@@ -49,19 +49,19 @@ A collection of PICT graphics.
 | Mixed | from | The PICT, index, or name at the beginning of the range. Can accept: PICT, Long Integer or String. |
 | Mixed | to | The PICT, index, or name at the end of the range. Can accept: PICT, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PICT **firstItem**()
 > 
 > Returns the first PICT in the collection.
-*** 
+<HorizontalLine />
 > PICT **lastItem**()
 > 
 > Returns the last PICT in the collection.
-*** 
+<HorizontalLine />
 > PICT **middleItem**()
 > 
 > Returns the middle PICT in the collection.
-*** 
+<HorizontalLine />
 > PICT **previousItem**( PICT **obj** )
 > 
 > Returns the PICT with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of PICT graphics.
 |---|---|---|
 | PICT | obj | The index of the PICT that follows the desired PICT. |
 
-*** 
+<HorizontalLine />
 > PICT **nextItem**( PICT **obj** )
 > 
 > Returns the PICT whose index follows the specified PICT in the collection.
@@ -79,19 +79,19 @@ A collection of PICT graphics.
 |---|---|---|
 | PICT | obj | The PICT whose index comes before the desired PICT. |
 
-*** 
+<HorizontalLine />
 > PICT **anyItem**()
 > 
 > Returns any PICT in the collection.
-*** 
+<HorizontalLine />
 > PICT **everyItem**()
 > 
 > Returns every PICT in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the PICT.
-*** 
+<HorizontalLine />
 > PICT **[]**( Number **index** )
 > 
 > Returns the PICT with the specified index.

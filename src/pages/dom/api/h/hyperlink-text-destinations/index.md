@@ -18,11 +18,11 @@ A collection of hyperlink text destinations.
 | Text | destination | The text or insertion point location that the hyperlink points to. |
 | Object | withProperties | Initial values for properties of the new HyperlinkTextDestination (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the HyperlinkTextDestination.
-*** 
+<HorizontalLine />
 > HyperlinkTextDestination **item**( Mixed **index** )
 > 
 > Returns the HyperlinkTextDestination with the specified index or name.
@@ -31,7 +31,7 @@ A collection of hyperlink text destinations.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > HyperlinkTextDestination **itemByName**( String **name** )
 > 
 > Returns the HyperlinkTextDestination with the specified name.
@@ -40,7 +40,7 @@ A collection of hyperlink text destinations.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > HyperlinkTextDestination **itemByID**( Number **id** )
 > 
 > Returns the HyperlinkTextDestination with the specified ID.
@@ -49,7 +49,7 @@ A collection of hyperlink text destinations.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > HyperlinkTextDestination **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the HyperlinkTextDestinations within the specified range.
@@ -59,19 +59,19 @@ A collection of hyperlink text destinations.
 | Mixed | from | The HyperlinkTextDestination, index, or name at the beginning of the range. Can accept: HyperlinkTextDestination, Long Integer or String. |
 | Mixed | to | The HyperlinkTextDestination, index, or name at the end of the range. Can accept: HyperlinkTextDestination, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > HyperlinkTextDestination **firstItem**()
 > 
 > Returns the first HyperlinkTextDestination in the collection.
-*** 
+<HorizontalLine />
 > HyperlinkTextDestination **lastItem**()
 > 
 > Returns the last HyperlinkTextDestination in the collection.
-*** 
+<HorizontalLine />
 > HyperlinkTextDestination **middleItem**()
 > 
 > Returns the middle HyperlinkTextDestination in the collection.
-*** 
+<HorizontalLine />
 > HyperlinkTextDestination **previousItem**( HyperlinkTextDestination **obj** )
 > 
 > Returns the HyperlinkTextDestination with the index previous to the specified index.
@@ -80,7 +80,7 @@ A collection of hyperlink text destinations.
 |---|---|---|
 | HyperlinkTextDestination | obj | The index of the HyperlinkTextDestination that follows the desired HyperlinkTextDestination. |
 
-*** 
+<HorizontalLine />
 > HyperlinkTextDestination **nextItem**( HyperlinkTextDestination **obj** )
 > 
 > Returns the HyperlinkTextDestination whose index follows the specified HyperlinkTextDestination in the collection.
@@ -89,19 +89,19 @@ A collection of hyperlink text destinations.
 |---|---|---|
 | HyperlinkTextDestination | obj | The HyperlinkTextDestination whose index comes before the desired HyperlinkTextDestination. |
 
-*** 
+<HorizontalLine />
 > HyperlinkTextDestination **anyItem**()
 > 
 > Returns any HyperlinkTextDestination in the collection.
-*** 
+<HorizontalLine />
 > HyperlinkTextDestination **everyItem**()
 > 
 > Returns every HyperlinkTextDestination in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the HyperlinkTextDestination.
-*** 
+<HorizontalLine />
 > HyperlinkTextDestination **[]**( Number **index** )
 > 
 > Returns the HyperlinkTextDestination with the specified index.

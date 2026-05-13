@@ -17,11 +17,11 @@ A collection of integer comboboxes.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new IntegerCombobox (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the IntegerCombobox.
-*** 
+<HorizontalLine />
 > IntegerCombobox **item**( Mixed **index** )
 > 
 > Returns the IntegerCombobox with the specified index or name.
@@ -30,7 +30,7 @@ A collection of integer comboboxes.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > IntegerCombobox **itemByID**( Number **id** )
 > 
 > Returns the IntegerCombobox with the specified ID.
@@ -39,7 +39,7 @@ A collection of integer comboboxes.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > IntegerCombobox **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the IntegerComboboxes within the specified range.
@@ -49,19 +49,19 @@ A collection of integer comboboxes.
 | Mixed | from | The IntegerCombobox, index, or name at the beginning of the range. Can accept: IntegerCombobox, Long Integer or String. |
 | Mixed | to | The IntegerCombobox, index, or name at the end of the range. Can accept: IntegerCombobox, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > IntegerCombobox **firstItem**()
 > 
 > Returns the first IntegerCombobox in the collection.
-*** 
+<HorizontalLine />
 > IntegerCombobox **lastItem**()
 > 
 > Returns the last IntegerCombobox in the collection.
-*** 
+<HorizontalLine />
 > IntegerCombobox **middleItem**()
 > 
 > Returns the middle IntegerCombobox in the collection.
-*** 
+<HorizontalLine />
 > IntegerCombobox **previousItem**( IntegerCombobox **obj** )
 > 
 > Returns the IntegerCombobox with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of integer comboboxes.
 |---|---|---|
 | IntegerCombobox | obj | The index of the IntegerCombobox that follows the desired IntegerCombobox. |
 
-*** 
+<HorizontalLine />
 > IntegerCombobox **nextItem**( IntegerCombobox **obj** )
 > 
 > Returns the IntegerCombobox whose index follows the specified IntegerCombobox in the collection.
@@ -79,19 +79,19 @@ A collection of integer comboboxes.
 |---|---|---|
 | IntegerCombobox | obj | The IntegerCombobox whose index comes before the desired IntegerCombobox. |
 
-*** 
+<HorizontalLine />
 > IntegerCombobox **anyItem**()
 > 
 > Returns any IntegerCombobox in the collection.
-*** 
+<HorizontalLine />
 > IntegerCombobox **everyItem**()
 > 
 > Returns every IntegerCombobox in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the IntegerCombobox.
-*** 
+<HorizontalLine />
 > IntegerCombobox **[]**( Number **index** )
 > 
 > Returns the IntegerCombobox with the specified index.

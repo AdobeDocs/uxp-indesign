@@ -12,7 +12,7 @@ A collection of index topics.
 > Number **count**()
 > 
 > Displays the number of elements in the Topic.
-*** 
+<HorizontalLine />
 > Topic **add**( String **name**, String **sortBy**, Object **withProperties** )
 > 
 > Creates a new index topic.
@@ -23,7 +23,7 @@ A collection of index topics.
 | String | sortBy | The string to sort this topic by instead of the topic name. Note: The actual topic text, rather than the sort order text, appears in the index. (Optional) |
 | Object | withProperties | Initial values for properties of the new Topic (Optional) |
 
-*** 
+<HorizontalLine />
 > Topic **item**( Mixed **index** )
 > 
 > Returns the Topic with the specified index or name.
@@ -32,7 +32,7 @@ A collection of index topics.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Topic **itemByName**( String **name** )
 > 
 > Returns the Topic with the specified name.
@@ -41,7 +41,7 @@ A collection of index topics.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Topic **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Topics within the specified range.
@@ -51,19 +51,19 @@ A collection of index topics.
 | Mixed | from | The Topic, index, or name at the beginning of the range. Can accept: Topic, Long Integer or String. |
 | Mixed | to | The Topic, index, or name at the end of the range. Can accept: Topic, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Topic **firstItem**()
 > 
 > Returns the first Topic in the collection.
-*** 
+<HorizontalLine />
 > Topic **lastItem**()
 > 
 > Returns the last Topic in the collection.
-*** 
+<HorizontalLine />
 > Topic **middleItem**()
 > 
 > Returns the middle Topic in the collection.
-*** 
+<HorizontalLine />
 > Topic **previousItem**( Topic **obj** )
 > 
 > Returns the Topic with the index previous to the specified index.
@@ -72,7 +72,7 @@ A collection of index topics.
 |---|---|---|
 | Topic | obj | The index of the Topic that follows the desired Topic. |
 
-*** 
+<HorizontalLine />
 > Topic **nextItem**( Topic **obj** )
 > 
 > Returns the Topic whose index follows the specified Topic in the collection.
@@ -81,19 +81,19 @@ A collection of index topics.
 |---|---|---|
 | Topic | obj | The Topic whose index comes before the desired Topic. |
 
-*** 
+<HorizontalLine />
 > Topic **anyItem**()
 > 
 > Returns any Topic in the collection.
-*** 
+<HorizontalLine />
 > Topic **everyItem**()
 > 
 > Returns every Topic in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Topic.
-*** 
+<HorizontalLine />
 > Topic **[]**( Number **index** )
 > 
 > Returns the Topic with the specified index.

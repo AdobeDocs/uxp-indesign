@@ -7,13 +7,13 @@ Flattener level override options.
 > Number **DEFAULT_VALUE** = 1147563124
 > 
 > Uses the default level.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **NONE** = 1852796517
 > 
 > Turns off flattening.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CUSTOM** = 1131639917

@@ -7,13 +7,13 @@ Story direction options.
 > Number **LEFT_TO_RIGHT_DIRECTION** = 1278366308
 > 
 > Left to right direction.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **RIGHT_TO_LEFT_DIRECTION** = 1379028068
 > 
 > Right to left direction.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **UNKNOWN_DIRECTION** = 1433299812

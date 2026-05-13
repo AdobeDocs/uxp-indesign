@@ -17,11 +17,11 @@ A collection of striped stroke styles.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new StripedStrokeStyle (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the StripedStrokeStyle.
-*** 
+<HorizontalLine />
 > StripedStrokeStyle **item**( Mixed **index** )
 > 
 > Returns the StripedStrokeStyle with the specified index or name.
@@ -30,7 +30,7 @@ A collection of striped stroke styles.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > StripedStrokeStyle **itemByName**( String **name** )
 > 
 > Returns the StripedStrokeStyle with the specified name.
@@ -39,7 +39,7 @@ A collection of striped stroke styles.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > StripedStrokeStyle **itemByID**( Number **id** )
 > 
 > Returns the StripedStrokeStyle with the specified ID.
@@ -48,7 +48,7 @@ A collection of striped stroke styles.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > StripedStrokeStyle **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the StripedStrokeStyles within the specified range.
@@ -58,19 +58,19 @@ A collection of striped stroke styles.
 | Mixed | from | The StripedStrokeStyle, index, or name at the beginning of the range. Can accept: StripedStrokeStyle, Long Integer or String. |
 | Mixed | to | The StripedStrokeStyle, index, or name at the end of the range. Can accept: StripedStrokeStyle, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > StripedStrokeStyle **firstItem**()
 > 
 > Returns the first StripedStrokeStyle in the collection.
-*** 
+<HorizontalLine />
 > StripedStrokeStyle **lastItem**()
 > 
 > Returns the last StripedStrokeStyle in the collection.
-*** 
+<HorizontalLine />
 > StripedStrokeStyle **middleItem**()
 > 
 > Returns the middle StripedStrokeStyle in the collection.
-*** 
+<HorizontalLine />
 > StripedStrokeStyle **previousItem**( StripedStrokeStyle **obj** )
 > 
 > Returns the StripedStrokeStyle with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of striped stroke styles.
 |---|---|---|
 | StripedStrokeStyle | obj | The index of the StripedStrokeStyle that follows the desired StripedStrokeStyle. |
 
-*** 
+<HorizontalLine />
 > StripedStrokeStyle **nextItem**( StripedStrokeStyle **obj** )
 > 
 > Returns the StripedStrokeStyle whose index follows the specified StripedStrokeStyle in the collection.
@@ -88,19 +88,19 @@ A collection of striped stroke styles.
 |---|---|---|
 | StripedStrokeStyle | obj | The StripedStrokeStyle whose index comes before the desired StripedStrokeStyle. |
 
-*** 
+<HorizontalLine />
 > StripedStrokeStyle **anyItem**()
 > 
 > Returns any StripedStrokeStyle in the collection.
-*** 
+<HorizontalLine />
 > StripedStrokeStyle **everyItem**()
 > 
 > Returns every StripedStrokeStyle in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the StripedStrokeStyle.
-*** 
+<HorizontalLine />
 > StripedStrokeStyle **[]**( Number **index** )
 > 
 > Returns the StripedStrokeStyle with the specified index.

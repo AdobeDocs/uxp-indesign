@@ -12,7 +12,7 @@ The media items collection.
 > Number **count**()
 > 
 > Displays the number of elements in the MediaItem.
-*** 
+<HorizontalLine />
 > MediaItem **item**( Mixed **index** )
 > 
 > Returns the MediaItem with the specified index or name.
@@ -21,7 +21,7 @@ The media items collection.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MediaItem **itemByName**( String **name** )
 > 
 > Returns the MediaItem with the specified name.
@@ -30,7 +30,7 @@ The media items collection.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > MediaItem **itemByID**( Number **id** )
 > 
 > Returns the MediaItem with the specified ID.
@@ -39,7 +39,7 @@ The media items collection.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > MediaItem **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the MediaItems within the specified range.
@@ -49,19 +49,19 @@ The media items collection.
 | Mixed | from | The MediaItem, index, or name at the beginning of the range. Can accept: MediaItem, Long Integer or String. |
 | Mixed | to | The MediaItem, index, or name at the end of the range. Can accept: MediaItem, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MediaItem **firstItem**()
 > 
 > Returns the first MediaItem in the collection.
-*** 
+<HorizontalLine />
 > MediaItem **lastItem**()
 > 
 > Returns the last MediaItem in the collection.
-*** 
+<HorizontalLine />
 > MediaItem **middleItem**()
 > 
 > Returns the middle MediaItem in the collection.
-*** 
+<HorizontalLine />
 > MediaItem **previousItem**( MediaItem **obj** )
 > 
 > Returns the MediaItem with the index previous to the specified index.
@@ -70,7 +70,7 @@ The media items collection.
 |---|---|---|
 | MediaItem | obj | The index of the MediaItem that follows the desired MediaItem. |
 
-*** 
+<HorizontalLine />
 > MediaItem **nextItem**( MediaItem **obj** )
 > 
 > Returns the MediaItem whose index follows the specified MediaItem in the collection.
@@ -79,19 +79,19 @@ The media items collection.
 |---|---|---|
 | MediaItem | obj | The MediaItem whose index comes before the desired MediaItem. |
 
-*** 
+<HorizontalLine />
 > MediaItem **anyItem**()
 > 
 > Returns any MediaItem in the collection.
-*** 
+<HorizontalLine />
 > MediaItem **everyItem**()
 > 
 > Returns every MediaItem in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the MediaItem.
-*** 
+<HorizontalLine />
 > MediaItem **[]**( Number **index** )
 > 
 > Returns the MediaItem with the specified index.

@@ -18,11 +18,11 @@ A collection of preflight profile rules.
 | String | id | The ID of the rule to be added |
 | Object | withProperties | Initial values for properties of the new PreflightProfileRule (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the PreflightProfileRule.
-*** 
+<HorizontalLine />
 > PreflightProfileRule **item**( Mixed **index** )
 > 
 > Returns the PreflightProfileRule with the specified index or name.
@@ -31,7 +31,7 @@ A collection of preflight profile rules.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PreflightProfileRule **itemByName**( String **name** )
 > 
 > Returns the PreflightProfileRule with the specified name.
@@ -40,7 +40,7 @@ A collection of preflight profile rules.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > PreflightProfileRule **itemByID**( Number **id** )
 > 
 > Returns the PreflightProfileRule with the specified ID.
@@ -49,7 +49,7 @@ A collection of preflight profile rules.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > PreflightProfileRule **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the PreflightProfileRules within the specified range.
@@ -59,19 +59,19 @@ A collection of preflight profile rules.
 | Mixed | from | The PreflightProfileRule, index, or name at the beginning of the range. Can accept: PreflightProfileRule, Long Integer or String. |
 | Mixed | to | The PreflightProfileRule, index, or name at the end of the range. Can accept: PreflightProfileRule, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PreflightProfileRule **firstItem**()
 > 
 > Returns the first PreflightProfileRule in the collection.
-*** 
+<HorizontalLine />
 > PreflightProfileRule **lastItem**()
 > 
 > Returns the last PreflightProfileRule in the collection.
-*** 
+<HorizontalLine />
 > PreflightProfileRule **middleItem**()
 > 
 > Returns the middle PreflightProfileRule in the collection.
-*** 
+<HorizontalLine />
 > PreflightProfileRule **previousItem**( PreflightProfileRule **obj** )
 > 
 > Returns the PreflightProfileRule with the index previous to the specified index.
@@ -80,7 +80,7 @@ A collection of preflight profile rules.
 |---|---|---|
 | PreflightProfileRule | obj | The index of the PreflightProfileRule that follows the desired PreflightProfileRule. |
 
-*** 
+<HorizontalLine />
 > PreflightProfileRule **nextItem**( PreflightProfileRule **obj** )
 > 
 > Returns the PreflightProfileRule whose index follows the specified PreflightProfileRule in the collection.
@@ -89,19 +89,19 @@ A collection of preflight profile rules.
 |---|---|---|
 | PreflightProfileRule | obj | The PreflightProfileRule whose index comes before the desired PreflightProfileRule. |
 
-*** 
+<HorizontalLine />
 > PreflightProfileRule **anyItem**()
 > 
 > Returns any PreflightProfileRule in the collection.
-*** 
+<HorizontalLine />
 > PreflightProfileRule **everyItem**()
 > 
 > Returns every PreflightProfileRule in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the PreflightProfileRule.
-*** 
+<HorizontalLine />
 > PreflightProfileRule **[]**( Number **index** )
 > 
 > Returns the PreflightProfileRule with the specified index.

@@ -7,13 +7,13 @@ Change type options.
 > Number **INSERTED_TEXT** = 1799974515
 > 
 > Added text.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **DELETED_TEXT** = 1799644524
 > 
 > Deleted text.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **MOVED_TEXT** = 1800236918

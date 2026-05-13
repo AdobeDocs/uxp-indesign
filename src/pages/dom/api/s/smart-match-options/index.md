@@ -7,7 +7,7 @@ Options for matching names when synchronizing styles in a book.
 > Number **MATCH_STYLE_PATH** = 1936549488
 > 
 > Match the full path of style while finding styles in target.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **MATCH_STYLE_NAME** = 1936552814

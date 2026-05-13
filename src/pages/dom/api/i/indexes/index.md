@@ -17,11 +17,11 @@ A collection of indexes.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new Index (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Index.
-*** 
+<HorizontalLine />
 > Index **item**( Mixed **index** )
 > 
 > Returns the Index with the specified index or name.
@@ -30,7 +30,7 @@ A collection of indexes.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Index **itemByName**( String **name** )
 > 
 > Returns the Index with the specified name.
@@ -39,7 +39,7 @@ A collection of indexes.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Index **itemByID**( Number **id** )
 > 
 > Returns the Index with the specified ID.
@@ -48,7 +48,7 @@ A collection of indexes.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Index **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Indexes within the specified range.
@@ -58,19 +58,19 @@ A collection of indexes.
 | Mixed | from | The Index, index, or name at the beginning of the range. Can accept: Index, Long Integer or String. |
 | Mixed | to | The Index, index, or name at the end of the range. Can accept: Index, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Index **firstItem**()
 > 
 > Returns the first Index in the collection.
-*** 
+<HorizontalLine />
 > Index **lastItem**()
 > 
 > Returns the last Index in the collection.
-*** 
+<HorizontalLine />
 > Index **middleItem**()
 > 
 > Returns the middle Index in the collection.
-*** 
+<HorizontalLine />
 > Index **previousItem**( Index **obj** )
 > 
 > Returns the Index with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of indexes.
 |---|---|---|
 | Index | obj | The index of the Index that follows the desired Index. |
 
-*** 
+<HorizontalLine />
 > Index **nextItem**( Index **obj** )
 > 
 > Returns the Index whose index follows the specified Index in the collection.
@@ -88,19 +88,19 @@ A collection of indexes.
 |---|---|---|
 | Index | obj | The Index whose index comes before the desired Index. |
 
-*** 
+<HorizontalLine />
 > Index **anyItem**()
 > 
 > Returns any Index in the collection.
-*** 
+<HorizontalLine />
 > Index **everyItem**()
 > 
 > Returns every Index in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Index.
-*** 
+<HorizontalLine />
 > Index **[]**( Number **index** )
 > 
 > Returns the Index with the specified index.

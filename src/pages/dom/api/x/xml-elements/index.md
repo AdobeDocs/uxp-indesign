@@ -12,7 +12,7 @@ A collection of XML elements.
 > Number **count**()
 > 
 > Displays the number of elements in the XMLElement.
-*** 
+<HorizontalLine />
 > XMLElement **add**( Mixed **markupTag**, Mixed **xmlContent**, Object **withProperties** )
 > 
 > Creates a new XML element.
@@ -23,7 +23,7 @@ A collection of XML elements.
 | Mixed | xmlContent | The content to be marked up. Can accept: Text, Story, PageItem, Movie, Sound, Graphic, Table or Cell. (Optional) |
 | Object | withProperties | Initial values for properties of the new XMLElement (Optional) |
 
-*** 
+<HorizontalLine />
 > XMLElement **item**( Mixed **index** )
 > 
 > Returns the XMLElement with the specified index or name.
@@ -32,7 +32,7 @@ A collection of XML elements.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XMLElement **itemByID**( Number **id** )
 > 
 > Returns the XMLElement with the specified ID.
@@ -41,7 +41,7 @@ A collection of XML elements.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > XMLElement **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the XMLElements within the specified range.
@@ -51,19 +51,19 @@ A collection of XML elements.
 | Mixed | from | The XMLElement, index, or name at the beginning of the range. Can accept: XMLElement, Long Integer or String. |
 | Mixed | to | The XMLElement, index, or name at the end of the range. Can accept: XMLElement, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XMLElement **firstItem**()
 > 
 > Returns the first XMLElement in the collection.
-*** 
+<HorizontalLine />
 > XMLElement **lastItem**()
 > 
 > Returns the last XMLElement in the collection.
-*** 
+<HorizontalLine />
 > XMLElement **middleItem**()
 > 
 > Returns the middle XMLElement in the collection.
-*** 
+<HorizontalLine />
 > XMLElement **previousItem**( XMLElement **obj** )
 > 
 > Returns the XMLElement with the index previous to the specified index.
@@ -72,7 +72,7 @@ A collection of XML elements.
 |---|---|---|
 | XMLElement | obj | The index of the XMLElement that follows the desired XMLElement. |
 
-*** 
+<HorizontalLine />
 > XMLElement **nextItem**( XMLElement **obj** )
 > 
 > Returns the XMLElement whose index follows the specified XMLElement in the collection.
@@ -81,19 +81,19 @@ A collection of XML elements.
 |---|---|---|
 | XMLElement | obj | The XMLElement whose index comes before the desired XMLElement. |
 
-*** 
+<HorizontalLine />
 > XMLElement **anyItem**()
 > 
 > Returns any XMLElement in the collection.
-*** 
+<HorizontalLine />
 > XMLElement **everyItem**()
 > 
 > Returns every XMLElement in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the XMLElement.
-*** 
+<HorizontalLine />
 > XMLElement **[]**( Number **index** )
 > 
 > Returns the XMLElement with the specified index.

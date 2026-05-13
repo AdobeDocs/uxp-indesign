@@ -18,11 +18,11 @@ A collection of object libraries.
 | File | fullName | The library's path and file name. |
 | Object | withProperties | Initial values for properties of the new Library (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Library.
-*** 
+<HorizontalLine />
 > Library **item**( Mixed **index** )
 > 
 > Returns the Library with the specified index or name.
@@ -31,7 +31,7 @@ A collection of object libraries.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Library **itemByName**( String **name** )
 > 
 > Returns the Library with the specified name.
@@ -40,7 +40,7 @@ A collection of object libraries.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Library **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Libraries within the specified range.
@@ -50,19 +50,19 @@ A collection of object libraries.
 | Mixed | from | The Library, index, or name at the beginning of the range. Can accept: Library, Long Integer or String. |
 | Mixed | to | The Library, index, or name at the end of the range. Can accept: Library, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Library **firstItem**()
 > 
 > Returns the first Library in the collection.
-*** 
+<HorizontalLine />
 > Library **lastItem**()
 > 
 > Returns the last Library in the collection.
-*** 
+<HorizontalLine />
 > Library **middleItem**()
 > 
 > Returns the middle Library in the collection.
-*** 
+<HorizontalLine />
 > Library **previousItem**( Library **obj** )
 > 
 > Returns the Library with the index previous to the specified index.
@@ -71,7 +71,7 @@ A collection of object libraries.
 |---|---|---|
 | Library | obj | The index of the Library that follows the desired Library. |
 
-*** 
+<HorizontalLine />
 > Library **nextItem**( Library **obj** )
 > 
 > Returns the Library whose index follows the specified Library in the collection.
@@ -80,19 +80,19 @@ A collection of object libraries.
 |---|---|---|
 | Library | obj | The Library whose index comes before the desired Library. |
 
-*** 
+<HorizontalLine />
 > Library **anyItem**()
 > 
 > Returns any Library in the collection.
-*** 
+<HorizontalLine />
 > Library **everyItem**()
 > 
 > Returns every Library in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Library.
-*** 
+<HorizontalLine />
 > Library **[]**( Number **index** )
 > 
 > Returns the Library with the specified index.

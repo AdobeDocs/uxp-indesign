@@ -12,7 +12,7 @@ The page items collection, which can be used to process all page items in a cont
 > Number **count**()
 > 
 > Displays the number of elements in the PageItem.
-*** 
+<HorizontalLine />
 > PageItem **item**( Mixed **index** )
 > 
 > Returns the PageItem with the specified index or name.
@@ -21,7 +21,7 @@ The page items collection, which can be used to process all page items in a cont
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PageItem **itemByName**( String **name** )
 > 
 > Returns the PageItem with the specified name.
@@ -30,7 +30,7 @@ The page items collection, which can be used to process all page items in a cont
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > PageItem **itemByID**( Number **id** )
 > 
 > Returns the PageItem with the specified ID.
@@ -39,7 +39,7 @@ The page items collection, which can be used to process all page items in a cont
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > PageItem **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the PageItems within the specified range.
@@ -49,19 +49,19 @@ The page items collection, which can be used to process all page items in a cont
 | Mixed | from | The PageItem, index, or name at the beginning of the range. Can accept: PageItem, Long Integer or String. |
 | Mixed | to | The PageItem, index, or name at the end of the range. Can accept: PageItem, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PageItem **firstItem**()
 > 
 > Returns the first PageItem in the collection.
-*** 
+<HorizontalLine />
 > PageItem **lastItem**()
 > 
 > Returns the last PageItem in the collection.
-*** 
+<HorizontalLine />
 > PageItem **middleItem**()
 > 
 > Returns the middle PageItem in the collection.
-*** 
+<HorizontalLine />
 > PageItem **previousItem**( PageItem **obj** )
 > 
 > Returns the PageItem with the index previous to the specified index.
@@ -70,7 +70,7 @@ The page items collection, which can be used to process all page items in a cont
 |---|---|---|
 | PageItem | obj | The index of the PageItem that follows the desired PageItem. |
 
-*** 
+<HorizontalLine />
 > PageItem **nextItem**( PageItem **obj** )
 > 
 > Returns the PageItem whose index follows the specified PageItem in the collection.
@@ -79,19 +79,19 @@ The page items collection, which can be used to process all page items in a cont
 |---|---|---|
 | PageItem | obj | The PageItem whose index comes before the desired PageItem. |
 
-*** 
+<HorizontalLine />
 > PageItem **anyItem**()
 > 
 > Returns any PageItem in the collection.
-*** 
+<HorizontalLine />
 > PageItem **everyItem**()
 > 
 > Returns every PageItem in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the PageItem.
-*** 
+<HorizontalLine />
 > PageItem **[]**( Number **index** )
 > 
 > Returns the PageItem with the specified index.

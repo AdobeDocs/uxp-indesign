@@ -17,11 +17,11 @@ A collection of nested line styles.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new NestedLineStyle (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the NestedLineStyle.
-*** 
+<HorizontalLine />
 > NestedLineStyle **item**( Mixed **index** )
 > 
 > Returns the NestedLineStyle with the specified index or name.
@@ -30,7 +30,7 @@ A collection of nested line styles.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > NestedLineStyle **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the NestedLineStyles within the specified range.
@@ -40,19 +40,19 @@ A collection of nested line styles.
 | Mixed | from | The NestedLineStyle, index, or name at the beginning of the range. Can accept: NestedLineStyle, Long Integer or String. |
 | Mixed | to | The NestedLineStyle, index, or name at the end of the range. Can accept: NestedLineStyle, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > NestedLineStyle **firstItem**()
 > 
 > Returns the first NestedLineStyle in the collection.
-*** 
+<HorizontalLine />
 > NestedLineStyle **lastItem**()
 > 
 > Returns the last NestedLineStyle in the collection.
-*** 
+<HorizontalLine />
 > NestedLineStyle **middleItem**()
 > 
 > Returns the middle NestedLineStyle in the collection.
-*** 
+<HorizontalLine />
 > NestedLineStyle **previousItem**( NestedLineStyle **obj** )
 > 
 > Returns the NestedLineStyle with the index previous to the specified index.
@@ -61,7 +61,7 @@ A collection of nested line styles.
 |---|---|---|
 | NestedLineStyle | obj | The index of the NestedLineStyle that follows the desired NestedLineStyle. |
 
-*** 
+<HorizontalLine />
 > NestedLineStyle **nextItem**( NestedLineStyle **obj** )
 > 
 > Returns the NestedLineStyle whose index follows the specified NestedLineStyle in the collection.
@@ -70,19 +70,19 @@ A collection of nested line styles.
 |---|---|---|
 | NestedLineStyle | obj | The NestedLineStyle whose index comes before the desired NestedLineStyle. |
 
-*** 
+<HorizontalLine />
 > NestedLineStyle **anyItem**()
 > 
 > Returns any NestedLineStyle in the collection.
-*** 
+<HorizontalLine />
 > NestedLineStyle **everyItem**()
 > 
 > Returns every NestedLineStyle in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the NestedLineStyle.
-*** 
+<HorizontalLine />
 > NestedLineStyle **[]**( Number **index** )
 > 
 > Returns the NestedLineStyle with the specified index.

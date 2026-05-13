@@ -20,11 +20,11 @@ A collection of para style mappings.
 | MapType | mappingRuleType | The mapping type |
 | Object | withProperties | Initial values for properties of the new ParaStyleMapping (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the ParaStyleMapping.
-*** 
+<HorizontalLine />
 > ParaStyleMapping **item**( Mixed **index** )
 > 
 > Returns the ParaStyleMapping with the specified index or name.
@@ -33,7 +33,7 @@ A collection of para style mappings.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ParaStyleMapping **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ParaStyleMappings within the specified range.
@@ -43,19 +43,19 @@ A collection of para style mappings.
 | Mixed | from | The ParaStyleMapping, index, or name at the beginning of the range. Can accept: ParaStyleMapping, Long Integer or String. |
 | Mixed | to | The ParaStyleMapping, index, or name at the end of the range. Can accept: ParaStyleMapping, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ParaStyleMapping **firstItem**()
 > 
 > Returns the first ParaStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > ParaStyleMapping **lastItem**()
 > 
 > Returns the last ParaStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > ParaStyleMapping **middleItem**()
 > 
 > Returns the middle ParaStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > ParaStyleMapping **previousItem**( ParaStyleMapping **obj** )
 > 
 > Returns the ParaStyleMapping with the index previous to the specified index.
@@ -64,7 +64,7 @@ A collection of para style mappings.
 |---|---|---|
 | ParaStyleMapping | obj | The index of the ParaStyleMapping that follows the desired ParaStyleMapping. |
 
-*** 
+<HorizontalLine />
 > ParaStyleMapping **nextItem**( ParaStyleMapping **obj** )
 > 
 > Returns the ParaStyleMapping whose index follows the specified ParaStyleMapping in the collection.
@@ -73,19 +73,19 @@ A collection of para style mappings.
 |---|---|---|
 | ParaStyleMapping | obj | The ParaStyleMapping whose index comes before the desired ParaStyleMapping. |
 
-*** 
+<HorizontalLine />
 > ParaStyleMapping **anyItem**()
 > 
 > Returns any ParaStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > ParaStyleMapping **everyItem**()
 > 
 > Returns every ParaStyleMapping in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ParaStyleMapping.
-*** 
+<HorizontalLine />
 > ParaStyleMapping **[]**( Number **index** )
 > 
 > Returns the ParaStyleMapping with the specified index.

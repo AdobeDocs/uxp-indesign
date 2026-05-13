@@ -7,13 +7,13 @@ Data type options for data merge fields.
 > Number **TEXT_FIELD** = 1684886630
 > 
 > The field can fill a data merge text placeholder.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **IMAGE_FIELD** = 1684883814
 > 
 > The field can fill a data merge image placeholder.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **QRCODE_FIELD** = 1684885862

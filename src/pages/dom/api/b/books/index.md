@@ -18,11 +18,11 @@ A collection of books.
 | File | fullName | The full path name of the new book file, including the book file extension '.indb'. |
 | Object | withProperties | Initial values for properties of the new Book (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Book.
-*** 
+<HorizontalLine />
 > Book **item**( Mixed **index** )
 > 
 > Returns the Book with the specified index or name.
@@ -31,7 +31,7 @@ A collection of books.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Book **itemByName**( String **name** )
 > 
 > Returns the Book with the specified name.
@@ -40,7 +40,7 @@ A collection of books.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Book **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Books within the specified range.
@@ -50,19 +50,19 @@ A collection of books.
 | Mixed | from | The Book, index, or name at the beginning of the range. Can accept: Book, Long Integer or String. |
 | Mixed | to | The Book, index, or name at the end of the range. Can accept: Book, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Book **firstItem**()
 > 
 > Returns the first Book in the collection.
-*** 
+<HorizontalLine />
 > Book **lastItem**()
 > 
 > Returns the last Book in the collection.
-*** 
+<HorizontalLine />
 > Book **middleItem**()
 > 
 > Returns the middle Book in the collection.
-*** 
+<HorizontalLine />
 > Book **previousItem**( Book **obj** )
 > 
 > Returns the Book with the index previous to the specified index.
@@ -71,7 +71,7 @@ A collection of books.
 |---|---|---|
 | Book | obj | The index of the Book that follows the desired Book. |
 
-*** 
+<HorizontalLine />
 > Book **nextItem**( Book **obj** )
 > 
 > Returns the Book whose index follows the specified Book in the collection.
@@ -80,19 +80,19 @@ A collection of books.
 |---|---|---|
 | Book | obj | The Book whose index comes before the desired Book. |
 
-*** 
+<HorizontalLine />
 > Book **anyItem**()
 > 
 > Returns any Book in the collection.
-*** 
+<HorizontalLine />
 > Book **everyItem**()
 > 
 > Returns every Book in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Book.
-*** 
+<HorizontalLine />
 > Book **[]**( Number **index** )
 > 
 > Returns the Book with the specified index.

@@ -7,25 +7,25 @@ Rendering intent options.
 > Number **USE_COLOR_SETTINGS** = 1380541299
 > 
 > Uses the current color settings.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PERCEPTUAL** = 1380544611
 > 
 > Preserves the visual relationship between colors at the expense of actual color values; most suitable for photographic images with high percentages of out-of-gamut colors.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SATURATION** = 1380545377
 > 
 > Produces vivid colors at the expense of color accuracy; most suitable for business graphics such as graphs or charts.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **RELATIVE_COLORIMETRIC** = 1380545123
 > 
 > Compares the extreme highlight of the source color space to that of the desination color space and shifts all colors accordingly; out-of-gamut colors are shifted to the closest reproducible color in the destination color space.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ABSOLUTE_COLORIMETRIC** = 1380540771

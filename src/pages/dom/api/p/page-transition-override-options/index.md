@@ -7,85 +7,85 @@ Page transition to use as an override when exporting.
 > Number **FROM_DOCUMENT** = 1718764655
 > 
 > Use the page transition from the document.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **NONE** = 1852796517
 > 
 > No page transition applied.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BLINDS_TRANSITION** = 1886667372
 > 
 > The Blinds page transition.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BOX_TRANSITION** = 1886667384
 > 
 > The Blinds page transition.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **COMB_TRANSITION** = 1886667618
 > 
 > The Comb page transition.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **COVER_TRANSITION** = 1886667638
 > 
 > The Cover page transition.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **DISSOLVE_TRANSITION** = 1886667891
 > 
 > The Dissolve page transition.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FADE_TRANSITION** = 1886668388
 > 
 > The Fade page transition.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PAGE_TURN_TRANSITION** = 1886670932
 > 
 > The Page Turn page transition (SWF only).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PUSH_TRANSITION** = 1886670963
 > 
 > The Push page transition.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SPLIT_TRANSITION** = 1886671728
 > 
 > The Split page transition.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **UNCOVER_TRANSITION** = 1886672227
 > 
 > The Uncover page transition.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **WIPE_TRANSITION** = 1886672752
 > 
 > The Wipe page transition.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ZOOM_IN_TRANSITION** = 1886673481
 > 
 > The Zoom In page transition.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ZOOM_OUT_TRANSITION** = 1886673487

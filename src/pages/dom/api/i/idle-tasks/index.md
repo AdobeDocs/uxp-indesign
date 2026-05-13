@@ -17,11 +17,11 @@ All attachable idle tasks.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new IdleTask (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the IdleTask.
-*** 
+<HorizontalLine />
 > IdleTask **item**( Mixed **index** )
 > 
 > Returns the IdleTask with the specified index or name.
@@ -30,7 +30,7 @@ All attachable idle tasks.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > IdleTask **itemByName**( String **name** )
 > 
 > Returns the IdleTask with the specified name.
@@ -39,7 +39,7 @@ All attachable idle tasks.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > IdleTask **itemByID**( Number **id** )
 > 
 > Returns the IdleTask with the specified ID.
@@ -48,7 +48,7 @@ All attachable idle tasks.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > IdleTask **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the IdleTasks within the specified range.
@@ -58,19 +58,19 @@ All attachable idle tasks.
 | Mixed | from | The IdleTask, index, or name at the beginning of the range. Can accept: IdleTask, Long Integer or String. |
 | Mixed | to | The IdleTask, index, or name at the end of the range. Can accept: IdleTask, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > IdleTask **firstItem**()
 > 
 > Returns the first IdleTask in the collection.
-*** 
+<HorizontalLine />
 > IdleTask **lastItem**()
 > 
 > Returns the last IdleTask in the collection.
-*** 
+<HorizontalLine />
 > IdleTask **middleItem**()
 > 
 > Returns the middle IdleTask in the collection.
-*** 
+<HorizontalLine />
 > IdleTask **previousItem**( IdleTask **obj** )
 > 
 > Returns the IdleTask with the index previous to the specified index.
@@ -79,7 +79,7 @@ All attachable idle tasks.
 |---|---|---|
 | IdleTask | obj | The index of the IdleTask that follows the desired IdleTask. |
 
-*** 
+<HorizontalLine />
 > IdleTask **nextItem**( IdleTask **obj** )
 > 
 > Returns the IdleTask whose index follows the specified IdleTask in the collection.
@@ -88,19 +88,19 @@ All attachable idle tasks.
 |---|---|---|
 | IdleTask | obj | The IdleTask whose index comes before the desired IdleTask. |
 
-*** 
+<HorizontalLine />
 > IdleTask **anyItem**()
 > 
 > Returns any IdleTask in the collection.
-*** 
+<HorizontalLine />
 > IdleTask **everyItem**()
 > 
 > Returns every IdleTask in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the IdleTask.
-*** 
+<HorizontalLine />
 > IdleTask **[]**( Number **index** )
 > 
 > Returns the IdleTask with the specified index.

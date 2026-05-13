@@ -12,7 +12,7 @@ A collection of goto previous view behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the GotoPreviousViewBehavior.
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **add**( Object **withProperties** )
 > 
 > Creates a new GotoPreviousViewBehavior.
@@ -21,7 +21,7 @@ A collection of goto previous view behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new GotoPreviousViewBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **item**( Mixed **index** )
 > 
 > Returns the GotoPreviousViewBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of goto previous view behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **itemByName**( String **name** )
 > 
 > Returns the GotoPreviousViewBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of goto previous view behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **itemByID**( Number **id** )
 > 
 > Returns the GotoPreviousViewBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of goto previous view behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the GotoPreviousViewBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of goto previous view behavior objects.
 | Mixed | from | The GotoPreviousViewBehavior, index, or name at the beginning of the range. Can accept: GotoPreviousViewBehavior, Long Integer or String. |
 | Mixed | to | The GotoPreviousViewBehavior, index, or name at the end of the range. Can accept: GotoPreviousViewBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **firstItem**()
 > 
 > Returns the first GotoPreviousViewBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **lastItem**()
 > 
 > Returns the last GotoPreviousViewBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **middleItem**()
 > 
 > Returns the middle GotoPreviousViewBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **previousItem**( GotoPreviousViewBehavior **obj** )
 > 
 > Returns the GotoPreviousViewBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of goto previous view behavior objects.
 |---|---|---|
 | GotoPreviousViewBehavior | obj | The index of the GotoPreviousViewBehavior that follows the desired GotoPreviousViewBehavior. |
 
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **nextItem**( GotoPreviousViewBehavior **obj** )
 > 
 > Returns the GotoPreviousViewBehavior whose index follows the specified GotoPreviousViewBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of goto previous view behavior objects.
 |---|---|---|
 | GotoPreviousViewBehavior | obj | The GotoPreviousViewBehavior whose index comes before the desired GotoPreviousViewBehavior. |
 
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **anyItem**()
 > 
 > Returns any GotoPreviousViewBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **everyItem**()
 > 
 > Returns every GotoPreviousViewBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the GotoPreviousViewBehavior.
-*** 
+<HorizontalLine />
 > GotoPreviousViewBehavior **[]**( Number **index** )
 > 
 > Returns the GotoPreviousViewBehavior with the specified index.

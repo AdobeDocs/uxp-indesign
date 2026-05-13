@@ -7,7 +7,7 @@ Use SVG As Enum
 > Number **EMBED_CODE** = 1701667427
 > 
 > SVG will be exported as embed code
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OBJECT_TAGS** = 1868720756

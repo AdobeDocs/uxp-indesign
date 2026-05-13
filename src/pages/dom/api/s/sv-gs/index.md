@@ -17,11 +17,11 @@ A collection of SVG files.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new SVG (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the SVG.
-*** 
+<HorizontalLine />
 > SVG **item**( Mixed **index** )
 > 
 > Returns the SVG with the specified index or name.
@@ -30,7 +30,7 @@ A collection of SVG files.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > SVG **itemByName**( String **name** )
 > 
 > Returns the SVG with the specified name.
@@ -39,7 +39,7 @@ A collection of SVG files.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > SVG **itemByID**( Number **id** )
 > 
 > Returns the SVG with the specified ID.
@@ -48,7 +48,7 @@ A collection of SVG files.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > SVG **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the SVGs within the specified range.
@@ -58,19 +58,19 @@ A collection of SVG files.
 | Mixed | from | The SVG, index, or name at the beginning of the range. Can accept: SVG, Long Integer or String. |
 | Mixed | to | The SVG, index, or name at the end of the range. Can accept: SVG, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > SVG **firstItem**()
 > 
 > Returns the first SVG in the collection.
-*** 
+<HorizontalLine />
 > SVG **lastItem**()
 > 
 > Returns the last SVG in the collection.
-*** 
+<HorizontalLine />
 > SVG **middleItem**()
 > 
 > Returns the middle SVG in the collection.
-*** 
+<HorizontalLine />
 > SVG **previousItem**( SVG **obj** )
 > 
 > Returns the SVG with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of SVG files.
 |---|---|---|
 | SVG | obj | The index of the SVG that follows the desired SVG. |
 
-*** 
+<HorizontalLine />
 > SVG **nextItem**( SVG **obj** )
 > 
 > Returns the SVG whose index follows the specified SVG in the collection.
@@ -88,19 +88,19 @@ A collection of SVG files.
 |---|---|---|
 | SVG | obj | The SVG whose index comes before the desired SVG. |
 
-*** 
+<HorizontalLine />
 > SVG **anyItem**()
 > 
 > Returns any SVG in the collection.
-*** 
+<HorizontalLine />
 > SVG **everyItem**()
 > 
 > Returns every SVG in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the SVG.
-*** 
+<HorizontalLine />
 > SVG **[]**( Number **index** )
 > 
 > Returns the SVG with the specified index.

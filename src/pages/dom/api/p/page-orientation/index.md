@@ -7,7 +7,7 @@ Page orientation options.
 > Number **LANDSCAPE** = 2003395685
 > 
 > Landscape.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PORTRAIT** = 1751738216

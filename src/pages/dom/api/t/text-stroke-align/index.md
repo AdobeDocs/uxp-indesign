@@ -7,7 +7,7 @@ Stroke alignment options.
 > Number **CENTER_ALIGNMENT** = 1936998723
 > 
 > The stroke straddles the path.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OUTSIDE_ALIGNMENT** = 1936998735

@@ -18,11 +18,11 @@ A collection of color group swatches.
 | Swatch | swatchItemRef | swatch to be added to color group |
 | Object | withProperties | Initial values for properties of the new ColorGroupSwatch (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the ColorGroupSwatch.
-*** 
+<HorizontalLine />
 > ColorGroupSwatch **item**( Mixed **index** )
 > 
 > Returns the ColorGroupSwatch with the specified index or name.
@@ -31,7 +31,7 @@ A collection of color group swatches.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ColorGroupSwatch **itemByID**( Number **id** )
 > 
 > Returns the ColorGroupSwatch with the specified ID.
@@ -40,7 +40,7 @@ A collection of color group swatches.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > ColorGroupSwatch **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ColorGroupSwatches within the specified range.
@@ -50,19 +50,19 @@ A collection of color group swatches.
 | Mixed | from | The ColorGroupSwatch, index, or name at the beginning of the range. Can accept: ColorGroupSwatch, Long Integer or String. |
 | Mixed | to | The ColorGroupSwatch, index, or name at the end of the range. Can accept: ColorGroupSwatch, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ColorGroupSwatch **firstItem**()
 > 
 > Returns the first ColorGroupSwatch in the collection.
-*** 
+<HorizontalLine />
 > ColorGroupSwatch **lastItem**()
 > 
 > Returns the last ColorGroupSwatch in the collection.
-*** 
+<HorizontalLine />
 > ColorGroupSwatch **middleItem**()
 > 
 > Returns the middle ColorGroupSwatch in the collection.
-*** 
+<HorizontalLine />
 > ColorGroupSwatch **previousItem**( ColorGroupSwatch **obj** )
 > 
 > Returns the ColorGroupSwatch with the index previous to the specified index.
@@ -71,7 +71,7 @@ A collection of color group swatches.
 |---|---|---|
 | ColorGroupSwatch | obj | The index of the ColorGroupSwatch that follows the desired ColorGroupSwatch. |
 
-*** 
+<HorizontalLine />
 > ColorGroupSwatch **nextItem**( ColorGroupSwatch **obj** )
 > 
 > Returns the ColorGroupSwatch whose index follows the specified ColorGroupSwatch in the collection.
@@ -80,19 +80,19 @@ A collection of color group swatches.
 |---|---|---|
 | ColorGroupSwatch | obj | The ColorGroupSwatch whose index comes before the desired ColorGroupSwatch. |
 
-*** 
+<HorizontalLine />
 > ColorGroupSwatch **anyItem**()
 > 
 > Returns any ColorGroupSwatch in the collection.
-*** 
+<HorizontalLine />
 > ColorGroupSwatch **everyItem**()
 > 
 > Returns every ColorGroupSwatch in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ColorGroupSwatch.
-*** 
+<HorizontalLine />
 > ColorGroupSwatch **[]**( Number **index** )
 > 
 > Returns the ColorGroupSwatch with the specified index.

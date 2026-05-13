@@ -7,13 +7,13 @@ The resolution strategy to employ for imported styles that have the same names a
 > Number **LOAD_ALL_WITH_OVERWRITE** = 1279350607
 > 
 > Overwrites existing styles whose names clash with imported items.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LOAD_ALL_WITH_RENAME** = 1279350610
 > 
 > Renames imported styles whose names clash with existing items to preserve existing items.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **DO_NOT_LOAD_THE_STYLE** = 1147495276

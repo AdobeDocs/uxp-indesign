@@ -7,7 +7,7 @@ Options for page color label.
 > Number **NOTHING** = 1851876449
 > 
 > No color.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **USE_MASTER_COLOR** = 1346594413

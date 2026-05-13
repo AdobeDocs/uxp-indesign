@@ -7,13 +7,13 @@ PDF mark weight
 > Number **P125PT** = 825374064
 > 
 > Printer mark line weight of 0.125 points.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **P25PT** = 842346608
 > 
 > Printer mark line weight of 0.25 points.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **P50PT** = 892350576

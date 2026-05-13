@@ -18,11 +18,11 @@ A collection of cross reference formats.
 | String | name | The format name. (Optional) |
 | Object | withProperties | Initial values for properties of the new CrossReferenceFormat (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the CrossReferenceFormat.
-*** 
+<HorizontalLine />
 > CrossReferenceFormat **item**( Mixed **index** )
 > 
 > Returns the CrossReferenceFormat with the specified index or name.
@@ -31,7 +31,7 @@ A collection of cross reference formats.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CrossReferenceFormat **itemByName**( String **name** )
 > 
 > Returns the CrossReferenceFormat with the specified name.
@@ -40,7 +40,7 @@ A collection of cross reference formats.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > CrossReferenceFormat **itemByID**( Number **id** )
 > 
 > Returns the CrossReferenceFormat with the specified ID.
@@ -49,7 +49,7 @@ A collection of cross reference formats.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > CrossReferenceFormat **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the CrossReferenceFormats within the specified range.
@@ -59,19 +59,19 @@ A collection of cross reference formats.
 | Mixed | from | The CrossReferenceFormat, index, or name at the beginning of the range. Can accept: CrossReferenceFormat, Long Integer or String. |
 | Mixed | to | The CrossReferenceFormat, index, or name at the end of the range. Can accept: CrossReferenceFormat, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CrossReferenceFormat **firstItem**()
 > 
 > Returns the first CrossReferenceFormat in the collection.
-*** 
+<HorizontalLine />
 > CrossReferenceFormat **lastItem**()
 > 
 > Returns the last CrossReferenceFormat in the collection.
-*** 
+<HorizontalLine />
 > CrossReferenceFormat **middleItem**()
 > 
 > Returns the middle CrossReferenceFormat in the collection.
-*** 
+<HorizontalLine />
 > CrossReferenceFormat **previousItem**( CrossReferenceFormat **obj** )
 > 
 > Returns the CrossReferenceFormat with the index previous to the specified index.
@@ -80,7 +80,7 @@ A collection of cross reference formats.
 |---|---|---|
 | CrossReferenceFormat | obj | The index of the CrossReferenceFormat that follows the desired CrossReferenceFormat. |
 
-*** 
+<HorizontalLine />
 > CrossReferenceFormat **nextItem**( CrossReferenceFormat **obj** )
 > 
 > Returns the CrossReferenceFormat whose index follows the specified CrossReferenceFormat in the collection.
@@ -89,19 +89,19 @@ A collection of cross reference formats.
 |---|---|---|
 | CrossReferenceFormat | obj | The CrossReferenceFormat whose index comes before the desired CrossReferenceFormat. |
 
-*** 
+<HorizontalLine />
 > CrossReferenceFormat **anyItem**()
 > 
 > Returns any CrossReferenceFormat in the collection.
-*** 
+<HorizontalLine />
 > CrossReferenceFormat **everyItem**()
 > 
 > Returns every CrossReferenceFormat in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the CrossReferenceFormat.
-*** 
+<HorizontalLine />
 > CrossReferenceFormat **[]**( Number **index** )
 > 
 > Returns the CrossReferenceFormat with the specified index.

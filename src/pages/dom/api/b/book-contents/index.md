@@ -19,11 +19,11 @@ A collection of book content objects.
 | Number | at | The location of the book content object within the book. (Optional) |
 | Object | withProperties | Initial values for properties of the new BookContent (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the BookContent.
-*** 
+<HorizontalLine />
 > BookContent **item**( Mixed **index** )
 > 
 > Returns the BookContent with the specified index or name.
@@ -32,7 +32,7 @@ A collection of book content objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > BookContent **itemByName**( String **name** )
 > 
 > Returns the BookContent with the specified name.
@@ -41,7 +41,7 @@ A collection of book content objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > BookContent **itemByID**( Number **id** )
 > 
 > Returns the BookContent with the specified ID.
@@ -50,7 +50,7 @@ A collection of book content objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > BookContent **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the BookContents within the specified range.
@@ -60,19 +60,19 @@ A collection of book content objects.
 | Mixed | from | The BookContent, index, or name at the beginning of the range. Can accept: BookContent, Long Integer or String. |
 | Mixed | to | The BookContent, index, or name at the end of the range. Can accept: BookContent, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > BookContent **firstItem**()
 > 
 > Returns the first BookContent in the collection.
-*** 
+<HorizontalLine />
 > BookContent **lastItem**()
 > 
 > Returns the last BookContent in the collection.
-*** 
+<HorizontalLine />
 > BookContent **middleItem**()
 > 
 > Returns the middle BookContent in the collection.
-*** 
+<HorizontalLine />
 > BookContent **previousItem**( BookContent **obj** )
 > 
 > Returns the BookContent with the index previous to the specified index.
@@ -81,7 +81,7 @@ A collection of book content objects.
 |---|---|---|
 | BookContent | obj | The index of the BookContent that follows the desired BookContent. |
 
-*** 
+<HorizontalLine />
 > BookContent **nextItem**( BookContent **obj** )
 > 
 > Returns the BookContent whose index follows the specified BookContent in the collection.
@@ -90,19 +90,19 @@ A collection of book content objects.
 |---|---|---|
 | BookContent | obj | The BookContent whose index comes before the desired BookContent. |
 
-*** 
+<HorizontalLine />
 > BookContent **anyItem**()
 > 
 > Returns any BookContent in the collection.
-*** 
+<HorizontalLine />
 > BookContent **everyItem**()
 > 
 > Returns every BookContent in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the BookContent.
-*** 
+<HorizontalLine />
 > BookContent **[]**( Number **index** )
 > 
 > Returns the BookContent with the specified index.

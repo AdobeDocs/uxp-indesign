@@ -25,11 +25,11 @@ A collection of transformation matrices.
 | Mixed | matrixMapping | The mapping the transformation matrix performs on the unit triangle. Can accept: Array of Array of 2 Arrays of 2 Reals. (Optional) |
 | Object | withProperties | Initial values for properties of the new TransformationMatrix (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the TransformationMatrix.
-*** 
+<HorizontalLine />
 > TransformationMatrix **item**( Mixed **index** )
 > 
 > Returns the TransformationMatrix with the specified index or name.
@@ -38,7 +38,7 @@ A collection of transformation matrices.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TransformationMatrix **itemByName**( String **name** )
 > 
 > Returns the TransformationMatrix with the specified name.
@@ -47,7 +47,7 @@ A collection of transformation matrices.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > TransformationMatrix **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TransformationMatrices within the specified range.
@@ -57,19 +57,19 @@ A collection of transformation matrices.
 | Mixed | from | The TransformationMatrix, index, or name at the beginning of the range. Can accept: TransformationMatrix, Long Integer or String. |
 | Mixed | to | The TransformationMatrix, index, or name at the end of the range. Can accept: TransformationMatrix, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TransformationMatrix **firstItem**()
 > 
 > Returns the first TransformationMatrix in the collection.
-*** 
+<HorizontalLine />
 > TransformationMatrix **lastItem**()
 > 
 > Returns the last TransformationMatrix in the collection.
-*** 
+<HorizontalLine />
 > TransformationMatrix **middleItem**()
 > 
 > Returns the middle TransformationMatrix in the collection.
-*** 
+<HorizontalLine />
 > TransformationMatrix **previousItem**( TransformationMatrix **obj** )
 > 
 > Returns the TransformationMatrix with the index previous to the specified index.
@@ -78,7 +78,7 @@ A collection of transformation matrices.
 |---|---|---|
 | TransformationMatrix | obj | The index of the TransformationMatrix that follows the desired TransformationMatrix. |
 
-*** 
+<HorizontalLine />
 > TransformationMatrix **nextItem**( TransformationMatrix **obj** )
 > 
 > Returns the TransformationMatrix whose index follows the specified TransformationMatrix in the collection.
@@ -87,19 +87,19 @@ A collection of transformation matrices.
 |---|---|---|
 | TransformationMatrix | obj | The TransformationMatrix whose index comes before the desired TransformationMatrix. |
 
-*** 
+<HorizontalLine />
 > TransformationMatrix **anyItem**()
 > 
 > Returns any TransformationMatrix in the collection.
-*** 
+<HorizontalLine />
 > TransformationMatrix **everyItem**()
 > 
 > Returns every TransformationMatrix in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TransformationMatrix.
-*** 
+<HorizontalLine />
 > TransformationMatrix **[]**( Number **index** )
 > 
 > Returns the TransformationMatrix with the specified index.

@@ -12,7 +12,7 @@ A collection of ellipses.
 > Number **count**()
 > 
 > Displays the number of elements in the Oval.
-*** 
+<HorizontalLine />
 > Oval **add**( Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new Oval
@@ -24,7 +24,7 @@ A collection of ellipses.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new Oval (Optional) |
 
-*** 
+<HorizontalLine />
 > Oval **item**( Mixed **index** )
 > 
 > Returns the Oval with the specified index or name.
@@ -33,7 +33,7 @@ A collection of ellipses.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Oval **itemByName**( String **name** )
 > 
 > Returns the Oval with the specified name.
@@ -42,7 +42,7 @@ A collection of ellipses.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Oval **itemByID**( Number **id** )
 > 
 > Returns the Oval with the specified ID.
@@ -51,7 +51,7 @@ A collection of ellipses.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Oval **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Ovals within the specified range.
@@ -61,19 +61,19 @@ A collection of ellipses.
 | Mixed | from | The Oval, index, or name at the beginning of the range. Can accept: Oval, Long Integer or String. |
 | Mixed | to | The Oval, index, or name at the end of the range. Can accept: Oval, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Oval **firstItem**()
 > 
 > Returns the first Oval in the collection.
-*** 
+<HorizontalLine />
 > Oval **lastItem**()
 > 
 > Returns the last Oval in the collection.
-*** 
+<HorizontalLine />
 > Oval **middleItem**()
 > 
 > Returns the middle Oval in the collection.
-*** 
+<HorizontalLine />
 > Oval **previousItem**( Oval **obj** )
 > 
 > Returns the Oval with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of ellipses.
 |---|---|---|
 | Oval | obj | The index of the Oval that follows the desired Oval. |
 
-*** 
+<HorizontalLine />
 > Oval **nextItem**( Oval **obj** )
 > 
 > Returns the Oval whose index follows the specified Oval in the collection.
@@ -91,19 +91,19 @@ A collection of ellipses.
 |---|---|---|
 | Oval | obj | The Oval whose index comes before the desired Oval. |
 
-*** 
+<HorizontalLine />
 > Oval **anyItem**()
 > 
 > Returns any Oval in the collection.
-*** 
+<HorizontalLine />
 > Oval **everyItem**()
 > 
 > Returns every Oval in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Oval.
-*** 
+<HorizontalLine />
 > Oval **[]**( Number **index** )
 > 
 > Returns the Oval with the specified index.

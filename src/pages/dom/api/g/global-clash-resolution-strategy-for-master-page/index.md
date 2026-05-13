@@ -7,7 +7,7 @@ Resolution options when loaded master pages have the same name as existing maste
 > Number **LOAD_ALL_WITH_OVERWRITE** = 1279350607
 > 
 > Overwrites the existing master page.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LOAD_ALL_WITH_RENAME** = 1279350610

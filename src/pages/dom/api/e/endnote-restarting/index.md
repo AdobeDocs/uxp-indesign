@@ -7,7 +7,7 @@ Options for restarting endnote numbering.
 > Number **CONTINUOUS** = 1164210803
 > 
 > Does not restart numbering; numbers endnotes sequentially throughout the document.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **STORY_RESTART** = 1165193843

@@ -7,31 +7,31 @@ The editing state of the file in Version Cue.
 > Number **EDITING_UNKNOWN** = 1986217301
 > 
 > The editing status is not known.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EDITING_NOWHERE** = 1986217294
 > 
 > The file is not currently in use and is not locked.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EDITING_REMOTELY** = 1986217298
 > 
 > Lock held but not usable.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EDITING_LOCALLY** = 1986217292
 > 
 > The file has been modified locally and not locked.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EDITING_LOCALLY_LOCKED** = 1986217291
 > 
 > The file has been locked locally and may be modified.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EDITING_CONFLICT** = 1986217283

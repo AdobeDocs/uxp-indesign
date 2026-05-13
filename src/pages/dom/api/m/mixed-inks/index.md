@@ -12,7 +12,7 @@ A collection of mixed inks.
 > Number **count**()
 > 
 > Displays the number of elements in the MixedInk.
-*** 
+<HorizontalLine />
 > MixedInk **add**( Mixed **inkList**, Number **inkPercentages**, Object **withProperties** )
 > 
 > Creates a new mixed ink swatch.
@@ -23,7 +23,7 @@ A collection of mixed inks.
 | Number | inkPercentages | The percent to use of each ink in the ink list. (Range: 0 to 100 for each ink) |
 | Object | withProperties | Initial values for properties of the new MixedInk (Optional) |
 
-*** 
+<HorizontalLine />
 > MixedInk **item**( Mixed **index** )
 > 
 > Returns the MixedInk with the specified index or name.
@@ -32,7 +32,7 @@ A collection of mixed inks.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MixedInk **itemByName**( String **name** )
 > 
 > Returns the MixedInk with the specified name.
@@ -41,7 +41,7 @@ A collection of mixed inks.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > MixedInk **itemByID**( Number **id** )
 > 
 > Returns the MixedInk with the specified ID.
@@ -50,7 +50,7 @@ A collection of mixed inks.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > MixedInk **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the MixedInks within the specified range.
@@ -60,19 +60,19 @@ A collection of mixed inks.
 | Mixed | from | The MixedInk, index, or name at the beginning of the range. Can accept: MixedInk, Long Integer or String. |
 | Mixed | to | The MixedInk, index, or name at the end of the range. Can accept: MixedInk, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MixedInk **firstItem**()
 > 
 > Returns the first MixedInk in the collection.
-*** 
+<HorizontalLine />
 > MixedInk **lastItem**()
 > 
 > Returns the last MixedInk in the collection.
-*** 
+<HorizontalLine />
 > MixedInk **middleItem**()
 > 
 > Returns the middle MixedInk in the collection.
-*** 
+<HorizontalLine />
 > MixedInk **previousItem**( MixedInk **obj** )
 > 
 > Returns the MixedInk with the index previous to the specified index.
@@ -81,7 +81,7 @@ A collection of mixed inks.
 |---|---|---|
 | MixedInk | obj | The index of the MixedInk that follows the desired MixedInk. |
 
-*** 
+<HorizontalLine />
 > MixedInk **nextItem**( MixedInk **obj** )
 > 
 > Returns the MixedInk whose index follows the specified MixedInk in the collection.
@@ -90,19 +90,19 @@ A collection of mixed inks.
 |---|---|---|
 | MixedInk | obj | The MixedInk whose index comes before the desired MixedInk. |
 
-*** 
+<HorizontalLine />
 > MixedInk **anyItem**()
 > 
 > Returns any MixedInk in the collection.
-*** 
+<HorizontalLine />
 > MixedInk **everyItem**()
 > 
 > Returns every MixedInk in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the MixedInk.
-*** 
+<HorizontalLine />
 > MixedInk **[]**( Number **index** )
 > 
 > Returns the MixedInk with the specified index.

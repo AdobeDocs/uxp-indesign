@@ -17,11 +17,11 @@ A collection of dropdowns.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new Dropdown (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Dropdown.
-*** 
+<HorizontalLine />
 > Dropdown **item**( Mixed **index** )
 > 
 > Returns the Dropdown with the specified index or name.
@@ -30,7 +30,7 @@ A collection of dropdowns.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Dropdown **itemByID**( Number **id** )
 > 
 > Returns the Dropdown with the specified ID.
@@ -39,7 +39,7 @@ A collection of dropdowns.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Dropdown **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Dropdowns within the specified range.
@@ -49,19 +49,19 @@ A collection of dropdowns.
 | Mixed | from | The Dropdown, index, or name at the beginning of the range. Can accept: Dropdown, Long Integer or String. |
 | Mixed | to | The Dropdown, index, or name at the end of the range. Can accept: Dropdown, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Dropdown **firstItem**()
 > 
 > Returns the first Dropdown in the collection.
-*** 
+<HorizontalLine />
 > Dropdown **lastItem**()
 > 
 > Returns the last Dropdown in the collection.
-*** 
+<HorizontalLine />
 > Dropdown **middleItem**()
 > 
 > Returns the middle Dropdown in the collection.
-*** 
+<HorizontalLine />
 > Dropdown **previousItem**( Dropdown **obj** )
 > 
 > Returns the Dropdown with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of dropdowns.
 |---|---|---|
 | Dropdown | obj | The index of the Dropdown that follows the desired Dropdown. |
 
-*** 
+<HorizontalLine />
 > Dropdown **nextItem**( Dropdown **obj** )
 > 
 > Returns the Dropdown whose index follows the specified Dropdown in the collection.
@@ -79,19 +79,19 @@ A collection of dropdowns.
 |---|---|---|
 | Dropdown | obj | The Dropdown whose index comes before the desired Dropdown. |
 
-*** 
+<HorizontalLine />
 > Dropdown **anyItem**()
 > 
 > Returns any Dropdown in the collection.
-*** 
+<HorizontalLine />
 > Dropdown **everyItem**()
 > 
 > Returns every Dropdown in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Dropdown.
-*** 
+<HorizontalLine />
 > Dropdown **[]**( Number **index** )
 > 
 > Returns the Dropdown with the specified index.

@@ -12,7 +12,7 @@ A collection of goto anchor behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the GotoAnchorBehavior.
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **add**( Object **withProperties** )
 > 
 > Creates a new GotoAnchorBehavior.
@@ -21,7 +21,7 @@ A collection of goto anchor behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new GotoAnchorBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **item**( Mixed **index** )
 > 
 > Returns the GotoAnchorBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of goto anchor behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **itemByName**( String **name** )
 > 
 > Returns the GotoAnchorBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of goto anchor behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **itemByID**( Number **id** )
 > 
 > Returns the GotoAnchorBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of goto anchor behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the GotoAnchorBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of goto anchor behavior objects.
 | Mixed | from | The GotoAnchorBehavior, index, or name at the beginning of the range. Can accept: GotoAnchorBehavior, Long Integer or String. |
 | Mixed | to | The GotoAnchorBehavior, index, or name at the end of the range. Can accept: GotoAnchorBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **firstItem**()
 > 
 > Returns the first GotoAnchorBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **lastItem**()
 > 
 > Returns the last GotoAnchorBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **middleItem**()
 > 
 > Returns the middle GotoAnchorBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **previousItem**( GotoAnchorBehavior **obj** )
 > 
 > Returns the GotoAnchorBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of goto anchor behavior objects.
 |---|---|---|
 | GotoAnchorBehavior | obj | The index of the GotoAnchorBehavior that follows the desired GotoAnchorBehavior. |
 
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **nextItem**( GotoAnchorBehavior **obj** )
 > 
 > Returns the GotoAnchorBehavior whose index follows the specified GotoAnchorBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of goto anchor behavior objects.
 |---|---|---|
 | GotoAnchorBehavior | obj | The GotoAnchorBehavior whose index comes before the desired GotoAnchorBehavior. |
 
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **anyItem**()
 > 
 > Returns any GotoAnchorBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **everyItem**()
 > 
 > Returns every GotoAnchorBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the GotoAnchorBehavior.
-*** 
+<HorizontalLine />
 > GotoAnchorBehavior **[]**( Number **index** )
 > 
 > Returns the GotoAnchorBehavior with the specified index.

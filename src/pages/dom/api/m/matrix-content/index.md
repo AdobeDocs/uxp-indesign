@@ -7,19 +7,19 @@ Matrix content.
 > Number **SCALE_VALUES** = 1735552887
 > 
 > Scale values
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SHEAR_VALUE** = 1936486004
 > 
 > Shear value
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ROTATION_VALUE** = 1936746862
 > 
 > Rotation value
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TRANSLATION_VALUES** = 1936484720

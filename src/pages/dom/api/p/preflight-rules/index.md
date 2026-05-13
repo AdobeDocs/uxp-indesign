@@ -12,7 +12,7 @@ A collection of preflight rules.
 > Number **count**()
 > 
 > Displays the number of elements in the PreflightRule.
-*** 
+<HorizontalLine />
 > PreflightRule **item**( Mixed **index** )
 > 
 > Returns the PreflightRule with the specified index or name.
@@ -21,7 +21,7 @@ A collection of preflight rules.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PreflightRule **itemByName**( String **name** )
 > 
 > Returns the PreflightRule with the specified name.
@@ -30,7 +30,7 @@ A collection of preflight rules.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > PreflightRule **itemByID**( Number **id** )
 > 
 > Returns the PreflightRule with the specified ID.
@@ -39,7 +39,7 @@ A collection of preflight rules.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > PreflightRule **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the PreflightRules within the specified range.
@@ -49,19 +49,19 @@ A collection of preflight rules.
 | Mixed | from | The PreflightRule, index, or name at the beginning of the range. Can accept: PreflightRule, Long Integer or String. |
 | Mixed | to | The PreflightRule, index, or name at the end of the range. Can accept: PreflightRule, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PreflightRule **firstItem**()
 > 
 > Returns the first PreflightRule in the collection.
-*** 
+<HorizontalLine />
 > PreflightRule **lastItem**()
 > 
 > Returns the last PreflightRule in the collection.
-*** 
+<HorizontalLine />
 > PreflightRule **middleItem**()
 > 
 > Returns the middle PreflightRule in the collection.
-*** 
+<HorizontalLine />
 > PreflightRule **previousItem**( PreflightRule **obj** )
 > 
 > Returns the PreflightRule with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of preflight rules.
 |---|---|---|
 | PreflightRule | obj | The index of the PreflightRule that follows the desired PreflightRule. |
 
-*** 
+<HorizontalLine />
 > PreflightRule **nextItem**( PreflightRule **obj** )
 > 
 > Returns the PreflightRule whose index follows the specified PreflightRule in the collection.
@@ -79,19 +79,19 @@ A collection of preflight rules.
 |---|---|---|
 | PreflightRule | obj | The PreflightRule whose index comes before the desired PreflightRule. |
 
-*** 
+<HorizontalLine />
 > PreflightRule **anyItem**()
 > 
 > Returns any PreflightRule in the collection.
-*** 
+<HorizontalLine />
 > PreflightRule **everyItem**()
 > 
 > Returns every PreflightRule in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the PreflightRule.
-*** 
+<HorizontalLine />
 > PreflightRule **[]**( Number **index** )
 > 
 > Returns the PreflightRule with the specified index.

@@ -12,7 +12,7 @@ A collection of preferences objects.
 > Number **count**()
 > 
 > Displays the number of elements in the Preference.
-*** 
+<HorizontalLine />
 > Preference **item**( Mixed **index** )
 > 
 > Returns the Preference with the specified index or name.
@@ -21,7 +21,7 @@ A collection of preferences objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Preference **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Preferences within the specified range.
@@ -31,19 +31,19 @@ A collection of preferences objects.
 | Mixed | from | The Preference, index, or name at the beginning of the range. Can accept: Preference, Long Integer or String. |
 | Mixed | to | The Preference, index, or name at the end of the range. Can accept: Preference, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Preference **firstItem**()
 > 
 > Returns the first Preference in the collection.
-*** 
+<HorizontalLine />
 > Preference **lastItem**()
 > 
 > Returns the last Preference in the collection.
-*** 
+<HorizontalLine />
 > Preference **middleItem**()
 > 
 > Returns the middle Preference in the collection.
-*** 
+<HorizontalLine />
 > Preference **previousItem**( Preference **obj** )
 > 
 > Returns the Preference with the index previous to the specified index.
@@ -52,7 +52,7 @@ A collection of preferences objects.
 |---|---|---|
 | Preference | obj | The index of the Preference that follows the desired Preference. |
 
-*** 
+<HorizontalLine />
 > Preference **nextItem**( Preference **obj** )
 > 
 > Returns the Preference whose index follows the specified Preference in the collection.
@@ -61,19 +61,19 @@ A collection of preferences objects.
 |---|---|---|
 | Preference | obj | The Preference whose index comes before the desired Preference. |
 
-*** 
+<HorizontalLine />
 > Preference **anyItem**()
 > 
 > Returns any Preference in the collection.
-*** 
+<HorizontalLine />
 > Preference **everyItem**()
 > 
 > Returns every Preference in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Preference.
-*** 
+<HorizontalLine />
 > Preference **[]**( Number **index** )
 > 
 > Returns the Preference with the specified index.

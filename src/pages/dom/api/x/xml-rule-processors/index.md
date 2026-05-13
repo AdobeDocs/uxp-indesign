@@ -19,11 +19,11 @@ A collection of XML rule processors.
 | Mixed | prefixMappingTable | The namespace mapping table. Can accept: Array of Arrays of 2 Strings. (Optional) |
 | Object | withProperties | Initial values for properties of the new XMLRuleProcessor (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the XMLRuleProcessor.
-*** 
+<HorizontalLine />
 > XMLRuleProcessor **item**( Mixed **index** )
 > 
 > Returns the XMLRuleProcessor with the specified index or name.
@@ -32,7 +32,7 @@ A collection of XML rule processors.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XMLRuleProcessor **itemByName**( String **name** )
 > 
 > Returns the XMLRuleProcessor with the specified name.
@@ -41,7 +41,7 @@ A collection of XML rule processors.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > XMLRuleProcessor **itemByID**( Number **id** )
 > 
 > Returns the XMLRuleProcessor with the specified ID.
@@ -50,7 +50,7 @@ A collection of XML rule processors.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > XMLRuleProcessor **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the XMLRuleProcessors within the specified range.
@@ -60,19 +60,19 @@ A collection of XML rule processors.
 | Mixed | from | The XMLRuleProcessor, index, or name at the beginning of the range. Can accept: XMLRuleProcessor, Long Integer or String. |
 | Mixed | to | The XMLRuleProcessor, index, or name at the end of the range. Can accept: XMLRuleProcessor, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XMLRuleProcessor **firstItem**()
 > 
 > Returns the first XMLRuleProcessor in the collection.
-*** 
+<HorizontalLine />
 > XMLRuleProcessor **lastItem**()
 > 
 > Returns the last XMLRuleProcessor in the collection.
-*** 
+<HorizontalLine />
 > XMLRuleProcessor **middleItem**()
 > 
 > Returns the middle XMLRuleProcessor in the collection.
-*** 
+<HorizontalLine />
 > XMLRuleProcessor **previousItem**( XMLRuleProcessor **obj** )
 > 
 > Returns the XMLRuleProcessor with the index previous to the specified index.
@@ -81,7 +81,7 @@ A collection of XML rule processors.
 |---|---|---|
 | XMLRuleProcessor | obj | The index of the XMLRuleProcessor that follows the desired XMLRuleProcessor. |
 
-*** 
+<HorizontalLine />
 > XMLRuleProcessor **nextItem**( XMLRuleProcessor **obj** )
 > 
 > Returns the XMLRuleProcessor whose index follows the specified XMLRuleProcessor in the collection.
@@ -90,19 +90,19 @@ A collection of XML rule processors.
 |---|---|---|
 | XMLRuleProcessor | obj | The XMLRuleProcessor whose index comes before the desired XMLRuleProcessor. |
 
-*** 
+<HorizontalLine />
 > XMLRuleProcessor **anyItem**()
 > 
 > Returns any XMLRuleProcessor in the collection.
-*** 
+<HorizontalLine />
 > XMLRuleProcessor **everyItem**()
 > 
 > Returns every XMLRuleProcessor in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the XMLRuleProcessor.
-*** 
+<HorizontalLine />
 > XMLRuleProcessor **[]**( Number **index** )
 > 
 > Returns the XMLRuleProcessor with the specified index.

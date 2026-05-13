@@ -7,7 +7,7 @@ Options for incorporating imported XML content.
 > Number **APPEND_IMPORT** = 1481466217
 > 
 > Appends the imported content.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **MERGE_IMPORT** = 1481469289

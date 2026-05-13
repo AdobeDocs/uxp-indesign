@@ -19,11 +19,11 @@ A collection of table rows.
 | Mixed | reference | The reference object. Note: The reference object must be within the table. Required only when the at value contains before or after. Can accept: Row, Column, Cell or Table. (Optional) |
 | Object | withProperties | Initial values for properties of the new Row (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Row.
-*** 
+<HorizontalLine />
 > Row **item**( Mixed **index** )
 > 
 > Returns the Row with the specified index or name.
@@ -32,7 +32,7 @@ A collection of table rows.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Row **itemByName**( String **name** )
 > 
 > Returns the Row with the specified name.
@@ -41,7 +41,7 @@ A collection of table rows.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Row **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Rows within the specified range.
@@ -51,19 +51,19 @@ A collection of table rows.
 | Mixed | from | The Row, index, or name at the beginning of the range. Can accept: Row, Long Integer or String. |
 | Mixed | to | The Row, index, or name at the end of the range. Can accept: Row, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Row **firstItem**()
 > 
 > Returns the first Row in the collection.
-*** 
+<HorizontalLine />
 > Row **lastItem**()
 > 
 > Returns the last Row in the collection.
-*** 
+<HorizontalLine />
 > Row **middleItem**()
 > 
 > Returns the middle Row in the collection.
-*** 
+<HorizontalLine />
 > Row **previousItem**( Row **obj** )
 > 
 > Returns the Row with the index previous to the specified index.
@@ -72,7 +72,7 @@ A collection of table rows.
 |---|---|---|
 | Row | obj | The index of the Row that follows the desired Row. |
 
-*** 
+<HorizontalLine />
 > Row **nextItem**( Row **obj** )
 > 
 > Returns the Row whose index follows the specified Row in the collection.
@@ -81,19 +81,19 @@ A collection of table rows.
 |---|---|---|
 | Row | obj | The Row whose index comes before the desired Row. |
 
-*** 
+<HorizontalLine />
 > Row **anyItem**()
 > 
 > Returns any Row in the collection.
-*** 
+<HorizontalLine />
 > Row **everyItem**()
 > 
 > Returns every Row in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Row.
-*** 
+<HorizontalLine />
 > Row **[]**( Number **index** )
 > 
 > Returns the Row with the specified index.

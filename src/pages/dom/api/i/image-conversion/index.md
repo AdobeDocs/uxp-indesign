@@ -7,19 +7,19 @@ File format options for converted images.
 > Number **AUTOMATIC** = 1768059764
 > 
 > Uses the best format based on the image.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **JPEG** = 1785751398
 > 
 > Uses JPEG format for all images.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **GIF** = 1734960742
 > 
 > Uses GIF format for all images.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PNG** = 1397059687

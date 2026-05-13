@@ -7,13 +7,13 @@ User interaction level options.
 > Number **NEVER_INTERACT** = 1699640946
 > 
 > The script does not display any dialogs or alerts.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **INTERACT_WITH_ALL** = 1699311169
 > 
 > The script displays all dialogs and alerts.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **INTERACT_WITH_ALERTS** = 1699311170

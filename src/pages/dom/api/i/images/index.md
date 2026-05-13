@@ -12,7 +12,7 @@ A collection of bitmap images in any bitmap file format (including TIFF, JPEG, o
 > Number **count**()
 > 
 > Displays the number of elements in the Image.
-*** 
+<HorizontalLine />
 > Image **item**( Mixed **index** )
 > 
 > Returns the Image with the specified index or name.
@@ -21,7 +21,7 @@ A collection of bitmap images in any bitmap file format (including TIFF, JPEG, o
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Image **itemByName**( String **name** )
 > 
 > Returns the Image with the specified name.
@@ -30,7 +30,7 @@ A collection of bitmap images in any bitmap file format (including TIFF, JPEG, o
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Image **itemByID**( Number **id** )
 > 
 > Returns the Image with the specified ID.
@@ -39,7 +39,7 @@ A collection of bitmap images in any bitmap file format (including TIFF, JPEG, o
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Image **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Images within the specified range.
@@ -49,19 +49,19 @@ A collection of bitmap images in any bitmap file format (including TIFF, JPEG, o
 | Mixed | from | The Image, index, or name at the beginning of the range. Can accept: Image, Long Integer or String. |
 | Mixed | to | The Image, index, or name at the end of the range. Can accept: Image, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Image **firstItem**()
 > 
 > Returns the first Image in the collection.
-*** 
+<HorizontalLine />
 > Image **lastItem**()
 > 
 > Returns the last Image in the collection.
-*** 
+<HorizontalLine />
 > Image **middleItem**()
 > 
 > Returns the middle Image in the collection.
-*** 
+<HorizontalLine />
 > Image **previousItem**( Image **obj** )
 > 
 > Returns the Image with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of bitmap images in any bitmap file format (including TIFF, JPEG, o
 |---|---|---|
 | Image | obj | The index of the Image that follows the desired Image. |
 
-*** 
+<HorizontalLine />
 > Image **nextItem**( Image **obj** )
 > 
 > Returns the Image whose index follows the specified Image in the collection.
@@ -79,19 +79,19 @@ A collection of bitmap images in any bitmap file format (including TIFF, JPEG, o
 |---|---|---|
 | Image | obj | The Image whose index comes before the desired Image. |
 
-*** 
+<HorizontalLine />
 > Image **anyItem**()
 > 
 > Returns any Image in the collection.
-*** 
+<HorizontalLine />
 > Image **everyItem**()
 > 
 > Returns every Image in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Image.
-*** 
+<HorizontalLine />
 > Image **[]**( Number **index** )
 > 
 > Returns the Image with the specified index.

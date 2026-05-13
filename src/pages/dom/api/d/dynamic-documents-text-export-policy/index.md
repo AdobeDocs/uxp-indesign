@@ -7,19 +7,19 @@ Dynamic documents text export policy.
 > Number **LIVE** = 1952804972
 > 
 > Text is exported as live text.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **RASTERIZE** = 1952804978
 > 
 > Text is to be rasterized.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **VECTORIZE** = 1952804982
 > 
 > Text is to be vectorized.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TLF** = 1952804980

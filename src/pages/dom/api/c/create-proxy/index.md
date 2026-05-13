@@ -7,7 +7,7 @@ Options for creating preview images.
 > Number **AS_NEEDED** = 1699311204
 > 
 > Creates preview images as needed.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ALWAYS** = 1699307895

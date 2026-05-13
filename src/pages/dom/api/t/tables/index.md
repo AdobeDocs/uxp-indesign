@@ -12,7 +12,7 @@ A collection of tables.
 > Number **count**()
 > 
 > Displays the number of elements in the Table.
-*** 
+<HorizontalLine />
 > Table **add**( LocationOptions **to**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new table.
@@ -23,7 +23,7 @@ A collection of tables.
 | Mixed | reference | The reference object. Note: Required when the to value specifies before or after. Can accept: Table, XMLElement, XmlStory, TextFrame, EndnoteTextFrame, Text, InsertionPoint, TextStyleRange, Paragraph, TextColumn, Line, Word, Character, Story or Cell. (Optional) |
 | Object | withProperties | Initial values for properties of the new Table (Optional) |
 
-*** 
+<HorizontalLine />
 > Table **item**( Mixed **index** )
 > 
 > Returns the Table with the specified index or name.
@@ -32,7 +32,7 @@ A collection of tables.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Table **itemByName**( String **name** )
 > 
 > Returns the Table with the specified name.
@@ -41,7 +41,7 @@ A collection of tables.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Table **itemByID**( Number **id** )
 > 
 > Returns the Table with the specified ID.
@@ -50,7 +50,7 @@ A collection of tables.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Table **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Tables within the specified range.
@@ -60,19 +60,19 @@ A collection of tables.
 | Mixed | from | The Table, index, or name at the beginning of the range. Can accept: Table, Long Integer or String. |
 | Mixed | to | The Table, index, or name at the end of the range. Can accept: Table, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Table **firstItem**()
 > 
 > Returns the first Table in the collection.
-*** 
+<HorizontalLine />
 > Table **lastItem**()
 > 
 > Returns the last Table in the collection.
-*** 
+<HorizontalLine />
 > Table **middleItem**()
 > 
 > Returns the middle Table in the collection.
-*** 
+<HorizontalLine />
 > Table **previousItem**( Table **obj** )
 > 
 > Returns the Table with the index previous to the specified index.
@@ -81,7 +81,7 @@ A collection of tables.
 |---|---|---|
 | Table | obj | The index of the Table that follows the desired Table. |
 
-*** 
+<HorizontalLine />
 > Table **nextItem**( Table **obj** )
 > 
 > Returns the Table whose index follows the specified Table in the collection.
@@ -90,19 +90,19 @@ A collection of tables.
 |---|---|---|
 | Table | obj | The Table whose index comes before the desired Table. |
 
-*** 
+<HorizontalLine />
 > Table **anyItem**()
 > 
 > Returns any Table in the collection.
-*** 
+<HorizontalLine />
 > Table **everyItem**()
 > 
 > Returns every Table in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Table.
-*** 
+<HorizontalLine />
 > Table **[]**( Number **index** )
 > 
 > Returns the Table with the specified index.

@@ -7,13 +7,13 @@ Hyperlink border weight options.
 > Number **THIN** = 1952999790
 > 
 > Uses a thin border.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **MEDIUM** = 1701727588
 > 
 > Uses a medium border.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **THICK** = 1952999787

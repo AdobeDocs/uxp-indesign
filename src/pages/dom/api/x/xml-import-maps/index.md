@@ -19,11 +19,11 @@ A collection of XML import maps.
 | Mixed | mappedStyle | the mapped style. Can accept: ParagraphStyle, CharacterStyle, TableStyle, CellStyle or String. |
 | Object | withProperties | Initial values for properties of the new XMLImportMap (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the XMLImportMap.
-*** 
+<HorizontalLine />
 > XMLImportMap **item**( Mixed **index** )
 > 
 > Returns the XMLImportMap with the specified index or name.
@@ -32,7 +32,7 @@ A collection of XML import maps.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XMLImportMap **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the XMLImportMaps within the specified range.
@@ -42,19 +42,19 @@ A collection of XML import maps.
 | Mixed | from | The XMLImportMap, index, or name at the beginning of the range. Can accept: XMLImportMap, Long Integer or String. |
 | Mixed | to | The XMLImportMap, index, or name at the end of the range. Can accept: XMLImportMap, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XMLImportMap **firstItem**()
 > 
 > Returns the first XMLImportMap in the collection.
-*** 
+<HorizontalLine />
 > XMLImportMap **lastItem**()
 > 
 > Returns the last XMLImportMap in the collection.
-*** 
+<HorizontalLine />
 > XMLImportMap **middleItem**()
 > 
 > Returns the middle XMLImportMap in the collection.
-*** 
+<HorizontalLine />
 > XMLImportMap **previousItem**( XMLImportMap **obj** )
 > 
 > Returns the XMLImportMap with the index previous to the specified index.
@@ -63,7 +63,7 @@ A collection of XML import maps.
 |---|---|---|
 | XMLImportMap | obj | The index of the XMLImportMap that follows the desired XMLImportMap. |
 
-*** 
+<HorizontalLine />
 > XMLImportMap **nextItem**( XMLImportMap **obj** )
 > 
 > Returns the XMLImportMap whose index follows the specified XMLImportMap in the collection.
@@ -72,19 +72,19 @@ A collection of XML import maps.
 |---|---|---|
 | XMLImportMap | obj | The XMLImportMap whose index comes before the desired XMLImportMap. |
 
-*** 
+<HorizontalLine />
 > XMLImportMap **anyItem**()
 > 
 > Returns any XMLImportMap in the collection.
-*** 
+<HorizontalLine />
 > XMLImportMap **everyItem**()
 > 
 > Returns every XMLImportMap in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the XMLImportMap.
-*** 
+<HorizontalLine />
 > XMLImportMap **[]**( Number **index** )
 > 
 > Returns the XMLImportMap with the specified index.

@@ -12,7 +12,7 @@ A collection of swatches.
 > Number **count**()
 > 
 > Displays the number of elements in the Swatch.
-*** 
+<HorizontalLine />
 > Swatch **item**( Mixed **index** )
 > 
 > Returns the Swatch with the specified index or name.
@@ -21,7 +21,7 @@ A collection of swatches.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Swatch **itemByName**( String **name** )
 > 
 > Returns the Swatch with the specified name.
@@ -30,7 +30,7 @@ A collection of swatches.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Swatch **itemByID**( Number **id** )
 > 
 > Returns the Swatch with the specified ID.
@@ -39,7 +39,7 @@ A collection of swatches.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Swatch **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Swatches within the specified range.
@@ -49,19 +49,19 @@ A collection of swatches.
 | Mixed | from | The Swatch, index, or name at the beginning of the range. Can accept: Swatch, Long Integer or String. |
 | Mixed | to | The Swatch, index, or name at the end of the range. Can accept: Swatch, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Swatch **firstItem**()
 > 
 > Returns the first Swatch in the collection.
-*** 
+<HorizontalLine />
 > Swatch **lastItem**()
 > 
 > Returns the last Swatch in the collection.
-*** 
+<HorizontalLine />
 > Swatch **middleItem**()
 > 
 > Returns the middle Swatch in the collection.
-*** 
+<HorizontalLine />
 > Swatch **previousItem**( Swatch **obj** )
 > 
 > Returns the Swatch with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of swatches.
 |---|---|---|
 | Swatch | obj | The index of the Swatch that follows the desired Swatch. |
 
-*** 
+<HorizontalLine />
 > Swatch **nextItem**( Swatch **obj** )
 > 
 > Returns the Swatch whose index follows the specified Swatch in the collection.
@@ -79,19 +79,19 @@ A collection of swatches.
 |---|---|---|
 | Swatch | obj | The Swatch whose index comes before the desired Swatch. |
 
-*** 
+<HorizontalLine />
 > Swatch **anyItem**()
 > 
 > Returns any Swatch in the collection.
-*** 
+<HorizontalLine />
 > Swatch **everyItem**()
 > 
 > Returns every Swatch in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Swatch.
-*** 
+<HorizontalLine />
 > Swatch **[]**( Number **index** )
 > 
 > Returns the Swatch with the specified index.

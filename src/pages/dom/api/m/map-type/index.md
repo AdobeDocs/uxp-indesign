@@ -7,19 +7,19 @@ Mapping type for style mappings.
 > Number **STYLE_MAPPING_RULE** = 1937011570
 > 
 > style to style mapping rule.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **GROUP_MAPPING_RULE** = 1735681906
 > 
 > group to group mapping rule.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **STYLE_TO_GROUP_MAPPING_RULE** = 1937008498
 > 
 > style to group mapping rule.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **GROUP_TO_STYLE_MAPPING_RULE** = 1735684978

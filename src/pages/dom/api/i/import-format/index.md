@@ -7,49 +7,49 @@ Style import options.
 > Number **CHARACTER_STYLES_FORMAT** = 1131565940
 > 
 > Imports character styles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PARAGRAPH_STYLES_FORMAT** = 1885885300
 > 
 > Imports paragraph styles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TEXT_STYLES_FORMAT** = 1668305780
 > 
 > Imports character and paragraph styles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TOC_STYLES_FORMAT** = 1415795572
 > 
 > Imports table of contents styles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OBJECT_STYLES_FORMAT** = 1332368244
 > 
 > Imports object styles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **STROKE_STYLES_FORMAT** = 1817408620
 > 
 > Imports stroke styles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TABLE_STYLES_FORMAT** = 1700033396
 > 
 > Imports table styles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CELL_STYLES_FORMAT** = 1698919284
 > 
 > Imports cell styles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TABLE_AND_CELL_STYLES_FORMAT** = 1700021107

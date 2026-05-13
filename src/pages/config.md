@@ -51,13 +51,13 @@
         - [Modularizing code](/plugins/tutorials/importing-modules/index.md)
     - [Advanced topics](/plugins/advanced/index.md)
     - Resources header
-    - Fundamentals header
-    - [APIs](/resources/fundamentals/apis/index.md)
-    - [DOM Version](/resources/fundamentals/dom-versioning/index.md)
-    - [Object model](/resources/fundamentals/object-model/index.md)
-    - [Measurement & positioning](/resources/fundamentals/measurements-and-positioning/index.md)
-    - [Create UI](/resources/fundamentals/create-ui/index.md)
-    - [UXP Manifest](/resources/fundamentals/manifest/index.md)
+    - [Fundamentals](/resources/fundamentals/index.md)
+        - [APIs](/resources/fundamentals/apis/index.md)
+        - [DOM Version](/resources/fundamentals/dom-versioning/index.md)
+        - [Object model](/resources/fundamentals/object-model/index.md)
+        - [Measurement & positioning](/resources/fundamentals/measurements-and-positioning/index.md)
+        - [Create UI](/resources/fundamentals/create-ui/index.md)
+        - [UXP Manifest](/resources/fundamentals/manifest/index.md)
     - [Migration guides](/resources/migration-guides/index.md)
         - [ExtendScript](/resources/migration-guides/extendscript/index.md)
         - [CEP](/resources/migration-guides/cep/index.md)
@@ -382,7 +382,6 @@
         - [FAQs](/reference/uxp-api/reference-spectrum/faqs/index.md)
     - [Known Issues](/reference/uxp-api/known-issues.md)
     - Indesign DOM reference header
-    - [InDesign API](/dom/api/index.md)
     - [AddPageOptions](/dom/api/a/add-page-options/index.md)
     - [AdjustLayoutPreference](/dom/api/a/adjust-layout-preference/index.md)
     - [AdornmentOverprint](/dom/api/a/adornment-overprint/index.md)

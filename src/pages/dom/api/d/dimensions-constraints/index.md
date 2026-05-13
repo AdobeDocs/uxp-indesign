@@ -7,7 +7,7 @@ Dimension constraints for the object-based layout rule
 > Number **FIXED_DIMENSION** = 1145267817
 > 
 > The dimension remains fixed relative to the parent.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FLEXIBLE_DIMENSION** = 1145267820

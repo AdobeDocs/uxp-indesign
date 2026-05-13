@@ -7,13 +7,13 @@ Options for embedding fonts in the exported EPS.
 > Number **NONE** = 1852796517
 > 
 > Embeds only references to fonts.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **COMPLETE** = 2003332197
 > 
 > Embeds all fonts once per page.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SUBSET** = 1768842098

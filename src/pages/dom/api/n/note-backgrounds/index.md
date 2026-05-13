@@ -7,7 +7,7 @@ Note background color options.
 > Number **GALLEY_BACKGROUND_COLOR** = 1699168839
 > 
 > Uses the galley background color.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **USE_NOTE_COLOR** = 1700020807

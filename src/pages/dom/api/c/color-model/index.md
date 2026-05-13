@@ -7,19 +7,19 @@ Color model options.
 > Number **SPOT** = 1936748404
 > 
 > Spot color.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PROCESS** = 1886548851
 > 
 > Process color.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **REGISTRATION** = 1919248243
 > 
 > Registration color.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **MIXEDINKMODEL** = 1768844664

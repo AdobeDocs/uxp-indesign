@@ -12,7 +12,7 @@ Imported InDesign pages.
 > Number **count**()
 > 
 > Displays the number of elements in the ImportedPage.
-*** 
+<HorizontalLine />
 > ImportedPage **add**( Object **withProperties** )
 > 
 > Creates a new ImportedPage.
@@ -21,7 +21,7 @@ Imported InDesign pages.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new ImportedPage (Optional) |
 
-*** 
+<HorizontalLine />
 > ImportedPage **item**( Mixed **index** )
 > 
 > Returns the ImportedPage with the specified index or name.
@@ -30,7 +30,7 @@ Imported InDesign pages.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ImportedPage **itemByName**( String **name** )
 > 
 > Returns the ImportedPage with the specified name.
@@ -39,7 +39,7 @@ Imported InDesign pages.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > ImportedPage **itemByID**( Number **id** )
 > 
 > Returns the ImportedPage with the specified ID.
@@ -48,7 +48,7 @@ Imported InDesign pages.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > ImportedPage **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ImportedPages within the specified range.
@@ -58,19 +58,19 @@ Imported InDesign pages.
 | Mixed | from | The ImportedPage, index, or name at the beginning of the range. Can accept: ImportedPage, Long Integer or String. |
 | Mixed | to | The ImportedPage, index, or name at the end of the range. Can accept: ImportedPage, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ImportedPage **firstItem**()
 > 
 > Returns the first ImportedPage in the collection.
-*** 
+<HorizontalLine />
 > ImportedPage **lastItem**()
 > 
 > Returns the last ImportedPage in the collection.
-*** 
+<HorizontalLine />
 > ImportedPage **middleItem**()
 > 
 > Returns the middle ImportedPage in the collection.
-*** 
+<HorizontalLine />
 > ImportedPage **previousItem**( ImportedPage **obj** )
 > 
 > Returns the ImportedPage with the index previous to the specified index.
@@ -79,7 +79,7 @@ Imported InDesign pages.
 |---|---|---|
 | ImportedPage | obj | The index of the ImportedPage that follows the desired ImportedPage. |
 
-*** 
+<HorizontalLine />
 > ImportedPage **nextItem**( ImportedPage **obj** )
 > 
 > Returns the ImportedPage whose index follows the specified ImportedPage in the collection.
@@ -88,19 +88,19 @@ Imported InDesign pages.
 |---|---|---|
 | ImportedPage | obj | The ImportedPage whose index comes before the desired ImportedPage. |
 
-*** 
+<HorizontalLine />
 > ImportedPage **anyItem**()
 > 
 > Returns any ImportedPage in the collection.
-*** 
+<HorizontalLine />
 > ImportedPage **everyItem**()
 > 
 > Returns every ImportedPage in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ImportedPage.
-*** 
+<HorizontalLine />
 > ImportedPage **[]**( Number **index** )
 > 
 > Returns the ImportedPage with the specified index.

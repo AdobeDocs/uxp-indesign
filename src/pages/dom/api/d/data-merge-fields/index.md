@@ -12,7 +12,7 @@ A collection of data merge fields.
 > Number **count**()
 > 
 > Displays the number of elements in the DataMergeField.
-*** 
+<HorizontalLine />
 > DataMergeField **item**( Mixed **index** )
 > 
 > Returns the DataMergeField with the specified index or name.
@@ -21,7 +21,7 @@ A collection of data merge fields.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > DataMergeField **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the DataMergeFields within the specified range.
@@ -31,19 +31,19 @@ A collection of data merge fields.
 | Mixed | from | The DataMergeField, index, or name at the beginning of the range. Can accept: DataMergeField, Long Integer or String. |
 | Mixed | to | The DataMergeField, index, or name at the end of the range. Can accept: DataMergeField, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > DataMergeField **firstItem**()
 > 
 > Returns the first DataMergeField in the collection.
-*** 
+<HorizontalLine />
 > DataMergeField **lastItem**()
 > 
 > Returns the last DataMergeField in the collection.
-*** 
+<HorizontalLine />
 > DataMergeField **middleItem**()
 > 
 > Returns the middle DataMergeField in the collection.
-*** 
+<HorizontalLine />
 > DataMergeField **previousItem**( DataMergeField **obj** )
 > 
 > Returns the DataMergeField with the index previous to the specified index.
@@ -52,7 +52,7 @@ A collection of data merge fields.
 |---|---|---|
 | DataMergeField | obj | The index of the DataMergeField that follows the desired DataMergeField. |
 
-*** 
+<HorizontalLine />
 > DataMergeField **nextItem**( DataMergeField **obj** )
 > 
 > Returns the DataMergeField whose index follows the specified DataMergeField in the collection.
@@ -61,19 +61,19 @@ A collection of data merge fields.
 |---|---|---|
 | DataMergeField | obj | The DataMergeField whose index comes before the desired DataMergeField. |
 
-*** 
+<HorizontalLine />
 > DataMergeField **anyItem**()
 > 
 > Returns any DataMergeField in the collection.
-*** 
+<HorizontalLine />
 > DataMergeField **everyItem**()
 > 
 > Returns every DataMergeField in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the DataMergeField.
-*** 
+<HorizontalLine />
 > DataMergeField **[]**( Number **index** )
 > 
 > Returns the DataMergeField with the specified index.

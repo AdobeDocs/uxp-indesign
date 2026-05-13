@@ -20,11 +20,11 @@ A collection of movies.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new Movie (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Movie.
-*** 
+<HorizontalLine />
 > Movie **item**( Mixed **index** )
 > 
 > Returns the Movie with the specified index or name.
@@ -33,7 +33,7 @@ A collection of movies.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Movie **itemByName**( String **name** )
 > 
 > Returns the Movie with the specified name.
@@ -42,7 +42,7 @@ A collection of movies.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Movie **itemByID**( Number **id** )
 > 
 > Returns the Movie with the specified ID.
@@ -51,7 +51,7 @@ A collection of movies.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Movie **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Movies within the specified range.
@@ -61,19 +61,19 @@ A collection of movies.
 | Mixed | from | The Movie, index, or name at the beginning of the range. Can accept: Movie, Long Integer or String. |
 | Mixed | to | The Movie, index, or name at the end of the range. Can accept: Movie, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Movie **firstItem**()
 > 
 > Returns the first Movie in the collection.
-*** 
+<HorizontalLine />
 > Movie **lastItem**()
 > 
 > Returns the last Movie in the collection.
-*** 
+<HorizontalLine />
 > Movie **middleItem**()
 > 
 > Returns the middle Movie in the collection.
-*** 
+<HorizontalLine />
 > Movie **previousItem**( Movie **obj** )
 > 
 > Returns the Movie with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of movies.
 |---|---|---|
 | Movie | obj | The index of the Movie that follows the desired Movie. |
 
-*** 
+<HorizontalLine />
 > Movie **nextItem**( Movie **obj** )
 > 
 > Returns the Movie whose index follows the specified Movie in the collection.
@@ -91,19 +91,19 @@ A collection of movies.
 |---|---|---|
 | Movie | obj | The Movie whose index comes before the desired Movie. |
 
-*** 
+<HorizontalLine />
 > Movie **anyItem**()
 > 
 > Returns any Movie in the collection.
-*** 
+<HorizontalLine />
 > Movie **everyItem**()
 > 
 > Returns every Movie in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Movie.
-*** 
+<HorizontalLine />
 > Movie **[]**( Number **index** )
 > 
 > Returns the Movie with the specified index.

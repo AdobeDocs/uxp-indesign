@@ -7,13 +7,13 @@ Tool tip behavior options.
 > Number **NORMAL** = 1852797549
 > 
 > Displays tool tips.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **NONE** = 1852796517
 > 
 > Turns off tool tips.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FAST** = 1180791668

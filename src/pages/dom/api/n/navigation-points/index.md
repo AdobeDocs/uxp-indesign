@@ -17,11 +17,11 @@ A collection of navigation points.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new NavigationPoint (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the NavigationPoint.
-*** 
+<HorizontalLine />
 > NavigationPoint **item**( Mixed **index** )
 > 
 > Returns the NavigationPoint with the specified index or name.
@@ -30,7 +30,7 @@ A collection of navigation points.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > NavigationPoint **itemByName**( String **name** )
 > 
 > Returns the NavigationPoint with the specified name.
@@ -39,7 +39,7 @@ A collection of navigation points.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > NavigationPoint **itemByID**( Number **id** )
 > 
 > Returns the NavigationPoint with the specified ID.
@@ -48,7 +48,7 @@ A collection of navigation points.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > NavigationPoint **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the NavigationPoints within the specified range.
@@ -58,19 +58,19 @@ A collection of navigation points.
 | Mixed | from | The NavigationPoint, index, or name at the beginning of the range. Can accept: NavigationPoint, Long Integer or String. |
 | Mixed | to | The NavigationPoint, index, or name at the end of the range. Can accept: NavigationPoint, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > NavigationPoint **firstItem**()
 > 
 > Returns the first NavigationPoint in the collection.
-*** 
+<HorizontalLine />
 > NavigationPoint **lastItem**()
 > 
 > Returns the last NavigationPoint in the collection.
-*** 
+<HorizontalLine />
 > NavigationPoint **middleItem**()
 > 
 > Returns the middle NavigationPoint in the collection.
-*** 
+<HorizontalLine />
 > NavigationPoint **previousItem**( NavigationPoint **obj** )
 > 
 > Returns the NavigationPoint with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of navigation points.
 |---|---|---|
 | NavigationPoint | obj | The index of the NavigationPoint that follows the desired NavigationPoint. |
 
-*** 
+<HorizontalLine />
 > NavigationPoint **nextItem**( NavigationPoint **obj** )
 > 
 > Returns the NavigationPoint whose index follows the specified NavigationPoint in the collection.
@@ -88,19 +88,19 @@ A collection of navigation points.
 |---|---|---|
 | NavigationPoint | obj | The NavigationPoint whose index comes before the desired NavigationPoint. |
 
-*** 
+<HorizontalLine />
 > NavigationPoint **anyItem**()
 > 
 > Returns any NavigationPoint in the collection.
-*** 
+<HorizontalLine />
 > NavigationPoint **everyItem**()
 > 
 > Returns every NavigationPoint in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the NavigationPoint.
-*** 
+<HorizontalLine />
 > NavigationPoint **[]**( Number **index** )
 > 
 > Returns the NavigationPoint with the specified index.

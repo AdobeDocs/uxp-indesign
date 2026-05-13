@@ -7,7 +7,7 @@ The rendition type of the link resource.
 > Number **FPO** = 1281781871
 > 
 > The link resource has FPO rendition.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ACTUAL** = 1282372201

@@ -7,7 +7,7 @@ Guide type options for ruler guides.
 > Number **RULER** = 1735618160
 > 
 > Ruler guide (default).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LIQUID** = 1735617635

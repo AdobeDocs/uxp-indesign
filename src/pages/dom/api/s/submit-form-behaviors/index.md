@@ -12,7 +12,7 @@ A collection of submit form behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the SubmitFormBehavior.
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **add**( Object **withProperties** )
 > 
 > Creates a new SubmitFormBehavior.
@@ -21,7 +21,7 @@ A collection of submit form behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new SubmitFormBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **item**( Mixed **index** )
 > 
 > Returns the SubmitFormBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of submit form behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **itemByName**( String **name** )
 > 
 > Returns the SubmitFormBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of submit form behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **itemByID**( Number **id** )
 > 
 > Returns the SubmitFormBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of submit form behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the SubmitFormBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of submit form behavior objects.
 | Mixed | from | The SubmitFormBehavior, index, or name at the beginning of the range. Can accept: SubmitFormBehavior, Long Integer or String. |
 | Mixed | to | The SubmitFormBehavior, index, or name at the end of the range. Can accept: SubmitFormBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **firstItem**()
 > 
 > Returns the first SubmitFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **lastItem**()
 > 
 > Returns the last SubmitFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **middleItem**()
 > 
 > Returns the middle SubmitFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **previousItem**( SubmitFormBehavior **obj** )
 > 
 > Returns the SubmitFormBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of submit form behavior objects.
 |---|---|---|
 | SubmitFormBehavior | obj | The index of the SubmitFormBehavior that follows the desired SubmitFormBehavior. |
 
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **nextItem**( SubmitFormBehavior **obj** )
 > 
 > Returns the SubmitFormBehavior whose index follows the specified SubmitFormBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of submit form behavior objects.
 |---|---|---|
 | SubmitFormBehavior | obj | The SubmitFormBehavior whose index comes before the desired SubmitFormBehavior. |
 
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **anyItem**()
 > 
 > Returns any SubmitFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **everyItem**()
 > 
 > Returns every SubmitFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the SubmitFormBehavior.
-*** 
+<HorizontalLine />
 > SubmitFormBehavior **[]**( Number **index** )
 > 
 > Returns the SubmitFormBehavior with the specified index.

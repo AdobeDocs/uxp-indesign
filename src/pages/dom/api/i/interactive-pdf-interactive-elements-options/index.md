@@ -7,7 +7,7 @@ Options for how to draw interactive elements.
 > Number **INCLUDE_ALL_MEDIA** = 1231241580
 > 
 > Include all interactive elements.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **APPEARANCE_ONLY** = 1097887823

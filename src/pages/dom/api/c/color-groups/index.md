@@ -19,11 +19,11 @@ A collection of color groups.
 | Swatch | swatchList | The swatches to add in color group. (Optional) |
 | Object | withProperties | Initial values for properties of the new ColorGroup (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the ColorGroup.
-*** 
+<HorizontalLine />
 > ColorGroup **item**( Mixed **index** )
 > 
 > Returns the ColorGroup with the specified index or name.
@@ -32,7 +32,7 @@ A collection of color groups.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ColorGroup **itemByName**( String **name** )
 > 
 > Returns the ColorGroup with the specified name.
@@ -41,7 +41,7 @@ A collection of color groups.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > ColorGroup **itemByID**( Number **id** )
 > 
 > Returns the ColorGroup with the specified ID.
@@ -50,7 +50,7 @@ A collection of color groups.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > ColorGroup **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ColorGroups within the specified range.
@@ -60,19 +60,19 @@ A collection of color groups.
 | Mixed | from | The ColorGroup, index, or name at the beginning of the range. Can accept: ColorGroup, Long Integer or String. |
 | Mixed | to | The ColorGroup, index, or name at the end of the range. Can accept: ColorGroup, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ColorGroup **firstItem**()
 > 
 > Returns the first ColorGroup in the collection.
-*** 
+<HorizontalLine />
 > ColorGroup **lastItem**()
 > 
 > Returns the last ColorGroup in the collection.
-*** 
+<HorizontalLine />
 > ColorGroup **middleItem**()
 > 
 > Returns the middle ColorGroup in the collection.
-*** 
+<HorizontalLine />
 > ColorGroup **previousItem**( ColorGroup **obj** )
 > 
 > Returns the ColorGroup with the index previous to the specified index.
@@ -81,7 +81,7 @@ A collection of color groups.
 |---|---|---|
 | ColorGroup | obj | The index of the ColorGroup that follows the desired ColorGroup. |
 
-*** 
+<HorizontalLine />
 > ColorGroup **nextItem**( ColorGroup **obj** )
 > 
 > Returns the ColorGroup whose index follows the specified ColorGroup in the collection.
@@ -90,19 +90,19 @@ A collection of color groups.
 |---|---|---|
 | ColorGroup | obj | The ColorGroup whose index comes before the desired ColorGroup. |
 
-*** 
+<HorizontalLine />
 > ColorGroup **anyItem**()
 > 
 > Returns any ColorGroup in the collection.
-*** 
+<HorizontalLine />
 > ColorGroup **everyItem**()
 > 
 > Returns every ColorGroup in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ColorGroup.
-*** 
+<HorizontalLine />
 > ColorGroup **[]**( Number **index** )
 > 
 > Returns the ColorGroup with the specified index.

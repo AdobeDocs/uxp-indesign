@@ -12,7 +12,7 @@ A collection of XML instructions.
 > Number **count**()
 > 
 > Displays the number of elements in the XMLInstruction.
-*** 
+<HorizontalLine />
 > XMLInstruction **add**( String **target**, String **data**, Mixed **storyOffset**, Object **withProperties** )
 > 
 > Creates a new XML processing instruction.
@@ -24,7 +24,7 @@ A collection of XML instructions.
 | Mixed | storyOffset | The location within the story, specified as an insertion point. Can accept: InsertionPoint or Long Integer. (Optional) |
 | Object | withProperties | Initial values for properties of the new XMLInstruction (Optional) |
 
-*** 
+<HorizontalLine />
 > XMLInstruction **item**( Mixed **index** )
 > 
 > Returns the XMLInstruction with the specified index or name.
@@ -33,7 +33,7 @@ A collection of XML instructions.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XMLInstruction **itemByID**( Number **id** )
 > 
 > Returns the XMLInstruction with the specified ID.
@@ -42,7 +42,7 @@ A collection of XML instructions.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > XMLInstruction **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the XMLInstructions within the specified range.
@@ -52,19 +52,19 @@ A collection of XML instructions.
 | Mixed | from | The XMLInstruction, index, or name at the beginning of the range. Can accept: XMLInstruction, Long Integer or String. |
 | Mixed | to | The XMLInstruction, index, or name at the end of the range. Can accept: XMLInstruction, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > XMLInstruction **firstItem**()
 > 
 > Returns the first XMLInstruction in the collection.
-*** 
+<HorizontalLine />
 > XMLInstruction **lastItem**()
 > 
 > Returns the last XMLInstruction in the collection.
-*** 
+<HorizontalLine />
 > XMLInstruction **middleItem**()
 > 
 > Returns the middle XMLInstruction in the collection.
-*** 
+<HorizontalLine />
 > XMLInstruction **previousItem**( XMLInstruction **obj** )
 > 
 > Returns the XMLInstruction with the index previous to the specified index.
@@ -73,7 +73,7 @@ A collection of XML instructions.
 |---|---|---|
 | XMLInstruction | obj | The index of the XMLInstruction that follows the desired XMLInstruction. |
 
-*** 
+<HorizontalLine />
 > XMLInstruction **nextItem**( XMLInstruction **obj** )
 > 
 > Returns the XMLInstruction whose index follows the specified XMLInstruction in the collection.
@@ -82,19 +82,19 @@ A collection of XML instructions.
 |---|---|---|
 | XMLInstruction | obj | The XMLInstruction whose index comes before the desired XMLInstruction. |
 
-*** 
+<HorizontalLine />
 > XMLInstruction **anyItem**()
 > 
 > Returns any XMLInstruction in the collection.
-*** 
+<HorizontalLine />
 > XMLInstruction **everyItem**()
 > 
 > Returns every XMLInstruction in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the XMLInstruction.
-*** 
+<HorizontalLine />
 > XMLInstruction **[]**( Number **index** )
 > 
 > Returns the XMLInstruction with the specified index.

@@ -7,7 +7,7 @@ EPub export option for epub version.
 > Number **EPUB2** = 1702257970
 > 
 > EPUB 2.0.1.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EPUB3** = 1702257971

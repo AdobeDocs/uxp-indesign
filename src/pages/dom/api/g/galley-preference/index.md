@@ -7,81 +7,81 @@ Galley preferences.
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Mixed **parent** 
 >
 > The parent of the GalleyPreference (a Application or Document).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > Mixed **backgroundColor** 
 >
 > The background color, specified either as an array of three doubles, each in the range 0 to 255 and representing R, G, and B values, or as an InCopy UI color. . Can return: Array of 3 Reals (0 - 255) or InCopyUIColors enumerator.
-*** 
+<HorizontalLine />
 > Boolean **blinkCursor** 
 >
 > If true, the cursor blinks.
-*** 
+<HorizontalLine />
 > CursorTypes **cursorType** 
 >
 > The cursor type for galley and story views.
-*** 
+<HorizontalLine />
 > Boolean **smoothText** 
 >
 > If true, galley text is anti-aliased.
-*** 
+<HorizontalLine />
 > Mixed **textColor** 
 >
 > The text color, specified either as an array of three doubles, each in the range 0 to 255 and representing R, G, and B values, or as an InCopy UI color. Can return: Array of 3 Reals (0 - 255) or InCopyUIColors enumerator.
-*** 
+<HorizontalLine />
 > Boolean **showDepthRuler** 
 >
 > If true, displays the depth ruler.
-*** 
+<HorizontalLine />
 > AntiAliasType **antiAliasType** 
 >
 > The type of text anti-aliasing to use in story and galley views.
-*** 
+<HorizontalLine />
 > Boolean **showParagraphStyleNames** 
 >
 > If true, show paragraph style names.
-*** 
+<HorizontalLine />
 > LineSpacingType **lineSpacingValue** 
 >
 > Amount of spacing between lines.
-*** 
+<HorizontalLine />
 > String **displayFont** 
 >
 > Font family name to use for text display.
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **displayFontSize** 
 >
 > Size to use for text display.
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **infoColumnWidth** 
 >
 > Info column width.
-*** 
+<HorizontalLine />
 > Boolean **showInfoColumn** 
 >
 > If true, display the Info column.
-*** 
+<HorizontalLine />
 > Boolean **showParagraphBreakMarks** 
 >
 > If true, show paragraph break marks.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -90,15 +90,15 @@ Galley preferences.
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the GalleyPreference.
-*** 
+<HorizontalLine />
 > GalleyPreference **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -109,7 +109,7 @@ Galley preferences.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

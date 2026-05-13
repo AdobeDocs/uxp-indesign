@@ -7,41 +7,41 @@ The preferences for a file name variable.
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > TextVariable **parent** 
 >
 > The parent of the FileNameVariablePreference (a TextVariable).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > String **textBefore** 
 >
 > The text that precedes the value of the variable. (Limit: 128 characters)
-*** 
+<HorizontalLine />
 > Boolean **includePath** 
 >
 > If true, includes the entire path of the file.
-*** 
+<HorizontalLine />
 > Boolean **includeExtension** 
 >
 > If true, includes the file extension.
-*** 
+<HorizontalLine />
 > String **textAfter** 
 >
 > The text that follows the value of the variable. (Limit: 128 characters)
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -50,15 +50,15 @@ The preferences for a file name variable.
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the FileNameVariablePreference.
-*** 
+<HorizontalLine />
 > FileNameVariablePreference **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -69,7 +69,7 @@ The preferences for a file name variable.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

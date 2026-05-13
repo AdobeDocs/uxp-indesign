@@ -7,13 +7,13 @@ Options for specifying basis of the top origin of the paragraph border.
 > Number **ASCENT_TOP_ORIGIN** = 1886606433
 > 
 > Makes the paragraph border top origin based on ascent of the text in the paragraph.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BASELINE_TOP_ORIGIN** = 1886606434
 > 
 > Makes the paragraph border top origin based on baseline of the text in the paragraph.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LEADING_TOP_ORIGIN** = 1885492332

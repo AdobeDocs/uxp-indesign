@@ -7,7 +7,7 @@ Printer PostScript level options.
 > Number **LEVEL_2** = 1347636274
 > 
 > Level 2 PostScript.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LEVEL_3** = 1347636275

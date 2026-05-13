@@ -7,13 +7,13 @@ The animation design options.
 > Number **FROM_CURRENT_APPEARANCE** = 1634551405
 > 
 > Uses the current object's properties as the starting appearance of the animation at runtime.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TO_CURRENT_APPEARANCE** = 1634554991
 > 
 > Uses the current object's properties as the end appearance of the animation at runtime.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **TO_CURRENT_LOCATION** = 1634553702

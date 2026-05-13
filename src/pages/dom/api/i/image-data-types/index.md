@@ -7,19 +7,19 @@ Options for sending image data to the printer or file.
 > Number **ALL_IMAGE_DATA** = 1853058416
 > 
 > Sends full-resolution data.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OPTIMIZED_SUBSAMPLING** = 1869640563
 > 
 > Sends just enough data to print graphics at the best possible resolution for the output device.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PROXY_IMAGE_DATA** = 1819243130
 > 
 > Sends screen-resolution versions (72 dpi) of placed bitmap images.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **NONE** = 1852796517

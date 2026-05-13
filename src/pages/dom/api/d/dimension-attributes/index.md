@@ -7,13 +7,13 @@ Dimension attribute which you want to control.
 > Number **WIDTH_ATTRIBUTE** = 1700226127
 > 
 > Width attribute of dimension.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **HEIGHT_ATTRIBUTE** = 1699247183
 > 
 > Height attribute of dimension.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BOTH_HEIGHT_WIDTH_ATTRIBUTE** = 1700227170

@@ -7,7 +7,7 @@ Format options for image data.
 > Number **ASCII** = 1095975753
 > 
 > Uses ASCII format.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BINARY** = 1114534521

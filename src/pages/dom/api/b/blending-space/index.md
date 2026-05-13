@@ -7,13 +7,13 @@ Transparency blending space options.
 > Number **DEFAULT_VALUE** = 1147563124
 > 
 > Defaults to the current color profile.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **RGB** = 1666336578
 > 
 > Uses the RGB color profile.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CMYK** = 1129142603

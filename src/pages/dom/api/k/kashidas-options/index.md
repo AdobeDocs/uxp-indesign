@@ -7,7 +7,7 @@ Kashidas.
 > Number **DEFAULT_KASHIDAS** = 1801544805
 > 
 > Default kashidas
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **KASHIDAS_OFF** = 1801547622

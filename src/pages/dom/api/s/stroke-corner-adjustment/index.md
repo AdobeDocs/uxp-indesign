@@ -7,19 +7,19 @@ The automatic adjustment to make to the pattern of a dashed or dotted stroke to 
 > Number **NONE** = 1852796517
 > 
 > No adjustment.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **DASHES** = 1162113896
 > 
 > Changes the length of dashes so that dashes always occur at path ends and corners; maintains set gap length. Note: Can cause dashes to be different lengths on shapes whose sides are of different lengths, such as rectangles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **GAPS** = 1164406899
 > 
 > Changes the length of gaps so that dashes or dots always occur at ends and corners; maintains dash length or dot diameter. Note: Can cause gaps to be different lengths on shapes whose sides are of different lengths, such as rectangles.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **DASHES_AND_GAPS** = 1148405616

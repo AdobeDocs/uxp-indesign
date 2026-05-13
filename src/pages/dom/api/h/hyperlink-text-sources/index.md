@@ -18,11 +18,11 @@ A collection of hyperlink text sources.
 | Text | source | The text or insertion point to hyperlink. |
 | Object | withProperties | Initial values for properties of the new HyperlinkTextSource (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the HyperlinkTextSource.
-*** 
+<HorizontalLine />
 > HyperlinkTextSource **item**( Mixed **index** )
 > 
 > Returns the HyperlinkTextSource with the specified index or name.
@@ -31,7 +31,7 @@ A collection of hyperlink text sources.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > HyperlinkTextSource **itemByName**( String **name** )
 > 
 > Returns the HyperlinkTextSource with the specified name.
@@ -40,7 +40,7 @@ A collection of hyperlink text sources.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > HyperlinkTextSource **itemByID**( Number **id** )
 > 
 > Returns the HyperlinkTextSource with the specified ID.
@@ -49,7 +49,7 @@ A collection of hyperlink text sources.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > HyperlinkTextSource **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the HyperlinkTextSources within the specified range.
@@ -59,19 +59,19 @@ A collection of hyperlink text sources.
 | Mixed | from | The HyperlinkTextSource, index, or name at the beginning of the range. Can accept: HyperlinkTextSource, Long Integer or String. |
 | Mixed | to | The HyperlinkTextSource, index, or name at the end of the range. Can accept: HyperlinkTextSource, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > HyperlinkTextSource **firstItem**()
 > 
 > Returns the first HyperlinkTextSource in the collection.
-*** 
+<HorizontalLine />
 > HyperlinkTextSource **lastItem**()
 > 
 > Returns the last HyperlinkTextSource in the collection.
-*** 
+<HorizontalLine />
 > HyperlinkTextSource **middleItem**()
 > 
 > Returns the middle HyperlinkTextSource in the collection.
-*** 
+<HorizontalLine />
 > HyperlinkTextSource **previousItem**( HyperlinkTextSource **obj** )
 > 
 > Returns the HyperlinkTextSource with the index previous to the specified index.
@@ -80,7 +80,7 @@ A collection of hyperlink text sources.
 |---|---|---|
 | HyperlinkTextSource | obj | The index of the HyperlinkTextSource that follows the desired HyperlinkTextSource. |
 
-*** 
+<HorizontalLine />
 > HyperlinkTextSource **nextItem**( HyperlinkTextSource **obj** )
 > 
 > Returns the HyperlinkTextSource whose index follows the specified HyperlinkTextSource in the collection.
@@ -89,19 +89,19 @@ A collection of hyperlink text sources.
 |---|---|---|
 | HyperlinkTextSource | obj | The HyperlinkTextSource whose index comes before the desired HyperlinkTextSource. |
 
-*** 
+<HorizontalLine />
 > HyperlinkTextSource **anyItem**()
 > 
 > Returns any HyperlinkTextSource in the collection.
-*** 
+<HorizontalLine />
 > HyperlinkTextSource **everyItem**()
 > 
 > Returns every HyperlinkTextSource in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the HyperlinkTextSource.
-*** 
+<HorizontalLine />
 > HyperlinkTextSource **[]**( Number **index** )
 > 
 > Returns the HyperlinkTextSource with the specified index.

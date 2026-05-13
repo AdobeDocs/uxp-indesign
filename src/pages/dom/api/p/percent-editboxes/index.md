@@ -17,11 +17,11 @@ A collection of percent editboxes.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new PercentEditbox (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the PercentEditbox.
-*** 
+<HorizontalLine />
 > PercentEditbox **item**( Mixed **index** )
 > 
 > Returns the PercentEditbox with the specified index or name.
@@ -30,7 +30,7 @@ A collection of percent editboxes.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PercentEditbox **itemByID**( Number **id** )
 > 
 > Returns the PercentEditbox with the specified ID.
@@ -39,7 +39,7 @@ A collection of percent editboxes.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > PercentEditbox **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the PercentEditboxes within the specified range.
@@ -49,19 +49,19 @@ A collection of percent editboxes.
 | Mixed | from | The PercentEditbox, index, or name at the beginning of the range. Can accept: PercentEditbox, Long Integer or String. |
 | Mixed | to | The PercentEditbox, index, or name at the end of the range. Can accept: PercentEditbox, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PercentEditbox **firstItem**()
 > 
 > Returns the first PercentEditbox in the collection.
-*** 
+<HorizontalLine />
 > PercentEditbox **lastItem**()
 > 
 > Returns the last PercentEditbox in the collection.
-*** 
+<HorizontalLine />
 > PercentEditbox **middleItem**()
 > 
 > Returns the middle PercentEditbox in the collection.
-*** 
+<HorizontalLine />
 > PercentEditbox **previousItem**( PercentEditbox **obj** )
 > 
 > Returns the PercentEditbox with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of percent editboxes.
 |---|---|---|
 | PercentEditbox | obj | The index of the PercentEditbox that follows the desired PercentEditbox. |
 
-*** 
+<HorizontalLine />
 > PercentEditbox **nextItem**( PercentEditbox **obj** )
 > 
 > Returns the PercentEditbox whose index follows the specified PercentEditbox in the collection.
@@ -79,19 +79,19 @@ A collection of percent editboxes.
 |---|---|---|
 | PercentEditbox | obj | The PercentEditbox whose index comes before the desired PercentEditbox. |
 
-*** 
+<HorizontalLine />
 > PercentEditbox **anyItem**()
 > 
 > Returns any PercentEditbox in the collection.
-*** 
+<HorizontalLine />
 > PercentEditbox **everyItem**()
 > 
 > Returns every PercentEditbox in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the PercentEditbox.
-*** 
+<HorizontalLine />
 > PercentEditbox **[]**( Number **index** )
 > 
 > Returns the PercentEditbox with the specified index.

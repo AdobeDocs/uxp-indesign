@@ -17,11 +17,11 @@ A collection of nested GREP styles.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new NestedGrepStyle (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the NestedGrepStyle.
-*** 
+<HorizontalLine />
 > NestedGrepStyle **item**( Mixed **index** )
 > 
 > Returns the NestedGrepStyle with the specified index or name.
@@ -30,7 +30,7 @@ A collection of nested GREP styles.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > NestedGrepStyle **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the NestedGrepStyles within the specified range.
@@ -40,19 +40,19 @@ A collection of nested GREP styles.
 | Mixed | from | The NestedGrepStyle, index, or name at the beginning of the range. Can accept: NestedGrepStyle, Long Integer or String. |
 | Mixed | to | The NestedGrepStyle, index, or name at the end of the range. Can accept: NestedGrepStyle, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > NestedGrepStyle **firstItem**()
 > 
 > Returns the first NestedGrepStyle in the collection.
-*** 
+<HorizontalLine />
 > NestedGrepStyle **lastItem**()
 > 
 > Returns the last NestedGrepStyle in the collection.
-*** 
+<HorizontalLine />
 > NestedGrepStyle **middleItem**()
 > 
 > Returns the middle NestedGrepStyle in the collection.
-*** 
+<HorizontalLine />
 > NestedGrepStyle **previousItem**( NestedGrepStyle **obj** )
 > 
 > Returns the NestedGrepStyle with the index previous to the specified index.
@@ -61,7 +61,7 @@ A collection of nested GREP styles.
 |---|---|---|
 | NestedGrepStyle | obj | The index of the NestedGrepStyle that follows the desired NestedGrepStyle. |
 
-*** 
+<HorizontalLine />
 > NestedGrepStyle **nextItem**( NestedGrepStyle **obj** )
 > 
 > Returns the NestedGrepStyle whose index follows the specified NestedGrepStyle in the collection.
@@ -70,19 +70,19 @@ A collection of nested GREP styles.
 |---|---|---|
 | NestedGrepStyle | obj | The NestedGrepStyle whose index comes before the desired NestedGrepStyle. |
 
-*** 
+<HorizontalLine />
 > NestedGrepStyle **anyItem**()
 > 
 > Returns any NestedGrepStyle in the collection.
-*** 
+<HorizontalLine />
 > NestedGrepStyle **everyItem**()
 > 
 > Returns every NestedGrepStyle in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the NestedGrepStyle.
-*** 
+<HorizontalLine />
 > NestedGrepStyle **[]**( Number **index** )
 > 
 > Returns the NestedGrepStyle with the specified index.

@@ -7,13 +7,13 @@ Used to specify how to open a document.
 > Number **DEFAULT_VALUE** = 1147563124
 > 
 > Default based on the file type or extension.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OPEN_ORIGINAL** = 1332760434
 > 
 > Open the document itself.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OPEN_COPY** = 1332757360

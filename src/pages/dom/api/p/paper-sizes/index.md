@@ -7,7 +7,7 @@ Paper size optons.
 > Number **DEFINED_BY_DRIVER** = 1347634290
 > 
 > Allows the printer driver to define the paper size.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CUSTOM** = 1131639917

@@ -7,13 +7,13 @@ Character set options for exported text files.
 > Number **DEFAULT_PLATFORM** = 1415865972
 > 
 > The default character set for the platform.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **UTF16** = 1937125686
 > 
 > The Unicode UTF16 character set.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **UTF8** = 1937134904

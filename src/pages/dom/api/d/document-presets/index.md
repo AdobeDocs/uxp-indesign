@@ -17,11 +17,11 @@ A collection of document presets.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new DocumentPreset (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the DocumentPreset.
-*** 
+<HorizontalLine />
 > DocumentPreset **item**( Mixed **index** )
 > 
 > Returns the DocumentPreset with the specified index or name.
@@ -30,7 +30,7 @@ A collection of document presets.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > DocumentPreset **itemByName**( String **name** )
 > 
 > Returns the DocumentPreset with the specified name.
@@ -39,7 +39,7 @@ A collection of document presets.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > DocumentPreset **itemByID**( Number **id** )
 > 
 > Returns the DocumentPreset with the specified ID.
@@ -48,7 +48,7 @@ A collection of document presets.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > DocumentPreset **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the DocumentPresets within the specified range.
@@ -58,19 +58,19 @@ A collection of document presets.
 | Mixed | from | The DocumentPreset, index, or name at the beginning of the range. Can accept: DocumentPreset, Long Integer or String. |
 | Mixed | to | The DocumentPreset, index, or name at the end of the range. Can accept: DocumentPreset, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > DocumentPreset **firstItem**()
 > 
 > Returns the first DocumentPreset in the collection.
-*** 
+<HorizontalLine />
 > DocumentPreset **lastItem**()
 > 
 > Returns the last DocumentPreset in the collection.
-*** 
+<HorizontalLine />
 > DocumentPreset **middleItem**()
 > 
 > Returns the middle DocumentPreset in the collection.
-*** 
+<HorizontalLine />
 > DocumentPreset **previousItem**( DocumentPreset **obj** )
 > 
 > Returns the DocumentPreset with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of document presets.
 |---|---|---|
 | DocumentPreset | obj | The index of the DocumentPreset that follows the desired DocumentPreset. |
 
-*** 
+<HorizontalLine />
 > DocumentPreset **nextItem**( DocumentPreset **obj** )
 > 
 > Returns the DocumentPreset whose index follows the specified DocumentPreset in the collection.
@@ -88,19 +88,19 @@ A collection of document presets.
 |---|---|---|
 | DocumentPreset | obj | The DocumentPreset whose index comes before the desired DocumentPreset. |
 
-*** 
+<HorizontalLine />
 > DocumentPreset **anyItem**()
 > 
 > Returns any DocumentPreset in the collection.
-*** 
+<HorizontalLine />
 > DocumentPreset **everyItem**()
 > 
 > Returns every DocumentPreset in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the DocumentPreset.
-*** 
+<HorizontalLine />
 > DocumentPreset **[]**( Number **index** )
 > 
 > Returns the DocumentPreset with the specified index.

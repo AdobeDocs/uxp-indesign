@@ -7,37 +7,37 @@ Text position options.
 > Number **NORMAL** = 1852797549
 > 
 > Normal position
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SUPERSCRIPT** = 1936749411
 > 
 > Superscripts the text.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SUBSCRIPT** = 1935831907
 > 
 > Subscripts the text.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OT_SUPERSCRIPT** = 1884247155
 > 
 > For OpenType fonts, uses--if available--raised glyphs that are sized correctly relative to the surrounding characters.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OT_SUBSCRIPT** = 1884247138
 > 
 > For OpenType fonts, uses--if available--lowered glyphs that are sized correctly relative to the surrounding characters.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OT_NUMERATOR** = 1884247150
 > 
 > For OpenType fonts, shrinks the text but keeps the top of the characters aligned with the top of the main text. Note: Valid only for numeric characters.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **OT_DENOMINATOR** = 1884247140

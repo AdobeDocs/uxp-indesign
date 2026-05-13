@@ -15,20 +15,20 @@ contributors:
 Once you have a packaged your code correctly, you're ready to distribute it.
 
 ## Distributing scripts
+
 A UXP script can be directly shared. Just share your `.idjs` file with your family and friends and they can run it after importing it within the Scripts panel.
 
 ## Distributing plugins
 
 While sharing your plugins, you have a couple of options:
 
-<Summary slots="heading, text, buttons" background="rgb(141, 52, 78)" />
+<Announcement slots="heading, text, buttons" backgroundColor="background-color-gray" />
 
 ### Distribute on Creative Cloud Plugin Marketplace
 
-Use the Developer Distribution portal to submit your plugin to the Plugin Marketplace to reach a large number of users.
-Users can download your plugin directly in the Creative Cloud desktop app.
+Use the Developer Distribution portal to submit your plugin to the Plugin Marketplace to reach a large number of users. Users can download your plugin directly in the Creative Cloud desktop app.
 
-- [Developer Distribution Documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/)
+[Developer Distribution Documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/)
 
 ### Direct distribution with `.ccx` files
 

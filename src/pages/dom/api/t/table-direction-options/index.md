@@ -7,7 +7,7 @@ Table direction options.
 > Number **LEFT_TO_RIGHT_DIRECTION** = 1278366308
 > 
 > Set left to right table direction
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **RIGHT_TO_LEFT_DIRECTION** = 1379028068

@@ -7,13 +7,13 @@ Export options for assignment files.
 > Number **EMPTY_FRAMES** = 1098073446
 > 
 > Exports frames but does not export content.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ASSIGNED_SPREADS** = 1098073459
 > 
 > Exports only spreads with assigned frames.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EVERYTHING** = 1098073441

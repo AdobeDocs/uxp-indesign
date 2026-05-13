@@ -12,7 +12,7 @@ A collection of imported graphics in any graphic file format (vector, metafile, 
 > Number **count**()
 > 
 > Displays the number of elements in the Graphic.
-*** 
+<HorizontalLine />
 > Graphic **item**( Mixed **index** )
 > 
 > Returns the Graphic with the specified index or name.
@@ -21,7 +21,7 @@ A collection of imported graphics in any graphic file format (vector, metafile, 
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Graphic **itemByName**( String **name** )
 > 
 > Returns the Graphic with the specified name.
@@ -30,7 +30,7 @@ A collection of imported graphics in any graphic file format (vector, metafile, 
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Graphic **itemByID**( Number **id** )
 > 
 > Returns the Graphic with the specified ID.
@@ -39,7 +39,7 @@ A collection of imported graphics in any graphic file format (vector, metafile, 
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Graphic **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Graphics within the specified range.
@@ -49,19 +49,19 @@ A collection of imported graphics in any graphic file format (vector, metafile, 
 | Mixed | from | The Graphic, index, or name at the beginning of the range. Can accept: Graphic, Long Integer or String. |
 | Mixed | to | The Graphic, index, or name at the end of the range. Can accept: Graphic, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Graphic **firstItem**()
 > 
 > Returns the first Graphic in the collection.
-*** 
+<HorizontalLine />
 > Graphic **lastItem**()
 > 
 > Returns the last Graphic in the collection.
-*** 
+<HorizontalLine />
 > Graphic **middleItem**()
 > 
 > Returns the middle Graphic in the collection.
-*** 
+<HorizontalLine />
 > Graphic **previousItem**( Graphic **obj** )
 > 
 > Returns the Graphic with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of imported graphics in any graphic file format (vector, metafile, 
 |---|---|---|
 | Graphic | obj | The index of the Graphic that follows the desired Graphic. |
 
-*** 
+<HorizontalLine />
 > Graphic **nextItem**( Graphic **obj** )
 > 
 > Returns the Graphic whose index follows the specified Graphic in the collection.
@@ -79,19 +79,19 @@ A collection of imported graphics in any graphic file format (vector, metafile, 
 |---|---|---|
 | Graphic | obj | The Graphic whose index comes before the desired Graphic. |
 
-*** 
+<HorizontalLine />
 > Graphic **anyItem**()
 > 
 > Returns any Graphic in the collection.
-*** 
+<HorizontalLine />
 > Graphic **everyItem**()
 > 
 > Returns every Graphic in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Graphic.
-*** 
+<HorizontalLine />
 > Graphic **[]**( Number **index** )
 > 
 > Returns the Graphic with the specified index.

@@ -7,13 +7,13 @@ Position attribute which you want to control.
 > Number **X_ATTRIBUTE** = 1700282735
 > 
 > X attribute of position.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **Y_ATTRIBUTE** = 1700348271
 > 
 > Y attribute of position.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BOTH_X_Y_ATTRIBUTE** = 1698855001

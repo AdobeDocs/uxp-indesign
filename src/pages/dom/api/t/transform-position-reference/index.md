@@ -7,7 +7,7 @@ Options for specifying the reference position for X and Y attributes of style. I
 > Number **PAGE_EDGE_REFERENCE** = 1348945255
 > 
 > Corresponding edge of the page. Left edge for X attribute, Top edge for Y attribute.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PAGE_MARGIN_REFERENCE** = 1883721063

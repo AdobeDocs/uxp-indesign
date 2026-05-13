@@ -18,11 +18,11 @@ A collection of master spreads.
 | Number | pagesPerSpread | The number of pages to include in the master spread. (Optional) |
 | Object | withProperties | Initial values for properties of the new MasterSpread (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the MasterSpread.
-*** 
+<HorizontalLine />
 > MasterSpread **item**( Mixed **index** )
 > 
 > Returns the MasterSpread with the specified index or name.
@@ -31,7 +31,7 @@ A collection of master spreads.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MasterSpread **itemByName**( String **name** )
 > 
 > Returns the MasterSpread with the specified name.
@@ -40,7 +40,7 @@ A collection of master spreads.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > MasterSpread **itemByID**( Number **id** )
 > 
 > Returns the MasterSpread with the specified ID.
@@ -49,7 +49,7 @@ A collection of master spreads.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > MasterSpread **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the MasterSpreads within the specified range.
@@ -59,19 +59,19 @@ A collection of master spreads.
 | Mixed | from | The MasterSpread, index, or name at the beginning of the range. Can accept: MasterSpread, Long Integer or String. |
 | Mixed | to | The MasterSpread, index, or name at the end of the range. Can accept: MasterSpread, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MasterSpread **firstItem**()
 > 
 > Returns the first MasterSpread in the collection.
-*** 
+<HorizontalLine />
 > MasterSpread **lastItem**()
 > 
 > Returns the last MasterSpread in the collection.
-*** 
+<HorizontalLine />
 > MasterSpread **middleItem**()
 > 
 > Returns the middle MasterSpread in the collection.
-*** 
+<HorizontalLine />
 > MasterSpread **previousItem**( MasterSpread **obj** )
 > 
 > Returns the MasterSpread with the index previous to the specified index.
@@ -80,7 +80,7 @@ A collection of master spreads.
 |---|---|---|
 | MasterSpread | obj | The index of the MasterSpread that follows the desired MasterSpread. |
 
-*** 
+<HorizontalLine />
 > MasterSpread **nextItem**( MasterSpread **obj** )
 > 
 > Returns the MasterSpread whose index follows the specified MasterSpread in the collection.
@@ -89,19 +89,19 @@ A collection of master spreads.
 |---|---|---|
 | MasterSpread | obj | The MasterSpread whose index comes before the desired MasterSpread. |
 
-*** 
+<HorizontalLine />
 > MasterSpread **anyItem**()
 > 
 > Returns any MasterSpread in the collection.
-*** 
+<HorizontalLine />
 > MasterSpread **everyItem**()
 > 
 > Returns every MasterSpread in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the MasterSpread.
-*** 
+<HorizontalLine />
 > MasterSpread **[]**( Number **index** )
 > 
 > Returns the MasterSpread with the specified index.

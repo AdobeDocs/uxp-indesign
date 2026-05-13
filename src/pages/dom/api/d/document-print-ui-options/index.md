@@ -7,19 +7,19 @@ Document print ui options
 > Number **SUPPRESS_PRINT_PROGRESS** = 1936748659
 > 
 > Do not show progress bar during printing.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SUPPRESS_PRINT_WARNINGS** = 1936750450
 > 
 > Do not show warning dialog during printing.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SUPPRESS_PRINT_DIALOG** = 1936745575
 > 
 > Do not show print dialog.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SUPPRESS_FILE_SAVE_DIALOG** = 1936089444

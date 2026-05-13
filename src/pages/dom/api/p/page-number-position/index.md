@@ -7,13 +7,13 @@ Page number position options.
 > Number **AFTER_ENTRY** = 1634100590
 > 
 > Places page numbers after entry text.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BEFORE_ENTRY** = 1650877806
 > 
 > Places page numbers before entry text.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **NONE** = 1852796517

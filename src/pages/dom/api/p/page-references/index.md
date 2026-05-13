@@ -21,11 +21,11 @@ A collection of index page references.
 | CharacterStyle | pageNumberStyleOverride | The style override for the page number.  (Optional) |
 | Object | withProperties | Initial values for properties of the new PageReference (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the PageReference.
-*** 
+<HorizontalLine />
 > PageReference **item**( Mixed **index** )
 > 
 > Returns the PageReference with the specified index or name.
@@ -34,7 +34,7 @@ A collection of index page references.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PageReference **itemByName**( String **name** )
 > 
 > Returns the PageReference with the specified name.
@@ -43,7 +43,7 @@ A collection of index page references.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > PageReference **itemByID**( Number **id** )
 > 
 > Returns the PageReference with the specified ID.
@@ -52,7 +52,7 @@ A collection of index page references.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > PageReference **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the PageReferences within the specified range.
@@ -62,19 +62,19 @@ A collection of index page references.
 | Mixed | from | The PageReference, index, or name at the beginning of the range. Can accept: PageReference, Long Integer or String. |
 | Mixed | to | The PageReference, index, or name at the end of the range. Can accept: PageReference, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PageReference **firstItem**()
 > 
 > Returns the first PageReference in the collection.
-*** 
+<HorizontalLine />
 > PageReference **lastItem**()
 > 
 > Returns the last PageReference in the collection.
-*** 
+<HorizontalLine />
 > PageReference **middleItem**()
 > 
 > Returns the middle PageReference in the collection.
-*** 
+<HorizontalLine />
 > PageReference **previousItem**( PageReference **obj** )
 > 
 > Returns the PageReference with the index previous to the specified index.
@@ -83,7 +83,7 @@ A collection of index page references.
 |---|---|---|
 | PageReference | obj | The index of the PageReference that follows the desired PageReference. |
 
-*** 
+<HorizontalLine />
 > PageReference **nextItem**( PageReference **obj** )
 > 
 > Returns the PageReference whose index follows the specified PageReference in the collection.
@@ -92,19 +92,19 @@ A collection of index page references.
 |---|---|---|
 | PageReference | obj | The PageReference whose index comes before the desired PageReference. |
 
-*** 
+<HorizontalLine />
 > PageReference **anyItem**()
 > 
 > Returns any PageReference in the collection.
-*** 
+<HorizontalLine />
 > PageReference **everyItem**()
 > 
 > Returns every PageReference in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the PageReference.
-*** 
+<HorizontalLine />
 > PageReference **[]**( Number **index** )
 > 
 > Returns the PageReference with the specified index.

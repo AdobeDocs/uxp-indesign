@@ -20,11 +20,11 @@ A collection of index cross references. (For cross references in text, use the '
 | String | customTypeString | The custom string to use in the cross reference. Valid only for custom cross reference types. (Optional) |
 | Object | withProperties | Initial values for properties of the new CrossReference (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the CrossReference.
-*** 
+<HorizontalLine />
 > CrossReference **item**( Mixed **index** )
 > 
 > Returns the CrossReference with the specified index or name.
@@ -33,7 +33,7 @@ A collection of index cross references. (For cross references in text, use the '
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CrossReference **itemByName**( String **name** )
 > 
 > Returns the CrossReference with the specified name.
@@ -42,7 +42,7 @@ A collection of index cross references. (For cross references in text, use the '
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > CrossReference **itemByID**( Number **id** )
 > 
 > Returns the CrossReference with the specified ID.
@@ -51,7 +51,7 @@ A collection of index cross references. (For cross references in text, use the '
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > CrossReference **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the CrossReferences within the specified range.
@@ -61,19 +61,19 @@ A collection of index cross references. (For cross references in text, use the '
 | Mixed | from | The CrossReference, index, or name at the beginning of the range. Can accept: CrossReference, Long Integer or String. |
 | Mixed | to | The CrossReference, index, or name at the end of the range. Can accept: CrossReference, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CrossReference **firstItem**()
 > 
 > Returns the first CrossReference in the collection.
-*** 
+<HorizontalLine />
 > CrossReference **lastItem**()
 > 
 > Returns the last CrossReference in the collection.
-*** 
+<HorizontalLine />
 > CrossReference **middleItem**()
 > 
 > Returns the middle CrossReference in the collection.
-*** 
+<HorizontalLine />
 > CrossReference **previousItem**( CrossReference **obj** )
 > 
 > Returns the CrossReference with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of index cross references. (For cross references in text, use the '
 |---|---|---|
 | CrossReference | obj | The index of the CrossReference that follows the desired CrossReference. |
 
-*** 
+<HorizontalLine />
 > CrossReference **nextItem**( CrossReference **obj** )
 > 
 > Returns the CrossReference whose index follows the specified CrossReference in the collection.
@@ -91,19 +91,19 @@ A collection of index cross references. (For cross references in text, use the '
 |---|---|---|
 | CrossReference | obj | The CrossReference whose index comes before the desired CrossReference. |
 
-*** 
+<HorizontalLine />
 > CrossReference **anyItem**()
 > 
 > Returns any CrossReference in the collection.
-*** 
+<HorizontalLine />
 > CrossReference **everyItem**()
 > 
 > Returns every CrossReference in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the CrossReference.
-*** 
+<HorizontalLine />
 > CrossReference **[]**( Number **index** )
 > 
 > Returns the CrossReference with the specified index.

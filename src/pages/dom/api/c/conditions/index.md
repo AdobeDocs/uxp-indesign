@@ -17,11 +17,11 @@ A collection of conditions for conditional text.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new Condition (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Condition.
-*** 
+<HorizontalLine />
 > Condition **item**( Mixed **index** )
 > 
 > Returns the Condition with the specified index or name.
@@ -30,7 +30,7 @@ A collection of conditions for conditional text.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Condition **itemByName**( String **name** )
 > 
 > Returns the Condition with the specified name.
@@ -39,7 +39,7 @@ A collection of conditions for conditional text.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Condition **itemByID**( Number **id** )
 > 
 > Returns the Condition with the specified ID.
@@ -48,7 +48,7 @@ A collection of conditions for conditional text.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Condition **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Conditions within the specified range.
@@ -58,19 +58,19 @@ A collection of conditions for conditional text.
 | Mixed | from | The Condition, index, or name at the beginning of the range. Can accept: Condition, Long Integer or String. |
 | Mixed | to | The Condition, index, or name at the end of the range. Can accept: Condition, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Condition **firstItem**()
 > 
 > Returns the first Condition in the collection.
-*** 
+<HorizontalLine />
 > Condition **lastItem**()
 > 
 > Returns the last Condition in the collection.
-*** 
+<HorizontalLine />
 > Condition **middleItem**()
 > 
 > Returns the middle Condition in the collection.
-*** 
+<HorizontalLine />
 > Condition **previousItem**( Condition **obj** )
 > 
 > Returns the Condition with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of conditions for conditional text.
 |---|---|---|
 | Condition | obj | The index of the Condition that follows the desired Condition. |
 
-*** 
+<HorizontalLine />
 > Condition **nextItem**( Condition **obj** )
 > 
 > Returns the Condition whose index follows the specified Condition in the collection.
@@ -88,19 +88,19 @@ A collection of conditions for conditional text.
 |---|---|---|
 | Condition | obj | The Condition whose index comes before the desired Condition. |
 
-*** 
+<HorizontalLine />
 > Condition **anyItem**()
 > 
 > Returns any Condition in the collection.
-*** 
+<HorizontalLine />
 > Condition **everyItem**()
 > 
 > Returns every Condition in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Condition.
-*** 
+<HorizontalLine />
 > Condition **[]**( Number **index** )
 > 
 > Returns the Condition with the specified index.

@@ -17,11 +17,11 @@ A collection of cell style groups.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new CellStyleGroup (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the CellStyleGroup.
-*** 
+<HorizontalLine />
 > CellStyleGroup **item**( Mixed **index** )
 > 
 > Returns the CellStyleGroup with the specified index or name.
@@ -30,7 +30,7 @@ A collection of cell style groups.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CellStyleGroup **itemByName**( String **name** )
 > 
 > Returns the CellStyleGroup with the specified name.
@@ -39,7 +39,7 @@ A collection of cell style groups.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > CellStyleGroup **itemByID**( Number **id** )
 > 
 > Returns the CellStyleGroup with the specified ID.
@@ -48,7 +48,7 @@ A collection of cell style groups.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > CellStyleGroup **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the CellStyleGroups within the specified range.
@@ -58,19 +58,19 @@ A collection of cell style groups.
 | Mixed | from | The CellStyleGroup, index, or name at the beginning of the range. Can accept: CellStyleGroup, Long Integer or String. |
 | Mixed | to | The CellStyleGroup, index, or name at the end of the range. Can accept: CellStyleGroup, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > CellStyleGroup **firstItem**()
 > 
 > Returns the first CellStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > CellStyleGroup **lastItem**()
 > 
 > Returns the last CellStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > CellStyleGroup **middleItem**()
 > 
 > Returns the middle CellStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > CellStyleGroup **previousItem**( CellStyleGroup **obj** )
 > 
 > Returns the CellStyleGroup with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of cell style groups.
 |---|---|---|
 | CellStyleGroup | obj | The index of the CellStyleGroup that follows the desired CellStyleGroup. |
 
-*** 
+<HorizontalLine />
 > CellStyleGroup **nextItem**( CellStyleGroup **obj** )
 > 
 > Returns the CellStyleGroup whose index follows the specified CellStyleGroup in the collection.
@@ -88,19 +88,19 @@ A collection of cell style groups.
 |---|---|---|
 | CellStyleGroup | obj | The CellStyleGroup whose index comes before the desired CellStyleGroup. |
 
-*** 
+<HorizontalLine />
 > CellStyleGroup **anyItem**()
 > 
 > Returns any CellStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > CellStyleGroup **everyItem**()
 > 
 > Returns every CellStyleGroup in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the CellStyleGroup.
-*** 
+<HorizontalLine />
 > CellStyleGroup **[]**( Number **index** )
 > 
 > Returns the CellStyleGroup with the specified index.

@@ -18,11 +18,11 @@ A collection of kinsoku tables.
 | String | name | The name of the new kinsoku table. |
 | Object | withProperties | Initial values for properties of the new KinsokuTable (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the KinsokuTable.
-*** 
+<HorizontalLine />
 > KinsokuTable **item**( Mixed **index** )
 > 
 > Returns the KinsokuTable with the specified index or name.
@@ -31,7 +31,7 @@ A collection of kinsoku tables.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > KinsokuTable **itemByName**( String **name** )
 > 
 > Returns the KinsokuTable with the specified name.
@@ -40,7 +40,7 @@ A collection of kinsoku tables.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > KinsokuTable **itemByID**( Number **id** )
 > 
 > Returns the KinsokuTable with the specified ID.
@@ -49,7 +49,7 @@ A collection of kinsoku tables.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > KinsokuTable **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the KinsokuTables within the specified range.
@@ -59,19 +59,19 @@ A collection of kinsoku tables.
 | Mixed | from | The KinsokuTable, index, or name at the beginning of the range. Can accept: KinsokuTable, Long Integer or String. |
 | Mixed | to | The KinsokuTable, index, or name at the end of the range. Can accept: KinsokuTable, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > KinsokuTable **firstItem**()
 > 
 > Returns the first KinsokuTable in the collection.
-*** 
+<HorizontalLine />
 > KinsokuTable **lastItem**()
 > 
 > Returns the last KinsokuTable in the collection.
-*** 
+<HorizontalLine />
 > KinsokuTable **middleItem**()
 > 
 > Returns the middle KinsokuTable in the collection.
-*** 
+<HorizontalLine />
 > KinsokuTable **previousItem**( KinsokuTable **obj** )
 > 
 > Returns the KinsokuTable with the index previous to the specified index.
@@ -80,7 +80,7 @@ A collection of kinsoku tables.
 |---|---|---|
 | KinsokuTable | obj | The index of the KinsokuTable that follows the desired KinsokuTable. |
 
-*** 
+<HorizontalLine />
 > KinsokuTable **nextItem**( KinsokuTable **obj** )
 > 
 > Returns the KinsokuTable whose index follows the specified KinsokuTable in the collection.
@@ -89,19 +89,19 @@ A collection of kinsoku tables.
 |---|---|---|
 | KinsokuTable | obj | The KinsokuTable whose index comes before the desired KinsokuTable. |
 
-*** 
+<HorizontalLine />
 > KinsokuTable **anyItem**()
 > 
 > Returns any KinsokuTable in the collection.
-*** 
+<HorizontalLine />
 > KinsokuTable **everyItem**()
 > 
 > Returns every KinsokuTable in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the KinsokuTable.
-*** 
+<HorizontalLine />
 > KinsokuTable **[]**( Number **index** )
 > 
 > Returns the KinsokuTable with the specified index.

@@ -7,19 +7,19 @@ Options for specifying position relative to the reference XML element or withing
 > Number **BEFORE_ELEMENT** = 1482843494
 > 
 > Specifies the position before the XML element.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **AFTER_ELEMENT** = 1482778228
 > 
 > Specifies the position after the XML element.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ELEMENT_START** = 1482844014
 > 
 > Specifies the position at the beginning of the XML element.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ELEMENT_END** = 1483042404

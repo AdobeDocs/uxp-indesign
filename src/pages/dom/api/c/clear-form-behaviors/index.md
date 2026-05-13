@@ -12,7 +12,7 @@ A collection of clear form behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the ClearFormBehavior.
-*** 
+<HorizontalLine />
 > ClearFormBehavior **add**( Object **withProperties** )
 > 
 > Creates a new ClearFormBehavior.
@@ -21,7 +21,7 @@ A collection of clear form behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new ClearFormBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > ClearFormBehavior **item**( Mixed **index** )
 > 
 > Returns the ClearFormBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of clear form behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ClearFormBehavior **itemByName**( String **name** )
 > 
 > Returns the ClearFormBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of clear form behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > ClearFormBehavior **itemByID**( Number **id** )
 > 
 > Returns the ClearFormBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of clear form behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > ClearFormBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ClearFormBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of clear form behavior objects.
 | Mixed | from | The ClearFormBehavior, index, or name at the beginning of the range. Can accept: ClearFormBehavior, Long Integer or String. |
 | Mixed | to | The ClearFormBehavior, index, or name at the end of the range. Can accept: ClearFormBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ClearFormBehavior **firstItem**()
 > 
 > Returns the first ClearFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > ClearFormBehavior **lastItem**()
 > 
 > Returns the last ClearFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > ClearFormBehavior **middleItem**()
 > 
 > Returns the middle ClearFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > ClearFormBehavior **previousItem**( ClearFormBehavior **obj** )
 > 
 > Returns the ClearFormBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of clear form behavior objects.
 |---|---|---|
 | ClearFormBehavior | obj | The index of the ClearFormBehavior that follows the desired ClearFormBehavior. |
 
-*** 
+<HorizontalLine />
 > ClearFormBehavior **nextItem**( ClearFormBehavior **obj** )
 > 
 > Returns the ClearFormBehavior whose index follows the specified ClearFormBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of clear form behavior objects.
 |---|---|---|
 | ClearFormBehavior | obj | The ClearFormBehavior whose index comes before the desired ClearFormBehavior. |
 
-*** 
+<HorizontalLine />
 > ClearFormBehavior **anyItem**()
 > 
 > Returns any ClearFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > ClearFormBehavior **everyItem**()
 > 
 > Returns every ClearFormBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ClearFormBehavior.
-*** 
+<HorizontalLine />
 > ClearFormBehavior **[]**( Number **index** )
 > 
 > Returns the ClearFormBehavior with the specified index.

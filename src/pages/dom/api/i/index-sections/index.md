@@ -12,7 +12,7 @@ A collection of index sections.
 > Number **count**()
 > 
 > Displays the number of elements in the IndexSection.
-*** 
+<HorizontalLine />
 > IndexSection **item**( Mixed **index** )
 > 
 > Returns the IndexSection with the specified index or name.
@@ -21,7 +21,7 @@ A collection of index sections.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > IndexSection **itemByName**( String **name** )
 > 
 > Returns the IndexSection with the specified name.
@@ -30,7 +30,7 @@ A collection of index sections.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > IndexSection **itemByID**( Number **id** )
 > 
 > Returns the IndexSection with the specified ID.
@@ -39,7 +39,7 @@ A collection of index sections.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > IndexSection **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the IndexSections within the specified range.
@@ -49,19 +49,19 @@ A collection of index sections.
 | Mixed | from | The IndexSection, index, or name at the beginning of the range. Can accept: IndexSection, Long Integer or String. |
 | Mixed | to | The IndexSection, index, or name at the end of the range. Can accept: IndexSection, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > IndexSection **firstItem**()
 > 
 > Returns the first IndexSection in the collection.
-*** 
+<HorizontalLine />
 > IndexSection **lastItem**()
 > 
 > Returns the last IndexSection in the collection.
-*** 
+<HorizontalLine />
 > IndexSection **middleItem**()
 > 
 > Returns the middle IndexSection in the collection.
-*** 
+<HorizontalLine />
 > IndexSection **previousItem**( IndexSection **obj** )
 > 
 > Returns the IndexSection with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of index sections.
 |---|---|---|
 | IndexSection | obj | The index of the IndexSection that follows the desired IndexSection. |
 
-*** 
+<HorizontalLine />
 > IndexSection **nextItem**( IndexSection **obj** )
 > 
 > Returns the IndexSection whose index follows the specified IndexSection in the collection.
@@ -79,19 +79,19 @@ A collection of index sections.
 |---|---|---|
 | IndexSection | obj | The IndexSection whose index comes before the desired IndexSection. |
 
-*** 
+<HorizontalLine />
 > IndexSection **anyItem**()
 > 
 > Returns any IndexSection in the collection.
-*** 
+<HorizontalLine />
 > IndexSection **everyItem**()
 > 
 > Returns every IndexSection in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the IndexSection.
-*** 
+<HorizontalLine />
 > IndexSection **[]**( Number **index** )
 > 
 > Returns the IndexSection with the specified index.

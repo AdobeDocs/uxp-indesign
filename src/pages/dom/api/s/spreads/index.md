@@ -12,7 +12,7 @@ A collection of spreads.
 > Number **count**()
 > 
 > Displays the number of elements in the Spread.
-*** 
+<HorizontalLine />
 > Spread **add**( LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new spread.
@@ -23,7 +23,7 @@ A collection of spreads.
 | Mixed | reference | The reference object. Note: Required when the at parameter specifies before or after. Can accept: Spread or Document. (Optional) |
 | Object | withProperties | Initial values for properties of the new Spread (Optional) |
 
-*** 
+<HorizontalLine />
 > Spread **item**( Mixed **index** )
 > 
 > Returns the Spread with the specified index or name.
@@ -32,7 +32,7 @@ A collection of spreads.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Spread **itemByName**( String **name** )
 > 
 > Returns the Spread with the specified name.
@@ -41,7 +41,7 @@ A collection of spreads.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Spread **itemByID**( Number **id** )
 > 
 > Returns the Spread with the specified ID.
@@ -50,7 +50,7 @@ A collection of spreads.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Spread **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Spreads within the specified range.
@@ -60,19 +60,19 @@ A collection of spreads.
 | Mixed | from | The Spread, index, or name at the beginning of the range. Can accept: Spread, Long Integer or String. |
 | Mixed | to | The Spread, index, or name at the end of the range. Can accept: Spread, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Spread **firstItem**()
 > 
 > Returns the first Spread in the collection.
-*** 
+<HorizontalLine />
 > Spread **lastItem**()
 > 
 > Returns the last Spread in the collection.
-*** 
+<HorizontalLine />
 > Spread **middleItem**()
 > 
 > Returns the middle Spread in the collection.
-*** 
+<HorizontalLine />
 > Spread **previousItem**( Spread **obj** )
 > 
 > Returns the Spread with the index previous to the specified index.
@@ -81,7 +81,7 @@ A collection of spreads.
 |---|---|---|
 | Spread | obj | The index of the Spread that follows the desired Spread. |
 
-*** 
+<HorizontalLine />
 > Spread **nextItem**( Spread **obj** )
 > 
 > Returns the Spread whose index follows the specified Spread in the collection.
@@ -90,19 +90,19 @@ A collection of spreads.
 |---|---|---|
 | Spread | obj | The Spread whose index comes before the desired Spread. |
 
-*** 
+<HorizontalLine />
 > Spread **anyItem**()
 > 
 > Returns any Spread in the collection.
-*** 
+<HorizontalLine />
 > Spread **everyItem**()
 > 
 > Returns every Spread in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Spread.
-*** 
+<HorizontalLine />
 > Spread **[]**( Number **index** )
 > 
 > Returns the Spread with the specified index.

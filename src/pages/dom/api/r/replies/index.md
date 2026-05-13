@@ -12,7 +12,7 @@ A collection of reply objects
 > Number **count**()
 > 
 > Displays the number of elements in the Reply.
-*** 
+<HorizontalLine />
 > Reply **item**( Mixed **index** )
 > 
 > Returns the Reply with the specified index or name.
@@ -21,7 +21,7 @@ A collection of reply objects
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Reply **itemByName**( String **name** )
 > 
 > Returns the Reply with the specified name.
@@ -30,7 +30,7 @@ A collection of reply objects
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Reply **itemByID**( Number **id** )
 > 
 > Returns the Reply with the specified ID.
@@ -39,7 +39,7 @@ A collection of reply objects
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Reply **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Replies within the specified range.
@@ -49,19 +49,19 @@ A collection of reply objects
 | Mixed | from | The Reply, index, or name at the beginning of the range. Can accept: Reply, Long Integer or String. |
 | Mixed | to | The Reply, index, or name at the end of the range. Can accept: Reply, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Reply **firstItem**()
 > 
 > Returns the first Reply in the collection.
-*** 
+<HorizontalLine />
 > Reply **lastItem**()
 > 
 > Returns the last Reply in the collection.
-*** 
+<HorizontalLine />
 > Reply **middleItem**()
 > 
 > Returns the middle Reply in the collection.
-*** 
+<HorizontalLine />
 > Reply **previousItem**( Reply **obj** )
 > 
 > Returns the Reply with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of reply objects
 |---|---|---|
 | Reply | obj | The index of the Reply that follows the desired Reply. |
 
-*** 
+<HorizontalLine />
 > Reply **nextItem**( Reply **obj** )
 > 
 > Returns the Reply whose index follows the specified Reply in the collection.
@@ -79,19 +79,19 @@ A collection of reply objects
 |---|---|---|
 | Reply | obj | The Reply whose index comes before the desired Reply. |
 
-*** 
+<HorizontalLine />
 > Reply **anyItem**()
 > 
 > Returns any Reply in the collection.
-*** 
+<HorizontalLine />
 > Reply **everyItem**()
 > 
 > Returns every Reply in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Reply.
-*** 
+<HorizontalLine />
 > Reply **[]**( Number **index** )
 > 
 > Returns the Reply with the specified index.

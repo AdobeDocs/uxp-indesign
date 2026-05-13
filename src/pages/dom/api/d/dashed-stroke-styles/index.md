@@ -17,11 +17,11 @@ A collection of dashed stroke styles.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new DashedStrokeStyle (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the DashedStrokeStyle.
-*** 
+<HorizontalLine />
 > DashedStrokeStyle **item**( Mixed **index** )
 > 
 > Returns the DashedStrokeStyle with the specified index or name.
@@ -30,7 +30,7 @@ A collection of dashed stroke styles.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > DashedStrokeStyle **itemByName**( String **name** )
 > 
 > Returns the DashedStrokeStyle with the specified name.
@@ -39,7 +39,7 @@ A collection of dashed stroke styles.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > DashedStrokeStyle **itemByID**( Number **id** )
 > 
 > Returns the DashedStrokeStyle with the specified ID.
@@ -48,7 +48,7 @@ A collection of dashed stroke styles.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > DashedStrokeStyle **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the DashedStrokeStyles within the specified range.
@@ -58,19 +58,19 @@ A collection of dashed stroke styles.
 | Mixed | from | The DashedStrokeStyle, index, or name at the beginning of the range. Can accept: DashedStrokeStyle, Long Integer or String. |
 | Mixed | to | The DashedStrokeStyle, index, or name at the end of the range. Can accept: DashedStrokeStyle, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > DashedStrokeStyle **firstItem**()
 > 
 > Returns the first DashedStrokeStyle in the collection.
-*** 
+<HorizontalLine />
 > DashedStrokeStyle **lastItem**()
 > 
 > Returns the last DashedStrokeStyle in the collection.
-*** 
+<HorizontalLine />
 > DashedStrokeStyle **middleItem**()
 > 
 > Returns the middle DashedStrokeStyle in the collection.
-*** 
+<HorizontalLine />
 > DashedStrokeStyle **previousItem**( DashedStrokeStyle **obj** )
 > 
 > Returns the DashedStrokeStyle with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of dashed stroke styles.
 |---|---|---|
 | DashedStrokeStyle | obj | The index of the DashedStrokeStyle that follows the desired DashedStrokeStyle. |
 
-*** 
+<HorizontalLine />
 > DashedStrokeStyle **nextItem**( DashedStrokeStyle **obj** )
 > 
 > Returns the DashedStrokeStyle whose index follows the specified DashedStrokeStyle in the collection.
@@ -88,19 +88,19 @@ A collection of dashed stroke styles.
 |---|---|---|
 | DashedStrokeStyle | obj | The DashedStrokeStyle whose index comes before the desired DashedStrokeStyle. |
 
-*** 
+<HorizontalLine />
 > DashedStrokeStyle **anyItem**()
 > 
 > Returns any DashedStrokeStyle in the collection.
-*** 
+<HorizontalLine />
 > DashedStrokeStyle **everyItem**()
 > 
 > Returns every DashedStrokeStyle in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the DashedStrokeStyle.
-*** 
+<HorizontalLine />
 > DashedStrokeStyle **[]**( Number **index** )
 > 
 > Returns the DashedStrokeStyle with the specified index.

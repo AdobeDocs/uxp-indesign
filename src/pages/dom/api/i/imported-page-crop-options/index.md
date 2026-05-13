@@ -7,13 +7,13 @@ The cropping option of an imported InDesign page.
 > Number **CROP_CONTENT** = 1131573315
 > 
 > Places the page's bounding box.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CROP_BLEED** = 1131573314
 > 
 > Places the page's bleed area.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CROP_SLUG** = 1131565932

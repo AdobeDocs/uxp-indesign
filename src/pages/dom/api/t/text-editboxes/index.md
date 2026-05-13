@@ -17,11 +17,11 @@ A collection of text editboxes.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new TextEditbox (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the TextEditbox.
-*** 
+<HorizontalLine />
 > TextEditbox **item**( Mixed **index** )
 > 
 > Returns the TextEditbox with the specified index or name.
@@ -30,7 +30,7 @@ A collection of text editboxes.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TextEditbox **itemByID**( Number **id** )
 > 
 > Returns the TextEditbox with the specified ID.
@@ -39,7 +39,7 @@ A collection of text editboxes.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > TextEditbox **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TextEditboxes within the specified range.
@@ -49,19 +49,19 @@ A collection of text editboxes.
 | Mixed | from | The TextEditbox, index, or name at the beginning of the range. Can accept: TextEditbox, Long Integer or String. |
 | Mixed | to | The TextEditbox, index, or name at the end of the range. Can accept: TextEditbox, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TextEditbox **firstItem**()
 > 
 > Returns the first TextEditbox in the collection.
-*** 
+<HorizontalLine />
 > TextEditbox **lastItem**()
 > 
 > Returns the last TextEditbox in the collection.
-*** 
+<HorizontalLine />
 > TextEditbox **middleItem**()
 > 
 > Returns the middle TextEditbox in the collection.
-*** 
+<HorizontalLine />
 > TextEditbox **previousItem**( TextEditbox **obj** )
 > 
 > Returns the TextEditbox with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of text editboxes.
 |---|---|---|
 | TextEditbox | obj | The index of the TextEditbox that follows the desired TextEditbox. |
 
-*** 
+<HorizontalLine />
 > TextEditbox **nextItem**( TextEditbox **obj** )
 > 
 > Returns the TextEditbox whose index follows the specified TextEditbox in the collection.
@@ -79,19 +79,19 @@ A collection of text editboxes.
 |---|---|---|
 | TextEditbox | obj | The TextEditbox whose index comes before the desired TextEditbox. |
 
-*** 
+<HorizontalLine />
 > TextEditbox **anyItem**()
 > 
 > Returns any TextEditbox in the collection.
-*** 
+<HorizontalLine />
 > TextEditbox **everyItem**()
 > 
 > Returns every TextEditbox in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TextEditbox.
-*** 
+<HorizontalLine />
 > TextEditbox **[]**( Number **index** )
 > 
 > Returns the TextEditbox with the specified index.

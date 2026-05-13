@@ -18,11 +18,11 @@ A collection of bookmarks.
 | Mixed | destination | The bookmark destination. Can accept: HyperlinkTextDestination, HyperlinkPageDestination, HyperlinkExternalPageDestination or Page. |
 | Object | withProperties | Initial values for properties of the new Bookmark (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the Bookmark.
-*** 
+<HorizontalLine />
 > Bookmark **item**( Mixed **index** )
 > 
 > Returns the Bookmark with the specified index or name.
@@ -31,7 +31,7 @@ A collection of bookmarks.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Bookmark **itemByName**( String **name** )
 > 
 > Returns the Bookmark with the specified name.
@@ -40,7 +40,7 @@ A collection of bookmarks.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > Bookmark **itemByID**( Number **id** )
 > 
 > Returns the Bookmark with the specified ID.
@@ -49,7 +49,7 @@ A collection of bookmarks.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > Bookmark **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the Bookmarks within the specified range.
@@ -59,19 +59,19 @@ A collection of bookmarks.
 | Mixed | from | The Bookmark, index, or name at the beginning of the range. Can accept: Bookmark, Long Integer or String. |
 | Mixed | to | The Bookmark, index, or name at the end of the range. Can accept: Bookmark, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > Bookmark **firstItem**()
 > 
 > Returns the first Bookmark in the collection.
-*** 
+<HorizontalLine />
 > Bookmark **lastItem**()
 > 
 > Returns the last Bookmark in the collection.
-*** 
+<HorizontalLine />
 > Bookmark **middleItem**()
 > 
 > Returns the middle Bookmark in the collection.
-*** 
+<HorizontalLine />
 > Bookmark **previousItem**( Bookmark **obj** )
 > 
 > Returns the Bookmark with the index previous to the specified index.
@@ -80,7 +80,7 @@ A collection of bookmarks.
 |---|---|---|
 | Bookmark | obj | The index of the Bookmark that follows the desired Bookmark. |
 
-*** 
+<HorizontalLine />
 > Bookmark **nextItem**( Bookmark **obj** )
 > 
 > Returns the Bookmark whose index follows the specified Bookmark in the collection.
@@ -89,19 +89,19 @@ A collection of bookmarks.
 |---|---|---|
 | Bookmark | obj | The Bookmark whose index comes before the desired Bookmark. |
 
-*** 
+<HorizontalLine />
 > Bookmark **anyItem**()
 > 
 > Returns any Bookmark in the collection.
-*** 
+<HorizontalLine />
 > Bookmark **everyItem**()
 > 
 > Returns every Bookmark in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Bookmark.
-*** 
+<HorizontalLine />
 > Bookmark **[]**( Number **index** )
 > 
 > Returns the Bookmark with the specified index.

@@ -17,11 +17,11 @@ A collection of individual radiobutton controls.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new RadiobuttonControl (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the RadiobuttonControl.
-*** 
+<HorizontalLine />
 > RadiobuttonControl **item**( Mixed **index** )
 > 
 > Returns the RadiobuttonControl with the specified index or name.
@@ -30,7 +30,7 @@ A collection of individual radiobutton controls.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > RadiobuttonControl **itemByID**( Number **id** )
 > 
 > Returns the RadiobuttonControl with the specified ID.
@@ -39,7 +39,7 @@ A collection of individual radiobutton controls.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > RadiobuttonControl **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the RadiobuttonControls within the specified range.
@@ -49,19 +49,19 @@ A collection of individual radiobutton controls.
 | Mixed | from | The RadiobuttonControl, index, or name at the beginning of the range. Can accept: RadiobuttonControl, Long Integer or String. |
 | Mixed | to | The RadiobuttonControl, index, or name at the end of the range. Can accept: RadiobuttonControl, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > RadiobuttonControl **firstItem**()
 > 
 > Returns the first RadiobuttonControl in the collection.
-*** 
+<HorizontalLine />
 > RadiobuttonControl **lastItem**()
 > 
 > Returns the last RadiobuttonControl in the collection.
-*** 
+<HorizontalLine />
 > RadiobuttonControl **middleItem**()
 > 
 > Returns the middle RadiobuttonControl in the collection.
-*** 
+<HorizontalLine />
 > RadiobuttonControl **previousItem**( RadiobuttonControl **obj** )
 > 
 > Returns the RadiobuttonControl with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of individual radiobutton controls.
 |---|---|---|
 | RadiobuttonControl | obj | The index of the RadiobuttonControl that follows the desired RadiobuttonControl. |
 
-*** 
+<HorizontalLine />
 > RadiobuttonControl **nextItem**( RadiobuttonControl **obj** )
 > 
 > Returns the RadiobuttonControl whose index follows the specified RadiobuttonControl in the collection.
@@ -79,19 +79,19 @@ A collection of individual radiobutton controls.
 |---|---|---|
 | RadiobuttonControl | obj | The RadiobuttonControl whose index comes before the desired RadiobuttonControl. |
 
-*** 
+<HorizontalLine />
 > RadiobuttonControl **anyItem**()
 > 
 > Returns any RadiobuttonControl in the collection.
-*** 
+<HorizontalLine />
 > RadiobuttonControl **everyItem**()
 > 
 > Returns every RadiobuttonControl in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the RadiobuttonControl.
-*** 
+<HorizontalLine />
 > RadiobuttonControl **[]**( Number **index** )
 > 
 > Returns the RadiobuttonControl with the specified index.

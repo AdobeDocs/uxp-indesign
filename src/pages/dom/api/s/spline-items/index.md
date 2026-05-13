@@ -12,7 +12,7 @@ The spline items collection.
 > Number **count**()
 > 
 > Displays the number of elements in the SplineItem.
-*** 
+<HorizontalLine />
 > SplineItem **item**( Mixed **index** )
 > 
 > Returns the SplineItem with the specified index or name.
@@ -21,7 +21,7 @@ The spline items collection.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > SplineItem **itemByName**( String **name** )
 > 
 > Returns the SplineItem with the specified name.
@@ -30,7 +30,7 @@ The spline items collection.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > SplineItem **itemByID**( Number **id** )
 > 
 > Returns the SplineItem with the specified ID.
@@ -39,7 +39,7 @@ The spline items collection.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > SplineItem **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the SplineItems within the specified range.
@@ -49,19 +49,19 @@ The spline items collection.
 | Mixed | from | The SplineItem, index, or name at the beginning of the range. Can accept: SplineItem, Long Integer or String. |
 | Mixed | to | The SplineItem, index, or name at the end of the range. Can accept: SplineItem, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > SplineItem **firstItem**()
 > 
 > Returns the first SplineItem in the collection.
-*** 
+<HorizontalLine />
 > SplineItem **lastItem**()
 > 
 > Returns the last SplineItem in the collection.
-*** 
+<HorizontalLine />
 > SplineItem **middleItem**()
 > 
 > Returns the middle SplineItem in the collection.
-*** 
+<HorizontalLine />
 > SplineItem **previousItem**( SplineItem **obj** )
 > 
 > Returns the SplineItem with the index previous to the specified index.
@@ -70,7 +70,7 @@ The spline items collection.
 |---|---|---|
 | SplineItem | obj | The index of the SplineItem that follows the desired SplineItem. |
 
-*** 
+<HorizontalLine />
 > SplineItem **nextItem**( SplineItem **obj** )
 > 
 > Returns the SplineItem whose index follows the specified SplineItem in the collection.
@@ -79,19 +79,19 @@ The spline items collection.
 |---|---|---|
 | SplineItem | obj | The SplineItem whose index comes before the desired SplineItem. |
 
-*** 
+<HorizontalLine />
 > SplineItem **anyItem**()
 > 
 > Returns any SplineItem in the collection.
-*** 
+<HorizontalLine />
 > SplineItem **everyItem**()
 > 
 > Returns every SplineItem in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the SplineItem.
-*** 
+<HorizontalLine />
 > SplineItem **[]**( Number **index** )
 > 
 > Returns the SplineItem with the specified index.

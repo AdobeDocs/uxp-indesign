@@ -12,7 +12,7 @@ A collection of DTDs.
 > Number **count**()
 > 
 > Displays the number of elements in the DTD.
-*** 
+<HorizontalLine />
 > DTD **item**( Mixed **index** )
 > 
 > Returns the DTD with the specified index or name.
@@ -21,7 +21,7 @@ A collection of DTDs.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > DTD **itemByID**( Number **id** )
 > 
 > Returns the DTD with the specified ID.
@@ -30,7 +30,7 @@ A collection of DTDs.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > DTD **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the DTDs within the specified range.
@@ -40,19 +40,19 @@ A collection of DTDs.
 | Mixed | from | The DTD, index, or name at the beginning of the range. Can accept: DTD, Long Integer or String. |
 | Mixed | to | The DTD, index, or name at the end of the range. Can accept: DTD, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > DTD **firstItem**()
 > 
 > Returns the first DTD in the collection.
-*** 
+<HorizontalLine />
 > DTD **lastItem**()
 > 
 > Returns the last DTD in the collection.
-*** 
+<HorizontalLine />
 > DTD **middleItem**()
 > 
 > Returns the middle DTD in the collection.
-*** 
+<HorizontalLine />
 > DTD **previousItem**( DTD **obj** )
 > 
 > Returns the DTD with the index previous to the specified index.
@@ -61,7 +61,7 @@ A collection of DTDs.
 |---|---|---|
 | DTD | obj | The index of the DTD that follows the desired DTD. |
 
-*** 
+<HorizontalLine />
 > DTD **nextItem**( DTD **obj** )
 > 
 > Returns the DTD whose index follows the specified DTD in the collection.
@@ -70,19 +70,19 @@ A collection of DTDs.
 |---|---|---|
 | DTD | obj | The DTD whose index comes before the desired DTD. |
 
-*** 
+<HorizontalLine />
 > DTD **anyItem**()
 > 
 > Returns any DTD in the collection.
-*** 
+<HorizontalLine />
 > DTD **everyItem**()
 > 
 > Returns every DTD in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the DTD.
-*** 
+<HorizontalLine />
 > DTD **[]**( Number **index** )
 > 
 > Returns the DTD with the specified index.

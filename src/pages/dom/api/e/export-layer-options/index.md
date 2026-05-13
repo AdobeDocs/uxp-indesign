@@ -7,13 +7,13 @@ Export layer options.
 > Number **EXPORT_ALL_LAYERS** = 1702388076
 > 
 > Export all layers
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EXPORT_VISIBLE_LAYERS** = 1702393452
 > 
 > Export visible layers
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EXPORT_VISIBLE_PRINTABLE_LAYERS** = 1702260844

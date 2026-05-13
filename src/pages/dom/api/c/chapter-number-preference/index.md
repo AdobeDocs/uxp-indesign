@@ -7,37 +7,37 @@ Chapter numbering preferences.
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Document **parent** 
 >
 > The parent of the ChapterNumberPreference (a Document).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > Number **chapterNumber** 
 >
 > Chapter number.
-*** 
+<HorizontalLine />
 > ChapterNumberSources **chapterNumberSource** 
 >
 > Source for generating the chapter number.
-*** 
+<HorizontalLine />
 > Mixed **chapterNumberFormat** 
 >
 > Chapter number formatting options. Can return: NumberingStyle enumerator or String.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -46,15 +46,15 @@ Chapter numbering preferences.
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ChapterNumberPreference.
-*** 
+<HorizontalLine />
 > ChapterNumberPreference **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -65,7 +65,7 @@ Chapter numbering preferences.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

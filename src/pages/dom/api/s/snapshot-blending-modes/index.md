@@ -7,19 +7,19 @@ Modes that control which nearby snapshots, by size and shape, are blended into t
 > Number **IGNORE_LAYOUT_SNAPSHOTS** = 1399736679
 > 
 > Turns off the influence of layout snapshots completely.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **USE_NEAREST_SNAPSHOT** = 1399737957
 > 
 > Use the layout snapshot nearest in size and shape to the new layout.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **LIMITED_SNAPSHOT_BLENDING** = 1399737449
 > 
 > Use only layout snapshots within the same class as the new layout.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **FULL_SNAPSHOT_BLENDING** = 1399735925

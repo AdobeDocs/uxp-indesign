@@ -17,11 +17,11 @@ A collection of text variables.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new TextVariable (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the TextVariable.
-*** 
+<HorizontalLine />
 > TextVariable **item**( Mixed **index** )
 > 
 > Returns the TextVariable with the specified index or name.
@@ -30,7 +30,7 @@ A collection of text variables.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TextVariable **itemByName**( String **name** )
 > 
 > Returns the TextVariable with the specified name.
@@ -39,7 +39,7 @@ A collection of text variables.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > TextVariable **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TextVariables within the specified range.
@@ -49,19 +49,19 @@ A collection of text variables.
 | Mixed | from | The TextVariable, index, or name at the beginning of the range. Can accept: TextVariable, Long Integer or String. |
 | Mixed | to | The TextVariable, index, or name at the end of the range. Can accept: TextVariable, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TextVariable **firstItem**()
 > 
 > Returns the first TextVariable in the collection.
-*** 
+<HorizontalLine />
 > TextVariable **lastItem**()
 > 
 > Returns the last TextVariable in the collection.
-*** 
+<HorizontalLine />
 > TextVariable **middleItem**()
 > 
 > Returns the middle TextVariable in the collection.
-*** 
+<HorizontalLine />
 > TextVariable **previousItem**( TextVariable **obj** )
 > 
 > Returns the TextVariable with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of text variables.
 |---|---|---|
 | TextVariable | obj | The index of the TextVariable that follows the desired TextVariable. |
 
-*** 
+<HorizontalLine />
 > TextVariable **nextItem**( TextVariable **obj** )
 > 
 > Returns the TextVariable whose index follows the specified TextVariable in the collection.
@@ -79,19 +79,19 @@ A collection of text variables.
 |---|---|---|
 | TextVariable | obj | The TextVariable whose index comes before the desired TextVariable. |
 
-*** 
+<HorizontalLine />
 > TextVariable **anyItem**()
 > 
 > Returns any TextVariable in the collection.
-*** 
+<HorizontalLine />
 > TextVariable **everyItem**()
 > 
 > Returns every TextVariable in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TextVariable.
-*** 
+<HorizontalLine />
 > TextVariable **[]**( Number **index** )
 > 
 > Returns the TextVariable with the specified index.

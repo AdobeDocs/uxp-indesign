@@ -7,13 +7,13 @@ The color-rendering dictionary (CRD) to use.
 > Number **DEFAULT_VALUE** = 1147563124
 > 
 > Uses the default CRD.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **USE_DOCUMENT** = 1967419235
 > 
 > Uses the document's CRD.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **WORKING** = 1466921579

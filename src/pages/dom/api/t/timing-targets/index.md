@@ -19,11 +19,11 @@ A collection of timing target.
 | Number | delaySeconds | The time delay in seconds for a target. (Optional) |
 | Object | withProperties | Initial values for properties of the new TimingTarget (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the TimingTarget.
-*** 
+<HorizontalLine />
 > TimingTarget **item**( Mixed **index** )
 > 
 > Returns the TimingTarget with the specified index or name.
@@ -32,7 +32,7 @@ A collection of timing target.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TimingTarget **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TimingTargets within the specified range.
@@ -42,19 +42,19 @@ A collection of timing target.
 | Mixed | from | The TimingTarget, index, or name at the beginning of the range. Can accept: TimingTarget, Long Integer or String. |
 | Mixed | to | The TimingTarget, index, or name at the end of the range. Can accept: TimingTarget, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TimingTarget **firstItem**()
 > 
 > Returns the first TimingTarget in the collection.
-*** 
+<HorizontalLine />
 > TimingTarget **lastItem**()
 > 
 > Returns the last TimingTarget in the collection.
-*** 
+<HorizontalLine />
 > TimingTarget **middleItem**()
 > 
 > Returns the middle TimingTarget in the collection.
-*** 
+<HorizontalLine />
 > TimingTarget **previousItem**( TimingTarget **obj** )
 > 
 > Returns the TimingTarget with the index previous to the specified index.
@@ -63,7 +63,7 @@ A collection of timing target.
 |---|---|---|
 | TimingTarget | obj | The index of the TimingTarget that follows the desired TimingTarget. |
 
-*** 
+<HorizontalLine />
 > TimingTarget **nextItem**( TimingTarget **obj** )
 > 
 > Returns the TimingTarget whose index follows the specified TimingTarget in the collection.
@@ -72,19 +72,19 @@ A collection of timing target.
 |---|---|---|
 | TimingTarget | obj | The TimingTarget whose index comes before the desired TimingTarget. |
 
-*** 
+<HorizontalLine />
 > TimingTarget **anyItem**()
 > 
 > Returns any TimingTarget in the collection.
-*** 
+<HorizontalLine />
 > TimingTarget **everyItem**()
 > 
 > Returns every TimingTarget in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TimingTarget.
-*** 
+<HorizontalLine />
 > TimingTarget **[]**( Number **index** )
 > 
 > Returns the TimingTarget with the specified index.

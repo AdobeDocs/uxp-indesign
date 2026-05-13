@@ -17,11 +17,11 @@ A collection of preflight profiles.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new PreflightProfile (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the PreflightProfile.
-*** 
+<HorizontalLine />
 > PreflightProfile **item**( Mixed **index** )
 > 
 > Returns the PreflightProfile with the specified index or name.
@@ -30,7 +30,7 @@ A collection of preflight profiles.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PreflightProfile **itemByName**( String **name** )
 > 
 > Returns the PreflightProfile with the specified name.
@@ -39,7 +39,7 @@ A collection of preflight profiles.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > PreflightProfile **itemByID**( Number **id** )
 > 
 > Returns the PreflightProfile with the specified ID.
@@ -48,7 +48,7 @@ A collection of preflight profiles.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > PreflightProfile **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the PreflightProfiles within the specified range.
@@ -58,19 +58,19 @@ A collection of preflight profiles.
 | Mixed | from | The PreflightProfile, index, or name at the beginning of the range. Can accept: PreflightProfile, Long Integer or String. |
 | Mixed | to | The PreflightProfile, index, or name at the end of the range. Can accept: PreflightProfile, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > PreflightProfile **firstItem**()
 > 
 > Returns the first PreflightProfile in the collection.
-*** 
+<HorizontalLine />
 > PreflightProfile **lastItem**()
 > 
 > Returns the last PreflightProfile in the collection.
-*** 
+<HorizontalLine />
 > PreflightProfile **middleItem**()
 > 
 > Returns the middle PreflightProfile in the collection.
-*** 
+<HorizontalLine />
 > PreflightProfile **previousItem**( PreflightProfile **obj** )
 > 
 > Returns the PreflightProfile with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of preflight profiles.
 |---|---|---|
 | PreflightProfile | obj | The index of the PreflightProfile that follows the desired PreflightProfile. |
 
-*** 
+<HorizontalLine />
 > PreflightProfile **nextItem**( PreflightProfile **obj** )
 > 
 > Returns the PreflightProfile whose index follows the specified PreflightProfile in the collection.
@@ -88,19 +88,19 @@ A collection of preflight profiles.
 |---|---|---|
 | PreflightProfile | obj | The PreflightProfile whose index comes before the desired PreflightProfile. |
 
-*** 
+<HorizontalLine />
 > PreflightProfile **anyItem**()
 > 
 > Returns any PreflightProfile in the collection.
-*** 
+<HorizontalLine />
 > PreflightProfile **everyItem**()
 > 
 > Returns every PreflightProfile in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the PreflightProfile.
-*** 
+<HorizontalLine />
 > PreflightProfile **[]**( Number **index** )
 > 
 > Returns the PreflightProfile with the specified index.

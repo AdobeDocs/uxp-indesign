@@ -17,11 +17,11 @@ A collection of states.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new State (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the State.
-*** 
+<HorizontalLine />
 > State **item**( Mixed **index** )
 > 
 > Returns the State with the specified index or name.
@@ -30,7 +30,7 @@ A collection of states.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > State **itemByName**( String **name** )
 > 
 > Returns the State with the specified name.
@@ -39,7 +39,7 @@ A collection of states.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > State **itemByID**( Number **id** )
 > 
 > Returns the State with the specified ID.
@@ -48,7 +48,7 @@ A collection of states.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > State **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the States within the specified range.
@@ -58,19 +58,19 @@ A collection of states.
 | Mixed | from | The State, index, or name at the beginning of the range. Can accept: State, Long Integer or String. |
 | Mixed | to | The State, index, or name at the end of the range. Can accept: State, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > State **firstItem**()
 > 
 > Returns the first State in the collection.
-*** 
+<HorizontalLine />
 > State **lastItem**()
 > 
 > Returns the last State in the collection.
-*** 
+<HorizontalLine />
 > State **middleItem**()
 > 
 > Returns the middle State in the collection.
-*** 
+<HorizontalLine />
 > State **previousItem**( State **obj** )
 > 
 > Returns the State with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of states.
 |---|---|---|
 | State | obj | The index of the State that follows the desired State. |
 
-*** 
+<HorizontalLine />
 > State **nextItem**( State **obj** )
 > 
 > Returns the State whose index follows the specified State in the collection.
@@ -88,19 +88,19 @@ A collection of states.
 |---|---|---|
 | State | obj | The State whose index comes before the desired State. |
 
-*** 
+<HorizontalLine />
 > State **anyItem**()
 > 
 > Returns any State in the collection.
-*** 
+<HorizontalLine />
 > State **everyItem**()
 > 
 > Returns every State in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the State.
-*** 
+<HorizontalLine />
 > State **[]**( Number **index** )
 > 
 > Returns the State with the specified index.

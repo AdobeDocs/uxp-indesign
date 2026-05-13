@@ -12,7 +12,7 @@ A collection of graphic layers.
 > Number **count**()
 > 
 > Displays the number of elements in the GraphicLayer.
-*** 
+<HorizontalLine />
 > GraphicLayer **item**( Mixed **index** )
 > 
 > Returns the GraphicLayer with the specified index or name.
@@ -21,7 +21,7 @@ A collection of graphic layers.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GraphicLayer **itemByName**( String **name** )
 > 
 > Returns the GraphicLayer with the specified name.
@@ -30,7 +30,7 @@ A collection of graphic layers.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > GraphicLayer **itemByID**( Number **id** )
 > 
 > Returns the GraphicLayer with the specified ID.
@@ -39,7 +39,7 @@ A collection of graphic layers.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > GraphicLayer **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the GraphicLayers within the specified range.
@@ -49,19 +49,19 @@ A collection of graphic layers.
 | Mixed | from | The GraphicLayer, index, or name at the beginning of the range. Can accept: GraphicLayer, Long Integer or String. |
 | Mixed | to | The GraphicLayer, index, or name at the end of the range. Can accept: GraphicLayer, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GraphicLayer **firstItem**()
 > 
 > Returns the first GraphicLayer in the collection.
-*** 
+<HorizontalLine />
 > GraphicLayer **lastItem**()
 > 
 > Returns the last GraphicLayer in the collection.
-*** 
+<HorizontalLine />
 > GraphicLayer **middleItem**()
 > 
 > Returns the middle GraphicLayer in the collection.
-*** 
+<HorizontalLine />
 > GraphicLayer **previousItem**( GraphicLayer **obj** )
 > 
 > Returns the GraphicLayer with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of graphic layers.
 |---|---|---|
 | GraphicLayer | obj | The index of the GraphicLayer that follows the desired GraphicLayer. |
 
-*** 
+<HorizontalLine />
 > GraphicLayer **nextItem**( GraphicLayer **obj** )
 > 
 > Returns the GraphicLayer whose index follows the specified GraphicLayer in the collection.
@@ -79,19 +79,19 @@ A collection of graphic layers.
 |---|---|---|
 | GraphicLayer | obj | The GraphicLayer whose index comes before the desired GraphicLayer. |
 
-*** 
+<HorizontalLine />
 > GraphicLayer **anyItem**()
 > 
 > Returns any GraphicLayer in the collection.
-*** 
+<HorizontalLine />
 > GraphicLayer **everyItem**()
 > 
 > Returns every GraphicLayer in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the GraphicLayer.
-*** 
+<HorizontalLine />
 > GraphicLayer **[]**( Number **index** )
 > 
 > Returns the GraphicLayer with the specified index.

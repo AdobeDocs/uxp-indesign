@@ -12,7 +12,7 @@ A collection of text frames.
 > Number **count**()
 > 
 > Displays the number of elements in the TextFrame.
-*** 
+<HorizontalLine />
 > TextFrame **add**( Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new TextFrame
@@ -24,7 +24,7 @@ A collection of text frames.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new TextFrame (Optional) |
 
-*** 
+<HorizontalLine />
 > TextFrame **item**( Mixed **index** )
 > 
 > Returns the TextFrame with the specified index or name.
@@ -33,7 +33,7 @@ A collection of text frames.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TextFrame **itemByName**( String **name** )
 > 
 > Returns the TextFrame with the specified name.
@@ -42,7 +42,7 @@ A collection of text frames.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > TextFrame **itemByID**( Number **id** )
 > 
 > Returns the TextFrame with the specified ID.
@@ -51,7 +51,7 @@ A collection of text frames.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > TextFrame **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TextFrames within the specified range.
@@ -61,19 +61,19 @@ A collection of text frames.
 | Mixed | from | The TextFrame, index, or name at the beginning of the range. Can accept: TextFrame, Long Integer or String. |
 | Mixed | to | The TextFrame, index, or name at the end of the range. Can accept: TextFrame, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TextFrame **firstItem**()
 > 
 > Returns the first TextFrame in the collection.
-*** 
+<HorizontalLine />
 > TextFrame **lastItem**()
 > 
 > Returns the last TextFrame in the collection.
-*** 
+<HorizontalLine />
 > TextFrame **middleItem**()
 > 
 > Returns the middle TextFrame in the collection.
-*** 
+<HorizontalLine />
 > TextFrame **previousItem**( TextFrame **obj** )
 > 
 > Returns the TextFrame with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of text frames.
 |---|---|---|
 | TextFrame | obj | The index of the TextFrame that follows the desired TextFrame. |
 
-*** 
+<HorizontalLine />
 > TextFrame **nextItem**( TextFrame **obj** )
 > 
 > Returns the TextFrame whose index follows the specified TextFrame in the collection.
@@ -91,19 +91,19 @@ A collection of text frames.
 |---|---|---|
 | TextFrame | obj | The TextFrame whose index comes before the desired TextFrame. |
 
-*** 
+<HorizontalLine />
 > TextFrame **anyItem**()
 > 
 > Returns any TextFrame in the collection.
-*** 
+<HorizontalLine />
 > TextFrame **everyItem**()
 > 
 > Returns every TextFrame in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TextFrame.
-*** 
+<HorizontalLine />
 > TextFrame **[]**( Number **index** )
 > 
 > Returns the TextFrame with the specified index.

@@ -17,11 +17,11 @@ A collection of radiobutton groups.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new RadiobuttonGroup (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the RadiobuttonGroup.
-*** 
+<HorizontalLine />
 > RadiobuttonGroup **item**( Mixed **index** )
 > 
 > Returns the RadiobuttonGroup with the specified index or name.
@@ -30,7 +30,7 @@ A collection of radiobutton groups.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > RadiobuttonGroup **itemByID**( Number **id** )
 > 
 > Returns the RadiobuttonGroup with the specified ID.
@@ -39,7 +39,7 @@ A collection of radiobutton groups.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > RadiobuttonGroup **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the RadiobuttonGroups within the specified range.
@@ -49,19 +49,19 @@ A collection of radiobutton groups.
 | Mixed | from | The RadiobuttonGroup, index, or name at the beginning of the range. Can accept: RadiobuttonGroup, Long Integer or String. |
 | Mixed | to | The RadiobuttonGroup, index, or name at the end of the range. Can accept: RadiobuttonGroup, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > RadiobuttonGroup **firstItem**()
 > 
 > Returns the first RadiobuttonGroup in the collection.
-*** 
+<HorizontalLine />
 > RadiobuttonGroup **lastItem**()
 > 
 > Returns the last RadiobuttonGroup in the collection.
-*** 
+<HorizontalLine />
 > RadiobuttonGroup **middleItem**()
 > 
 > Returns the middle RadiobuttonGroup in the collection.
-*** 
+<HorizontalLine />
 > RadiobuttonGroup **previousItem**( RadiobuttonGroup **obj** )
 > 
 > Returns the RadiobuttonGroup with the index previous to the specified index.
@@ -70,7 +70,7 @@ A collection of radiobutton groups.
 |---|---|---|
 | RadiobuttonGroup | obj | The index of the RadiobuttonGroup that follows the desired RadiobuttonGroup. |
 
-*** 
+<HorizontalLine />
 > RadiobuttonGroup **nextItem**( RadiobuttonGroup **obj** )
 > 
 > Returns the RadiobuttonGroup whose index follows the specified RadiobuttonGroup in the collection.
@@ -79,19 +79,19 @@ A collection of radiobutton groups.
 |---|---|---|
 | RadiobuttonGroup | obj | The RadiobuttonGroup whose index comes before the desired RadiobuttonGroup. |
 
-*** 
+<HorizontalLine />
 > RadiobuttonGroup **anyItem**()
 > 
 > Returns any RadiobuttonGroup in the collection.
-*** 
+<HorizontalLine />
 > RadiobuttonGroup **everyItem**()
 > 
 > Returns every RadiobuttonGroup in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the RadiobuttonGroup.
-*** 
+<HorizontalLine />
 > RadiobuttonGroup **[]**( Number **index** )
 > 
 > Returns the RadiobuttonGroup with the specified index.

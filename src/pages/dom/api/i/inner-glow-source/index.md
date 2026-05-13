@@ -7,7 +7,7 @@ Inner glow source options.
 > Number **CENTER_SOURCED** = 2020618593
 > 
 > The glow radiates from the object's center.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EDGE_SOURCED** = 2020618594

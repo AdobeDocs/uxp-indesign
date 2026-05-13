@@ -20,11 +20,11 @@ A collection of embedded HTML page items.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new HtmlItem (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the HtmlItem.
-*** 
+<HorizontalLine />
 > HtmlItem **item**( Mixed **index** )
 > 
 > Returns the HtmlItem with the specified index or name.
@@ -33,7 +33,7 @@ A collection of embedded HTML page items.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > HtmlItem **itemByName**( String **name** )
 > 
 > Returns the HtmlItem with the specified name.
@@ -42,7 +42,7 @@ A collection of embedded HTML page items.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > HtmlItem **itemByID**( Number **id** )
 > 
 > Returns the HtmlItem with the specified ID.
@@ -51,7 +51,7 @@ A collection of embedded HTML page items.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > HtmlItem **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the HtmlItems within the specified range.
@@ -61,19 +61,19 @@ A collection of embedded HTML page items.
 | Mixed | from | The HtmlItem, index, or name at the beginning of the range. Can accept: HtmlItem, Long Integer or String. |
 | Mixed | to | The HtmlItem, index, or name at the end of the range. Can accept: HtmlItem, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > HtmlItem **firstItem**()
 > 
 > Returns the first HtmlItem in the collection.
-*** 
+<HorizontalLine />
 > HtmlItem **lastItem**()
 > 
 > Returns the last HtmlItem in the collection.
-*** 
+<HorizontalLine />
 > HtmlItem **middleItem**()
 > 
 > Returns the middle HtmlItem in the collection.
-*** 
+<HorizontalLine />
 > HtmlItem **previousItem**( HtmlItem **obj** )
 > 
 > Returns the HtmlItem with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of embedded HTML page items.
 |---|---|---|
 | HtmlItem | obj | The index of the HtmlItem that follows the desired HtmlItem. |
 
-*** 
+<HorizontalLine />
 > HtmlItem **nextItem**( HtmlItem **obj** )
 > 
 > Returns the HtmlItem whose index follows the specified HtmlItem in the collection.
@@ -91,19 +91,19 @@ A collection of embedded HTML page items.
 |---|---|---|
 | HtmlItem | obj | The HtmlItem whose index comes before the desired HtmlItem. |
 
-*** 
+<HorizontalLine />
 > HtmlItem **anyItem**()
 > 
 > Returns any HtmlItem in the collection.
-*** 
+<HorizontalLine />
 > HtmlItem **everyItem**()
 > 
 > Returns every HtmlItem in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the HtmlItem.
-*** 
+<HorizontalLine />
 > HtmlItem **[]**( Number **index** )
 > 
 > Returns the HtmlItem with the specified index.

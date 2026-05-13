@@ -7,181 +7,181 @@ A book.
 > PreflightBookOption **preflightBookOptions** 
 >
 > Preflight book option settings.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EPubFixedLayoutExportPreference **epubFixedLayoutExportPreferences** 
 >
 > EPub fixed layout export preference settings.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EPubExportPreference **epubExportPreferences** 
 >
 > EPub export preference settings.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > PrintPreference **printPreferences** 
 >
 > Print preference settings.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > String **name** 
 >
 > The name of the Book.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > File **fullName** 
 >
 > The full path to the Book, including the name of the Book.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > File **filePath** 
 >
 > The full path to the file.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Boolean **modified** 
 >
 > If true, the Book has been modified since it was last saved.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Boolean **saved** 
 >
 > If true, the Book has been saved since it was created.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Application **parent** 
 >
 > The parent of the Book (a Application).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **index** 
 >
 > The index of the Book within its containing object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Preferences **preferences** 
 >
 > A collection of preferences objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > BookContents **bookContents** 
 >
 > A collection of book content objects.
-*** 
+<HorizontalLine />
 > Mixed **styleSourceDocument** 
 >
 > Current style source document. Can return: Document or BookContent.
-*** 
+<HorizontalLine />
 > RepaginateOption **repaginationOption** 
 >
 > Page numbering options for book content objects within the book.
-*** 
+<HorizontalLine />
 > Boolean **insertBlankPage** 
 >
 > If true, inserts a blank page as necessary to fill in page number gaps caused by the odd or even specification set in the repagination option.
-*** 
+<HorizontalLine />
 > Boolean **automaticPagination** 
 >
 > If true, automatically updates page numbers when pages in book content files are added, deleted, or rearranged.
-*** 
+<HorizontalLine />
 > Boolean **automaticDocumentConversion** 
 >
 > If true, automatically converts the book content object during repagination and synchronization.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeCrossReferenceFormat** 
 >
 > If true, synchronize cross reference formats
-*** 
+<HorizontalLine />
 > Boolean **mergeIdenticalLayers** 
 >
 > If true, merges identically named layers when exporting to PDF.
-*** 
+<HorizontalLine />
 > String **label** 
 >
 > A property that can be set to any string.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeTableOfContentStyle** 
 >
 > If true, synchronize table of content styles.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeTextVariable** 
 >
 > If true, synchronize text variables.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeTableStyle** 
 >
 > If true, synchronize table styles.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeParagraphStyle** 
 >
 > If true, synchronize paragraph styles.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeCharacterStyle** 
 >
 > If true, synchronize character styles.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeTrapStyle** 
 >
 > If true, synchronize trap styles.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeMasterPage** 
 >
 > If true, synchronize master pages.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeObjectStyle** 
 >
 > If true, synchronize object styles.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeSwatch** 
 >
 > If true, synchronize swatches.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeCellStyle** 
 >
 > If true, synchronize cell styles.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeBulletNumberingList** 
 >
 > If true, synchronize bullets and numbering.
-*** 
+<HorizontalLine />
 > Boolean **synchronizeConditionalText** 
 >
 > If true, synchronize conditional text.
-*** 
+<HorizontalLine />
 > SmartMatchOptions **smartMatchStyleGroups** 
 >
 > How to match styles with same name while synchronizing a book.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -208,7 +208,7 @@ A book.
 | String | versionComments | The comments for the version. (Optional) |
 | Boolean | forceSave | If true, forcibly saves a version. (Optional) |
 
-*** 
+<HorizontalLine />
 > **preflight**( File **to**, Boolean **autoOpen** )
 > 
 > Preflight a book and optionally save the resulting report.
@@ -218,7 +218,7 @@ A book.
 | File | to | The preflight report to save to. (Optional) |
 | Boolean | autoOpen | If true, automatically open the report after creation. (Optional) |
 
-*** 
+<HorizontalLine />
 > **print**( Boolean **printDialog**, Mixed **using** )
 > 
 > Prints the Book(s).
@@ -228,7 +228,7 @@ A book.
 | Boolean | printDialog | Whether to invoke the print dialog (Optional) |
 | Mixed | using | Printer preset to use. Can accept: PrinterPresetTypes enumerator or PrinterPreset. (Optional) |
 
-*** 
+<HorizontalLine />
 > **close**( SaveOptions **saving**, File **savingIn**, String **versionComments**, Boolean **forceSave** )
 > 
 > Close the Book
@@ -240,7 +240,7 @@ A book.
 | String | versionComments | The comment for this version (Optional) |
 | Boolean | forceSave | Forcibly save a version (Optional) |
 
-*** 
+<HorizontalLine />
 > **save**( File **to**, String **versionComments**, Boolean **forceSave** )
 > 
 > Saves the book.
@@ -251,7 +251,7 @@ A book.
 | String | versionComments | The comment for this version. (Optional) |
 | Boolean | forceSave | If true, forcibly saves a version. (Optional) |
 
-*** 
+<HorizontalLine />
 > **exportFile**( Mixed **format**, File **to**, Boolean **showingOptions**, PDFExportPreset **using**, BookContent **whichDocuments**, String **versionComments**, Boolean **forceSave** )
 > 
 > Exports the book to a file.
@@ -266,15 +266,15 @@ A book.
 | String | versionComments | The comment for this version. (Optional) |
 | Boolean | forceSave | If true, forcibly saves a version. (Optional) |
 
-*** 
+<HorizontalLine />
 > **synchronize**()
 > 
 > Synchronizes the entire book to the style source document.
-*** 
+<HorizontalLine />
 > **repaginate**()
 > 
 > Repaginates the book.
-*** 
+<HorizontalLine />
 > **insertLabel**( String **key**, String **value** )
 > 
 > Sets the label to the value associated with the specified key.
@@ -284,7 +284,7 @@ A book.
 | String | key | The key. |
 | String | value | The value. |
 
-*** 
+<HorizontalLine />
 > String **extractLabel**( String **key** )
 > 
 > Gets the label value associated with the specified key.
@@ -293,31 +293,31 @@ A book.
 |---|---|---|
 | String | key | The key. |
 
-*** 
+<HorizontalLine />
 > **updateChapterAndParagraphNumbers**()
 > 
 > Updates chapter numbers and paragraph numbers throughout the book.
-*** 
+<HorizontalLine />
 > **updateAllNumbers**()
 > 
 > Update all numbers (e.g. Page numbers, chapter numbers and paragraph numbers) throughout the book.
-*** 
+<HorizontalLine />
 > **updateAllCrossReferences**()
 > 
 > Updates the cross references in the entire book.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the Book.
-*** 
+<HorizontalLine />
 > Book **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -328,7 +328,7 @@ A book.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

@@ -7,13 +7,13 @@ The objects to compress in the PDF document.
 > Number **COMPRESS_NONE** = 1131368047
 > 
 > Uses no compression.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **COMPRESS_STRUCTURE** = 1131369332
 > 
 > Compresses only objects related to PDF structure.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **COMPRESS_OBJECTS** = 1131368290

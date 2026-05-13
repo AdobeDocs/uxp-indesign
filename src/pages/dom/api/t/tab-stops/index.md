@@ -17,11 +17,11 @@ A collection of tab stops.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new TabStop (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the TabStop.
-*** 
+<HorizontalLine />
 > TabStop **item**( Mixed **index** )
 > 
 > Returns the TabStop with the specified index or name.
@@ -30,7 +30,7 @@ A collection of tab stops.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TabStop **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the TabStops within the specified range.
@@ -40,19 +40,19 @@ A collection of tab stops.
 | Mixed | from | The TabStop, index, or name at the beginning of the range. Can accept: TabStop, Long Integer or String. |
 | Mixed | to | The TabStop, index, or name at the end of the range. Can accept: TabStop, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > TabStop **firstItem**()
 > 
 > Returns the first TabStop in the collection.
-*** 
+<HorizontalLine />
 > TabStop **lastItem**()
 > 
 > Returns the last TabStop in the collection.
-*** 
+<HorizontalLine />
 > TabStop **middleItem**()
 > 
 > Returns the middle TabStop in the collection.
-*** 
+<HorizontalLine />
 > TabStop **previousItem**( TabStop **obj** )
 > 
 > Returns the TabStop with the index previous to the specified index.
@@ -61,7 +61,7 @@ A collection of tab stops.
 |---|---|---|
 | TabStop | obj | The index of the TabStop that follows the desired TabStop. |
 
-*** 
+<HorizontalLine />
 > TabStop **nextItem**( TabStop **obj** )
 > 
 > Returns the TabStop whose index follows the specified TabStop in the collection.
@@ -70,19 +70,19 @@ A collection of tab stops.
 |---|---|---|
 | TabStop | obj | The TabStop whose index comes before the desired TabStop. |
 
-*** 
+<HorizontalLine />
 > TabStop **anyItem**()
 > 
 > Returns any TabStop in the collection.
-*** 
+<HorizontalLine />
 > TabStop **everyItem**()
 > 
 > Returns every TabStop in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the TabStop.
-*** 
+<HorizontalLine />
 > TabStop **[]**( Number **index** )
 > 
 > Returns the TabStop with the specified index.

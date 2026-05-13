@@ -12,7 +12,7 @@ A collection of multi-state objects.
 > Number **count**()
 > 
 > Displays the number of elements in the MultiStateObject.
-*** 
+<HorizontalLine />
 > MultiStateObject **add**( Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new MultiStateObject
@@ -24,7 +24,7 @@ A collection of multi-state objects.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new MultiStateObject (Optional) |
 
-*** 
+<HorizontalLine />
 > MultiStateObject **item**( Mixed **index** )
 > 
 > Returns the MultiStateObject with the specified index or name.
@@ -33,7 +33,7 @@ A collection of multi-state objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MultiStateObject **itemByName**( String **name** )
 > 
 > Returns the MultiStateObject with the specified name.
@@ -42,7 +42,7 @@ A collection of multi-state objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > MultiStateObject **itemByID**( Number **id** )
 > 
 > Returns the MultiStateObject with the specified ID.
@@ -51,7 +51,7 @@ A collection of multi-state objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > MultiStateObject **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the MultiStateObjects within the specified range.
@@ -61,19 +61,19 @@ A collection of multi-state objects.
 | Mixed | from | The MultiStateObject, index, or name at the beginning of the range. Can accept: MultiStateObject, Long Integer or String. |
 | Mixed | to | The MultiStateObject, index, or name at the end of the range. Can accept: MultiStateObject, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > MultiStateObject **firstItem**()
 > 
 > Returns the first MultiStateObject in the collection.
-*** 
+<HorizontalLine />
 > MultiStateObject **lastItem**()
 > 
 > Returns the last MultiStateObject in the collection.
-*** 
+<HorizontalLine />
 > MultiStateObject **middleItem**()
 > 
 > Returns the middle MultiStateObject in the collection.
-*** 
+<HorizontalLine />
 > MultiStateObject **previousItem**( MultiStateObject **obj** )
 > 
 > Returns the MultiStateObject with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of multi-state objects.
 |---|---|---|
 | MultiStateObject | obj | The index of the MultiStateObject that follows the desired MultiStateObject. |
 
-*** 
+<HorizontalLine />
 > MultiStateObject **nextItem**( MultiStateObject **obj** )
 > 
 > Returns the MultiStateObject whose index follows the specified MultiStateObject in the collection.
@@ -91,19 +91,19 @@ A collection of multi-state objects.
 |---|---|---|
 | MultiStateObject | obj | The MultiStateObject whose index comes before the desired MultiStateObject. |
 
-*** 
+<HorizontalLine />
 > MultiStateObject **anyItem**()
 > 
 > Returns any MultiStateObject in the collection.
-*** 
+<HorizontalLine />
 > MultiStateObject **everyItem**()
 > 
 > Returns every MultiStateObject in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the MultiStateObject.
-*** 
+<HorizontalLine />
 > MultiStateObject **[]**( Number **index** )
 > 
 > Returns the MultiStateObject with the specified index.

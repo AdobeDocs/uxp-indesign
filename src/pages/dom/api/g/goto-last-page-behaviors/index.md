@@ -12,7 +12,7 @@ A collection of goto last page behavior objects.
 > Number **count**()
 > 
 > Displays the number of elements in the GotoLastPageBehavior.
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **add**( Object **withProperties** )
 > 
 > Creates a new GotoLastPageBehavior.
@@ -21,7 +21,7 @@ A collection of goto last page behavior objects.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new GotoLastPageBehavior (Optional) |
 
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **item**( Mixed **index** )
 > 
 > Returns the GotoLastPageBehavior with the specified index or name.
@@ -30,7 +30,7 @@ A collection of goto last page behavior objects.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **itemByName**( String **name** )
 > 
 > Returns the GotoLastPageBehavior with the specified name.
@@ -39,7 +39,7 @@ A collection of goto last page behavior objects.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **itemByID**( Number **id** )
 > 
 > Returns the GotoLastPageBehavior with the specified ID.
@@ -48,7 +48,7 @@ A collection of goto last page behavior objects.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the GotoLastPageBehaviors within the specified range.
@@ -58,19 +58,19 @@ A collection of goto last page behavior objects.
 | Mixed | from | The GotoLastPageBehavior, index, or name at the beginning of the range. Can accept: GotoLastPageBehavior, Long Integer or String. |
 | Mixed | to | The GotoLastPageBehavior, index, or name at the end of the range. Can accept: GotoLastPageBehavior, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **firstItem**()
 > 
 > Returns the first GotoLastPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **lastItem**()
 > 
 > Returns the last GotoLastPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **middleItem**()
 > 
 > Returns the middle GotoLastPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **previousItem**( GotoLastPageBehavior **obj** )
 > 
 > Returns the GotoLastPageBehavior with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of goto last page behavior objects.
 |---|---|---|
 | GotoLastPageBehavior | obj | The index of the GotoLastPageBehavior that follows the desired GotoLastPageBehavior. |
 
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **nextItem**( GotoLastPageBehavior **obj** )
 > 
 > Returns the GotoLastPageBehavior whose index follows the specified GotoLastPageBehavior in the collection.
@@ -88,19 +88,19 @@ A collection of goto last page behavior objects.
 |---|---|---|
 | GotoLastPageBehavior | obj | The GotoLastPageBehavior whose index comes before the desired GotoLastPageBehavior. |
 
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **anyItem**()
 > 
 > Returns any GotoLastPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **everyItem**()
 > 
 > Returns every GotoLastPageBehavior in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the GotoLastPageBehavior.
-*** 
+<HorizontalLine />
 > GotoLastPageBehavior **[]**( Number **index** )
 > 
 > Returns the GotoLastPageBehavior with the specified index.

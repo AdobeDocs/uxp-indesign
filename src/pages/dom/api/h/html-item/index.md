@@ -7,7 +7,7 @@ Embedded HTML.
 > String **BEFORE_PLACE** = beforePlace
 > 
 > Dispatched before a HtmlItem is placed. This event bubbles. This event is cancelable.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > String **AFTER_PLACE** = afterPlace
@@ -20,395 +20,395 @@ Embedded HTML.
 > XMLItem **associatedXMLElement** 
 >
 > The XML element associated with the HtmlItem.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > TransparencySetting **transparencySettings** 
 >
 > Transparency settings.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > StrokeTransparencySetting **strokeTransparencySettings** 
 >
 > Transparency settings for the stroke.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > FillTransparencySetting **fillTransparencySettings** 
 >
 > Transparency settings for the fill applied to the HtmlItem.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > ContentTransparencySetting **contentTransparencySettings** 
 >
 > Transparency settings for the content of the HtmlItem.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > TextWrapPreference **textWrapPreferences** 
 >
 > The text wrap preference properties that define the default formatting for wrapping text around objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > LinkedPageItemOption **linkedPageItemOptions** 
 >
 > Linked Page Item options
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Boolean **overridden** 
 >
 > If true, the object originated on a master spread and was overridden. If false, the object either originated on a master spread and was not overridden, or the object did not originate on a master page.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Mixed **overriddenMasterPageItem** 
 >
 > An object that originated on a master page and has been overridden. Can return: PageItem, Guide, Graphic, Movie or Sound.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > PageItem **allPageItems** 
 >
 > Lists all page items contained by the HtmlItem.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Graphic **allGraphics** 
 >
 > Lists all graphics contained by the HtmlItem.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Page **parentPage** 
 >
 > The page on which this page item appears.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > AnimationSetting **animationSettings** 
 >
 > The page item animation settings.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > TimingSetting **timingSettings** 
 >
 > The object timing settings.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Article **allArticles** 
 >
 > The list of all articles this page item is part of
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **id** 
 >
 > The unique ID of the HtmlItem.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Boolean **isValid** 
 >
 > Returns true if the object specifier resolves to valid objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Mixed **parent** 
 >
 > The parent of the HtmlItem (a SplineItem, Polygon, GraphicLine, Rectangle or Oval).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **index** 
 >
 > The index of the HtmlItem within its containing object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Preferences **preferences** 
 >
 > A collection of preferences objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Events **events** 
 >
 > A collection of events.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > EventListeners **eventListeners** 
 >
 > A collection of event listeners.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > SVGs **svgs** 
 >
 > A collection of SVG files.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Graphics **graphics** 
 >
 > A collection of imported graphics in any graphic file format (vector, metafile, or bitmap).
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > PageItems **pageItems** 
 >
 > The page items collection, which can be used to process all page items in a container (such as a document, page, or group), regardless of type.
-*** 
+<HorizontalLine />
 > String **htmlContent** 
 >
 > The embedded HTML text
-*** 
+<HorizontalLine />
 > Boolean **fixedDimensions** 
 >
 > Is this HTML able to adapt its width and height based on changes to the parent div or does it have fixed dimensions?
-*** 
+<HorizontalLine />
 > Boolean **allowOverrides** 
 >
 > If true, the master page item can be overridden.
-*** 
+<HorizontalLine />
 > DimensionsConstraints **horizontalLayoutConstraints** 
 >
 > The left margin, width, and right margin constraints this item is subject to when using the object-based layout rule.
-*** 
+<HorizontalLine />
 > DimensionsConstraints **verticalLayoutConstraints** 
 >
 > The top margin, height, and bottom margin constraints this item is subject to when using the object-based layout rule.
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **geometricBounds** 
 >
 > The bounds of the HtmlItem excluding the stroke width, in the format [y1, x1, y2, x2], which give the coordinates of the top-left and bottom-right corners of the bounding box.
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **visibleBounds** 
 >
 > The bounds of the HtmlItem including the stroke width, in the format [y1, x1, y2, x2], which give the coordinates of the top-left and bottom-right corners of the bounding box.
-*** 
+<HorizontalLine />
 > Swatch **fillColor** 
 >
 > The swatch (color, gradient, tint, or mixed ink) applied to the fill of the HtmlItem. . Can also accept: String.
-*** 
+<HorizontalLine />
 > Number **fillTint** 
 >
 > The percent of tint to use in the HtmlItem's fill color. (To specify a tint percent, use a number in the range of 0 to 100; to use the inherited or overridden value, use -1.)
-*** 
+<HorizontalLine />
 > Boolean **overprintFill** 
 >
 > If true, the HtmlItem's fill color overprints any underlying objects. If false, the fill color knocks out the underlying colors.
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **strokeWeight** 
 >
 > The weight (in points) to apply to the HtmlItem's stroke.
-*** 
+<HorizontalLine />
 > Number **miterLimit** 
 >
 > The limit of the ratio of stroke width to miter length before a miter (pointed) join becomes a bevel (squared-off) join.
-*** 
+<HorizontalLine />
 > EndCap **endCap** 
 >
 > The end shape of an open path.
-*** 
+<HorizontalLine />
 > EndJoin **endJoin** 
 >
 > The corner join applied to the HtmlItem.
-*** 
+<HorizontalLine />
 > StrokeStyle **strokeType** 
 >
 > The name of the stroke style to apply. Can also accept: String.
-*** 
+<HorizontalLine />
 > StrokeCornerAdjustment **strokeCornerAdjustment** 
 >
 > The corner adjustment applied to the HtmlItem.
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **strokeDashAndGap** 
 >
 > The dash and gap measurements that define the pattern of a custom dashed line. Define up to six values (in points) in the format [dash1, gap1, dash2, gap2, dash3, gap3].
-*** 
+<HorizontalLine />
 > ArrowHead **leftLineEnd** 
 >
 > The arrowhead applied to the start of the path.
-*** 
+<HorizontalLine />
 > ArrowHead **rightLineEnd** 
 >
 > The arrowhead applied to the end of the path.
-*** 
+<HorizontalLine />
 > Swatch **strokeColor** 
 >
 > The swatch (color, gradient, tint, or mixed ink) applied to the stroke of the HtmlItem. Can also accept: String.
-*** 
+<HorizontalLine />
 > Number **strokeTint** 
 >
 > The percent of tint to use in object's stroke color. (To specify a tint percent, use a number in the range of 0 to 100; to use the inherited or overridden value, use -1.)
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **gradientFillStart** 
 >
 > The starting point (in page coordinates) of a gradient applied to the fill of the HtmlItem, in the format [x, y].
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **gradientFillLength** 
 >
 > The length (for a linear gradient) or radius (for a radial gradient) applied to the fill of the HtmlItem.
-*** 
+<HorizontalLine />
 > Number **gradientFillAngle** 
 >
 > The angle of a linear gradient applied to the fill of the HtmlItem. (Range: -180 to 180)
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **gradientStrokeStart** 
 >
 > The starting point (in page coordinates) of a gradient applied to the stroke of the HtmlItem, in the format [x, y].
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **gradientStrokeLength** 
 >
 > The length (for a linear gradient) or radius (for a radial gradient) applied to the stroke of the HtmlItem.
-*** 
+<HorizontalLine />
 > Number **gradientStrokeAngle** 
 >
 > The angle of a linear gradient applied to the stroke of the HtmlItem. (Range: -180 to 180)
-*** 
+<HorizontalLine />
 > Boolean **overprintStroke** 
 >
 > If true, the HtmlItem's stroke color overprints any underlying objects. If false, the stroke color knocks out the  underlying colors.
-*** 
+<HorizontalLine />
 > Swatch **gapColor** 
 >
 > The swatch (color, gradient, tint, or mixed ink) applied to the gap of a dashed, dotted, or striped stroke. For information, see stroke type.
-*** 
+<HorizontalLine />
 > Number **gapTint** 
 >
 > The tint as a percentage of the gap color. (To specify a tint percent, use a number in the range of 0 to 100; to use the inherited or overridden value, use -1.)
-*** 
+<HorizontalLine />
 > Boolean **overprintGap** 
 >
 > If true, the gap color overprints any underlying colors. If false, the gap color knocks out the underlying colors.
-*** 
+<HorizontalLine />
 > StrokeAlignment **strokeAlignment** 
 >
 > The stroke alignment applied to the HtmlItem.
-*** 
+<HorizontalLine />
 > Boolean **nonprinting** 
 >
 > If true, the HtmlItem does not print.
-*** 
+<HorizontalLine />
 > Layer **itemLayer** 
 >
 > The layer that the HtmlItem is on.
-*** 
+<HorizontalLine />
 > Boolean **locked** 
 >
 > If true, the HtmlItem is locked.
-*** 
+<HorizontalLine />
 > DisplaySettingOptions **localDisplaySetting** 
 >
 > Display performance options for the HtmlItem.
-*** 
+<HorizontalLine />
 > Number **rotationAngle** 
 >
 > The rotatation angle of the HtmlItem. (Range: -360 to 360)
-*** 
+<HorizontalLine />
 > Number **shearAngle** 
 >
 > The skewing angle applied to the HtmlItem. (Range: -360 to 360)
-*** 
+<HorizontalLine />
 > Number **horizontalScale** 
 >
 > The horizontal scaling applied to the HtmlItem.
-*** 
+<HorizontalLine />
 > Number **verticalScale** 
 >
 > The vertical scaling applied to the HtmlItem.
-*** 
+<HorizontalLine />
 > Number **absoluteRotationAngle** 
 >
 > The rotation angle of the HtmlItem relative to its containing object. (Range: -360 to 360)
-*** 
+<HorizontalLine />
 > Number **absoluteShearAngle** 
 >
 > The skewing angle of the HtmlItem relative to its containing object. (Range: -360 to 360)
-*** 
+<HorizontalLine />
 > Number **absoluteHorizontalScale** 
 >
 > The horizontal scale of the HtmlItem relative to its containing object.
-*** 
+<HorizontalLine />
 > Number **absoluteVerticalScale** 
 >
 > The vertical scale of the HtmlItem relative to its containing object.
-*** 
+<HorizontalLine />
 > ObjectStyle **appliedObjectStyle** 
 >
 > The object style applied to the HtmlItem.
-*** 
+<HorizontalLine />
 > Flip **flip** 
 >
 > The direction in which to flip the printed image.
-*** 
+<HorizontalLine />
 > Flip **absoluteFlip** 
 >
 > Indicates whether the HtmlItem has been flipped independently of its parent object and, if yes, the direction in which the HtmlItem was flipped.
-*** 
+<HorizontalLine />
 > Boolean **visible** 
 >
 > If true, the HtmlItem is visible.
-*** 
+<HorizontalLine />
 > String **name** 
 >
 > The name of the HtmlItem.
-*** 
+<HorizontalLine />
 > CornerOptions **topLeftCornerOption** 
 >
 > The shape to be applied to the top left corner of rectangular shapes and all corners of non-rectangular shapes.Note: corner option differs from end join in which you can set a radius for a corner option, whereas the rounded or beveled effect of an end join depends on the stroke weight.
-*** 
+<HorizontalLine />
 > CornerOptions **topRightCornerOption** 
 >
 > The shape to apply to the top right corner of rectangular shapes
-*** 
+<HorizontalLine />
 > CornerOptions **bottomLeftCornerOption** 
 >
 > The shape to apply to the bottom left corner of rectangular shapes.
-*** 
+<HorizontalLine />
 > CornerOptions **bottomRightCornerOption** 
 >
 > The shape to apply to the bottom right corner of rectangular shapes.
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **topLeftCornerRadius** 
 >
 > The radius in measurement units of the corner effect applied to the top left corner of rectangular shapes and all corners of non-rectangular shapes
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **topRightCornerRadius** 
 >
 > The radius in measurement units of the corner effect applied to the top right corner of rectangular shapes
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **bottomLeftCornerRadius** 
 >
 > The radius in measurement units of the corner effect applied to the bottom left corner of rectangular shapes
-*** 
+<HorizontalLine />
 > Measurement Unit (Number or String)=any **bottomRightCornerRadius** 
 >
 > The radius in measurement units of the corner effect applied to the bottom right corner of rectangular shapes
-*** 
+<HorizontalLine />
 > ArrowHeadAlignmentEnum **arrowHeadAlignment** 
 >
 > The arrowhead alignment applied to the HtmlItem.
-*** 
+<HorizontalLine />
 > Number **leftArrowHeadScale** 
 >
 > The scaling applied to the arrowhead at the start of the path. (Range: 1 to 1000)
-*** 
+<HorizontalLine />
 > Number **rightArrowHeadScale** 
 >
 > The scaling applied to the arrowhead at the end of the path. (Range: 1 to 1000)
-*** 
+<HorizontalLine />
 > String **label** 
 >
 > A property that can be set to any string.
-*** 
+<HorizontalLine />
 > Object **properties** 
 >
 > A property that allows setting of several properties at the same time.
@@ -423,7 +423,7 @@ Embedded HTML.
 | Library | using | The library in which to store the object. |
 | Object | withProperties | Initial values for properties of the new HtmlItem (Optional) |
 
-*** 
+<HorizontalLine />
 > **insertLabel**( String **key**, String **value** )
 > 
 > Sets the label to the value associated with the specified key.
@@ -433,7 +433,7 @@ Embedded HTML.
 | String | key | The key. |
 | String | value | The value. |
 
-*** 
+<HorizontalLine />
 > **placeXML**( XMLElement **using** )
 > 
 > Places XML content into the specified object. Note: Replaces any existing content.
@@ -442,11 +442,11 @@ Embedded HTML.
 |---|---|---|
 | XMLElement | using | The XML element whose content you want to place. |
 
-*** 
+<HorizontalLine />
 > **autoTag**()
 > 
 > Tag the object or the parent story using default tags defined in XML preference.
-*** 
+<HorizontalLine />
 > **markup**( XMLElement **using** )
 > 
 > Associates the page item with the specified XML element while preserving existing content.
@@ -455,7 +455,7 @@ Embedded HTML.
 |---|---|---|
 | XMLElement | using | The XML element. |
 
-*** 
+<HorizontalLine />
 > PageItem **findObject**( Boolean **reverseOrder** )
 > 
 > Finds objects that match the find what value.
@@ -464,7 +464,7 @@ Embedded HTML.
 |---|---|---|
 | Boolean | reverseOrder | If true, returns the results in reverse order. (Optional) |
 
-*** 
+<HorizontalLine />
 > PageItem **changeObject**( Boolean **reverseOrder** )
 > 
 > Finds objects that match the find what value and replace the objects with the change to value.
@@ -473,7 +473,7 @@ Embedded HTML.
 |---|---|---|
 | Boolean | reverseOrder | If true, returns the results in reverse order. (Optional) |
 
-*** 
+<HorizontalLine />
 > Mixed **place**( File **fileName**, Boolean **showingOptions**, Object **withProperties** )
 > 
 > Places the file.
@@ -484,7 +484,7 @@ Embedded HTML.
 | Boolean | showingOptions | Whether to display the import options dialog (Optional) |
 | Object | withProperties | Initial values for properties of the placed object(s) (Optional) |
 
-*** 
+<HorizontalLine />
 > Mixed **override**( Page **destinationPage** )
 > 
 > Overrides a master page item and places the item on the document page as a new object.
@@ -493,19 +493,19 @@ Embedded HTML.
 |---|---|---|
 | Page | destinationPage | The document page that contains the master page item to override. |
 
-*** 
+<HorizontalLine />
 > **removeOverride**()
 > 
 > Removes the override from a previously overridden master page item.
-*** 
+<HorizontalLine />
 > **detach**()
 > 
 > Detaches an overridden master page item from the master page.
-*** 
+<HorizontalLine />
 > **remove**()
 > 
 > Deletes the HtmlItem.
-*** 
+<HorizontalLine />
 > **fit**( FitOptions **given** )
 > 
 > Applies the specified fit option to content in a frame.
@@ -514,7 +514,7 @@ Embedded HTML.
 |---|---|---|
 | FitOptions | given | The fit option to use. |
 
-*** 
+<HorizontalLine />
 > **flipItem**( Flip **given**, Mixed **around** )
 > 
 > Flips the HtmlItem.
@@ -524,7 +524,7 @@ Embedded HTML.
 | Flip | given | The axis around which to flip the HtmlItem. |
 | Mixed | around | The point around which to flip the HtmlItem. Can accept: Array of 2 Units or AnchorPoint enumerator. (Optional) |
 
-*** 
+<HorizontalLine />
 > PageItem **duplicate**( Mixed **to**, Measurement Unit (Number or String)=any **by** )
 > 
 > Duplicates the HtmlItem at the specified location or offset.
@@ -534,7 +534,7 @@ Embedded HTML.
 | Mixed | to | The location of the new HtmlItem, specified in coordinates in the format [x, y]. Can accept: Array of 2 Units, Spread, Page or Layer. (Optional) |
 | Measurement Unit (Number or String)=any | by | Amount by which to offset the new HtmlItem from the original HtmlItem's position. (Optional) |
 
-*** 
+<HorizontalLine />
 > **move**( Mixed **to**, Measurement Unit (Number or String)=any **by** )
 > 
 > Moves the HtmlItem to a new location. Note: Either the 'to' or 'by' parameter is required; if both parameters are defined, only the to value is used.
@@ -544,7 +544,7 @@ Embedded HTML.
 | Mixed | to | The new location of the HtmlItem,in the format (x, y). Can accept: Array of 2 Units, Spread, Page or Layer. (Optional) |
 | Measurement Unit (Number or String)=any | by | The amount (in measurement units) to move the HtmlItem relative to its current position, in the format (x, y). (Optional) |
 
-*** 
+<HorizontalLine />
 > **applyObjectStyle**( ObjectStyle **using**, Boolean **clearingOverrides**, Boolean **clearingOverridesThroughRootObjectStyle** )
 > 
 > Applies the specified object style.
@@ -555,11 +555,11 @@ Embedded HTML.
 | Boolean | clearingOverrides | If true, clears the HtmlItem's existing attributes before applying the style. (Optional) |
 | Boolean | clearingOverridesThroughRootObjectStyle | If true, clears attributes and formatting applied to the HtmlItem that are not defined in the object style. (Optional) |
 
-*** 
+<HorizontalLine />
 > **clearObjectStyleOverrides**()
 > 
 > Clear overrides for object style
-*** 
+<HorizontalLine />
 > **convertShape**( ConvertShapeOptions **given**, Number **numberOfSides**, Number **insetPercentage**, Measurement Unit (Number or String)=any **cornerRadius** )
 > 
 > Converts the HtmlItem to a different shape.
@@ -571,11 +571,11 @@ Embedded HTML.
 | Number | insetPercentage | The star inset percentage for the resulting polygon. (Range: 0.0 to 100.0)  (Optional) |
 | Measurement Unit (Number or String)=any | cornerRadius | The corner radius of the resulting rectangle. (Optional) |
 
-*** 
+<HorizontalLine />
 > **clearTransformations**()
 > 
 > Clears transformations from the HtmlItem. Transformations include rotation, scaling, flipping, fitting, and shearing.
-*** 
+<HorizontalLine />
 > **transform**( CoordinateSpaces **in**, Mixed **from**, Mixed **withMatrix**, Mixed **replacingCurrent**, Boolean **consideringRulerUnits** )
 > 
 > Transform the page item.
@@ -588,7 +588,7 @@ Embedded HTML.
 | Mixed | replacingCurrent | Transform components to consider; providing this optional parameter causes the target's existing transform components to be replaced with new values.  Without this parameter, the given matrix is concatenated onto the target's existing transform combining the effect of the two. Can accept: MatrixContent enumerator, Array of MatrixContent enumerators or Long Integer. (Optional) |
 | Boolean | consideringRulerUnits | If true then a ruler based origin is interpreted using ruler units rather than points. The default value is false. This parameter has no effect unless the reference point is specified relative to a page. (Optional) |
 
-*** 
+<HorizontalLine />
 > TransformationMatrix **transformValuesOf**( CoordinateSpaces **in** )
 > 
 > Get the transformation values of the page item.
@@ -597,7 +597,7 @@ Embedded HTML.
 |---|---|---|
 | CoordinateSpaces | in | The coordinate space to use |
 
-*** 
+<HorizontalLine />
 > Mixed **resolve**( Mixed **location**, CoordinateSpaces **in**, Boolean **consideringRulerUnits** )
 > 
 > Get the coordinates of the given location in the specified coordinate system.
@@ -608,7 +608,7 @@ Embedded HTML.
 | CoordinateSpaces | in | The coordinate space to use. |
 | Boolean | consideringRulerUnits | If true then a ruler location is interpreted using ruler units rather than points. The default value is false. This parameter has no effect unless the reference point is specified relative to a page. (Optional) |
 
-*** 
+<HorizontalLine />
 > **redefineScaling**( Number **to** )
 > 
 > Apply an item's scaling to its content if possible.
@@ -617,7 +617,7 @@ Embedded HTML.
 |---|---|---|
 | Number | to | The scale factors to be left on the item.  The default is \{1.0, 1.0}. (Optional) |
 
-*** 
+<HorizontalLine />
 > **resize**( Mixed **in**, Mixed **from**, ResizeMethods **by**, Mixed **values**, Boolean **resizeIndividually**, Boolean **consideringRulerUnits** )
 > 
 > Resize the page item.
@@ -631,7 +631,7 @@ Embedded HTML.
 | Boolean | resizeIndividually | If false and multiple page items are targeted, the new dimensions are attained only by moving the individual items rather than resizing them. (Optional) |
 | Boolean | consideringRulerUnits | If true then a ruler location is interpreted using ruler units rather than points. The default value is false. This parameter has no effect unless the reference point is specified relative to a page. (Optional) |
 
-*** 
+<HorizontalLine />
 > **reframe**( Mixed **in**, Mixed **opposingCorners** )
 > 
 > Move the bounding box of the page item
@@ -641,23 +641,23 @@ Embedded HTML.
 | Mixed | in | The bounding box to resize. Can accept: CoordinateSpaces enumerator or Ordered array containing coordinateSpace:CoordinateSpaces enumerator, boundsKind:BoundingBoxLimits enumerator. |
 | Mixed | opposingCorners | Opposing corners of new bounding box in the given coordinate space |
 
-*** 
+<HorizontalLine />
 > String **transformAgain**()
 > 
 > Transforms the HtmlItem using the last transformation performed on any object. Transformations include moving, rotating, shearing, scaling, and flipping.
-*** 
+<HorizontalLine />
 > String **transformSequenceAgain**()
 > 
 > Transforms the HtmlItem using the last sequence of transform operations performed on any single object or performed at the same time on any group of objects. Transformations include moving, rotating, shearing, scaling, and flipping.
-*** 
+<HorizontalLine />
 > String **transformAgainIndividually**()
 > 
 > Transforms the HtmlItem using the last transformation performed on any HtmlItem. Transformations include moving, rotating, shearing, scaling, and flipping.
-*** 
+<HorizontalLine />
 > String **transformSequenceAgainIndividually**()
 > 
 > Transforms the HtmlItem using the last sequence of transformations performed on any single object or performed at the same time on any group of objects. Transformations include moving, rotating, shearing, scaling, and flipping.
-*** 
+<HorizontalLine />
 > **createPlainTextQRCode**( String **plainText**, Mixed **qrCodeSwatch**, String **withProperties** )
 > 
 > Create Plain Text QR Code on the page item
@@ -668,7 +668,7 @@ Embedded HTML.
 | Mixed | qrCodeSwatch | Swatch to be applied on generated QR Code Graphic . Can accept: Swatch or String. (Optional) |
 | String | withProperties | Initial values for properties of the new HtmlItem. Above parameters can also be passed as properties (Optional) |
 
-*** 
+<HorizontalLine />
 > **createHyperlinkQRCode**( String **urlLink**, Mixed **qrCodeSwatch**, String **withProperties** )
 > 
 > Create Hyperlink QR Code on the page item or document
@@ -679,7 +679,7 @@ Embedded HTML.
 | Mixed | qrCodeSwatch | Swatch to be applied on generated QR Code Graphic . Can accept: Swatch or String. (Optional) |
 | String | withProperties | Initial values for properties of the new HtmlItem. Above parameters can also be passed as properties (Optional) |
 
-*** 
+<HorizontalLine />
 > **createTextMsgQRCode**( String **cellNumber**, String **textMessage**, Mixed **qrCodeSwatch**, String **withProperties** )
 > 
 > Create Text Msg QR Code on the page item or document
@@ -691,7 +691,7 @@ Embedded HTML.
 | Mixed | qrCodeSwatch | Swatch to be applied on generated QR Code Graphic . Can accept: Swatch or String. (Optional) |
 | String | withProperties | Initial values for properties of the new HtmlItem. Above parameters can also be passed as properties (Optional) |
 
-*** 
+<HorizontalLine />
 > **createEmailQRCode**( String **emailAddress**, String **subject**, String **body**, Mixed **qrCodeSwatch**, String **withProperties** )
 > 
 > Create Email QR Code on the page item or document
@@ -704,7 +704,7 @@ Embedded HTML.
 | Mixed | qrCodeSwatch | Swatch to be applied on generated QR Code Graphic . Can accept: Swatch or String. (Optional) |
 | String | withProperties | Initial values for properties of the new HtmlItem. Above parameters can also be passed as properties (Optional) |
 
-*** 
+<HorizontalLine />
 > **createVCardQRCode**( String **firstName**, String **lastName**, String **jobTitle**, String **cellPhone**, String **phone**, String **email**, String **organisation**, String **streetAddress**, String **city**, String **adrState**, String **country**, String **postalCode**, String **website**, Mixed **qrCodeSwatch**, String **withProperties** )
 > 
 > Create Business Card QR Code on the page item or load on document's placegun
@@ -727,7 +727,7 @@ Embedded HTML.
 | Mixed | qrCodeSwatch | Swatch to be applied on generated QR Code Graphic . Can accept: Swatch or String. (Optional) |
 | String | withProperties | Initial values for properties of the new HtmlItem. Above parameters can also be passed as properties (Optional) |
 
-*** 
+<HorizontalLine />
 > **exportFile**( Mixed **format**, File **to**, Boolean **showingOptions**, PDFExportPreset **using**, String **versionComments**, Boolean **forceSave** )
 > 
 > Exports the object(s) to a file.
@@ -741,7 +741,7 @@ Embedded HTML.
 | String | versionComments | The comment for this version. (Optional) |
 | Boolean | forceSave | If true, forcibly saves a version. (Optional) |
 
-*** 
+<HorizontalLine />
 > BackgroundTask **asynchronousExportFile**( Mixed **format**, File **to**, Boolean **showingOptions**, PDFExportPreset **using**, String **versionComments**, Boolean **forceSave** )
 > 
 > asynchronously exports the object(s) to a file.
@@ -755,7 +755,7 @@ Embedded HTML.
 | String | versionComments | The comment for this version. (Optional) |
 | Boolean | forceSave | If true, forcibly saves a version. (Optional) |
 
-*** 
+<HorizontalLine />
 > Mixed **contentPlace**( PageItem **pageItems**, Boolean **linkPageItems**, Boolean **linkStories**, Boolean **mapStyles**, Boolean **showingOptions** )
 > 
 > Duplicate an object and place it into the target page item.
@@ -768,7 +768,7 @@ Embedded HTML.
 | Boolean | mapStyles | Whether to map styles in content placer (Optional) |
 | Boolean | showingOptions | Whether to display the link options dialog (Optional) |
 
-*** 
+<HorizontalLine />
 > **select**( SelectionOptions **existingSelection** )
 > 
 > Selects the object.
@@ -777,7 +777,7 @@ Embedded HTML.
 |---|---|---|
 | SelectionOptions | existingSelection | The selection status of the HtmlItem in relation to previously selected objects. (Optional) |
 
-*** 
+<HorizontalLine />
 > String **extractLabel**( String **key** )
 > 
 > Gets the label value associated with the specified key.
@@ -786,19 +786,19 @@ Embedded HTML.
 |---|---|---|
 | String | key | The key. |
 
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the HtmlItem.
-*** 
+<HorizontalLine />
 > HtmlItem **getElements**()
 > 
 > Resolves the object specifier, creating an array of object references.
-*** 
+<HorizontalLine />
 > String **toSpecifier**()
 > 
 > Retrieves the object specifier.
-*** 
+<HorizontalLine />
 > EventListener **addEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Adds an event listener.
@@ -809,7 +809,7 @@ Embedded HTML.
 | Mixed | handler | The event handler. Can accept: File or JavaScript Function. |
 | Boolean | captures | This parameter is obsolete. (Optional) |
 
-*** 
+<HorizontalLine />
 > Boolean **removeEventListener**( String **eventType**, Mixed **handler**, Boolean **captures** )
 > 
 > Removes the event listener.

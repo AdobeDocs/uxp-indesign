@@ -7,7 +7,7 @@ Choices for page range format for export.
 > Number **EXPORT_ALL_PAGES** = 1700883568
 > 
 > export all pages.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **EXPORT_PAGE_RANGE** = 1700951410

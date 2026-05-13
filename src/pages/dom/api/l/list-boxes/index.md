@@ -12,7 +12,7 @@ A collection of listboxes.
 > Number **count**()
 > 
 > Displays the number of elements in the ListBox.
-*** 
+<HorizontalLine />
 > ListBox **add**( Layer **layer**, LocationOptions **at**, Mixed **reference**, Object **withProperties** )
 > 
 > Creates a new ListBox
@@ -24,7 +24,7 @@ A collection of listboxes.
 | Mixed | reference | The reference object. Note: Required when the at parameter is before or after. Can accept: Document, Spread, MasterSpread, Page, Layer or PageItem. (Optional) |
 | Object | withProperties | Initial values for properties of the new ListBox (Optional) |
 
-*** 
+<HorizontalLine />
 > ListBox **item**( Mixed **index** )
 > 
 > Returns the ListBox with the specified index or name.
@@ -33,7 +33,7 @@ A collection of listboxes.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ListBox **itemByName**( String **name** )
 > 
 > Returns the ListBox with the specified name.
@@ -42,7 +42,7 @@ A collection of listboxes.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > ListBox **itemByID**( Number **id** )
 > 
 > Returns the ListBox with the specified ID.
@@ -51,7 +51,7 @@ A collection of listboxes.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > ListBox **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ListBoxes within the specified range.
@@ -61,19 +61,19 @@ A collection of listboxes.
 | Mixed | from | The ListBox, index, or name at the beginning of the range. Can accept: ListBox, Long Integer or String. |
 | Mixed | to | The ListBox, index, or name at the end of the range. Can accept: ListBox, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ListBox **firstItem**()
 > 
 > Returns the first ListBox in the collection.
-*** 
+<HorizontalLine />
 > ListBox **lastItem**()
 > 
 > Returns the last ListBox in the collection.
-*** 
+<HorizontalLine />
 > ListBox **middleItem**()
 > 
 > Returns the middle ListBox in the collection.
-*** 
+<HorizontalLine />
 > ListBox **previousItem**( ListBox **obj** )
 > 
 > Returns the ListBox with the index previous to the specified index.
@@ -82,7 +82,7 @@ A collection of listboxes.
 |---|---|---|
 | ListBox | obj | The index of the ListBox that follows the desired ListBox. |
 
-*** 
+<HorizontalLine />
 > ListBox **nextItem**( ListBox **obj** )
 > 
 > Returns the ListBox whose index follows the specified ListBox in the collection.
@@ -91,19 +91,19 @@ A collection of listboxes.
 |---|---|---|
 | ListBox | obj | The ListBox whose index comes before the desired ListBox. |
 
-*** 
+<HorizontalLine />
 > ListBox **anyItem**()
 > 
 > Returns any ListBox in the collection.
-*** 
+<HorizontalLine />
 > ListBox **everyItem**()
 > 
 > Returns every ListBox in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ListBox.
-*** 
+<HorizontalLine />
 > ListBox **[]**( Number **index** )
 > 
 > Returns the ListBox with the specified index.

@@ -7,19 +7,19 @@ Vertical alignment options for text.
 > Number **TOP_ALIGN** = 1953460256
 > 
 > Text is aligned at the top of the object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **CENTER_ALIGN** = 1667591796
 > 
 > Text is center aligned vertically in the object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **BOTTOM_ALIGN** = 1651471469
 > 
 > Text is aligned at the bottom of the object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **JUSTIFY_ALIGN** = 1785951334

@@ -7,19 +7,19 @@ Options for selection status in relation to previously selected objects.
 > Number **ADD_TO** = 1633969202
 > 
 > Adds the object to the existing selection; if no object was previously selected, makes the object the only selected object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **REMOVE_FROM** = 1919249734
 > 
 > Deselects the object.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **REPLACE_WITH** = 1919250519
 > 
 > Selects the object and deselects any previously selected objects.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **SET_KEY** = 1936028779

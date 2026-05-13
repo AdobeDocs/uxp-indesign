@@ -17,11 +17,11 @@ A collection of condition sets for conditional text.
 |---|---|---|
 | Object | withProperties | Initial values for properties of the new ConditionSet (Optional) |
 
-*** 
+<HorizontalLine />
 > Number **count**()
 > 
 > Displays the number of elements in the ConditionSet.
-*** 
+<HorizontalLine />
 > ConditionSet **item**( Mixed **index** )
 > 
 > Returns the ConditionSet with the specified index or name.
@@ -30,7 +30,7 @@ A collection of condition sets for conditional text.
 |---|---|---|
 | Mixed | index | The index or name. Can accept: Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ConditionSet **itemByName**( String **name** )
 > 
 > Returns the ConditionSet with the specified name.
@@ -39,7 +39,7 @@ A collection of condition sets for conditional text.
 |---|---|---|
 | String | name | The name. |
 
-*** 
+<HorizontalLine />
 > ConditionSet **itemByID**( Number **id** )
 > 
 > Returns the ConditionSet with the specified ID.
@@ -48,7 +48,7 @@ A collection of condition sets for conditional text.
 |---|---|---|
 | Number | id | The ID. |
 
-*** 
+<HorizontalLine />
 > ConditionSet **itemByRange**( Mixed **from**, Mixed **to** )
 > 
 > Returns the ConditionSets within the specified range.
@@ -58,19 +58,19 @@ A collection of condition sets for conditional text.
 | Mixed | from | The ConditionSet, index, or name at the beginning of the range. Can accept: ConditionSet, Long Integer or String. |
 | Mixed | to | The ConditionSet, index, or name at the end of the range. Can accept: ConditionSet, Long Integer or String. |
 
-*** 
+<HorizontalLine />
 > ConditionSet **firstItem**()
 > 
 > Returns the first ConditionSet in the collection.
-*** 
+<HorizontalLine />
 > ConditionSet **lastItem**()
 > 
 > Returns the last ConditionSet in the collection.
-*** 
+<HorizontalLine />
 > ConditionSet **middleItem**()
 > 
 > Returns the middle ConditionSet in the collection.
-*** 
+<HorizontalLine />
 > ConditionSet **previousItem**( ConditionSet **obj** )
 > 
 > Returns the ConditionSet with the index previous to the specified index.
@@ -79,7 +79,7 @@ A collection of condition sets for conditional text.
 |---|---|---|
 | ConditionSet | obj | The index of the ConditionSet that follows the desired ConditionSet. |
 
-*** 
+<HorizontalLine />
 > ConditionSet **nextItem**( ConditionSet **obj** )
 > 
 > Returns the ConditionSet whose index follows the specified ConditionSet in the collection.
@@ -88,19 +88,19 @@ A collection of condition sets for conditional text.
 |---|---|---|
 | ConditionSet | obj | The ConditionSet whose index comes before the desired ConditionSet. |
 
-*** 
+<HorizontalLine />
 > ConditionSet **anyItem**()
 > 
 > Returns any ConditionSet in the collection.
-*** 
+<HorizontalLine />
 > ConditionSet **everyItem**()
 > 
 > Returns every ConditionSet in the collection.
-*** 
+<HorizontalLine />
 > String **toSource**()
 > 
 > Generates a string which, if executed, will return the ConditionSet.
-*** 
+<HorizontalLine />
 > ConditionSet **[]**( Number **index** )
 > 
 > Returns the ConditionSet with the specified index.

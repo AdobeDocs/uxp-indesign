@@ -7,19 +7,19 @@ The type of conflict resolution to employ during Version Cue synchronization.
 > Number **SKIP_CONFLICTS** = 1986216787
 > 
 > Skips conflicting files.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **ASK_ABOUT_CONFLICTS** = 1986216769
 > 
 > Asks the user how to resolve conflicts.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PREFER_LOCAL** = 1986216780
 > 
 > Uses the local version.
-*** 
+<HorizontalLine />
 > *Read Only* 
 > 
 > Number **PREFER_PROJECT** = 1986216784
