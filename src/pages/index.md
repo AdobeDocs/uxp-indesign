@@ -12,7 +12,7 @@ contributors:
 
 # UXP for Adobe InDesign
 
-Welcome to the world of UXP (**U**nified E**x**tensibility **P**latform) in Adobe InDesign!
+Welcome to the world of UXP (Unified Extensibility Platform) in Adobe InDesign!
 
 <Resources slots="heading, links"/>
 
