@@ -13,6 +13,7 @@
         - [InDesign API](/dom/api/index.md)
 
 - subPages:
+    - [Overview](introduction/index.md)
     - Essentials header
     - [Programming languages](/introduction/essentials/tech-stack/index.md)
     - [Developer Tools](/introduction/essentials/dev-tools/index.md)
@@ -23,6 +24,7 @@
         - [Options for Distribution](/introduction/next-steps/distribution/distribution-options/index.md)
     - Applications header
     - [InDesign Server](/introduction/applications/ids.md)
+    - [Overview](scripts/index.md)
     - Scripts header
     - [Getting started](/scripts/getting-started/index.md)
     - [Concepts](/scripts/concepts/index.md)
@@ -35,6 +37,7 @@
         - [InDesign Server Object Model](/scripts/tutorials/ids-object-model/index.md)
         - [Tips & tricks](/scripts/tutorials/tips-tricks/index.md)
     - [Advanced topics](/scripts/advanced/index.md)
+    - [Overview](plugins/index.md)
     - Plugins header
     - [Getting started](/plugins/getting-started/index.md)
     - [Concepts](/plugins/concepts/index.md)
@@ -50,6 +53,7 @@
         - [Communicate with other plugins](/plugins/tutorials/inter-plugin-comm/index.md)
         - [Modularizing code](/plugins/tutorials/importing-modules/index.md)
     - [Advanced topics](/plugins/advanced/index.md)
+    - [Overview](resources/index.md)
     - Resources header
     - [Fundamentals](/resources/fundamentals/index.md)
         - [APIs](/resources/fundamentals/apis/index.md)
@@ -80,6 +84,7 @@
         - [Right-to-left](/resources/recipes/rtl/index.md)
         - [Flyout Menus](/resources/recipes/flyout-menu/index.md)
         - [Persistent Storage Migration](/resources/recipes/persistent-storage-migration/index.md)
+    - [Overview](reference/uxp-api/index.md)
     - UXP API reference header
     - [JavaScript Reference](/reference/uxp-api/reference-js/index.md)
         - [Global Members](/reference/uxp-api/reference-js/global-members/index.md)
@@ -380,6 +385,7 @@
         - [Spectrum Widgets to SWC](/reference/uxp-api/reference-spectrum/spectrum-widgets-to-swc-mapping/index.md)
         - [FAQs](/reference/uxp-api/reference-spectrum/faqs/index.md)
     - [Known Issues](/reference/uxp-api/known-issues.md)
+    - [Overview](dom/api/index.md)
     - Indesign DOM reference header
     - [AddPageOptions](/dom/api/a/add-page-options/index.md)
     - [AdjustLayoutPreference](/dom/api/a/adjust-layout-preference/index.md)
