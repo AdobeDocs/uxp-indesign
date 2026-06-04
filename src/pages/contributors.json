@@ -26,8 +26,10 @@
     },
     {
       "page": "/config",
-      "avatars": [],
-      "lastUpdated": "5/13/2026"
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/123291197?v=4"
+      ],
+      "lastUpdated": "6/4/2026"
     },
     {
       "page": "/dom/api/",
