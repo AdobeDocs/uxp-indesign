@@ -5466,9 +5466,10 @@
     {
       "page": "/introduction/next-steps/distribution/packaging/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/42615528?v=4"
       ],
-      "lastUpdated": "5/11/2026"
+      "lastUpdated": "6/3/2026"
     },
     {
       "page": "/introduction/next-steps/script-and-plugin/",
@@ -5491,9 +5492,10 @@
     {
       "page": "/plugins/advanced/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/25147704?v=4"
       ],
-      "lastUpdated": "5/13/2026"
+      "lastUpdated": "6/3/2026"
     },
     {
       "page": "/plugins/concepts/",
@@ -7235,9 +7237,10 @@
     {
       "page": "/resources/recipes/indesign-events/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/42615528?v=4"
       ],
-      "lastUpdated": "5/13/2026"
+      "lastUpdated": "6/3/2026"
     },
     {
       "page": "/resources/recipes/indesign-menus/",
@@ -7322,8 +7325,10 @@
     },
     {
       "page": "/scripts/advanced/",
-      "avatars": [],
-      "lastUpdated": "5/13/2026"
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/14320591?v=4"
+      ],
+      "lastUpdated": "6/3/2026"
     },
     {
       "page": "/scripts/concepts/",
