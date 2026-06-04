@@ -5,7 +5,7 @@ description: There's a lot more to script development than what we've covered so
 
 # Advanced topics
 
-There's a lot more to script development than what we've covered so far. For more advanced topics, please have a look at the [resources section](../../resources/). Among other things, you'll find information about:
+There's a lot more to script development than what we've covered so far. For more advanced topics, please have a look at the [resources section](../../plugins/index.md). Among other things, you'll find information about:
 
 <Cards slots="image, heading, links" width="33%" />
 
@@ -13,7 +13,7 @@ There's a lot more to script development than what we've covered so far. For mor
 
 ## File I/O
 
-[Save data to and load data from the file system](../../resources/recipes/file-operation/)
+[Save data to and load data from the file system](../../resources/recipes/file-operation/index.md)
 
 
 <Cards slots="image, heading, links" width="33%" />
@@ -22,7 +22,7 @@ There's a lot more to script development than what we've covered so far. For mor
 
 ## Network I/O
 
-[Make network requests to fetch data from the internet](../../resources/recipes/network/)
+[Make network requests to fetch data from the internet](../../resources/recipes/network/index.md)
 
 
 <Cards slots="image, heading, links" width="33%" />
@@ -39,4 +39,4 @@ There's a lot more to script development than what we've covered so far. For mor
 
 ## And much more
 
-[See all the resources available to you for script development](../../resources/)
+[See all the resources available to you for script development](../../resources/index.md)

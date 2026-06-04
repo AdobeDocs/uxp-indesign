@@ -31,7 +31,7 @@ UXP plugins are distributed in the form of a `.ccx` file. Under the hood, this i
 ### Packaging a plugin
 Taking your plugin code and packaging it has never been easier.
 
-Using the UXP Developer Tool, choose `Package` from the Actions menu (the ellipsis on the right side of the Developer Tool window, on the same line as your plugin name):
+Using the [UXP Developer Tool](../../devtool/index.md), choose `Package` from the Actions menu (the ellipsis on the right side of the Developer Tool window, on the same line as your plugin name):
 
 ![Package Menu](../images/udt-package-menu.png)
 
