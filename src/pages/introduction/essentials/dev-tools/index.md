@@ -60,8 +60,8 @@ If you have problems with this step, you can also configure Developer Mode manua
 
 For now, successfully installing UDT is sufficient. We will understand UDT in more depth, once you write your first script or plugin. 
 
-<!--
+\<!--
 TODO Add this section once details are available
 ## Type definitions
 Provide download link for UXP and InDesign 
--->
+--\>

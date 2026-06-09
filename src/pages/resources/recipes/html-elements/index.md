@@ -29,7 +29,7 @@ Please make sure your local environment uses the following application versions 
 - Manifest version v5 or higher
 
 ## Using HTML
-<!-- Provide a simple example using code snippets -->
+\<!-- Provide a simple example using code snippets --\>
 
 <CodeBlock slots="heading, code" repeat="3" languages="HTML, JavaScript, CSS" />
 
@@ -117,10 +117,10 @@ function showDialog() {
 ![Sample dialog](sample-dialog.png)
 
 ## Additional notes
-- Creating dialogs within scripts can sometimes be a little tricky requiring you to handle the showing/hiding with async/promises. Check out the script tutorial on modal dialogs.<!--// TODO add linkI>
+- Creating dialogs within scripts can sometimes be a little tricky requiring you to handle the showing/hiding with async/promises. Check out the script tutorial on modal dialogs.
 - You can also use `document.createElement` to createSpectrum Widgets `sp-*` in UXP. However, it will not work for Spectrum Web Components.
 
 ## Reference material
-- [Dialog Element](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/HTMLDialogElement/)
-- [Other HTML Elements](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/HTML%20Elements/)
+- [Dialog Element](/reference/uxp-api/reference-js/global-members/html-elements/html-dialog-element.md)
+- [Other HTML Elements](/reference/uxp-api/reference-js/global-members/html-elements/index.md)
 

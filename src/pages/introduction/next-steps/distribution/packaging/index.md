@@ -28,11 +28,10 @@ UXP plugins are distributed in the form of a `.ccx` file. Under the hood, this i
 . Without an id (which goes in the `id` field of your plugin's `manifest.json` file), you won't be able to distribute your plugin in the Creative Cloud Marketplace.
 
 
-
 ### Packaging a plugin
 Taking your plugin code and packaging it has never been easier.
 
-Using the [UXP Developer Tool](../../devtool/), choose `Package` from the Actions menu (the ellipsis on the right side of the Developer Tool window, on the same line as your plugin name):
+Using the [UXP Developer Tool](../../devtool/index.md), choose `Package` from the Actions menu (the ellipsis on the right side of the Developer Tool window, on the same line as your plugin name):
 
 ![Package Menu](../images/udt-package-menu.png)
 
@@ -58,4 +57,4 @@ Since you wrote the plugin, it's probably safe to install. Click `Install` and y
 
 Since, in this case, *you* are the third-party developer, it's safe to click OK. Obviously, if someone else sends you a `.ccx` file and you get this dialog, you should make sure you trust the person who sent it.
 
-Now that you have your plugin installed, test it again to make sure the packaged version performs correctly. Then move on to [Options for Distribution](../distribution-options) to get your plugin out into the world.
+Now that you have your plugin installed, test it again to make sure the packaged version performs correctly. Then move on to [Options for Distribution](../distribution-options/index.md) to get your plugin out into the world.

@@ -37,6 +37,6 @@ If you're building a lot of plugins, you may find that the workspace may be gett
 Removing a plugin from the Developer Tool's workspace does **not** remove the plugin from your storage. You can always add the plugin back later.
 
 
-Once you have at least one plugin added to your workspace, let's look at the actions you can perform on them in the [next section](./plugin-workflows).
+Once you have at least one plugin added to your workspace, let's look at the actions you can perform on them in the [next section](plugin-workflows.md).
 
  

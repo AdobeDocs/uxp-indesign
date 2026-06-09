@@ -1,3 +1,8 @@
+---
+title: Tutorials
+description: This section contains tutorials that will help you get started with script development. They will walk you step by step through solving common tasks for script 
+---
+
 # Tutorials
 
 This section contains tutorials that will help you get started with script development. They will walk you step by step through solving common tasks for script development.

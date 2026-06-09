@@ -13,11 +13,11 @@ Let's add some details to the InDesign document
 
 We'll create a new document, set page margins, and define and apply master pages. The following figure shows a block diagram that represents the objects we'll work with.
 
-![InDesign object model](Image2.png)
+![InDesign object model](image2.png)
 
 The objects in the object model generally correspond to the names of controls in the user interface, as shown in the following diagram: 
 
-![InDesign object model](Image3.png)
+![InDesign object model](image3.png)
 
 
 ```js
@@ -62,7 +62,7 @@ myMarginPreferences.columnGutter = 14;
 ## Adding a baseline grid
 Now that we have a master spread set up, we will add a baseline grid. Here is a block diagram that shows the relationship between the objects we'll be working with:
 
-![InDesign object model](Image4.png)
+![InDesign object model](image4.png)
 
 ```js
 let myGridPreferences = myDocument.gridPreferences;
@@ -76,7 +76,7 @@ Next, we add two text frames to the master pages. These frames will contain the 
 
 In the "Hello World" example, we created a text frame and specified its position and size using the geometric bounds property-an array containing the top, left, bottom, and right coordinates for the frame. The coordinates correspond to the corners of the frame, just as they would appear in the Control panel. The geometric bounds are: top = 728, left = 70, bottom = 742, and right = 528, as shown in the following two figures:
 
-![InDesign object model](Image5.png)
+![InDesign object model](image5.png)
 
 ```js
 const { FirstBaseline, SpecialCharacters, Justification } =  require("indesign");
@@ -101,7 +101,7 @@ myRightFooter.parentStory.characters.item(0).justification = Justification.right
 ## Adding master text frames
 Next, we add master text frames. The following block diagram shows the objects and properties we'll be working with:
 
-![InDesign object model](Image6.png)
+![InDesign object model](image6.png)
 
 ```js
 const { FirstBaseline } =  require("indesign");
@@ -138,7 +138,7 @@ myTextFrame.insertionPoints.item(0).contents = "Headline!\r";
 ## Adding and applying a paragraph style
 Our headline looks plain, so we will format it in a paragraph style. To do that, we must create the paragraph style. The following diagram shows the objects and properties we will work with:
 
-![InDesign object model](Image7.png)
+![InDesign object model](image7.png)
 
 ```js
 const { ColorModel } =  require("indesign");

@@ -18,21 +18,21 @@ Consider 'samples' to be a working example of a specific feature. Whereas, a 'st
 You can find samples and starters for scripts/plugins [here](https://github.com/AdobeDocs/uxp-indesign-samples). 
 
 ## UDT
-Additionally, UDT also provides a few templates that you can choose from while creating a new plugin. <br></br>
+Additionally, UDT also provides a few templates that you can choose from while creating a new plugin. 
 
 ![Templates in UDT](create-plugin-template.png)
 
 ## In-app helpers
-InDesign has a bunch of sample UXP Scripts readily available within the app. Find them under Windows-> Utilities -> Scripts panel. <br></br>
+InDesign has a bunch of sample UXP Scripts readily available within the app. Find them under Windows-> Utilities -> Scripts panel. 
 
 ![Packaged sample scripts](scripts-panel.png)
 
 ## Recipes
-The next section of [recipes](../recipes/) also has examples of common use cases. 
+The next section of [recipes](../recipes/index.md) also has examples of common use cases. 
 
-<br></br> <br></br> 
+  
 
----
+<HorizontalLine />
 
 Remember, that examples within scripts can also be used within plugins, and vice versa. After all, you can think of UXP plugins as UXP scripts + rich UI controls + manifest configuration. 
 

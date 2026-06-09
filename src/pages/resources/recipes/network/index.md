@@ -17,10 +17,10 @@ You may be looking for ways to make network calls for various reasons such as fe
 
 Plugins and Scripts
 
-**In plugins**, you should seek permission for `` access in the manifest and specify the `domains` of the endpoints. <br></br> 
-IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#networkpermission) module before you proceed.
+**In plugins**, you should seek permission for `` access in the manifest and specify the `domains` of the endpoints.  
+IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/index.md#networkpermission) module before you proceed.
 
-**In scripts**, the permission for `network` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/). 
+**In scripts**, the permission for `network` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/index.md). 
 
 
 The fastest way to try out a network call is by rendering an image from the web
@@ -184,8 +184,7 @@ async function foo() {
 - While using `http` domains, keep in mind that Photoshop only allows http protocol on Win32 but not on macOS. InDesign has no such restrictions.
 
 
-
 ## Reference material
-- [fetch API](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/fetch/)
-- [XHR API](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/XMLHttpRequest/)
-- [WebSocket API](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Transfers/WebSocket/)
+- [fetch API](/reference/uxp-api/reference-js/global-members/data-transfers/fetch.md)
+- [XHR API](/reference/uxp-api/reference-js/global-members/data-transfers/xml-http-request.md)
+- [WebSocket API](/reference/uxp-api/reference-js/global-members/data-transfers/web-socket.md)

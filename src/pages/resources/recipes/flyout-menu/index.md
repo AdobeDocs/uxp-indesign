@@ -1,10 +1,11 @@
 ---
+title: Flyout Menus in UXP InDesign
+description: A flyout menu in InDesign is shown when the user clicks on the hamburger icon at the top right of your panel.
 keywords:
   - API Documentation
   - UXP
   - Flyout Menu
   - Hamburger Menu
-title: Flyout Menus in UXP InDesign
 ---
 
 # Flyout Menus
@@ -13,8 +14,6 @@ A flyout menu in InDesign is shown when the user clicks on the hamburger icon at
 
 ![Flyout Menu](./flyoutmenu.png)
 
-
-<!-- Difference in behavior between scripts and plugins and prerequisites -->
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
 Plugins and Scripts
@@ -26,8 +25,8 @@ Plugins and Scripts
 ## System requirements
 
 Please make sure your local environment uses the following application versions before proceeding.
-- InDesign v20.0 or higher
 
+- InDesign v20.0 or higher
 
 For flexibility, flyout menus are defined by supplying a JSON structure to UXP at runtime, as in the example below.
 

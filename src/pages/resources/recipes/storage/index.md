@@ -27,7 +27,7 @@ Plugins and Scripts
 
 **In plugins**, you can use either of the three storages.
 
-**In scripts**, you can only use session storage since they last only for the length of their execution. It may produce erroneous results if you use persistent, such as local or secure, storage. Read more about [script lifespan](../../../scripts/concepts/script-lifespan/). 
+**In scripts**, you can only use session storage since they last only for the length of their execution. It may produce erroneous results if you use persistent, such as local or secure, storage. Read more about [script lifespan](../../../scripts/concepts/script-lifespan/index.md). 
 
 In either case, note that though technically the stored data should last forever, there is a possibility that the data gets erased accidentally by a user's action. Make sure you store data that can be regenerated after the time of loss.
 
@@ -54,6 +54,6 @@ await storage.getItem('key');
 ```
 
 ## Reference material
-- [Local Storage](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Storage/LocalStorage/)
-- [Session Storage](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Data%20Storage/SessionStorage/)
-- [Secure Storage](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Key-Value%20Storage/SecureStorage/)
+- [Local Storage](/reference/uxp-api/reference-js/global-members/data-storage/local-storage.md)
+- [Session Storage](/reference/uxp-api/reference-js/global-members/data-storage/session-storage.md)
+- [Secure Storage](/reference/uxp-api/reference-js/modules/uxp/key-value-storage/secure-storage.md)

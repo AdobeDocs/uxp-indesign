@@ -1,52 +1,40 @@
 ---
 title: Advanced Topics
+description: There's a lot more to plugin development than what we've covered so far. For more advanced topics, please have a look at the resources section.
 ---
 
 # Advanced topics
 
-There's a lot more to plugin development than what we've covered so far. For more advanced topics, please have a look at the [resources section](). Among other things, you'll find information about:
+There's a lot more to plugin development than what we've covered so far. For more advanced topics, please have a look at the [resources section](../../resources/index.md). Among other things, you'll find information about:
 
-<MiniResourceCard slots="image,heading,text,link" repeat="5" theme="lightest" inRow="3"/>
+<Cards slots="image, heading, links" width="33%" />
 
 ![Folder icon](file.jpg)
 
-#### File I/O
+## File I/O
 
-Save data to and load data from the file system
+[Save data to and load data from the file system](../../resources/recipes/file-operation/index.md)
 
-[File I/O](../../resources/recipes/file-operation/)
+<Cards slots="image, heading, links" width="33%" />
 
 ![Network icon](network.jpg)
 
-#### Network I/O
+## Network I/O
 
-Make network requests to fetch data from the internet
+[Make network requests to fetch data from the internet](../../resources/recipes/network/index.md)
 
-[Network I/O](../../resources/recipes/network/)
+<Cards slots="image, heading, links" width="33%" />
 
 ![Application window icon](ui.jpg)
 
-#### User Interface
+## User Interface
 
-Add a variety of UI elements to your plugin
+[Add a variety of UI elements to your plugin](../../resources/fundamentals/create-ui/index.md)
 
-[Adding User Interfaces](../../resources/fundamentals/create-ui/)
-
-<!-- 
-![Complex hierarchical component structure icon](react.jpg)
-
-#### React
-
-Use React to build highly interactive user interfaces
-[//]: # (TODO: Add right links)
-[React in UXP](#)
--->
+<Cards slots="image, heading, links" width="33%" />
 
 ![Ellipsis](more.jpg)
 
-#### And much more
+## And much more
 
-See all the resources available to you for plugin development
-
-[All resources](../../resources/)
-
+[See all the resources available to you for plugin development](../../resources/index.md)

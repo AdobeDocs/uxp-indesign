@@ -44,9 +44,9 @@ For file system access you require permission for the `localFileSystem` module.
 
 Plugins and Scripts
 
-**In plugins**, you should seek permission for `localFileSystem` in your manifest.<br></br> IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before proceeding.
+**In plugins**, you should seek permission for `localFileSystem` in your manifest. IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/index.md#permissionsdefinition) module before proceeding.
 
-**In scripts**, the permission for `localFileSystem` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/). 
+**In scripts**, the permission for `localFileSystem` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/index.md). 
 
 
 Let's understand the manifest settings a bit more in detail.
@@ -73,14 +73,14 @@ And, for other locations, use `file:/`.
 
 ```html
 <img src="plugin:/sample.png" />
-<img src="file:/Users/user/Downloads/sample.png" /> <!-- update the path based on your system -->
+<img src="file:/Users/user/Downloads/sample.png" /> \<!-- update the path based on your system --\>
 ```
 
 <InlineAlert variant="info" slots="header, text1, text2"/>
 
 Plugins and Scripts
 
-**In plugins**, you should seek permission for `localFileSystem` in your manifest.<br></br> IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before proceeding.
+**In plugins**, you should seek permission for `localFileSystem` in your manifest. IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/index.md#permissionsdefinition) module before proceeding.
 
 **In scripts**, you can avail only `plugin-temp:/` to read/write from/to a temporary folder. 
 
@@ -236,7 +236,7 @@ If you would like to remember the user's choice for an extended period, you can 
 - Session token - has a shorter span. It lasts until the plugin is 'Unloaded' from UDT or the script finishes its execution or the application is closed. 
 - Persistent token - is more permanent in nature, and can last for multiple sessions or until the plugin is 'Uninstalled'. (Since scripts only last for the time of their execution, you should not use persistent tokens in scripts.)
 
-The example below shows the essence of this usage but you should ideally save these tokens in the storage (more details covered in [Storage](./storage.md) section) for later use.
+The example below shows the essence of this usage but you should ideally save these tokens in the storage (more details covered in [Storage](../storage/index.md) section) for later use.
 
 
 ```js
@@ -259,10 +259,10 @@ async function readFileUsingTokensInLocalFileSystem() {
 ```
 
 #### Reference material
-- Instance of [localFileSystem](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/FileSystemProvider/)
-- [Entry](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/Entry/) and [Entry metadata](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/EntryMetadata/)
-- [File](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/File/) and [Folder](/indesign/uxp/reference/uxp-api/reference-js/Modules/uxp/Persistent%20File%20Storage/Folder/)
-- [Path](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Path/)
+- Instance of [localFileSystem](/reference/uxp-api/reference-js/modules/uxp/persistent-file-storage/file-system-provider.md)
+- [Entry](/reference/uxp-api/reference-js/modules/uxp/persistent-file-storage/entry.md) and [Entry metadata](/reference/uxp-api/reference-js/modules/uxp/persistent-file-storage/entry-metadata.md)
+- [File](/reference/uxp-api/reference-js/modules/uxp/persistent-file-storage/file.md) and [Folder](/reference/uxp-api/reference-js/modules/uxp/persistent-file-storage/folder.md)
+- [Path](/reference/uxp-api/reference-js/global-members/path/index.md)
 
 ### FS Module
 Based on NodeJS file system APIs, these provide direct access to file locations with the help of schema.
@@ -322,8 +322,8 @@ async function foo() {
 ```
 
 #### Reference material
-- [FS module](/indesign/uxp/reference/uxp-api/reference-js/Modules/fs/)
-- [Path](/indesign/uxp/reference/uxp-api/reference-js/Global%20Members/Path/)
+- [FS module](/reference/uxp-api/reference-js/modules/fs/index.md)
+- [Path](/reference/uxp-api/reference-js/global-members/path/index.md)
 
 
 ## Additional Notes

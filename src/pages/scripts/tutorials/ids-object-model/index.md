@@ -1,6 +1,6 @@
 ---
 title: Object model in indesign server
-description: 
+description: Guide to the InDesign Server object model for UXP scripts
 keywords:
   - InDesign server 
 contributors:
@@ -13,14 +13,14 @@ Since InDesign v18.0, InDesign Server supports UXP Scripts as well.
 
 For running UXP Scripts in InDesign Server, you need both - InDesign and InDesign Server. It will be easier if you start by writing a script for InDesign and then make changes to the object model based on InDesign Server. Or else,  to see the result of your script in InDesign Server, you would have to save the document and open it using InDesign, or export the document and view the exported file in another program (like Acrobat ® or Adobe Reader®). If you use InDesign to develop your InDesign Server scripts, you can reduce your development time dramatically.
 
-*Note: These examples assume that you are entering and running the script on the system on which InDesign Server is installed. For instructions on running scripts using the Test Client or SOAP commands, see [Introduction to InDesign Server](../../../introduction/_tbd_applications/) Development.
+*Note: These examples assume that you are entering and running the script on the system on which InDesign Server is installed. For instructions on running scripts using the Test Client or SOAP commands, see Introduction to InDesign Server Development.
 
 
 ## Object Model
 
-<!-- TODO give code snippets and examples -->
+\<!-- TODO give code snippets and examples --\>
 
-The InDesign Object Model is described in the [Resources](../../../resources/fundamentals/object-model/) section. However, InDesign Server's object model differs slightly.
+The InDesign Object Model is described in the [Resources](../../../resources/fundamentals/object-model/index.md) section. However, InDesign Server's object model differs slightly.
 
 Keep the following in mind when you write UXP scripts specifically for InDesign Server.
 

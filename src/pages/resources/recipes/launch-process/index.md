@@ -23,10 +23,10 @@ Before we take a look at some examples, you must know that these APIs are associ
 
 Plugins and Scripts
 
-**In plugins**, you should specify the schemes and file extensions in the `launchProcess` permission in your manifest for it to work.<br></br> 
-IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/#permissionsdefinition) module before you proceed.
+**In plugins**, you should specify the schemes and file extensions in the `launchProcess` permission in your manifest for it to work. 
+IMPORTANT: Please read about the [manifest permissions](../../../plugins/concepts/manifest/index.md#permissionsdefinition) module before you proceed.
 
-**In scripts**, the permission for `launchProcess` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/). 
+**In scripts**, the permission for `launchProcess` is fixed. You can ignore the manifest details in the following examples. Learn about these values in the [manifest fundamentals section](../../fundamentals/manifest/index.md). 
 
 
 ## System requirements
@@ -105,5 +105,5 @@ async function foo() {
 
 
 ## Reference material
-- [Shell API](/indesign/uxp/reference/uxp-api/reference-js/Modules/shell/Shell/)
+- [Shell API](/reference/uxp-api/reference-js/modules/uxp/shell/shell.md)
 
