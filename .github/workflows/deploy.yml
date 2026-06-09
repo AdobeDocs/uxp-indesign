@@ -10,9 +10,8 @@ on:
         description: "Select environment to deploy to"
         type: choice
         required: true
-        default: "stage"
+        default: "prod"
         options:
-          - "stage"
           - "prod"
           - "stage & prod"
       baseSha:
