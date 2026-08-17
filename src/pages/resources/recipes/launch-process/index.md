@@ -105,5 +105,5 @@ async function foo() {
 
 
 ## Reference material
-- [Shell API](/reference/uxp-api/reference-js/modules/uxp/shell/shell.md)
+- [Shell API](/reference/uxp-api/reference-js/modules/uxp/shell/index.md)
 

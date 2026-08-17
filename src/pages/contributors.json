@@ -5468,10 +5468,11 @@
     {
       "page": "/introduction/next-steps/distribution/packaging/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/31863114?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/42615528?v=4"
       ],
-      "lastUpdated": "6/3/2026"
+      "lastUpdated": "8/17/2026"
     },
     {
       "page": "/introduction/next-steps/script-and-plugin/",
@@ -5599,8 +5600,10 @@
     },
     {
       "page": "/reference/uxp-api/changelog3-p",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/31863114?v=4"
+      ],
+      "lastUpdated": "8/17/2026"
     },
     {
       "page": "/reference/uxp-api/known-issues",
@@ -6284,8 +6287,10 @@
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/crypto",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/31863114?v=4"
+      ],
+      "lastUpdated": "8/17/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/crypto/",
@@ -6299,8 +6304,10 @@
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/data-storage/local-storage",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/31863114?v=4"
+      ],
+      "lastUpdated": "8/17/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/data-storage/session-storage",
@@ -6679,8 +6686,10 @@
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/image-blob",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/31863114?v=4"
+      ],
+      "lastUpdated": "8/17/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/image-blob/",
@@ -6689,8 +6698,10 @@
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/path",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/31863114?v=4"
+      ],
+      "lastUpdated": "8/17/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/global-members/path/",
@@ -6764,8 +6775,10 @@
     },
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/31863114?v=4"
+      ],
+      "lastUpdated": "8/17/2026"
     },
     {
       "page": "/reference/uxp-api/reference-js/modules/uxp/entry-points/",
@@ -7223,8 +7236,10 @@
     },
     {
       "page": "/resources/recipes/host-info/",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/31863114?v=4"
+      ],
+      "lastUpdated": "8/17/2026"
     },
     {
       "page": "/resources/recipes/html-elements/",
@@ -7239,10 +7254,11 @@
     {
       "page": "/resources/recipes/indesign-events/",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/31863114?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/42615528?v=4"
       ],
-      "lastUpdated": "6/3/2026"
+      "lastUpdated": "8/17/2026"
     },
     {
       "page": "/resources/recipes/indesign-menus/",
@@ -7251,8 +7267,10 @@
     },
     {
       "page": "/resources/recipes/launch-process/",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/31863114?v=4"
+      ],
+      "lastUpdated": "8/17/2026"
     },
     {
       "page": "/resources/recipes/network/",
@@ -7280,8 +7298,10 @@
     },
     {
       "page": "/resources/recipes/storage/",
-      "avatars": [],
-      "lastUpdated": "5/11/2026"
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/31863114?v=4"
+      ],
+      "lastUpdated": "8/17/2026"
     },
     {
       "page": "/resources/recipes/tbd-drag-n-drop",

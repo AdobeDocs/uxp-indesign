@@ -71,7 +71,7 @@ index_desc: Changelog in UXP version
 
 ## UXP v7.3.0
 ### New
-- [GUID](reference-js/modules/uxp/user-information/user-info.md) for uniquely identifying a Creative Cloud User (Currently Supported only in `Photoshop`).
+- [GUID](reference-js/modules/uxp/user-information/index.md) for uniquely identifying a Creative Cloud User (Currently Supported only in `Photoshop`).
 - Multipart `FormData` support in [Request](reference-js/global-members/data-transfers/request.md) and [Response](reference-js/global-members/data-transfers/response.md) for `fetch`
 - [FormData](reference-js/global-members/data-transfers/form-data.md) now supports the following APIs
     - delete()
@@ -105,7 +105,7 @@ Plugin actions are surfaced based on the 'Status' of your plugin in the Develope
 
 ## UXP v7.2.0
 ### New
-- Adobe [Extensibility Metadata Platform (XMP)](reference-js/modules/uxp/xmp/getting-started/xmp.md) support
+- Adobe [Extensibility Metadata Platform (XMP)](reference-js/modules/uxp/xmp/getting-started/index.md) support
 - [pointer-events: none](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events) `CSS` property
 - Support for `pseudoElement` in [getComputedStyle(element, pseudoElement)](reference-js/global-members/html-dom/get-computed-style.md) API
 
@@ -179,7 +179,7 @@ html {
     - [prompt()](reference-js/global-members/html-dom/prompt.md)
     - [confirm()](reference-js/global-members/html-dom/confirm.md)
 - Support for [pipeThrough](reference-js/global-members/streams/readable-stream.md#pipeThroughtransform,-options) and [tee](reference-js/global-members/streams/readable-stream.md#tee) in ReadableStream](./reference-js/Global%20Members/Streams/ReadableStream.md). Refer to [Streams](reference-js/global-members/streams/index.md) for more details
-- [ImageBlob](reference-js/global-members/image-blob/image-blob.md) to render an uncompressed image buffer in UXP
+- [ImageBlob](reference-js/global-members/image-blob/index.md) to render an uncompressed image buffer in UXP
 
 ### Changed
 - [HTMLVideoElement](reference-js/global-members/html-elements/html-video-element.md): 'metadata' is the default value for `preload` attribute
@@ -197,7 +197,7 @@ html {
 
 ### New
 - [WebView](reference-js/global-members/html-elements/html-web-view-element.md) for anels
-- [Path Module APIs](reference-js/global-members/path/path.md)
+- [Path Module APIs](reference-js/global-members/path/index.md)
 - UXP Scripts can run fsapi with full access in localFileSystem
 
 ### Bugs Fixes
@@ -220,7 +220,7 @@ html {
 ### New
 - [Blob](reference-js/global-members/data-transfers/blob.md) APIs.
 - Blob support in Fetch API.
-- [Crypto APIs](reference-js/global-members/crypto/crypto.md)
+- [Crypto APIs](reference-js/global-members/crypto/index.md)
 - UXP Developer Tools v1.7.0 has supports for Debugging UXP Scripts in Photoshop and InDesign, refer [here](https://developer.adobe.com/photoshop/uxp/2022/scripting/getting-started/) for more details
 - UXP Developer Tools has new templates in the Create Plugin Dialog. This includes examples for using WebView and Multiple Menus in a Plugin. For more details on Webview refer [HTMLWebViewElement](reference-js/global-members/html-elements/html-web-view-element.md) module under `Global Members/HTML Elements` in JavaScript Reference
 

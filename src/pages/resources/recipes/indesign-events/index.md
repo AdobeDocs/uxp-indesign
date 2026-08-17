@@ -12,7 +12,7 @@ InDesign emits standard application and document events, such as opening a file,
 
 **You can see the sample scripts in order of complexity, starting with very simple scripts and building toward more complex operations.**
 
-*Learn how to create, install, and run a script with [Adobe InDesign UXP Scripting Tutorial](../../guides/getting-started/index.md).*
+*Learn how to create, install, and run a script with [Adobe InDesign UXP Scripting Tutorial](../../../scripts/getting-started/index.md).*
 
 ## Understanding Event Scripting
 
