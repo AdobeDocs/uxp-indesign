@@ -56,4 +56,4 @@ await storage.getItem('key');
 ## Reference material
 - [Local Storage](/reference/uxp-api/reference-js/global-members/data-storage/local-storage.md)
 - [Session Storage](/reference/uxp-api/reference-js/global-members/data-storage/session-storage.md)
-- [Secure Storage](/reference/uxp-api/reference-js/modules/uxp/key-value-storage/secure-storage.md)
+- [Secure Storage](/reference/uxp-api/reference-js/modules/uxp/key-value-storage/index.md)
