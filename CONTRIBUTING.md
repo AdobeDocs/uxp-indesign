@@ -3,7 +3,7 @@
 Contribute by writing recipes/samples etc
 
 Some of the topics that should eventually be added are:
-- [How to manage plugin icons](./src/pages/plugins/tutorials/_tbd_plugin_icons)
+- How to manage plugin icons
 - Working example for using `index.js` as starting point in plugins instead of `index.html`
 - Tutorial on multi-panel plugin
 - Tutorial on converting an existing script to plugin
