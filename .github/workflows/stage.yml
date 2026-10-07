@@ -15,7 +15,7 @@ on:
 jobs:
   deployment:
     name: Deployment
-    uses: AdobeDocs/adp-devsite-workflow/.github/workflows/deploy-v2.yml@main
+    uses: AdobeDocs/adp-devsite-workflow/.github/workflows/deploy-v2.yml@fix/deploy-v2-file-lists
     secrets: inherit
     with:
       env: stage
