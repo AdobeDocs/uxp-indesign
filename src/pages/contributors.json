@@ -1,7 +1,7 @@
 {
-  "total": 1456,
+  "total": 1457,
   "offset": 0,
-  "limit": 1456,
+  "limit": 1457,
   "data": [
     {
       "page": "/",
@@ -7012,6 +7012,11 @@
     },
     {
       "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/typography/sp-detail",
+      "avatars": [],
+      "lastUpdated": "5/12/2026"
+    },
+    {
+      "page": "/reference/uxp-api/reference-spectrum/spectrum-uxp-widgets/typography/sp-heading",
       "avatars": [],
       "lastUpdated": "5/12/2026"
     },
