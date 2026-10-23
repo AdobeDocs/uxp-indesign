@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Changelog</title>
+    <link>https://developer.adobe.com/indesign/uxp/changelog/</link>
+    <atom:link href="https://developer.adobe.com/indesign/uxp/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Changelog maintains the latest news about the released versions.</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Oct 2024 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>InDesign v19.4</title>
+      <link>https://developer.adobe.com/indesign/uxp/changelog/#indesign-v194</link>
+      <guid isPermaLink="false">indesign-v194</guid>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 GMT</pubDate>
+      <description><![CDATA[<h3>UXP v7.4.0</h3>
+<h3>Updated</h3>
+<ul>
+<li>UXP Alerts (<a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/alert.md">alert</a>, <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/prompt.md">prompt</a>, <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/confirm.md">confirm</a>) have been moved back to beta due to a few inherent instabilities in this feature. While we work on addressing these issues, the feature can be accessed using the feature flag <code>enableAlerts</code> in the manifest.json file. Also, note that UXP alerts will be <code>available only in Plugins</code> and <code>not in scripts</code>.</li>
+<li>Wildcards (*) at the top-level <code>domain</code> name are not allowed. Please ensure you revisit the <code>permissions</code> setup in manifest.json for <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-web-view-element.md">WebView</a>, and network calls <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/xml-http-request.md">XMLHttp</a> <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/fetch.md">fetch</a></li>
+<li>New doc for tracking the <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-spectrum/spectrum-widgets-to-swc-mapping/index.md">mapping between Spectrum widgets and Spectrum Web Components</a> in UXP</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>XMP in Scripts.</li>
+<li>Plugin crashes while using <a href="https://forums.creativeclouddeveloper.com/t/ps-2024-crashes-when-opening-my-uxp-plugin/6840/7">fit-content</a></li>
+<li>WebView support for <a href="https://forums.creativeclouddeveloper.com/t/macos-uxp-webview-for-photoshop-is-missing-file-selector/6843">file selector</a> in MacOS</li>
+<li>GUID returning hashed empty string</li>
+<li>Updated missing docs for pseudo-class <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-css/pseudo-classes/defined.md">defined</a> (Available since UXP v6.0)</li>
+</ul>]]></description>
+    </item>
+    <item>
+      <title>InDesign v20.0</title>
+      <link>https://developer.adobe.com/indesign/uxp/changelog/#indesign-v200</link>
+      <guid isPermaLink="false">indesign-v200</guid>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 GMT</pubDate>
+      <description><![CDATA[<h3>New</h3>
+<ul>
+<li><a href="https://developer.adobe.com/indesign/uxp/../resources/recipes/flyout-menu/">Flyout Menus Support</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/../resources/recipes/persistent-storage-migration/">Peristent Storage Migration</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/modules/uxp/user-information/index.md">GUID support</a></li>
+</ul>
+<h3>UXP v8.0.1</h3>
+<h3>Breaking Changes</h3>
+<ul>
+<li><code>enableFillAsCustomAttribute</code> feature flag, introduced in UXP v7.1.0, will be turned on by default.</li>
+</ul>
+<h3>Deprecations</h3>
+<ul>
+<li>Changes to Clipboard</li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#setcontentdata">Clipboard.setContent</a> is deprecated. Please use <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#writedata">Clipboard.write</a> instead.</li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#getcontent">Clipboard.getContent</a> is deprecated. Please use <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#read">Clipboard.read</a> instead.</li>
+<li>Passing an <code>object</code> to <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#writetexttext">Clipboard.writeText(object)</a> is deprecated. Please use <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#writedata">Clipboard.write(object)</a> instead.</li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#clearcontent">Clipboard.clearContent</a> is deprecated. <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#writetexttext">Clipboard.writeText(&quot;&quot;)</a> would be an alternative.</li>
+<li>Changes to VideoElement</li>
+<li>Event <code>uxpvideoload</code> in <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-video-element.md#load">load()</a> is deprecated. Use <code>loadeddata</code> instead.</li>
+<li>Event <code>uxpvideoplay</code> in <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-video-element.md#play">play()</a> is deprecated. Use <code>ended</code> instead.</li>
+<li>Event <code>uxpvideocomplete</code> in <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-video-element.md#play">play()</a> is deprecated. Use <code>ended</code> instead.</li>
+<li>Event <code>uxpvideopause</code> in <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-video-element.md#pause">pause()</a> is deprecated. Use <code>pause</code> instead.</li>
+</ul>
+<h3>New</h3>
+<ul>
+<li>New components supported in Spectrum Web Components (SWC). More details <a href="https://github.com/adobe/swc-uxp-wrappers/tree/main?tab=readme-ov-file#spectrum-web-components-uxp-wrappers">here</a></li>
+<li>sp-asset</li>
+<li>sp-meter</li>
+<li>sp-number-field</li>
+<li>sp-overlay</li>
+<li>sp-quick-actions</li>
+<li>sp-search</li>
+<li>sp-swatch</li>
+<li>New command line templates to get started with SWC easily. Find details in this <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md#command-line-templates">section</a>.</li>
+<li>Support for local HTML files in <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-web-view-element.md#load-local-content-onto-webview">WebView</a></li>
+<li>New CSS capabilities</li>
+<li>scaleX() &amp; scaleY()</li>
+<li>transform-origin</li>
+<li>translate property</li>
+<li><code>Box-shadow</code> property now supports <code>transform rotate</code>.</li>
+<li>New feature flag <code>CSSNextSupport</code> in the manifest.json to gate the new and future CSS capability.</li>
+</ul>
+<table>
+<tr><th>Manifest setting</th><th>Description</th></tr>
+<tr><td><code>featureFlags: {&quot;CSSNextSupport&quot;: true}</code></td><td>Enables all the new CSS features.</td></tr>
+<tr><td><code>featureFlags: {&quot;CSSNextSupport&quot;: [&quot;boxShadow&quot;, &quot;transformFunctions&quot;, &quot;transformProperties&quot; ]}</code></td><td>Enables only the named properties in the list.</td></tr>
+</table>
+<p>Note that <code>&quot;enableSWCSupport&quot;: true</code> will enable <code>CSSNextSupport</code> by default, even if it is not done explicitly in plugin manifest otherwise.</p>
+<ul>
+<li>Video enhancements: Support added for <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-video-element.md">Seek Event</a></li>
+<li>Support for <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/language">Navigator.language</a> API</li>
+<li>Support for new HTMLElement APIs - <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-element.md#appendnodes">append</a>, <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-element.md#prependnodes">prepend</a> and <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-element.md#replacechildrennodes">replaceChildren</a></li>
+<li>[Beta] Support for form reset in <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">HTMLFormElement</a></li>
+</ul>
+<h3>Updated</h3>
+<ul>
+<li>Upgraded Spectrum Web Components to v0.37.0. <a href="https://github.com/adobe/swc-uxp-wrappers/tree/main?tab=readme-ov-file#spectrum-web-components-uxp-wrappers">More detail</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/clipboard.md#writetexttext">UXP Clipboard.writeText()</a> now accepts strings as input to meet standards</li>
+</ul>]]></description>
+    </item>
+    <item>
+      <title>InDesign v19.2</title>
+      <link>https://developer.adobe.com/indesign/uxp/changelog/#indesign-v192</link>
+      <guid isPermaLink="false">indesign-v192</guid>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 GMT</pubDate>
+      <description><![CDATA[<h3>Updated</h3>
+<ul>
+<li><strong>[BREAKING CHANGE]</strong> UXP logs and console.log <a href="https://developer.adobe.com/indesign/uxp/scripts/tutorials/debug/index.md">paths</a> have changed.</li>
+</ul>]]></description>
+    </item>
+    <item>
+      <title>InDesign v19.0</title>
+      <link>https://developer.adobe.com/indesign/uxp/changelog/#indesign-v190</link>
+      <guid isPermaLink="false">indesign-v190</guid>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Plug-Ins menu lists the installed UXP plugins and their panel entrypoints.</p>
+<p>!<a href="https://developer.adobe.com/indesign/uxp/plugins-menu.png">Plug-Ins Menu</a></p>
+<h3>Fixed</h3>
+<ul>
+<li>Random app hang issue when invoking <code>doScript()</code> from UXP plugins.</li>
+<li>App crashes at quit when event handlers are registered.</li>
+</ul>
+<h3>UXP v7.3.0 &amp; UXP v7.2</h3>
+<h3>New</h3>
+<ul>
+<li>Multipart <code>FormData</code> support in <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/request.md">Request</a> and <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/response.md">Response</a> for <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/fetch.md">fetch</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/form-data.md">FormData</a> now supports the following APIs</li>
+<li>delete()</li>
+<li>get()</li>
+<li>getAll()</li>
+<li>has()</li>
+<li>keys()</li>
+<li>set()</li>
+<li>values()</li>
+<li><strong>(Photoshop Only)</strong> GUID for uniquely identifying a Creative Cloud User.</li>
+<li><strong>(Photoshop Only)</strong> Adobe Extensibility Metadata Platform (XMP) support.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events">pointer-events: none</a> <code>CSS</code> property</li>
+<li>Support for <code>pseudoElement</code> in <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/get-computed-style.md">getComputedStyle(element, pseudoElement)</a> API</li>
+</ul>
+<h3>Updated</h3>
+<ul>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/data-transfers/form-data.md#append--namevaluefilename">FormData's append</a> now supports <code>Blob</code> as an additional parameter.</li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md">Spectrum Web Component (SWC)</a> in UXP is moving out of Beta.</li>
+<li>Additional <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md#list-of-supported-swc">components and variants</a></li>
+<li><code>Spectrum Web Components</code> support in <code>React</code> context is now available for all 30 components.</li>
+<li>Starter plugins for <a href="https://github.com/AdobeDocs/uxp-indesign-samples/tree/main/plugins/swc-uxp-starter">Spectrum Web Component</a> and <a href="https://github.com/AdobeDocs/uxp-indesign-samples/tree/main/plugins/swc-uxp-react-starter">Spectrum Web Component in React context</a></li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Tab Navigation not working for several SWC Components is now fixed</li>
+<li>Spacebar doesn't work on SWC Button component when reached via TAB navigation.</li>
+<li>Support for <code>Alerts</code></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/alert.md">alert()</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/prompt.md">prompt()</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/confirm.md">confirm()</a></li>
+</ul>
+<h3>UDT v2.0</h3>
+<h3>New</h3>
+<ul>
+<li>UXP Playground to experiment with APIs. Click on the 'Playground' tab next to 'Developer Workspace' to select an app and get started.</li>
+</ul>
+<h3>Updated</h3>
+<ul>
+<li>Plugin actions are surfaced based on the 'Status' of your plugin in the Developer Workspace</li>
+</ul>]]></description>
+    </item>
+    <item>
+      <title>InDesign v18.5</title>
+      <link>https://developer.adobe.com/indesign/uxp/changelog/#indesign-v185</link>
+      <guid isPermaLink="false">indesign-v185</guid>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 GMT</pubDate>
+      <description><![CDATA[<p>UXP Plugins are now available! Get started <a href="https://developer.adobe.com/indesign/uxp/../plugins/">here</a>.</p>
+<h3>UXP v7.1</h3>
+<h3>New</h3>
+<p>HTMLElement now supports</p>
+<ul>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/element.md#setpointercapturepointerid">setPointerCapture</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/element.md#releasepointercapturepointerid">releasePointerCapture</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/element.md#haspointercapturepointerid">hasPointerCapture</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-html-element.md#dir--string">dir</a></li>
+</ul>
+<h3>Updated</h3>
+<ul>
+<li>Documentation for <code>shell</code> moved to <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/modules/uxp/shell/index.md">new location</a></li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><code>SVGElement</code>: The color of the <code>fill</code> attribute using a CSS variable will resolve as per the variable value. For now, please test this fix by enabling the feature flag in your plugin manifest <code>&quot;featureFlags&quot; : { &quot;enableFillAsCustomAttribute&quot; : true }</code>. This flag will be turned on by default in the next UXP release.</li>
+</ul>
+<pre><code>// CSS variable
+html {
+  --iconColor: yellow;
+}
+
+&lt;svg height=&quot;100&quot; width=&quot;100&quot;&gt;
+  &lt;circle cx=&quot;50&quot; cy=&quot;50&quot; r=&quot;40&quot; stroke=&quot;black&quot; stroke-width=&quot;3&quot; fill=&quot;var(--iconColor, red)&quot; /&gt;
+&lt;/svg&gt;
+// shows a yellow circle</code></pre>
+<h3>UXP v7.0</h3>
+<h3>New</h3>
+<ul>
+<li>Support for Web Components in UXP Plugins. Various HTML elements and methods have been added to support this feature.</li>
+<li>Classes</li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-slot-element.md">HTMLSlotElement</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-template-element.md">HTMLTemplateElement</a></li>
+<li>Methods</li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/element.md#assignedslot--htmlslotelement">Element.assignedSlot</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/element.md#slot--string">Element.slot</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/element.md#attachshadowinit">Element.attachShadow</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/element.md#shadowroot--shadowroot">Element.shadowRoot</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/custom-element-registry.md#upgraderoot">CustomElementRegistry.upgrade</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/custom-element-registry.md#whendefinedname">CustomElementRegistry.whenDefined</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-spectrum/swc/index.md">Spectrum Web Components (Beta)</a> Support for Adobe SWC.</li>
+<li>Several augmentations to the JS API set</li>
+<li>Properties</li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-element.md#lang--string">HTMLElement.lang</a></li>
+<li>Classes added to the global scope</li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/tree-walker.md">TreeWalker</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/node-filter.md">NodeFilter</a></li>
+<li>Methods</li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/element.md#hasattributes">Element.hasAttributes</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/element.md#getattributenames">Element.getAttributeNames</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-events/event.md#composed--boolean">Event.composed</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-events/event.md#composedpath">Event.composedPath</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/document-fragment.md#appendargs">DocumentFragment.append</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/document-fragment.md#queryselectorselector">DocumentFragment.querySelector</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/document-fragment.md#queryselectorallselector">DocumentFragment.querySelectorAll</a></li>
+<li>New focus events to support React 16</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/focusin_event">Focusin Event</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event">Focusout Event</a></li>
+<li>HTML <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-canvas-element.md">2D Canvas Support</a> for basic shapes and styling.</li>
+<li>Alerts</li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/alert.md">alert()</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/prompt.md">prompt()</a></li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-dom/confirm.md">confirm()</a></li>
+<li>Support for <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/streams/readable-stream.md#pipeThroughtransform-options">pipeThrough</a> and <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/streams/readable-stream.md#tee">tee</a> in <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/streams/readable-stream.md">ReadableStream</a>. Refer to <a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/streams/index.md">Streams</a> for more details</li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/image-blob/index.md">ImageBlob</a> to render an uncompressed image buffer in UXP</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/global-members/html-elements/html-video-element.md">HTMLVideoElement</a>: 'metadata' is the default value for <code>preload</code> attribute</li>
+<li><a href="https://developer.adobe.com/indesign/uxp/reference/uxp-api/reference-js/modules/fs/index.md">FS API</a>: No need for the <code>file://</code> protocol</li>
+</ul>]]></description>
+    </item>
+    <item>
+      <title>InDesign v18.4</title>
+      <link>https://developer.adobe.com/indesign/uxp/changelog/#indesign-v184</link>
+      <guid isPermaLink="false">indesign-v184</guid>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 GMT</pubDate>
+      <description><![CDATA[<h3>InDesign APIs</h3>
+<h3>Added</h3>
+<ul>
+<li><strong>[BREAKING CHANGE]</strong> Mounting APIs</li>
+</ul>
+<p>InDesign DOM APIs are no longer available in the global scope. You must <a href="https://developer.adobe.com/indesign/uxp/../resources/fundamentals/dom-versioning/">mount the APIs</a> first before using them. Plus, you can now access different versions of DOM APIs.</p>
+<ul>
+<li>Events</li>
+</ul>
+<p>UXP scripts now have the functionality to handle standard events that InDesign emits. You can use the <a href="https://developer.adobe.com/indesign/uxp/../resources/recipes/indesign-events/">eventListener</a>object to catch such events.</p>
+<ul>
+<li>Arguments in UXP Scripts</li>
+</ul>
+<p><a href="https://developer.adobe.com/indesign/uxp/../scripts/tutorials/arguments/">Arguments</a> can now be passed to a UXP script, and can be used within the script.</p>
+<ul>
+<li>Setting script result</li>
+</ul>
+<p>UXP scripts now have a &quot;result&quot; associated with them. <a href="https://developer.adobe.com/indesign/uxp/../scripts/tutorials/script-result/">Set a result</a> for a script for debugging puposes as well as passed to another script for utilization.</p>
+<ul>
+<li>Menus</li>
+</ul>
+<p>UXP scripts now have APIs which can be used to add new menu items, remove existing menu items etc. <a href="https://developer.adobe.com/indesign/uxp/../resources/recipes/indesign-menus/">Read more</a>.</p>]]></description>
+    </item>
+  </channel>
+</rss>
